@@ -1,0 +1,9 @@
+.translation-page-container{
+    
+    flex:1;
+    flex-direction: column;
+    display: flex;
+}
+.input-text-title{
+    font-size: 10rem;
+}

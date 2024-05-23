@@ -1,0 +1,14 @@
+flask
+flask-cors
+openai
+python-dotenv
+openai-function-tokens
+# transformers[torch]
+anthropic
+langdetect
+python-docx
+htmldocx
+
+# test requirements
+pandas
+openpyxl

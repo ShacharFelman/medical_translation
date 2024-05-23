@@ -1,0 +1,32 @@
+services:  
+  translate:
+    container_name: 'translate'
+    build:
+      context: '.'
+      dockerfile: Dockerfile.localprod
+    # flask requires SIGINT to stop gracefully
+    # (default stop signal from Compose is SIGTERM)      
+    stop_signal: SIGINT
+    environment:
+      - PYTHONDONTWRITEBYTECODE=1
+      - PYTHONUNBUFFERED=1   
+      - LOG_LEVEL=ERROR
+      - LOGS_DIR=./logs
+      - FLASK_DEBUG=FALSE
+      - FLASK_RUN_HOST=0.0.0.0
+      - FLASK_LOG_LEVEL=ERROR
+      - FLASK_ENV=production
+      - NODE_ENV=development 
+      - PORT=8000
+      - TESTING=False
+      - REACT_APP_API_URL=http://127.0.0.1:8000
+      - SECRET_KEY=secret-key
+    ports:
+      - "8000:8000"      
+    command: gunicorn -b "0.0.0.0:8000" "app:app" --timeout 0 -n 1
+    
+    
+    
+    
+
+      

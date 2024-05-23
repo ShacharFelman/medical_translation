@@ -1,0 +1,19 @@
+.logo-container{
+    font-family: 'ABeeZee';
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.logo-image{
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-drag: none;
+    padding-left: 3rem;
+    width: 100px;
+
+}
+.flags-seperator{
+    width: 0.1rem;   
+    margin-left: 1rem;
+    margin-right: 1rem;
+}

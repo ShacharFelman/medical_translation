@@ -1,0 +1,14 @@
+outputs/
+data/
+logs/
+
+.dockerignore
+.git
+.gitignore
+Dockerfile
+react_client/
+.docker/
+node_modules/
+.git/
+__pycache__/
+

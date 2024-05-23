@@ -1,0 +1,28 @@
+services:  
+  translator-flask:
+    container_name: 'medical-translator-flask'
+    build:
+      context: './flask_backend'
+      dockerfile: ./Dockerfile.test
+    # flask requires SIGINT to stop gracefully
+    # (default stop signal from Compose is SIGTERM)      
+    stop_signal: SIGINT
+    environment:
+      - PYTHONDONTWRITEBYTECODE 1
+      - PYTHONUNBUFFERED 1   
+      - LOG_LEVEL=INFO
+      - LOGS_DIR=./logs/tests/
+      - PORT=8000      
+      - SECRET_KEY=secret-key
+      - FLASK_ENV=testing
+      - FLASK_RUN_HOST=0.0.0.0
+      - FLASK_DEBUG=1
+      
+      - TEST_DATA_DIRPATH=./tests/data
+    ports:
+      - "8000:8000"      
+    volumes:
+      - ./flask_backend:/src   
+    env_file: ./.env.testing
+
+      

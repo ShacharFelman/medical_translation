@@ -1,0 +1,165 @@
+
+
+.reference-file-upload-container{
+  flex:1;
+  display:flex;
+
+  
+  /* background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 16px; */
+
+}
+
+.reference-file-text-container{
+
+}
+
+.reference-file-drop-container{
+  
+  display: flex;
+  flex: 1;
+  
+
+  
+}
+
+:root {
+    --dash-size: 1rem; /* Define the dash size here */
+    --border-size:0.2rem;
+    /* --box-height:500px;
+     */
+     --box-width:20vw;
+  }
+
+
+
+  .file-upload-container {
+    border: 2px dashed #c0c0c0;
+    border-radius: 5px;
+    width: 300px; /* Adjust as necessary */
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+
+.reference-file-box,
+.reference-file-box::after {
+    
+  /* height: var(--box-height);
+  width: var(--box-width);
+  border: solid; */
+  
+}
+
+.reference-file-box {
+  border: 2px dashed #c0c0c0;
+  border-radius: 5px;
+  width: 300px; 
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  /* padding:1rem;
+  border-radius:2rem;
+  text-align:center;
+  user-select:none;
+  border-image: repeating-linear-gradient( to right, lightgray 0, lightgray var(--dash-size), transparent var(--dash-size), transparent calc(var(--dash-size) * 2), lightgray calc(var(--dash-size) * 2), lightgray calc(var(--dash-size) * 3), transparent calc(var(--dash-size) * 3), transparent calc(var(--dash-size) * 4));
+  border-image-slice: 16;
+  border-image-width: var(--border-size) 0; */
+}
+
+
+.reference-file-text-label{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.reference-typography{
+  font-weight: bold;
+  text-align: center;
+}
+
+.reference-file-box-seperator-container{
+  display:flex;
+  flex:1;
+  flex-direction:row;
+  justify-content:center;
+}
+
+.reference-file-box-line-container{
+  flex:1;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+
+.reference-file-box-line{
+  height:1px;
+  background-color:black;
+  width:70%;
+}
+
+
+.reference-file-box-file-button-text{
+  border-radius:2rem;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:0.5rem;
+  font-weight: bold;
+  width: fit-content;
+}
+
+.reference-file-box-file-button-text:hover{
+  box-shadow: 2px 10px 16px 2px rgba(0, 0, 0, 0.6); 
+}
+
+
+
+.reference-file-box-file-button-container{
+  display: flex;  
+  justify-content: center;
+  cursor: pointer;
+}
+.reference-file-box-file-button-container:hover{
+  
+}
+.reference-file-box-file-button-text:hover{
+  box-shadow: 0px 10px 16px 0px rgba(0, 0, 0, 0.1); 
+
+}
+
+
+
+
+.reference-file-picker{
+    
+
+}
+.upload-button-container{
+  border-radius: 2rem;
+  flex:1;
+  display:flex;
+  
+}
+
+.upload-icon{
+  border-radius:2.5rem;
+  flex: 1;
+  display: flex;
+  
+  
+
+}
+
+.loading-container{
+    
+}

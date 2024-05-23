@@ -1,0 +1,22 @@
+.languages-picker-seperator{
+ margin: 1rem;   
+}
+.languages-picker-div-container{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    
+}
+.languages-picker-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    width: 100%;
+
+}
+.langauge-dropdown-container{
+    flex:1;
+    
+    
+}

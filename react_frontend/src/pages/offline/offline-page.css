@@ -1,0 +1,27 @@
+.offline-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .offline-content {
+    text-align: center;
+  }
+  
+  .offline-content h1 {
+    font-size: 2.25rem; /* 36px equivalent */
+    margin-bottom: 1.25rem; /* 20px equivalent */
+  }
+  
+  .offline-content p {
+    font-size: 1.125rem; /* 18px equivalent */
+    margin-bottom: 0.625rem; /* 10px equivalent */
+  }
+  
+  .offline-content img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1.25rem; /* 20px equivalent */
+  }
+  

@@ -1,0 +1,3 @@
+from engine.input_handling.input_validation import InputValidationHandler
+
+input_validation_handler = InputValidationHandler()

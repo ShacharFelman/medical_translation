@@ -1,0 +1,40 @@
+.paragraphs-lists-container{
+
+    width: 100%;
+    overflow-y: auto;
+    padding-bottom: 1vh;
+    
+    
+    
+}
+.paragraphs-lists-container ::-webkit-scrollbar {
+    
+    background-color: lightgray;
+    
+}
+
+
+::-webkit-scrollbar{
+    /* width: 0.5rem;
+    background-color: lightgreen;
+    left:0; */
+    width: 0;
+    background-color: lightgray;
+}
+::-webkit-scrollbar-thumb{
+    /* width: 0.5rem;
+    background-color: lightgreen;
+    left:0; */
+    background-color: black;
+}
+
+
+.add-button-container{
+
+    text-align: right;
+    display: flex;
+    flex:1;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
