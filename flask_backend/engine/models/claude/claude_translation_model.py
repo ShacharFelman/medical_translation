@@ -204,16 +204,11 @@ To incorporate the reference full text into the prompt, ensuring it is effective
             raise Exception("Translation Failed: Text cannot be empty")
         
         translation_message = f'<heb_text>\n{html_input}\n</heb_text>'
-        # translation_message = f'<heb_text>\n{paragraph_text}\n</heb_text>'
         system_prompt = self.get_system_v4(full_leaflet_text if full_leaflet_text else "")
         logger.error(system_prompt)
         response = self.send_claude_prompt(system_message = system_prompt, 
                                            text_prompt = translation_message, 
                                            stop_sequences = [self.translation_success_string])
-
-        # is_valid_words = check_invalid_words.is_the_text_medical(text=response.content[0].text)
-        # if not self.is_valid_response(response=response):  # or not is_valid_words:
-        #     raise Exception("is valid output - should not be here ")
         
         output_text = response.content[0].text
 

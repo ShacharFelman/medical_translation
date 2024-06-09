@@ -64,12 +64,12 @@ def translate_text():
     if not translation_engine.is_initialized():
         return jsonify({'error': {
             "eng":'translation engine is still loading. Please wait...',
-            "heb":"נא להתמין למודל לעלות..."
+            "heb":"מודל התרגום בטעינה, אנא המתן..."
             }}), 503    
     
     try:        
         data = request.json
-        reference_token = data['referenceToken']
+        # reference_token = data['referenceToken']
         source = data['source']
         dest = data['dest']
         text_input = data['textInput']    
@@ -78,7 +78,7 @@ def translate_text():
         logger.error(e)
         return jsonify({'error': {
             "eng":"missing data in request",
-            "heb":"מידע חסר בבקשה"
+            "heb":"בעיה בעיבוד הבקשה, חסרים נתונים"
             }}), 400
     languages = [lang.value for lang in Language]
     if source not in languages:
@@ -97,8 +97,7 @@ def translate_text():
             logger.error(error)
         return jsonify({'error': "invalid input"}), 422
     
-    processed_data = file_cache.get(reference_token)
-    output_text = translation_engine.translate(processed_data,dest,source,text_input,html_input)
+    output_text = translation_engine.translate(dest,source,text_input,html_input)
 
     errors = output_validation_handler.get_errors(output_text)
     if len(errors) > 0:
