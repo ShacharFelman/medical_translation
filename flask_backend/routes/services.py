@@ -16,7 +16,7 @@ from engine.cache import file_cache
 from engine.file_handling.file_text_extraction import get_word_document_text
 from engine.file_handling.files_processor import file_proccessor
 
-from services.translation_service import TranslationService
+from services.translation_service import translation_service
 
 services_bp = Blueprint('services', __name__,url_prefix='')
 
@@ -54,7 +54,6 @@ def translate_text():
             logger.error(error)
         return jsonify({'error': "invalid input"}), 422
     
-    translation_service = TranslationService()
 
     # output_text = translation_engine.translate(dest,source,text_input,html_input)
     output_text = translation_service.translate(text_input)

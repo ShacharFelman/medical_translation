@@ -9,6 +9,7 @@ python-docx
 htmldocx
 langchain
 langchain_openai
+langchain_anthropic
 
 # test requirements
 pandas
