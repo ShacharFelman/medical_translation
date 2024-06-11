@@ -3,11 +3,12 @@ flask-cors
 openai
 python-dotenv
 openai-function-tokens
-# transformers[torch]
 anthropic
 langdetect
 python-docx
 htmldocx
+langchain
+langchain_openai
 
 # test requirements
 pandas

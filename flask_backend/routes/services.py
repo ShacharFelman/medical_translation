@@ -15,6 +15,9 @@ from engine.output_handling import output_validation_handler
 from engine.cache import file_cache
 from engine.file_handling.file_text_extraction import get_word_document_text
 from engine.file_handling.files_processor import file_proccessor
+
+from services.translation_service import TranslationService
+
 services_bp = Blueprint('services', __name__,url_prefix='')
 
 def create_user_error(error_in_english:str,error_in_hebrew:str,status_code:int=500):
@@ -34,7 +37,7 @@ def translate_text():
         source = data['source']
         dest = data['dest']
         text_input = data['textInput']    
-        html_input = data['htmlInput']
+        # html_input = data['htmlInput']
     except Exception as e:
         logger.error(e)
         return missing_data_in_request_error()
@@ -51,7 +54,10 @@ def translate_text():
             logger.error(error)
         return jsonify({'error': "invalid input"}), 422
     
-    output_text = translation_engine.translate(dest,source,text_input,html_input)
+    translation_service = TranslationService()
+
+    # output_text = translation_engine.translate(dest,source,text_input,html_input)
+    output_text = translation_service.translate(text_input)
 
     errors = output_validation_handler.get_errors(output_text)
     if len(errors) > 0:
