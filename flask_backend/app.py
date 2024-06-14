@@ -5,7 +5,7 @@ from flask_cors import CORS
 from exceptions import InvalidUserInputError
 from flask.logging import default_handler
 from routes import static_bp,api_bp,services_bp
-from error_handlers import handle_exception,handle_invalid_user_input_error
+from error_handlers import handle_exception, invalid_user_input_error
 
 def create_app():
     app = Flask(__name__,static_folder="</>",static_url_path='')
@@ -21,7 +21,7 @@ def create_app():
     if not FLASK_ENV:
         raise ValueError("No FLASK_ENV set for Flask application")
     
-    app.register_error_handler(InvalidUserInputError, handle_invalid_user_input_error)
+    app.register_error_handler(InvalidUserInputError, invalid_user_input_error)
     app.register_error_handler(Exception, handle_exception) 
 
     app.register_blueprint(api_bp)
