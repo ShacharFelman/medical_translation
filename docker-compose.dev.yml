@@ -42,16 +42,6 @@ services:
       bash -c "cp -rfu /cache/node_modules/. /app/node_modules/  
       && npm start"
       
-
-  # translator-ollama:
-  #   container_name: 'MediTranslateAI-ollama'
-  #   build:
-  #     context: ./ollama
-  #     dockerfile: ./Dockerfile
-  #   image: ollama/ollama:latest
-  #   volumes:
-  #     - ./ollama:/.ollama
-  #   ports:
-  #     - 11434:11434
+      
 
     
