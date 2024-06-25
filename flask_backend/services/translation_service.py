@@ -2,7 +2,6 @@ from utils.singleton_meta import SingletonMeta
 from utils.logger import logger
 from services.llms.llm_initializer import initialize_llms
 from services.prompt_templates import translation_prompt, translation_parser
-from services.best_translation import transltion_selector
 class TranslationService(metaclass=SingletonMeta):
     def __init__(self) -> None:
         self.translators = []
@@ -33,10 +32,6 @@ class TranslationService(metaclass=SingletonMeta):
         for translation in responses:
             logger.debug("-------------------")
             logger.debug(f'Translator: {translation.response_metadata}')
-            # logger.debug("Translated text:", translation.content)
-
-        translations = [translation_parser.parse(response.content) for response in responses]    
-        transltion_selector.select_best_translation(translations)
 
         return responses[0].content
 
