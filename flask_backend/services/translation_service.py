@@ -1,18 +1,10 @@
 from utils.singleton_meta import SingletonMeta
 from utils.logger import logger
-from services.llms.llm_initializer import initialize_llms
-from services.prompt_templates import translation_prompt, translation_parser
+from services.llm_initializer import initialize_translators
 class TranslationService(metaclass=SingletonMeta):
     def __init__(self) -> None:
-        self.translators = []
-        self.llms = initialize_llms()
-        for llm in self.llms:
-            self.translators.append(self._create_translator(llm))
+        self.translators = initialize_translators()
         self._initialized = False
-
-    def _create_translator(self, llm):
-        chain = translation_prompt | llm
-        return chain
 
     def initialize(self):
         self._initialized = True
@@ -20,20 +12,18 @@ class TranslationService(metaclass=SingletonMeta):
     def is_initialized(self):
         return self._initialized
 
-    def translate(self, text_input):
+    def translate(self, text_input, human_verified_translation=None):
         responses = []
         
         for translator in self.translators:    
-            response = translator.invoke({
-                "text_input": text_input,
-            })
-            responses.append(response)
+            translation = translator.translate(text_input)
+            responses.append(translation)
 
-        for translation in responses:
-            logger.debug("-------------------")
-            logger.debug(f'Translator: {translation.response_metadata}')
+        # for translation in responses:
+        #     logger.debug(f'Translator: {translation["metadata"]}')
+        #     logger.debug(f'Translator: {translation["content"]}')
 
-        return responses[0].content
+
+        return responses[0]["content"]
 
 translation_service = TranslationService()
-

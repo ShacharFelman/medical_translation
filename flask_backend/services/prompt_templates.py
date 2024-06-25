@@ -23,6 +23,6 @@ Then your response will be:
 translation_prompt = ChatPromptTemplate.from_messages([("system", translation_prompt_template), ("user", "{text_input}")])
 
 translation_parser = RegexParser(
-    regex=fr"<eng_text>(.*?)</eng_text>\s*(\[TRANSLATION (?:SUCCESSFUL|FAILED)\])",
+    regex=r"<eng_text>([\s\S]*?)</eng_text>\s*(\[TRANSLATION (?:SUCCESSFUL|FAILED)\])",
     output_keys=["translated_text", "status"]
 )
