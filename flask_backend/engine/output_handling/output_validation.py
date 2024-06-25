@@ -1,5 +1,5 @@
 
-from singleton_meta import SingletonMeta
+from utils.singleton_meta import SingletonMeta
 from engine.utils.text import get_matching_words_in_text
 
 blacklist_words = [

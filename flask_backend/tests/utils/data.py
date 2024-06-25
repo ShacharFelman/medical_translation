@@ -9,8 +9,8 @@ import pandas as pd
 from pandas import DataFrame, ExcelWriter
 from openpyxl import load_workbook
 
-from logger import logger
-from singleton_meta import SingletonMeta
+from utils.logger import logger
+from utils.singleton_meta import SingletonMeta
 from .status import TestStatus
 
 _data_dirpath = os.getenv("TEST_DATA_DIRPATH", "./tests/data")

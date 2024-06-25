@@ -1,8 +1,8 @@
 from flask import jsonify, request ,Blueprint
-from logger import logger
-from error_handlers import engine_not_initialized_response, missing_data_in_request_error, unsupported_source_language_error, unsupported_dest_language_error, internal_server_error
+from utils.logger import logger
+from utils.error_handlers import engine_not_initialized_response, missing_data_in_request_error, unsupported_source_language_error, unsupported_dest_language_error, internal_server_error
 from engine.engine import translation_engine
-from constants import Language
+from utils.constants import Language
 from flask import send_file
 from datetime import datetime
 from io import BytesIO

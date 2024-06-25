@@ -1,5 +1,5 @@
 from flask import jsonify
-from logger import logger
+from utils.logger import logger
 
 
 def handle_exception(error):

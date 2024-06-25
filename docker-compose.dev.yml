@@ -1,16 +1,15 @@
 services:  
-  translator-flask:
-    container_name: 'medical-translator-flask'
+  medical-translation-flask:
+    container_name: 'MediTranslateAI-flask'
     build:
       context: './flask_backend'
       dockerfile: ./Dockerfile
-    # flask requires SIGINT to stop gracefully
-    # (default stop signal from Compose is SIGTERM)      
+    image: medical-translation-flask
     stop_signal: SIGINT
     environment:
       - PYTHONDONTWRITEBYTECODE 1
       - PYTHONUNBUFFERED 1   
-      - LOG_LEVEL=ERROR
+      - LOG_LEVEL=DEBUG
       - LOGS_DIR=./logs
       - PORT=8000      
       - SECRET_KEY=secret-key
@@ -18,17 +17,18 @@ services:
       - FLASK_RUN_HOST=0.0.0.0
       - FLASK_DEBUG=1
     ports:
-      - "8000:8000"      
+     - "8000:8000"      
     volumes:
       - ./flask_backend:/src   
     env_file: ./.env.development
 
 
-  translator-client:
-    container_name: medical-translator-react
+  medical-translation-react:
+    container_name: MediTranslateAI-react
     build:
       context: ./react_frontend
       dockerfile: ./Dockerfile
+    image: medical-translation-react
     environment:
       - CHOKIDAR_USEPOLLING=true
       - WATCHPACK_POLLING=true
@@ -42,3 +42,16 @@ services:
       bash -c "cp -rfu /cache/node_modules/. /app/node_modules/  
       && npm start"
       
+
+  # translator-ollama:
+  #   container_name: 'MediTranslateAI-ollama'
+  #   build:
+  #     context: ./ollama
+  #     dockerfile: ./Dockerfile
+  #   image: ollama/ollama:latest
+  #   volumes:
+  #     - ./ollama:/.ollama
+  #   ports:
+  #     - 11434:11434
+
+    

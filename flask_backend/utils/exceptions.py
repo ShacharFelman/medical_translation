@@ -1,5 +1,5 @@
 import traceback
-from logger import logger
+from utils.logger import logger
 
 class UnsupportedLanguageError(Exception):
     def __init__(self, message:str) -> None:

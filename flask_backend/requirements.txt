@@ -8,9 +8,17 @@ langdetect
 python-docx
 htmldocx
 langchain
+
+# langchain models
 langchain_openai
 langchain_anthropic
+langchain_community
+langchain-google-genai
+langchain_voyageai 
 
 # test requirements
 pandas
 openpyxl
+
+# Fix for tenacity issue
+tenacity<8.4.0

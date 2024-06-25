@@ -1,5 +1,5 @@
 from flask import send_from_directory,Blueprint
-from logger import logger
+from utils.logger import logger
 
 static_bp = Blueprint('static', __name__,url_prefix='')
 

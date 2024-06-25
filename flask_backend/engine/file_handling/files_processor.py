@@ -1,4 +1,4 @@
-from singleton_meta import SingletonMeta
+from utils.singleton_meta import SingletonMeta
 
 class FileProcessor(metaclass=SingletonMeta):
     def process(self,file_name:str,file_text:str) -> dict:

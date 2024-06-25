@@ -1,4 +1,4 @@
-from constants import Language
+from utils.constants import Language
 from langdetect import detect
 
 def detect_lang(text: str) -> Language:

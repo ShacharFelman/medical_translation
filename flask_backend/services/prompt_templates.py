@@ -1,4 +1,5 @@
 from langchain_core.prompts import ChatPromptTemplate
+from langchain.output_parsers import RegexParser
 
 # Translation Prompt Template
 translation_success_string = "[TRANSLATION SUCCESSFUL]"
@@ -16,8 +17,12 @@ Do not translate html tags and translate the texts inside each tag while keeping
 For example, if I give you the following paragraph:
 <heb_text> אקמול היא תרופה לצינון. </heb_text>
 Then your response will be:
-<eng_text> Acamol is a medication for the common cold. </eng_text>
-{translation_success_string}
+<eng_text> Acamol is a medication for the common cold. </eng_text> {translation_success_string}
 '''
 
 translation_prompt = ChatPromptTemplate.from_messages([("system", translation_prompt_template), ("user", "{text_input}")])
+
+translation_parser = RegexParser(
+    regex=fr"<eng_text>(.*?)</eng_text>\s*(\[TRANSLATION (?:SUCCESSFUL|FAILED)\])",
+    output_keys=["translated_text", "status"]
+)

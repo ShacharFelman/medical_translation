@@ -1,6 +1,6 @@
 from io import BytesIO
 from docx import Document
-from constants import FileType
+from utils.constants import FileType
 
 def get_word_document_text(file):
     file_type = FileType.get_file_type(file.filename)

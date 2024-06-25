@@ -1,7 +1,7 @@
 from engine.models.claude import claude_translation_model_instance
-from singleton_meta import SingletonMeta
+from utils.singleton_meta import SingletonMeta
 from engine.engine_config import EngineConfig,engine_config
-from logger import logger
+from utils.logger import logger
 
 _translation_model = claude_translation_model_instance
 

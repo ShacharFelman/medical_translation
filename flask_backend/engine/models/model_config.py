@@ -1,4 +1,4 @@
-from singleton_meta import SingletonMeta
+from utils.singleton_meta import SingletonMeta
 
 class ModelConfig(metaclass=SingletonMeta):
     MAX_TOKENS_LIMIT = 1024

@@ -1,5 +1,5 @@
 from .claude_llm_model import ClaudeLLMModel
-from logger import logger
+from utils.logger import logger
 class ClaudeValidationModel(ClaudeLLMModel):
     
     translation_valid_string = '[TRANSLATION VALID]'

@@ -1,6 +1,6 @@
 from engine.cache.cache import Cache
 from engine.utils.hash import create_string_hash
-from logger import logger
+from utils.logger import logger
 
 class FileCache(Cache):
     def __init__(self,timeout_minutes=None):

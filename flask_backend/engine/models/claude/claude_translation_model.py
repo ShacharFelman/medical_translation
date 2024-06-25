@@ -1,6 +1,6 @@
 import anthropic
-from exceptions import InvalidUserInputError
-from logger import logger
+from utils.exceptions import InvalidUserInputError
+from utils.logger import logger
 from .claude_llm_model import ClaudeLLMModel
 
 class ClaudeTranslationModel(ClaudeLLMModel):
