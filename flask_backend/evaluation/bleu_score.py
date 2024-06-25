@@ -1,12 +1,19 @@
-import nltk
-from nltk.translate.bleu_score import sentence_bleu
+from nltk.translate.bleu_score import corpus_bleu
+from nltk.tokenize import sent_tokenize, word_tokenize
 
-def calculate_bleu(reference_translations, hypothesis_translation):
-    # Tokenize the reference translations and hypothesis translation
-    reference_translations = [nltk.word_tokenize(ref) for ref in reference_translations]
-    hypothesis_translation = nltk.word_tokenize(hypothesis_translation)
-
-    # Calculate the BLEU score
-    bleu_score = sentence_bleu(reference_translations, hypothesis_translation)
-
+def calculate_bleu(reference_paragraphs, hypothesis_paragraphs):
+    # Tokenize paragraphs into sentences, then words
+    tokenized_references = [
+        [word_tokenize(sent) for sent in sent_tokenize(para.lower())]
+        for para in reference_paragraphs
+    ]
+    tokenized_hypotheses = [
+        word_tokenize(sent) 
+        for para in hypothesis_paragraphs
+        for sent in sent_tokenize(para.lower())
+    ]
+    
+    # Calculate BLEU score
+    bleu_score = corpus_bleu([tokenized_references], tokenized_hypotheses)
+    
     return bleu_score
