@@ -12,17 +12,17 @@ class TranslationService(metaclass=SingletonMeta):
     def is_initialized(self):
         return self._initialized
 
-    def translate(self, text_input):
+    def translate(self, text_input, human_verified_translation=None):
         responses = []
         
         for translator in self.translators:    
             translation = translator.translate(text_input)
             responses.append(translation)
 
-        for translation in responses:
-            logger.debug("-------------------")
-            # logger.debug(f'Translator: {translation["metadata"]}')
-            logger.debug(f'Translation: {translation["content"]}')
+        # for translation in responses:
+        #     logger.debug(f'Translator: {translation["metadata"]}')
+        #     logger.debug(f'Translator: {translation["content"]}')
+
 
         return responses[0]["content"]
 
