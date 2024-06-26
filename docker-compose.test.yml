@@ -22,6 +22,8 @@ services:
     volumes:
       - ./flask_backend:/src   
     env_file: ./.env.test
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     depends_on:
       - mongodb
 

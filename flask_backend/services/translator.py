@@ -4,8 +4,9 @@ from langchain_core.language_models.chat_models import BaseChatModel
 from services.prompt_templates import translation_prompt, translation_parser
 
 class Translator:
-    def __init__(self, llm: BaseChatModel):
+    def __init__(self, llm: BaseChatModel, model_name: str) -> None:
         self.llm = llm
+        self.model_name = model_name
         self.chain = translation_prompt | llm
 
     def translate(self, text_input: str) -> Dict[str, Any]:
@@ -27,6 +28,7 @@ class Translator:
                 return self._create_error_response("Parsing error")
 
             return {
+                "model_name": self.model_name,
                 "content": parsed_response.get("translated_text", ""),
                 "metadata": {
                     **(response.response_metadata if hasattr(response, 'response_metadata') else {}),

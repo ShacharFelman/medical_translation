@@ -10,6 +10,7 @@ htmldocx
 langchain
 pymongo
 nltk
+scikit-learn
 
 # langchain models
 langchain_openai

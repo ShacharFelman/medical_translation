@@ -1,15 +1,16 @@
 from utils.singleton_meta import SingletonMeta
 from utils.logger import logger
-from services.llm_initializer import initialize_translators
-from evaluation.bleu_score import calculate_bleu
 from database.mongodb_client import MongoDBClient
+from services.llm_initializer import initialize_translators
+from services.translation_selector import translation_selector
+from evaluation.bleu_score import calculate_bleu
 import time
 
 class TranslationService(metaclass=SingletonMeta):
     def __init__(self) -> None:
         self.translators = initialize_translators()
-        self._initialized = False
         self.mongo_client = MongoDBClient.get_instance()
+        self._initialized = False
 
     def initialize(self):
         self._initialized = True
@@ -24,16 +25,19 @@ class TranslationService(metaclass=SingletonMeta):
             translations = []
             
             for translator in self.translators:
+
                 start_time = time.time()
                 translation = translator.translate(text_input)
                 end_time = time.time()
 
                 response_time = end_time - start_time
+
                 bleu_score = None
                 if human_verified_translation:
                     bleu_score = calculate_bleu(human_verified_translation, translation['content'])
 
                 translation_data = {
+                    'model_name': translation['model_name'],
                     'output': translation['content'],
                     'response_time': response_time,
                     'bleu_score': bleu_score,
@@ -42,9 +46,28 @@ class TranslationService(metaclass=SingletonMeta):
 
                 translations.append(translation_data)
 
+            # Select the best translation
+            best_translation, similarity_scores = translation_selector.select_best_translation(translations)
+
+            # Prepare model scores for database
+            model_scores = []
+            for translation, score in zip(translations, similarity_scores):
+                model_scores.append({
+                    'model_name': translation['model_name'],
+                    'similarity_score': float(score),
+                    'bleu_score': translation['bleu_score'],
+                    'response_time': translation['response_time']
+                })
+
             translation_record = {
                 'input_text': text_input,
                 'translations': translations,
+                'best_translation': {
+                    'model_name': best_translation['model_name'],
+                    'content': best_translation['output'],
+                    'metadata': best_translation['metadata']
+                },
+                'model_scores': model_scores,
                 'timestamp': time.time()
             }
 
@@ -57,7 +80,7 @@ class TranslationService(metaclass=SingletonMeta):
 
             self.log_translation(translation_record)
 
-            return translations[0]['output']
+            return best_translation['output']
 
     def log_translation(self, data):
         logger.info(f"Translation request:")

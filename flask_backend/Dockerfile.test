@@ -1,5 +1,12 @@
 FROM python:3.11-alpine
 
+# --------------------------------------
+# For scikit-learn (sklearn) to work,
+# we need to install build dependencies:
+
+RUN apk add --no-cache --virtual .build-deps gcc musl-dev g++ libgomp
+# --------------------------------------
+
 
 WORKDIR /src
 COPY requirements.txt /src
@@ -7,19 +14,25 @@ COPY requirements.txt /src
 RUN --mount=type=cache,target=/root/.cache/pip \
     pip3 install -r requirements.txt
 
+# ------------------------------
+# For nltk to work,
+# we need to install extra data:
+
 # for our nltk data folder
 ENV NLTK_DATA /nltk_data/ ADD . $NLTK_DATA
 # download punkt
 RUN python3 -m nltk.downloader punkt -d /usr/share/nltk_data
 # download stopwords
 RUN python3 -m nltk.downloader stopwords -d /usr/share/nltk_data
+# ------------------------------
 
 COPY . .
-
 
 ENV FLASK_ENV=testing
 ENV SECRET_KEY=testing
 
+# Optional cleanup to reduce image size
+# RUN apk del .build-deps
 
 # CMD ["python", "-m", "unittest", "discover" ,"-s","tests", "-p" ,"*_tests.py"] 
 CMD ["python", "tests/run_translation_test.py"]
