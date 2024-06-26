@@ -17,12 +17,12 @@ def initialize_translators():
                                   temperature=0.0,
                                   api_key=api_key_anthropic)
     
-    gemini_pro = ChatGoogleGenerativeAI(model='gemini-pro',
+    gemini_pro = ChatGoogleGenerativeAI(model='gemini-1.5-pro-latest',
                                         temperature=0.0,
                                         google_api_key=api_key_google_genai)
     
     return [
-        Translator(gpt_4o)
-        # Translator(claude_3_opus)
-        # Translator(gemini_pro)
+        Translator(gpt_4o),
+        Translator(claude_3_opus),
+        Translator(gemini_pro)
     ]

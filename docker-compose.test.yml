@@ -1,15 +1,13 @@
 services:  
-  translator-flask:
-    container_name: 'medical-translator-flask'
+  translator-flask-test:
+    container_name: 'medical-translator-flask-test'
     build:
       context: './flask_backend'
       dockerfile: ./Dockerfile.test
-    # flask requires SIGINT to stop gracefully
-    # (default stop signal from Compose is SIGTERM)      
     stop_signal: SIGINT
     environment:
-      - PYTHONDONTWRITEBYTECODE 1
-      - PYTHONUNBUFFERED 1   
+      - PYTHONDONTWRITEBYTECODE=1
+      - PYTHONUNBUFFERED=1   
       - LOG_LEVEL=INFO
       - LOGS_DIR=./logs/tests/
       - PORT=8000      
@@ -17,12 +15,23 @@ services:
       - FLASK_ENV=testing
       - FLASK_RUN_HOST=0.0.0.0
       - FLASK_DEBUG=1
-      
       - TEST_DATA_DIRPATH=./tests/data
+      - MONGODB_URI=mongodb://mongodb:27017/translation_test_db
     ports:
       - "8000:8000"      
     volumes:
       - ./flask_backend:/src   
-    env_file: ./.env.testing
+    env_file: ./.env.test
+    depends_on:
+      - mongodb
 
-      
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb-test
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_test_data:/data/db
+
+volumes:
+  mongodb_test_data:

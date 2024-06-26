@@ -3,19 +3,20 @@ services:
     container_name: 'MediTranslateAI-flask'
     build:
       context: './flask_backend'
-      dockerfile: ./Dockerfile
+      dockerfile: ./Dockerfile.test
     image: medical-translation-flask
     stop_signal: SIGINT
     environment:
       - PYTHONDONTWRITEBYTECODE 1
       - PYTHONUNBUFFERED 1   
-      - LOG_LEVEL=DEBUG
+      - LOG_LEVEL=INFO
       - LOGS_DIR=./logs
       - PORT=8000      
       - SECRET_KEY=secret-key
       - FLASK_ENV=development
       - FLASK_RUN_HOST=0.0.0.0
       - FLASK_DEBUG=1
+      - MONGODB_URI=mongodb://mongodb:27017/translation_db
     ports:
      - "8000:8000"      
     volumes:
@@ -41,7 +42,15 @@ services:
     command: >
       bash -c "cp -rfu /cache/node_modules/. /app/node_modules/  
       && npm start"
-      
-      
+            
 
-    
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+
+volumes:
+  mongodb_data:

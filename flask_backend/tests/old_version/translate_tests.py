@@ -5,7 +5,7 @@ import unittest
 # from logger import logger
 from engine.engine import translation_engine
 from utils.exceptions import InvalidUserInputError
-from tests.utils import DataCache, TestStatus
+from tests.old_version.utils import DataCache, TestStatus
 
 
 class TranslationTestCase(unittest.TestCase):
