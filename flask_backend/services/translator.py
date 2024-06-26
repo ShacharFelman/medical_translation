@@ -1,3 +1,5 @@
+from utils.logger import logger
+from typing import Dict, Any
 from langchain_core.language_models.chat_models import BaseChatModel
 from services.prompt_templates import translation_prompt, translation_parser
 
@@ -6,13 +8,41 @@ class Translator:
         self.llm = llm
         self.chain = translation_prompt | llm
 
-    def translate(self, text_input: str):
-        response = self.chain.invoke({"text_input": text_input})
-        parsed_response = translation_parser.parse(response.content)
+    def translate(self, text_input: str) -> Dict[str, Any]:
+        try:
+            if not isinstance(text_input, str) or not text_input.strip():
+                logger.warning("Invalid or empty input provided for translation.")
+                return self._create_error_response("Invalid input")
+
+            response = self.chain.invoke({"text_input": text_input})
+            
+            if not response or not hasattr(response, 'content'):
+                logger.error("Unexpected response format from language model.")
+                return self._create_error_response("Unexpected response format")
+
+            try:
+                parsed_response = translation_parser.parse(response.content)
+            except Exception as parse_error:
+                logger.error(f"Error parsing translation response: {str(parse_error)}")
+                return self._create_error_response("Parsing error")
+
+            return {
+                "content": parsed_response.get("translated_text", ""),
+                "metadata": {
+                    **(response.response_metadata if hasattr(response, 'response_metadata') else {}),
+                    "translation_status": parsed_response.get("status", "unknown")
+                }
+            }
+
+        except Exception as e:
+            logger.exception(f"An unexpected error occurred during translation: {str(e)}")
+            return self._create_error_response("Unexpected error")
+
+    def _create_error_response(self, error_message: str) -> Dict[str, Any]:
         return {
-            "content": parsed_response["translated_text"],
+            "content": "",
             "metadata": {
-                **response.response_metadata,
-                "translation_status": parsed_response["status"]
+                "translation_status": "error",
+                "error_message": error_message
             }
         }

@@ -8,6 +8,8 @@ langdetect
 python-docx
 htmldocx
 langchain
+pymongo
+nltk
 
 # langchain models
 langchain_openai
