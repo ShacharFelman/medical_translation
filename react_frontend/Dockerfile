@@ -1,12 +1,10 @@
 FROM node:20-alpine
 
-
-WORKDIR /cache
-COPY package*.json .
+WORKDIR /app
+# WORKDIR /cache
+COPY package*.json ./
 RUN npm install
 
-
-WORKDIR /app
 
 ENV PATH /app/node_modules/.bin:$PATH
 ENV NODE_ENV development
