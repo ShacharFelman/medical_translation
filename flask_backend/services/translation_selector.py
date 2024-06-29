@@ -31,7 +31,7 @@ class TranslationSelector:
         similarities = cosine_similarity(embeddings)
 
         # Calculate average similarity for each translation
-        average_similarities = similarities.sum(axis=1) - 1  # Subtract 1 to remove self-similarity
+        average_similarities = (similarities.sum(axis=1) - 1) / (len(translations) - 1) # Subtract 1 to remove self-similarity
 
         # Select the translation with the highest average similarity
         best_index = np.argmax(average_similarities)

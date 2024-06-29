@@ -17,7 +17,7 @@ class MongoDBClient:
             mongodb_uri = os.getenv('MONGODB_URI', 'mongodb://localhost:27017')
             self.client = MongoClient(mongodb_uri)
             self.db = self.client['translation_db']
-            self.collection = self.db['translation_results']
+            self.collection = self.db['translation_performance']
             MongoDBClient._instance = self
 
     def insert_translation(self, data):

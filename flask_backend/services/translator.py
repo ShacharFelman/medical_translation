@@ -29,10 +29,10 @@ class Translator:
 
             return {
                 "model_name": self.model_name,
+                "status": parsed_response.get("status", "unknown"),
                 "content": parsed_response.get("translated_text", ""),
                 "metadata": {
-                    **(response.response_metadata if hasattr(response, 'response_metadata') else {}),
-                    "translation_status": parsed_response.get("status", "unknown")
+                    **(response.response_metadata if hasattr(response, 'response_metadata') else {})
                 }
             }
 

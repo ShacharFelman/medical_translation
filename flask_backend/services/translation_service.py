@@ -22,7 +22,7 @@ class TranslationService(metaclass=SingletonMeta):
             if not self.is_initialized():
                 raise RuntimeError("TranslationService is not initialized")
 
-            translations = []
+            translations_output = []
             
             for translator in self.translators:
 
@@ -44,30 +44,23 @@ class TranslationService(metaclass=SingletonMeta):
                     'metadata': translation['metadata']
                 }
 
-                translations.append(translation_data)
+                translations_output.append(translation_data)
 
             # Select the best translation
-            best_translation, similarity_scores = translation_selector.select_best_translation(translations)
+            best_translation, similarity_scores = translation_selector.select_best_translation(translations_output)
 
             # Prepare model scores for database
-            model_scores = []
-            for translation, score in zip(translations, similarity_scores):
-                model_scores.append({
-                    'model_name': translation['model_name'],
-                    'similarity_score': float(score),
-                    'bleu_score': translation['bleu_score'],
-                    'response_time': translation['response_time']
+            translations = []
+            for translation, score in zip(translations_output, similarity_scores):
+                translations.append({
+                    **translation,
+                    'score': float(score)
                 })
 
             translation_record = {
-                'input_text': text_input,
+                'input': text_input,
                 'translations': translations,
-                'best_translation': {
-                    'model_name': best_translation['model_name'],
-                    'content': best_translation['output'],
-                    'metadata': best_translation['metadata']
-                },
-                'model_scores': model_scores,
+                'best_translation': best_translation,
                 'timestamp': time.time()
             }
 
@@ -84,13 +77,15 @@ class TranslationService(metaclass=SingletonMeta):
 
     def log_translation(self, data):
         logger.info(f"Translation request:")
-        logger.info(f"Input text: {data['input_text']}")
+        logger.info(f"Input text: {data['input']}")
         
         for translation in data['translations']:
-            logger.info(f"Translator metadata: {translation['metadata']}")
+            logger.info(f"Translator: {translation['model_name']}")
+            logger.info(f"score: {translation['score']:.4f}")
             logger.info(f"Response time: {translation['response_time']:.2f} seconds")
             if translation['bleu_score'] is not None:
                 logger.info(f"BLEU score: {translation['bleu_score']:.4f}")
+            logger.info(f"Translator metadata: {translation['metadata']}")
             logger.info("---")
 
 translation_service = TranslationService()
