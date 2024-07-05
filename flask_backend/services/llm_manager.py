@@ -3,7 +3,7 @@ from langchain_anthropic import ChatAnthropic
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_community.chat_models  import ChatOllama
 
-from services.translator import Translator
+from services.translation.translator_llm import TranslatorLLM
 import os
 
 api_key_openai = os.getenv('API_KEY_OPENAI')
@@ -20,16 +20,12 @@ def initialize_translators():
                                   temperature=0.0,
                                   api_key=api_key_anthropic)
     
-    gemini_pro = ChatGoogleGenerativeAI(model='gemini-1.5-pro-latest',
-                                        temperature=0.0,
-                                        google_api_key=api_key_google_genai)
-    
     llama3 = ChatOllama(base_url=ollama_url,
                         model="llama3",
                         temperature=0.0)
 
     return [
-        Translator(gpt_4o, 'gpt-4o'),
-        Translator(claude_3_opus, 'claude-3-opus'),
-        Translator(llama3, 'llama3')
+        TranslatorLLM(gpt_4o, 'gpt-4o'),
+        TranslatorLLM(claude_3_opus, 'claude-3-opus'),
+        TranslatorLLM(llama3, 'llama3')
     ]

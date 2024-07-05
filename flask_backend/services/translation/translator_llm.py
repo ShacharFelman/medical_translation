@@ -1,9 +1,9 @@
 from utils.logger import logger
 from typing import Dict, Any
 from langchain_core.language_models.chat_models import BaseChatModel
-from services.prompt_templates import translation_prompt, translation_parser
+from services.translation.prompt_templates import translation_prompt, translation_parser
 
-class Translator:
+class TranslatorLLM:
     def __init__(self, llm: BaseChatModel, model_name: str) -> None:
         self.llm = llm
         self.model_name = model_name
@@ -20,6 +20,8 @@ class Translator:
             if not response or not hasattr(response, 'content'):
                 logger.error("Unexpected response format from language model.")
                 return self._create_error_response("Unexpected response format")
+
+                #hasdfkjhsadkfjhasdkfjhsadkfjhsadkfj
 
             try:
                 parsed_response = translation_parser.parse(response.content)

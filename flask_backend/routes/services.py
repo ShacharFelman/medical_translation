@@ -16,7 +16,7 @@ from engine.cache import file_cache
 from engine.file_handling.file_text_extraction import get_word_document_text
 from engine.file_handling.files_processor import file_proccessor
 
-from services.translation_service import translation_service
+from services.translation.translation_manager import translation_manager
 
 services_bp = Blueprint('services', __name__,url_prefix='')
 
@@ -56,7 +56,7 @@ def translate_text():
     
 
     # output_text = translation_engine.translate(dest,source,text_input,html_input)
-    output_text = translation_service.translate(text_input)
+    output_text = translation_manager.translate(text_input)
 
     errors = output_validation_handler.get_errors(output_text)
     if len(errors) > 0:

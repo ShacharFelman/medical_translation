@@ -1,12 +1,12 @@
 from utils.singleton_meta import SingletonMeta
 from utils.logger import logger
 from database.mongodb_client import MongoDBClient
-from services.llm_initializer import initialize_translators
-from services.translation_selector import translation_selector
+from flask_backend.services.llm_manager import initialize_translators
+from services.translation.translation_selector import translation_selector
 from evaluation.bleu_score import calculate_bleu
 import time
 
-class TranslationService(metaclass=SingletonMeta):
+class TranslationManager(metaclass=SingletonMeta):
     def __init__(self) -> None:
         self.translators = initialize_translators()
         self.mongo_client = MongoDBClient.get_instance()
@@ -20,7 +20,7 @@ class TranslationService(metaclass=SingletonMeta):
 
     def translate(self, text_input, human_verified_translation=None):
         if not self.is_initialized():
-            raise RuntimeError("TranslationService is not initialized")
+            raise RuntimeError("TranslationManager is not initialized")
 
         translations_output = self._generate_translations(text_input, human_verified_translation)
         best_translation, similarity_scores = translation_selector.select_best_translation(translations_output)
@@ -94,4 +94,4 @@ class TranslationService(metaclass=SingletonMeta):
             logger.info("---")
 
 
-translation_service = TranslationService()
+translation_manager = TranslationManager()

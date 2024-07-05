@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import patch, MagicMock
 from services.translation_service import TranslationService
-from services.translator import Translator
+from flask_backend.services.translator_llm import Translator
 
 class TestTranslationService(unittest.TestCase):
 
