@@ -3,11 +3,35 @@ import Header from './components/Header.jsx';
 import TranslateSection from './components/TranslationSection.jsx';
 import AddButton from './components/Buttons/AddButton.jsx';
 import DownloadFileButton from './components/Buttons/DownloadFileButton.jsx';
+import LeafletsName from './components/LeafletsName.jsx';
+import SaveButton from './components/Buttons/SaveButton.jsx';
+import LeafletsHistory from './components/LeafletsHistory.jsx';
+import Card from './components/CardLeafletHistory.jsx';
+
+
 function App() {
   const [sections, setSections] = useState([{id:0}]);
+  const [currentLeafletName, setCurrentLeafletName] = useState('Untitle');
+  const [leafletsCards, setleafletsCards] = useState([
+    // { id: 1, name: currentLeafletName, date: '2024-07-01' },
+    { id: 1, name: 'Leaflet 1', date: '2024-06-29' },
+    { id: 2, name: 'Leaflet 2', date: '2024-06-30' },
+    // Add more cards as needed
+  ]);
+
+  function saveLeaflet() {
+    setleafletsCards([...leafletsCards, 
+      { id: leafletsCards.length, name: 'Leaflet ' + (leafletsCards.length + 1), date: new Date().toISOString().split('T')[0] }]);
+    //save to json file and send to backend to save to database
+  }
+
+  function handleLeafletNameChange(newName){
+    setCurrentLeafletName(newName);
+  }
+
 
   function getTranslation(text) {
-    return "English: " + text;
+    return "English: "+ currentLeafletName +" " + text;
   }
 
   function handleAddSection() {
@@ -21,16 +45,27 @@ function App() {
   }
 
   return (
-    <div className="flex flex-col">
-      <Header />
-      <main className="flex-grow">
-        <DownloadFileButton className="flex justify-end pr-10 p-1"/>
-        {sections.map(section=> (
-          <TranslateSection key={section.id} getTranslation={getTranslation} onDelete={() => handleDeleteSection(section.id)} />
-        ))}
-          <AddButton className="flex justify-center p-8" onClick={handleAddSection}/>
-      </main>
-      
+    <div className="flex h-screen">
+      <LeafletsHistory leaflets={leafletsCards} />
+      {/* <Card 
+          key={leafletsCards.length} 
+          name={currentLeafletName} 
+          date={leafletsCards.length} 
+        /> */}
+      <div className="flex flex-col flex-grow">
+        <Header />
+        <div className="flex justify-center items-center p-4">
+          <LeafletsName onChangeName={handleLeafletNameChange}/>
+          <SaveButton title="Save leaflet" />
+          <DownloadFileButton />
+        </div>
+        <main className="flex-grow p-7 flex flex-col">
+          {sections.map(section => (
+            <TranslateSection key={section.id} getTranslation={getTranslation} onDelete={() => handleDeleteSection(section.id)} />
+          ))}
+          <AddButton className="flex justify-center p-8" onClick={handleAddSection} />
+        </main>
+      </div>
     </div>
   );
 }

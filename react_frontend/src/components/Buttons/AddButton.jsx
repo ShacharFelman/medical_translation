@@ -8,9 +8,6 @@ export default function AddButton({className, onClick}){
             <Fab size="medium" color="primary" aria-label="add">
                 <AddIcon onClick={onClick}/>
             </Fab>
-            {/* <IconButton color="primary" aria-label="add">
-                <AddIcon/>
-            </IconButton> */}
         </div>
     );
 }
