@@ -1,24 +1,25 @@
-import {useState} from 'react';
+import {useState, useContext} from 'react';
 import TextField from '@mui/material/TextField';
 import EditIcon from '@mui/icons-material/Edit';
 import CheckIcon from '@mui/icons-material/Check';
 import InputAdornment from '@mui/material/InputAdornment';
 import IconButton from '@mui/material/IconButton';
+import { translteContext } from '../store/TranslateContext.jsx';
 
 
-export default function LeafletsName({onChangeName}) {
-    const [leafletName, setLefletName] = useState("Untitled Leaflet");
+export default function LeafletsName() {
     const [isEditing, setIsEditing] = useState(false);
+    const { currentLeafletName, handleLeafletNameChange } = useContext(translteContext);
 
     function handleEdit() {
         setIsEditing(editing => !editing);
         if(isEditing){
-            onChangeName(leafletName);
+            handleLeafletNameChange(currentLeafletName);
         }
     }
 
     function handleChange(event){
-        setLefletName(event.target.value);
+        handleLeafletNameChange(event.target.value);
     }
     
     let editableLefletName= 
@@ -27,7 +28,7 @@ export default function LeafletsName({onChangeName}) {
                 disabled = {!isEditing}
                 id="outlined-required"
                 label="leaflet Name"
-                value={leafletName}
+                value={currentLeafletName}
                 onChange={handleChange}
                 variant="outlined"
                 className="w-64"
@@ -40,27 +41,22 @@ export default function LeafletsName({onChangeName}) {
                       </InputAdornment>
                     ),
                   }}
-            />
-            
+            />  
         </span>
   return (
     <li className="flex justify-center p-4">
         <div className="flex items-center">
 
-        {/* <div className="flex items-center border-custom-blue border-2 p-2 rounded"> */}
-    {/* <li className={isActive ? 'active' : undefined}> */}
         <span className="flex">
             {editableLefletName}
         </span>
         <button
             onClick={handleEdit}
-            // className="ml-4 p-2 text-gray-200 bg-gray-200 rounded hover:bg-cyan-700 focus:outline-none"
             className=" ml-4 p-2 text-custom-blue rounded hover:text-blue-300 focus:outline-none"
         >
-            {/* {isEditing ? <CheckIcon fontSize='medium'/> : <EditIcon/>} */}
         </button>
-        {/* <button onClick={handleEdit}>{isEditing ? 'Save' : 'Edit'}</button> */}
         </div>
     </li>
   );
 }
+
