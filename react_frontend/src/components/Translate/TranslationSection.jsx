@@ -1,15 +1,16 @@
-import React, { useState , useEffect} from 'react';
+import React, { useState , useEffect, useContext} from 'react';
 import DeleteButton from '../Buttons/DeleteButton';
 import OutputTextArea from './OutputTextArea';
 import InputTextArea from './InputTextArea';
+import { TranslateContext } from '../../store/TranslateContext.jsx';
 
 export default function TranslateSection({inputText, 
                                           translation, 
-                                          getTranslation, 
                                           onDelete, 
                                           onInputChange, 
                                           onTranslate}) {
-
+                                            
+  const {getTranslation} = useContext(TranslateContext);
   const [localInputText, setLocalInputText] = useState(inputText);
 
    // Synchronize localInputText with the inputText prop

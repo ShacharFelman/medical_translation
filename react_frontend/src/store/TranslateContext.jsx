@@ -5,7 +5,7 @@ export const TranslateContext = createContext();
 export default function TranslateContextProvider({children}) {
 
     const [currentLeafletName, setCurrentLeafletName] = useState('Untitled Leaflet');
-
+    const [sections, setSections] = useState([{ id: 0, inputText: '', translation: '' }]);
     const [leafletsCards, setLeafletsCards] = useState([
       { id: 1, name: currentLeafletName, date: '2024-07-01' },
       { id: 2, name: 'Leaflet 2', date: '2024-06-30' },
@@ -27,12 +27,40 @@ export default function TranslateContextProvider({children}) {
         return `English: ${currentLeafletName} ${text}`;
     };
 
+    function handleAddSection() {
+        const newId = sections.length > 0 ? sections[sections.length - 1].id + 1 : 0;
+        setSections([...sections, { id: newId, inputText: '', translation: '' }]);
+    }
+  
+    function handleDeleteSection(id) {
+        sections.length === 1 ? 
+        setSections([{ id: 0, inputText: '', translation: '' }]) :
+        setSections(sections.filter(section => section.id !== id));
+    }
+
+    function handleInputTextChange(id, newText) {
+        setSections(sections.map(section =>
+            section.id === id ? { ...section, inputText: newText } : section
+        ));
+    }
+
+    function handleTranslation(id, newTranslation) {
+        setSections(sections.map(section =>
+            section.id === id ? { ...section, translation: newTranslation } : section
+        ));
+    }
+
     const translateCtx = {
         currentLeafletName,
+        sections,
         leafletsCards,
         saveLeaflet,
         handleLeafletNameChange,
-        getTranslation
+        getTranslation,
+        addSection: handleAddSection,
+        deleteSection: handleDeleteSection,
+        changeInputText: handleInputTextChange,
+        updateOutputText: handleTranslation
     };
 
     return (
