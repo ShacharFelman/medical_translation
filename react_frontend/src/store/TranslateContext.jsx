@@ -1,11 +1,47 @@
-import React, {createContext, useState} from 'react';
+import React, {createContext, useState, useReducer} from 'react';
 
 export const TranslateContext = createContext();
 
-export default function TranslateContextProvider({children}) {
+function translateReducer(leafletState, action) {
+  switch (action.type) {
+    case 'ADD_SECTION':
+      const newId = leafletState.sections.length > 0 ? leafletState.sections[leafletState.sections.length - 1].id + 1 : 0;
+      return {
+        ...leafletState,
+        sections: [...leafletState.sections, { id: newId, inputText: '', translation: '' }]
+      };
+    case 'DELETE_SECTION':
+      return {
+        ...leafletState,
+        sections: leafletState.sections.length === 1 
+          ? [{ id: 0, inputText: '', translation: '' }] 
+          : leafletState.sections.filter(section => section.id !== action.id)
+      };
 
+    case 'CHANGE_INPUT_TEXT':
+      return {
+        ...leafletState,
+        sections: leafletState.sections.map(section =>
+          section.id === action.id ? { ...section, inputText: action.newText } : section
+        )
+      };
+    case 'UPDATE_OUTPUT_TEXT':
+      return {
+        ...leafletState,
+        sections: leafletState.sections.map(section =>
+          section.id === action.id ? { ...section, translation: action.newTranslation } : section
+        )
+      };
+    default:
+      return leafletState;
+  }
+}
+
+
+export default function TranslateContextProvider({children}) {
+    const initialState = { sections: [{ id: 0, inputText: '', translation: '' }] };
+    const [leafletState, leafletDispatch] = useReducer(translateReducer, initialState);
     const [currentLeafletName, setCurrentLeafletName] = useState('Untitled Leaflet');
-    const [sections, setSections] = useState([{ id: 0, inputText: '', translation: '' }]);
     const [leafletsCards, setLeafletsCards] = useState([
       { id: 1, name: currentLeafletName, date: '2024-07-01' },
       { id: 2, name: 'Leaflet 2', date: '2024-06-30' },
@@ -27,40 +63,33 @@ export default function TranslateContextProvider({children}) {
         return `English: ${currentLeafletName} ${text}`;
     };
 
-    function handleAddSection() {
-        const newId = sections.length > 0 ? sections[sections.length - 1].id + 1 : 0;
-        setSections([...sections, { id: newId, inputText: '', translation: '' }]);
-    }
+    const addSection = () => {
+      leafletDispatch({ type: 'ADD_SECTION' });
+    };
   
-    function handleDeleteSection(id) {
-        sections.length === 1 ? 
-        setSections([{ id: 0, inputText: '', translation: '' }]) :
-        setSections(sections.filter(section => section.id !== id));
-    }
-
-    function handleInputTextChange(id, newText) {
-        setSections(sections.map(section =>
-            section.id === id ? { ...section, inputText: newText } : section
-        ));
-    }
-
-    function handleTranslation(id, newTranslation) {
-        setSections(sections.map(section =>
-            section.id === id ? { ...section, translation: newTranslation } : section
-        ));
-    }
+    const deleteSection = (id) => {
+      leafletDispatch({ type: 'DELETE_SECTION', id });
+    };
+  
+    const changeInputText = (id, newText) => {
+      leafletDispatch({ type: 'CHANGE_INPUT_TEXT', id, newText });
+    };
+  
+    const updateOutputText = (id, newTranslation) => {
+      leafletDispatch({ type: 'UPDATE_OUTPUT_TEXT', id, newTranslation });
+    };
 
     const translateCtx = {
         currentLeafletName,
-        sections,
+        sections: leafletState.sections,
         leafletsCards,
         saveLeaflet,
         handleLeafletNameChange,
         getTranslation,
-        addSection: handleAddSection,
-        deleteSection: handleDeleteSection,
-        changeInputText: handleInputTextChange,
-        updateOutputText: handleTranslation
+        addSection,
+        deleteSection,
+        changeInputText,
+        updateOutputText
     };
 
     return (
