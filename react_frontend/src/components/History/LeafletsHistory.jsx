@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
-import LogoTitle from './LogoTitle.jsx';
+import LogoTitle from '../LogoTitle.jsx';
 import Card from './CardLeafletHistory.jsx';
-import { TranslateContext } from '../store/TranslateContext.jsx';
 
 function LeafletsHistory({ leaflets }) {
   // const {leafletsCards} = useContext(TranslateContext); 

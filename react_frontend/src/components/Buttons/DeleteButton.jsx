@@ -3,8 +3,10 @@ import DeleteIcon from '@mui/icons-material/Delete';
 
 export default function DeleteButton({onClick}){
     return (
-        <IconButton aria-label="delete" color="primary" >
-            <DeleteIcon onClick={onClick}/>
-        </IconButton>
+        <div className="flex items-start">
+            <IconButton aria-label="delete" color="primary" onClick={onClick}>
+                <DeleteIcon/>
+            </IconButton>
+        </div>
     );
 }

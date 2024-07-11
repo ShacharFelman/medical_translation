@@ -1,19 +1,15 @@
 import { useState } from 'react';
 import Header from './components/Header.jsx';
-import TranslateSection from './components/TranslationSection.jsx';
-import AddButton from './components/Buttons/AddButton.jsx';
 import DownloadFileButton from './components/Buttons/DownloadFileButton.jsx';
 import LeafletsName from './components/LeafletsName.jsx';
 import SaveButton from './components/Buttons/SaveButton.jsx';
-import LeafletsHistory from './components/LeafletsHistory.jsx';
-import {TranslateContext} from './store/TranslateContext.jsx';
-// import TranslateContextProvider from './store/TranslateContext.jsx';
+import LeafletsHistory from './components/History/LeafletsHistory.jsx';
+import Leaflet from './components/Translate/Leaflet.jsx';
+import TranslateContextProvider from './store/TranslateContext.jsx';
 
 function App() {
-  const [sections, setSections] = useState([{id:0}]);
-  const [currentLeafletName, setCurrentLeafletName] = useState('Untitle');
   const [leafletsCards, setleafletsCards] = useState([
-      { id: 1, name: currentLeafletName, date: '2024-07-01' },
+      { id: 1, name: 'Leaflet 1', date: '2024-07-01' },
       { id: 2, name: 'Leaflet 2', date: '2024-06-30' },
       // Add more cards as needed
   ]);
@@ -24,39 +20,8 @@ function App() {
       //save to json file and send to backend to save to database
   }
 
-  function handleLeafletNameChange(newName){
-      setCurrentLeafletName(newName);
-  }
-
-
-  function getTranslation(text) {
-      return "English: "+ currentLeafletName +" " + text;
-  }
-
-  function handleAddSection() {
-      const newId = sections.length > 0 ? sections[sections.length - 1].id + 1 : 0;
-      setSections([...sections, { id: newId }]);
-  }
-
-  function handleDeleteSection(id) {
-      sections.length === 1 ? setSections([{id:0}]) :
-      setSections(sections.filter(section => section.id !== id));
-  }
-
-  const translateCtx = {
-      // sections,
-      currentLeafletName,
-      //lefletsCards :leafletsCards.items  (chnage the name of the items),
-      // saveLeaflet,
-      setCurrentLeafletName,
-      handleLeafletNameChange,
-      // getTranslation,
-      handleAddSection,
-      // handleDeleteSection
-  }
-
   return (
-    <TranslateContext.Provider value={{translateCtx}}>
+    <TranslateContextProvider>
       <div className="flex h-screen">
         <LeafletsHistory leaflets={leafletsCards} />
         <div className="flex flex-col flex-grow">
@@ -66,15 +31,10 @@ function App() {
             <SaveButton title="Save leaflet" />
             <DownloadFileButton />
           </div>
-          <main className="flex-grow p-7 flex flex-col">
-            {sections.map(section => (
-              <TranslateSection key={section.id} getTranslation={getTranslation} onDelete={() => handleDeleteSection(section.id)} />
-            ))}
-            <AddButton className="flex justify-center p-8" onClick={handleAddSection} />
-          </main>
+          <Leaflet/>  
         </div>
       </div>
-    </TranslateContext.Provider>
+    </TranslateContextProvider>
   );
 }
 
