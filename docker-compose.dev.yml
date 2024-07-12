@@ -1,27 +1,27 @@
 services:  
-  # medical-translation-flask:
-  #   container_name: 'MediTranslateAI-flask'
-  #   build:
-  #     context: './flask_backend'
-  #     dockerfile: ./Dockerfile
-  #   image: medical-translation-flask
-  #   stop_signal: SIGINT
-  #   environment:
-  #     - PYTHONDONTWRITEBYTECODE 1
-  #     - PYTHONUNBUFFERED 1   
-  #     - LOG_LEVEL=INFO
-  #     - LOGS_DIR=./logs
-  #     - PORT=8000      
-  #     - SECRET_KEY=secret-key
-  #     - FLASK_ENV=development
-  #     - FLASK_RUN_HOST=0.0.0.0
-  #     - FLASK_DEBUG=1
-  #     - MONGODB_URI=mongodb://mongodb:27017/translation_db
-  #   ports:
-  #    - "8000:8000"      
-  #   volumes:
-  #     - ./flask_backend:/src   
-  #   env_file: ./.env.development
+  medical-translation-flask:
+    container_name: 'MediTranslateAI-flask'
+    build:
+      context: './flask_backend'
+      dockerfile: ./Dockerfile
+    image: medical-translation-flask
+    stop_signal: SIGINT
+    environment:
+      - PYTHONDONTWRITEBYTECODE 1
+      - PYTHONUNBUFFERED 1   
+      - LOG_LEVEL=INFO
+      - LOGS_DIR=./logs
+      - PORT=8000      
+      - SECRET_KEY=secret-key
+      - FLASK_ENV=development
+      - FLASK_RUN_HOST=0.0.0.0
+      - FLASK_DEBUG=1
+      - MONGODB_URI=mongodb://mongodb:27017/translation_db
+    ports:
+     - "8000:8000"      
+    volumes:
+      - ./flask_backend:/src   
+    env_file: ./.env.development
 
 
   medical-translation-react:

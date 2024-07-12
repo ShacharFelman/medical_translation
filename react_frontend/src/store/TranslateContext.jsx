@@ -1,4 +1,5 @@
 import React, {createContext, useState, useReducer} from 'react';
+import { translateParagraph } from '../services/translateService';
 
 export const TranslateContext = createContext();
 
@@ -37,7 +38,6 @@ function translateReducer(leafletState, action) {
   }
 }
 
-
 export default function TranslateContextProvider({children}) {
     const initialState = { sections: [{ id: 0, inputText: '', translation: '' }] };
     const [leafletState, leafletDispatch] = useReducer(translateReducer, initialState);
@@ -59,10 +59,13 @@ export default function TranslateContextProvider({children}) {
       setCurrentLeafletName(newName);
     };
   
+    // const getTranslation = (text) => {
+    //     return `English: ${currentLeafletName} ${text}`;
+    // };
     const getTranslation = (text) => {
-        return `English: ${currentLeafletName} ${text}`;
+        return translateParagraph('heb', 'eng', text);
     };
-
+    
     const addSection = () => {
       leafletDispatch({ type: 'ADD_SECTION' });
     };
