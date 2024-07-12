@@ -12,6 +12,7 @@ export default function TranslateSection({inputText,
                                             
   const {getTranslation} = useContext(TranslateContext);
   const [localInputText, setLocalInputText] = useState(inputText);
+  const [isTranslating, setIsTranslating] = useState(false);
 
    // Synchronize localInputText with the inputText prop
   useEffect(() => {
@@ -25,15 +26,24 @@ export default function TranslateSection({inputText,
       onInputChange(newText);
     }  
     
-    function handleTranslate() {
-      const newTranslation = getTranslation(localInputText);
-      onTranslate(newTranslation);
+    async function handleTranslate() {
+      setIsTranslating(true);
+      try{
+        const newTranslation = await getTranslation(localInputText);
+        onTranslate(newTranslation);
+      }
+      catch(error){
+        console.error('Error translating paragraph:', error);
+      }
+      finally{
+        setIsTranslating(false);
+      }
     }
   
      return (
       <div className="relative flex flex-grow space-x-5 mb-8">
         <OutputTextArea translation= {translation}/>
-        <InputTextArea inputText={inputText} onChange={handleTextToTranslate} onClickTranslate={handleTranslate}/>
+        <InputTextArea inputText={inputText} onChange={handleTextToTranslate} onClickTranslate={handleTranslate} isTranslating= {isTranslating}/>
         <DeleteButton onClick={onDelete} />
       </div>
     );

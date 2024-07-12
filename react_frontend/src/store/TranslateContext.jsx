@@ -1,5 +1,5 @@
 import React, {createContext, useState, useReducer} from 'react';
-import { translateParagraph } from '../services/translateService';
+import translateParagraph from '../api/Api';
 
 export const TranslateContext = createContext();
 
@@ -62,8 +62,16 @@ export default function TranslateContextProvider({children}) {
     // const getTranslation = (text) => {
     //     return `English: ${currentLeafletName} ${text}`;
     // };
-    const getTranslation = (text) => {
-        return translateParagraph('heb', 'eng', text);
+    const getTranslation = async(text) => {
+      try{
+        const translate = await translateParagraph('heb', 'eng', text);
+        console.info('***********************Translation:', translate);
+        return translate;
+      }
+      catch(error){
+        console.error('Error translating paragraph:', error);
+        return 'Error translating paragraph';
+      }
     };
     
     const addSection = () => {
