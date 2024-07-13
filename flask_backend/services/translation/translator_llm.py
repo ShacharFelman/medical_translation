@@ -4,6 +4,7 @@ from langchain_core.language_models.chat_models import BaseChatModel
 from services.translation.prompt_templates import translation_prompt, translation_parser
 from data.boundaries import TranslatorLLMResponse
 
+
 class TranslatorLLM:
     def __init__(self, llm: BaseChatModel, translator_name: str) -> None:
         self.llm = llm
@@ -14,8 +15,8 @@ class TranslatorLLM:
         metadata = {}
         try:
             if not isinstance(text_input, str) or not text_input.strip():
-                logger.warning("Invalid or empty input provided for translation.")
-                return self._create_error_response("Invalid input", metadata)
+                logger.warning(f"{self.translator_name}: Invalid or empty input provided for translation.")
+                return self._create_error_response("Invalid or empty input", metadata)
 
             response = self.chain.invoke({"text_input": text_input})
             
@@ -23,27 +24,33 @@ class TranslatorLLM:
                 metadata = response.response_metadata
 
             if not response or not hasattr(response, 'content'):
-                logger.error("Unexpected response format from language model.")
+                logger.error(f"{self.translator_name}: Unexpected response format from language model.")
                 return self._create_error_response("Unexpected response format", metadata)
 
-
-            # TODO: check that the case of not successful translation throught the parser
-            #  (e.g. status != [TRANSLATION SUCCESSFUL]) is handled as error
             try:
                 parsed_response = translation_parser.parse(response.content)
             except Exception as parse_error:
-                logger.error(f"Error parsing translation response: {str(parse_error)}")
+                logger.error(f"{self.translator_name}: Error parsing translation response: {str(parse_error)}")
                 return self._create_error_response(f"Parsing error: {str(parse_error)}", metadata)
+
+            if parsed_response.get("status") != "[TRANSLATION SUCCESSFUL]":
+                logger.warning(f"{self.translator_name}: Translation not successful. Status: {parsed_response.get('status')}")
+                return self._create_error_response("Translation not successful", metadata)
+
+            translated_text = parsed_response.get("translated_text", "").strip()
+            if not translated_text:
+                logger.warning(f"{self.translator_name}: Empty translation result.")
+                return self._create_error_response("Empty translation result", metadata)
 
             return TranslatorLLMResponse(
                 translator_name=self.translator_name,
                 status="success",
-                translated_text=parsed_response.get("translated_text", ""),
+                translated_text=translated_text,
                 metadata=metadata
             )
 
         except Exception as e:
-            logger.exception(f"An unexpected error occurred during translation: {str(e)}")
+            logger.exception(f"{self.translator_name}: An unexpected error occurred during translation: {str(e)}")
             return self._create_error_response(f"Unexpected error: {str(e)}", metadata)
 
     def _create_error_response(self, error_message: str, metadata: Dict[str, Any]) -> TranslatorLLMResponse:

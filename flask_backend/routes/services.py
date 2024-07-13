@@ -53,12 +53,14 @@ def translate_text():
     try:
         translation_response: TranslationResponse = translation_manager.translate(translation_request)
         
-        # Convert TranslationResponse to dictionary
-        # response_data = {
-        #     'translated_text': translation_response.translated_text,
-        #     'translator_used': translation_response.translator_used,
-        #     'confidence_score': translation_response.confidence_score
-        # }
+        if not translation_response.translated_text:
+            logger.error("Translation failed: Empty translated text")
+            return jsonify({
+                'error': {
+                    "eng": "Translation failed",
+                    "heb": "התרגום נכשל"
+                }
+            }), 500
         
         return jsonify({'data': translation_response.translated_text}), 200
     except Exception as e:
@@ -66,7 +68,6 @@ def translate_text():
         return internal_server_error()
 
 ######################################################################
-
 
 # @services_bp.route('/html-docx', methods=['POST'])
 # def download_docx(): 
