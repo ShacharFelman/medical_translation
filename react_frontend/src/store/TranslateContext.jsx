@@ -1,5 +1,5 @@
-import React, {createContext, useState, useReducer} from 'react';
-import translateParagraph , {saveLeafletToDB} from '../api/Api';
+import React, {createContext, useState, useReducer, useEffect} from 'react';
+import translateParagraph , {saveLeafletToDB, fetchLeafletsFromDB } from '../api/Api';
 
 export const TranslateContext = createContext();
 
@@ -48,6 +48,20 @@ export default function TranslateContextProvider({children}) {
     const [leafletState, leafletDispatch] = useReducer(translateReducer, initialState);
     const [leafletsCards, setLeafletsCards] = useState([]);
   
+    const fetchLeaflets = async () => {
+      try {
+          const fetchedLeaflets = await fetchLeafletsFromDB();
+          console.log('Fetched leaflets:', fetchedLeaflets);
+          setLeafletsCards(fetchedLeaflets);
+      } catch (error) {
+          console.error('Error fetching leaflets:', error);
+      }
+    };
+
+    useEffect(() => {
+      fetchLeaflets();
+    }, []);
+
     const saveLeaflet = async () => {
       const leafletToSave  = {
         name: leafletState.name,
@@ -127,7 +141,8 @@ export default function TranslateContextProvider({children}) {
         addSection,
         deleteSection,
         changeInputText,
-        updateOutputText
+        updateOutputText,
+        fetchLeaflets  
     };
 
     return (
@@ -136,9 +151,3 @@ export default function TranslateContextProvider({children}) {
         </TranslateContext.Provider>
     );
 }
-
-
-// const translateParagraph = async (source,dest,textInput,htmlInput) => {
-//     const response = await client.translateParagraph(referenceToken,source,dest,textInput,htmlInput);
-//     return handleResponse(response);
-// }

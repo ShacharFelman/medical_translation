@@ -9,7 +9,8 @@ export default function Leaflet() {
             addSection,
             deleteSection,
             changeInputText,
-            updateOutputText } = useContext(TranslateContext);
+            updateOutputText 
+        } = useContext(TranslateContext);
 
     return (
         <main className="flex-grow p-7 flex flex-col">
