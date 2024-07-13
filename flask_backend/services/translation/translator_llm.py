@@ -2,51 +2,59 @@ from utils.logger import logger
 from typing import Dict, Any
 from langchain_core.language_models.chat_models import BaseChatModel
 from services.translation.prompt_templates import translation_prompt, translation_parser
+from data.boundaries import TranslatorLLMResponse
 
 class TranslatorLLM:
-    def __init__(self, llm: BaseChatModel, model_name: str) -> None:
+    def __init__(self, llm: BaseChatModel, translator_name: str) -> None:
         self.llm = llm
-        self.model_name = model_name
+        self.translator_name = translator_name
         self.chain = translation_prompt | llm
 
-    def translate(self, text_input: str) -> Dict[str, Any]:
+    def translate(self, text_input: str) -> TranslatorLLMResponse:
+        metadata = {}
         try:
             if not isinstance(text_input, str) or not text_input.strip():
                 logger.warning("Invalid or empty input provided for translation.")
-                return self._create_error_response("Invalid input")
+                return self._create_error_response("Invalid input", metadata)
 
             response = self.chain.invoke({"text_input": text_input})
             
+            if hasattr(response, 'response_metadata'):
+                metadata = response.response_metadata
+
             if not response or not hasattr(response, 'content'):
                 logger.error("Unexpected response format from language model.")
-                return self._create_error_response("Unexpected response format")
+                return self._create_error_response("Unexpected response format", metadata)
 
-                #hasdfkjhsadkfjhasdkfjhsadkfjhsadkfj
 
+            # TODO: check that the case of not successful translation throught the parser
+            #  (e.g. status != [TRANSLATION SUCCESSFUL]) is handled as error
             try:
                 parsed_response = translation_parser.parse(response.content)
             except Exception as parse_error:
                 logger.error(f"Error parsing translation response: {str(parse_error)}")
-                return self._create_error_response("Parsing error")
+                return self._create_error_response(f"Parsing error: {str(parse_error)}", metadata)
 
-            return {
-                "model_name": self.model_name,
-                "status": parsed_response.get("status", "unknown"),
-                "content": parsed_response.get("translated_text", ""),
-                "metadata": {
-                    **(response.response_metadata if hasattr(response, 'response_metadata') else {})
-                }
-            }
+            return TranslatorLLMResponse(
+                translator_name=self.translator_name,
+                status="success",
+                translated_text=parsed_response.get("translated_text", ""),
+                metadata=metadata
+            )
 
         except Exception as e:
             logger.exception(f"An unexpected error occurred during translation: {str(e)}")
-            return self._create_error_response("Unexpected error")
+            return self._create_error_response(f"Unexpected error: {str(e)}", metadata)
 
-    def _create_error_response(self, error_message: str) -> Dict[str, Any]:
-        return {
-            "content": "",
-            "metadata": {
-                "translation_status": "error",
-                "error_message": error_message
-            }
+    def _create_error_response(self, error_message: str, metadata: Dict[str, Any]) -> TranslatorLLMResponse:
+        error_metadata = {
+            **metadata,
+            "error_message": error_message
         }
+        
+        return TranslatorLLMResponse(
+            translator_name=self.translator_name,
+            status="error",
+            translated_text="",
+            metadata=error_metadata
+        )

@@ -1,23 +1,32 @@
+# Flask backend server
 flask
 flask-cors
-openai
 python-dotenv
-openai-function-tokens
-anthropic
-langdetect
-python-docx
-htmldocx
-langchain
+
+# Database interaction
 pymongo
+
+# Language detection and processing
+langdetect
 nltk
 scikit-learn
 
-# langchain models
+# Document processing
+python-docx
+htmldocx
+
+# Langchain models
+langchain
 langchain_openai
 langchain_anthropic
 langchain_community
 langchain-google-genai
 langchain_voyageai 
+
+# other llms
+openai
+openai-function-tokens
+anthropic
 
 # test requirements
 pandas
