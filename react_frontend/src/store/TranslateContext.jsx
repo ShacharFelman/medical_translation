@@ -1,5 +1,5 @@
 import React, {createContext, useState, useReducer} from 'react';
-import translateParagraph from '../api/Api';
+import translateParagraph , {saveLeafletToDB} from '../api/Api';
 
 export const TranslateContext = createContext();
 
@@ -33,40 +33,63 @@ function translateReducer(leafletState, action) {
           section.id === action.id ? { ...section, translation: action.newTranslation } : section
         )
       };
+    case 'SET_LEAFLET_NAME':
+      return {
+        ...leafletState,
+        name: action.name
+      };  
     default:
       return leafletState;
   }
 }
 
 export default function TranslateContextProvider({children}) {
-    const initialState = { sections: [{ id: 0, inputText: '', translation: '' }] };
+    const initialState = { sections: [{ id: 0, inputText: '', translation: '' }], name: 'Untitled Leaflet' };
     const [leafletState, leafletDispatch] = useReducer(translateReducer, initialState);
-    const [currentLeafletName, setCurrentLeafletName] = useState('Untitled Leaflet');
-    const [leafletsCards, setLeafletsCards] = useState([
-      { id: 1, name: currentLeafletName, date: '2024-07-01' },
-      { id: 2, name: 'Leaflet 2', date: '2024-06-30' },
-      // Add more cards as needed
-    ]);
+    const [leafletsCards, setLeafletsCards] = useState([]);
   
-    const saveLeaflet = () => {
-      setLeafletsCards([...leafletsCards, 
-        { id: leafletsCards.length + 1, name: `Leaflet ${leafletsCards.length + 1}`, date: new Date().toISOString().split('T')[0] }
-      ]);
-      // Save to JSON file and send to backend to save to database
+    const saveLeaflet = async () => {
+      const leafletToSave  = {
+        name: leafletState.name,
+        date: new Date().toISOString().split('T')[0],
+        sections: leafletState.sections
+      };
+
+       // Log the data of the sections that should be saved
+       console.log('Saving leaflet with the following data:');
+       console.log('Leaflet Name:', leafletToSave.name);
+       console.log('Sections:');
+       leafletToSave.sections.forEach((section, index) => {
+         console.log(`Section ${index + 1}:`);
+         console.log('  ID:', section.id);
+         console.log('  Input Text:', section.inputText);
+         console.log('  Translation:', section.translation);
+       });
+      
+      try {
+        // await saveLeafletToDB(leafletToSave );
+        const newCard = { id: leafletsCards.length + 1, name: leafletToSave.name, date: leafletToSave.date };
+        setLeafletsCards(prevCards => [...prevCards, newCard]);
+        // setLeafletsCards([...leafletsCards, newCard]);
+        
+        // Log the data of the leaflet that was saved
+        leafletsCards.forEach((leaflet, index) => {
+          console.log('  ID:', leaflet.id);
+          console.log('  name:', leaflet.name);
+          console.log('  date:', leaflet.date);
+        });
+
+        console.log('  Leaflet saved successfully');
+      } catch (error) {
+        console.error('Error saving leaflet:', error);
+      }
     };
-  
-    const handleLeafletNameChange = (newName) => {
-      setCurrentLeafletName(newName);
-    };
-  
-    // const getTranslation = (text) => {
-    //     return `English: ${currentLeafletName} ${text}`;
-    // };
+
     const getTranslation = async(text) => {
       try{
         const translate = await translateParagraph('heb', 'eng', text);
         console.info('***********************Translation:', translate);
-        return translate;
+        return leafletState.name +"  : "+ translate;
       }
       catch(error){
         console.error('Error translating paragraph:', error);
@@ -90,8 +113,12 @@ export default function TranslateContextProvider({children}) {
       leafletDispatch({ type: 'UPDATE_OUTPUT_TEXT', id, newTranslation });
     };
 
+    const handleLeafletNameChange = (newName) => {
+      leafletDispatch({ type: 'SET_LEAFLET_NAME', name: newName })
+    };
+
     const translateCtx = {
-        currentLeafletName,
+        currentLeafletName: leafletState.name,
         sections: leafletState.sections,
         leafletsCards,
         saveLeaflet,
