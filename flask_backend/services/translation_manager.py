@@ -1,16 +1,16 @@
 from utils.singleton_meta import SingletonMeta
 from utils.logger import logger
 from database.mongodb_client import MongoDBClient
-from flask_backend.services.llm_manager import initialize_translators
+from services.translation.llm_manager import initialize_translators
 from services.translation.translation_selector import translation_selector
-from evaluation.bleu_score import calculate_bleu
+from services.evaluation.bleu_score import calculate_bleu
 import time
 
 class TranslationManager(metaclass=SingletonMeta):
     def __init__(self) -> None:
+        self._initialized = False
         self.translators = initialize_translators()
         self.mongo_client = MongoDBClient.get_instance()
-        self._initialized = False
 
     def initialize(self):
         self._initialized = True
@@ -22,7 +22,7 @@ class TranslationManager(metaclass=SingletonMeta):
         if not self.is_initialized():
             raise RuntimeError("TranslationManager is not initialized")
 
-        translations_output = self._generate_translations(text_input, human_verified_translation)
+        translations_output = self._generate_translations(text_input, human_verified_translation=None)
         best_translation, similarity_scores = translation_selector.select_best_translation(translations_output)
         
         translation_record = self._prepare_translation_record(text_input, translations_output, best_translation, similarity_scores)
@@ -46,14 +46,16 @@ class TranslationManager(metaclass=SingletonMeta):
         end_time = time.time()
         response_time = end_time - start_time
 
+        bleu_score = None
         if human_verified_translation:
             bleu_score = calculate_bleu(human_verified_translation, translation['content'])
+        
 
         return {
             'model_name': translation['model_name'],
             'output': translation['content'],
             'response_time': response_time,
-            'bleu_score': bleu_score,
+            # 'bleu_score': bleu_score,
             'metadata': translation['metadata']
         }
 
@@ -88,8 +90,8 @@ class TranslationManager(metaclass=SingletonMeta):
             logger.info(f"Translator: {translation['model_name']}")
             logger.info(f"score: {translation['score']:.4f}")
             logger.info(f"Response time: {translation['response_time']:.2f} seconds")
-            if translation['bleu_score'] is not None:
-                logger.info(f"BLEU score: {translation['bleu_score']:.4f}")
+            # if translation['bleu_score'] is not None:
+            #     logger.info(f"BLEU score: {translation['bleu_score']:.4f}")
             logger.info(f"Translator metadata: {translation['metadata']}")
             logger.info("---")
 

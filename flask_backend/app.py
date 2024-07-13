@@ -1,11 +1,11 @@
-from engine.engine import translation_engine
 import os
 from flask import Flask
 from flask_cors import CORS
-from utils.exceptions import InvalidUserInputError
 from flask.logging import default_handler
-from routes import static_bp,api_bp,services_bp
+from utils.exceptions import InvalidUserInputError
 from utils.error_handlers import handle_exception, invalid_user_input_error
+from routes import static_bp,api_bp,services_bp
+from services.translation_manager import translation_manager 
 
 def create_app():
     app = Flask(__name__,static_folder="</>",static_url_path='')
@@ -32,7 +32,7 @@ def create_app():
         app.register_blueprint(static_bp)
 
     with app.app_context():
-        translation_engine.initialize()
+        translation_manager.initialize()
     
     return app
 

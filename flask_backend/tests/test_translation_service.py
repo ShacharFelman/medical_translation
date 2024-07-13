@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import patch, MagicMock
-from services.translation_service import TranslationService
-from flask_backend.services.translator_llm import Translator
+from services.translation_manager import TranslationManager
+from services.translation.translator_llm import TranslatorLLM
 
 class TestTranslationService(unittest.TestCase):
 
@@ -14,11 +14,11 @@ class TestTranslationService(unittest.TestCase):
         mock_mongo_client.return_value = self.mock_mongo_instance
 
         # Mock translators
-        self.mock_translator1 = MagicMock(spec=Translator)
-        self.mock_translator2 = MagicMock(spec=Translator)
+        self.mock_translator1 = MagicMock(spec=TranslatorLLM)
+        self.mock_translator2 = MagicMock(spec=TranslatorLLM)
         mock_initialize_translators.return_value = [self.mock_translator1, self.mock_translator2]
 
-        self.translation_service = TranslationService()
+        self.translation_service = TranslationManager()
         self.translation_service.initialize()
 
     def test_translate_and_log(self):

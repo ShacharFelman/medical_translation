@@ -3,7 +3,7 @@ services:
     container_name: 'MediTranslateAI-flask'
     build:
       context: './flask_backend'
-      dockerfile: ./Dockerfile.test
+      dockerfile: ./Dockerfile
     image: medical-translation-flask
     stop_signal: SIGINT
     environment:

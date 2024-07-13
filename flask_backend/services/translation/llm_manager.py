@@ -27,5 +27,5 @@ def initialize_translators():
     return [
         TranslatorLLM(gpt_4o, 'gpt-4o'),
         TranslatorLLM(claude_3_opus, 'claude-3-opus'),
-        TranslatorLLM(llama3, 'llama3')
+        # TranslatorLLM(llama3, 'llama3')
     ]

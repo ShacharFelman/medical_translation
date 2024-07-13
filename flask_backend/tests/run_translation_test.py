@@ -5,13 +5,13 @@ import sys
 # Add the project root directory to Python path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from services.translation_service import TranslationService
+from services.translation_manager import TranslationManager
 
 def run_translation_test():
     # load_dotenv()  # Load environment variables from .env file
 
     # Initialize TranslationService
-    translation_service = TranslationService()
+    translation_service = TranslationManager()
     translation_service.initialize()
 
     # Hard-coded test parameters
