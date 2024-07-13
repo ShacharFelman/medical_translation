@@ -38,15 +38,12 @@ services:
       - "./react_frontend:/app"
       - "/app/node_modules" 
     ports:
-      - "3000:3000"      
-    command: >
-      bash -c "cp -rfu /cache/node_modules/. /app/node_modules/  
-      && npm start"
-            
+      - "5173:5173"            
 
   mongodb:
     image: mongo:latest
     container_name: mongodb
+    command: mongod --quiet --logpath /dev/null
     ports:
       - "27017:27017"
     volumes:
