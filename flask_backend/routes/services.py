@@ -16,9 +16,9 @@ from pydantic import ValidationError
 # from engine.cache import file_cache
 # from engine.file_handling.file_text_extraction import get_word_document_text
 # from engine.file_handling.files_processor import file_proccessor
-from data.boundaries import TranslationRequest, TranslationResponse, LeafletSaveRequest, Section
-
+from data.boundaries import TranslationRequest, TranslationResponse, LeafletSaveRequest
 from services.translation_manager import translation_manager
+from services.history_manager import history_manager
 
 services_bp = Blueprint('services', __name__,url_prefix='')
 
@@ -69,27 +69,50 @@ def translate_text():
         return internal_server_error()
     
 
-
-
+   
 @services_bp.route('/save-leaflet', methods=['POST'])
 def save_leaflet():     
     try:        
         data = request.json
         save_request = LeafletSaveRequest(**data)
-
-
         
-        return jsonify({"message": "Leaflet saved successfully", "data": save_request.dict()}), 200
+        result = history_manager.save_leaflet(save_request)
+        
+        if result:
+            return jsonify({"message": "Leaflet saved successfully", "data": {"id": result}}), 200
+        else:
+            return jsonify({"error": "Failed to save leaflet"}), 500
 
-    
     except ValidationError as e:
-        # This will catch any validation errors from Pydantic
         logger.error(f"Validation error: {str(e)}")
         return jsonify({"error": "Invalid data", "details": e.errors()}), 400
 
     except Exception as e:
         logger.error(f"Error saving leaflet: {str(e)}")
         return jsonify({"error": "Internal server error"}), 500
+
+# TODO: check/change/implement/decide id logic
+@services_bp.route('/get-leaflet/<leaflet_id>', methods=['GET'])
+def get_leaflet(leaflet_id):
+    try:
+        leaflet = history_manager.get_leaflet_history(leaflet_id)
+        
+        if leaflet:
+            return jsonify({"data": leaflet.dict()}), 200
+        else:
+            return jsonify({"error": "Leaflet not found"}), 404
+
+    except Exception as e:
+        logger.error(f"Error retrieving leaflet: {str(e)}")
+        return jsonify({"error": "Internal server error"}), 500
+
+
+
+
+
+
+
+
 ######################################################################
 
 # @services_bp.route('/html-docx', methods=['POST'])

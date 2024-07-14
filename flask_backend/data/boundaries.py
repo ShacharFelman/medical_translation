@@ -18,12 +18,12 @@ class TranslationResponse(BaseModel):
     translator_used: str
     confidence_score: float
 
-class Section(BaseModel):
+class LeafletSectionInput(BaseModel):
     id: int
-    inputText: str
-    translation: str
+    input_text: str
+    translated_text: str
 
 class LeafletSaveRequest(BaseModel):
     name: str
     date: datetime
-    sections: List[Section]
+    sections: List[LeafletSectionInput]

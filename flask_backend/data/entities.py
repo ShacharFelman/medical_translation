@@ -26,3 +26,32 @@ class TranslationRecordEntity(BaseModel):
     @classmethod
     def from_dict(cls, data: Dict[str, Any]) -> 'TranslationRecordEntity':
         return cls(**data)
+    
+class LeafletSectionEntity(BaseModel):
+    id: int
+    input_text: str
+    translated_text: str
+
+    def to_dict(self) -> Dict[str, Any]:
+        return self.model_dump()
+
+    @classmethod
+    def from_dict(cls, data: Dict[str, Any]) -> 'LeafletSectionEntity':
+        return cls(**data)
+
+class LeafletHistoryEntity(BaseModel):
+    name: str
+    date: datetime
+    sections: List[LeafletSectionEntity]
+    timestamp: datetime = datetime.now()
+
+    def to_dict(self) -> Dict[str, Any]:
+        return {
+            **self.model_dump(),
+            'sections': [section.to_dict() for section in self.sections]
+        }
+
+    @classmethod
+    def from_dict(cls, data: Dict[str, Any]) -> 'LeafletHistoryEntity':
+        sections = [LeafletSectionEntity.from_dict(section) for section in data.get('sections', [])]
+        return cls(**{**data, 'sections': sections})

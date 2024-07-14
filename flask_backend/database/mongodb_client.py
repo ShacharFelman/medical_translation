@@ -3,7 +3,7 @@ from typing import Optional, Dict, Any
 from pymongo import MongoClient
 from pymongo.errors import ConnectionFailure, OperationFailure
 
-from data.entities import TranslationRecordEntity
+from data.entities import TranslationRecordEntity, LeafletHistoryEntity
 from bson import ObjectId
 
 class MongoDBClient:
@@ -63,12 +63,14 @@ class MongoDBClient:
             return TranslationRecordEntity.from_dict(result)
         return None
 
-    # Placeholder methods for translation_history 
-    def insert_translation_history(self, history_record: Dict[str, Any]) -> Optional[str]:
-        return self.insert_document('translation_history', history_record)
+    def insert_translation_history(self, leaflet_history: LeafletHistoryEntity) -> Optional[str]:
+        return self.insert_document('translation_history', leaflet_history.to_dict())
 
-    def get_translation_history(self, id: str) -> Optional[Dict[str, Any]]:
-        return self.get_document('translation_history', id)
+    def get_translation_history(self, id: str) -> Optional[LeafletHistoryEntity]:
+        result = self.get_document('translation_history', id)
+        if result:
+            return LeafletHistoryEntity.from_dict(result)
+        return None
 
     def close(self):
         self.client.close()
