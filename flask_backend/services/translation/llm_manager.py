@@ -19,12 +19,12 @@ def initialize_translators():
                                   temperature=0.0,
                                   api_key=api_key_anthropic)
     
-    llama3 = ChatOllama(base_url=ollama_url,
-                        model="llama3",
+    qwen2 = ChatOllama(base_url=ollama_url,
+                        model="qwen2:1.5b",
                         temperature=0.0)
 
     return [
         TranslatorLLM(gpt_4o, 'gpt-4o'),
         TranslatorLLM(claude_3_opus, 'claude-3-opus'),
-        TranslatorLLM(llama3, 'llama3')
+        TranslatorLLM(qwen2, 'qwen2:1.5b')
     ]

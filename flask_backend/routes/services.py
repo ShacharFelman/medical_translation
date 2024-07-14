@@ -12,10 +12,11 @@ from utils.constants import Language
 # from htmldocx import HtmlToDocx
 from engine.input_handling import input_validation_handler
 from engine.output_handling import output_validation_handler
+from pydantic import ValidationError
 # from engine.cache import file_cache
 # from engine.file_handling.file_text_extraction import get_word_document_text
 # from engine.file_handling.files_processor import file_proccessor
-from data.boundaries import TranslationRequest, TranslationResponse
+from data.boundaries import TranslationRequest, TranslationResponse, LeafletSaveRequest, Section
 
 from services.translation_manager import translation_manager
 
@@ -66,7 +67,29 @@ def translate_text():
     except Exception as e:
         logger.error(f"Error during translation: {str(e)}")
         return internal_server_error()
+    
 
+
+
+@services_bp.route('/save-leaflet', methods=['POST'])
+def save_leaflet():     
+    try:        
+        data = request.json
+        save_request = LeafletSaveRequest(**data)
+
+
+        
+        return jsonify({"message": "Leaflet saved successfully", "data": save_request.dict()}), 200
+
+    
+    except ValidationError as e:
+        # This will catch any validation errors from Pydantic
+        logger.error(f"Validation error: {str(e)}")
+        return jsonify({"error": "Invalid data", "details": e.errors()}), 400
+
+    except Exception as e:
+        logger.error(f"Error saving leaflet: {str(e)}")
+        return jsonify({"error": "Internal server error"}), 500
 ######################################################################
 
 # @services_bp.route('/html-docx', methods=['POST'])

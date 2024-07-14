@@ -50,9 +50,9 @@ export default function TranslateContextProvider({children}) {
   
     const fetchLeaflets = async () => {
       try {
-          const fetchedLeaflets = await fetchLeafletsFromDB();
-          console.log('Fetched leaflets:', fetchedLeaflets);
-          setLeafletsCards(fetchedLeaflets);
+          // const fetchedLeaflets = await fetchLeafletsFromDB();
+          // console.log('Fetched leaflets:', fetchedLeaflets);
+          // setLeafletsCards(fetchedLeaflets);
       } catch (error) {
           console.error('Error fetching leaflets:', error);
       }
@@ -65,7 +65,7 @@ export default function TranslateContextProvider({children}) {
     const saveLeaflet = async () => {
       const leafletToSave  = {
         name: leafletState.name,
-        date: new Date().toISOString().split('T')[0],
+        date: new Date().toISOString(),
         sections: leafletState.sections
       };
 
@@ -103,7 +103,7 @@ export default function TranslateContextProvider({children}) {
       try{
         const translate = await translateParagraph('heb', 'eng', text);
         console.info('***********************Translation:', translate);
-        return leafletState.name +"  : "+ translate;
+        return translate;
       }
       catch(error){
         console.error('Error translating paragraph:', error);

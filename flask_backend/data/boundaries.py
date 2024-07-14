@@ -1,5 +1,6 @@
 from pydantic import BaseModel
-from typing import Dict, Any
+from typing import Dict, Any, List
+from datetime import datetime
 
 class TranslatorLLMResponse(BaseModel):
     translator_name: str
@@ -16,3 +17,13 @@ class TranslationResponse(BaseModel):
     translated_text: str
     translator_used: str
     confidence_score: float
+
+class Section(BaseModel):
+    id: int
+    inputText: str
+    translation: str
+
+class LeafletSaveRequest(BaseModel):
+    name: str
+    date: datetime
+    sections: List[Section]
