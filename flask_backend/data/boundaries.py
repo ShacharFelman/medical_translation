@@ -20,8 +20,8 @@ class TranslationResponse(BaseModel):
 
 class LeafletSectionInput(BaseModel):
     id: int
-    input_text: str
-    translated_text: str
+    inputText: str
+    translation: str
 
 class LeafletSaveRequest(BaseModel):
     name: str

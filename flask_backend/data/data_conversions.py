@@ -21,8 +21,8 @@ def leaflet_save_request_to_entity(save_request: LeafletSaveRequest) -> LeafletH
     sections = [
         LeafletSectionEntity(
             id=section.id,
-            input_text=section.input_text,
-            translated_text=section.translated_text
+            input_text=section.inputText,
+            translated_text=section.translation
         ) for section in save_request.sections
     ]
     return LeafletHistoryEntity(
@@ -35,8 +35,8 @@ def leaflet_history_entity_to_save_request(entity: LeafletHistoryEntity) -> Leaf
     sections = [
         LeafletSectionInput(
             id=section.id,
-            input_text=section.input_text,
-            translated_text=section.translated_text
+            inputText=section.input_text,
+            translation=section.translated_text
         ) for section in entity.sections
     ]
     return LeafletSaveRequest(

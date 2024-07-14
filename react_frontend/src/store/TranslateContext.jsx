@@ -81,7 +81,7 @@ export default function TranslateContextProvider({children}) {
        });
       
       try {
-        // await saveLeafletToDB(leafletToSave );
+        await saveLeafletToDB(leafletToSave );
         const newCard = { id: leafletsCards.length + 1, name: leafletToSave.name, date: leafletToSave.date };
         setLeafletsCards(prevCards => [...prevCards, newCard]);
         // setLeafletsCards([...leafletsCards, newCard]);
