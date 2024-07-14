@@ -1,5 +1,6 @@
 import React, {createContext, useState, useReducer, useEffect} from 'react';
 import translateParagraph , {saveLeafletToDB, fetchLeafletsFromDB } from '../api/Api';
+import { format } from 'date-fns';
 
 export const TranslateContext = createContext();
 
@@ -82,7 +83,8 @@ export default function TranslateContextProvider({children}) {
       
       try {
         await saveLeafletToDB(leafletToSave );
-        const newCard = { id: leafletsCards.length + 1, name: leafletToSave.name, date: leafletToSave.date };
+        const formattedDate = format(new Date(leafletToSave.date), 'dd/MM/yyyy HH:mm');
+        const newCard = { id: leafletsCards.length + 1, name: leafletToSave.name, date: formattedDate};
         setLeafletsCards(prevCards => [...prevCards, newCard]);
         // setLeafletsCards([...leafletsCards, newCard]);
         
@@ -90,7 +92,7 @@ export default function TranslateContextProvider({children}) {
         leafletsCards.forEach((leaflet, index) => {
           console.log('  ID:', leaflet.id);
           console.log('  name:', leaflet.name);
-          console.log('  date:', leaflet.date);
+          console.log('  date:', formattedDate);
         });
 
         console.log('  Leaflet saved successfully');
