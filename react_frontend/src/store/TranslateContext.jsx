@@ -85,11 +85,11 @@ export default function TranslateContextProvider({children}) {
         await saveLeafletToDB(leafletToSave );
         const formattedDate = format(new Date(leafletToSave.date), 'dd/MM/yyyy HH:mm');
         const newCard = { id: leafletsCards.length + 1, name: leafletToSave.name, date: formattedDate};
-        setLeafletsCards(prevCards => [...prevCards, newCard]);
-        // setLeafletsCards([...leafletsCards, newCard]);
+        // setLeafletsCards(prevCards => [...prevCards, newCard]);
+        setLeafletsCards([...leafletsCards, newCard]);
         
         // Log the data of the leaflet that was saved
-        leafletsCards.forEach((leaflet, index) => {
+        leafletsCards.forEach((leaflet) => {
           console.log('  ID:', leaflet.id);
           console.log('  name:', leaflet.name);
           console.log('  date:', formattedDate);

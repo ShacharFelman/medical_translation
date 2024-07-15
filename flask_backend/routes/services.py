@@ -29,7 +29,7 @@ def create_user_error(error_in_english:str,error_in_hebrew:str,status_code:int=5
     }}),status_code
 
 
-@services_bp.route('/text', methods=['POST'])
+@services_bp.route('/translate', methods=['POST'])
 def translate_text():    
     if not translation_manager.is_initialized():
         return engine_not_initialized_response()   

@@ -16,7 +16,7 @@ export default async function translateParagraph(source, dest, textInput) {
   };
   
   try {
-      const response = await API.post('/text', body);
+      const response = await API.post('/translate', body);
       return response.data.data;
   } catch (error) {
       console.error('Error translating paragraph:', error);
