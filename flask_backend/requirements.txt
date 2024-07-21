@@ -5,6 +5,7 @@ python-dotenv
 
 # Database interaction
 pymongo
+uuid
 
 # Language detection and processing
 langdetect

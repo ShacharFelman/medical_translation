@@ -64,11 +64,17 @@ class MongoDBClient:
         return None
 
     def insert_translation_history(self, leaflet_history: LeafletHistoryEntity) -> Optional[str]:
-        return self.insert_document('translation_history', leaflet_history.to_dict())
+        try:
+            result = self.collections['translation_history'].insert_one(leaflet_history.to_dict())
+            return str(result.inserted_id)
+        except Exception as e:
+            logger.error(f"Failed to insert leaflet into MongoDB: {str(e)}")
+            return None
+
 
     # def get_translation_history(self, leaflet_id: str) -> Optional[LeafletHistoryEntity]:
     #     try:
-    #         result = self.collections['translation_history'].find_one({"_id": ObjectId(leaflet_id)})
+    #         result = self.collections['translation_history'].find_one({"id": leaflet_id})
     #         return LeafletHistoryEntity.from_dict(result) if result else None
     #     except Exception as e:
     #         logger.error(f"Failed to retrieve leaflet from MongoDB: {str(e)}")
@@ -76,11 +82,12 @@ class MongoDBClient:
 
     def get_all_translation_history(self) -> List[LeafletHistoryEntity]:
         try:
-            result = self.collections['translation_history'].find()
+            result = self.collections['translation_history'].find({}, {'_id': 0})  # Exclude MongoDB's _id field
+            # logger.info(f'*****\n{result}\n*****')
             return [LeafletHistoryEntity.from_dict(doc) for doc in result]
         except Exception as e:
             logger.error(f"Failed to retrieve all leaflets from MongoDB: {str(e)}")
-            return [] 
+            return []
 
     def close(self):
         self.client.close()

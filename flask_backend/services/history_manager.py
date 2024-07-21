@@ -11,12 +11,14 @@ class HistoryManager(metaclass=SingletonMeta):
 
     def save_leaflet(self, save_request: LeafletSaveRequest) -> Optional[str]:
         try:
-            leaflet_history = leaflet_save_request_to_entity(save_request)   
+            logger.info(f"Saving leaflet request: {save_request}")
+            leaflet_history = leaflet_save_request_to_entity(save_request)
+            logger.info(f"Saving leaflet: {leaflet_history}")
             result = self.mongo_client.insert_translation_history(leaflet_history)
             
             if result:
-                logger.info(f"Leaflet saved successfully with ID: {result}")
-                return result
+                logger.info(f"Leaflet saved successfully with ID: {leaflet_history.id}")
+                return leaflet_history.id
             else:
                 logger.error("Failed to save leaflet to database")
                 return None
