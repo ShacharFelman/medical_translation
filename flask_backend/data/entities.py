@@ -1,6 +1,7 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from typing import List, Dict, Any, Optional
 from datetime import datetime
+from bson import ObjectId
 
 class TranslationEntity(BaseModel):
     translator_name: str
@@ -40,16 +41,24 @@ class LeafletSectionEntity(BaseModel):
         return cls(**data)
 
 class LeafletHistoryEntity(BaseModel):
+    id: str = Field(alias='_id')
     name: str
     date: datetime
     sections: List[LeafletSectionEntity]
-    timestamp: datetime = datetime.now()
+    # timestamp: datetime = datetime.now()
 
-    def to_dict(self) -> Dict[str, Any]:
-        return {
-            **self.model_dump(),
-            'sections': [section.to_dict() for section in self.sections]
+    class Config:
+        allow_population_by_field_name = True
+        json_encoders = {
+            ObjectId: str  # This will convert ObjectId to string when necessary
         }
+
+
+    # def to_dict(self) -> Dict[str, Any]:
+    #     return {
+    #         **self.model_dump(),
+    #         'sections': [section.to_dict() for section in self.sections]
+    #     }
 
     @classmethod
     def from_dict(cls, data: Dict[str, Any]) -> 'LeafletHistoryEntity':

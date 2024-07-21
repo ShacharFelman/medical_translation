@@ -1,6 +1,5 @@
 from data.entities import TranslationEntity, LeafletHistoryEntity, LeafletSectionEntity
-from data.boundaries import TranslationResponse, TranslatorLLMResponse, LeafletSaveRequest, LeafletSectionInput
-
+from data.boundaries import TranslationResponse, TranslatorLLMResponse, LeafletSaveRequest, LeafletSectionInput, LeafletResponse
 
 def translator_llm_response_to_entity(llm_response: TranslatorLLMResponse, response_time: float) -> TranslationEntity:
     return TranslationEntity(
@@ -43,4 +42,19 @@ def leaflet_history_entity_to_save_request(entity: LeafletHistoryEntity) -> Leaf
         name=entity.name,
         date=entity.date,
         sections=sections
+    )
+
+
+def leaflet_history_entity_to_response(entity: LeafletHistoryEntity) -> LeafletResponse:
+    return LeafletResponse(
+        id=entity.id,
+        name=entity.name,
+        date=entity.date,
+        sections=[
+            LeafletSectionInput(
+                id=str(section.id), 
+                inputText=section.input_text,
+                translation=section.translated_text
+            ) for section in entity.sections
+        ]
     )

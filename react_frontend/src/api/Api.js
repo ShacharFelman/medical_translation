@@ -37,6 +37,7 @@ export async function saveLeafletToDB(leaflet) {
 export async function fetchLeafletsFromDB() {
   try {
     const response = await API.get('/fetch-leaflets');
+    console.info('response:', response);
     return response.data;
   } catch (error) {
     console.error('Error fetching leaflets:', error);

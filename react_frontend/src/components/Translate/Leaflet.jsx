@@ -1,21 +1,27 @@
-import { useState, useContext } from 'react';
+import { useContext } from 'react';
 import TranslateSection from './TranslationSection.jsx';
 import AddButton from '../Buttons/AddButton.jsx';
 import LanguageSelection from './LanguageSelection.jsx';
 import { TranslateContext } from '../../store/TranslateContext.jsx';
 
 export default function Leaflet() {
-    const { sections ,
+    const { currentLeaflet ,
             addSection,
             deleteSection,
             changeInputText,
             updateOutputText 
         } = useContext(TranslateContext);
 
+    // const currentLeaflet = getCurrentLeaflet();
+
+    if (!currentLeaflet) {
+        return <div>No leaflet selected</div>;
+    }
+
     return (
         <main className="flex-grow p-7 flex flex-col">
             <LanguageSelection/>
-            {sections.map(section => (
+            {currentLeaflet.sections.map(section => (
                 <TranslateSection 
                     key={section.id}
                     inputText={section.inputText}

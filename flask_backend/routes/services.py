@@ -16,7 +16,7 @@ from pydantic import ValidationError
 # from engine.cache import file_cache
 # from engine.file_handling.file_text_extraction import get_word_document_text
 # from engine.file_handling.files_processor import file_proccessor
-from data.boundaries import TranslationRequest, TranslationResponse, LeafletSaveRequest
+from data.boundaries import TranslationRequest, TranslationResponse, LeafletSaveRequest, FetchLeafletsResponse
 from services.translation_manager import translation_manager
 from services.history_manager import history_manager
 
@@ -90,6 +90,22 @@ def save_leaflet():
     except Exception as e:
         logger.error(f"Error saving leaflet: {str(e)}")
         return jsonify({"error": "Internal server error"}), 500
+    
+@services_bp.route('/fetch-leaflets', methods=['GET'])
+def fetch_leaflets():
+    try:
+        result: FetchLeafletsResponse = history_manager.fetch_all_leaflets()
+        
+        if not result.leaflets:
+            return jsonify({"error": "No leaflets found"}), 404
+
+        return jsonify({"data": result.model_dump()}), 200
+
+    except Exception as e:
+        logger.error(f"Error fetching leaflets: {str(e)}")
+        return jsonify({"error": "Internal server error"}), 500
+
+
 
 # TODO: check/change/implement/decide id logic
 @services_bp.route('/get-leaflet/<leaflet_id>', methods=['GET'])

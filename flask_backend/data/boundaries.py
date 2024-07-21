@@ -27,3 +27,12 @@ class LeafletSaveRequest(BaseModel):
     name: str
     date: datetime
     sections: List[LeafletSectionInput]
+
+class LeafletResponse(BaseModel):
+    id: str
+    name: str
+    date: datetime
+    sections: List[LeafletSectionInput]
+
+class FetchLeafletsResponse(BaseModel):
+    leaflets: List[LeafletResponse]

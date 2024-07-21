@@ -1,10 +1,9 @@
-from typing import Optional
+from typing import Optional, List
 from utils.logger import logger
-from data.boundaries import LeafletSaveRequest
-from data.entities import LeafletHistoryEntity
+from data.boundaries import LeafletSaveRequest, FetchLeafletsResponse
 from database.mongodb_client import MongoDBClient
 from utils.singleton_meta import SingletonMeta
-from data.data_conversions import leaflet_save_request_to_entity, leaflet_history_entity_to_save_request
+from data.data_conversions import leaflet_save_request_to_entity, leaflet_history_entity_to_save_request, leaflet_history_entity_to_response
 
 class HistoryManager(metaclass=SingletonMeta):
     def __init__(self):
@@ -12,8 +11,7 @@ class HistoryManager(metaclass=SingletonMeta):
 
     def save_leaflet(self, save_request: LeafletSaveRequest) -> Optional[str]:
         try:
-            leaflet_history = leaflet_save_request_to_entity(save_request)
-            
+            leaflet_history = leaflet_save_request_to_entity(save_request)   
             result = self.mongo_client.insert_translation_history(leaflet_history)
             
             if result:
@@ -26,19 +24,29 @@ class HistoryManager(metaclass=SingletonMeta):
             logger.error(f"Error saving leaflet to history: {str(e)}")
             return None
         
-    # TODO: check/change/implement/decide id logic
-    def get_leaflet_history(self, leaflet_id: str) -> Optional[LeafletSaveRequest]:
+    def fetch_all_leaflets(self) -> FetchLeafletsResponse:
         try:
-            leaflet_entity = self.mongo_client.get_translation_history(leaflet_id)
+            leaflet_entities = self.mongo_client.get_all_translation_history()
+            leaflets = [leaflet_history_entity_to_response(entity) for entity in leaflet_entities]
             
-            if leaflet_entity:
-                return leaflet_history_entity_to_save_request(leaflet_entity)
-            else:
-                logger.warning(f"No leaflet found with ID: {leaflet_id}")
-                return None
+            return FetchLeafletsResponse(leaflets=leaflets)
         except Exception as e:
-            logger.error(f"Error retrieving leaflet history: {str(e)}")
-            return None
+            logger.error(f"Error fetching all leaflets: {str(e)}")
+            return FetchLeafletsResponse(leaflets=[])
+        
+#     # TODO: change id logic
+    # def get_leaflet_history(self, leaflet_id: str) -> Optional[LeafletSaveRequest]:
+    #     try:
+    #         leaflet_entity = self.mongo_client.get_translation_history(leaflet_id)
+            
+    #         if leaflet_entity:
+    #             return leaflet_history_entity_to_save_request(leaflet_entity)
+    #         else:
+    #             logger.warning(f"No leaflet found with ID: {leaflet_id}")
+    #             return None
+    #     except Exception as e:
+    #         logger.error(f"Error retrieving leaflet history: {str(e)}")
+    #         return None
 
 history_manager = HistoryManager()
 
