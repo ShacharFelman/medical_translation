@@ -1,13 +1,12 @@
 import os
-from typing import Dict
+from typing import Dict, Tuple
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
 from utils.logger import logger
 from utils.singleton_meta import SingletonMeta
-from utils.exceptions import InvalidUserInputError
-from services.llm_securcoity.prompt_templates import PROMPT_INJECTION_TEMPLATE
+from services.llm_security.prompt_templates import PROMPT_INJECTION_TEMPLATE
 
-class InputValidator(metaclass=SingletonMeta):
+class PromptInjectionDetector(metaclass=SingletonMeta):
     def __init__(self):
         self.threshold = 0.5
         self.model_name = 'gpt-4o'
@@ -16,15 +15,13 @@ class InputValidator(metaclass=SingletonMeta):
         self.prompt = ChatPromptTemplate.from_template(PROMPT_INJECTION_TEMPLATE)
         self.chain = self.prompt | self.llm
 
-    def validate_input(self, text_input: str) -> None:
+    def validate_input(self, text_input: str) -> Tuple[bool, str]:
         injection_score = self._check_prompt_injection(text_input)
         if injection_score > self.threshold:
             logger.warning(f"Potential prompt injection detected. Score: {injection_score}")
-            raise InvalidUserInputError(
-                english_message="Potential security risk detected in the input.",
-                hebrew_message="זוהה סיכון אבטחה פוטנציאלי בקלט."
-            )
+            return False, "Potential security risk detected in the input."
         logger.info(f"Input validation passed. Injection score: {injection_score}")
+        return True, ""
 
     def _check_prompt_injection(self, user_input: str) -> float:
         try:
