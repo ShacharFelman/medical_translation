@@ -31,23 +31,20 @@ class TranslationRecordEntity(BaseModel):
     
 class LeafletSectionEntity(BaseModel):
     id: int
-    # id: str = Field(default_factory=lambda: str(uuid.uuid4()))
     input_text: str
     translated_text: str
 
 class LeafletHistoryEntity(BaseModel):
     id: str = Field(default_factory=lambda: str(uuid.uuid4()))
     name: str
-    date: datetime
+    date: datetime = Field(default_factory=datetime.now)
     sections: List[LeafletSectionEntity]
-    timestamp: datetime = Field(default_factory=datetime.now)
 
     def to_dict(self) -> Dict[str, Any]:
         return self.model_dump()
     
     @classmethod
     def from_dict(cls, data: Dict[str, Any]) -> 'LeafletHistoryEntity':
-        # Ignore MongoDB's '_id' field if present
         data.pop('_id', None)
         sections = [LeafletSectionEntity(**section) for section in data.get('sections', [])]
         return cls(**{**data, 'sections': sections})

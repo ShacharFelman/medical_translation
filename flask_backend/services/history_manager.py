@@ -3,7 +3,7 @@ from utils.logger import logger
 from data.boundaries import LeafletSaveRequest, FetchLeafletsResponse
 from database.mongodb_client import MongoDBClient
 from utils.singleton_meta import SingletonMeta
-from data.data_conversions import leaflet_save_request_to_entity, leaflet_history_entity_to_save_request, leaflet_history_entity_to_response
+from data.data_conversions import leaflet_save_request_to_entity, leaflet_history_entity_to_response
 
 class HistoryManager(metaclass=SingletonMeta):
     def __init__(self):

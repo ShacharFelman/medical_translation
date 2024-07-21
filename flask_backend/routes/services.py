@@ -1,10 +1,8 @@
 from flask import jsonify, request ,Blueprint
 from utils.logger import logger
 from utils.error_handlers import engine_not_initialized_response, missing_data_in_request_error, unsupported_source_language_error, unsupported_dest_language_error, internal_server_error
-# from engine.engine import translation_engine
 from utils.constants import Language
 # from flask import send_file
-# from datetime import datetime
 # from io import BytesIO
 # from docx import Document
 # from docx.shared import Pt
@@ -99,7 +97,7 @@ def fetch_leaflets():
         if not result.leaflets:
             return jsonify({"error": "No leaflets found"}), 404
 
-        return jsonify({"data": result.model_dump()}), 200
+        return jsonify(result.model_dump()), 200
 
     except Exception as e:
         logger.error(f"Error fetching leaflets: {str(e)}")

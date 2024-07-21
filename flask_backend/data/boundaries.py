@@ -25,7 +25,6 @@ class LeafletSectionInput(BaseModel):
 
 class LeafletSaveRequest(BaseModel):
     name: str
-    date: datetime
     sections: List[LeafletSectionInput]
 
 class LeafletResponse(BaseModel):

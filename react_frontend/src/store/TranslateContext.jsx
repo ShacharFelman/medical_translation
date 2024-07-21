@@ -89,7 +89,7 @@ export default function TranslateContextProvider({children}) {
     const fetchLeaflets = async () => {
       try {
           const fetchedLeaflets = await fetchLeafletsFromDB();
-          dispatch({ type: 'SET_LEAFLETS', leaflets: fetchedLeaflets });
+          dispatch({ type: 'SET_LEAFLETS', leaflets: fetchedLeaflets.leaflets });
       } catch (error) {
           console.error('Error fetching leaflets:', error);
       }
