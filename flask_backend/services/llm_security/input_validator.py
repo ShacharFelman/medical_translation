@@ -19,7 +19,7 @@ class PromptInjectionDetector(metaclass=SingletonMeta):
         injection_score = self._check_prompt_injection(text_input)
         if injection_score > self.threshold:
             logger.warning(f"Potential prompt injection detected. Score: {injection_score}")
-            return False, "Potential security risk detected in the input."
+            return False, f"Potential security risk detected in the input. Injection score: {injection_score}"
         logger.info(f"Input validation passed. Injection score: {injection_score}")
         return True, ""
 

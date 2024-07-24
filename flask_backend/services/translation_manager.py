@@ -7,6 +7,7 @@ from database.mongodb_client import MongoDBClient
 from services.translation.llm_manager import initialize_translators
 from services.translation.translation_selector import translation_selector
 from services.evaluation.bleu_score import calculate_bleu
+from services.llm_security.input_validator import PromptInjectionDetector
 from data.entities import TranslationEntity, TranslationRecordEntity
 from data.boundaries import TranslationRequest, TranslationResponse
 from data.data_conversions import translator_llm_response_to_entity, translation_entity_to_response
@@ -18,6 +19,8 @@ class TranslationManager(metaclass=SingletonMeta):
         self._initialized = False
         self.translators = initialize_translators()
         self.mongo_client = MongoDBClient.get_instance()
+        self.prompt_injection_detector = PromptInjectionDetector()
+
 
     def initialize(self):
         self._initialized = True
@@ -30,6 +33,35 @@ class TranslationManager(metaclass=SingletonMeta):
             raise RuntimeError("TranslationManager is not initialized")
 
         try:
+
+            is_valid, error_message = self.prompt_injection_detector.validate_input(translation_request.text_input)
+            
+            if not is_valid:
+                logger.warning(f"Input validation failed: {error_message}")
+                
+                # Create a TranslationEntity to represent the failed validation
+                failed_translation = TranslationEntity(
+                    translator_name="Input Validator",
+                    translated_text=f"Error: {error_message}",
+                    response_time=0.0,
+                    score=0.0,
+                    metadata={"status": "error", "error_message": error_message}
+                )
+                
+                # Save the failed attempt to the database
+                translation_record = TranslationRecordEntity(
+                    input=translation_request.text_input,
+                    translations=[failed_translation],
+                    best_translation=None
+                )
+                self._save_translation_to_db(translation_record)
+                
+                return TranslationResponse(
+                    translated_text=f"Error: {error_message}",
+                    translator_used="Input Validator",
+                    confidence_score=0.0
+                )
+
             all_translations = self._generate_translations(translation_request.text_input, human_verified_translation)
             
             successful_translations = [t for t in all_translations if self._is_translation_successful(t)]
