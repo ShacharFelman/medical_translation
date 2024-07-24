@@ -67,7 +67,6 @@ def translate_text():
         return internal_server_error()
     
 
-   
 @services_bp.route('/save-leaflet', methods=['POST'])
 def save_leaflet():     
     try:        
@@ -77,7 +76,7 @@ def save_leaflet():
         result = history_manager.save_leaflet(save_request)
         
         if result:
-            return jsonify({"message": "Leaflet saved successfully", "data": {"id": result}}), 200
+            return jsonify(result.model_dump()), 200
         else:
             return jsonify({"error": "Failed to save leaflet"}), 500
 
@@ -88,6 +87,7 @@ def save_leaflet():
     except Exception as e:
         logger.error(f"Error saving leaflet: {str(e)}")
         return jsonify({"error": "Internal server error"}), 500
+    
     
 @services_bp.route('/fetch-leaflets', methods=['GET'])
 def fetch_leaflets():

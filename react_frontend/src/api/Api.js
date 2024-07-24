@@ -27,6 +27,7 @@ export default async function translateParagraph(source, dest, textInput) {
 export async function saveLeafletToDB(leaflet) {
   try {
     const response = await API.post('/save-leaflet', leaflet);
+    console.info('save response:', response);
     return response.data;
   } catch (error) {
     console.error('Error saving leaflet:', error);

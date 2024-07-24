@@ -15,6 +15,7 @@ class MongoDBClient:
             MongoDBClient()
         return MongoDBClient._instance
 
+
     def __init__(self):
         if MongoDBClient._instance is not None:
             raise Exception("This class is a singleton!")
@@ -32,6 +33,7 @@ class MongoDBClient:
             
             MongoDBClient._instance = self
 
+
     def insert_document(self, collection_name: str, document: Dict[str, Any]) -> Optional[str]:
         if collection_name not in self.collections:
             raise ValueError(f"Collection {collection_name} does not exist")
@@ -42,6 +44,7 @@ class MongoDBClient:
         except (ConnectionFailure, OperationFailure) as e:
             print(f"Failed to insert document into {collection_name}: {e}")
             return None
+
 
     def get_document(self, collection_name: str, id: str) -> Optional[Dict[str, Any]]:
         if collection_name not in self.collections:
@@ -54,14 +57,17 @@ class MongoDBClient:
             print(f"Failed to retrieve document from {collection_name}: {e}")
             return None
 
+
     def insert_translation_performance(self, translation_record: TranslationRecordEntity) -> Optional[str]:
         return self.insert_document('translation_performance', translation_record.model_dump())
+
 
     def get_translation_performance(self, id: str) -> Optional[TranslationRecordEntity]:
         result = self.get_document('translation_performance', id)
         if result:
             return TranslationRecordEntity.from_dict(result)
         return None
+
 
     def insert_translation_history(self, leaflet_history: LeafletHistoryEntity) -> Optional[str]:
         try:
@@ -72,25 +78,27 @@ class MongoDBClient:
             return None
 
 
-    # def get_translation_history(self, leaflet_id: str) -> Optional[LeafletHistoryEntity]:
-    #     try:
-    #         result = self.collections['translation_history'].find_one({"id": leaflet_id})
-    #         return LeafletHistoryEntity.from_dict(result) if result else None
-    #     except Exception as e:
-    #         logger.error(f"Failed to retrieve leaflet from MongoDB: {str(e)}")
-    #         return None
+    def get_translation_history(self, leaflet_id: str) -> Optional[LeafletHistoryEntity]:
+        try:
+            result = self.collections['translation_history'].find_one({"id": leaflet_id}, {'_id': 0})
+            return LeafletHistoryEntity.from_dict(result) if result else None
+        except Exception as e:
+            logger.error(f"Failed to retrieve leaflet from MongoDB: {str(e)}")
+            return None
+
 
     def get_all_translation_history(self) -> List[LeafletHistoryEntity]:
         try:
             result = self.collections['translation_history'].find({}, {'_id': 0})  # Exclude MongoDB's _id field
-            # logger.info(f'*****\n{result}\n*****')
             return [LeafletHistoryEntity.from_dict(doc) for doc in result]
         except Exception as e:
             logger.error(f"Failed to retrieve all leaflets from MongoDB: {str(e)}")
             return []
 
+
     def close(self):
         self.client.close()
+
 
     @staticmethod
     def get_client():
