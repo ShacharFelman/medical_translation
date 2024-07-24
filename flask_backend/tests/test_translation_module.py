@@ -1,18 +1,18 @@
 import unittest
 import json, sys, os
 from typing import Dict
-from flask_backend.services.evaluation.bleu_score import calculate_bleu
-from flask_backend.services.translation_manager import TranslationManager
-from flask_backend.data.boundaries import TranslationRequest
+from services.evaluation.bleu_score import calculate_bleu
+from services.translation_manager import translation_manager
+from data.boundaries import TranslationRequest
 
 # sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 
 class TranslationAccuracyTest(unittest.TestCase):
     def setUp(self):
-        translation_service = TranslationManager()
-        translation_service.initialize()
-        with open('test_data/Sedural.json', 'r', encoding='utf-8') as f:
+        # translation_service = TranslationManager()
+        translation_manager.initialize()
+        with open('tests/test_data/Sedural.json', 'r', encoding='utf-8') as f:
             self.leaflet_data = json.load(f)
 
     def test_full_leaflet_translation(self):
@@ -44,7 +44,7 @@ class TranslationAccuracyTest(unittest.TestCase):
                 )
                 translation_response = translation_manager.translate(translation_request, human_verified_translation=item['eng']).translated_text
                 if(translation_response != ""):
-                    bleu_score = calculate_bleu(item['eng'], translation_response.translated_text)
+                    bleu_score = calculate_bleu(item['eng'], translation_response)
                     section_bleu_scores.append(bleu_score)
 
         if section_bleu_scores:
