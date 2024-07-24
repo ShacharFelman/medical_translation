@@ -18,7 +18,7 @@ from data.boundaries import TranslationRequest, TranslationResponse, LeafletSave
 from services.translation_manager import translation_manager
 from services.history_manager import history_manager
 
-api_services_bp = Blueprint('api', __name__,url_prefix='')
+api_services_bp = Blueprint('api_services', __name__,url_prefix='')
 
 def create_user_error(error_in_english:str,error_in_hebrew:str,status_code:int=500):
     return jsonify({"error":{
