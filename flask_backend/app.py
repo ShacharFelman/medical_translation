@@ -4,7 +4,8 @@ from flask_cors import CORS
 from flask.logging import default_handler
 from utils.exceptions import InvalidUserInputError
 from utils.error_handlers import handle_exception, invalid_user_input_error
-from routes import static_bp,api_bp,services_bp
+from routes import api_services_bp
+# from routes import static_bp,api_bp,services_bp
 from services.translation_manager import translation_manager 
 
 def create_app():
@@ -24,12 +25,12 @@ def create_app():
     app.register_error_handler(InvalidUserInputError, invalid_user_input_error)
     app.register_error_handler(Exception, handle_exception) 
 
-    app.register_blueprint(api_bp)
-    app.register_blueprint(services_bp)
+    # app.register_blueprint(api_bp)
+    app.register_blueprint(api_services_bp)
     if FLASK_ENV == "development" or FLASK_ENV == "testing":
         CORS(app) 
     else:
-        app.register_blueprint(static_bp)
+        pass
 
     with app.app_context():
         translation_manager.initialize()
