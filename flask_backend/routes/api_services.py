@@ -8,8 +8,8 @@ from utils.constants import Language
 # from docx.shared import Pt
 # from docx.shared import RGBColor
 # from htmldocx import HtmlToDocx
-from engine.input_handling import input_validation_handler
-from engine.output_handling import output_validation_handler
+# from engine.input_handling import input_validation_handler
+# from engine.output_handling import output_validation_handler
 from pydantic import ValidationError
 # from engine.cache import file_cache
 # from engine.file_handling.file_text_extraction import get_word_document_text
@@ -18,7 +18,7 @@ from data.boundaries import TranslationRequest, TranslationResponse, LeafletSave
 from services.translation_manager import translation_manager
 from services.history_manager import history_manager
 
-services_bp = Blueprint('services', __name__,url_prefix='')
+api_services_bp = Blueprint('api', __name__,url_prefix='')
 
 def create_user_error(error_in_english:str,error_in_hebrew:str,status_code:int=500):
     return jsonify({"error":{
@@ -27,7 +27,7 @@ def create_user_error(error_in_english:str,error_in_hebrew:str,status_code:int=5
     }}),status_code
 
 
-@services_bp.route('/translate', methods=['POST'])
+@api_services_bp.route('/translate', methods=['POST'])
 def translate_text():    
     if not translation_manager.is_initialized():
         return engine_not_initialized_response()   
@@ -67,7 +67,7 @@ def translate_text():
         return internal_server_error()
     
 
-@services_bp.route('/save-leaflet', methods=['POST'])
+@api_services_bp.route('/save-leaflet', methods=['POST'])
 def save_leaflet():     
     try:        
         data = request.json
@@ -89,7 +89,7 @@ def save_leaflet():
         return jsonify({"error": "Internal server error"}), 500
     
     
-@services_bp.route('/fetch-leaflets', methods=['GET'])
+@api_services_bp.route('/fetch-leaflets', methods=['GET'])
 def fetch_leaflets():
     try:
         result: FetchLeafletsResponse = history_manager.fetch_all_leaflets()
@@ -106,7 +106,7 @@ def fetch_leaflets():
 
 
 
-@services_bp.route('/delete-leaflet/<leaflet_id>', methods=['DELETE'])
+@api_services_bp.route('/delete-leaflet/<leaflet_id>', methods=['DELETE'])
 def delete_leaflet(leaflet_id):
     try:
         result = history_manager.delete_leaflet(leaflet_id)
@@ -122,7 +122,7 @@ def delete_leaflet(leaflet_id):
 
 
 # TODO: check/change/implement/decide id logic
-@services_bp.route('/get-leaflet/<leaflet_id>', methods=['GET'])
+@api_services_bp.route('/get-leaflet/<leaflet_id>', methods=['GET'])
 def get_leaflet(leaflet_id):
     try:
         leaflet = history_manager.get_leaflet_history(leaflet_id)
@@ -145,7 +145,7 @@ def get_leaflet(leaflet_id):
 
 ######################################################################
 
-# @services_bp.route('/html-docx', methods=['POST'])
+# @api_services_bp.route('/html-docx', methods=['POST'])
 # def download_docx(): 
 #     try:        
 #         data = request.json 
