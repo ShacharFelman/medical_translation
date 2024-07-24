@@ -27,6 +27,7 @@ RUN python3 -m nltk.downloader stopwords -d /usr/share/nltk_data
 # ------------------------------
 
 COPY . .
+ENV PYTHONPATH=/src:$PYTHONPATH
 
 ENV FLASK_ENV=testing
 ENV SECRET_KEY=testing
@@ -35,4 +36,4 @@ ENV SECRET_KEY=testing
 # RUN apk del .build-deps
 
 # CMD ["python", "-m", "unittest", "discover" ,"-s","tests", "-p" ,"*_tests.py"] 
-CMD ["python", "tests/run_translation_test.py"]
+CMD ["python", "tests/test_translation_module.py"]

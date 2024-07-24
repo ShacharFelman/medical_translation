@@ -30,6 +30,7 @@ services:
   mongodb:
     image: mongo:latest
     container_name: mongodb-test
+    command: mongod --quiet --logpath /dev/null
     ports:
       - "27017:27017"
     volumes:
