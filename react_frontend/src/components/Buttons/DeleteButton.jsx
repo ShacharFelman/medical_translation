@@ -1,9 +1,9 @@
 import { IconButton } from "@mui/material";
 import DeleteIcon from '@mui/icons-material/Delete';
 
-export default function DeleteButton({onClick}){
+export default function DeleteButton({onClick, className}){
     return (
-        <div className="flex items-start">
+        <div className={className}>
             <IconButton aria-label="delete" color="primary" onClick={onClick}>
                 <DeleteIcon/>
             </IconButton>

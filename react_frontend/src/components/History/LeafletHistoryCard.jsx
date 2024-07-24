@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
 import { TranslateContext } from '../../store/TranslateContext';
 import { format } from 'date-fns';
-
+import DeleteButton from '../Buttons/DeleteButton';
 export default function LeafletHistoryCard({ leaflet }) {
-  const { selectLeaflet , currentLeaflet} = useContext(TranslateContext);
+  const { selectLeaflet , currentLeaflet , deleteLeaflet } = useContext(TranslateContext);
   const isSelected = currentLeaflet.id === leaflet.id;
 
   return (
@@ -18,8 +18,13 @@ export default function LeafletHistoryCard({ leaflet }) {
       `}
       onClick={() => selectLeaflet(leaflet)}
     >
-      <h2 className={`text-lg ${isSelected ? 'font-bold' : 'font-semibold'}`}>{leaflet.name}</h2>
-      <p className="text-gray-600">{format(new Date(leaflet.date), 'dd/MM/yyyy HH:mm')}</p>
+      <div className=" flex justify-between items-center">
+        <div className="flex-grow">
+          <h2 className={`text-lg ${isSelected ? 'font-bold' : 'font-semibold'}`}>{leaflet.name}</h2>
+          <p className="text-gray-600">{format(new Date(leaflet.date), 'dd/MM/yyyy HH:mm')}</p>
+        </div>
+        <DeleteButton onClick={()=> deleteLeaflet(leaflet.id)} className= "flex" />
+      </div>
     </div>
   );
 }

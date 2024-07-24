@@ -53,6 +53,21 @@ class HistoryManager(metaclass=SingletonMeta):
             return FetchLeafletsResponse(leaflets=[])
         
 
+    def delete_leaflet(self, leaflet_id: str) -> bool:
+        try:
+            result = self.mongo_client.delete_translation_history(leaflet_id)
+            
+            if result:
+                logger.info(f"Leaflet deleted successfully with ID: {leaflet_id}")
+                return True
+            else:
+                logger.warning(f"No leaflet found with ID: {leaflet_id}")
+                return False
+        except Exception as e:
+            logger.error(f"Error deleting leaflet: {str(e)}")
+            return False
+            
+
 history_manager = HistoryManager()
 
 

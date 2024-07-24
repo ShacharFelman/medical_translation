@@ -94,7 +94,14 @@ class MongoDBClient:
         except Exception as e:
             logger.error(f"Failed to retrieve all leaflets from MongoDB: {str(e)}")
             return []
-
+        
+    def delete_translation_history(self, leaflet_id: str) -> bool:
+        try:
+            result = self.collections['translation_history'].delete_one({"id": leaflet_id})
+            return result.deleted_count > 0
+        except Exception as e:
+            logger.error(f"Failed to delete leaflet from MongoDB: {str(e)}")
+            return False
 
     def close(self):
         self.client.close()

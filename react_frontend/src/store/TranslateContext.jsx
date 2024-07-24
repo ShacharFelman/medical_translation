@@ -1,5 +1,5 @@
 import React, { createContext, useReducer, useEffect } from 'react';
-import translateParagraph, { saveLeafletToDB, fetchLeafletsFromDB } from '../api/Api';
+import translateParagraph, { saveLeafletToDB, fetchLeafletsFromDB , deleteLeafletFromDB } from '../api/Api';
 
 export const TranslateContext = createContext();
 
@@ -151,6 +151,20 @@ export default function TranslateContextProvider({children}) {
       dispatch({ type: 'SET_CURRENT_LEAFLET', leaflet });
     };
 
+    const deleteLeaflet = async (leafletId) => {
+
+      try {
+        const result = await deleteLeafletFromDB(leafletId);
+        const newLeafletsList = state.leaflets.filter(leaflet => leaflet.id !== leafletId);
+        dispatch({ type: 'SET_LEAFLETS', leaflets: newLeafletsList });
+        // if (state.currentLeaflet.id === leafletId)
+        dispatch({ type: 'NEW_CURRENT_LEAFLET' });
+        console.log('Leaflet deleted successfully');
+      } catch (error) {
+        console.error('Error deleting leaflet:', error);
+      }
+    }
+
     const translateCtx = {
         currentLeaflet: state.currentLeaflet,
         leaflets: state.leaflets,
@@ -163,7 +177,8 @@ export default function TranslateContextProvider({children}) {
         deleteSection,
         changeInputText,
         updateOutputText,
-        fetchLeaflets
+        fetchLeaflets,
+        deleteLeaflet
     };
 
     return (

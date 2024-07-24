@@ -45,3 +45,14 @@ export async function fetchLeafletsFromDB() {
     throw error;
   }
 }
+
+export async function deleteLeafletFromDB(leafletId) {
+  try {
+    const response = await API.delete(`/delete-leaflet/${leafletId}`);
+    console.info('response:', response);
+    return response.data;
+  } catch (error) {
+    console.error('Error deleting leaflet:', error);
+    throw error;
+  }
+}

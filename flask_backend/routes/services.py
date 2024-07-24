@@ -102,7 +102,23 @@ def fetch_leaflets():
     except Exception as e:
         logger.error(f"Error fetching leaflets: {str(e)}")
         return jsonify({"error": "Internal server error"}), 500
+    
 
+
+
+@services_bp.route('/delete-leaflet/<leaflet_id>', methods=['DELETE'])
+def delete_leaflet(leaflet_id):
+    try:
+        result = history_manager.delete_leaflet(leaflet_id)
+        
+        if result:
+            return jsonify({"message": "Leaflet deleted"}), 200
+        else:
+            return jsonify({"error": "Leaflet not found"}), 404
+
+    except Exception as e:
+        logger.error(f"Error deleting leaflet: {str(e)}")
+        return jsonify({"error": "Internal server error"}), 500
 
 
 # TODO: check/change/implement/decide id logic
