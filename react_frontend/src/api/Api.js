@@ -24,3 +24,22 @@ export default async function translateParagraph(source, dest, textInput) {
   }
 };
 
+export async function saveLeafletToDB(leaflet) {
+  try {
+    const response = await API.post('/save-leaflet', leaflet);
+    return response.data;
+  } catch (error) {
+    console.error('Error saving leaflet:', error);
+    throw error;
+  }
+}
+
+export async function fetchLeafletsFromDB() {
+  try {
+    const response = await API.get('/fetch-leaflets');
+    return response.data;
+  } catch (error) {
+    console.error('Error fetching leaflets:', error);
+    throw error;
+  }
+}
