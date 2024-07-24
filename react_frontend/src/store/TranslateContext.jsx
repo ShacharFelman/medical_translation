@@ -16,7 +16,7 @@ function translateReducer(state, action) {
     case 'SET_LEAFLETS':
       return {
         ...state,
-        leaflets: action.leaflets
+        leaflets: (action.leaflets).sort((a, b) => new Date(b.date) - new Date(a.date))
       };
     case 'NEW_CURRENT_LEAFLET':
       return {
@@ -103,8 +103,8 @@ export default function TranslateContextProvider({children}) {
       if (!state.currentLeaflet) return;
 
       try {
-        await saveLeafletToDB(state.currentLeaflet);
-        dispatch({ type: 'SET_LEAFLETS', leaflets: [...state.leaflets, state.currentLeaflet] });
+        const savedCurrentLeaflet = await saveLeafletToDB(state.currentLeaflet);
+        dispatch({ type: 'SET_LEAFLETS', leaflets: [...state.leaflets, savedCurrentLeaflet] });
         dispatch({ type: 'NEW_CURRENT_LEAFLET' });
         console.log('Leaflet saved successfully');
       } catch (error) {
