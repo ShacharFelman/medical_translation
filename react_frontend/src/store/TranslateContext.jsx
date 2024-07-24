@@ -1,58 +1,95 @@
-import React, {createContext, useState, useReducer, useEffect} from 'react';
-import translateParagraph , {saveLeafletToDB, fetchLeafletsFromDB } from '../api/Api';
+import React, { createContext, useReducer, useEffect } from 'react';
+import translateParagraph, { saveLeafletToDB, fetchLeafletsFromDB } from '../api/Api';
 
 export const TranslateContext = createContext();
 
-function translateReducer(leafletState, action) {
+const createNewLeaflet = () => ({
+  id: Date.now(),
+  name: 'Untitled Leaflet',
+  date: new Date().toISOString(),
+  sections: [{ id: 0, inputText: '', translation: '' }]
+});
+
+
+function translateReducer(state, action) {
   switch (action.type) {
-    case 'ADD_SECTION':
-      const newId = leafletState.sections.length > 0 ? leafletState.sections[leafletState.sections.length - 1].id + 1 : 0;
+    case 'SET_LEAFLETS':
       return {
-        ...leafletState,
-        sections: [...leafletState.sections, { id: newId, inputText: '', translation: '' }]
+        ...state,
+        leaflets: action.leaflets
+      };
+    case 'NEW_CURRENT_LEAFLET':
+      return {
+        ...state,
+        currentLeaflet: createNewLeaflet()
+      };
+    case 'SET_CURRENT_LEAFLET':
+    return {
+      ...state,
+      currentLeaflet: {...action.leaflet} 
+    };
+    case 'UPDATE_CURRENT_LEAFLET':
+      return {
+        ...state,
+        currentLeaflet: { ...state.currentLeaflet, ...action.updates }
+      };
+    case 'ADD_SECTION':
+      return {
+        ...state,
+        currentLeaflet: {
+          ...state.currentLeaflet,
+          sections: [
+            ...state.currentLeaflet.sections,
+            { id: state.currentLeaflet.sections.length, inputText: '', translation: '' }
+          ]
+        }
       };
     case 'DELETE_SECTION':
       return {
-        ...leafletState,
-        sections: leafletState.sections.length === 1 
-          ? [{ id: 0, inputText: '', translation: '' }] 
-          : leafletState.sections.filter(section => section.id !== action.id)
+        ...state,
+        currentLeaflet: {
+          ...state.currentLeaflet,
+          sections: state.currentLeaflet.sections.length === 1 
+            ? [{ id: 0, inputText: '', translation: '' }] 
+            : state.currentLeaflet.sections.filter(section => section.id !== action.sectionId)
+        }
       };
-
     case 'CHANGE_INPUT_TEXT':
       return {
-        ...leafletState,
-        sections: leafletState.sections.map(section =>
-          section.id === action.id ? { ...section, inputText: action.newText } : section
-        )
+        ...state,
+        currentLeaflet: {
+          ...state.currentLeaflet,
+          sections: state.currentLeaflet.sections.map(section =>
+            section.id === action.sectionId ? { ...section, inputText: action.newText } : section
+          )
+        }
       };
     case 'UPDATE_OUTPUT_TEXT':
       return {
-        ...leafletState,
-        sections: leafletState.sections.map(section =>
-          section.id === action.id ? { ...section, translation: action.newTranslation } : section
-        )
+        ...state,
+        currentLeaflet: {
+          ...state.currentLeaflet,
+          sections: state.currentLeaflet.sections.map(section =>
+            section.id === action.sectionId ? { ...section, translation: action.newTranslation } : section
+          )
+        }
       };
-    case 'SET_LEAFLET_NAME':
-      return {
-        ...leafletState,
-        name: action.name
-      };  
     default:
-      return leafletState;
+      return state;
   }
 }
 
 export default function TranslateContextProvider({children}) {
-    const initialState = { sections: [{ id: 0, inputText: '', translation: '' }], name: 'Untitled Leaflet' };
-    const [leafletState, leafletDispatch] = useReducer(translateReducer, initialState);
-    const [leafletsCards, setLeafletsCards] = useState([]);
+    const initialState = { 
+      leaflets: [],
+      currentLeaflet: createNewLeaflet()
+    };
+    const [state, dispatch] = useReducer(translateReducer, initialState);
   
     const fetchLeaflets = async () => {
       try {
           const fetchedLeaflets = await fetchLeafletsFromDB();
-          console.log('Fetched leaflets:', fetchedLeaflets);
-          setLeafletsCards(fetchedLeaflets);
+          dispatch({ type: 'SET_LEAFLETS', leaflets: fetchedLeaflets.leaflets });
       } catch (error) {
           console.error('Error fetching leaflets:', error);
       }
@@ -63,37 +100,13 @@ export default function TranslateContextProvider({children}) {
     }, []);
 
     const saveLeaflet = async () => {
-      const leafletToSave  = {
-        name: leafletState.name,
-        date: new Date().toISOString().split('T')[0],
-        sections: leafletState.sections
-      };
+      if (!state.currentLeaflet) return;
 
-       // Log the data of the sections that should be saved
-       console.log('Saving leaflet with the following data:');
-       console.log('Leaflet Name:', leafletToSave.name);
-       console.log('Sections:');
-       leafletToSave.sections.forEach((section, index) => {
-         console.log(`Section ${index + 1}:`);
-         console.log('  ID:', section.id);
-         console.log('  Input Text:', section.inputText);
-         console.log('  Translation:', section.translation);
-       });
-      
       try {
-        // await saveLeafletToDB(leafletToSave );
-        const newCard = { id: leafletsCards.length + 1, name: leafletToSave.name, date: leafletToSave.date };
-        setLeafletsCards(prevCards => [...prevCards, newCard]);
-        // setLeafletsCards([...leafletsCards, newCard]);
-        
-        // Log the data of the leaflet that was saved
-        leafletsCards.forEach((leaflet, index) => {
-          console.log('  ID:', leaflet.id);
-          console.log('  name:', leaflet.name);
-          console.log('  date:', leaflet.date);
-        });
-
-        console.log('  Leaflet saved successfully');
+        await saveLeafletToDB(state.currentLeaflet);
+        dispatch({ type: 'SET_LEAFLETS', leaflets: [...state.leaflets, state.currentLeaflet] });
+        dispatch({ type: 'NEW_CURRENT_LEAFLET' });
+        console.log('Leaflet saved successfully');
       } catch (error) {
         console.error('Error saving leaflet:', error);
       }
@@ -102,8 +115,7 @@ export default function TranslateContextProvider({children}) {
     const getTranslation = async(text) => {
       try{
         const translate = await translateParagraph('heb', 'eng', text);
-        console.info('***********************Translation:', translate);
-        return leafletState.name +"  : "+ translate;
+        return translate;
       }
       catch(error){
         console.error('Error translating paragraph:', error);
@@ -111,38 +123,47 @@ export default function TranslateContextProvider({children}) {
       }
     };
     
+    const addNewLeaflet = () => {
+      dispatch({ type: 'NEW_CURRENT_LEAFLET' });
+    };
+
     const addSection = () => {
-      leafletDispatch({ type: 'ADD_SECTION' });
+      dispatch({ type: 'ADD_SECTION' });
     };
   
-    const deleteSection = (id) => {
-      leafletDispatch({ type: 'DELETE_SECTION', id });
+    const deleteSection = (sectionId) => {
+      dispatch({ type: 'DELETE_SECTION', sectionId });
     };
   
-    const changeInputText = (id, newText) => {
-      leafletDispatch({ type: 'CHANGE_INPUT_TEXT', id, newText });
+    const changeInputText = (sectionId, newText) => {
+      dispatch({ type: 'CHANGE_INPUT_TEXT', sectionId, newText });
     };
   
-    const updateOutputText = (id, newTranslation) => {
-      leafletDispatch({ type: 'UPDATE_OUTPUT_TEXT', id, newTranslation });
+    const updateOutputText = (sectionId, newTranslation) => {
+      dispatch({ type: 'UPDATE_OUTPUT_TEXT', sectionId, newTranslation });
     };
 
     const handleLeafletNameChange = (newName) => {
-      leafletDispatch({ type: 'SET_LEAFLET_NAME', name: newName })
+      dispatch({ type: 'UPDATE_CURRENT_LEAFLET', updates: { name: newName } });
+    };
+
+    const selectLeaflet = (leaflet) => {
+      dispatch({ type: 'SET_CURRENT_LEAFLET', leaflet });
     };
 
     const translateCtx = {
-        currentLeafletName: leafletState.name,
-        sections: leafletState.sections,
-        leafletsCards,
+        currentLeaflet: state.currentLeaflet,
+        leaflets: state.leaflets,
         saveLeaflet,
+        addNewLeaflet,
+        selectLeaflet,
         handleLeafletNameChange,
         getTranslation,
         addSection,
         deleteSection,
         changeInputText,
         updateOutputText,
-        fetchLeaflets  
+        fetchLeaflets
     };
 
     return (

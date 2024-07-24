@@ -9,7 +9,7 @@ from services.translation.translation_selector import translation_selector
 from services.evaluation.bleu_score import calculate_bleu
 from data.entities import TranslationEntity, TranslationRecordEntity
 from data.boundaries import TranslationRequest, TranslationResponse
-from data.data_conversions import translator_llm_response_to_entity, entity_to_frontend_response
+from data.data_conversions import translator_llm_response_to_entity, translation_entity_to_response
 
 import time
 
@@ -85,7 +85,7 @@ class TranslationManager(metaclass=SingletonMeta):
             self._save_translation_to_db(translation_record)
             self._log_translation(translation_record)
 
-            return entity_to_frontend_response(best_translation)
+            return translation_entity_to_response(best_translation)
 
         except Exception as e:
             logger.error(f"Error in translate method: {str(e)}")

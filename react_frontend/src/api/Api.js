@@ -16,7 +16,7 @@ export default async function translateParagraph(source, dest, textInput) {
   };
   
   try {
-      const response = await API.post('/text', body);
+      const response = await API.post('/translate', body);
       return response.data.data;
   } catch (error) {
       console.error('Error translating paragraph:', error);
@@ -37,6 +37,7 @@ export async function saveLeafletToDB(leaflet) {
 export async function fetchLeafletsFromDB() {
   try {
     const response = await API.get('/fetch-leaflets');
+    console.info('response:', response);
     return response.data;
   } catch (error) {
     console.error('Error fetching leaflets:', error);

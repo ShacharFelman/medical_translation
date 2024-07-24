@@ -1,10 +1,10 @@
 import os
-from typing import Optional, Dict, Any
+from typing import Optional, Dict, Any, List
 from pymongo import MongoClient
 from pymongo.errors import ConnectionFailure, OperationFailure
-
-from data.entities import TranslationRecordEntity
+from utils.logger import logger
 from bson import ObjectId
+from data.entities import TranslationRecordEntity, LeafletHistoryEntity
 
 class MongoDBClient:
     _instance = None
@@ -63,12 +63,31 @@ class MongoDBClient:
             return TranslationRecordEntity.from_dict(result)
         return None
 
-    # Placeholder methods for translation_history 
-    def insert_translation_history(self, history_record: Dict[str, Any]) -> Optional[str]:
-        return self.insert_document('translation_history', history_record)
+    def insert_translation_history(self, leaflet_history: LeafletHistoryEntity) -> Optional[str]:
+        try:
+            result = self.collections['translation_history'].insert_one(leaflet_history.to_dict())
+            return str(result.inserted_id)
+        except Exception as e:
+            logger.error(f"Failed to insert leaflet into MongoDB: {str(e)}")
+            return None
 
-    def get_translation_history(self, id: str) -> Optional[Dict[str, Any]]:
-        return self.get_document('translation_history', id)
+
+    # def get_translation_history(self, leaflet_id: str) -> Optional[LeafletHistoryEntity]:
+    #     try:
+    #         result = self.collections['translation_history'].find_one({"id": leaflet_id})
+    #         return LeafletHistoryEntity.from_dict(result) if result else None
+    #     except Exception as e:
+    #         logger.error(f"Failed to retrieve leaflet from MongoDB: {str(e)}")
+    #         return None
+
+    def get_all_translation_history(self) -> List[LeafletHistoryEntity]:
+        try:
+            result = self.collections['translation_history'].find({}, {'_id': 0})  # Exclude MongoDB's _id field
+            # logger.info(f'*****\n{result}\n*****')
+            return [LeafletHistoryEntity.from_dict(doc) for doc in result]
+        except Exception as e:
+            logger.error(f"Failed to retrieve all leaflets from MongoDB: {str(e)}")
+            return []
 
     def close(self):
         self.client.close()
