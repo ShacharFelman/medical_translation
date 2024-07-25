@@ -1,16 +1,14 @@
 import unittest
 import json, sys, os
 from typing import Dict
+from utils.logger import logger
 from services.evaluation.bleu_score import calculate_bleu
 from services.translation_manager import translation_manager
 from data.boundaries import TranslationRequest
 
-# sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
 
 class TranslationAccuracyTest(unittest.TestCase):
     def setUp(self):
-        # translation_service = TranslationManager()
         translation_manager.initialize()
         with open('tests/test_data/Sedural.json', 'r', encoding='utf-8') as f:
             self.leaflet_data = json.load(f)
@@ -49,10 +47,10 @@ class TranslationAccuracyTest(unittest.TestCase):
 
         if section_bleu_scores:
             average_section_bleu = sum(section_bleu_scores) / len(section_bleu_scores)
-            print(f"Section '{section['title']}' average BLEU score: {average_section_bleu}")
+            logger.error(f"****************************************\n Section '{section['title']}' average BLEU score: {average_section_bleu} \n****************************************")
             return average_section_bleu
         else:
-            print(f"No valid items found in section '{section['title']}' for translation evaluation")
+            logger.error(f"~~~~~~~~~~ No valid items found in section '{section['title']}' for translation evaluation ~~~~~~~~~~")
             return None
 
 if __name__ == '__main__':

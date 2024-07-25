@@ -15,6 +15,11 @@ def initialize_translators():
                         temperature=0.0,
                         api_key=api_key_openai)
     
+
+    gpt_4_turbo = ChatOpenAI(model_name='gpt-4-turbo',
+                        temperature=0.0,
+                        api_key=api_key_openai)
+
     claude_3_opus = ChatAnthropic(model_name='claude-3-opus-20240229',
                                   temperature=0.0,
                                   api_key=api_key_anthropic)
@@ -29,6 +34,7 @@ def initialize_translators():
 
     return [
         TranslatorLLM(gpt_4o, 'gpt-4o'),
+        TranslatorLLM(gpt_4_turbo, 'gpt-4-turbo'),
         TranslatorLLM(claude_3_opus, 'claude-3-opus'),
         TranslatorLLM(claude_35_sonnet, 'claude-3-5-sonnet')
     ]
