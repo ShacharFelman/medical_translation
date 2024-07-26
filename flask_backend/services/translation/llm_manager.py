@@ -33,8 +33,8 @@ def initialize_translators():
     #                     temperature=0.0)
 
     return [
+        # TranslatorLLM(gpt_4_turbo, 'gpt-4-turbo'),
+        TranslatorLLM(claude_35_sonnet, 'claude-3-5-sonnet'),
         TranslatorLLM(gpt_4o, 'gpt-4o'),
-        TranslatorLLM(gpt_4_turbo, 'gpt-4-turbo'),
-        TranslatorLLM(claude_3_opus, 'claude-3-opus'),
-        TranslatorLLM(claude_35_sonnet, 'claude-3-5-sonnet')
+        TranslatorLLM(claude_3_opus, 'claude-3-opus')
     ]

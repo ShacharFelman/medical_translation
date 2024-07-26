@@ -10,7 +10,7 @@ from data.boundaries import TranslationRequest
 class TranslationAccuracyTest(unittest.TestCase):
     def setUp(self):
         translation_manager.initialize()
-        with open('tests/test_data/Sedural.json', 'r', encoding='utf-8') as f:
+        with open('tests/test_data/Ursolit.json', 'r', encoding='utf-8') as f:
             self.leaflet_data = json.load(f)
 
     def test_full_leaflet_translation(self):
@@ -41,7 +41,7 @@ class TranslationAccuracyTest(unittest.TestCase):
                     text_input=item['heb']
                 )
                 translation_response = translation_manager.translate(translation_request, human_verified_translation=item['eng']).translated_text
-                if(translation_response != ""):
+                if(translation_response != None and translation_response.strip() != ""):
                     bleu_score = calculate_bleu(item['eng'], translation_response)
                     section_bleu_scores.append(bleu_score)
 

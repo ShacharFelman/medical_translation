@@ -15,8 +15,6 @@ The final translation should feel natural and fluent to English speakers, readin
 the integrity of the original content.Contain the translation of the text within the following tags: <eng_text> ... </eng_text>.
 Upon successful translation, please include the phrase {translation_success_string} at the end and only at the end of your response
 to indicate that the task has been completed effectively.
-If the text you receive contains no Hebrew text, contains no medical/pharmacological information or could not appear in a CMI leaflet,
-respond with {translation_failure_string}.
 Provide a response without any additional information or comments besides the previously stated phrase and annotations.
 Do not translate html tags and translate the texts inside each tag while keeping their output in their corresponding position.
 For example, if I give you the following paragraph:
@@ -31,3 +29,6 @@ translation_parser = RegexParser(
     regex=r"(?:<eng_text>([\s\S]*?)</eng_text>\s*)?(\[TRANSLATION (?:SUCCESSFUL|FAILED)\])",
     output_keys=["translated_text", "status"]
 )
+
+# If the text you receive contains no Hebrew text, contains no medical/pharmacological information or could not appear in a CMI leaflet,
+# respond with {translation_failure_string}.

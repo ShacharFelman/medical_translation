@@ -18,6 +18,7 @@ class TranslationEntity(BaseModel):
 
 class TranslationRecordEntity(BaseModel):
     input: str
+    human_translation: Optional[str] = None
     translations: List[TranslationEntity]
     best_translation: Optional[TranslationEntity] = None
     timestamp: datetime = datetime.now()
