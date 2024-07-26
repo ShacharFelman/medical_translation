@@ -42,7 +42,7 @@ export default function TranslateSection({inputText,
   
      return (
       <div className="relative flex flex-grow space-x-5 mb-8">
-        <OutputTextArea translation= {translation}/>
+        <OutputTextArea translation= {translation} isTranslating= {isTranslating}/>
         <InputTextArea inputText={inputText} onChange={handleTextToTranslate} onClickTranslate={handleTranslate} isTranslating= {isTranslating}/>
         <DeleteButton onClick={onDelete} className= "flex items-start" />
       </div>
