@@ -10,7 +10,7 @@ from data.boundaries import TranslationRequest
 class TranslationAccuracyTest(unittest.TestCase):
     def setUp(self):
         translation_manager.initialize()
-        with open('tests/test_data/Ursolit.json', 'r', encoding='utf-8') as f:
+        with open('tests/test_data/leaflets/Ursolit.json', 'r', encoding='utf-8') as f:
             self.leaflet_data = json.load(f)
 
     def test_full_leaflet_translation(self):
