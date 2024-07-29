@@ -14,14 +14,6 @@ export default function OutputTextArea({translation, isTranslating}) {
           readOnly 
         />
       )}
-        {/* <textarea 
-          className="rounded-md border p-2 w-full h-56 text-black bg-gray-200" 
-          type="text" 
-          value={isTranslating ? <LoadingLogo/> :{translation} }
-          
-          placeholder='Translated Text Here...'
-          readOnly 
-        />  */}
       </div>
     );
 }

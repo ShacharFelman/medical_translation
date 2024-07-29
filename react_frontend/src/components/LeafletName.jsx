@@ -29,7 +29,6 @@ export default function LeafletName() {
         setLeafletName(event.target.value);
     }
     
-    // const currentLeaflet = getCurrentLeaflet();
     if (!currentLeaflet) {
         return null;
     }

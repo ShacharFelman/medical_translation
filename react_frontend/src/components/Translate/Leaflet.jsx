@@ -12,26 +12,26 @@ export default function Leaflet() {
             updateOutputText 
         } = useContext(TranslateContext);
 
-    // const currentLeaflet = getCurrentLeaflet();
-
     if (!currentLeaflet) {
         return <div>No leaflet selected</div>;
     }
 
     return (
-        <main className="flex-grow p-7 flex flex-col">
+        <main className="flex p-4 flex-col h-full">
             <LanguageSelection/>
-            {currentLeaflet.sections.map(section => (
-                <TranslateSection 
-                    key={section.id}
-                    inputText={section.inputText}
-                    translation={section.translation} 
-                    onDelete={() =>deleteSection(section.id)} 
-                    onInputChange={(newText) => changeInputText(section.id, newText)}
-                    onTranslate={(newTranslation) => updateOutputText(section.id, newTranslation)}
-                />
-            ))}
-            <AddButton className="flex justify-center p-8" onClick={addSection} />
+            <div className="flex-grow overflow-y-auto">
+                {currentLeaflet.sections.map(section => (
+                    <TranslateSection 
+                        key={section.id}
+                        inputText={section.inputText}
+                        translation={section.translation} 
+                        onDelete={() =>deleteSection(section.id)} 
+                        onInputChange={(newText) => changeInputText(section.id, newText)}
+                        onTranslate={(newTranslation) => updateOutputText(section.id, newTranslation)}
+                    />
+                ))}
+            </div>
+            <AddButton className="flex justify-center flex-shrink-0" onClick={addSection} />
       </main>
     );
 }
