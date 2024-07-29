@@ -1,5 +1,5 @@
 import React, { createContext, useReducer, useEffect } from 'react';
-import translateParagraph, { saveLeafletToDB, fetchLeafletsFromDB , deleteLeafletFromDB } from '../api/Api';
+import translateParagraph, { saveLeafletToDB, fetchLeafletsFromDB , deleteLeafletFromDB, downloadDocFile } from '../api/Api';
 
 export const TranslateContext = createContext();
 
@@ -9,7 +9,6 @@ const createNewLeaflet = () => ({
   date: new Date().toISOString(),
   sections: [{ id: 0, inputText: '', translation: '' }]
 });
-
 
 function translateReducer(state, action) {
   switch (action.type) {
@@ -122,7 +121,39 @@ export default function TranslateContextProvider({children}) {
         return 'Error translating paragraph';
       }
     };
+
+    const onDownloadFileClick = async () => {
+      try {
+        const content = generateFileContent();
+        const blob = await downloadDocFile(content);
+        const url = window.URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.href = url;
+  
+        const currentDateTime = new Date().toISOString().replace(/:/g, '-').replace(/\..+/, '');
+        const filename = `generated_document_${currentDateTime}.docx`;
+        link.setAttribute('download', filename);
+  
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+  
+        window.URL.revokeObjectURL(url); // Clean up the object URL
+        console.info('File downloaded successfully');
+      } catch (error) {
+        console.error('Error downloading file:', error);
+      }
+    };
     
+  const generateFileContent = () => {
+      let allText = ``;
+      state.currentLeaflet.sections.forEach((section) => {
+        allText += section.translation.replace(/\n/g, '<br>') + '<br><br>';
+      });
+      return allText;
+  }
+
+
     const addNewLeaflet = () => {
       dispatch({ type: 'NEW_CURRENT_LEAFLET' });
     };
@@ -173,6 +204,7 @@ export default function TranslateContextProvider({children}) {
         selectLeaflet,
         handleLeafletNameChange,
         getTranslation,
+        downloadDocFile: onDownloadFileClick,
         addSection,
         deleteSection,
         changeInputText,

@@ -140,18 +140,27 @@ def download_docx():
     try:        
         data = request.json 
         html_input = data['input']
+        html_input = html_input.replace('\n', '<br>')
+
+        # Create DOCX document from HTML
         new_parser = HtmlToDocx()
         docx = new_parser.parse_html_string(html_input)
+
+        # Formatting the document
         for paragraph in docx.paragraphs:
             for run in paragraph.runs:
                 run.font.name = "Arial" 
                 run.font.size = Pt(11)      
-                run.font.color.rgb = RGBColor(0, 0, 0)  
+                run.font.color.rgb = RGBColor(0, 0, 0)
+
+        # Save the DOCX to a BytesIO object
         doc_buffer = BytesIO()
         docx.save(doc_buffer)
-        doc_buffer.seek(0)      
+        doc_buffer.seek(0)    
+  
         return send_file(doc_buffer, as_attachment=True,download_name="generated_file.docx",mimetype='application/vnd.openxmlformats-officedocument.wordprocessingml.document')
     except Exception as e:
+        logger.error(f"Error creating DOCX: {str(e)}")
         return jsonify({'error': str(e)}), 500  
         
 

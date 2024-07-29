@@ -3,7 +3,6 @@ import axios from 'axios';
 // const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://127.0.0.1:8000';
 const API_BASE_URL = 'http://127.0.0.1:8000';
 
-
 const API = axios.create({
   baseURL: API_BASE_URL
 });
@@ -56,3 +55,20 @@ export async function deleteLeafletFromDB(leafletId) {
     throw error;
   }
 }
+
+export async function downloadDocFile(input){
+  try{
+    const body = { input }
+    const response =  await API.post('/download-docx',body,  {responseType: 'blob',});
+    console.info('response:', response);
+
+    const file = response.data;
+    return file;  
+
+  } catch (error) {
+    console.error('Error downloading DOCX file:', error);
+    throw error;
+  }      
+}
+
+
