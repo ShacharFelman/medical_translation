@@ -6,6 +6,8 @@ import SaveButton from './components/Buttons/SaveButton.jsx';
 import LeafletsHistory from './components/History/LeafletsHistory.jsx';
 import Leaflet from './components/Translate/Leaflet.jsx';
 import TranslateContextProvider, { TranslateContext } from './store/TranslateContext.jsx';
+import ErrorMessage from './components/ErrorMessage.jsx';
+
 
 function AppContent() {
   const { currentLeaflet } = useContext(TranslateContext);
@@ -15,6 +17,9 @@ function AppContent() {
       <LeafletsHistory />
       <div className="flex flex-col flex-grow overflow-hidden">
         <Header />
+        <div className="px-4 py-2">
+          <ErrorMessage />
+        </div>
         <div className="flex justify-center items-center p-4">
           {currentLeaflet && <LeafletName />}
           <SaveButton />

@@ -73,24 +73,49 @@ function translateReducer(state, action) {
           )
         }
       };
+    case 'SET_ERROR':
+      return {
+        ...state,
+        error: action.error
+      };
+    case 'CLEAR_ERROR':
+      return {
+        ...state,
+        error: null
+      };
     default:
       return state;
+
   }
 }
 
 export default function TranslateContextProvider({children}) {
     const initialState = { 
       leaflets: [],
-      currentLeaflet: createNewLeaflet()
+      currentLeaflet: createNewLeaflet(),
+      error: null
     };
     const [state, dispatch] = useReducer(translateReducer, initialState);
   
+    const dispatchError = (error, customMessage) => {
+        console.error(customMessage, error);
+        dispatch({ 
+          type: 'SET_ERROR', 
+          error: {
+            message: customMessage,
+            details: error.response?.data?.error_message || error.message,
+            code: error.response?.status || 'UNKNOWN'
+          }
+        });
+      };
+
     const fetchLeaflets = async () => {
       try {
           const fetchedLeaflets = await fetchLeafletsFromDB();
           dispatch({ type: 'SET_LEAFLETS', leaflets: fetchedLeaflets.leaflets });
       } catch (error) {
-          console.error('Error fetching leaflets:', error);
+          dispatchError(error, 'Failed to fetch leaflets. Please try again.');
+
       }
     };
 
@@ -107,7 +132,7 @@ export default function TranslateContextProvider({children}) {
         dispatch({ type: 'NEW_CURRENT_LEAFLET' });
         console.log('Leaflet saved successfully');
       } catch (error) {
-        console.error('Error saving leaflet:', error);
+        dispatchError(error, 'Failed to save leaflet. Please try again.');
       }
     };
 
@@ -117,7 +142,7 @@ export default function TranslateContextProvider({children}) {
         return translate;
       }
       catch(error){
-        console.error('Error translating paragraph:', error);
+        dispatchError(error, 'Failed to translate text. Please try again.');
         return 'Error translating paragraph';
       }
     };
@@ -141,7 +166,7 @@ export default function TranslateContextProvider({children}) {
         window.URL.revokeObjectURL(url); // Clean up the object URL
         console.info('File downloaded successfully');
       } catch (error) {
-        console.error('Error downloading file:', error);
+        dispatchError(error, 'Failed to download leaflet. Please try again.');
       }
     };
     
@@ -183,22 +208,25 @@ export default function TranslateContextProvider({children}) {
     };
 
     const deleteLeaflet = async (leafletId) => {
-
       try {
         const result = await deleteLeafletFromDB(leafletId);
         const newLeafletsList = state.leaflets.filter(leaflet => leaflet.id !== leafletId);
         dispatch({ type: 'SET_LEAFLETS', leaflets: newLeafletsList });
-        // if (state.currentLeaflet.id === leafletId)
         dispatch({ type: 'NEW_CURRENT_LEAFLET' });
         console.log('Leaflet deleted successfully');
       } catch (error) {
-        console.error('Error deleting leaflet:', error);
+        dispatchError(error, 'Failed to delete leaflet. Please try again.');
       }
     }
+
+    const clearError = () => {
+      dispatch({ type: 'CLEAR_ERROR' });
+    };
 
     const translateCtx = {
         currentLeaflet: state.currentLeaflet,
         leaflets: state.leaflets,
+        error: state.error,
         saveLeaflet,
         addNewLeaflet,
         selectLeaflet,
@@ -210,7 +238,8 @@ export default function TranslateContextProvider({children}) {
         changeInputText,
         updateOutputText,
         fetchLeaflets,
-        deleteLeaflet
+        deleteLeaflet,
+        clearError
     };
 
     return (

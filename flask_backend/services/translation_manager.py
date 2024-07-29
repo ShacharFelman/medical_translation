@@ -34,9 +34,7 @@ class TranslationManager(metaclass=SingletonMeta):
 
         try:
 
-            #TODO: return the prompt injection detector when finish testing the translation accuaracy
-            # is_valid, error_message = self.prompt_injection_detector.validate_input(translation_request.text_input)
-            is_valid, error_message = True, ""
+            is_valid, error_message = self.prompt_injection_detector.validate_input(translation_request.text_input)
             if not is_valid:
                 logger.warning(f"Input validation failed: {error_message}")
                 

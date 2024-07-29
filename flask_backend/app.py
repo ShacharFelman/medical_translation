@@ -5,7 +5,6 @@ from flask.logging import default_handler
 from utils.exceptions import InvalidUserInputError
 from utils.error_handlers import handle_exception, invalid_user_input_error
 from routes import api_services_bp
-# from routes import static_bp,api_bp,services_bp
 from services.translation_manager import translation_manager 
 
 def create_app():
