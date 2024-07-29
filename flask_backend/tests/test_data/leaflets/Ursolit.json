@@ -1,0 +1,389 @@
+{
+  "title": "Ursolit",
+  "index": 0,
+  "dir_index": "13",
+  "title_lang": {
+    "title_heb": "אורסוליט",
+    "title_eng": "Ursolit",
+    "title_ara": "x"
+  },
+  "sections": [
+    {
+      "title": "General",
+      "section_num": 0,
+      "data": [
+        {
+          "eng": "PATIENT LEAFLET IN ACCORDANCE WITH THE PHARMACISTS’ REGULATIONS (PREPARATIONS) – 1986\nThe medicine is dispensed with a doctor’s prescription only\nUrsolit 100, 300 Tablets\n",
+          "heb": "עלון לצרכן לפי תקנות הרוקחים )תכשירים( התשמ\"ו - 1986\nהתרופה משווקת על פי מרשם רופא בלבד\nאורסוליט ,100 300 טבליות\n"
+        },
+        {
+          "eng": "The active ingredient:\nUrsolit 100:\nUrsodeoxycholic Acid 100 mg\nUrsolit 300:\nUrsodeoxycholic Acid 300 mg\nInactive ingredients and allergens in the preparation – see the subsection “Important information about some of the ingredients of the medicine” and section 6.\n",
+          "heb": "החומר הפעיל:\nאורסוליט :100\nחומצה אורסודאוקסיכולית 100 מ\"ג\nUrsodeoxycholic Acid 100 mg\nאורסוליט :300\nחומצה אורסודאוקסיכולית 300 מ\"ג\nחומרים בלתי פעילים ואלרגניים בתכשיר – ראה סעיף \"מידע חשוב על חלק מהמרכיבים של התרופה\" ופרק .6\n"
+        },
+        {
+          "eng": "Read the entire leaflet carefully before using the medicine. This leaflet contains concise information about the medicine. If you have any other questions, refer to the doctor or the pharmacist.\n",
+          "heb": "קרא בעיון את העלון עד סופו בטרם תשתמש בתרופה. עלון זה מכיל מידע תמציתי על התרופה. אם יש לך שאלות נוספות, פנה אל הרופא או אל הרוקח.\n"
+        },
+        {
+          "eng": "This medicine has been prescribed for treatment of your illness. Do not pass it on to others. It may harm them even if it seems to you that their medical condition is similar.\n",
+          "heb": "תרופה זו נרשמה לטיפול במחלתך. אל תעביר אותה לאחרים. היא עלולה להזיק להם אפילו אם נראה לך כי מחלתם דומה.\n"
+        }
+      ]
+    },
+    {
+      "title": "medicine intended for",
+      "section_num": 1,
+      "data": [
+        {
+          "eng": "The medicine is intended for the dissolution\nor reduction in size of gallstones composed of\ncholesterol, and for treatment of certain chronic liver\ndiseases.\n",
+          "heb": "התרופה מיועדת להמסה או הקטנת אבני מרה, המורכבות\nמכולסטרול ולטיפול במחלות כבד כרוניות מסוימות.\n"
+        },
+        {
+          "eng": "Therapeutic class: bile acids.\n",
+          "heb": "קבוצה תרפויטית: חומצות המרה.\n"
+        },
+        {
+          "eng": "Ursodeoxycholic acid affects the bile composition, so\nthat the gallstones dissolve.\n",
+          "heb": "חומצה אורסודאוקסיכולית משפיעה על הרכב המרה, כך שאבני\nמרה ימסו.\n"
+        },
+        {
+          "eng": "The effect of ursodeoxycholic acid in some chronic\nliver diseases results from a variety of mechanisms,\nsuch as a protective activity on liver cells and effect\non the immune system.\n",
+          "heb": "השפעת חומצה אורסודאוקסיכולית במחלות כבד כרוניות\nמסוימות היא במגוון מנגנונים, כגון פעילות מגינה על תאי הכבד\nוהשפעה על מערכת החיסון.\n"
+        }
+      ]
+    },
+    {
+      "title": "before using the medicine",
+      "section_num": 2,
+      "data": [
+        {
+          "eng": "Do not use this medicine if:",
+          "heb": "אין להשתמש בתרופה אם:"
+        },
+        {
+          "eng": "• You are sensitive (allergic) to the active ingredient (bile acids) or to any of the additional components the medicine contains (for a list of inactive ingredients, see section 6).",
+          "heb": "יש לך רגישות )אלרגיה( לחומר הפעיל )חומצות מרה( או לכל אחד מהמרכיבים אשר מכילה התרופה )לרשימת המרכיבים הבלתי פעילים, ראה פרק 6(."
+        },
+        {
+          "eng": "• You suffer from an inflammatory exacerbation of the gallbladder and/or biliary tract.",
+          "heb": "יש לך התלקחות דלקתית של כיס המרה ו/או דרכי המרה."
+        },
+        {
+          "eng": "• You have a biliary obstruction or stenosis.",
+          "heb": "יש לך חסימה או היצרות בדרכי המרה."
+        },
+        {
+          "eng": "• You suffer from a gastric or intestinal ulcer.",
+          "heb": "אתה סובל מכיב בקיבה או במעי."
+        },
+        {
+          "eng": "• You suffer from calcified gallstones.",
+          "heb": "אתה סובל מאבני מרה מסוידות."
+        },
+        {
+          "eng": "• Your gallbladder is not contracting properly.",
+          "heb": "כיס המרה שלך אינו מתכווץ כראוי."
+        },
+        {
+          "eng": "• You suffer from biliary colic (can manifest in pain/frequent cramps in the upper abdomen).",
+          "heb": "אתה סובל מעווית של המרה )יכולה להתבטא בכאבים/התכווצויות תכופות בבטן העליונה(."
+        },
+        {
+          "eng": "Special warnings regarding the use of the medicine",
+          "heb": "אזהרות מיוחדות הנוגעות לשימוש בתרופה"
+        },
+        {
+          "eng": "• The medicine should be used under medical supervision (see also “Tests and follow-up” later in this section).",
+          "heb": "השימוש בתרופה ייעשה תחת השגחה רפואית )ראה גם \"בדיקות ומעקב\" בהמשך פרק זה(."
+        },
+        {
+          "eng": "• In case you are suffering from diarrhea during the treatment, inform the doctor immediately, since he may decide to reduce the dosage or discontinue the treatment.",
+          "heb": "במידה ואתה סובל משלשול בזמן הטיפול, יידע את הרופא מיד, היות וייתכן שהרופא יחליט על הורדת מינון התרופה או הפסקתה."
+        },
+        {
+          "eng": "• In rare cases, some symptoms of biliary cirrhosis (such as itching) may worsen in the beginning of the treatment. In such a case, you should contact the doctor, who may recommend to continue the treatment with a lower daily dose (see also “Attention!” in section 3).",
+          "heb": "במקרים נדירים ייתכן שבתחילת הטיפול יוחמרו חלק מתסמיני שחמת המרה )כגון גרד(. במקרה כזה יש לפנות לרופא שייתכן שימליץ להמשיך בטיפול במינון יומי נמוך יותר )ראה גם \"שים לב\" בפרק 3(."
+        },
+        {
+          "eng": "• Women who are using Ursolit to dissolve gallstones, should not take hormonal contraceptive preparations as the hormones in these contraceptives can increase the formation of gallstones.",
+          "heb": "נשים המשתמשות באורסוליט להמסת אבני מרה, צריכות שלא ליטול תכשירים הורמונליים למניעת הריון מכיוון שההורמונים שבאמצעי המניעה הללו יכולים להגביר את יצירת אבני המרה."
+        },
+        {
+          "eng": "• In the final stage of a biliary tract infection, in very rare cases, the function of the liver may be greatly reduced. The liver function will partly recover after stopping the treatment.",
+          "heb": "בשלב הסופי של דלקת בדרכי המרה, במקרים נדירים מאוד, ייתכן שתפקוד הכבד יפחת מאוד. תפקוד הכבד יחזור לעצמו במידה חלקית לאחר הפסקת הטיפול."
+        },
+        {
+          "eng": "Tests and follow-up",
+          "heb": "בדיקות ומעקב"
+        },
+        {
+          "eng": "During the first three months of treatment, liver function tests should be performed every 4 weeks. Afterwards, it is recommended to perform the test every 3 months. Apart from diagnosing the response to treatment in patients with liver diseases, this follow-up will allow early detection of liver impairment.",
+          "heb": "בשלושת החודשים הראשונים של הטיפול יש לבצע בדיקות תפקודי כבד כל ארבעה שבועות. לאחר מכן מומלץ לבצע את הבדיקה כל 3 חודשים. מלבד אבחון של תגובה לטיפול במטופלים למחלות כבד, מעקב זה יאפשר זיהוי מוקדם של פגיעה כבדית."
+        },
+        {
+          "eng": "When the treatment with the preparation is intended for dissolving or reducing the size of gallstones: cholecystography should be performed orally 6-10 months from the beginning of the treatment, in order to assess the progress of the treatment in dissolving gallstones and in order to diagnose possible calcification of the stones.",
+          "heb": "כאשר הטיפול בתכשיר מיועד להמסה או להקטנת אבני מרה: יש לבצע כולציסטוגרפיה דרך הפה 6-10 חודשים מתחילת הטיפול, על מנת להעריך את התקדמות הטיפול בהמסת אבני המרה ועל מנת לאבחן הסתיידות אפשרית של האבנים."
+        },
+        {
+          "eng": "Drug interactions",
+          "heb": "אינטראקציות/תגובות בין תרופתיות"
+        },
+        {
+          "eng": "If you are taking, or have recently taken, other medicines including non-prescription medicines and nutritional supplements, tell the doctor or the pharmacist. Especially if you are taking:",
+          "heb": "אם אתה לוקח, או אם לקחת לאחרונה, תרופות אחרות כולל תרופות ללא מרשם ותוספות תזונה, ספר על כך לרופא או לרוקח. במיוחד אם אתה לוקח:"
+        },
+        {
+          "eng": "• Colestyramine and colestipol (for lowering lipid blood levels), and aluminum-containing antacids. If you must take these medicines, take them at least two hours before or two hours after taking Ursolit.",
+          "heb": "כולסטיראמין וקולסטיפול )להורדת שומנים בדם( וכן סותרי חומצה המכילים אלומיניום. במידה ואתה חייב להשתמש בתרופות אלה, יש ליטול אותן לפחות שעתיים לפני נטילת אורסוליט או שעתיים לאחר מכן."
+        },
+        {
+          "eng": "• Ciprofloxacin (an antibiotic), dapsone (an antibiotic), nitrendipine (for lowering blood pressure) – Ursolit may reduce the effect of these medicines. Their dosage may need to be changed.",
+          "heb": "ציפרופלוקסצין )אנטיביוטיקה(, דפסון )אנטיביוטיקה(, ניטרנדיפין )להורדת לחץ דם( - אורסוליט עלול להוריד את השפעת התרופות הללו. ייתכן שיהיה צורך לשנות את המינון שלהן."
+        },
+        {
+          "eng": "• Ciclosporine (immunosuppressant) – Ursolit may affect this medicine’s absorption. The doctor will test its blood concentration and adjust the dosage as needed.",
+          "heb": "ציקלוספורין )מדכא מערכת חיסון( - אורסוליט עלול להשפיע על ספיגת התרופה. הרופא יבדוק את הריכוז שלה בדם ויתאים את המינון שלה במידת הצורך."
+        },
+        {
+          "eng": "• Rosuvastatin (for lowering cholesterol levels) – Ursolit may affect the medicine’s action.",
+          "heb": "רוזובסטטין )להורדת כולסטרול( - אורסוליט עלול להשפיע על פעילות התרופה."
+        },
+        {
+          "eng": "• Contraceptive pills, estrogen and certain medicines for lowering blood cholesterol and lipids such as clofibrate – in certain cases these medicines may affect Ursolit’s action. Consult with the doctor about this.",
+          "heb": "גלולות למניעת הריון, אסטרוגן ותרופות מסוימות להורדת כולסטרול ושומנים בדם כגון קלופיברט - במקרים מסוימים תרופות אלו עלולות להשפיע על הפעילות של אורסוליט. יש להתייעץ על כך עם הרופא."
+        },
+        {
+          "eng": "Use of the medicine and food",
+          "heb": "שימוש בתרופה ומזון"
+        },
+        {
+          "eng": "The medicine should be taken with or after a meal.",
+          "heb": "יש ליטול את התרופה עם או אחרי ארוחה."
+        },
+        {
+          "eng": "Pregnancy, breastfeeding and fertility",
+          "heb": "הריון, הנקה ופוריות"
+        },
+        {
+          "eng": "If you are pregnant or breastfeeding, may be pregnant or are planning to become pregnant or to breastfeed, consult a doctor before using.",
+          "heb": "אם את בהריון או מניקה, עשויה להיות בהריון או מתכננת הריון או הנקה, יש להיוועץ ברופא לפני השימוש."
+        },
+        {
+          "eng": "Pregnant women should not use this medicine unless the doctor has decided that it is absolutely necessary. Women who may become pregnant should use contraceptives as will be recommended by the doctor. During treatment with the medicine, possible contraceptives are the non-hormonal type, such as barrier contraceptives, or contraceptive pills with a low dose of estrogen. However, when the treatment is intended for dissolving gallstones, only non-hormonal contraceptives can be used, as the hormones in the hormonal contraceptives may increase the formation of gallstones.",
+          "heb": "אין להשתמש בתרופה בנשים הרות אלא אם הרופא החליט שזה צורך מוחלט. נשים העשויות להיכנס להריון, צריכות להשתמש באמצעי מניעה כפי שיומלץ על ידי הרופא. במהלך הטיפול בתרופה, אמצעי מניעה אפשרי הוא מסוג שאינו הורמונלי כגון אמצעי מניעה חוצץ, או גלולות למניעת הריון עם אסטרוגן במינון נמוך. יחד עם זאת, כאשר הטיפול נועד להמסת אבני מרה, ניתן להשתמש רק באמצעי מניעה לא הורמונליים מכיוון שההורמונים שבאמצעי מניעה הורמונליים יכולים להגביר את יצירת אבני המרה."
+        },
+        {
+          "eng": "A small amount of the medicine passes into breastmilk. If you are breastfeeding, consult with your doctor.",
+          "heb": "כמות קטנה של התרופה עוברת בחלב האם. יש להתייעץ עם הרופא, אם את מניקה."
+        },
+        {
+          "eng": "Driving and operating machinery",
+          "heb": "נהיגה ושימוש במכונות"
+        },
+        {
+          "eng": "Ursolit does not affect the ability to drive or operate machinery.",
+          "heb": "אורסוליט אינו משפיע על היכולת לנהוג או להפעיל מכונות."
+        },
+        {
+          "eng": "Use in children",
+          "heb": "שימוש בילדים"
+        },
+        {
+          "eng": "This medicine is not intended for babies and children. Safety of use in children has not been established.",
+          "heb": "תרופה זו אינה מיועדת לתינוקות ולילדים. בטיחות השימוש בילדים לא הוכחה."
+        },
+        {
+          "eng": "Important information about some of the ingredients of the medicine",
+          "heb": "מידע חשוב על חלק מהמרכיבים בתרופה"
+        },
+        {
+          "eng": "The medicine contains a small amount of lactose. If you have been told by the doctor that you have an intolerance to some sugars, contact the doctor before taking this medicine.",
+          "heb": "התרופה מכילה כמות קטנה של לקטוז. אם נאמר לך על ידי הרופא שיש לך רגישות לסוכרים מסוימים, יש ליצור קשר עם הרופא לפני לקיחת התרופה."
+        },
+        {
+          "eng": "The medicine contains sodium methyl parahydroxybenzoate and sodium propyl parahydroxybenzoate, which may cause allergic reactions (possibly delayed).",
+          "heb": "התרופה מכילה נתרן מתיל פרהידרוקסיבנזואט ונתרן פרופיל פרהידרוקסיבנזואט היכולים לגרום לתגובות אלרגיות )אפשר שיהיו מאוחרות(."
+        },
+        {
+          "eng": "Medicinal product marketing authorization holder",
+          "heb": "בעל רישום בעלות על הרישום של התרופה"
+        },
+        {
+          "eng": "P.O.Box 722, Industrial Zone Ashdod 7710001",
+          "heb": "ת.ד. 722, אזור תעשיה אשדוד 7710001"
+        },
+        {
+          "eng": "This leaflet was checked and approved by the Ministry of Health in November 2017.",
+          "heb": "חוברת זו נבדקה ואושרה על ידי משרד הבריאות בנובמבר 2017."
+        }
+      ]
+    },
+    {
+      "title": "how to use the medicine",
+      "section_num": 3,
+      "data": [
+        {
+          "eng": "Always use the preparation according to the doctor’s instructions.\n",
+          "heb": "ש להשתמש בתכשיר תמיד בהתאם להוראות הרופא.\n"
+        },
+        {
+          "eng": "Check with the doctor or pharmacist if you are uncertain about the dosage and how to use the preparation.\n",
+          "heb": "עליך לבדוק עם הרופא או הרוקח אם אינך בטוח בנוגע למינון ולאופן הטיפול בתכשיר.\n"
+        },
+        {
+          "eng": "The dosage and treatment regimen will be determined by the doctor.\n",
+          "heb": "המינון ואופן הטיפול יקבעו על ידי הרופא.\n"
+        },
+        {
+          "eng": "The dosage will be determined by the doctor according to your age, disease severity and weight.\n",
+          "heb": "המינון ייקבע על ידי הרופא בהתאם לגילך, חומרת המחלה ומשקלך.\n"
+        },
+        {
+          "eng": "The doctor may recommend you to use Ursolit for up to 24 months of treatment, depending on the size of the gallstones. You should continue treatment with Ursolit for 3 months after the gallstones have been dissolved.\n",
+          "heb": "הרופא יכול להמליץ לך על שימוש באורסוליט עד ל24-חודשי טיפול בתלות בגודל אבני המרה. עליך להמשיך טיפול באורסוליט למשך 3 חודשים לאחר התמוססות אבני המרה.\n"
+        },
+        {
+          "eng": "This medicine should be used at set intervals as determined by the treating doctor.\n",
+          "heb": "יש להשתמש בתרופה זו בזמנים קצובים כפי שנקבע על ידי הרופא המטפל.\n"
+        },
+        {
+          "eng": "Do not exceed the recommended dose.\n",
+          "heb": "אין לעבור על המנה המומלצת.\n"
+        },
+        {
+          "eng": "The tablets may be halved or pulverized.\n",
+          "heb": "מותר לחצות או לכתוש את הטבליות.\n"
+        },
+        {
+          "eng": "Attention! In rare cases, some symptoms of biliary cirrhosis (such as itching) may worsen in the beginning of the treatment. In such a case the treatment may be continued at a lower daily dosage according to the doctor’s orders. Afterwards, the doctor will increase the dosage gradually (usually every week) up to the required dosage.\n",
+          "heb": "שים לב! במקרים נדירים ייתכן שבתחילת הטיפול יוחמרו חלק מתסמיני שחמת המרה )כגון גרד(. במקרה כזה ניתן להמשיך בטיפול במינון יומי נמוך יותר על פי הוראות הרופא. לאחר מכן, בהדרגה )בדרך כלל כל שבוע(, הרופא יעלה את המינון, עד למינון הנדרש.\n"
+        },
+        {
+          "eng": "If you accidentally took a higher dosage, diarrhea is possible. If you are suffering from prolonged diarrhea, contact the doctor immediately.\n",
+          "heb": "אם נטלת בטעות מינון גבוה יותר ייתכנו שלשולים. פנה לרופא מיד אם אתה סובל משלשול מתמשך.\n"
+        },
+        {
+          "eng": "If you have diarrhea, be sure to drink enough fluids in order to restore your salt-fluid balance.\n",
+          "heb": "במידה ואתה משלשל, הקפד לשתות מספיק נוזלים, כדי לשקם את מאזן המלחים והנוזלים שלך.\n"
+        },
+        {
+          "eng": "If you took an overdose or a child accidentally swallowed this medicine, go to the doctor or to a hospital emergency room immediately and take the package of the medicine with you.\n",
+          "heb": "אם נטלת מנת יתר או אם בטעות בלע ילד מן התרופה, פנה מיד לרופא או לחדר מיון של בית חולים והבא את אריזת התרופה איתך.\n"
+        },
+        {
+          "eng": "If you forgot to take this medicine at the required time, do not take a double dose. Continue the treatment at the prescribed dose and times.\n",
+          "heb": "אם שכחת ליטול תרופה זו בזמן המיועד, אין ליטול מנה כפולה. יש להמשיך את הטיפול במינון ובזמנים שנקבעו.\n"
+        },
+        {
+          "eng": "Follow the treatment as recommended by the doctor.\n",
+          "heb": "יש להתמיד בטיפול כפי שהומלץ על ידי הרופא.\n"
+        },
+        {
+          "eng": "Even if there is an improvement in your health, do not stop treatment with the medicine without consulting the doctor.\n",
+          "heb": "גם אם חל שיפור במצב בריאותך, אין להפסיק את הטיפול בתרופה ללא התייעצות עם הרופא.\n"
+        },
+        {
+          "eng": "Do not take medicines in the dark! Check the label and the dose every time you take a medicine. Wear glasses if you need them.\n",
+          "heb": "אין ליטול תרופות בחושך! בדוק התווית והמנה בכל פעם שהנך נוטל תרופה. הרכב משקפיים אם הנך זקוק להם.\n"
+        },
+        {
+          "eng": "If you have any other questions regarding the use of the medicine, consult the doctor or the pharmacist.\n",
+          "heb": "אם יש לך שאלות נוספות בנוגע לשימוש בתרופה, היוועץ ברופא או ברוקח.\n"
+        }
+      ]
+    },
+    {
+      "title": "side effects",
+      "section_num": 4,
+      "data": [
+        {
+          "eng": "As with any medicine, using Ursolit may cause side effects in some users. Do not be alarmed when reading the list of side effects. You may not experience any of them.\n",
+          "heb": "כמו בכל תרופה, השימוש באורסוליט עלול לגרום לתופעות לוואי בחלק מהמשתמשים. אל תיבהל למקרא רשימת תופעות הלוואי. ייתכן שלא תסבול מאף אחת מהן.\n"
+        },
+        {
+          "eng": "Common side effects – side effects that occur in 1-10 users out of 100:\n",
+          "heb": "תופעות לוואי שכיחות – תופעות שמופיעות ב1-10- משתמשים מתוך :100\n"
+        },
+        {
+          "eng": "• Soft stool and/or diarrhea\n",
+          "heb": "\t צואה רכה ו/או שלשולים\n"
+        },
+        {
+          "eng": "Very rare side effects – side effects that occur in less than 1 user out of 10,000:\n",
+          "heb": "תופעות לוואי נדירות מאוד – תופעות שמופיעות בפחות ממשתמש אחד מתוך :10,000\n"
+        },
+        {
+          "eng": "• Severe pain in the upper right side of the abdomen, worsening of liver cirrhosis which partially improves upon discontinuation of treatment\n",
+          "heb": "\t כאב חמור בצד הימני העליון של הבטן, החמרה של שחמת כבד שמוטבת חלקית בהפסקת הטיפול\n"
+        },
+        {
+          "eng": "• Gallstone calcification\n",
+          "heb": "\t הסתיידות אבני מרה\n"
+        },
+        {
+          "eng": "• Urticaria (hives)\n",
+          "heb": "\t אורטיקריה )סרפדת(\n"
+        },
+        {
+          "eng": "If a side effect occurs, if one of the side effects worsens, or if you suffer from a side effect not mentioned in this leaflet, consult your doctor.\n",
+          "heb": "אם הופיעה תופעת לוואי, אם אחת מתופעות הלוואי מחמירה או כאשר אתה סובל מתופעת לוואי שלא צוינה בעלון, עליך להתייעץ עם הרופא.\n"
+        },
+        {
+          "eng": "Reporting side effects\n",
+          "heb": "דיווח על תופעות לוואי\n"
+        },
+        {
+          "eng": "Side effects may be reported to the Ministry of Health by clicking on the link “report side effects due to medicinal treatment” found on the Ministry of Health website homepage (www.health.gov.il), which will direct you to the online form for reporting side effects, or by clicking on the following link: https://sideeffects.health.gov.il/\n",
+          "heb": "ניתן לדווח על תופעות לוואי למשרד הבריאות באמצעות לחיצה על הקישור \"דיווח על תופעות לוואי עקב טיפול תרופתי\" שנמצא בדף הבית של אתר משרד הבריאות )il.gov.health.www ) המפנה לטופס המקוון לדיווח על תופעות לוואי, או ע\"י כניסה https://sideeffects.health.gov.il/ :\n"
+        }
+      ]
+    },
+    {
+      "title": "medicine storage",
+      "section_num": 5,
+      "data": []
+    },
+    {
+      "title": "additional information",
+      "section_num": 6,
+      "data": [
+        {
+          "eng": "In addition to the active ingredient, the medicine also contains:",
+          "heb": "נוסף על החומר הפעיל, התרופה מכילה גם:"
+        },
+        {
+          "eng": "Lactose Monohydrate, Carboxymethyl-Cellulose Calcium, Maize Starch, Povidone, Magnesium stearate",
+          "heb": "Lactose Monohydrate, Carboxymethyl-Cellulose Calcium, Maize Starch, Povidone, Magnesium stearate"
+        },
+        {
+          "eng": "Maize Starch, Lactose Monohydrate, Povidone, Magnesium stearate, Colloidal Silicone Dioxide",
+          "heb": "Maize Starch, Lactose Monohydrate, Povidone, Magnesium stearate, Colloidal Silicone Dioxide"
+        },
+        {
+          "eng": "What does the medicine look like and what are the contents of the package?",
+          "heb": "כיצד נראית התרופה ומה תוכן האריזה?"
+        },
+        {
+          "eng": "Ursolit 100: Round, biconvex, scored, white tablets. The medicine is marketed in a blister pack of 60, 100, 500 and 1,000 tablets. Not all package sizes may be marketed.",
+          "heb": "אורסוליט :100 טבליות לבנות עגולות, קמורות משני הצדדים, עם פס חציה. התרופה משווקת באריזת מגשיות של ,60 ,100 500 ו1,000- טבליות. ייתכן שלא כל גדלי האריזות משווקים."
+        },
+        {
+          "eng": "Ursolit 300: Round, biconvex, scored, white tablets. The medicine is marketed in a blister pack of 30 tablets.",
+          "heb": "אורסוליט :300 טבליות לבנות עגולות, קמורות משני הצדדים, עם פס חציה. התרופה משווקת באריזת מגשיות של 30 טבליות."
+        },
+        {
+          "eng": "Marketing authorization holder/manufacturer and the address: CTS Chemical Industries Ltd., 3 Hakidma st., Kiryat Malachi, Israel.",
+          "heb": "בעל הרישום/היצרן וכתובתו: כצט תעשיות כימיות בע\"מ, רחוב הקידמה ,3 קרית מלאכי, ישראל."
+        },
+        {
+          "eng": "This leaflet was revised in 01/2023 in accordance with the Ministry of Health guidelines.",
+          "heb": "עלון זה נערך ב01/2023- בהתאם להנחיות משרד הבריאות."
+        },
+        {
+          "eng": "Registration numbers of the medicine in the National Drug Registry of the Ministry of Health:",
+          "heb": "מספרי רישום התרופה בפנקס התרופות הממלכתי במשרד הבריאות:"
+        }
+      ]
+    }
+  ]
+}

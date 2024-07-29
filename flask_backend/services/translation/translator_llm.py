@@ -35,7 +35,7 @@ class TranslatorLLM:
 
             if parsed_response.get("status") != "[TRANSLATION SUCCESSFUL]":
                 logger.warning(f"{self.translator_name}: Translation not successful. Status: {parsed_response.get('status')}")
-                return self._create_error_response("Translation not successful", metadata)
+                return self._create_error_response(f"Translation not successful, status: {parsed_response.get('status')}, content: {parsed_response.get('translated_text', '')}", metadata)
 
             translated_text = parsed_response.get("translated_text", "").strip()
             if not translated_text:

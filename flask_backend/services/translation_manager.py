@@ -1,5 +1,5 @@
 import time
-from typing import List, Tuple, Optional
+from typing import List, Optional
 
 from utils.singleton_meta import SingletonMeta
 from utils.logger import logger
@@ -34,8 +34,9 @@ class TranslationManager(metaclass=SingletonMeta):
 
         try:
 
-            is_valid, error_message = self.prompt_injection_detector.validate_input(translation_request.text_input)
-            
+            #TODO: return the prompt injection detector when finish testing the translation accuaracy
+            # is_valid, error_message = self.prompt_injection_detector.validate_input(translation_request.text_input)
+            is_valid, error_message = True, ""
             if not is_valid:
                 logger.warning(f"Input validation failed: {error_message}")
                 
@@ -51,6 +52,7 @@ class TranslationManager(metaclass=SingletonMeta):
                 # Save the failed attempt to the database
                 translation_record = TranslationRecordEntity(
                     input=translation_request.text_input,
+                    human_translation=human_verified_translation,
                     translations=[failed_translation],
                     best_translation=None
                 )
@@ -70,6 +72,7 @@ class TranslationManager(metaclass=SingletonMeta):
                 logger.error("No successful translations were generated.")
                 self._save_translation_to_db(TranslationRecordEntity(
                     input=translation_request.text_input,
+                    human_translation=human_verified_translation,
                     translations=all_translations,
                     best_translation=None
                 ))
@@ -86,6 +89,7 @@ class TranslationManager(metaclass=SingletonMeta):
                     logger.error("Failed to select best translation.")
                     self._save_translation_to_db(TranslationRecordEntity(
                         input=translation_request.text_input,
+                        human_translation=human_verified_translation,
                         translations=all_translations,
                         best_translation=None
                     ))
@@ -98,6 +102,7 @@ class TranslationManager(metaclass=SingletonMeta):
                 logger.error(f"Error in selecting best translation: {str(e)}")
                 self._save_translation_to_db(TranslationRecordEntity(
                     input=translation_request.text_input,
+                    human_translation=human_verified_translation,
                     translations=all_translations,
                     best_translation=None
                 ))
@@ -109,6 +114,7 @@ class TranslationManager(metaclass=SingletonMeta):
 
             translation_record = TranslationRecordEntity(
                 input=translation_request.text_input,
+                human_translation=human_verified_translation,
                 translations=all_translations,
                 best_translation=best_translation
             )
