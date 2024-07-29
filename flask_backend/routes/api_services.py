@@ -2,12 +2,12 @@ from flask import jsonify, request ,Blueprint
 from utils.logger import logger
 from utils.error_handlers import engine_not_initialized_response, missing_data_in_request_error, unsupported_source_language_error, unsupported_dest_language_error, internal_server_error
 from utils.constants import Language
-# from flask import send_file
-# from io import BytesIO
+from flask import send_file
+from io import BytesIO
 # from docx import Document
-# from docx.shared import Pt
-# from docx.shared import RGBColor
-# from htmldocx import HtmlToDocx
+from docx.shared import Pt
+from docx.shared import RGBColor
+from htmldocx import HtmlToDocx
 # from engine.input_handling import input_validation_handler
 # from engine.output_handling import output_validation_handler
 from pydantic import ValidationError
@@ -104,8 +104,6 @@ def fetch_leaflets():
         return jsonify({"error": "Internal server error"}), 500
     
 
-
-
 @api_services_bp.route('/delete-leaflet/<leaflet_id>', methods=['DELETE'])
 def delete_leaflet(leaflet_id):
     try:
@@ -137,31 +135,23 @@ def get_leaflet(leaflet_id):
         return jsonify({"error": "Internal server error"}), 500
 
 
-
-
-
-
-
-
-######################################################################
-
-# @api_services_bp.route('/html-docx', methods=['POST'])
-# def download_docx(): 
-#     try:        
-#         data = request.json 
-#         html_input = data['htmlInput']
-#         new_parser = HtmlToDocx()
-#         docx = new_parser.parse_html_string(html_input)
-#         for paragraph in docx.paragraphs:
-#             for run in paragraph.runs:
-#                 run.font.name = "Arial" 
-#                 run.font.size = Pt(11)      
-#                 run.font.color.rgb = RGBColor(0, 0, 0)  
-#         doc_buffer = BytesIO()
-#         docx.save(doc_buffer)
-#         doc_buffer.seek(0)      
-#         return send_file(doc_buffer, as_attachment=True,download_name="generated_file.docx",mimetype='application/vnd.openxmlformats-officedocument.wordprocessingml.document')
-#     except Exception as e:
-#         return jsonify({'error': str(e)}), 500  
+@api_services_bp.route('/download-docx', methods=['POST'])
+def download_docx(): 
+    try:        
+        data = request.json 
+        html_input = data['input']
+        new_parser = HtmlToDocx()
+        docx = new_parser.parse_html_string(html_input)
+        for paragraph in docx.paragraphs:
+            for run in paragraph.runs:
+                run.font.name = "Arial" 
+                run.font.size = Pt(11)      
+                run.font.color.rgb = RGBColor(0, 0, 0)  
+        doc_buffer = BytesIO()
+        docx.save(doc_buffer)
+        doc_buffer.seek(0)      
+        return send_file(doc_buffer, as_attachment=True,download_name="generated_file.docx",mimetype='application/vnd.openxmlformats-officedocument.wordprocessingml.document')
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500  
         
 
