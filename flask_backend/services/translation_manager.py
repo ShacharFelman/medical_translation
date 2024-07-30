@@ -57,15 +57,8 @@ class TranslationManager(metaclass=SingletonMeta):
                 )
                 self._save_translation_to_db(translation_record)
                 
-                ###############################
                 raise InvalidUserInputError("Invalid Input")
 
-                return TranslationResponse(
-                    translated_text=f"Error: {error_message}",
-                    translator_used="Input Validator",
-                    confidence_score=0.0
-                )
-                ###############################
 
             all_translations = self._generate_translations(translation_request.text_input, human_verified_translation)
             
