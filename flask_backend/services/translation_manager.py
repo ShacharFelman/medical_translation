@@ -3,6 +3,7 @@ from typing import List, Optional
 
 from utils.singleton_meta import SingletonMeta
 from utils.logger import logger
+from utils.exceptions import InvalidUserInputError
 from database.mongodb_client import MongoDBClient
 from services.translation.llm_manager import initialize_translators
 from services.translation.translation_selector import translation_selector
@@ -56,11 +57,15 @@ class TranslationManager(metaclass=SingletonMeta):
                 )
                 self._save_translation_to_db(translation_record)
                 
+                ###############################
+                raise InvalidUserInputError("Invalid Input")
+
                 return TranslationResponse(
                     translated_text=f"Error: {error_message}",
                     translator_used="Input Validator",
                     confidence_score=0.0
                 )
+                ###############################
 
             all_translations = self._generate_translations(translation_request.text_input, human_verified_translation)
             
@@ -122,6 +127,10 @@ class TranslationManager(metaclass=SingletonMeta):
             self._log_translation(translation_record)
 
             return translation_entity_to_response(best_translation)
+        
+        except InvalidUserInputError as e:
+            raise InvalidUserInputError("Invalid Input")
+
 
         except Exception as e:
             logger.error(f"Error in translate method: {str(e)}")

@@ -37,7 +37,5 @@ class UnsupportedOutputFileTypeError(InsertionException):
     
 
 class InvalidUserInputError(Exception):
-    def __init__(self, english_message:str, hebrew_message:str) -> None:
-        self.english_message = english_message
-        self.hebrew_message = hebrew_message
-    
+    def __init__(self, error_message:str) -> None:
+        self.error_message = error_message

@@ -1,6 +1,7 @@
 from flask import jsonify, request ,Blueprint
 from utils.logger import logger
 from utils.constants import Language
+from utils.exceptions import InvalidUserInputError
 from flask import send_file
 from io import BytesIO
 from docx.shared import Pt
@@ -49,6 +50,8 @@ def translate_text():
             return create_error_response("Translation failed", 500)
         
         return jsonify({'data': translation_response.translated_text}), 200
+    except InvalidUserInputError as e:
+        return create_error_response(str(e), 400)
     except Exception as e:
         logger.error(f"Error during translation: {str(e)}")
         return create_error_response("Internal server error", 500)
