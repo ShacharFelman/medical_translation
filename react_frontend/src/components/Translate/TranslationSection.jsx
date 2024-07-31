@@ -20,8 +20,13 @@ export default function TranslateSection({inputText,
   }, [inputText]);
 
 
-    function handleTextToTranslate(event){
-      const newText = event.target.value;
+    // function handleTextToTranslate(event){
+    //   const newText = event.target.value;
+    //   setLocalInputText(newText);
+    //   onInputChange(newText);
+    // }  
+    
+    function handleTextToTranslate(newText){
       setLocalInputText(newText);
       onInputChange(newText);
     }  
@@ -43,7 +48,7 @@ export default function TranslateSection({inputText,
      return (
       <div className="relative flex flex-grow space-x-5 mb-8">
         <OutputTextArea translation= {translation} isTranslating= {isTranslating}/>
-        <InputTextArea inputText={inputText} onChange={handleTextToTranslate} onClickTranslate={handleTranslate} isTranslating= {isTranslating}/>
+        <InputTextArea inputText={localInputText} onChange={handleTextToTranslate} onClickTranslate={handleTranslate} isTranslating= {isTranslating}/>
         <DeleteButton onClick={onDelete} className= "flex items-start" />
       </div>
     );

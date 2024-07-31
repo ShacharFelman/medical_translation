@@ -173,7 +173,7 @@ export default function TranslateContextProvider({children}) {
   const generateFileContent = () => {
       let allText = ``;
       state.currentLeaflet.sections.forEach((section) => {
-        allText += section.translation.replace(/\n/g, '<br>') + '<br><br>';
+        allText += section.translation + '<br><br>';
       });
       return allText;
   }
