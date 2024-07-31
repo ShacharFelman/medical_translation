@@ -156,7 +156,7 @@ export default function TranslateContextProvider({children}) {
         link.href = url;
   
         const currentDateTime = new Date().toISOString().replace(/:/g, '-').replace(/\..+/, '');
-        const filename = `generated_document_${currentDateTime}.docx`;
+        const filename = `generated_document_${state.currentLeaflet.name}_${currentDateTime}.docx`;
         link.setAttribute('download', filename);
   
         document.body.appendChild(link);

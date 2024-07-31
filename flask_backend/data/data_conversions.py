@@ -6,7 +6,6 @@ def translation_entity_to_response(translation_entity: TranslationEntity) -> Tra
     return TranslationResponse(
         translated_text=translation_entity.translated_text,
         translator_used=translation_entity.translator_name,
-        confidence_score=translation_entity.score or 0.0
     )
 
 def leaflet_history_entity_to_response(entity: LeafletHistoryEntity) -> LeafletResponse:
