@@ -5,7 +5,7 @@ from flask.logging import default_handler
 from utils.exceptions import InvalidUserInputError
 from utils.error_handlers import handle_exception, invalid_user_input_error
 from routes import api_services_bp
-from services.translation_manager import translation_manager 
+# from services.translation_manager import translation_manager 
 
 def create_app():
     app = Flask(__name__,static_folder="</>",static_url_path='')
@@ -32,7 +32,8 @@ def create_app():
         pass
 
     with app.app_context():
-        translation_manager.initialize()
+        pass
+        # translation_manager.initialize()
     
     return app
 

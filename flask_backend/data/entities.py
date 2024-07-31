@@ -1,27 +1,40 @@
 import uuid
-
 from pydantic import BaseModel, Field
 from typing import List, Dict, Any, Optional
 from datetime import datetime
-from bson import ObjectId
+
+
+class EvaluationScores(BaseModel):
+    bleu_score: Optional[float] = None
+    comet_score: Optional[float] = None
+
 
 class TranslationEntity(BaseModel):
     translator_name: str
     translated_text: str
     response_time: float
     score: Optional[float] = None
-    bleu_score: Optional[float] = None
+    evaluation_scores: Optional[EvaluationScores] = None
     metadata: Dict[str, Any] = {}
 
     def __repr__(self):
-        return f"TranslationEntity(translator_name='{self.translator_name}', output='{self.output[:50]}...', response_time={self.response_time}, score={self.score}, bleu_score={self.bleu_score})"
+        return f"TranslationEntity(translator_name='{self.translator_name}', output='{self.output[:50]}...', response_time={self.response_time}, score={self.score}, evaluation_scores={self.evaluation_scores})"
+
+
+class EvaluationLeafletData(BaseModel):
+    leaflet_id: Optional[int] = None
+    leaflet_name: Optional[str] = None
+    section_number: Optional[int] = None
+    array_location: Optional[int] = None
+    human_translation: Optional[str] = None
+
 
 class TranslationRecordEntity(BaseModel):
     input: str
-    human_translation: Optional[str] = None
     translations: List[TranslationEntity]
     best_translation: Optional[TranslationEntity] = None
     timestamp: datetime = datetime.now()
+    evaluation_leaflet_data: Optional[EvaluationLeafletData] = None
 
     def to_dict(self) -> Dict[str, Any]:
         return self.model_dump()
@@ -30,10 +43,12 @@ class TranslationRecordEntity(BaseModel):
     def from_dict(cls, data: Dict[str, Any]) -> 'TranslationRecordEntity':
         return cls(**data)
     
+
 class LeafletSectionEntity(BaseModel):
     id: int
     input_text: str
     translated_text: str
+
 
 class LeafletHistoryEntity(BaseModel):
     id: str = Field(default_factory=lambda: str(uuid.uuid4()))
