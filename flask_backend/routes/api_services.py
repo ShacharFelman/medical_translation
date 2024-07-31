@@ -10,8 +10,10 @@ from docx.shared import RGBColor
 from htmldocx import HtmlToDocx
 from pydantic import ValidationError
 from data.boundaries import TranslationRequest, TranslationResponse, LeafletSaveRequest, LeafletResponse, FetchLeafletsResponse, TranslationDownloadRequest
-from services.translation_manager import translation_manager
+from services.translation_manager import TranslationManager
 from services.history_manager import history_manager
+from services.translation.runtime_translation_handler import RuntimeTranslationHandler
+
 
 api_services_bp = Blueprint('api_services', __name__,url_prefix='')
 
@@ -23,6 +25,9 @@ def create_error_response(error_message:str='Internal Server Error', status_code
 
 @api_services_bp.route('/translate', methods=['POST'])
 def translate_text():    
+    translation_manager = TranslationManager(RuntimeTranslationHandler())
+    translation_manager.initialize()
+
     if not translation_manager.is_initialized():
         return create_error_response("Translation engine is still loading. Please wait...", 503)
     
