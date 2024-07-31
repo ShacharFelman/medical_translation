@@ -1,0 +1,37 @@
+from services.evaluation.bleu_evaluator import BLEUEvaluator
+from services.evaluation.comet_evaluator import COMETEvaluator
+from services.evaluation.evaluator import Evaluator
+
+# Example sentences
+reference_sentences = [
+    "What is ARCOXIA? THERAPEUTIC GROUP: ARCOXIA is one of a group of medicines called selective COX-2 inhibitors. These belong to a family of medicines called non-steroidal anti-inflammatory drugs (NSAIDs).",
+]
+hypothesis_sentences = [
+    "What is Arcoxia? Therapeutic group: Arcoxia is a medication from the group of drugs called selective COX-2 inhibitors. These belong to the group of drugs known as non-steroidal anti-inflammatory drugs (NSAIDs)."
+]
+
+source_sentences = [
+    "מהי ארקוקסיה? קבוצה תרפויטית: ארקוקסיה הינה תרופה מקבוצת תרופות הנקראת מעכבי COX-2 סלקטיביים. אלו משתייכים לקבוצת תרופות הנקראת נוגדי דלקת שאינם סטרואידים .(NSAIDs)"
+]
+
+# Initialize BLEU Evaluator
+bleu_evaluator = BLEUEvaluator()
+
+# Create Evaluator with BLEU strategy
+evaluator = Evaluator(strategy=bleu_evaluator)
+
+# Evaluate the sentences
+bleu_score = evaluator.evaluate(reference_sentences, hypothesis_sentences)
+
+print(f"BLEU Score: {bleu_score}")
+
+# Initialize COMET Evaluator
+comet_evaluator = COMETEvaluator()
+
+# Create Evaluator with COMET strategy
+evaluator = Evaluator(strategy=comet_evaluator)
+
+# Evaluate the sentences
+comet_score = evaluator.evaluate(reference_sentences, hypothesis_sentences, source_sentences)
+
+print(f"COMET Score: {comet_score}")
