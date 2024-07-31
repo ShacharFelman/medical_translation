@@ -1,4 +1,5 @@
 from flask import jsonify, request ,Blueprint
+from typing import Optional
 from utils.logger import logger
 from utils.constants import Language
 from utils.exceptions import InvalidUserInputError
@@ -8,13 +9,13 @@ from docx.shared import Pt
 from docx.shared import RGBColor
 from htmldocx import HtmlToDocx
 from pydantic import ValidationError
-from data.boundaries import TranslationRequest, TranslationResponse, LeafletSaveRequest, FetchLeafletsResponse
+from data.boundaries import TranslationRequest, TranslationResponse, LeafletSaveRequest, LeafletResponse, FetchLeafletsResponse, TranslationDownloadRequest
 from services.translation_manager import translation_manager
 from services.history_manager import history_manager
 
 api_services_bp = Blueprint('api_services', __name__,url_prefix='')
 
-def create_error_response(error_message:str='Internal Sercer Error', status_code:int=500):
+def create_error_response(error_message:str='Internal Server Error', status_code:int=500):
     return jsonify(
         {"error_message":error_message}
     ),status_code
@@ -27,11 +28,7 @@ def translate_text():
     
     try:        
         data = request.json
-        translation_request = TranslationRequest(
-            source=data['source'],
-            dest=data['dest'],
-            text_input=data['textInput']
-        )
+        translation_request = TranslationRequest(**data)
     except Exception as e:
         logger.error(f"Error parsing request: {str(e)}")
         return create_error_response("Invalid data in request", 400)
@@ -62,8 +59,7 @@ def save_leaflet():
     try:        
         data = request.json
         save_request = LeafletSaveRequest(**data)
-        
-        result = history_manager.save_leaflet(save_request)
+        result: Optional[LeafletResponse] = history_manager.save_leaflet(save_request)
         
         if result:
             return jsonify(result.model_dump()), 200
@@ -113,12 +109,12 @@ def delete_leaflet(leaflet_id):
 def download_docx(): 
     try:        
         data = request.json 
-        html_input = data['input']
-        html_input = html_input.replace('\n', '<br>')
+        downloadRequest = TranslationDownloadRequest(
+            input=data['input'].replace('\n', '<br>'))
 
         # Create DOCX document from HTML
         new_parser = HtmlToDocx()
-        docx = new_parser.parse_html_string(html_input)
+        docx = new_parser.parse_html_string(downloadRequest.input)
 
         # Formatting the document
         for paragraph in docx.paragraphs:
@@ -136,5 +132,4 @@ def download_docx():
     except Exception as e:
         logger.error(f"Error creating DOCX: {str(e)}")
         return create_error_response("Internal server error", 500)
-        
 

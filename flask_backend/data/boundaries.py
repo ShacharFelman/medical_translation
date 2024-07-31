@@ -11,12 +11,11 @@ class TranslatorLLMResponse(BaseModel):
 class TranslationRequest(BaseModel):
     source: str
     dest: str
-    text_input: str
+    textInput: str
 
 class TranslationResponse(BaseModel):
     translated_text: str
     translator_used: str
-    confidence_score: float
 
 class LeafletSectionInput(BaseModel):
     id: int
@@ -35,3 +34,8 @@ class LeafletResponse(BaseModel):
 
 class FetchLeafletsResponse(BaseModel):
     leaflets: List[LeafletResponse]
+
+class TranslationDownloadRequest(BaseModel):
+    input: str
+
+    

@@ -1,4 +1,4 @@
-from typing import Optional, List
+from typing import Optional
 from utils.logger import logger
 from data.boundaries import LeafletSaveRequest, FetchLeafletsResponse, LeafletResponse
 from database.mongodb_client import MongoDBClient
