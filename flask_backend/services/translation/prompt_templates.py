@@ -35,16 +35,17 @@ translation_prompt = ChatPromptTemplate.from_messages([("system", translation_pr
 
 class TranslationParser:
     def parse(self, text):
-        # soup = BeautifulSoup(text, 'html.parser')
-        # eng_text = soup.find('eng_text')
+        # Strip leading and trailing whitespace from the input text
+        text = text.strip()
         
-        # if eng_text:
-        #     translated_text = str(eng_text)
-        #     status_match = re.search(r'\[TRANSLATION (SUCCESSFUL|FAILED)\]', text)
-        #     status = status_match.group(0) if status_match else "[TRANSLATION FAILED]"
-        # else:
-        #     translated_text = ""
-        #     status = "[TRANSLATION FAILED]"
+        # Remove the final "[TRANSLATION SUCCESSFUL]" string
+        text = re.sub(r'\[TRANSLATION SUCCESSFUL\]\s*$', '', text)
+        
+        # Remove the "<eng_text>" and "</eng_text>" tags if they exist
+        text = re.sub(r'</?eng_text>', '', text)
+        
+        # Strip any remaining whitespace after all manipulations
+        text = text.strip()
         
         return {
             "translated_text": text,
