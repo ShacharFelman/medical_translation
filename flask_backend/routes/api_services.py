@@ -5,8 +5,8 @@ from utils.constants import Language
 from utils.exceptions import InvalidUserInputError
 from flask import send_file
 from io import BytesIO
-from docx.shared import Pt
-from docx.shared import RGBColor
+from docx.shared import Pt, RGBColor
+from docx.enum.style import WD_STYLE_TYPE
 from htmldocx import HtmlToDocx
 from pydantic import ValidationError
 from data.boundaries import TranslationRequest, TranslationResponse, LeafletSaveRequest, LeafletResponse, FetchLeafletsResponse, TranslationDownloadRequest
@@ -124,10 +124,39 @@ def download_docx():
         docx = new_parser.parse_html_string(downloadRequest.input)
 
         # Formatting the document
+        # for paragraph in docx.paragraphs:
+        #     for run in paragraph.runs:
+        #         run.font.name = "Arial" 
+        #         run.font.color.rgb = RGBColor(0, 0, 0)
+
+        # Get existing styles
+        styles = docx.styles
+        h1_style = styles['Heading 1']
+        h2_style = styles['Heading 2']
+
+        # Modify existing styles
+        h1_style.font.size = Pt(12)
+        h1_style.font.bold = True
+        h1_style.font.underline = True
+        h1_style.font.name = "Arial"
+        h1_style.font.color.rgb = RGBColor(0, 0, 0)
+
+        h2_style.font.size = Pt(11)
+        h2_style.font.bold = True
+        h2_style.font.name = "Arial"
+        h2_style.font.color.rgb = RGBColor(0, 0, 0)
+
+        # Formatting the document
         for paragraph in docx.paragraphs:
-            for run in paragraph.runs:
-                run.font.name = "Arial" 
-                run.font.color.rgb = RGBColor(0, 0, 0)
+            if paragraph.style.name == 'Heading 1':
+                paragraph.style = h1_style
+            elif paragraph.style.name == 'Heading 2':
+                paragraph.style = h2_style
+            else:
+                for run in paragraph.runs:
+                    run.font.name = "Arial"
+                    run.font.size = Pt(11)
+                    run.font.color.rgb = RGBColor(0, 0, 0)
 
         # Save the DOCX to a BytesIO object
         doc_buffer = BytesIO()
