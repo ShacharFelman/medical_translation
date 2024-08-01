@@ -29,7 +29,11 @@ export default function OutputTextArea({translation, isTranslating}) {
         </div>
       ) : (
         <div 
-          className="rounded-md border p-2 w-full h-56 text-black bg-gray-200 overflow-hidden"
+          // className="rounded-md border p-2 w-full h-56 text-black bg-gray-200 overflow-hidden"
+          className="rounded-md border p-2 w-full h-56 text-black bg-gray-200
+                    [&_h1]:font-bold [&_h1]:underline [&_h1]:text-xl
+                    [&_h2]:font-bold [&_h2]:text-lg"
+
           dangerouslySetInnerHTML={{ __html: translation }}
           style={{
             overflowY: 'auto',

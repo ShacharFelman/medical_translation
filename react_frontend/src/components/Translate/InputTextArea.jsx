@@ -8,7 +8,7 @@ export default function InputTextArea({inputText, onChange, onClickTranslate, is
 
   const modules = {
     toolbar: [
-      [{ 'header': [1, 2, 3, 4, 5, 6, false] }],
+      [{ 'header': [1, 2, 3, false] }],
       // [{ 'font': [] }],
       [{ 'size': ['small', false, 'large', 'huge'] }],
       ['bold', 'italic', 'underline'],
@@ -62,7 +62,11 @@ export default function InputTextArea({inputText, onChange, onClickTranslate, is
           modules={modules}
           formats={formats}
           placeholder='...הכנס טקסט רפואי לתרגום כאן'
-          className="flex flex-col h-full [&_.ql-container]:overflow-hidden [&_.ql-editor.ql-blank::before]:text-right"
+          className="flex flex-col h-full
+                    [&_.ql-container]:overflow-hidden
+                    [&_.ql-editor.ql-blank::before]:text-right
+                    [&_.ql-editor_h1]:font-bold [&_.ql-editor_h1]:underline [&_.ql-editor_h1]:text-xl
+                    [&_.ql-editor_h2]:font-bold [&_.ql-editor_h2]:text-lg"
         />
       </div>
       <div id="actions" className="mt-2">

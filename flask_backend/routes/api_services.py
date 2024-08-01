@@ -115,7 +115,9 @@ def download_docx():
     try:        
         data = request.json 
         downloadRequest = TranslationDownloadRequest(
-            input=data['input'].replace('\n', '<br>'))
+            input=data['input']
+            # .replace('\n', '<br>')
+            )
 
         # Create DOCX document from HTML
         new_parser = HtmlToDocx()
@@ -125,7 +127,6 @@ def download_docx():
         for paragraph in docx.paragraphs:
             for run in paragraph.runs:
                 run.font.name = "Arial" 
-                run.font.size = Pt(11)      
                 run.font.color.rgb = RGBColor(0, 0, 0)
 
         # Save the DOCX to a BytesIO object
