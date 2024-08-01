@@ -48,7 +48,7 @@ class TranslationParser:
         
         return {
             "translated_text": text,
-            "status": "111"
+            "status": "[TRANSLATION SUCCESSFUL]"
         }
 
 translation_parser = TranslationParser()

@@ -14,8 +14,10 @@ function AppContent() {
 
   return (
     <div className="flex h-screen overflow-hidden">
-      <LeafletsHistory />
-      <div className="flex flex-col flex-grow overflow-hidden">
+      <div className="w-1/4 flex-shrink-0">
+        <LeafletsHistory />
+      </div>
+      <div className="w-3/4 flex flex-col overflow-hidden">
         <Header />
         <div className="px-4 py-2">
           <ErrorMessage />
@@ -26,7 +28,7 @@ function AppContent() {
           <DownloadFileButton />
         </div>
         <div className="flex-grow overflow-y-auto">
-          {currentLeaflet ? <Leaflet /> : <p>No leaflet selected. Click "Add New Leaflet" to start.</p>}
+          {currentLeaflet ? <Leaflet /> : <p className="text-center mt-8">No leaflet selected. Click "Add New Leaflet" to start.</p>}
         </div>      
       </div>
     </div>

@@ -7,7 +7,7 @@ function LeafletsHistory() {
   const { leaflets, addNewLeaflet } = useContext(TranslateContext); 
 
   return (
-    <aside className="w-1/4 bg-gray-100 p-4 overflow-y-auto">
+    <aside className="h-full bg-gray-100 p-4 overflow-y-auto">
       <LogoTitle />
       <button 
         onClick={addNewLeaflet} 

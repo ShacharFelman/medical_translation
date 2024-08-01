@@ -6,12 +6,12 @@ import 'react-quill/dist/quill.snow.css';
 export default function InputTextArea({inputText, onChange, onClickTranslate,isTranslating}){
   const modules = {
     toolbar: [
-      [{ 'header': [1, 2, false] }],
+      [{ 'header': [1, 2, 3, 4, 5, 6, false] }],
       ['bold', 'italic', 'underline', 'strike'],
       [{'list': 'ordered'}, {'list': 'bullet'}, {'indent': '-1'}, {'indent': '+1'}],
       ['link', 'image'],
       ['clean']
-    ],
+    ]
   };
 
   const formats = [
@@ -35,6 +35,7 @@ export default function InputTextArea({inputText, onChange, onClickTranslate,isT
         />  */}
         <div className="rounded-md border w-full h-56 text-black bg-gray-50 overflow-hidden">
           <div className="rounded-md border w-full h-56 text-black bg-gray-50 overflow-hidden [&_.ql-editor]:text-right [&_.ql-editor]:rtl [&_.ql-editor.ql-blank::before]:right-0 [&_.ql-editor.ql-blank::before]:left-auto [&_.ql-editor.ql-blank::before]:text-right">
+          {/* <div className="rounded-md border w-full h-56 text-black bg-gray-50 overflow-hidden rtl"> */}
             <ReactQuill 
               theme="snow"
               value={inputText}
@@ -42,7 +43,8 @@ export default function InputTextArea({inputText, onChange, onClickTranslate,isT
               modules={modules}
               formats={formats}
               placeholder='הכנס טקסט רפואי לתרגום כאן...'
-              className="h-full" 
+              className="h-full rtl" 
+              style={{direction: 'rtl', textAlign: 'right'}}
             />
           </div>
         </div>
