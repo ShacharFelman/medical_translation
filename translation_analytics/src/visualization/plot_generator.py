@@ -17,20 +17,6 @@ class PlotGenerator:
         plt.savefig(f'/app/output/translator_performance_{metric}.png')
         plt.close()
 
-    @staticmethod
-    def plot_system_performance_over_time(data: List[Dict[str, Any]], metric: str):
-        timestamps = [d['timestamp'] for d in data]
-        values = [d.get(metric, 0) for d in data]
-
-        plt.figure(figsize=(12, 6))
-        plt.plot(timestamps, values)
-        plt.title(f'System Performance Over Time - {metric.capitalize()}')
-        plt.xlabel('Timestamp')
-        plt.ylabel(metric.capitalize())
-        plt.xticks(rotation=45)
-        plt.tight_layout()
-        plt.savefig(f'/app/output/system_performance_{metric}.png')
-        plt.close()
 
     @staticmethod
     def plot_leaflet_performance(data: Dict[str, Dict[str, float]], metric: str):
@@ -45,4 +31,27 @@ class PlotGenerator:
         plt.xticks(rotation=45)
         plt.tight_layout()
         plt.savefig(f'/app/output/leaflet_performance_{metric}.png')
+        plt.close()
+
+    @staticmethod
+    def plot_bleu_insights(data: Dict[str, Any]):
+        # Input Complexity vs BLEU Score
+        plt.figure(figsize=(10, 6))
+        plt.scatter(data['input_complexity'].keys(), data['input_complexity'].values())
+        plt.title('Input Complexity vs BLEU Score')
+        plt.xlabel('Input Length (words)')
+        plt.ylabel('Average BLEU Score')
+        plt.tight_layout()
+        plt.savefig('/app/output/input_complexity_bleu.png')
+        plt.close()
+
+        # BLEU vs COMET Scores
+        plt.figure(figsize=(10, 6))
+        plt.scatter([item['bleu_score'] for item in data['metric_correlation']], 
+                    [item['comet_score'] for item in data['metric_correlation']])
+        plt.title('BLEU vs COMET Scores')
+        plt.xlabel('BLEU Score')
+        plt.ylabel('COMET Score')
+        plt.tight_layout()
+        plt.savefig('/app/output/bleu_vs_comet.png')
         plt.close()

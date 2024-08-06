@@ -1,0 +1,33 @@
+Translator Insights:
+Translator: claude-3-5-sonnet
+  Average BLEU score: 0.4843
+  Average COMET score: 0.8896
+  Average response time: 5.67 seconds
+  Average similarity score: 0.9780
+
+Translator: gpt-4o
+  Average BLEU score: 0.4511
+  Average COMET score: 0.8873
+  Average response time: 1.75 seconds
+  Average similarity score: 0.9782
+
+Translator: claude-3-opus
+  Average BLEU score: 0.4994
+  Average COMET score: 0.8854
+  Average response time: 4.77 seconds
+  Average similarity score: 0.9774
+
+
+Leaflet Performance Insights:
+Leaflet ID: 0
+  Average BLEU score: 0.4903
+  Average COMET score: 0.8922
+  Average response time: 2.64 seconds
+
+
+BLEU Score Insights:
+Best performing translator (BLEU): claude-3-opus (Avg BLEU: 0.4994)
+Worst performing translator (BLEU): gpt-4o (Avg BLEU: 0.4511)
+Average BLEU score across all input lengths: 0.5156
+Input length with lowest average BLEU score: 3 words (Avg BLEU: 0.0000)
+Average BLEU score: 0.4903, Average COMET score: 0.8922

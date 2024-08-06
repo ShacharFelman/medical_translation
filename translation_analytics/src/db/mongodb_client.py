@@ -1,10 +1,13 @@
 from pymongo import MongoClient
 from typing import List, Dict, Any
+import os
 
 class MongoDBClient:
-    def __init__(self, uri: str, db_name: str):
-        self.client = MongoClient(uri)
-        self.db = self.client[db_name]
+    def __init__(self):
+        self.uri = os.getenv('MONGO_URI', 'mongodb://mongodb:27017')
+        self.db_name = os.getenv('MONGO_DB', 'translation_db')
+        self.client = MongoClient(self.uri)
+        self.db = self.client[self.db_name]
         self.collection = self.db['translation_performance']
 
     def get_all_records(self) -> List[Dict[str, Any]]:
