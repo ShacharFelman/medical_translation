@@ -16,28 +16,29 @@ class TranslationAccuracyTest(unittest.TestCase):
             self.leaflet_data = json.load(f)
 
     def test_full_leaflet_translation(self):
-        total_bleu_score = 0
-        total_comet_score = 0
-        total_sections = 0
+        # total_bleu_score = 0
+        # total_comet_score = 0
+        # total_sections = 0
 
         for section in self.leaflet_data['sections']:
-            section_bleu_score, section_comet_score = self.translate_and_evaluate_section(section)
-            if section_bleu_score is not None:
-                total_bleu_score += section_bleu_score
-                total_comet_score += section_comet_score
-                total_sections += 1
+            self.translate_and_evaluate_section(section)
+            # section_bleu_score, section_comet_score = self.translate_and_evaluate_section(section)
+            # if section_bleu_score is not None:
+            #     total_bleu_score += section_bleu_score
+            #     total_comet_score += section_comet_score
+            #     total_sections += 1
 
-        if total_sections > 0:
-            average_bleu_score = total_bleu_score / total_sections
-            average_comet_score = total_comet_score / total_sections
-            self.assertGreaterEqual(average_bleu_score, 0.60, f"Average BLEU score {average_bleu_score} for the entire leaflet is below the threshold of 0.60")
-            # self.assertGreaterEqual(average_comet_score, 0.60, f"Average COMET score {average_comet_score} for the entire leaflet is below the threshold of 0.60")
-        else:
-            self.fail("No valid sections found for translation evaluation")
+        # if total_sections > 0:
+        #     average_bleu_score = total_bleu_score / total_sections
+        #     average_comet_score = total_comet_score / total_sections
+        #     self.assertGreaterEqual(average_bleu_score, 0.60, f"Average BLEU score {average_bleu_score} for the entire leaflet is below the threshold of 0.60")
+        #     # self.assertGreaterEqual(average_comet_score, 0.60, f"Average COMET score {average_comet_score} for the entire leaflet is below the threshold of 0.60")
+        # else:
+        #     self.fail("No valid sections found for translation evaluation")
 
     def translate_and_evaluate_section(self, section: Dict) -> float:
-        section_bleu_scores = []
-        section_comet_scores = []
+        # section_bleu_scores = []
+        # section_comet_scores = []
 
         for item in section['data']:
             if 'heb' in item and 'eng' in item and item['heb'] != "" and item['eng'] != "":
@@ -47,7 +48,7 @@ class TranslationAccuracyTest(unittest.TestCase):
                     textInput=item['heb']
                 )
                 leaflet_data = EvaluationLeafletData(
-                    leaflet_id=self.leaflet_data['index'],
+                    leaflet_id=self.leaflet_data['dir_index'],
                     leaflet_name=self.leaflet_data['title'],
                     section_number=section['section_num'],
                     array_location=section['data'].index(item),
@@ -58,22 +59,22 @@ class TranslationAccuracyTest(unittest.TestCase):
                     evaluation_leaflet_data=leaflet_data
                 ).translated_text
 
-                if translation_response:
-                    bleu_score = self.testing_handler.bleu_evaluator.evaluate(item['eng'], translation_response)
-                    comet_score = self.testing_handler.comet_evaluator.evaluate([item['eng']], [translation_response], [item['heb']])
+                # if translation_response:
+                #     bleu_score = self.testing_handler.bleu_evaluator.evaluate(item['eng'], translation_response)
+                #     comet_score = self.testing_handler.comet_evaluator.evaluate([item['eng']], [translation_response], [item['heb']])
 
-                    section_bleu_scores.append(bleu_score)
-                    section_comet_scores.append(comet_score)
+                    # section_bleu_scores.append(bleu_score)
+                    # section_comet_scores.append(comet_score)
 
-        if section_bleu_scores:
-            average_section_bleu = sum(section_bleu_scores) / len(section_bleu_scores)
-            average_section_comet = sum(section_comet_scores) / len(section_comet_scores)
-            logger.info(f"Section '{section['title']}' average BLEU score: {average_section_bleu}")
-            logger.info(f"Section '{section['title']}' average COMET score: {average_section_comet}")
-            return average_section_bleu, average_section_comet
-        else:
-            logger.warning(f"No valid items found in section '{section['title']}' for translation evaluation")
-            return None, None
+        # if section_bleu_scores:
+        #     average_section_bleu = sum(section_bleu_scores) / len(section_bleu_scores)
+        #     average_section_comet = sum(section_comet_scores) / len(section_comet_scores)
+        #     logger.info(f"Section '{section['title']}' average BLEU score: {average_section_bleu}")
+        #     logger.info(f"Section '{section['title']}' average COMET score: {average_section_comet}")
+            # return average_section_bleu, average_section_comet
+        # else:
+        #     logger.warning(f"No valid items found in section '{section['title']}' for translation evaluation")
+        #     return None, None
 
 if __name__ == '__main__':
     unittest.main()

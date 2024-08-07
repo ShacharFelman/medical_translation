@@ -1,9 +1,10 @@
-from utils.logger import logger
+import time
 from typing import List
+from utils.logger import logger
 from services.translation.base_translation_handler import BaseTranslationHandler
 from services.evaluation.comet_evaluator import COMETEvaluator
 from services.evaluation.bleu_evaluator import BLEUEvaluator
-from data.entities import TranslationEntity, EvaluationScores
+from data.entities import TranslationEntity, EvaluationScores, EvaluationLeafletData
 
 
 class TestingTranslationHandler(BaseTranslationHandler):
@@ -12,19 +13,28 @@ class TestingTranslationHandler(BaseTranslationHandler):
         self.comet_evaluator = COMETEvaluator()
         self.bleu_evaluator = BLEUEvaluator()
 
-    def translate(self, text_input: str, **kwargs) -> List[TranslationEntity]:
-        translations = self.translate_text(text_input)
-        evaluation_leaflet_data = kwargs.get('evaluation_leaflet_data')
 
-        # Calculate BLEU and COMET scores for successful translations
-        if evaluation_leaflet_data:
-            for translation in translations:
-                if self._is_translation_successful(translation):
-                    bleu_score = self.bleu_evaluator.evaluate(evaluation_leaflet_data.human_translation, translation.translated_text)
-                    comet_score = self.comet_evaluator.evaluate([evaluation_leaflet_data.human_translation], [translation.translated_text], [text_input])
-                    translation.evaluation_scores = EvaluationScores(bleu_score=bleu_score, comet_score=comet_score)
+    def _process_translation(self, translation: TranslationEntity, text_input: str, **kwargs) -> TranslationEntity:
+        evaluation_leaflet_data: EvaluationLeafletData = kwargs.get('evaluation_leaflet_data')
 
-        return translations
+        if evaluation_leaflet_data and self._is_translation_successful(translation):
+            bleu_score = self.bleu_evaluator.evaluate(evaluation_leaflet_data.human_translation, translation.translated_text)
+            comet_score = self.comet_evaluator.evaluate([evaluation_leaflet_data.human_translation], [translation.translated_text], [text_input])
+          
+            translation.evaluation_scores = EvaluationScores(bleu_score=bleu_score, comet_score=comet_score)
+        return translation
+
+
+    async def _process_translation_async(self, translation: TranslationEntity, text_input: str, **kwargs) -> TranslationEntity:
+        evaluation_leaflet_data: EvaluationLeafletData = kwargs.get('evaluation_leaflet_data')
+
+        if evaluation_leaflet_data and self._is_translation_successful(translation):
+            bleu_score = await self.bleu_evaluator.evaluate_async(evaluation_leaflet_data.human_translation, translation.translated_text)
+            # comet_score = await self.comet_evaluator.evaluate_async([evaluation_leaflet_data.human_translation], [translation.translated_text], [text_input])
+          
+            translation.evaluation_scores = EvaluationScores(bleu_score=bleu_score)
+        return translation
+
 
     @staticmethod
     def _is_translation_successful(translation: TranslationEntity) -> bool:

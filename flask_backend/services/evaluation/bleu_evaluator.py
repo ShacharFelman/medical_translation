@@ -24,3 +24,8 @@ class BLEUEvaluator(EvaluationStrategy):
         except Exception as e:
             logger.error(f"An error occurred while calculating BLEU score: {str(e)}")
             return 0.0
+    
+    async def evaluate_async(self, reference_sentences: Union[str, List[str]], 
+                            hypothesis_sentences: Union[str, List[str]], 
+                            source_sentences: Union[str, List[str]] = None) -> float:
+        return self.evaluate(reference_sentences, hypothesis_sentences, source_sentences)

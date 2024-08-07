@@ -1,5 +1,6 @@
 from services.evaluation.evaluator import EvaluationStrategy
 import requests
+import aiohttp
 from utils.logger import logger
 from typing import List, Union
 import json
@@ -37,6 +38,7 @@ class COMETEvaluator(EvaluationStrategy):
                 comet_data_str = response_data["data"][0].replace("'", '"')
                 comet_data = json.loads(comet_data_str)
                 comet_score = comet_data["mean_score"]
+                logger.info(f"COMET response time: {response_data['duration']}")
                 return comet_score
             else:
                 logger.error(f"Failed to get a valid response from COMET API: {response_data}")
@@ -44,4 +46,54 @@ class COMETEvaluator(EvaluationStrategy):
 
         except Exception as e:
             logger.error(f"An error occurred while calculating COMET score: {str(e)}")
+            return 0.0
+
+
+    async def evaluate_async(self, reference_sentences: Union[str, List[str]], 
+                             hypothesis_sentences: Union[str, List[str]], 
+                             source_sentences: Union[str, List[str]] = None) -> float:
+        try:
+            reference_sentences = [reference_sentences] if isinstance(reference_sentences, str) else reference_sentences
+            hypothesis_sentences = [hypothesis_sentences] if isinstance(hypothesis_sentences, str) else hypothesis_sentences
+            source_sentences = [source_sentences] if isinstance(source_sentences, str) else source_sentences
+
+            if not reference_sentences or not hypothesis_sentences or not source_sentences:
+                logger.warning("Empty input: reference, hypothesis, or source sentences are empty.")
+                return 0.0
+
+            data = {
+                "data": [
+                    {
+                        "headers": ["sources", "predictions", "references"],
+                        "data": [[src, hyp, ref] for src, hyp, ref in zip(source_sentences, hypothesis_sentences, reference_sentences)]
+                    }
+                ]
+            }
+            
+            async with aiohttp.ClientSession() as session:
+                async with session.post(self.api_url, json=data) as response:
+                    if response.status == 200:
+                        response_data = await response.json()
+                        if "data" in response_data:
+                            comet_data_str = response_data["data"][0].replace("'", '"')
+                            comet_data = json.loads(comet_data_str)
+                            comet_score = comet_data["mean_score"]
+                            logger.info(f"COMET response time: {response_data['duration']}")
+                            return comet_score
+                        else:
+                            logger.error(f"Unexpected response structure from COMET API: {response_data}")
+                    else:
+                        logger.error(f"Failed to get a valid response from COMET API. Status: {response.status}\nResponse: {response}")
+                    
+            logger.error("COMET evaluation failed")
+            return 0.0
+
+        except json.JSONDecodeError as e:
+            logger.error(f"Failed to parse COMET API response: {str(e)}")
+            return 0.0
+        except KeyError as e:
+            logger.error(f"Expected key not found in COMET API response: {str(e)}")
+            return 0.0
+        except Exception as e:
+            logger.error(f"An unexpected error occurred while calculating COMET score asynchronously: {str(e)}")
             return 0.0
