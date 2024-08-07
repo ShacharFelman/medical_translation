@@ -1,5 +1,5 @@
 import os
-from typing import Optional, Dict, Any, List
+from typing import Optional, Dict, Any, List, Tuple
 from pymongo import MongoClient
 from pymongo.errors import ConnectionFailure, OperationFailure
 from utils.logger import logger
@@ -95,6 +95,7 @@ class MongoDBClient:
             logger.error(f"Failed to retrieve all leaflets from MongoDB: {str(e)}")
             return []
         
+
     def delete_translation_history(self, leaflet_id: str) -> bool:
         try:
             result = self.collections['translation_history'].delete_one({"id": leaflet_id})
@@ -102,6 +103,32 @@ class MongoDBClient:
         except Exception as e:
             logger.error(f"Failed to delete leaflet from MongoDB: {str(e)}")
             return False
+
+
+    def get_all_translation_records(self) -> List[TranslationRecordEntity]:
+        try:
+            result = self.collections['translation_performance'].find({})
+            return [TranslationRecordEntity.from_dict(doc) for doc in result]
+        except Exception as e:
+            logger.error(f"Failed to retrieve all translation records from MongoDB: {str(e)}")
+            return []
+
+
+    def update_translation_record(self, record: TranslationRecordEntity) -> Tuple[bool, int, int]:
+        try:
+            result = self.collections['translation_performance'].update_one(
+                {
+                    "evaluation_leaflet_data.leaflet_id": record.evaluation_leaflet_data.leaflet_id,
+                    "evaluation_leaflet_data.section_number": record.evaluation_leaflet_data.section_number,
+                    "evaluation_leaflet_data.array_location": record.evaluation_leaflet_data.array_location
+                },
+                {"$set": record.to_dict()}
+            )
+            return True, result.matched_count, result.modified_count
+        except Exception as e:
+            logger.error(f"Failed to update translation record in MongoDB: {str(e)}")
+            return False, 0, 0
+
 
     def close(self):
         self.client.close()
