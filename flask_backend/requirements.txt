@@ -9,7 +9,6 @@ uuid
 
 # Language detection and processing
 langdetect
-nltk
 scikit-learn
 
 # Document processing
@@ -28,6 +27,12 @@ langchain_voyageai
 openai
 openai-function-tokens
 anthropic
+
+# evaluation
+nltk
+# pyter
+sacrebleu
+jiwer
 
 # test requirements
 pandas

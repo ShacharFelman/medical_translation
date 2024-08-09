@@ -7,7 +7,10 @@ from datetime import datetime
 class EvaluationScores(BaseModel):
     bleu_score: Optional[float] = None
     comet_score: Optional[float] = None
-
+    ter_score: Optional[float] = None
+    chrf_score: Optional[float] = None
+    per_score: Optional[float] = None
+    wer_score: Optional[float] = None
 
 class TranslationEntity(BaseModel):
     translator_name: str

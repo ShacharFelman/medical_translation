@@ -4,11 +4,26 @@ from database.mongodb_client import MongoDBClient
 from data.entities import TranslationRecordEntity, TranslationEntity, EvaluationScores
 from services.evaluation.comet_evaluator import COMETEvaluator
 from services.evaluation.bleu_evaluator import BLEUEvaluator
+from services.evaluation.wer_evaluator import WEREvaluator
+from services.evaluation.chrf_evaluator import CHRFEvaluator
+# from services.evaluation.per_evaluator import PEREvaluator
+# from services.evaluation.ter_evaluator import TEREvaluator
+
 from utils.logger import logger
 
 mongo_client = MongoDBClient.get_instance()
-comet_evaluator = COMETEvaluator()
-bleu_evaluator = BLEUEvaluator()
+comet_evaluator     = COMETEvaluator()
+bleu_evaluator      = BLEUEvaluator()
+wer_evaluator       = WEREvaluator()
+chrf_evaluator      = CHRFEvaluator()
+# per_evaluator       = PEREvaluator()
+# ter_evaluator       = TEREvaluator()
+
+# Set to True to override the existing scores
+override_comet = False
+override_bleu = True
+override_wer = False
+override_chrf = False
 
 def update_scores():
     # Fetch all translation records from the database
@@ -18,7 +33,7 @@ def update_scores():
     no_change_count = 0
     error_count = 0
     
-    for record in tqdm(all_records, desc="Updating COMET scores"):
+    for record in tqdm(all_records, desc="Updating scores"):
         if record.evaluation_leaflet_data and record.evaluation_leaflet_data.human_translation:
             logger.info(f"========== Leaflet {record.evaluation_leaflet_data.leaflet_id}, Section {record.evaluation_leaflet_data.section_number}, Array Location {record.evaluation_leaflet_data.array_location} ==========")
             record_updated = False
@@ -34,7 +49,7 @@ def update_scores():
                     if translation_updated:
                         translation.evaluation_scores = new_evaluation_scores
                         record_updated = True
-                        logger.info(f"Scores updated: {new_evaluation_scores}")
+                        logger.info(f"Scores updated")
 
                     if (record.best_translation and 
                         record.best_translation.translator_name == translation.translator_name and
@@ -81,48 +96,176 @@ def update_translation_scores(tranalsation: TranslationEntity, human_translation
         evaluation_scores = EvaluationScores()
 
     # Check if the COMET score is missing and update it
-    if not evaluation_scores.comet_score or evaluation_scores.comet_score is None:
-        comet_score = update_comet_score(input_text, tranalsation.translated_text, human_translation)
-        if comet_score and comet_score > 0.0:
-            logger.info(f"Updating COMET score")
-            evaluation_scores.comet_score = comet_score
-            scores_updated = True
+    comet_updated, evaluation_scores = update_comet_score(evaluation_scores, input_text, tranalsation.translated_text, human_translation)
+    if comet_updated:
+        scores_updated = True
     
     # Check if the BLEU score is missing and update it
-    if not evaluation_scores.bleu_score or evaluation_scores.bleu_score is None:
-        bleu_score = update_bleu_score(tranalsation.translated_text, human_translation)
-        if bleu_score and bleu_score > 0.0:
-            logger.info(f"Updating BLEU score")
-            evaluation_scores.bleu_score = bleu_score
-            scores_updated = True
+    bleu_updated, evaluation_scores = update_bleu_score(evaluation_scores, tranalsation.translated_text, human_translation)
+    if bleu_updated:
+        scores_updated = True
+
+    # Check if the WER score is missing and update it
+    wer_updated, evaluation_scores = update_wer_score(evaluation_scores, tranalsation.translated_text, human_translation)
+    if wer_updated:
+        scores_updated = True
+
+    # Check if the chrF score is missing and update it
+    chrf_updated, evaluation_scores = update_chrf_score(evaluation_scores, tranalsation.translated_text, human_translation)
+    if chrf_updated:
+        scores_updated = True
+
+    # Commented out the following scores as they are not working
+    {
+    # Check if the TER score is missing and update it
+    # ter_updated, evaluation_scores = update_ter_score(evaluation_scores, tranalsation.translated_text, human_translation)
+    # if ter_updated:
+    #     scores_updated = True
+
+    # Check if the PER score is missing and update it
+    # per_updated, evaluation_scores = update_per_score(evaluation_scores, tranalsation.translated_text, human_translation)
+    # if per_updated:
+    #     scores_updated = True
+    }
 
     return scores_updated, evaluation_scores
 
 
-def update_comet_score(input: str, translated_text: str, human_translation: str):
-    logger.info(f"Calculating COMET score")
-    try:
-        comet_score = comet_evaluator.evaluate(
-            reference_sentences=[human_translation],
-            hypothesis_sentences=[translated_text],
-            source_sentences=[input]
-        )
-        return comet_score
-    except Exception as e:
-        logger.error(f"Error calculating COMET score: {str(e)}")
+def update_comet_score(evaluation_scores: EvaluationScores, input: str, translated_text: str, human_translation: str):
+    score_updated = False
+    if (not evaluation_scores.comet_score or evaluation_scores.comet_score is None) or override_comet:
+        logger.info(f"Calculating COMET score")
+        try:
+            comet_score = comet_evaluator.evaluate(
+                reference_sentences=[human_translation],
+                hypothesis_sentences=[translated_text],
+                source_sentences=[input]
+                )
             
+            if comet_score and comet_score > 0.0:
+                logger.info(f"Updating COMET score")
+                evaluation_scores.comet_score = comet_score
+                score_updated = True
+            
+            return score_updated, evaluation_scores
+        
+        except Exception as e:
+            logger.error(f"Error calculating COMET score: {str(e)}")
+    else:
+        return score_updated, evaluation_scores
 
-def update_bleu_score(translated_text: str, human_translation: str):
-    logger.info(f"Calculating BLEU score")
-    try:
-        bleu_score = bleu_evaluator.evaluate(
-            reference_sentences=[human_translation],
-            hypothesis_sentences=[translated_text]
-        )
-        return bleu_score
-    except Exception as e:
-        logger.error(f"Error calculating BLEU score: {str(e)}")
+def update_bleu_score(evaluation_scores: EvaluationScores, translated_text: str, human_translation: str):
+    score_updated = False
+    if (not evaluation_scores.bleu_score or evaluation_scores.bleu_score is None) or override_bleu:
+        logger.info(f"Calculating BLEU score")
+        try:
+            bleu_score = bleu_evaluator.evaluate(
+                reference_sentences=[human_translation],
+                hypothesis_sentences=[translated_text]
+                )
+            
+            if bleu_score and bleu_score > 0.0:
+                logger.info(f"Updating BLEU score")
+                evaluation_scores.bleu_score = bleu_score
+                score_updated = True
+            
+            return score_updated, evaluation_scores
+        
+        except Exception as e:
+            logger.error(f"Error calculating BLEU score: {str(e)}")
+    else:
+        return score_updated, evaluation_scores   
 
+def update_wer_score(evaluation_scores: EvaluationScores, translated_text: str, human_translation: str):
+    score_updated = False
+    if (not evaluation_scores.wer_score or evaluation_scores.wer_score is None) or override_wer:
+        logger.info(f"Calculating wer score")
+        try:
+            wer_score = wer_evaluator.evaluate(
+                reference_sentences=[human_translation],
+                hypothesis_sentences=[translated_text]
+                )
+            
+            if wer_score and wer_score > 0.0:
+                logger.info(f"Updating wer score")
+                evaluation_scores.wer_score = wer_score
+                score_updated = True
+            
+            return score_updated, evaluation_scores
+        
+        except Exception as e:
+            logger.error(f"Error calculating wer score: {str(e)}")
+    else:
+        return score_updated, evaluation_scores
+    
+def update_chrf_score(evaluation_scores: EvaluationScores, translated_text: str, human_translation: str):
+    score_updated = False
+    if (not evaluation_scores.chrf_score or evaluation_scores.chrf_score is None) or override_chrf:
+        logger.info(f"Calculating chrF score")
+        try:
+            chrf_score = chrf_evaluator.evaluate(
+                reference_sentences=[human_translation],
+                hypothesis_sentences=[translated_text]
+                )
+            
+            if chrf_score and chrf_score > 0.0:
+                logger.info(f"Updating chrF score")
+                evaluation_scores.chrf_score = chrf_score
+                score_updated = True
+            
+            return score_updated, evaluation_scores
+        
+        except Exception as e:
+            logger.error(f"Error calculating chrF score: {str(e)}")
+    else:
+        return score_updated, evaluation_scores
+
+# Commented out the following functions as they are not working
+{
+# def update_ter_score(evaluation_scores: EvaluationScores, translated_text: str, human_translation: str):
+#     score_updated = False
+#     if not evaluation_scores.ter_score or evaluation_scores.ter_score is None:
+#         logger.info(f"Calculating TER score")
+#         try:
+#             ter_score = ter_evaluator.evaluate(
+#                 reference_sentences=[human_translation],
+#                 hypothesis_sentences=[translated_text]
+#                 )
+            
+#             if ter_score and ter_score > 0.0:
+#                 logger.info(f"Updating TER score")
+#                 evaluation_scores.ter_score = ter_score
+#                 score_updated = True
+            
+#             return score_updated, evaluation_scores
+        
+#         except Exception as e:
+#             logger.error(f"Error calculating TER score: {str(e)}")
+#     else:
+#         return score_updated, evaluation_scores
+
+# def update_per_score(evaluation_scores: EvaluationScores, translated_text: str, human_translation: str):
+#     score_updated = False
+#     if not evaluation_scores.per_score or evaluation_scores.per_score is None:
+#         logger.info(f"Calculating per score")
+#         try:
+#             per_score = per_evaluator.evaluate(
+#                 reference_sentences=[human_translation],
+#                 hypothesis_sentences=[translated_text]
+#                 )
+            
+#             if per_score and per_score > 0.0:
+#                 logger.info(f"Updating per score")
+#                 evaluation_scores.per_score = per_score
+#                 score_updated = True
+            
+#             return score_updated, evaluation_scores
+        
+#         except Exception as e:
+#             logger.error(f"Error calculating per score: {str(e)}")
+#     else:
+#         return score_updated, evaluation_scores  
+}
 
 if __name__ == "__main__":
     update_scores()
