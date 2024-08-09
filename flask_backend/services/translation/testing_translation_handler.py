@@ -19,9 +19,9 @@ class TestingTranslationHandler(BaseTranslationHandler):
 
         if evaluation_leaflet_data and self._is_translation_successful(translation):
             bleu_score = self.bleu_evaluator.evaluate(evaluation_leaflet_data.human_translation, translation.translated_text)
-            comet_score = self.comet_evaluator.evaluate([evaluation_leaflet_data.human_translation], [translation.translated_text], [text_input])
+            # comet_score = self.comet_evaluator.evaluate([evaluation_leaflet_data.human_translation], [translation.translated_text], [text_input])
           
-            translation.evaluation_scores = EvaluationScores(bleu_score=bleu_score, comet_score=comet_score)
+            translation.evaluation_scores = EvaluationScores(bleu_score=bleu_score)
         return translation
 
 
