@@ -1,10 +1,7 @@
 import os
 from db.mongodb_client import MongoDBClient
 from data.data_processor import DataProcessor
-from analytics.translator_analyzer import TranslatorAnalyzer
-from analytics.system_performance_analyzer import SystemPerformanceAnalyzer
-from analytics.leaflet_analyzer import LeafletAnalyzer
-from analytics.bleu_score_analyzer import BLEUScoreAnalyzer
+from analytics.comprehensive_analyzer import ComprehensiveAnalyzer
 from visualization.plot_generator import PlotGenerator
 
 def main():
@@ -16,36 +13,45 @@ def main():
 
     # Process data
     translator_performance = DataProcessor.process_translator_performance(all_records)
-    leaflet_performance = DataProcessor.process_leaflet_performance(all_records)
-    bleu_data = DataProcessor.process_bleu_score_data(all_records)
+    input_complexity = DataProcessor.process_input_complexity(all_records)
+    time_series_data = DataProcessor.process_time_series_data(all_records)
+    
+    # Calculate correlations
+    all_scores = []
+    for translator, metrics in translator_performance.items():
+        for metric, scores in metrics.items():
+            all_scores.extend([{metric: score} for score in scores])
 
-    # Generate insights
-    translator_insights = TranslatorAnalyzer.generate_insights(translator_performance)
-    leaflet_insights = LeafletAnalyzer.generate_insights(leaflet_performance)
-    bleu_insights = BLEUScoreAnalyzer.generate_insights(bleu_data)
+    correlations = DataProcessor.calculate_correlations(all_scores)
 
+    # Prepare data for comprehensive analysis
+    analysis_data = {
+        'translator_performance': translator_performance,
+        'input_complexity': input_complexity,
+        'time_series': time_series_data,
+        'correlations': correlations
+    }
 
-    all_insights = (
-        ["Translator Insights:"] + translator_insights +
-        ["\nLeaflet Performance Insights:"] + leaflet_insights +
-        ["\nBLEU Score Insights:"] + bleu_insights
-    )
+    # Generate comprehensive insights
+    comprehensive_insights = ComprehensiveAnalyzer.generate_insights(analysis_data)
 
     # Print all insights
-    print("\n".join(all_insights))
+    print("\n".join(comprehensive_insights))
 
     # Save insights to a file
-    with open('/app/output/translation_insights.txt', 'w') as f:
-        f.write("\n".join(all_insights))
+    with open('/app/output/comprehensive_translation_insights.txt', 'w') as f:
+        f.write("\n".join(comprehensive_insights))
 
     # Generate plots
-    PlotGenerator.plot_translator_performance(translator_performance, 'bleu')
-    PlotGenerator.plot_translator_performance(translator_performance, 'comet')
-    PlotGenerator.plot_translator_performance(translator_performance, 'response_time')
-    PlotGenerator.plot_leaflet_performance(leaflet_performance, 'bleu')
-    PlotGenerator.plot_leaflet_performance(leaflet_performance, 'comet')
-    PlotGenerator.plot_leaflet_performance(leaflet_performance, 'response_time')
-    PlotGenerator.plot_bleu_insights(bleu_data)
+    metrics = ['bleu_score', 'comet_score', 'chrf_score', 'wer_score', 'response_time']
+    for metric in metrics:
+        PlotGenerator.plot_translator_performance(translator_performance, metric)
+    
+    PlotGenerator.plot_input_complexity(input_complexity)
+    PlotGenerator.plot_time_series(time_series_data)
+    PlotGenerator.plot_correlations(correlations)
+    PlotGenerator.plot_bleu_distribution(translator_performance)
+    PlotGenerator.plot_metric_comparison(translator_performance)
 
 if __name__ == "__main__":
     main()
