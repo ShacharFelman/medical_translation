@@ -1,5 +1,6 @@
-from typing import List, Optional
 import asyncio
+import os
+from typing import List, Optional
 from utils.singleton_meta import SingletonMeta
 from utils.logger import logger
 from utils.exceptions import InvalidUserInputError
@@ -20,6 +21,8 @@ class TranslationManager(metaclass=SingletonMeta):
         self.translators = initialize_translators()
         self.mongo_client = MongoDBClient.get_instance()
         self.prompt_injection_detector = PromptInjectionDetector()
+        self.use_async = os.getenv('ASYNC_TRANSLATE', '0').lower() in ('1', 'true', 'yes')
+
 
 
     def initialize(self):
@@ -59,7 +62,11 @@ class TranslationManager(metaclass=SingletonMeta):
                     
                     raise InvalidUserInputError("Invalid Input")
 
-            all_translations = asyncio.run(self.handler.translate_async(translation_request.textInput, evaluation_leaflet_data=evaluation_leaflet_data))
+            if self.use_async:
+                all_translations = asyncio.run(self.handler.translate_async(translation_request.textInput, evaluation_leaflet_data=evaluation_leaflet_data))
+            else:
+                all_translations = self.handler.translate(translation_request.textInput, evaluation_leaflet_data=evaluation_leaflet_data)
+
 
             successful_translations = [t for t in all_translations if self._is_translation_successful(t)]
             

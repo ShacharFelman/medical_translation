@@ -17,6 +17,7 @@ services:
       - FLASK_RUN_HOST=0.0.0.0
       - FLASK_DEBUG=1
       - MONGODB_URI=mongodb://mongodb:27017/translation_db
+      - ASYNC_TRANSLATE=1
     ports:
      - "8000:8000"      
     volumes:
