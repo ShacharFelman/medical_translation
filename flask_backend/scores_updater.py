@@ -21,7 +21,7 @@ chrf_evaluator      = CHRFEvaluator()
 
 # Set to True to override the existing scores
 override_comet = False
-override_bleu = True
+override_bleu = False
 override_wer = False
 override_chrf = False
 

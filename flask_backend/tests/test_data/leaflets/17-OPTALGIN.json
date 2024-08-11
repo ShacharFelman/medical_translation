@@ -1,0 +1,781 @@
+{
+  "title": "OPTALGIN",
+  "index": 0,
+  "dir_index": "17",
+  "title_lang": {
+    "title_heb": "אופטלגין",
+    "title_eng": "OPTALGIN",
+    "title_ara": "x"
+  },
+  "sections": [
+    {
+      "title": "General",
+      "section_num": 0,
+      "data": [
+        {
+          "eng": "s mg 500® OPTALGIN\n",
+          "heb": "אופטלגין קפליות 500 מ\"ג\n"
+        },
+        {
+          "eng": "tablets mg 500® OPTALGIN\n",
+          "heb": "אופטלגיןR טבליות 500 מ\"ג\n"
+        },
+        {
+          "eng": "Composition\n",
+          "heb": "הרכב\n"
+        },
+        {
+          "eng": ":contains tablet/caplet Each\nmg 500 dipyrone\n",
+          "heb": "כל קפליה/טבליה מכילה:\nדיפירון 500 מ\"ג )mg 500 Dipyrone)\n"
+        },
+        {
+          "eng": "Additional '6, section see ,ingredients inactive about information For\n",
+          "heb": "למידע על מרכיבים בלתי פעילים ראה סעיף 6 - \"מידע נוסף\".\n"
+        },
+        {
+          "eng": "'.information\nThis .medicine this using start you before carefully leaflet entire the Read\n",
+          "heb": "קרא בעיון את העלון עד סופו בטרם תשתמש בתרופה. עלון זה מכיל מידע\nתמציתי על התרופה.\n"
+        },
+        {
+          "eng": "further any have you If .medicine this about information concise contains leaflet\n",
+          "heb": "אם יש לך שאלות נוספות, פנה אל הרופא או אל הרוקח.\n"
+        },
+        {
+          "eng": ".pharmacist or doctor your consult ,questions\n",
+          "heb": "עליך ליטול את התרופה על פי ההוראות בסעיף המינון בעלון זה. היוועץ ברוקח\n"
+        },
+        {
+          "eng": "this in dose about section the in instructions the to according medicine this Take\n",
+          "heb": "אם הינך זקוק למידע נוסף.\n"
+        },
+        {
+          "eng": ".information further need you if pharmacist your Consult .leaflet\n",
+          "heb": "לתינוקות ולילדים ניתן לתת את התרופה הנמכרת בטיפות.\n"
+        },
+        {
+          "eng": ".drops in medicine this given be can children and Babies\n",
+          "heb": "עליך לפנות לרופא אם החום נמשך יותר מ3- ימים או הכאבים נמשכים\nיותר מ7- ימים למרות השימוש בתרופה. הסיכון לאגרנולוציטוזיס עולה אם\n"
+        },
+        {
+          "eng": "persists pain or days 3 than more lasts fever your if doctor your Consult\n",
+          "heb": "הטיפול נמשך מעבר ל7- ימים. )ראה סעיף 4 – \"תופעות לוואי\"(.\n"
+        }
+      ]
+    },
+    {
+      "title": "medicine intended for",
+      "section_num": 1,
+      "data": [
+        {
+          "eng": "As such, pain severe to moderate relieving for intended is medicine. This",
+          "heb": "התרופה מיועדת לשיכוך כאבים בינוניים עד חזקים. כגון כאבי ראש, שיניים וכאבי"
+        },
+        {
+          "eng": "that fever high reducing for and, pain menstrual and, toothache, headache.",
+          "heb": "וסת ולהורדת חום גבוה. שאינו מגיב לאמצעי טיפול אחרים."
+        },
+        {
+          "eng": "measures treatment other to respond not does.",
+          "heb": "קבוצה תרפויטית: משפחת פירזולון."
+        }
+      ]
+    },
+    {
+      "title": "before using the medicine",
+      "section_num": 2,
+      "data": [
+        {
+          "eng": "Before using this medicine:",
+          "heb": "אין להשתמש בתרופה אם:"
+        },
+        {
+          "eng": "If you are allergic to the active ingredient metamizole (dipyrone) or to other pyrazolone preparations such as propyphenazone, phenazone, or to pyrazolidine preparations such as oxyphenbutazone, phenylbutazone, including patients who have developed significant reduction in certain white blood cell counts (agranulocytosis) after using these preparations.",
+          "heb": "·אתה רגיש (אלרגי) לחומר הפעיל דיפירון (מטאמיזול) או לתכשירי פירזולון אחרים (כגון פרופיפנאזון, פנאזון) או לתכשירי פירזולידין (כגון פנילבוטאזון, אוקסיפנבוטאזון), כולל גם מטופלים שהגיבו בירידה משמעותית בספירת תאי דם לבנים מסוג מסוים (אגרנולוציטוזיס) לאחר שימוש בתכשירים אלה."
+        },
+        {
+          "eng": "If you are allergic to any of the other ingredients in this medicine.",
+          "heb": "·אתה רגיש (אלרגי) לכל אחד מהמרכיבים הנוספים אשר מכילה התרופה."
+        },
+        {
+          "eng": "If you have a known sensitivity to pain relievers (asthma resulting from taking pain relievers or sensitivity to pain relievers manifested by rash/angioedema), especially patients who react to pain relievers such as salicylates, paracetamol, diclofenac, ibuprofen, indomethacin, or naproxen with lower airway constriction or other excessive sensitivity reactions such as rash with itching and swelling (angioedema, rhinitis, rash).",
+          "heb": "·יש לך רגישות ידועה למשככי כאבים (תסמונת אסתמה כתוצאה מנטילת משככי כאבים או רגישות למשככי כאבים המתבטאת בפריחה/באנגיואדמה), במיוחד למטופלים המגיבים למשככי כאבים כגון סליצילטים, פראצטמול, דיקלופנק, איבופרופן, אינדומתצין או נפרוקסן בהתכווצות של דרכי הנשימה התחתונות או בתגובות רגישות יתר אחרות כגון פריחה עם גרד ונפיחות (אנגיואדמה, דלקת באף, פריחה)."
+        },
+        {
+          "eng": "If you have impaired bone marrow function after treatment with certain cancer drugs or if you have a disorder affecting blood cell production, including hereditary diseases involving disordered production of red blood cells (hepatic intermittent porphyria).",
+          "heb": "·אתה סובל מליקוי בתפקוד מח העצם לאחר טיפול בתרופות נגד סרטן מסוימות או ממחלה המשפיעה על ייצור תאי הדם, כולל מחלות ירושות הכוללות הפרעה בייצור הצבע של תאי הדם האדומים (פורפיריה כבדית חריפה מהסוג הנקרא פורפיריה חריפה לסירוגין)."
+        },
+        {
+          "eng": "Special warnings when using this medicine:",
+          "heb": "אזהרות מיוחדות הנוגעות לשימוש בתרופה"
+        },
+        {
+          "eng": "Optalgin contains dipyrone and is associated with rare but life-threatening risks including sudden circulatory failure and severe disease caused by a sharp drop in the count of certain white blood cells (agranulocytosis).",
+          "heb": "·אופטלגין מכיל דיפירון וקשור לסיכונים נדירים אך מסכני חיים הכוללים כשל פתאומי בזרימת הדם ומחלה חמורה הנגרמת מירידה חדה בספירת תאי דם לבנים מסוג מסוים (אגרנולוציטוזיס)."
+        },
+        {
+          "eng": "Immediately report to a doctor at the first sign of any unexpected symptoms such as a sore throat, fever, skin rashes, mucosal ulcers, bruising, or any other signs of a blood disorder, which may indicate the onset of a serious adverse reaction.",
+          "heb": "·יש לדווח מיד לרופא במקרה של הופעת סימפטומים בלתי צפויים ראשונים כגון נקודות חשופות, חום, פריחות עור, פצעים במייקות, כתמים או כל סימן אחר של הפרעה בדם היכולה להעיד על התפתחות תגובה נגדית חמורה."
+        },
+        {
+          "eng": "Because of the risk of agranulocytosis, which can lead to severe complications, use the lowest effective dose for the shortest duration necessary to relieve symptoms.",
+          "heb": "·בשל סיכון לאגרנולוציטוזיס, אשר עלול לגרום למונע עיקולים חמורים, יש להשתמש במנת פעולה נמוכה ביותר לזמן הקצר ביותר הנדרש על מנת להקל על הסימפטומים."
+        },
+        {
+          "eng": "Avoid treatment for longer than 1 week if possible.",
+          "heb": "·יש להימנע מטיפול לזמן הארוך משבוע."
+        },
+        {
+          "eng": "Do not exceed the recommended doses.",
+          "heb": "·אין לחרוג מהמנה המומלצת."
+        },
+        {
+          "eng": "Patients who experience agranulocytosis should never use dipyrone again.",
+          "heb": "·מטופלים החווים אגרנולוציטוזיס לא ישתמשו בדיפירון שוב."
+        },
+        {
+          "eng": "Consult your doctor or pharmacist for advice before using this medicine:",
+          "heb": "יש להיוועץ ברופא או ברוקח לפני השימוש בתרופה במקרה של:"
+        },
+        {
+          "eng": "If you have liver or kidney problems.",
+          "heb": "· קיימות לך בעיות בכבד או בכליית."
+        },
+        {
+          "eng": "If you have ever had gastrointestinal bleeding or perforation as a result of taking nonsteroidal anti-inflammatory drugs (NSAIDs).",
+          "heb": "· סבלת מדימום או חור במעיים בעקבות נטילת תרופות מוחלשות נגד דלקת (NSAIDs)."
+        },
+        {
+          "eng": "If you have been diagnosed with systemic lupus erythematosus (SLE) or mixed connective tissue disease.",
+          "heb": "· נגרם לך לופוס סיסטמי אריתמטוזוס או מחלת רקמה מעורבת."
+        },
+        {
+          "eng": "If you have a hereditary disorder of the red blood pigment hemoglobin called porphyria.",
+          "heb": "· סובל מהפרעה ירושתית בפיגמנט הדם האדום הנקרא המוגלובין."
+        },
+        {
+          "eng": "If you have G-6-PD deficiency (an inherited condition that may cause red blood cell damage).",
+          "heb": "· סבלת מחוסר G-6-PD (מצב ירושתי העלול לגרום נזק לתאי הדם האדומים)."
+        },
+        {
+          "eng": "If you are pregnant, planning to become pregnant, or breastfeeding.",
+          "heb": "· הנך בהריון, תכננת הריון או מניקה."
+        },
+        {
+          "eng": "If you are taking other medications, including those obtained without a prescription.",
+          "heb": "· נטלת תרופות אחרות, כולל אלה שנרשמו ללא מרשם."
+        },
+        {
+          "eng": "If you are elderly, as you may be more sensitive to the effects of this medicine.",
+          "heb": "· נכה בגיל שיש לך רגישות יתר לאפקטים של התרופה."
+        },
+        {
+          "eng": "Use of this medicine during labor or delivery may harm the fetus. If you become pregnant or plan to become pregnant while taking this medicine, notify your doctor immediately.",
+          "heb": "· השימוש בתרופה זו במהלך הלידה עשוי לגרום נזק לעובר. במקרה של היריון או תכנון להיריון במהלך טיפול בתרופה זו, יש להודיע מיד לרופא."
+        },
+        {
+          "eng": "Patients who are receiving long-term treatment should have their liver and kidney function checked regularly.",
+          "heb": "· מטופלים המטופלים בטיפול לטווח ארוך יש לבדוק באופן קבוע את פעילות הכבד והכלייה."
+        },
+        {
+          "eng": "Dipyrone may interact with other medicines. It is most important to inform your doctor or pharmacist about medicines you are already taking, including those without a prescription, as well as vitamins and herbal supplements, before starting treatment with dipyrone.",
+          "heb": "דיפירון עשוי להתמזג עם תרופות אחרות. הדבר חשוב ביותר על מנת ליידע את הרופא או הרוקח על התרופות שאתה כבר נוטל, כולל אלה שאינם ניתנים על מרשם רפואי, וגם ויטמינים ותוספי צמחים, לפני שתתחיל בטיפול בדיפירון."
+        },
+        {
+          "eng": "Liver",
+          "heb": "בעיות בתפקוד הכבד"
+        },
+        {
+          "eng": "who dipyrone taking patients in inflammation liver of reports are There",
+          "heb": "דווחו מקרים של דלקת כבד במטופלים שנטלו דיפירון אשר"
+        },
+        {
+          "eng": "treatment starting of months few a to days few a within symptoms developed",
+          "heb": "פיתחו תסמינים תוך מספר ימים עד מספר חודשים לאחר תחילת הטיפול"
+        },
+        {
+          "eng": "of symptoms develop you if doctor your consult and Optalgin taking Stop",
+          "heb": "עליך להפסיק ליטול אופטלגין ולהיוועץ ברופא אם אתה מפתח תסמינים"
+        },
+        {
+          "eng": "of loss, tiredness, fever, vomiting or nausea as such, problems function liver",
+          "heb": "בעיות בתפקוד הכבד, כגון בחילה או הקאה, חום, עייפות, איבוד תיאבון,"
+        },
+        {
+          "eng": "the of whites the or skin the of yellowing, stools pale, urine dark, appetite",
+          "heb": "שתן כהה, צואה בהירה, הצהבה של העור או החלק הלבן בעיניים, גירוד,"
+        },
+        {
+          "eng": "liver your check will doctor Your. pain abdominal upper or, rash, itching, eyes",
+          "heb": "פריחה או כאב בבטן העליונה. במקרים אלו הרופא יבדוק את תפקוד הכבד."
+        },
+        {
+          "eng": "cases these in function dipyrone containing medicine a taken ever have you if Optalgin take not Do",
+          "heb": "אין ליטול אופטלגין אם נטלת בעבר תרופה המכילה דיפירון"
+        },
+        {
+          "eng": "problems function liver developed and function liver or kidney Impaired",
+          "heb": "ופיתחת בעיות בתפקוד הכבד."
+        },
+        {
+          "eng": "after only Optalgin take may you, function liver or kidney impaired of case In",
+          "heb": "ליקוי בתפקוד הכליות או הכבד יש ליטול אופטלגין רק"
+        },
+        {
+          "eng": "taken has and benefit the and risk the evaluated carefully has doctor your",
+          "heb": "לאחר שהרופא ביצע הערכה קפדנית של הסיכון מול התועלת ונקט באמצעי זהירות מתאימים"
+        },
+        {
+          "eng": "or kidney impaired with Patients 'under 3, section see (precautions suitable",
+          "heb": "(ראה סעיף 3 - \"חולים בעלי ליקוי בתפקוד הכליות או הכבד\""
+        },
+        {
+          "eng": "Optalgin and medicines Other",
+          "heb": "תרופות אחרות ואופטלגין"
+        },
+        {
+          "eng": "including, medicines other taken recently have or taking are you If",
+          "heb": "אם אתה לוקח או אם לקחת לאחרונה תרופות אחרות כולל תרופות ללא"
+        },
+        {
+          "eng": "doctor your tell, supplements dietary and medications nonprescription",
+          "heb": "מרשם ותוספי תזונה, ספר על כך לרופא או לרוקח."
+        },
+        {
+          "eng": ": taking are you if Particularly. pharmacist or",
+          "heb": "במיוחד אם אתה לוקח:"
+        },
+        {
+          "eng": "Your -) system immune the suppress to used medicine a (Cyclosporine•",
+          "heb": "ציקלוספורין )תרופה לדיכוי מערכת החיסון( - הרופא יעקוב אחר רמות"
+        },
+        {
+          "eng": "at it taking are you if, levels cyclosporine blood your monitor will doctor",
+          "heb": "ציקלוספורין בדמך אם ניתן בו זמנית."
+        },
+        {
+          "eng": "time same the If - diseases rheumatic and cancer treat to used medicine a, Methotrexate•",
+          "heb": "מתוטרקסאט, תרופה לטיפול במחלות סרטן ובמחלות ראומטיות - שימוש בו-זמני"
+        },
+        {
+          "eng": "potential of risk the increase may methotrexate, time same the at given",
+          "heb": "עלול להגביר את הסיכון לפגיעה אפשרית בייצור דם על ידי מתוטרקסאט,"
+        },
+        {
+          "eng": "combination This. patients elderly in particularly, production blood to damage",
+          "heb": "במיוחד במטופלים קשישים. לפיכך, יש להימנע משילוב זה."
+        },
+        {
+          "eng": "acid acetylsalicylic dose-low take you If -) aspirin (acid Acetylsalicylic•",
+          "heb": "חומצה אצטיל-סליצילית )אספירין( - אם אתה נוטל חומצה אצטיל-סליצילית"
+        },
+        {
+          "eng": "your on aspirin of effect the reduce may Optalgin, heart your protect to",
+          "heb": "במינון נמוך על מנת להגן על הלב, אופטלגין עלול להפחית את השפעתה על"
+        },
+        {
+          "eng": "platelets. may Optalgin - smoking stop to and depression treat to used, Bupropion•",
+          "heb": "טסיות הדם."
+        },
+        {
+          "eng": "bupropion of levels blood reduce. Optalgin Using - disorders mental treat to used medicine a, Chlorpromazine•",
+          "heb": "בופרופיון, לטיפול בדיכאון ולהפסקת עישון - אופטלגין עלול לגרום לירידה"
+        },
+        {
+          "eng": "temperature body your in fall serious a cause may time same the at. AIDS/HIV treat to used medicine a, Efavirenz•",
+          "heb": "ברמות של בופרופיון בדם."
+        },
+        {
+          "eng": "from withdrawal or pain severe treat to used medicine a, Methadone•",
+          "heb": "מתדון, תרופה לטיפול בכאב חמור או לגמילה מהתמכרות לחומרים נרקוטיים."
+        },
+        {
+          "eng": "substances narcotic to addiction. disorder bipolar or epilepsy treat to used medicine a, Valproate•",
+          "heb": "ואלפרואט, תרופה לטיפול באפילפסיה או הפרעה דו קוטבית."
+        },
+        {
+          "eng": "with patients in rejection organ prevent to used medicine a, Tacrolimus•",
+          "heb": "טקרולימוס, תרופה המשמשת למניעת דחיית איברים במטופלים מושתלים."
+        },
+        {
+          "eng": "transplants. depression treat to used medicine a, Sertraline•",
+          "heb": "סרטרלין, תרופה לטיפול בדיכאון."
+        },
+        {
+          "eng": "interact can) belongs Optalgin which to medicines of group the (Pyrazolones",
+          "heb": "שימוש בתכשירי פירזולון )קבוצת התרופות אליה משתייך אופטלגין( עלול לגרום"
+        },
+        {
+          "eng": "with. clotting blood prevent to medicines -",
+          "heb": "לתגובות בין-תרופתיות עם תרופות מסוימות:"
+        },
+        {
+          "eng": "disorders heart certain and pressure blood high for medicine a, captopril -",
+          "heb": "תרופות למניעת קרישת דם"
+        },
+        {
+          "eng": "disorders mental treat to used medicine a, lithium -",
+          "heb": "קפטופריל, תרופה לטיפול ביתר לחץ דם ובמחלות לב מסוימות"
+        },
+        {
+          "eng": "triamterene as such diuretics -",
+          "heb": "ליתיום, תרופה לטיפול בהפרעות נפשיות"
+        },
+        {
+          "eng": "pressure blood lowering for medicines -",
+          "heb": "תרופות משתנות, כגון טריאמטרן"
+        },
+        {
+          "eng": "between interactions these causes Optalgin extent what to known not is It",
+          "heb": "לא ידוע באיזו מידה אופטלגין גורם לתגובות בין-תרופתיות אלו."
+        },
+        {
+          "eng": "medicines. tests lab on Effect",
+          "heb": "השפעה על בדיקות מעבדה"
+        },
+        {
+          "eng": ", tests lab have you before Optalgin taking are you that doctor your Tell",
+          "heb": "דווח לרופא שאתה נוטל אופטלגין לפני ביצוע בדיקות מעבדה,"
+        },
+        {
+          "eng": "tests certain of results the affect can dipyrone ingredient active the because",
+          "heb": "מפני שהחומר הפעיל, דיפירון, עלול להשפיע על תוצאות של בדיקות מסוימות )כגון בדיקת"
+        },
+        {
+          "eng": "If .)acid uric or cholesterol HDL, fats, creatinine of levels blood, example for(",
+          "heb": "רמות קראטינין בדם, שומנים, כולסטרול מסוג HDL או חומצה אורית(. אם הינך"
+        },
+        {
+          "eng": "only medicine the take, tests these of any for sample blood a give to have you",
+          "heb": "צריך למסור דגימת דם לצורך אחת מהבדיקות הנ\"ל, יש ליטול את התרופה רק"
+        },
+        {
+          "eng": "collected been has sample blood the after",
+          "heb": "לאחר מתן הדגימה."
+        },
+        {
+          "eng": "alcohol and Optalgin Using",
+          "heb": "שימוש באופטלגין ואלכוהול"
+        },
+        {
+          "eng": ". Optalgin taking while alcohol any drinking avoid to advisable is It",
+          "heb": "רצוי להימנע משתיית אלכוהול מכל סוג בעת השימוש באופטלגין."
+        },
+        {
+          "eng": "food and Optalgin Using",
+          "heb": "שימוש באופטלגין ומזון"
+        },
+        {
+          "eng": "medicine this take can You. )water as such (liquid some with Optalgin Take",
+          "heb": "ניתן ליטול תרופה זו בתקופת ההיריון רק במקרים בהם אין תגובה"
+        },
+        {
+          "eng": "meal a after or before",
+          "heb": "לפרטים עיין במדור \"הריון והנקה\"."
+        },
+        {
+          "eng": "breastfeeding and Pregnancy",
+          "heb": "היריון"
+        },
+        {
+          "eng": "are or pregnant be may you think, breastfeeding or pregnant are you If",
+          "heb": "אם את בהיריון או מיניקה, חושבת שאת בהיריון, או מתכננת היריון, יש להיוועץ"
+        },
+        {
+          "eng": "this taking before pharmacist or doctor your consult, baby a have to planning",
+          "heb": "עם הרופא או הרוקח לפני נטילת תרופה זו."
+        },
+        {
+          "eng": "medicine your after only and, doctor your consulting after pregnancy during use Only",
+          "heb": "במהלך ההיריון יעשה רק לאחר התייעצות עם הרופא ולאחר שהוא"
+        },
+        {
+          "eng": "assessment benefit-risk thorough a conducted has doctor",
+          "heb": "ביצע הערכת תועלת-סיכון יסודית."
+        },
+        {
+          "eng": "lowest the in only Optalgin use may you) 28 week after (trimester third the In",
+          "heb": "בשליש השלישי להיריון )לאחר שבוע 28( ניתן להשתמש באופטלגין רק במינון"
+        },
+        {
+          "eng": "dose effective",
+          "heb": "היעיל הנמוך ביותר."
+        },
+        {
+          "eng": ", day a) tablets/caplets 6 (grams three than more take not Do 28: week After",
+          "heb": "אין ליטול יותר משלושה גרם )6 קפליות/טבליות( ביום, לא יותר"
+        },
+        {
+          "eng": "row a in days 3-4 than more no for and",
+          "heb": "מ- 3-4 ימים ברצף."
+        },
+        {
+          "eng": "Breastfeeding",
+          "heb": "הנקה"
+        },
+        {
+          "eng": ". milk breast into pass dipyrone of products breakdown The",
+          "heb": "חומרי הפירוק של דיפירון מופרשים לחלב אם."
+        },
+        {
+          "eng": "respond not do you if only Optalgin use may you breastfeeding are you While",
+          "heb": "בתקופת ההנקה ניתן להשתמש באופטלגין רק במקרים בהם אין תגובה"
+        },
+        {
+          "eng": "ibuprofen or paracetamol to",
+          "heb": "בתגובה לטיפול עם פרצ'טמול או איבופרופן."
+        },
+        {
+          "eng": "substances other any to allergies severe have you if or asthma have you If",
+          "heb": "או לכל חומר אחר במרכיבי התרופה, אם אתה סובל מאסתמה, או אם יש לך"
+        },
+        {
+          "eng": "that ensure to and (B9), (B6), pyridoxine acid folic vitamins take or pregnant are you If",
+          "heb": "אלרגיה חמורה למלחי פירזולון, יש להבטיח שקיבלת את המלצות השימוש בויטמינים"
+        },
+        {
+          "eng": "as such supplements, nutritional or",
+          "heb": "במינון מתאים לקריאת הסעיף המיוחס אליהם בסוף מסמך זה"
+        },
+        {
+          "eng": "interactions pharmacological of potential on Information",
+          "heb": "מידע על התגובות עם תרופות אחרות"
+        },
+        {
+          "eng": "drugs prescription and over-the-counter and medications herbal includes This",
+          "heb": "המידע כולל תרופות מרשם וללא מרשם ותרופות צמחיות."
+        },
+        {
+          "eng": "Sparepart the in listed not is drug this of all list a not is document This",
+          "heb": "התכשיר עשוי להיות רגיש גם לתרופות וגם לאניו-אלרגניות. מומלץ להיוועץ"
+        },
+        {
+          "eng": "inform to remember and pharmacist your ask",
+          "heb": "רופאים ולקרוא את העלון המצורף לפני שימוש בתרופה."
+        },
+        {
+          "eng": "more or age the as such factors individual your considering",
+          "heb": "שיקול כללי ולא ייחודי כאמור לעיל."
+        }
+      ]
+    },
+    {
+      "title": "how to use the medicine",
+      "section_num": 3,
+      "data": [
+        {
+          "eng": "Check with your pharmacist or doctor if you are not sure about your medicine.",
+          "heb": "עליך לבדוק עם הרופא או הרוקח אם אינך בטוח בנוגע לתרופתך."
+        },
+        {
+          "eng": "How to take this medicine",
+          "heb": "איך לקחת את התרופה הזו"
+        },
+        {
+          "eng": "Your dose will be determined based on the severity of the fever or pain. Take the lowest effective dose depending on your individual response to Optalgin.",
+          "heb": "המינון ייקבע בהתאם לעוצמת הכאב או החום ובהתאם לתגובה שלך לאופטלגין. יש ליטול את המינון היעיל הנמוך ביותר."
+        },
+        {
+          "eng": "In the absence of other directions from your doctor:",
+          "heb": "בהיעדר הוראות נוספות מהרופא שלך:"
+        },
+        {
+          "eng": "For adolescents and adults weighing over 53 kg (15 years old and over):",
+          "heb": "למתבגרים ולמבוגרים במשקל מעל 53 קילוגרמים (מגיל 15 ומעלה):"
+        },
+        {
+          "eng": "Take 1-2 tablets/caplets, up to 4 times a day, at intervals of 6-8 hours.",
+          "heb": "יש לקחת 1-2 קפליות/טבליות, עד 4 פעמים ביום, במרווחים של 6-8 שעות."
+        },
+        {
+          "eng": "Do not take more than 8 tablets/caplets a day.",
+          "heb": "אין לקחת יותר מ8 קפליות/טבליות ביום."
+        },
+        {
+          "eng": "Pregnant women: Do not take more than three grams (6 tablets/caplets) a day after one week.",
+          "heb": "נשים בהריון: אין לקחת יותר משלושה גרם (6 קפליות/טבליות) ביום לאחר שבוע."
+        },
+        {
+          "eng": "These tablets and/or caplets are not intended for infants and children; Optalgin in drops can be given to them.",
+          "heb": "הקפליות ו/או הטבליות הללו אינן מיועדות לתינוקות ולילדים; ניתן לתת אופטלגין בטיפות להם."
+        },
+        {
+          "eng": "If fever persists for more than 3 days or if pain lasts for more than 7 days despite medication, consult your doctor.",
+          "heb": "אם החום נמשך ליותר מ3 ימים או אם הכאבים נמשכים ליותר מ7 ימים למרות שימוש בתרופה, יש לפנות לרופא."
+        },
+        {
+          "eng": "There is an increased risk of agranulocytosis if treatment continues beyond 7 days.",
+          "heb": "קיים סיכון מוגבר לאגרנולוציטוזיס אם הטיפול ממשיך מעבר ל7 ימים."
+        },
+        {
+          "eng": "See 'Side Effects' section for information regarding adverse effects.",
+          "heb": "ראה את סעיף 'תופעות לוואי' למידע נוסף על השפעות לוואי."
+        },
+        {
+          "eng": "Patients with general poor health, elderly patients, patients with impaired kidney function:",
+          "heb": "מטופלים במצב בריאותי כללי רע, מבוגרים, מטופלים עם פגיעה בתפקוד הכליות:"
+        },
+        {
+          "eng": "Dose reduction is necessary since Optalgin breakdown products elimination may be slowed down.",
+          "heb": "יש להפחית את המינון מאחר שהפרשת תוצרי הפירוק של אופטלגין עלולה להיות מעוכבת."
+        },
+        {
+          "eng": "Patients with impaired kidney or liver function:",
+          "heb": "מטופלים עם פגיעה בתפקוד הכליות או הכבד:"
+        },
+        {
+          "eng": "Avoid high doses as the elimination rate may be reduced. Repeated high doses should be avoided.",
+          "heb": "יש להימנע ממתן מינונים גבוהים מחוזרים מאחר שהפרשת המוצרים עשויה להיות מעוכבת."
+        },
+        {
+          "eng": "It is not necessary to reduce the dose when liver or kidney function is impaired unless used long-term.",
+          "heb": "לא נדרש להפחית את המינון כאשר פוגעת התפקוד בכבד או הכליות אלא אם משמשים לטווח ארוך."
+        },
+        {
+          "eng": "Do not exceed the recommended dose.",
+          "heb": "אין לחרוג מהמינון המומלץ."
+        },
+        {
+          "eng": "How to use the medicine:",
+          "heb": "איך להשתמש בתרופה:"
+        },
+        {
+          "eng": "Do not chew. You may split the tablets/caplets on the score line.",
+          "heb": "אין לקלע. ניתן לחצות את הקפליות/טבליות על גבי קו החיתוך."
+        },
+        {
+          "eng": "There is no information about crushing.",
+          "heb": "אין מידע על כתישה."
+        },
+        {
+          "eng": "Take Optalgin with some liquid (such as water) after or before a meal.",
+          "heb": "ניתן לקחת אופטלגין עם נוזל (כמו מים) לאחר או לפני ארוחה."
+        },
+        {
+          "eng": "If a child accidentally swallows medicine or if an overdose is suspected, go to a hospital or see a doctor immediately. Bring the medicine package with you.",
+          "heb": "אם ילד באופן כברירת מחדל בלע את התרופה או אם חשוד במנת יתר, עליך ללכת לבית חולים או לראות רופא מיד. הבא את אריזת התרופה איתך."
+        },
+        {
+          "eng": "Signs of overdose may include reduced kidney function, abdominal pain, vomiting, nausea, sharp cramps, loss of consciousness, drowsiness, dizziness, fast heart rhythm, drop in blood pressure to the extent of circulatory failure.",
+          "heb": "סימני מנת יתר עשויים לכלול ירידה בתפקוד הכליות, כאב בטן, הקאות, בחילות, סחרחורת, אבדן הכרה, נמנום, רגשות טפשות, דיזינסיה, קצב לב מהיר, וירידה בלחץ הדם עד כשל בזרימת הדם."
+        },
+        {
+          "eng": "If you suspect an overdose, inform your doctor immediately to take appropriate measures.",
+          "heb": "אם יש חשד למנת יתר, עליך ליידע את הרופא מיד כדי לנקוט באמצעים המתאימים."
+        },
+        {
+          "eng": "Note: After very high doses of this medicine, harmless breakdown product of dipyrone may cause red discoloration of urine.",
+          "heb": "הערה: לאחר מנות גבוהות מאוד של תרופה זו, הפרשת תוצר פירוק של דיפירון עשויה לגרום לשינוי בצבע השתן לאדום."
+        },
+        {
+          "eng": "Do not take a double dose to make up for a missed one.",
+          "heb": "אין לקחת מנה כפולה על-מנת לפצות על המנה שנשכחה."
+        },
+        {
+          "eng": "Do not take medicines in the dark! Check the label and dose each time you take a medicine. Wear glasses if you need them.",
+          "heb": "אין לקחת תרופות בחושך! בדוק את התווית והמנה בכל פעם שאתה נוטל תרופה. נשים משקפיים אם נדרש."
+        },
+        {
+          "eng": "If you have further questions about using this medicine, consult your pharmacist or doctor.",
+          "heb": "אם יש לך שאלות נוספות בנוגע לשימוש בתרופה זו, היוועץ ברופא או ברוקח."
+        }
+      ]
+    },
+    {
+      "title": "side effects",
+      "section_num": 4,
+      "data": [
+        {
+          "eng": "Like all medicines, Optalgin may cause side effects.",
+          "heb": "כמו בכל תרופה, השימוש באופטלגין עלול לגרום לתופעות לוואי."
+        },
+        {
+          "eng": "Do not be alarmed by this list of side effects; you may not experience any of them.",
+          "heb": "אל תיבהל למקרא רשימת תופעות הלוואי. ייתכן שלא תסבול מאף אחת מהן."
+        },
+        {
+          "eng": "The following side effects may have serious consequences; stop taking Optalgin immediately and consult a doctor as soon as possible:",
+          "heb": "תופעות הלוואי הבאות עלולות להוביל להשלכות חמורות; יש להפסיק מייד את השימוש באופטלגין ולפנות לרופא בהקדם האפשרי:"
+        },
+        {
+          "eng": "If any of the following side effects occur suddenly or worsen significantly, inform your doctor immediately. Certain side effects may include severe skin reactions like Stevens-Johnson syndrome, toxic epidermal necrolysis, or DRESS syndrome (which can be life-threatening); pancytopenia or agranulocytosis.",
+          "heb": "אם אחת מתופעות הלוואי המפורטות להלן מופיעה באופן פתאומי או מחמירה במידה משמעותית; יש ליידע את הרופא באופן מיידי. תופעות לוואי מסוימות עשויות לכלול תגובות עור חמורות כמו תסמונת סטיבנס-ג'ונסון, נקרוליזיס אפידרמל טוקסי או תסמונת DRESS (שעשויה להיות מסוכנת לחיים); פנציטופניה או אגרנולוציטוזיס."
+        },
+        {
+          "eng": "In such cases, you must not continue taking Optalgin without medical supervision. Stopping your treatment early could be of critical importance to your recovery.",
+          "heb": "במקרים כאלה, אין להמשיך לקחת אופטלגין ללא השגחה רפואית. הפסקת הטיפול מוקדמת עשויה להיות בעלת חשיבות קריטית להחלמתך."
+        },
+        {
+          "eng": "If you experience signs of thrombocytopenia, pancytopenia, or agranulocytosis, stop using Optalgin immediately, and your doctor should perform a complete blood count, including a differential blood count, before discontinuing treatment. You should discontinue treatment even before receiving the results of your laboratory tests.",
+          "heb": "אם מופיעים סימנים של אגרנולוציטוזיס, פנציטופניה או תרומבוציטופניה, יש להפסיק מיידית את השימוש באופטלגין, והרופא שלך צריך לבצע ספירת דם מלאה, כולל ספירת דם מבדלת, לפני הפסקת הטיפול. עליך להפסיק את הטיפול גם לפני קבלת תוצאות בדיקות המעבדה שלך."
+        },
+        {
+          "eng": "If you experience the following symptoms, which could indicate liver damage, seek medical advice immediately and stop taking Optalgin:",
+          "heb": "אם מופיעים התסמינים הבאים, שעשויים להצביע על נזק לכבד, יש לפנות לטיפול רפואי מייד ולהפסיק לקחת אופטלגין:"
+        },
+        {
+          "eng": "Pale stools, dark urine, loss of appetite, tiredness, fever, vomiting, nausea, upper abdominal pain, rash, itching, yellowing of the whites of the eyes or skin, abdominal pain.",
+          "heb": "שתן כהה, אובדן תיאבון, עייפות, חום, הקאות, בחילה, כאב בטן עליון, פריחה, גירוד, הצהבה של העור או העיניים, כאב בטן."
+        },
+        {
+          "eng": "Stop taking Optalgin immediately if you experience any of the following severe skin reactions:",
+          "heb": "יש להפסיק לקחת אופטלגין מיד אם מתרחשת אחת מהתגובות העוריות החמורות הבאות:"
+        },
+        {
+          "eng": "Circular or target-like lesions on the upper body, often with a central blister, followed by fever; Severe skin rashes may be preceded by fever and may involve the eyes and genitals.",
+          "heb": "כתמים עגולים או דמויי מטרה בגוף העליון, לרוב עם שלפוחית מרכזית, שמתרגשים לעיתים עם חום; פריחות עור חמורות עשויות להופיע לפני החום ועשויות להיות משולבות בעיניים ובאיברי המין."
+        },
+        {
+          "eng": "Severe skin rashes can sometimes indicate serious conditions such as Stevens-Johnson syndrome, toxic epidermal necrolysis, or DRESS syndrome (flu-like symptoms; swollen lymph nodes and high fever; extensive rash).",
+          "heb": "פריחות עור חמורות עשויות להצביע לפעמים על מצבים רציניים כמו תסמונת סטיבנס-ג'ונסון, נקרוליזיס אפידרמל טוקסי, או תסמונת DRESS (תסמונת דמות פלו; בצמוד וחום גבוה; פריחה נרחבת)."
+        },
+        {
+          "eng": "Additional side effects:",
+          "heb": "תופעות לוואי נוספות:"
+        },
+        {
+          "eng": "Uncommon side effects that may affect up to 1 in 100 patients:",
+          "heb": "תופעות לוואי לא נפוצות שעשויות להשפיע עד על 1 מתוך 100 חולים:"
+        },
+        {
+          "eng": "Fixed drug eruption (sometimes with blisters), deep red to purple rash.",
+          "heb": "פריחה נקבעת (לעיתים עם שלפוחיות), פריחה אדמדמה עמוקה אל סגול."
+        },
+        {
+          "eng": "A sharp drop in blood pressure, which may be a direct effect of the medicine and is not accompanied by other signs of hypersensitivity reactions. Such a reaction can rarely lead to a severe drop in blood pressure and, in cases of abnormally high fever, can increase blood pressure.",
+          "heb": "ירידה חדה בלחץ הדם, שעשויה להיות השפעה ישירה של התרופה ואינה מלווה בסימנים אחרים של תגובות רגישות יתר. תגובה כזו יכולה לגרום לירידה חמורה בלחץ הדם בנדיבות רק במקרים נדירים ובמקרים של חום גבוה באופן חריג, עלולה להגביר את לחץ הדם."
+        },
+        {
+          "eng": "Symptoms of a sharp drop in blood pressure typically include fainting, rapid heartbeat, nausea, dizziness, trembling, and pallor.",
+          "heb": "תסמיני הירידה החדה בלחץ הדם כוללים בדרך כלל התעצמות, קצב לב מהיר, בחילה, סחרחורת, רעידה, וחוויית חום."
+        },
+        {
+          "eng": "Rare side effects that may affect up to 1 in 1,000 patients:",
+          "heb": "תופעות לוואי נדירות שעשויות להשפיע עד על 1 מתוך 1,000 חולים:"
+        },
+        {
+          "eng": "Anaphylactic or anaphylactoid reactions (milder signs of hypersensitivity reactions include tightness in the chest, sneezing, runny nose, cough, burning sensation in the eyes, facial and head area, skin redness, chest cramps, abdominal pain, less commonly nausea and less commonly swelling, sensation of heat and itching, burning feet and hands, especially under the tongue).",
+          "heb": "תגובות רגישות יתר או אנפילקטואידיות (תסמינים קלים יותר של תגובות רגישות כוללים צמיגה בחזה, שפיפוף, נזלת, שיעול, תחושת חרפור בעיניים, אזור הפנים והראש, אדמדום בעור, כאב בחזה, כאב בטן, לעיתים נדירות בחילות ולעיתים נדירות נפיחות, תחושת חום וגרד, בעיקר במקום מתחת ללשון)."
+        },
+        {
+          "eng": "Milder symptoms of warning include heat and itching sensation, burning sensation, particularly in the feet and hands, and under the tongue.",
+          "heb": "תסמיני אזהרה מתרגלים כוללים תחושת חום וגרד, תחושת שריפה, בעיקר ברגליים וידיים, ומתחת ללשון."
+        },
+        {
+          "eng": "These milder reactions can develop into more severe forms, including severe angioedema, severe rash, sometimes severe bronchospasm, severe rapid heartbeat, severe drop in blood pressure, heart rhythm disorders, slow heartbeat, sometimes with a previous increase in blood pressure, and circulatory failure.",
+          "heb": "תגובות רגישות קלות יותר יכולות להתפתח לצורות חמורות יותר, כולל אנגיואדמה חמורה, פריחה חמורה, לעיתים תחזוקת הנשימה התחתונה, לעיתים קצב לב מהיר במיוחד, לחץ דם נמוך מאוד, הפרעות בקצב הלב, לעיתים קצב לב איטי, לעיתים עם עלייה קודמת בלחץ הדם, וכשל במחזור הדם."
+        },
+        {
+          "eng": "These reactions may occur even if you have already taken the medicine a few times without complications, and in some cases, they can be severe to life-threatening.",
+          "heb": "תגובות אלו עשויות להתרחש אף אם כבר נטלת את התרופה מספר פעמים ללא תקלות, ובמקרים מסוימים, הן יכולות להיות חמורות עד מסוכנות חיים."
+        },
+        {
+          "eng": "Hypersensitivity reactions are common in patients with asthma who use analgesics; Do not use this medication if you have asthma attacks.",
+          "heb": "תגובות רגישות יתר נפוצות במטופלים הסובלים מאסתמה שהשתמשו במשככי כאבים; אם יש לך התקפי אסתמה אל תשתמש בתרופה זו."
+        },
+        {
+          "eng": "Reduction in white blood cell count (leucopenia).",
+          "heb": "הפחתה במספר תאי הדם הלבנים (לויקופניה)."
+        },
+        {
+          "eng": "Skin rash (maculopapular exanthema).",
+          "heb": "פריחה עורית (אקזנתמה מקולופפולרית)."
+        },
+        {
+          "eng": "Very rare side effects may affect up to 10,000 patients: Agranulocytosis (a serious reduction in certain white blood cells counts), including cases that result in fatal thrombocytopenia (reduced platelet count). These reactions are probably caused by the immune system. They can also occur if dipyrone has been taken previously without complications.",
+          "heb": "תופעות לוואי נדירות מאוד (עלולות להופיע ב-1 מתוך 10,000 מטופלים): אגרנולוציטוזיס (ירידה חמורה בספירת תאי דם לבנים מסוימים), כולל מקרים שמסתיימים בתרומבוציטופניה ונפטרים. התגובות הללו ככל הנראה מתרחשות על ידי המערכת החיסונית. הן יכולות להתרחש גם אם דיפירון ניתן בעבר ללא סיבוכים."
+        },
+        {
+          "eng": "There is evidence that the risk of agranulocytosis increases if Optalgin is taken for more than one week. Agranulocytosis is characterized by high fever, chills, sore throat, difficulty swallowing, and inflammation in the mouth, nose, throat, and genital area. These symptoms may occur even mildly in patients taking antibiotics (medicines used to treat bacterial infections). The rate of sedimentation of red blood cells is significantly elevated, while lymph nodes are typically not enlarged or only slightly enlarged. Typical symptoms of thrombocytopenia include increased bleeding, pinpoint red spots on the skin and mucous membranes, and a tendency to bleed caused by bleeding.",
+          "heb": "קיימת עדות לכך שהסיכון לאגרנולוציטוזיס מתרבה אם נוטלים אופטלגין למעלה משבוע אחד. אגרנולוציטוזיס מתבטא בחום גבוה, צמרמורות, כאב גרון, קשיים בבליעה ודלקת בפה, באף, בגרון ובאזור המין. תסמינים אלו עשויים להתרחש גם במידה קלה במטופלים הנוטלים אנטיביוטיקה (תרופות לטיפול בדלקת הנגרמת על ידי חיידקים). קצב שקיעת הדם מוגבר באופן משמעותי, ובלוטות הלימפה בדרך כלל לא מוגדלות או מוגדלות במידה מועטה בלבד. סימנים אופייניים לתרומבוציטופניה כוללים דימום מוגבר, נקודות אדומות זעירות על העור ועל קרומות העור, ונטייה לדימום שנגרם מספירת הטסיות."
+        },
+        {
+          "eng": "Asthma attack: Extensive peeling and blistering of the skin (Stevens-Johnson syndrome or toxic epidermal necrolysis).",
+          "heb": "התקף אסתמה: קילוף רחב והפרעת עור על הגוף (תסמונת סטיבנס-ג'ונסון או נקרוליזיס אפידרמל טוקסי)."
+        },
+        {
+          "eng": "Sharp deterioration in kidney function, acute kidney failure, low or absent urine output, increased excretion of blood proteins in the urine, acute interstitial nephritis (kidney inflammation).",
+          "heb": "הידרדרות חדה בתפקוד הכליות, כשל כליות חריף, הפרשת שתן נמוכה או חסרת, הפרשת חלבוני הדם בשתן, נפריטיס אינטרסטיציאלית חריפה (דלקת כליות)."
+        },
+        {
+          "eng": "The frequency of these side effects cannot be estimated (frequency unknown): Sudden circulatory failure caused by an acute allergic reaction (anaphylactic shock), heart attack caused by an allergic reaction (Kounis syndrome), aplastic anemia (anemia accompanied by impaired bone marrow function), reduction in platelet and red and white blood cell counts (pancytopenia), including fatal cases. Signs of these blood changes generally include general malaise, infection, persistent fever, bruises, bleeding, and paleness.",
+          "heb": "תדירות התופעות הלוואי הללו אינה ניתנת להערכה (תדירות לא ידועה): כשל פתאומי בזרימת הדם הנגרם מתגובה אלרגית חריפה (שוק אנפילקטי), התקף לב הנגרם מתגובת אלרגיה (תסמונת קוניס), אנמיה אפלסטית (אנמיה המלווה בתפקוד מח העצם פגום), ירידה בספירת תאי הדם לבנים, אדומים וטסיות (פנציטופניה), כולל מקרים שמסתיימים במוות. סימני שינויים אלו בדם כוללים חולשה כללית, זיהום, חום עקבי, חבורות, דימום וחיוורון."
+        },
+        {
+          "eng": "Gastrointestinal bleeding, jaundice of the whites of the eyes and skin, increased liver enzymes in the blood.",
+          "heb": "דימום במערכת העיכול, צהבת בלבני העיניים ובעור, הגברת אנזימי הכבד בדם."
+        },
+        {
+          "eng": "Extensive rash, high fever, enlarged lymph nodes (DRESS syndrome or drug hypersensitivity syndrome).",
+          "heb": "פריחה רחבה, חום גבוה, הגדלת בלוטות הלימפה (תסמונת DRESS או תסמונת רגישות יתר לתרופה)."
+        },
+        {
+          "eng": "The breakdown product of dipyrone may turn your urine red, which is harmless. If you experience any side effects, or if any side effects worsen, consult your doctor. If you experience a side effect not mentioned in this leaflet, consult your doctor.",
+          "heb": "תוצר הפירוק של דיפירון עשוי להפוך את השתן שלך לאדום, מה שאינו מזיק. אם חווית תופעות לוואי, או אם תופעות לוואי כלשהן מחמירות, יש להתייעץ עם הרופא שלך. אם חווית תופעת לוואי שלא צוינה בעלון זה, יש להתייעץ עם הרופא שלך."
+        },
+        {
+          "eng": "Reporting side effects: You can report side effects to the Ministry of Health using the following link: [Health Ministry's Drug Side Effects Reporting Form](il.gov.health.sideeffects://https://www.il.gov.health.www). You can also use this link to access an online form for reporting side effects.",
+          "heb": "דיווח על תופעות לוואי: ניתן לדווח על תופעות לוואי למשרד הבריאות באמצעות הקישור הבא: [טופס דיווח על תופעות לוואי של משרד הבריאות](il.gov.health.sideeffects://https://www.il.gov.health.www). ניתן גם להשתמש בקישור זה כדי לגשת לטופס מקוון לדיווח על תופעות לוואי."
+        }
+      ]
+    },
+    {
+      "title": "medicine storage",
+      "section_num": 5,
+      "data": []
+    },
+    {
+      "title": "additional information",
+      "section_num": 6,
+      "data": [
+        {
+          "eng": ":contains also medicine the ,ingredient active the to addition In",
+          "heb": "נוסף על המרכיב הפעיל התרופה מכילה גם:"
+        },
+        {
+          "eng": ":caplets Optalgin",
+          "heb": "אופטלגין קפליות:"
+        },
+        {
+          "eng": " silicon colloidal ,talc ,stearate magnesium ,gelatin ,Starch polyethylene ,dioxide titanium ,methylcellulose hydroxypropyl ,dioxide 80. polysorbate ,glycol",
+          "heb": ",dioxide silicon colloidal ,talc ,stearate magnesium ,gelatin ,Starch polyethylene ,dioxide titanium ,methylcellulose hydroxypropyl 80. polysorbate"
+        },
+        {
+          "eng": ":tablets Optalgin",
+          "heb": "אופטלגין טבליות:"
+        },
+        {
+          "eng": ".dioxide silicon colloidal ,talc ,stearate magnesium ,gelatin ,Starch",
+          "heb": ".dioxide silicon colloidal ,talc ,stearate magnesium ,gelatin ,Starch"
+        },
+        {
+          "eng": ":pack the of contents and like looks medicine the What",
+          "heb": "כיצד נראית התרופה ומה תוכן האריזה:"
+        },
+        {
+          "eng": " score a with caplet coated-film cream to white ,elongated :caplets Optalgin .side one on line",
+          "heb": "אופטלגין קפליות: קפליה מצופה ומוארכת בצבע לבן עד קרם, עם קו חציה בצידה האחד."
+        },
+        {
+          "eng": " in caplets 50 or tray blister a in caplets 42 or 28 21, contains pack Each .bottle plastic a",
+          "heb": "אריזה מכילה ,21 28 או 42 קפליות במגשית )בליסטר( או 50 קפליות בבקבוק פלסטיק."
+        },
+        {
+          "eng": " on line score a have Tablets .tablet cream to white ,round :tablets Optalgin tablets 20 contains pack Each .other the on embossed’ TEVA ‘and side one .tray blister a in",
+          "heb": "אופטלגין טבליות: טבליה עגולה בצבע לבן עד שמנת. בטבליה קו חציה בצידה האחד ובצידה השני מוטבע - \"TEVA\". האריזה מכילה 20 טבליות במגשית )בליסטר(."
+        },
+        {
+          "eng": " marketed be may sizes pack all Not",
+          "heb": "ייתכן שלא כל גודלי האריזות משווקים."
+        },
+        {
+          "eng": " 124 .,Ltd Israel Teva :address and name s’manufacturer ,holder License 6944020. Aviv Tel .,St a’HaNevi Dvora",
+          "heb": "שם בעל הרישום, היצרן וכתובתו: טבע ישראל בע\"מ, רחוב דבורה הנביאה, 124 תל אביב .6944020"
+        },
+        {
+          "eng": " guidelines MOH to according 2022 June in revised was leaflet This National s’Health of Ministry the in medicine the of number Registration :Registry Dr",
+          "heb": "העלון נערך ביוני 2022 בהתאם להנחיות משרד הבריאות. מספר רישום התרופה בפנקס התרופות הממלכתי במשרד הבריאות:"
+        }
+      ]
+    }
+  ]
+}

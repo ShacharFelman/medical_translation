@@ -1,5 +1,6 @@
 from langchain_core.prompts import ChatPromptTemplate
 from langchain.output_parsers import RegexParser
+import re
 
 # Translation Prompt Template
 translation_success_string = "[TRANSLATION SUCCESSFUL]"
@@ -23,12 +24,33 @@ Then your response will be:
 <eng_text> Acamol is a medication for the common cold. </eng_text> {translation_success_string}
 '''
 
-translation_prompt = ChatPromptTemplate.from_messages([("system", translation_prompt_template), ("user", "{text_input}")])
+translation_prompt = ChatPromptTemplate.from_messages([("system", translation_prompt_template), ("user", "<heb_text>{text_input}</heb_text>")])
 
-translation_parser = RegexParser(
-    regex=r"(?:<eng_text>([\s\S]*?)</eng_text>\s*)?(\[TRANSLATION (?:SUCCESSFUL|FAILED)\])",
-    output_keys=["translated_text", "status"]
-)
+# translation_parser = RegexParser(
+#     regex=r"(?:<eng_text>([\s\S]*?)</eng_text>\s*)?(\[TRANSLATION (?:SUCCESSFUL|FAILED)\])",
+#     output_keys=["translated_text", "status"]
+# )
+
+class TranslationParser:
+    def parse(self, text):
+        # Strip leading and trailing whitespace from the input text
+        text = text.strip()
+        
+        # Remove the final "[TRANSLATION SUCCESSFUL]" string
+        text = re.sub(r'\[TRANSLATION SUCCESSFUL\]\s*$', '', text)
+        
+        # Remove the "<eng_text>" and "</eng_text>" tags if they exist
+        text = re.sub(r'</?eng_text>', '', text)
+        
+        # Strip any remaining whitespace after all manipulations
+        text = text.strip()
+        
+        return {
+            "translated_text": text,
+            "status": "[TRANSLATION SUCCESSFUL]"
+        }
+
+translation_parser = TranslationParser()
 
 # If the text you receive contains no Hebrew text, contains no medical/pharmacological information or could not appear in a CMI leaflet,
 # respond with {translation_failure_string}.

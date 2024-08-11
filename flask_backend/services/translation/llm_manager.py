@@ -34,7 +34,7 @@ def initialize_translators():
 
     return [
         # TranslatorLLM(gpt_4_turbo, 'gpt-4-turbo'),
-        TranslatorLLM(claude_35_sonnet, 'claude-3-5-sonnet'),
+        TranslatorLLM(claude_3_opus, 'claude-3-opus'),
         TranslatorLLM(gpt_4o, 'gpt-4o'),
-        TranslatorLLM(claude_3_opus, 'claude-3-opus')
+        TranslatorLLM(claude_35_sonnet, 'claude-3-5-sonnet'),
     ]
