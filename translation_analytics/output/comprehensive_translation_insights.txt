@@ -1,0 +1,414 @@
+Translator Performance Analysis:
+
+  Translator: claude-3-5-sonnet
+    Average bleu_score: 0.4802
+    Average comet_score: 0.8808
+    Average chrf_score: 0.7256
+    Average wer_score: 0.5041
+    Average response_time: 3.3962
+    Average similarity_score: 0.9857
+
+  Translator: gpt-4o
+    Average bleu_score: 0.4604
+    Average comet_score: 0.8772
+    Average chrf_score: 0.7151
+    Average wer_score: 0.5205
+    Average response_time: 2.0263
+    Average similarity_score: 0.9846
+
+  Translator: claude-3-opus
+    Average bleu_score: 0.4720
+    Average comet_score: 0.8729
+    Average chrf_score: 0.7195
+    Average wer_score: 0.5599
+    Average response_time: 4.1016
+    Average similarity_score: 0.9822
+
+BLEU Score Analysis:
+  Average BLEU score: 0.4709
+  Standard deviation of BLEU scores: 0.2967
+  Number of outlier BLEU scores: 0
+
+Multi-Metric Analysis:
+  Average bleu_score: 0.4709
+  Average comet_score: 0.8770
+  Average chrf_score: 0.7201
+  Average wer_score: 0.5282
+
+Input Complexity Analysis:
+
+  Input length: 20 words
+    Average bleu_score: 0.5450
+    Average comet_score: 0.8813
+    Average chrf_score: 0.7278
+    Average wer_score: 0.3545
+
+  Input length: 35 words
+    Average bleu_score: 0.5476
+    Average comet_score: 0.8814
+    Average chrf_score: 0.7435
+    Average wer_score: 0.3671
+
+  Input length: 27 words
+    Average bleu_score: 0.5120
+    Average comet_score: 0.8981
+    Average chrf_score: 0.7570
+    Average wer_score: 0.3895
+
+  Input length: 14 words
+    Average bleu_score: 0.4743
+    Average comet_score: 0.8618
+    Average chrf_score: 0.7107
+    Average wer_score: 0.4574
+
+  Input length: 4 words
+    Average bleu_score: 0.4428
+    Average comet_score: 0.8678
+    Average chrf_score: 0.6259
+    Average wer_score: 0.6040
+
+  Input length: 10 words
+    Average bleu_score: 0.4781
+    Average comet_score: 0.8721
+    Average chrf_score: 0.7102
+    Average wer_score: 0.4490
+
+  Input length: 22 words
+    Average bleu_score: 0.5675
+    Average comet_score: 0.8601
+    Average chrf_score: 0.7247
+    Average wer_score: 0.6091
+
+  Input length: 7 words
+    Average bleu_score: 0.4802
+    Average comet_score: 0.8890
+    Average chrf_score: 0.7206
+    Average wer_score: 0.5235
+
+  Input length: 6 words
+    Average bleu_score: 0.4536
+    Average comet_score: 0.8804
+    Average chrf_score: 0.7210
+    Average wer_score: 0.6148
+
+  Input length: 5 words
+    Average bleu_score: 0.5949
+    Average comet_score: 0.9010
+    Average chrf_score: 0.7660
+    Average wer_score: 0.5680
+
+  Input length: 11 words
+    Average bleu_score: 0.3834
+    Average comet_score: 0.8364
+    Average chrf_score: 0.6530
+    Average wer_score: 0.5795
+
+  Input length: 13 words
+    Average bleu_score: 0.3931
+    Average comet_score: 0.8467
+    Average chrf_score: 0.6640
+    Average wer_score: 0.6476
+
+  Input length: 31 words
+    Average bleu_score: 0.4775
+    Average comet_score: 0.8668
+    Average chrf_score: 0.7359
+    Average wer_score: 0.3945
+
+  Input length: 24 words
+    Average bleu_score: 0.4837
+    Average comet_score: 0.8530
+    Average chrf_score: 0.7301
+    Average wer_score: 0.4942
+
+  Input length: 23 words
+    Average bleu_score: 0.5050
+    Average comet_score: 0.8899
+    Average chrf_score: 0.7352
+    Average wer_score: 0.3853
+
+  Input length: 2 words
+    Average bleu_score: 0.3466
+    Average comet_score: 0.9287
+    Average chrf_score: 0.8056
+    Average wer_score: 0.5781
+
+  Input length: 38 words
+    Average bleu_score: 0.5177
+    Average comet_score: 0.8710
+    Average chrf_score: 0.7641
+    Average wer_score: 0.4013
+
+  Input length: 34 words
+    Average bleu_score: 0.5121
+    Average comet_score: 0.8719
+    Average chrf_score: 0.7297
+    Average wer_score: 0.3439
+
+  Input length: 3 words
+    Average bleu_score: 0.4719
+    Average comet_score: 0.9014
+    Average chrf_score: 0.6804
+    Average wer_score: 0.6196
+
+  Input length: 25 words
+    Average bleu_score: 0.5281
+    Average comet_score: 0.8882
+    Average chrf_score: 0.7598
+    Average wer_score: 0.3382
+
+  Input length: 28 words
+    Average bleu_score: 0.5239
+    Average comet_score: 0.8563
+    Average chrf_score: 0.7220
+    Average wer_score: 0.3706
+
+  Input length: 29 words
+    Average bleu_score: 0.4540
+    Average comet_score: 0.8721
+    Average chrf_score: 0.7546
+    Average wer_score: 0.4607
+
+  Input length: 8 words
+    Average bleu_score: 0.4347
+    Average comet_score: 0.8772
+    Average chrf_score: 0.7001
+    Average wer_score: 0.5408
+
+  Input length: 18 words
+    Average bleu_score: 0.5365
+    Average comet_score: 0.8972
+    Average chrf_score: 0.7691
+    Average wer_score: 0.3831
+
+  Input length: 74 words
+    Average bleu_score: 0.5078
+    Average comet_score: 0.8301
+    Average chrf_score: 0.7712
+    Average wer_score: 0.4167
+
+  Input length: 9 words
+    Average bleu_score: 0.4462
+    Average comet_score: 0.8380
+    Average chrf_score: 0.6851
+    Average wer_score: 0.7077
+
+  Input length: 15 words
+    Average bleu_score: 0.4980
+    Average comet_score: 0.8841
+    Average chrf_score: 0.7379
+    Average wer_score: 0.4344
+
+  Input length: 12 words
+    Average bleu_score: 0.4744
+    Average comet_score: 0.8904
+    Average chrf_score: 0.7206
+    Average wer_score: 0.4696
+
+  Input length: 41 words
+    Average bleu_score: 0.6574
+    Average comet_score: 0.8741
+    Average chrf_score: 0.8416
+    Average wer_score: 0.3367
+
+  Input length: 16 words
+    Average bleu_score: 0.6005
+    Average comet_score: 0.8722
+    Average chrf_score: 0.8061
+    Average wer_score: 0.5705
+
+  Input length: 39 words
+    Average bleu_score: 0.6153
+    Average comet_score: 0.8857
+    Average chrf_score: 0.8011
+    Average wer_score: 0.3858
+
+  Input length: 1 words
+    Average bleu_score: 0.1766
+    Average comet_score: 0.9532
+    Average chrf_score: 0.9325
+    Average wer_score: 0.8889
+
+  Input length: 17 words
+    Average bleu_score: 0.5859
+    Average comet_score: 0.8980
+    Average chrf_score: 0.7808
+    Average wer_score: 0.3262
+
+  Input length: 21 words
+    Average bleu_score: 0.5208
+    Average comet_score: 0.8823
+    Average chrf_score: 0.7251
+    Average wer_score: 0.4125
+
+  Input length: 19 words
+    Average bleu_score: 0.5339
+    Average comet_score: 0.8960
+    Average chrf_score: 0.7644
+    Average wer_score: 0.4154
+
+  Input length: 36 words
+    Average bleu_score: 0.4261
+    Average comet_score: 0.8407
+    Average chrf_score: 0.7476
+    Average wer_score: 0.7785
+
+  Input length: 32 words
+    Average bleu_score: 0.4915
+    Average comet_score: 0.8871
+    Average chrf_score: 0.7499
+    Average wer_score: 0.4020
+
+  Input length: 75 words
+    Average bleu_score: 0.4944
+    Average comet_score: 0.8552
+    Average chrf_score: 0.7477
+    Average wer_score: 0.6164
+
+  Input length: 49 words
+    Average bleu_score: 0.4165
+    Average comet_score: 0.8310
+    Average chrf_score: 0.7364
+    Average wer_score: 0.7355
+
+  Input length: 46 words
+    Average bleu_score: 0.5672
+    Average comet_score: 0.8640
+    Average chrf_score: 0.7846
+    Average wer_score: 0.3667
+
+  Input length: 26 words
+    Average bleu_score: 0.6743
+    Average comet_score: 0.8921
+    Average chrf_score: 0.8411
+    Average wer_score: 0.2398
+
+  Input length: 40 words
+    Average bleu_score: 0.6810
+    Average comet_score: 0.8926
+    Average chrf_score: 0.8597
+    Average wer_score: 0.2108
+
+  Input length: 62 words
+    Average bleu_score: 0.5586
+    Average comet_score: 0.8782
+    Average chrf_score: 0.7179
+    Average wer_score: 0.2895
+
+  Input length: 69 words
+    Average bleu_score: 0.5971
+    Average comet_score: 0.8644
+    Average chrf_score: 0.7857
+    Average wer_score: 0.3205
+
+  Input length: 37 words
+    Average bleu_score: 0.5054
+    Average comet_score: 0.8772
+    Average chrf_score: 0.7631
+    Average wer_score: 0.3487
+
+  Input length: 42 words
+    Average bleu_score: 0.4455
+    Average comet_score: 0.8646
+    Average chrf_score: 0.7081
+    Average wer_score: 0.4078
+
+  Input length: 47 words
+    Average bleu_score: 0.7434
+    Average comet_score: 0.8743
+    Average chrf_score: 0.8886
+    Average wer_score: 0.1923
+
+  Input length: 43 words
+    Average bleu_score: 0.5625
+    Average comet_score: 0.8673
+    Average chrf_score: 0.7677
+    Average wer_score: 0.3521
+
+  Input length: 50 words
+    Average bleu_score: 0.5918
+    Average comet_score: 0.8576
+    Average chrf_score: 0.7823
+    Average wer_score: 0.3518
+
+  Input length: 51 words
+    Average bleu_score: 0.6333
+    Average comet_score: 0.8733
+    Average chrf_score: 0.8298
+    Average wer_score: 0.2621
+
+  Input length: 52 words
+    Average bleu_score: 0.8237
+    Average comet_score: 0.9002
+    Average chrf_score: 0.9023
+    Average wer_score: 0.1452
+
+  Input length: 56 words
+    Average bleu_score: 0.4773
+    Average comet_score: 0.8621
+    Average chrf_score: 0.6996
+    Average wer_score: 0.4272
+
+  Input length: 66 words
+    Average bleu_score: 0.6309
+    Average comet_score: 0.8657
+    Average chrf_score: 0.7957
+    Average wer_score: 0.3377
+
+  Input length: 30 words
+    Average bleu_score: 0.4861
+    Average comet_score: 0.8810
+    Average chrf_score: 0.7511
+    Average wer_score: 0.6377
+
+  Input length: 80 words
+    Average bleu_score: 0.6832
+    Average comet_score: 0.8737
+    Average chrf_score: 0.8174
+    Average wer_score: 0.2772
+
+  Input length: 60 words
+    Average bleu_score: 0.6466
+    Average comet_score: 0.8778
+    Average chrf_score: 0.8120
+    Average wer_score: 0.3429
+
+  Input length: 33 words
+    Average bleu_score: 0.4001
+    Average comet_score: 0.8729
+    Average chrf_score: 0.6713
+    Average wer_score: 0.4242
+
+  Input length: 81 words
+    Average bleu_score: 0.5401
+    Average comet_score: 0.8480
+    Average chrf_score: 0.7631
+    Average wer_score: 0.3981
+
+  Input length: 59 words
+    Average bleu_score: 0.4816
+    Average comet_score: 0.8510
+    Average chrf_score: 0.7645
+    Average wer_score: 0.5918
+
+  Input length: 44 words
+    Average bleu_score: 0.5823
+    Average comet_score: 0.8807
+    Average chrf_score: 0.7497
+    Average wer_score: 0.3256
+
+Time Series Analysis:
+  bleu_score:
+    Start: 0.4108, End: 0.2140
+    Overall change: -0.1967
+  comet_score:
+    Start: 0.6168, End: 0.8212
+    Overall change: 0.2044
+  chrf_score:
+    Start: 0.3931, End: 0.6561
+    Overall change: 0.2629
+  wer_score:
+    Start: 0.6818, End: 1.1429
+    Overall change: 0.4610
+
+Correlation Analysis:

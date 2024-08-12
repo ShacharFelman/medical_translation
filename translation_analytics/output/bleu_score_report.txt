@@ -1,0 +1,45 @@
+BLEU Score Report
+==================
+
+Best Translation:
+-----------------
+Average BLEU score per leaflet:
+  Leaflet 13: 0.5467
+  Leaflet 24: 0.3706
+  Leaflet 2003: 0.5432
+  Leaflet 10: 0.4851
+  Leaflet 17: 0.2753
+  Leaflet 1248: 0.5371
+
+Average BLEU score per section:
+  Section 0: 0.4041
+  Section 1: 0.4084
+  Section 2: 0.3837
+  Section 3: 0.5528
+  Section 4: 0.5626
+  Section 6: 0.4586
+  Section 5: 0.4749
+
+Overall average BLEU score: 0.4762
+
+Highest Bleu:
+-------------
+Average BLEU score per leaflet:
+  Leaflet 13: 0.6242
+  Leaflet 24: 0.4518
+  Leaflet 2003: 0.6192
+  Leaflet 10: 0.5720
+  Leaflet 17: 0.3135
+  Leaflet 1248: 0.5982
+
+Average BLEU score per section:
+  Section 0: 0.4769
+  Section 1: 0.4355
+  Section 2: 0.4523
+  Section 3: 0.6405
+  Section 4: 0.6185
+  Section 6: 0.5307
+  Section 5: 0.6113
+
+Overall average BLEU score: 0.5432
+

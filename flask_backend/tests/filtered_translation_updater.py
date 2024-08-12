@@ -18,7 +18,7 @@ class FilteredTranslationUpdater(unittest.TestCase):
 
     def test_update_translations(self):
         all_records = self.get_all_records_from_db()
-        filtered_records: List[TranslationRecordEntity] = self.filter_records_with_heb_text(all_records)
+        filtered_records: List[TranslationRecordEntity] = self.filter_records_with_missing_translations(all_records)
         
         for record in tqdm(filtered_records, desc="Updating translations"):
             if record.translations:

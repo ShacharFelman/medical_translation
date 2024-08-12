@@ -1,8 +1,11 @@
+# File: visualization/plot_generator.py
+
 import matplotlib.pyplot as plt
 import seaborn as sns
 from typing import Dict, List, Any
 import numpy as np
 from datetime import datetime
+from collections import defaultdict
 
 class PlotGenerator:
     @staticmethod
@@ -122,4 +125,63 @@ class PlotGenerator:
         plt.legend()
         plt.tight_layout()
         plt.savefig('/app/output/metric_comparison.png')
+        plt.close()
+
+    @staticmethod
+    def plot_bleu_score_comparison(records: List[Dict[str, Any]]):
+        leaflet_data = defaultdict(lambda: {'best': None, 'highest': None, 'all': []})
+
+        for record in records:
+            leaflet_id = record.get('evaluation_leaflet_data', {}).get('leaflet_id')
+            if leaflet_id is None:
+                continue
+
+            best_bleu = record.get('best_translation', {}).get('evaluation_scores', {}).get('bleu_score')
+            if best_bleu is not None:
+                leaflet_data[leaflet_id]['best'] = best_bleu
+
+            all_bleu_scores = [t.get('evaluation_scores', {}).get('bleu_score') for t in record.get('translations', [])]
+            all_bleu_scores = [score for score in all_bleu_scores if score is not None]
+            
+            if all_bleu_scores:
+                leaflet_data[leaflet_id]['highest'] = max(all_bleu_scores)
+                leaflet_data[leaflet_id]['all'].extend(all_bleu_scores)
+
+        # Prepare data for plotting
+        leaflets = list(leaflet_data.keys())
+        best_scores = [data['best'] for data in leaflet_data.values()]
+        highest_scores = [data['highest'] for data in leaflet_data.values()]
+
+        # Create the plot
+        plt.figure(figsize=(15, 8))
+        bar_width = 0.35
+        index = np.arange(len(leaflets))
+
+        best_bars = plt.bar(index, best_scores, bar_width, label='Best Translation', alpha=0.8)
+        highest_bars = plt.bar(index + bar_width, highest_scores, bar_width, label='Highest BLEU', alpha=0.8)
+
+        # Add text labels on bars
+        def add_labels(bars):
+            for bar in bars:
+                height = bar.get_height()
+                plt.text(bar.get_x() + bar.get_width()/2., height,
+                        f'{height:.2f}',
+                        ha='center', va='bottom')
+
+        add_labels(best_bars)
+        add_labels(highest_bars)
+
+        # Plot individual translation scores
+        for i, leaflet in enumerate(leaflets):
+            all_scores = leaflet_data[leaflet]['all']
+            plt.scatter([i + bar_width/2] * len(all_scores), all_scores, color='red', alpha=0.3, s=20, label='Individual Translations' if i == 0 else "")
+
+        plt.xlabel('Leaflet ID')
+        plt.ylabel('BLEU Score')
+        plt.title('BLEU Score Comparison by Leaflet')
+        plt.xticks(index + bar_width/2, leaflets, rotation=45)
+        plt.legend()
+        plt.tight_layout()
+
+        plt.savefig('/app/output/bleu_score_comparison.png')
         plt.close()
