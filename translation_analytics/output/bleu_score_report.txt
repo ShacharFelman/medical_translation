@@ -1,45 +1,255 @@
 BLEU Score Report
 ==================
 
-Best Translation:
------------------
+Best Translation Report Bleu Plain Corpus:
+------------------------------------------
+Average BLEU score per leaflet:
+  Leaflet 13: 0.8226
+  Leaflet 24: 0.7096
+  Leaflet 2003: 0.8327
+  Leaflet 10: 0.8000
+  Leaflet 1248: 0.8085
+  Leaflet 245: 0.7680
+
+Average BLEU score per section:
+  Section 0: 0.8209
+  Section 1: 0.7860
+  Section 2: 0.7917
+  Section 3: 0.7854
+  Section 4: 0.8381
+  Section 6: 0.8001
+  Section 5: 0.7549
+
+Overall average BLEU score: 0.8090
+
+Best Translation Report Bleu Token Corpus:
+------------------------------------------
+Average BLEU score per leaflet:
+  Leaflet 13: 0.5130
+  Leaflet 24: 0.3462
+  Leaflet 2003: 0.4732
+  Leaflet 10: 0.4466
+  Leaflet 1248: 0.5006
+  Leaflet 245: 0.3356
+
+Average BLEU score per section:
+  Section 0: 0.3944
+  Section 1: 0.3613
+  Section 2: 0.4352
+  Section 3: 0.5145
+  Section 4: 0.4596
+  Section 6: 0.5227
+  Section 5: 0.4863
+
+Overall average BLEU score: 0.4577
+
+Best Translation Report Bleu Token Meth1:
+-----------------------------------------
 Average BLEU score per leaflet:
   Leaflet 13: 0.5467
   Leaflet 24: 0.3706
   Leaflet 2003: 0.5432
   Leaflet 10: 0.4851
-  Leaflet 17: 0.2753
   Leaflet 1248: 0.5371
+  Leaflet 245: 0.4253
 
 Average BLEU score per section:
-  Section 0: 0.4041
-  Section 1: 0.4084
-  Section 2: 0.3837
-  Section 3: 0.5528
-  Section 4: 0.5626
-  Section 6: 0.4586
-  Section 5: 0.4749
+  Section 0: 0.4637
+  Section 1: 0.4680
+  Section 2: 0.4810
+  Section 3: 0.5273
+  Section 4: 0.5434
+  Section 6: 0.5497
+  Section 5: 0.4902
 
-Overall average BLEU score: 0.4762
+Overall average BLEU score: 0.5139
 
-Highest Bleu:
--------------
+Best Translation Report Bleu Token Meth7:
+-----------------------------------------
+Average BLEU score per leaflet:
+  Leaflet 13: 0.6403
+  Leaflet 24: 0.4640
+  Leaflet 2003: 0.6349
+  Leaflet 10: 0.5717
+  Leaflet 1248: 0.6277
+  Leaflet 245: 0.5183
+
+Average BLEU score per section:
+  Section 0: 0.5530
+  Section 1: 0.5688
+  Section 2: 0.5731
+  Section 3: 0.6205
+  Section 4: 0.6334
+  Section 6: 0.6450
+  Section 5: 0.5744
+
+Overall average BLEU score: 0.6055
+
+Best Translation Report Bleu Token Meth1 W:
+-------------------------------------------
+Average BLEU score per leaflet:
+  Leaflet 13: 0.5754
+  Leaflet 24: 0.3711
+  Leaflet 2003: 0.6291
+  Leaflet 10: 0.5553
+  Leaflet 1248: 0.5667
+  Leaflet 245: 0.5270
+
+Average BLEU score per section:
+  Section 0: 0.5678
+  Section 1: 0.5385
+  Section 2: 0.5284
+  Section 3: 0.5273
+  Section 4: 0.6491
+  Section 6: 0.5706
+  Section 5: 0.4902
+
+Overall average BLEU score: 0.5770
+
+Best Translation Report Bleu Token Meth7 W:
+-------------------------------------------
+Average BLEU score per leaflet:
+  Leaflet 13: 0.6619
+  Leaflet 24: 0.4657
+  Leaflet 2003: 0.7155
+  Leaflet 10: 0.6343
+  Leaflet 1248: 0.6542
+  Leaflet 245: 0.6092
+
+Average BLEU score per section:
+  Section 0: 0.6518
+  Section 1: 0.6188
+  Section 2: 0.6174
+  Section 3: 0.6205
+  Section 4: 0.7298
+  Section 6: 0.6652
+  Section 5: 0.5744
+
+Overall average BLEU score: 0.6633
+
+Highest Bleu Report Bleu Plain Corpus:
+--------------------------------------
+Average BLEU score per leaflet:
+  Leaflet 13: 0.8609
+  Leaflet 24: 0.7571
+  Leaflet 2003: 0.8673
+  Leaflet 10: 0.8315
+  Leaflet 1248: 0.8431
+  Leaflet 245: 0.8115
+
+Average BLEU score per section:
+  Section 0: 0.8581
+  Section 1: 0.8105
+  Section 2: 0.8377
+  Section 3: 0.8341
+  Section 4: 0.8629
+  Section 6: 0.8327
+  Section 5: 0.8061
+
+Overall average BLEU score: 0.8456
+
+Highest Bleu Report Bleu Token Corpus:
+--------------------------------------
+Average BLEU score per leaflet:
+  Leaflet 13: 0.5911
+  Leaflet 24: 0.4304
+  Leaflet 2003: 0.5531
+  Leaflet 10: 0.5372
+  Leaflet 1248: 0.5613
+  Leaflet 245: 0.4003
+
+Average BLEU score per section:
+  Section 0: 0.4810
+  Section 1: 0.3848
+  Section 2: 0.5193
+  Section 3: 0.6137
+  Section 4: 0.5176
+  Section 6: 0.6003
+  Section 5: 0.6024
+
+Overall average BLEU score: 0.5329
+
+Highest Bleu Report Bleu Token Meth1:
+-------------------------------------
 Average BLEU score per leaflet:
   Leaflet 13: 0.6242
   Leaflet 24: 0.4518
   Leaflet 2003: 0.6192
   Leaflet 10: 0.5720
-  Leaflet 17: 0.3135
   Leaflet 1248: 0.5982
+  Leaflet 245: 0.4822
 
 Average BLEU score per section:
-  Section 0: 0.4769
-  Section 1: 0.4355
-  Section 2: 0.4523
-  Section 3: 0.6405
-  Section 4: 0.6185
-  Section 6: 0.5307
-  Section 5: 0.6113
+  Section 0: 0.5413
+  Section 1: 0.4934
+  Section 2: 0.5632
+  Section 3: 0.6189
+  Section 4: 0.5980
+  Section 6: 0.6325
+  Section 5: 0.6063
 
-Overall average BLEU score: 0.5432
+Overall average BLEU score: 0.5860
+
+Highest Bleu Report Bleu Token Meth7:
+-------------------------------------
+Average BLEU score per leaflet:
+  Leaflet 13: 0.7206
+  Leaflet 24: 0.5487
+  Leaflet 2003: 0.7125
+  Leaflet 10: 0.6597
+  Leaflet 1248: 0.6916
+  Leaflet 245: 0.5736
+
+Average BLEU score per section:
+  Section 0: 0.6314
+  Section 1: 0.5991
+  Section 2: 0.6577
+  Section 3: 0.7116
+  Section 4: 0.6891
+  Section 6: 0.7314
+  Section 5: 0.6986
+
+Overall average BLEU score: 0.6794
+
+Highest Bleu Report Bleu Token Meth1 W:
+---------------------------------------
+Average BLEU score per leaflet:
+  Leaflet 13: 0.6529
+  Leaflet 24: 0.4522
+  Leaflet 2003: 0.7081
+  Leaflet 10: 0.6377
+  Leaflet 1248: 0.6279
+  Leaflet 245: 0.5840
+
+Average BLEU score per section:
+  Section 0: 0.6399
+  Section 1: 0.5646
+  Section 2: 0.6123
+  Section 3: 0.6189
+  Section 4: 0.7058
+  Section 6: 0.6534
+  Section 5: 0.6063
+
+Overall average BLEU score: 0.6502
+
+Highest Bleu Report Bleu Token Meth7 W:
+---------------------------------------
+Average BLEU score per leaflet:
+  Leaflet 13: 0.7422
+  Leaflet 24: 0.5504
+  Leaflet 2003: 0.7940
+  Leaflet 10: 0.7184
+  Leaflet 1248: 0.7182
+  Leaflet 245: 0.6646
+
+Average BLEU score per section:
+  Section 0: 0.7253
+  Section 1: 0.6498
+  Section 2: 0.7026
+  Section 3: 0.7116
+  Section 4: 0.7861
+  Section 6: 0.7516
+  Section 5: 0.6986
+
+Overall average BLEU score: 0.7373
 

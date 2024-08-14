@@ -128,7 +128,7 @@ class PlotGenerator:
         plt.close()
 
     @staticmethod
-    def plot_bleu_score_comparison(records: List[Dict[str, Any]]):
+    def plot_bleu_score_comparison(records: List[Dict[str, Any]], score_type: str = 'bleu_score'):
         leaflet_data = defaultdict(lambda: {'best': None, 'highest': None, 'all': []})
 
         for record in records:
@@ -136,11 +136,11 @@ class PlotGenerator:
             if leaflet_id is None:
                 continue
 
-            best_bleu = record.get('best_translation', {}).get('evaluation_scores', {}).get('bleu_score')
+            best_bleu = record.get('best_translation', {}).get('evaluation_scores', {}).get(score_type)
             if best_bleu is not None:
                 leaflet_data[leaflet_id]['best'] = best_bleu
 
-            all_bleu_scores = [t.get('evaluation_scores', {}).get('bleu_score') for t in record.get('translations', [])]
+            all_bleu_scores = [t.get('evaluation_scores', {}).get(score_type) for t in record.get('translations', [])]
             all_bleu_scores = [score for score in all_bleu_scores if score is not None]
             
             if all_bleu_scores:

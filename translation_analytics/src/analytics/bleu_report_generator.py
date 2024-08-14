@@ -8,31 +8,93 @@ import numpy as np
 class BLEUReportGenerator:
     @staticmethod
     def generate_bleu_report(records: List[Dict[str, Any]]) -> Dict[str, Any]:
-        best_translation_report = BLEUReportGenerator._calculate_bleu_scores(records, use_best=True)
-        highest_bleu_report = BLEUReportGenerator._calculate_bleu_scores(records, use_best=False)
+
+        len_treshold = 50
+
+        best_translation_report_bleu_plain_corpus   = BLEUReportGenerator._calculate_bleu_scores(records, use_best=True, score_type= 'bleu_plain_corpus')
+        best_translation_report_bleu_token_corpus   = BLEUReportGenerator._calculate_bleu_scores(records, use_best=True, score_type= 'bleu_token_corpus')
+        best_translation_report_bleu_token_meth1    = BLEUReportGenerator._calculate_bleu_scores(records, use_best=True, score_type= 'bleu_token_meth1')
+        best_translation_report_bleu_token_meth7    = BLEUReportGenerator._calculate_bleu_scores(records, use_best=True, score_type= 'bleu_token_meth7')
+        best_translation_report_bleu_token_meth1_w  = BLEUReportGenerator._calculate_bleu_scores(records, use_best=True, score_type= 'bleu_token_meth1_w')
+        best_translation_report_bleu_token_meth7_w  = BLEUReportGenerator._calculate_bleu_scores(records, use_best=True, score_type= 'bleu_token_meth7_w')
+        
+        best_translation_report_bleu_combo  = BLEUReportGenerator._calculate_bleu_scores(records, use_best=True, score_type= 'combo',
+                                                                                         score_type_below= 'bleu_plain_corpus',
+                                                                                         score_type_above= 'bleu_token_meth1_w',
+                                                                                         len_treshold= len_treshold)
+        
+        highest_bleu_report_bleu_plain_corpus   = BLEUReportGenerator._calculate_bleu_scores(records, use_best=False, score_type= 'bleu_plain_corpus')
+        highest_bleu_report_bleu_token_corpus   = BLEUReportGenerator._calculate_bleu_scores(records, use_best=False, score_type= 'bleu_token_corpus')
+        highest_bleu_report_bleu_token_meth1    = BLEUReportGenerator._calculate_bleu_scores(records, use_best=False, score_type= 'bleu_token_meth1')
+        highest_bleu_report_bleu_token_meth7    = BLEUReportGenerator._calculate_bleu_scores(records, use_best=False, score_type= 'bleu_token_meth7')
+        highest_bleu_report_bleu_token_meth1_w  = BLEUReportGenerator._calculate_bleu_scores(records, use_best=False, score_type= 'bleu_token_meth1_w')
+        highest_bleu_report_bleu_token_meth7_w  = BLEUReportGenerator._calculate_bleu_scores(records, use_best=False, score_type= 'bleu_token_meth7_w')
+        
+        highest_bleu_report_bleu_token_combo  = BLEUReportGenerator._calculate_bleu_scores(records, use_best=False, score_type= 'combo',
+                                                                                           score_type_below= 'bleu_plain_corpus',
+                                                                                           score_type_above= 'bleu_token_meth1_w',
+                                                                                           len_treshold= len_treshold)
         
         report = {
-            "best_translation": best_translation_report,
-            "highest_bleu": highest_bleu_report
+            "best_translation_report_bleu_plain_corpus": best_translation_report_bleu_plain_corpus,
+            "best_translation_report_bleu_token_corpus": best_translation_report_bleu_token_corpus,
+            "best_translation_report_bleu_token_meth1": best_translation_report_bleu_token_meth1,
+            "best_translation_report_bleu_token_meth7": best_translation_report_bleu_token_meth7,
+            "best_translation_report_bleu_token_meth1_w": best_translation_report_bleu_token_meth1_w,
+            "best_translation_report_bleu_token_meth7_w": best_translation_report_bleu_token_meth7_w,
+
+            "highest_bleu_report_bleu_plain_corpus": highest_bleu_report_bleu_plain_corpus,
+            "highest_bleu_report_bleu_token_corpus": highest_bleu_report_bleu_token_corpus,
+            "highest_bleu_report_bleu_token_meth1": highest_bleu_report_bleu_token_meth1,
+            "highest_bleu_report_bleu_token_meth7": highest_bleu_report_bleu_token_meth7,
+            "highest_bleu_report_bleu_token_meth1_w": highest_bleu_report_bleu_token_meth1_w,
+            "highest_bleu_report_bleu_token_meth7_w": highest_bleu_report_bleu_token_meth7_w,
         }
 
-        BLEUReportGenerator._generate_bleu_comparison_plot(best_translation_report, highest_bleu_report)
+        BLEUReportGenerator._generate_bleu_comparison_plot(best_translation_report_bleu_plain_corpus, highest_bleu_report_bleu_plain_corpus, score_type= 'bleu_plain_corpus')
+        BLEUReportGenerator._generate_bleu_comparison_plot(best_translation_report_bleu_token_corpus, highest_bleu_report_bleu_token_corpus, score_type= 'bleu_token_corpus')
+        BLEUReportGenerator._generate_bleu_comparison_plot(best_translation_report_bleu_token_meth1, highest_bleu_report_bleu_token_meth1, score_type= 'bleu_token_meth1')
+        BLEUReportGenerator._generate_bleu_comparison_plot(best_translation_report_bleu_token_meth7, highest_bleu_report_bleu_token_meth7, score_type= 'bleu_token_meth7')
+        BLEUReportGenerator._generate_bleu_comparison_plot(best_translation_report_bleu_token_meth1_w, highest_bleu_report_bleu_token_meth1_w, score_type= 'bleu_token_meth1_w')
+        BLEUReportGenerator._generate_bleu_comparison_plot(best_translation_report_bleu_token_meth7_w, highest_bleu_report_bleu_token_meth7_w, score_type= 'bleu_token_meth7_w')
+        
+        BLEUReportGenerator._generate_bleu_comparison_plot(best_translation_report_bleu_combo, highest_bleu_report_bleu_token_combo, score_type= 'combo')
 
         return report
 
     @staticmethod
-    def _calculate_bleu_scores(records: List[Dict[str, Any]], use_best: bool) -> Dict[str, Any]:
+    def _calculate_bleu_scores(records: List[Dict[str, Any]],
+                               use_best: bool,
+                               score_type: str,
+                               score_type_below: str = None,
+                               score_type_above: str = None,
+                               len_treshold: int = 0) -> Dict[str, Any]:
         leaflet_scores = defaultdict(list)
         section_scores = defaultdict(list)
+
 
         for record in records:
             leaflet_id = record.get('evaluation_leaflet_data', {}).get('leaflet_id')
             section_number = record.get('evaluation_leaflet_data', {}).get('section_number')
 
             if use_best:
-                bleu_score = record.get('best_translation', {}).get('evaluation_scores', {}).get('bleu_score')
-            else:
-                bleu_scores = [t.get('evaluation_scores', {}).get('bleu_score') for t in record.get('translations', [])]
+                if score_type == 'combo':
+                    if len(record.get('best_translation', {}).get('translated_text', {})) > len_treshold:
+                        bleu_score = record.get('best_translation', {}).get('evaluation_scores', {}).get(score_type_above)
+                    else:
+                        bleu_score = record.get('best_translation', {}).get('evaluation_scores', {}).get(score_type_below)
+                else:
+                    bleu_score = record.get('best_translation', {}).get('evaluation_scores', {}).get(score_type)
+            else:                   
+                if score_type == 'combo':
+                    for t in record.get('translations', []):
+                        if len(t.get('translated_text', {})) > len_treshold:
+                            bleu_scores = [t.get('evaluation_scores', {}).get(score_type_above)]
+                        else:
+                            bleu_scores = [t.get('evaluation_scores', {}).get(score_type_below)]
+                else:
+                    bleu_scores = [t.get('evaluation_scores', {}).get(score_type) for t in record.get('translations', [])]
+
                 bleu_scores = [score for score in bleu_scores if score is not None]
                 bleu_score = max(bleu_scores) if bleu_scores else None
 
@@ -62,7 +124,7 @@ class BLEUReportGenerator:
         }
 
     @staticmethod
-    def _generate_bleu_comparison_plot(best_translation_report: Dict[str, Any], highest_bleu_report: Dict[str, Any]):
+    def _generate_bleu_comparison_plot(best_translation_report: Dict[str, Any], highest_bleu_report: Dict[str, Any], score_type: str = 'bleu_score'):
         leaflets = list(best_translation_report['avg_leaflet_scores'].keys())
         best_scores = [best_translation_report['avg_leaflet_scores'][leaflet] for leaflet in leaflets]
         highest_scores = [highest_bleu_report['avg_leaflet_scores'][leaflet] for leaflet in leaflets]
@@ -86,12 +148,12 @@ class BLEUReportGenerator:
 
         plt.xlabel('Leaflet ID')
         plt.ylabel('Average BLEU Score')
-        plt.title('BLEU Score Comparison by Leaflet')
+        plt.title(f'BLEU Score Comparison by Leaflet using {score_type}')
         plt.xticks(index + bar_width/2, leaflets, rotation=45)
         plt.legend()
         plt.tight_layout()
 
-        plt.savefig('/app/output/bleu_score_comparison.png')
+        plt.savefig(f'/app/output/{score_type}_comparison.png')
         plt.close()
 
     @staticmethod
