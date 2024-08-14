@@ -1,7 +1,34 @@
-import enum
-import typing
+from enum import Enum
+from typing import List, Optional
 
-class Language(enum.Enum):
+class EvaluationScoreType(Enum):
+    BLEU    = 'bleu'
+    COMET   = 'comet'
+    CHRF    = 'chrf'
+    WER     = 'wer'
+    TER     = 'ter'
+    PER     = 'per'
+
+    @classmethod
+    def get_types() -> List[str]:
+        return [score_type.value for score_type in EvaluationScoreType]
+
+class BLEUScoreType(Enum):
+    PLAIN_CORPUS                = 'plain_corpus'
+    TOKENIZED_CORPUS            = 'tokenized_corpus'
+    TOKENIZED_METHOD1           = 'tokenized_method1'
+    TOKENIZED_METHOD7           = 'tokenized_method7'
+    TOKENIZED_METHOD1_WEIGHTS   = 'tokenized_method1_weights'
+    TOKENIZED_METHOD7_WEIGHTS   = 'tokenized_method7_weights'
+
+    @classmethod
+    def get_types() -> List[str]:
+        return [score_type.value for score_type in BLEUScoreType]
+
+EVALUATION_SCORE_TYPES = [score_type.value for score_type in BLEUScoreType]
+
+
+class Language(Enum):
     HE = 'heb'
     EN = 'eng'
     ARAB = 'ara'
@@ -20,14 +47,14 @@ class Language(enum.Enum):
             return Language.ARABIC
         
 
-class FileType(enum.Enum):
+class FileType(Enum):
     PDF = 'pdf'
     DOC = 'doc'
     DOCX = 'docx'
     TXT = 'txt'
 
     @classmethod
-    def get_file_type(cls, filename: str) -> typing.Optional["FileType"]:
+    def get_file_type(cls, filename: str) -> Optional["FileType"]:
         file_extension = filename.split('.')[-1].lower()
         for file_type in cls:
             if file_extension == file_type.value:

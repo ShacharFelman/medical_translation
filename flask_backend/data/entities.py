@@ -23,7 +23,7 @@ class TranslationEntity(BaseModel):
     translated_text: str
     response_time: float
     score: Optional[float] = None
-    evaluation_scores: Optional[EvaluationScores] = None
+    evaluation_scores: Dict[str, float] = Field(default_factory=dict)
     metadata: Dict[str, Any] = {}
 
     def __repr__(self):

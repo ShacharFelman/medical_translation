@@ -1,32 +1,28 @@
-from services.evaluation.evaluators import EvaluationStrategy
 import requests
 import aiohttp
 from utils.logger import logger
 from typing import List, Union
 import json
 
-
-class COMETEvaluator(EvaluationStrategy):
+class COMETEvaluator():
     def __init__(self):
         self.api_url = "https://evaluate-metric-comet.hf.space/run/predict"
 
-    def evaluate(self, reference_sentences: Union[str, List[str]], 
-                 hypothesis_sentences: Union[str, List[str]], 
-                 source_sentences: Union[str, List[str]] = None) -> float:
+    def evaluate(self, reference:str, 
+                 candidate: str, 
+                 source: str = None) -> float:
         try:
-            reference_sentences = [reference_sentences] if isinstance(reference_sentences, str) else reference_sentences
-            hypothesis_sentences = [hypothesis_sentences] if isinstance(hypothesis_sentences, str) else hypothesis_sentences
-            source_sentences = [source_sentences] if isinstance(source_sentences, str) else source_sentences
+            reference, candidate, source = self._preprocess_input(reference, candidate, source)
 
-            if not reference_sentences or not hypothesis_sentences or not source_sentences:
-                logger.warning("Empty input: reference, hypothesis, or source sentences are empty.")
+            if not reference or not candidate or not source:
+                logger.warning("Empty input: reference, candidate, or source sentences are empty.")
                 return 0.0
 
             data = {
                 "data": [
                     {
                         "headers": ["sources", "predictions", "references"],
-                        "data": [[src, hyp, ref] for src, hyp, ref in zip(source_sentences, hypothesis_sentences, reference_sentences)]
+                        "data": [[src, pred, ref] for src, pred, ref in zip(source, candidate, reference)]
                     }
                 ]
             }
@@ -49,23 +45,21 @@ class COMETEvaluator(EvaluationStrategy):
             return 0.0
 
 
-    async def evaluate_async(self, reference_sentences: Union[str, List[str]], 
-                             hypothesis_sentences: Union[str, List[str]], 
-                             source_sentences: Union[str, List[str]] = None) -> float:
+    async def evaluate_async(self, reference: Union[str, List[str]], 
+                             candidate: Union[str, List[str]], 
+                             source: Union[str, List[str]] = None) -> float:
         try:
-            reference_sentences = [reference_sentences] if isinstance(reference_sentences, str) else reference_sentences
-            hypothesis_sentences = [hypothesis_sentences] if isinstance(hypothesis_sentences, str) else hypothesis_sentences
-            source_sentences = [source_sentences] if isinstance(source_sentences, str) else source_sentences
+            reference, candidate, source = self._preprocess_input(reference, candidate, source)
 
-            if not reference_sentences or not hypothesis_sentences or not source_sentences:
-                logger.warning("Empty input: reference, hypothesis, or source sentences are empty.")
+            if not reference or not candidate or not source:
+                logger.warning("Empty input: reference, candidate, or source sentences are empty.")
                 return 0.0
 
             data = {
                 "data": [
                     {
                         "headers": ["sources", "predictions", "references"],
-                        "data": [[src, hyp, ref] for src, hyp, ref in zip(source_sentences, hypothesis_sentences, reference_sentences)]
+                        "data": [[src, pred, ref] for src, pred, ref in zip(reference, candidate, source)]
                     }
                 ]
             }
@@ -97,3 +91,11 @@ class COMETEvaluator(EvaluationStrategy):
         except Exception as e:
             logger.error(f"An unexpected error occurred while calculating COMET score asynchronously: {str(e)}")
             return 0.0
+        
+
+    def _preprocess_input(self, reference: str, candidate: str, source: str):
+        ref, cand = reference.lower(), candidate.lower()
+        ref     = [reference]
+        cand    = [candidate]
+        source  = [source]
+        return ref, cand
