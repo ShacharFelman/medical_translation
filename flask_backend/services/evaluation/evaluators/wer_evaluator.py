@@ -1,12 +1,9 @@
-from services.evaluation.evaluator import EvaluationStrategy
+from services.evaluation.evaluators import EvaluationStrategy
 from utils.logger import logger
 from typing import List, Union
-from sacrebleu.metrics import CHRF
+from jiwer import wer
 
-class CHRFEvaluator(EvaluationStrategy):
-    def __init__(self):
-        self.chrf = CHRF()
-
+class WEREvaluator(EvaluationStrategy):
     def evaluate(self, reference_sentences: Union[str, List[str]], 
                  hypothesis_sentences: Union[str, List[str]], 
                  source_sentences: Union[str, List[str]] = None) -> float:
@@ -24,16 +21,16 @@ class CHRFEvaluator(EvaluationStrategy):
                 logger.warning("Mismatch in number of reference and hypothesis sentences.")
                 return 0.0
 
-            total_chrf = 0.0
+            total_wer = 0.0
             for ref, hyp in zip(reference_sentences, hypothesis_sentences):
-                chrf_score = self.chrf.sentence_score(hypothesis=hyp, references=[ref]).score
-                total_chrf += chrf_score
+                wer_score = wer(reference=ref, hypothesis=hyp)
+                total_wer += wer_score
 
-            average_chrf = total_chrf / len(reference_sentences)
-            return average_chrf / 100  # Normalize to 0-1 range
+            average_wer = total_wer / len(reference_sentences)
+            return average_wer
 
         except Exception as e:
-            logger.error(f"An error occurred while calculating CHRF score: {str(e)}")
+            logger.error(f"An error occurred while calculating WER score: {str(e)}")
             return 0.0
         
     async def evaluate_async(self, reference_sentences: Union[str, List[str]], 

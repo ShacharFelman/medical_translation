@@ -1,4 +1,4 @@
-from services.evaluation.evaluator import EvaluationStrategy
+from services.evaluation.evaluators import EvaluationStrategy
 import requests
 import aiohttp
 from utils.logger import logger

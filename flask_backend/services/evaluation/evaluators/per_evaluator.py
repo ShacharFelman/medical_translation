@@ -1,4 +1,4 @@
-from services.evaluation.evaluator import EvaluationStrategy
+from services.evaluation.evaluators import EvaluationStrategy
 from utils.logger import logger
 from typing import List, Union
 from jiwer import per

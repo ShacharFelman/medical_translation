@@ -2,8 +2,8 @@ import time
 from typing import List
 from utils.logger import logger
 from services.translation.base_translation_handler import BaseTranslationHandler
-from services.evaluation.comet_evaluator import COMETEvaluator
-from services.evaluation.bleu_evaluator import BLEUEvaluator
+from services.evaluation.evaluators.comet_evaluator import COMETEvaluator
+from services.evaluation.evaluators.bleu_evaluator import BLEUEvaluator
 from data.entities import TranslationEntity, EvaluationScores, EvaluationLeafletData
 
 

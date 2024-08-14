@@ -2,12 +2,12 @@ from typing import List
 from tqdm import tqdm
 from database.mongodb_client import MongoDBClient
 from data.entities import TranslationRecordEntity, TranslationEntity, EvaluationScores
-from services.evaluation.comet_evaluator import COMETEvaluator
-from services.evaluation.bleu_evaluator import BLEUEvaluator
-from services.evaluation.wer_evaluator import WEREvaluator
-from services.evaluation.chrf_evaluator import CHRFEvaluator
-# from services.evaluation.per_evaluator import PEREvaluator
-# from services.evaluation.ter_evaluator import TEREvaluator
+from services.evaluation.evaluators.comet_evaluator import COMETEvaluator
+from services.evaluation.evaluators.bleu_evaluator import BLEUEvaluator
+from services.evaluation.evaluators.wer_evaluator import WEREvaluator
+from services.evaluation.evaluators.chrf_evaluator import CHRFEvaluator
+# from services.evaluation.evaluators.per_evaluator import PEREvaluator
+# from services.evaluation.evaluators.ter_evaluator import TEREvaluator
 
 from utils.logger import logger
 
@@ -20,10 +20,10 @@ chrf_evaluator      = CHRFEvaluator()
 # ter_evaluator       = TEREvaluator()
 
 # Set to True to override the existing scores
+override_bleu = True
 override_comet = False
-override_bleu = False
-override_wer = False
 override_chrf = False
+override_wer = False
 
 def update_scores():
     # Fetch all translation records from the database
@@ -93,7 +93,7 @@ def filter_records_with_missing_scores(records: List[TranslationRecordEntity]) -
         if record.translations:
             for translation in record.translations:
                 if is_translation_missing_score(translation):
-                    logger.info(f"Missing scores found for model {translation.translator_name}")
+                    # logger.info(f"Missing scores found for model {translation.translator_name}")
                     filtered_records.append(record)
                     break
     logger.info(f"Found {len(filtered_records)} records with missing scores")
@@ -103,7 +103,12 @@ def filter_records_with_missing_scores(records: List[TranslationRecordEntity]) -
 def is_translation_missing_score(translation: TranslationEntity):
     if (not translation.evaluation_scores
         or translation.evaluation_scores is None
-        or is_bleu_score_missing(translation.evaluation_scores)
+        or is_bleu_plain_corpus_missing(translation.evaluation_scores)
+        or is_bleu_token_corpus_missing(translation.evaluation_scores)
+        or is_bleu_token_meth1_missing(translation.evaluation_scores)
+        or is_bleu_token_meth7_missing(translation.evaluation_scores)
+        or is_bleu_token_meth1_w_missing(translation.evaluation_scores)
+        or is_bleu_token_meth7_w_missing(translation.evaluation_scores)
         or is_comet_score_missing(translation.evaluation_scores)     
         or is_chrf_score_missing(translation.evaluation_scores)    
         # or is_wer_score_missing(translation.evaluation_scores)
@@ -113,29 +118,58 @@ def is_translation_missing_score(translation: TranslationEntity):
         return False
 
 
-def is_bleu_score_missing(evaluation_scores: EvaluationScores):
-    if not evaluation_scores.bleu_score or evaluation_scores.comet_score is None:
+def is_bleu_plain_corpus_missing(evaluation_scores: EvaluationScores):
+    if not evaluation_scores.bleu_plain_corpus or evaluation_scores.bleu_plain_corpus is None or override_bleu:
         return True
     else:
         return False
 
+def is_bleu_token_corpus_missing(evaluation_scores: EvaluationScores):
+    if not evaluation_scores.bleu_token_corpus or evaluation_scores.bleu_token_corpus is None or override_bleu:
+        return True
+    else:
+        return False
+    
+def is_bleu_token_meth1_missing(evaluation_scores: EvaluationScores):
+    if not evaluation_scores.bleu_token_meth1 or evaluation_scores.bleu_token_meth1 is None or override_bleu:
+        return True
+    else:
+        return False
+    
+def is_bleu_token_meth7_missing(evaluation_scores: EvaluationScores):
+    if not evaluation_scores.bleu_token_meth7 or evaluation_scores.bleu_token_meth7 is None or override_bleu:
+        return True
+    else:
+        return False
+    
+def is_bleu_token_meth1_w_missing(evaluation_scores: EvaluationScores):
+    if not evaluation_scores.bleu_token_meth1_w or evaluation_scores.bleu_token_meth1_w is None or override_bleu:
+        return True
+    else:
+        return False
+    
+def is_bleu_token_meth7_w_missing(evaluation_scores: EvaluationScores):
+    if not evaluation_scores.bleu_token_meth7_w or evaluation_scores.bleu_token_meth7_w is None or override_bleu:
+        return True
+    else:
+        return False
 
 def is_comet_score_missing(evaluation_scores: EvaluationScores):
-    if not evaluation_scores.comet_score or evaluation_scores.comet_score is None:
+    if not evaluation_scores.comet_score or evaluation_scores.comet_score is None or override_comet:
         return True
     else:
         return False
 
 
 def is_chrf_score_missing(evaluation_scores: EvaluationScores):
-    if not evaluation_scores.chrf_score or evaluation_scores.chrf_score is None:
+    if not evaluation_scores.chrf_score or evaluation_scores.chrf_score is None or override_chrf:
         return True
     else:
         return False
     
 
 def is_wer_score_missing(evaluation_scores: EvaluationScores):
-    if not evaluation_scores.wer_score or evaluation_scores.wer_score is None:
+    if not evaluation_scores.wer_score or evaluation_scores.wer_score is None or override_wer:
         return True
     else:
         return False
@@ -148,25 +182,55 @@ def update_translation_scores(tranalsation: TranslationEntity, human_translation
     else:
         evaluation_scores = EvaluationScores()
 
-    # Check if the BLEU score is missing and update it
-    if is_bleu_score_missing(evaluation_scores):
-        bleu_updated, evaluation_scores = update_bleu_score(evaluation_scores, tranalsation.translated_text, human_translation)
+    # Check if the bleu_plain_corpus score is missing and update it
+    if is_bleu_plain_corpus_missing(evaluation_scores):
+        bleu_updated, evaluation_scores = update_bleu_score(evaluation_scores, tranalsation.translated_text, human_translation, "plain_corpus")
         if bleu_updated:
             scores_updated = True
 
-    # Check if the COMET score is missing and update it
+    # Check if the bleu_token_corpus score is missing and update it
+    if is_bleu_token_corpus_missing(evaluation_scores):
+        bleu_updated, evaluation_scores = update_bleu_score(evaluation_scores, tranalsation.translated_text, human_translation, "token_corpus")
+        if bleu_updated:
+            scores_updated = True
+
+    # # Check if the bleu_token_meth1 score is missing and update it
+    if is_bleu_token_meth1_missing(evaluation_scores):
+        bleu_updated, evaluation_scores = update_bleu_score(evaluation_scores, tranalsation.translated_text, human_translation, "token_meth1")
+        if bleu_updated:
+            scores_updated = True
+
+    # # Check if the bleu_token_meth7 score is missing and update it
+    if is_bleu_token_meth7_missing(evaluation_scores):
+        bleu_updated, evaluation_scores = update_bleu_score(evaluation_scores, tranalsation.translated_text, human_translation, "token_meth7")
+        if bleu_updated:
+            scores_updated = True
+
+    # # Check if the bleu_token_meth1_w score is missing and update it
+    if is_bleu_token_meth1_w_missing(evaluation_scores):
+        bleu_updated, evaluation_scores = update_bleu_score(evaluation_scores, tranalsation.translated_text, human_translation, "token_meth1_w")
+        if bleu_updated:
+            scores_updated = True
+
+    # # Check if the bleu_token_meth7_w score is missing and update it
+    if is_bleu_token_meth7_w_missing(evaluation_scores):
+        bleu_updated, evaluation_scores = update_bleu_score(evaluation_scores, tranalsation.translated_text, human_translation, "token_meth7_w")
+        if bleu_updated:
+            scores_updated = True
+
+    # # Check if the COMET score is missing and update it
     if is_comet_score_missing(evaluation_scores):
         comet_updated, evaluation_scores = update_comet_score(evaluation_scores, input_text, tranalsation.translated_text, human_translation)
         if comet_updated:
             scores_updated = True
     
-    # Check if the chrF score is missing and update it
+    # # Check if the chrF score is missing and update it
     if is_chrf_score_missing(evaluation_scores):
         chrf_updated, evaluation_scores = update_chrf_score(evaluation_scores, tranalsation.translated_text, human_translation)
         if chrf_updated:
             scores_updated = True
 
-    # Check if the WER score is missing and update it
+    # # Check if the WER score is missing and update it
     if is_wer_score_missing(evaluation_scores):
         wer_updated, evaluation_scores = update_wer_score(evaluation_scores, tranalsation.translated_text, human_translation)
         if wer_updated:
@@ -189,18 +253,33 @@ def update_translation_scores(tranalsation: TranslationEntity, human_translation
     return scores_updated, evaluation_scores
 
 
-def update_bleu_score(evaluation_scores: EvaluationScores, translated_text: str, human_translation: str):
+def update_bleu_score(evaluation_scores: EvaluationScores, translated_text: str, human_translation: str, evaluation_type: str = "plain_corpus"):
     score_updated = False
     try:
-        logger.info(f"Calculating BLEU score")
+        logger.info(f"Calculating BLEU score using {evaluation_type}")
         bleu_score = bleu_evaluator.evaluate(
-            reference_sentences=[human_translation],
-            hypothesis_sentences=[translated_text]
+            reference_sentences= human_translation,
+            hypothesis_sentences= translated_text,
+            evaluation_type= evaluation_type
             )
         
         if bleu_score and bleu_score > 0.0:
-            logger.info(f"Updating BLEU score")
-            evaluation_scores.bleu_score = bleu_score
+            logger.info(f"Updating BLEU score using {evaluation_type}")
+            if evaluation_type == "plain_corpus":
+                evaluation_scores.bleu_plain_corpus = bleu_score
+            elif evaluation_type == "token_corpus":
+                evaluation_scores.bleu_token_corpus = bleu_score
+            elif evaluation_type == "token_meth1":
+                evaluation_scores.bleu_token_meth1 = bleu_score
+            elif evaluation_type == "token_meth7":
+                evaluation_scores.bleu_token_meth7 = bleu_score
+            elif evaluation_type == "token_meth1_w":
+                evaluation_scores.bleu_token_meth1_w = bleu_score
+            elif evaluation_type == "token_meth7_w":
+                evaluation_scores.bleu_token_meth7_w = bleu_score
+            else:
+                logger.warning(f"Unknown evaluation type: {evaluation_type}")
+                
             score_updated = True
         else:
             logger.info(f"BLEU score is 0.0")

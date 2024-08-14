@@ -6,6 +6,12 @@ from datetime import datetime
 
 class EvaluationScores(BaseModel):
     bleu_score: Optional[float] = None
+    bleu_plain_corpus: Optional[float] = None
+    bleu_token_corpus: Optional[float] = None
+    bleu_token_meth1: Optional[float] = None
+    bleu_token_meth7: Optional[float] = None
+    bleu_token_meth1_w: Optional[float] = None
+    bleu_token_meth7_w: Optional[float] = None
     comet_score: Optional[float] = None
     ter_score: Optional[float] = None
     chrf_score: Optional[float] = None
@@ -21,7 +27,7 @@ class TranslationEntity(BaseModel):
     metadata: Dict[str, Any] = {}
 
     def __repr__(self):
-        return f"TranslationEntity(translator_name='{self.translator_name}', output='{self.output[:50]}...', response_time={self.response_time}, score={self.score}, evaluation_scores={self.evaluation_scores})"
+        return f"TranslationEntity(translator_name='{self.translator_name}', translated_text='{self.translated_text[:50]}...', response_time={self.response_time}, score={self.score}, evaluation_scores={self.evaluation_scores})"
 
 
 class EvaluationLeafletData(BaseModel):
