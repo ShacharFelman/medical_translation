@@ -3,6 +3,7 @@ from tqdm import tqdm
 from database.mongodb_client import MongoDBClient
 from data.entities import TranslationRecordEntity, TranslationEntity, EvaluationScores
 from services.evaluation.evaluation_manager import EvaluationManager
+from utils.constants import EvaluationScoreType, BLEUScoreType
 
 
 from utils.logger import logger
@@ -84,82 +85,86 @@ def filter_records_with_missing_scores(records: List[TranslationRecordEntity]) -
         if record.translations:
             for translation in record.translations:
                 if is_translation_missing_score(translation):
-                    # logger.info(f"Missing scores found for model {translation.translator_name}")
                     filtered_records.append(record)
                     break
     logger.info(f"Found {len(filtered_records)} records with missing scores")
     return filtered_records
 
 
-def is_translation_missing_score(translation: TranslationEntity):
+def get_translation_missing_scores(translation: TranslationEntity):
+    score_types = EvaluationScoreType.get_types()
+    bleu_types = BLEUScoreType.get_types()
+
     if (not translation.evaluation_scores
-        or translation.evaluation_scores is None
-        or is_bleu_plain_corpus_missing(translation.evaluation_scores)
-        or is_bleu_token_corpus_missing(translation.evaluation_scores)
-        or is_bleu_token_meth1_missing(translation.evaluation_scores)
-        or is_bleu_token_meth7_missing(translation.evaluation_scores)
-        or is_bleu_token_meth1_w_missing(translation.evaluation_scores)
-        or is_bleu_token_meth7_w_missing(translation.evaluation_scores)
-        or is_comet_score_missing(translation.evaluation_scores)     
-        or is_chrf_score_missing(translation.evaluation_scores)    
-        # or is_wer_score_missing(translation.evaluation_scores)
-        ):
-        return True
+        or translation.evaluation_scores is None):
+        return True, score_types, bleu_types
+    
+    missing_scores = [type for type in score_types if translation.evaluation_scores.get(type) is None]
+    if (len(missing_scores) == 0):
+        return False, None, None
+
+    if EvaluationScoreType.BLEU.value not in missing_scores:
+        bleu_evaluation_scores = translation.evaluation_scores.get(EvaluationScoreType.BLEU.value)
+        missing_bleu_scores = [type for type in bleu_types if bleu_evaluation_scores.get(type).get is None]
+        if (len(missing_bleu_scores) == 0):
+            return True, missing_scores, None
+        else:
+            return True, missing_scores, missing_bleu_scores
     else:
-        return False
+            return True, missing_scores, bleu_types
 
 
-def is_bleu_plain_corpus_missing(evaluation_scores: EvaluationScores):
+def is_bleu_plain_corpus_missing(evaluation_scores: Dict[str, Any]):
     if not evaluation_scores.bleu_plain_corpus or evaluation_scores.bleu_plain_corpus is None or override_bleu:
         return True
     else:
         return False
 
-def is_bleu_token_corpus_missing(evaluation_scores: EvaluationScores):
+def is_bleu_token_corpus_missing(evaluation_scores: Dict[str, Any]):
     if not evaluation_scores.bleu_token_corpus or evaluation_scores.bleu_token_corpus is None or override_bleu:
         return True
     else:
         return False
     
-def is_bleu_token_meth1_missing(evaluation_scores: EvaluationScores):
+def is_bleu_token_meth1_missing(evaluation_scores: Dict[str, Any]):
     if not evaluation_scores.bleu_token_meth1 or evaluation_scores.bleu_token_meth1 is None or override_bleu:
         return True
     else:
         return False
     
-def is_bleu_token_meth7_missing(evaluation_scores: EvaluationScores):
+def is_bleu_token_meth7_missing(evaluation_scores: Dict[str, Any]):
     if not evaluation_scores.bleu_token_meth7 or evaluation_scores.bleu_token_meth7 is None or override_bleu:
         return True
     else:
         return False
     
-def is_bleu_token_meth1_w_missing(evaluation_scores: EvaluationScores):
+def is_bleu_token_meth1_w_missing(evaluation_scores: Dict[str, Any]):
     if not evaluation_scores.bleu_token_meth1_w or evaluation_scores.bleu_token_meth1_w is None or override_bleu:
         return True
     else:
         return False
     
-def is_bleu_token_meth7_w_missing(evaluation_scores: EvaluationScores):
+def is_bleu_token_meth7_w_missing(evaluation_scores: Dict[str, Any]):
     if not evaluation_scores.bleu_token_meth7_w or evaluation_scores.bleu_token_meth7_w is None or override_bleu:
         return True
     else:
         return False
 
-def is_comet_score_missing(evaluation_scores: EvaluationScores):
+def is_comet_score_missing(evaluation_scores: Dict[str, Any]):
     if not evaluation_scores.comet_score or evaluation_scores.comet_score is None or override_comet:
         return True
     else:
         return False
 
 
-def is_chrf_score_missing(evaluation_scores: EvaluationScores):
+def is_chrf_score_missing(evaluation_scores: Dict[str, Any]):
     if not evaluation_scores.chrf_score or evaluation_scores.chrf_score is None or override_chrf:
         return True
     else:
         return False
     
 
-def is_wer_score_missing(evaluation_scores: EvaluationScores):
+def is_wer_score_missing(evaluation_scores: Dict[str, Any]):
     if not evaluation_scores.wer_score or evaluation_scores.wer_score is None or override_wer:
         return True
     else:

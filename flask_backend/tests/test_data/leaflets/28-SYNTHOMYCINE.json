@@ -1,0 +1,83 @@
+{
+  "title": "SYNTHOMYCINE",
+  "index": 0,
+  "dir_index": "28",
+  "title_lang": {
+    "title_heb": "סינטומיצין",
+    "title_eng": "SYNTHOMYCINE"
+  },
+  "sections": [
+    {
+      "title": "General",
+      "section_num": 0,
+      "data": [
+        {
+          "eng": "SYNTHOMYCINE 5%",
+          "heb": "סינטומיצין 5%"
+        },
+        {
+          "eng": "Ointment Eye",
+          "heb": "משחת עיניים"
+        },
+        {
+          "eng": "5% Chloramphenicol :Composition",
+          "heb": "הרכב: 5% Chloramphenicol"
+        },
+        {
+          "eng": "Anhydrous Lanoline, yellow Vaseline: ingredients Inactive",
+          "heb": "חומרים בלתי פעילים: Anhydrous Lanoline, yellow Vaseline"
+        },
+        {
+          "eng": "Class chloramphenicol of Antibacterial: class Therapeutic including, infections eye superficial treat To: activity Therapeutic microorganisms by caused, cornea and sac conjunctive the in those chloramphenicol to sensitive",
+          "heb": "קבוצה תרפויטית: אנטיבקטריאלי מקבוצת כלורמפניקול."
+        },
+        {
+          "eng": "When preparation the should not be used, if sensitive are you to any of its ingredients. Do not use this medicine containing chloramphenicol to sensitive. Do not use this medicine without consulting a doctor before starting treatment.",
+          "heb": "מתי אין להשתמש בתכשיר? אין להשתמש אם ידועה רגישות לאחד ממרכיבי התרופה או לתרופות אחרות המכילות כלוראמפניקול. אין להשתמש בתרופה מבלי להיוועץ ברופא לפני התחלת הטיפול."
+        },
+        {
+          "eng": "If you are breastfeeding or pregnant, if you have suffered from dysfunction of the bone marrow, the blood system, or if you are sensitive to any type of food or medicine, you must inform your doctor before taking the medicine.",
+          "heb": "אזהרות: אם הינך בהריון או מיניקה. אם הינך סובל/ת או סבלת בעבר מליקוי בתפקוד: מערכת הדם - ליקוי בתפקוד מח העצם. אם הינך רגיש/ה למזון כלשהו או לתרופה כלשהי, עליך להודיע על-כך לרופא לפני נטילת התרופה."
+        },
+        {
+          "eng": "If you are taking another drug concomitantly, inform your doctor about drug interactions. If you have just finished treatment with another medicine, or if you are attending the doctor to prevent lack of efficacy or hazards from drug interactions arising.",
+          "heb": "תגובות בין-תרופתיות: אם הינך נוטל/ת תרופה נוספת, או אם גמרת זה עתה טיפול בתרופה אחרת, עליך לדווח לרופא המטפל כדי למנוע סיכונים או אי-יעילות הנובעים מתגובות בין-תרופתיות."
+        },
+        {
+          "eng": "In addition to the desired effect of the medicine, during its use, side effects may occur, such as blurred vision and burning sensation in the eyes. Special effects requiring attention: Lowered blood count manifested by paleness, fever, sore throat, irritation, rash, or local inflammation (which did not exist before using the preparation) - (rare): Stop treatment and consult a doctor.",
+          "heb": "תופעות לוואי: בנוסף לפעילות הרצויה של התרופה, בזמן השימוש בה עלולות להופיע השפעות לוואי, כגון: טישטוש ראיה ותחושת צריבה בעיניים. תופעות המחייבות התייחסות מיוחדת: ירידה בספירת הדם שמתבטא בחיוורון, חום, כאב גרון, גירוי, פריחה או דלקת מקומיים (שלא היו קיימים לפני השימוש בתכשיר) - (נדירות): הפסק/י הטיפול ופנ/י לרופא."
+        }
+      ]
+    },
+    {
+      "title": "medicine intended for",
+      "section_num": 1,
+      "data": []
+    },
+    {
+      "title": "before using the medicine",
+      "section_num": 2,
+      "data": []
+    },
+    {
+      "title": "how to use the medicine",
+      "section_num": 3,
+      "data": []
+    },
+    {
+      "title": "side effects",
+      "section_num": 4,
+      "data": []
+    },
+    {
+      "title": "medicine storage",
+      "section_num": 5,
+      "data": []
+    },
+    {
+      "title": "additional information",
+      "section_num": 6,
+      "data": []
+    }
+  ]
+}

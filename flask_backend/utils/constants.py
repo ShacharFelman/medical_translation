@@ -6,8 +6,8 @@ class EvaluationScoreType(Enum):
     COMET   = 'comet'
     CHRF    = 'chrf'
     WER     = 'wer'
-    TER     = 'ter'
-    PER     = 'per'
+    # TER     = 'ter'
+    # PER     = 'per'
 
     @classmethod
     def get_types() -> List[str]:
@@ -17,9 +17,9 @@ class BLEUScoreType(Enum):
     PLAIN_CORPUS                = 'plain_corpus'
     TOKENIZED_CORPUS            = 'tokenized_corpus'
     TOKENIZED_METHOD1           = 'tokenized_method1'
-    TOKENIZED_METHOD7           = 'tokenized_method7'
     TOKENIZED_METHOD1_WEIGHTS   = 'tokenized_method1_weights'
-    TOKENIZED_METHOD7_WEIGHTS   = 'tokenized_method7_weights'
+    # TOKENIZED_METHOD7           = 'tokenized_method7'
+    # TOKENIZED_METHOD7_WEIGHTS   = 'tokenized_method7_weights'
 
     @classmethod
     def get_types() -> List[str]:

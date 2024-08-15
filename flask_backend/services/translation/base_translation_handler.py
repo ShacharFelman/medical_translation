@@ -37,8 +37,7 @@ class BaseTranslationHandler:
             llm_response = translator.translate(text_input)
             response_time = self._calc_response_time(start_time)
             translation = translator_llm_response_to_entity(llm_response, response_time)
-            return translation
-            # return self._process_translation(translation, text_input, **kwargs)
+            return self._process_translation(translation, text_input, **kwargs)
         except Exception as e:
             return self._handle_exception(e, translator.translator_name, start_time)
                 
@@ -49,8 +48,7 @@ class BaseTranslationHandler:
             llm_response = await translator.translate_async(text_input)
             response_time = self._calc_response_time(start_time)
             translation = translator_llm_response_to_entity(llm_response, response_time)
-            return translation
-            # return await self._process_translation_async(translation, text_input, **kwargs)
+            return await self._process_translation_async(translation, text_input, **kwargs)
         except Exception as e:
             return self._handle_exception(e, translator.translator_name, start_time)
 

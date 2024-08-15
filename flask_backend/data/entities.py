@@ -23,7 +23,7 @@ class TranslationEntity(BaseModel):
     translated_text: str
     response_time: float
     score: Optional[float] = None
-    evaluation_scores: Dict[str, float] = Field(default_factory=dict)
+    evaluation_scores: Dict[str, Any] = Field(default_factory=dict)
     metadata: Dict[str, Any] = {}
 
     def __repr__(self):
@@ -51,7 +51,7 @@ class TranslationRecordEntity(BaseModel):
     @classmethod
     def from_dict(cls, data: Dict[str, Any]) -> 'TranslationRecordEntity':
         return cls(**data)
-    
+       
 
 class LeafletSectionEntity(BaseModel):
     id: int
