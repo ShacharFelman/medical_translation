@@ -1,0 +1,517 @@
+{
+    "title": "Isturisa",
+    "index": 0,
+    "dir_index": 3109,
+    "title_lang": {
+        "title_eng": "Isturisa",
+        "title_heb": "איסטוריסה"
+    },
+    "sections": [
+        {
+            "title": "General",
+            "section_num": "0",
+            "data": [
+                {
+                    "eng": "Patient leaflet in accordance with the Pharmacists' Regulations (Preparations) - 1986",
+                    "heb": "עלון לצרכן לפי תקנות הרוקחים (תכשירים) התשמ\"ו - 1986"
+                },
+                {
+                    "eng": "This medicine is dispensed with a doctor’s prescription only",
+                    "heb": "התרופה משווקת על פי מרשם רופא בלבד"
+                },
+                {
+                    "eng": "Isturisa 1 mg film-coated tablets",
+                    "heb": "איסטוריסה 1 מ\"ג טבליות מצופות"
+                },
+                {
+                    "eng": "Active ingredient and its quantity:",
+                    "heb": "החומר הפעיל וכמותו:"
+                },
+                {
+                    "eng": "Each film-coated tablet contains osilodrostat phosphate corresponding to 1 mg osilodrostat",
+                    "heb": "כל טבליה מצופה מכילה אוסילודרוסטאט (כ-פוספאט) 1 מ\"ג"
+                },
+                {
+                    "eng": "Inactive ingredients and allergens - see section 6 \"Additional information\".",
+                    "heb": "חומרים בלתי פעילים ואלרגניים בתכשיר - ראה סעיף 6 \"מידע נוסף\"."
+                },
+                {
+                    "eng": "Read the entire leaflet carefully before you start using this medicine. ",
+                    "heb": "קרא בעיון את העלון עד סופו בטרם תשתמש בתרופה."
+                },
+                {
+                    "eng": "This leaflet contains concise information about this medicine. If you have any further questions, consult your doctor or pharmacist. This medicine has been prescribed to treat your illness. Do not pass it on to others. It may harm them, even if it seems to you that their illness is similar to yours.",
+                    "heb": "עלון זה מכיל מידע תמציתי על התרופה. אם יש לך שאלות נוספות, פנה אל הרופא או אל הרוקח. תרופה זו נרשמה לטיפול במחלתך. אל תעביר אותה לאחרים. היא עלולה להזיק להם אפילו אם נראה לך כי מחלתם דומה."
+                }
+            ]
+        },
+        {
+            "title": "medicine intended for",
+            "section_num": "1",
+            "data": [
+                {
+                    "eng": "1. What is the medicine intended for?",
+                    "heb": "1. למה מיועדת התרופה?"
+                },
+                {
+                    "eng": "Isturisa is indicated for the treatment of endogenous Cushing’s syndrome in adult patients for whom surgery is not an option or has not been curative.",
+                    "heb": "איסטוריסה מיועדת לטיפול בתסמונת קושינג אנדוגנית במטופלים מבוגרים אשר ניתוח אינו אופציה עבורם או שאינו ריפא אותם."
+                },
+                {
+                    "eng": "Cushing’s syndrome is a condition in which the body produces too much of a hormone called cortisol. Too much cortisol may lead to a variety of symptoms such as weight gain (particularly around the waist), a moon-shaped face, bruising easily, irregular periods, excessive body and facial hair, and generally feeling weak, tired or unwell. ",
+                    "heb": "תסמונת קושינג היא מצב שבו הגוף מייצר יותר מדי הורמון הנקרא קורטיזול. רמות גבוהות של קורטיזול עלולות להוביל למגוון תסמינים כגון עליה במשקל (במיוחד סביב המותניים), פנים בצורת ירח, להיחבל בקלות, הופעת מחזור לא סדיר, כמות גדולה של שיער גוף ושיער פנים, הרגשת חולשה כללית, עייפות או חולי."
+                },
+                {
+                    "eng": "How Isturisa works",
+                    "heb": "איך איסטוריסה עובדת"
+                },
+                {
+                    "eng": "Isturisa blocks the main enzyme that makes cortisol in the adrenal glands. The effect of this is to decrease the over-production of cortisol and improve the symptoms of endogenous Cushing’s syndrome.",
+                    "heb": "איסטוריסה חוסמת את האנזים העיקרי שמייצר קורטיזול בבלוטת יותרת הכליה. ההשפעה שנגרמת היא הפחתת ייצור היתר של קורטיזול ושיפור התסמינים של תסמונת קושינג אנדוגנית."
+                },
+                {
+                    "eng": "Therapeutic group: Anti-corticosteroids",
+                    "heb": "קבוצה תרפויטית: נוגדי קורטיקוסטרואידים"
+                }
+            ]
+        },
+        {
+            "title": "before using the medicine",
+            "section_num": "2",
+            "data": [
+                {
+                    "eng": "2. Before using the medicine",
+                    "heb": "2. לפני השימוש בתרופה"
+                },
+                {
+                    "eng": "Do not use this medicine if:",
+                    "heb": "אין להשתמש בתרופה אם:"
+                },
+                {
+                    "eng": "You are sensitive (allergic) to osilodrostat or to any of the other ingredients of this medicine(see section 6 \"Additional information\").",
+                    "heb": "אתה רגיש (אלרגי) לאוסילודרוסטאט או לכל אחד מהמרכיבים הנוספים אשר מכילה התרופה (ראה סעיף 6 \"מידע נוסף\")."
+                },
+                {
+                    "eng": "Special warnings about using this medicine",
+                    "heb": "אזהרות מיוחדות הנוגעות לשימוש בתרופה"
+                },
+                {
+                    "eng": "Talk to your doctor before taking Isturisa:",
+                    "heb": "לפני הטיפול באיסטוריסה, ספר לרופא אם:"
+                },
+                {
+                    "eng": "if you have a heart disorder or a heart rhythm disorder, such as an irregular heartbeat, including a condition called prolonged QT syndrome (QT interval prolongation).",
+                    "heb": "יש לך בעיה בלב או הפרעת קצב לב, כגון דופק לא סדיר, כולל מצב הנקרא תסמונת ה-QT המוארך (הארכת מרווח QT)."
+                },
+                {
+                    "eng": "if you have a liver disease; your doctor may need to change your dose of Isturisa.",
+                    "heb": "אם יש לך מחלת כבד; ייתכן שהרופא שלך יצטרך לשנות את המינון של איסטוריסה."
+                },
+                {
+                    "eng": "Contact your doctor immediately if you have two or more of these symptoms during your treatment with Isturisa. This may indicate that you have adrenal insufficiency (low cortisol levels):",
+                    "heb": "פנה מיד לרופא אם יש לך שניים או יותר מהתסמינים הללו במהלך הטיפול באיסטוריסה. זה עשוי להצביע על כך שיש לך אי ספיקת יותרת הכליה (רמות קורטיזול נמוכות):"
+                },
+                {
+                    "eng": "weakness",
+                    "heb": "חולשה"
+                }, 
+                { 
+                    "eng": "light-headedness",
+                    "heb": "סחרחורת"
+                }, 
+                { 
+                    "eng": "tiredness",
+                    "heb": "עייפות"
+                }, 
+                { 
+                    "eng": "lack of appetite",
+                    "heb": "חוסר תיאבון"
+                }, 
+                { 
+                    "eng": "nausea (feeling sick)",
+                    "heb": "בחילות"
+                }, 
+                { 
+                    "eng": "vomiting",
+                    "heb": "הקאות"
+                },
+                {
+                    "eng": "Children and adolescents",
+                    "heb": "ילדים ומתבגרים"
+                },
+                {
+                    "eng": "This medicine is not intended for patients aged under 18 years. There is no information regarding the safety and efficacy of the medicine in children and adolescents.",
+                    "heb": "תרופה זו איננה מיועדת למטופלים מתחת לגיל 18. לא קיים מידע לגבי בטיחות ויעילות השימוש בתכשיר זה בילדים ומתבגרים."
+                },
+                {
+                    "eng": "Tests and follow-up",
+                    "heb": "בדיקות ומעקב"
+                },
+                {
+                    "eng": "Your doctor will test your blood and/or urine before you start treatment and regularly during treatment. This is to detect any possible abnormalities in your magnesium, calcium and potassium levels and also to measure the levels of cortisol. Depending on the results, your doctor may change your dose.",
+                    "heb": "לפני תחילת השימוש בתרופה ובאופן קבוע במהלך הטיפול, הרופא יפנה אותך לבדיקות דם ו/או שתן. זאת על מנת לזהות חריגות אפשרויות ברמות המגנזיום, הסידן והאשלגן וגם כדי למדוד את רמות הקורטיזול. בהתאם לתוצאות, הרופא עשוי לשנות את המינון."
+                },
+                {
+                    "eng": "This medicine may have an unwanted effect (called QT prolongation) on the function of the heart. Your doctor will therefore also check for this effect by performing an electrocardiogram (ECG) before you start treatment and during treatment.",
+                    "heb": "לתרופה זו עלולה להיות השפעה לא רצויה על תפקוד הלב (הנקראת הארכת מרווח QT). לכן, הרופא גם יבדוק את את ההשפעה הזו על ידי ביצוע בדיקת א.ק.ג (EKG) לפני תחילת הטיפול ובמהלך הטיפול בתרופה."
+                },
+                {
+                    "eng": "If your Cushing’s syndrome is caused by a benign tumour (called adenoma) in the pituitary gland, your doctor may consider stopping your treatment if a pituitary scan shows that the adenoma has expanded into neighbouring regions.",
+                    "heb": "במידה ותסמונת הקושינג שלך נגרמה על ידי גידול שפיר (הנקרא אדנומה) בבלוטת יותרת המוח, הרופא עשוי לשקול להפסיק את הטיפול אם סריקת יותרת המוח מראה שהאדנומה התרחבה לאזורים שכנים."
+                },
+                {
+                    "eng": "Drug interactions",
+                    "heb": "אינטראקציות/תגובות בין תרופתיות "
+                },
+                {
+                    "eng": "Tell your doctor or pharmacist if you are taking, have recently taken or might take any other medicines, including non-prescription medications and nutritional supplements. It is particularly important that you mention any of the following medicines:",
+                    "heb": "אם אתה לוקח, או אם לקחת לאחרונה, תרופות אחרות כולל תרופות ללא מרשם ותוספי תזונה, ספר על כך לרופא או לרוקח. חשוב במיוחד שתזכיר כל אחת מהתרופות הבאות:"
+                },
+                {
+                    "eng": "medicines that may have an unwanted effect (called QT prolongation) on the function of the heart. These include medicines used for abnormal heart rhythm such as quinidine, sotalol and amiodarone; medicines used for allergies (antihistamines); antidepressants such as amitriptyline and drugs for mental health disorders (antipsychotics); antibiotics, including the following types: macrolides, fluoroquinolones or imidazole; and other medicines for Cushing’s disease (pasireotide, ketoconazole)",
+                    "heb": "תרופות שעלולות להיות להן השפעה לא רצויה על תפקוד הלב (הנקראת הארכת QT). אלו כוללות תרופות המשמשות לטיפול בקצב לב כגון כינידין, סוטאלול ואמיודארון; תרופות לטיפול באלרגיות (אנטיהיסטמינים); נוגדי דכאון כגון אמיטריפטילין ותרופות לטיפול בהפרעות בריאות הנפש (תרופות אנטיפסיכוטיות); אנטיביוטיקות, לרבות הסוגים הבאים: מקרולידים, פלואורוקינולונים או אימידאזול; ותרופות אחרות לטיפול בתסמונת קושינג (פסיראוטיד, קטוקונאזול)"
+                },
+                {
+                    "eng": "theophylline (used to treat breathing problems) or tizanidine (used to treat muscle pain and muscle cramps)",
+                    "heb": "תאופילין (המשמש לטיפול בבעיות נשימה) או טיזנידין (המשמש לטיפול בכאבי שרירים והתכווצויות שרירים)"
+                },
+                {
+                    "eng": "Pregnancy and breast-feeding",
+                    "heb": "היריון והנקה"
+                },
+                {
+                    "eng": "This medicine may cause foetal harm when administered to pregnant women. This medicine should not be used during pregnancy or breast-feeding, unless your doctor has advised you to do so. If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask your doctor for advice before taking this medicine.",
+                    "heb": "התרופה עלולה לגרום לנזק לעובר כאשר היא ניתנת לנשים בהיריון. אין להשתמש בתרופה זו במהלך היריון או הנקה, אלא אם הרופא ייעץ לך לעשות זאת. אם את בהיריון או מניקה, חושבת שאת בהיריון או מתכננת להיכנס להיריון, היוועצי ברופא לפני נטילת התרופה."
+                },
+                {
+                    "eng": "Breast-feeding",
+                    "heb": "הנקה"
+                },
+                {
+                    "eng": "It is unknown whether the active ingredient or its metabolites are excreted in human milk. Breastfeeding should be discontinued during treatment with Isturisa and for at least one week after treatment. ",
+                    "heb": "לא ידוע האם החומר הפעיל או המטבוליטים שלו מופרשים בחלב אם. יש להפסיק להניק במהלך הטיפול באיסטוריסה ולפחות שבוע לאחר הטיפול."
+                },
+                {
+                    "eng": "Contraception",
+                    "heb": "מניעת הריון"
+                },
+                {
+                    "eng": "A pregnancy test before initiating treatment is recommended in women of childbearing potential. Women who could become pregnant should use an effective method of contraception during treatment and for at least one week after the last dose. Ask your doctor about the need for contraception before you start taking Isturisa.",
+                    "heb": "בדיקת היריון לפני תחילת הטיפול מומלצת לנשים בגיל הפוריות. נשים שעלולות להיכנס להיריון צריכות להשתמש באמצעי מניעה יעיל במהלך הטיפול ולפחות שבוע לאחר נטילת המנה האחרונה. שאלי את הרופא לגבי הצורך באמצעי מניעה לפני שתתחילי ליטול איסטוריסה."
+                },
+                {
+                    "eng": "Driving and using machines",
+                    "heb": "נהיגה ושימוש במכונות"
+                },
+                {
+                    "eng": "Dizziness and tiredness may occur during treatment with Isturisa. Do not drive or operate machines if you get these symptoms.",
+                    "heb": "סחרחורת ועייפות עלולות להופיע במהלך הטיפול באיסטוריסה. אין לנהוג או להפעיל מכונות אם אתה חווה תסמינים אלו."
+                }
+            ]
+        },
+        {
+            "title": "how to use the medicine",
+            "section_num": "3",
+            "data": [
+                {
+                    "eng": "3. How to use this medicine?",
+                    "heb": "3. כיצד תשתמש בתרופה?"
+                },
+                {
+                    "eng": "Always take this medicine exactly as your doctor has told you. Check with your doctor or pharmacist if you are not sure about the dose or how to take this medicine.",
+                    "heb": "יש להשתמש בתכשיר תמיד בהתאם להוראות הרופא. עליך לבדוק עם הרופא או הרוקח אם אינך בטוח בנוגע למינון ואופן הטיפול בתכשיר."    
+                },
+                {
+                    "eng": "The dose and the method of administration will be determined only by your doctor. The usual starting dose is two 1 mg tablets twice a day (about every 12 hours). Patients of Asian ancestry and patients with liver disease may need a lower starting dose (one 1 mg tablet twice a day).",
+                    "heb": "המינון ואופן הטיפול יקבעו על ידי הרופא בלבד. המינון ההתחלתי המקובל הוא 2 טבליות של 1 מ\"ג פעמיים ביום (בערך כל 12 שעות). מטופלים ממוצא אסייאתי ומטופלים עם מחלת כבד עשויים להזדקק למינון התחלתי נמוך יותר (טבליה אחת של 1 מ\"ג פעמיים ביום)."
+                },
+                {
+                    "eng": "After you have started treatment, your doctor may change your dose. This will depend on how you respond to the treatment. The highest recommended dose is 30 mg twice a day.",
+                    "heb": "לאחר התחלת הטיפול, הרופא עשוי לשנות את המינון שלך. זה יהיה תלוי באיך אתה מגיב לטיפול. המינון המומלץ הגבוה ביותר הוא 30 מ\"ג פעמיים ביום."
+                },
+                {
+                    "eng": "Do not exceed the recommended dose.",
+                    "heb": "אין לעבור על המנה המומלצת."
+                },
+                {
+                    "eng": "Isturisa tablets are taken by mouth and can be taken with or without food.",
+                    "heb": "טבליות איסטוריסה ניטלות דרך הפה וניתן ליטול אותן עם או בלי אוכל."
+                },
+                {
+                    "eng": "Do not crush/divide/chew the tablets because the tablets are film-coated.",
+                    "heb": "אסור לכתוש/לחצות/ללעוס את הטבליות מכיוון שהטבליות מצופות."
+                },
+                {
+                    "eng": "If you take more Isturisa than you should",
+                    "heb": "אם נטלת בטעות מינון גבוה יותר"
+                },
+                {
+                    "eng": "If you have taken an overdose and you feel unwell (for example if you feel weak, lightheaded, tired or sick, or if you have to vomit), or if a child has accidentally swallowed your medicine, proceed immediately to a doctor or a hospital emergency room and bring the package of the medicine with you. ",
+                    "heb": "אם נטלת מנת יתר ואתה מרגיש לא טוב (למשל אם אתה מרגיש חולשה, סחרחורת, עייפות או חולי, או אם אתה צריך להקיא), או אם בטעות בלע ילד מן התרופה, פנה מיד לרופא או לחדר מיון של בית חולים והבא את אריזת התרופה איתך."
+                },
+                {
+                    "eng": "If you forget to take Isturisa",
+                    "heb": "אם שכחת ליטול את התרופה"
+                },
+                {
+                    "eng": "Do not take a double dose to make up for a forgotten dose. Instead, just wait until it is time for your next dose and take that at the scheduled time.",
+                    "heb": "אין ליטול מנה כפולה על מנת לפצות על מנה שנשכחה. במקום זאת, יש להמתין עד שיגיע הזמן למנה הבאה ולקחת אותה בזמן שנקבע."
+                },
+                {
+                    "eng": "If you stop taking Isturisa",
+                    "heb": "אם אתה מפסיק את נטילת התרופה"
+                },
+                {
+                    "eng": "Do not stop taking Isturisa unless your doctor tells you to. If you stop your treatment with Isturisa, your symptoms may come back.",
+                    "heb": "אין להפסיק ליטול איסטוריסה אלא אם הרופא הורה לעשות זאת. אם תפסיק את הטיפול באיסטוריסה, התסמינים שלך עלולים לחזור."
+                },
+                {
+                    "eng": "The treatment should be continued as recommended by your doctor. Even if there is an improvement in your health, do not stop treatment with the medicine without consulting your doctor.",
+                    "heb": "יש להתמיד בטיפול כפי שהומלץ על ידי הרופא. גם אם חל שיפור במצב בריאותך, אין להפסיק את הטיפול בתרופה ללא התייעצות עם הרופא."
+                },
+                {
+                    "eng": "Do not take medicines in the dark! Check the label and the dose each time you take a medicine. Wear glasses if you need them.",
+                    "heb": "אין ליטול תרופות בחושך! בדוק התווית והמנה בכל פעם שהינך נוטל תרופה. הרכב משקפיים אם הינך זקוק להם."
+                },
+                {
+                    "eng": "If you have any further questions regarding the use of the medicine, consult a doctor or pharmacist.",
+                    "heb": "אם יש לך שאלות נוספות בנוגע לשימוש בתרופה, היוועץ ברופא או ברוקח."
+                }
+            ]
+        },
+        {
+            "title": "side effects",
+            "section_num": "4",
+            "data": [
+                {
+                    "eng": "4. Side effects",
+                    "heb": "4. תופעות לוואי"
+                },
+                {
+                    "eng": "Like with all medicines, this medicine may cause side effects in some users. Do not be alarmed by this list of side effects; you may not experience any of them.",
+                    "heb": "כמו בכל תרופה, השימוש בתרופה זו עלול לגרום לתופעות לוואי בחלק מהמשתמשים. אל תיבהל למקרא רשימת תופעות הלוואי. יתכן ולא תסבול מאף אחת מהן."
+                },
+                {
+                    "eng": "Some side effects may be serious. Please take particular note of the following:",
+                    "heb": "תופעות לוואי מסויימות עשויות להיות חמורות. יש לשים לב במיוחד לדברים הבאים:"
+                },
+                {
+                    "eng": "Tell your doctor immediately if you experience a heart disorder or heart rhythm disorder, such as a fast and irregular heartbeat, even when you are at rest, heart palpitations, blackouts or fainting (this could be a sign of a condition called QT prolongation, a side effect that may affect up to 1 in 10 people).",
+                    "heb": "ספר לרופא מיד אם אתה חווה בעיה בלב או הפרעת קצב לב, כגון דופק מהיר ובלתי סדיר, אפילו כשאתה במנוחה, דפיקות לב, חישכון או התעלפות (זה עלול להיות סימן למצב הנקרא הארכת מרווח QT, תופעות לוואי שעלולה להשפיע על עד 1 מתוך 10 אנשים)."
+                },
+                {
+                    "eng": "Tell your doctor immediately if you have two or more of these symptoms: weakness, lightheadedness, tiredness (fatigue), lack of appetite, nausea (feeling sick), vomiting. This may indicate that you have adrenal insufficiency (low cortisol levels), a side effect that may affect more than 1 in 10 people. Adrenal insufficiency occurs when Isturisa lowers the amount of cortisol too much. It is more likely to occur during periods of increased stress. Your doctor will correct this by using a hormone medicine or by adjusting the dose of Isturisa.",
+                    "heb": "ספר לרופא מיד אם יש לך שניים או יותר מהתסמינים הללו: חולשה,סחרחורת, עייפות, חוסר תיאבון, בחילות, הקאות. זה עשוי להצביע על כך שיש לך אי ספיקת יותרת הכליה (רמות קורטיזול נמוכות), תופעת לוואי שעלולה להשפיע על יותר מ-1 מתוך 10 אנשים. אי ספיקת יותרת הכליה מתרחשת כאשר איסטוריסה מורידה את כמות הקורטיזול יותר מדי. סביר יותר להתרחש בתקופות של מתח מוגבר. הרופא שלך יווסת זאת על ידי שימוש בתרופה הורמונלית או על ידי התאמת המינון של איסטוריסה."
+                },
+                {
+                    "eng": "Additional side effects",
+                    "heb": "תופעות לוואי נוספות"
+                },
+                {
+                    "eng": "Very common side effects (may affect more than 1 in 10 people):",
+                    "heb": "תופעות לוואי שכיחות מאוד (עלולות להופיע ביותר מ-1 מתוך 10 אנשים):"
+                },
+                {
+                    "eng": "vomiting",
+                    "heb": "הקאות"
+                },
+                {
+                    "eng": "nausea (feeling sick)",
+                    "heb": "בחילות"
+                },
+                {
+                    "eng": "diarrhoea",
+                    "heb": "שלשולים"
+                },
+                {
+                    "eng": "abdominal pain",
+                    "heb": "כאבי בטן"
+                },
+                {
+                    "eng": "tiredness (fatigue)",
+                    "heb": "עייפות"
+                },
+                {
+                    "eng": "build-up of fluid leading to swelling (oedema), particularly of your ankles",
+                    "heb": "הצטברות נוזלים המובילה לנפיחות (בצקת), במיוחד של הקרסוליים"
+                },
+                {
+                    "eng": "abnormal blood tests (increased levels of testosterone, increased levels of adrenocorticotrophic hormone, also known as ACTH, low levels of potassium)",
+                    "heb": "בדיקות דם לא תקינות (רמות גבוהות של טסטוסטרון, רמות גבוהות של הורמון אדרנוקורטיקוטרופי הידוע גם בשם ACTH, רמות נמוכות של אשלגן)"
+                },
+                {
+                    "eng": "decreased appetite",
+                    "heb": "ירידה בתיאבון"
+                },
+                {
+                    "eng": "dizziness",
+                    "heb": "סחרחורת"
+                },
+                {
+                    "eng": "myalgia (muscle pain)",
+                    "heb": "מיאלגיה (כאב שרירים)"
+                },
+                {
+                    "eng": "arthralgia (joint pain)",
+                    "heb": "ארתרלגיה (כאב מפרקים)"
+                },
+                {
+                    "eng": "headache",
+                    "heb": "כאב ראש"
+                },
+                {
+                    "eng": "rash",
+                    "heb": "פריחה"
+                },
+                {
+                    "eng": "low blood pressure (hypotension)",
+                    "heb": "לחץ דם נמוך (תת-לחץ דם)"
+                },
+                {
+                    "eng": "Common side effects (may affect up to 1 in 10 people):",
+                    "heb": "תופעות לוואי שכיחות (עלולות להופיע ב-עד 1 מתוך 10 אנשים):"
+                },
+                {
+                    "eng": "fast heartbeat (tachycardia)",
+                    "heb": "דופק מהיר (טכיקרדיה)"
+                },
+                {
+                    "eng": "general feeling of being unwell (malaise)",
+                    "heb": "תחושה כללית לא טובה (מלזיה)"
+                },
+                {
+                    "eng": "abnormal results of liver function tests",
+                    "heb": "תוצאות לא תקינות של בדיקות תפקודי כבד"
+                },
+                {
+                    "eng": "fainting (syncope)",
+                    "heb": "התעלפות (סינקופה)"
+                },
+                {
+                    "eng": "excessive facial or body hair growth (hirsutism)",
+                    "heb": "צמיחת שיער מופרזת בפנים או בגוף (שעירות/שיעור יתר)"
+                },
+                {
+                    "eng": "acne",
+                    "heb": "אקנה"
+                },
+                {
+                    "eng": "If you experience any side effect, if any side effect gets worse, or if you experience a side effect not mentioned in this leaflet, consult your doctor.",
+                    "heb": "אם הופיעה תופעת לוואי, אם אחת מתופעות הלוואי מחמירה או כאשר אתה סובל מתופעת לוואי שלא צוינה בעלון, עליך להתייעץ עם הרופא."
+                },
+                {
+                    "eng": "Reporting of side effects",
+                    "heb": "דיווח תופעות לוואי"
+                },
+                {
+                    "eng": "You can report side effects to the Ministry of Health by following the link ‘Reporting Side Effects of Drug Treatment’ on the Ministry of Health home page which links to an online form for reporting side effects, or by the following link",
+                    "heb": "ניתן לדווח על תופעות לוואי למשרד הבריאות באמצעות לחיצה על הקישור \"דיווח על תופעות לוואי עקב טיפול תרופתי\" שנמצא בדף הבית של אתר משרד הבריאות המפנה לטופס המקוון לדיווח על תופעות לוואי, או ע\"י כניסה לקישור"
+                }
+            ]
+        },
+        {
+            "title": "medicine storage",
+            "section_num": "5",
+            "data": [
+                {
+                    "eng": "5. How to store the medicine?",
+                    "heb": "5. איך לאחסן את התרופה?"
+                },
+                {
+                    "eng": "Avoid poisoning! This medicine and any other medicine should be kept in a closed place out of the reach and sight of children and/or infants in order to avoid poisoning. Do not induce vomiting without explicit instructions from the doctor.",
+                    "heb": "מנע הרעלה! תרופה זו וכל תרופה אחרת יש לשמור במקום סגור מחוץ להישג ידם וטווח ראייתם של ילדים ו/או תינוקות ועל ידי כך תמנע הרעלה. אל תגרום להקאה ללא הוראה מפורשת מהרופא."
+                },
+                {
+                    "eng": "Do not use this medicine after the expiry date (exp. date) which is stated on the package. The expiry date refers to the last day of that month.",
+                    "heb": "אין להשתמש בתרופה אחרי תאריך התפוגה המופיע על גבי האריזה. תאריך התפוגה מתייחס ליום האחרון של אותו חודש."
+                },
+                {
+                    "eng": "Storage Conditions: Do not store above 25°C.",
+                    "heb": "תנאי אחסון: יש לאחסן בטמפרטורה מתחת ל-25°C."
+                },
+                {
+                    "eng": "Store in the original package in order to protect from moisture.",
+                    "heb": "יש לאחסן באריזה המקורית על מנת להגן מלחות."
+                },
+                {
+                    "eng": "Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw away medicines you no longer use. These measures will help protect the environment.",
+                    "heb": "אין להשליך תרופות דרך שפכים או פסולת ביתית. שאל את הרוקח כיצד להיפטר מתרופות אשר אינן עוד בשימוש. אמצעים אלו יעזרו להגן על הסביבה."
+                }
+            ]
+        },
+        {
+            "title": "additional information",
+            "section_num": "6",
+            "data": [
+                {
+                    "eng": "6. Additional information",
+                    "heb": "6. מידע נוסף "
+                },
+                {
+                    "eng": "In addition to the active ingredient, this medicine also contains:",
+                    "heb": "נוסף על המרכיב הפעיל התרופה מכילה גם:"
+                },
+                {
+                    "eng": "In the tablet core:",
+                    "heb": "בליבת הטבליה:"
+                },
+                {
+                    "eng": "בציפוי הטבליה:",
+                    "heb": "In the film coating:"
+                },
+                {
+                    "eng": "(E172, see below)",
+                    "heb": "(E172, ראה מטה)"
+                },
+                {
+                    "eng": "Isturisa 1 mg film-coated tablets contain",
+                    "heb": "איסטוריסה 1 מ\"ג טבליות מצופות מכילה"
+                },
+                {
+                    "eng": "What the medicine looks like and contents of the pack:",
+                    "heb": "כיצד נראית התרופה ומה תוכן האריזה:"
+                },
+                {
+                    "eng": "Isturisa is marketed in packs containing 60 film-coated tablets.",
+                    "heb": "איסטוריסה משווקת באריזות המכילות 60 טבליות מצופות."
+                },
+                {
+                    "eng": "The 1 mg tablets are pale yellow, round and marked “Y1” on one side and “NVR” on the other side.",
+                    "heb": "טבליות 1 מ\"ג הן בצבע צהוב בהיר, עגולות ומסומנות ב-\"Y1\" בצד אחד ו-\"NVR\" בצד השני."
+                },
+                {
+                    "eng": "The 5 mg tablets are yellow, round and marked “Y2” on one side and “NVR” on the other side.",
+                    "heb": "טבליות 5 מ\"ג הן צהובות, עגולות ומסומנות ב-\"Y2\" בצד אחד ו-\"NVR\" בצד השני."
+                },
+                {
+                    "eng": "The 10 mg tablets are pale orange brown, round and marked “Y3” on one side and “NVR” on the other side.",
+                    "heb": "טבליות 10 מ\"ג הן בצבע כתום חום בהיר, עגולות ומסומנות ב-\"Y3\" בצד אחד ו-\"NVR\" בצד השני."
+                },
+                {
+                    "eng": "Registration holder’s name and address:",
+                    "heb": "שם בעל הרישום וכתובתו:"
+                },
+                {
+                    "eng": "Medison Pharma Ltd., 10 Hashiloach St., POB 7090, Petach Tikva.",
+                    "heb": "מדיסון פארמה בע\"מ, רח' השילוח 10, ת.ד. 7090, פתח תקווה."
+                },
+                {
+                    "eng": "Manufacturer’s name and address:",
+                    "heb": "שם היצרן וכתובתו:"
+                },
+                {
+                    "eng": "Revised in April 2023 according to MoH guidelines.",
+                    "heb": "עלון זה נערך באפריל 2023 בהתאם להנחיות משרד הבריאות."
+                },
+                {
+                    "eng": "Registration number of the medicine in the Ministry of Health’s National Drug Registry:",
+                    "heb": "מספר רישום התרופה בפנקס התרופות הממלכתי במשרד הבריאות:"
+                },
+                {
+                    "eng": "Isturisa 1 mg film-coated tablets",
+                    "heb": "איסטוריסה 1 מ\"ג טבליות מצופות"
+                }
+            ]
+        }
+    ]
+}
