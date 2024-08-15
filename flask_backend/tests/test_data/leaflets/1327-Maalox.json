@@ -1,0 +1,590 @@
+{
+    "title": "Maalox Plus Suspension",
+    "index": 0,
+    "dir_index": 1327,
+    "title_lang": {
+        "title_eng": "Minirin Melt",
+        "title_heb": "מינירין מלט"
+    },
+    "sections": [
+        {
+            "title": "General",
+            "section_num": "0",
+            "data": [
+                {
+                    "eng": "PATIENT PACKAGE INSERT IN ACCORDANCE WITH THE  PHARMACISTS’ REGULATIONS (PREPARATIONS) - 1986 ",
+                    "heb": "עלון לצרכן לפי תקנות הרוקחים (תכשירים) התשמ\"ו – 1986"
+                },
+                {
+                    "eng": "This medicine is dispensed with a doctor’s prescription only",
+                    "heb": "התרופה משווקת על פי מרשם רופא בלבד"
+                },
+                {
+                    "eng": "Minirin Melt 60 mcg",
+                    "heb": "מינירין מלט 60 מק\"ג"
+                },
+                {
+                    "eng": "Minirin Melt 120 mcg",
+                    "heb": "מינירין מלט 120 מק\"ג"
+                },
+                {
+                    "eng": "Tablets for sublingual administration",
+                    "heb": "טבליות למתן מתחת ללשון."
+                },
+                {
+                    "eng": "Active ingredients",
+                    "heb": "חומרים פעילים"
+                },
+                {
+                    "eng": "Each tablet contains",
+                    "heb": "כל טבליה מכילה"
+                },
+                {
+                    "eng": "Inactive ingredients and allergens - see section 6 \"Additional information\"",
+                    "heb": "חומרים בלתי פעילים ואלרגניים: ראה סעיף 6 \"מידע נוסף\"."
+                },
+                {
+                    "eng": "Read the entire leaflet carefully before you start using this medicine.",
+                    "heb": "קרא בעיון את העלון עד סופו בטרם תשתמש בתרופה. "
+                },
+                {
+                    "eng": "This leaflet contains concise information about this medicine. If you have any further questions, consult your doctor or pharmacist.",
+                    "heb": "עלון זה מכיל מידע תמציתי על התרופה. אם יש לך שאלות נוספות, פנה אל הרופא או אל הרוקח."
+                },
+                {
+                    "eng": "This medicine has been prescribed to treat your illness. Do not pass it on to others. It may harm them even if it seems to you that their illness is similar to yours.",
+                    "heb": "תרופה זו נרשמה לטיפול במחלתך. אל תעביר אותה לאחרים. היא עלולה להזיק להם אפילו אם נראה לך כי מחלתם דומה."
+                }
+            ]
+        },
+        {
+            "title": "medicine intended for",
+            "section_num": "1",
+            "data": [
+                {
+                    "eng": "1. WHAT IS THE MEDICINE INTENDED FOR?",
+                    "heb": "1. למה מיועדת התרופה?"
+                },
+                {
+                    "eng": "The medicine is intended for treatment of bedwetting (nocturnal enuresis).",
+                    "heb": "התרופה מיועדת לטיפול בהרטבת לילה (נוקטורנל אנורזיס) ."
+                },
+                {
+                    "eng": "Therapeutic group: synthetic vasopressin analog.",
+                    "heb": "קבוצה תרפויטית: תחליף סינתטי להורמון וזופרסין."
+                }
+            ]
+        },
+        {
+            "title": "before using the medicine",
+            "section_num": "2",
+            "data": [
+                {
+                    "eng": "2. BEFORE USING THIS MEDICINE",
+                    "heb": "2. לפני השימוש בתרופה"
+                },
+                {
+                    "eng": "Do not use this medicine if: ",
+                    "heb": "אין להשתמש בתרופה אם :"
+                },
+                {
+                    "eng": "you are sensitive (allergic) to desmopressin or to any of the other ingredients in this medicine (see section 6)",
+                    "heb": "אתה רגיש (אלרגי) לדסמופרסין או לכל אחד מהמרכיבים הנוספים אשר מכילה התרופה (ראה סעיף 6)"
+                },
+                {
+                    "eng": "you have a severe heart or kidney disease",
+                    "heb": "אתה סובל ממחלה חמורה של הלב או הכליות"
+                },
+                {
+                    "eng": "you are taking diuretics",
+                    "heb": "אתה נוטל תרופות משתנות"
+                },
+                {
+                    "eng": "you drink very large quantities of liquids, including alcohol",
+                    "heb": "אתה שותה כמויות גדולות מאד של נוזלים, כולל אלכוהול"
+                },
+                {
+                    "eng": "you are below the age of 5 or above the age of 65",
+                    "heb": "אתה מתחת לגיל 5 או מעל גיל 65"
+                },
+                {
+                    "eng": "you have low blood sodium levels (hyponatremia)",
+                    "heb": "יש לך רמות נתרן נמוכות בדם (היפונטרמיה)"
+                },
+                {
+                    "eng": "you have a medical condition associated with increased ADH secretion (abnormal ADH secretion syndrome)",
+                    "heb": "אתה סובל ממצב רפואי עם הפרשה מוגברת של הורמון ADH (תסמונת של הפרשה לא תקינה של הורמון ADH)"
+                },
+                {
+                    "eng": "Avoid drinking large quantity of fluids during treatment with the medicine. Drinking large quantity of fluids may lead to water accumulation and dilution of the concentration of salts in the body. This may cause headache, nausea/vomiting, weight gain and in severe cases convulsions. ",
+                    "heb": "בזמן הטיפול בתרופה יש להימנע משתיית כמות גדולה של נוזלים. שתיית כמות גדולה של נוזלים עלולה לגרום להצטברות מים ודילול ריכוז המלחים בגוף. זה עלול לגרום לכאב ראש, בחילות/הקאות, עלייה במשקל ובמקרים חמורים להתכווצויות "
+                },
+                {
+                    "eng": "Special warnings about using this medicine",
+                    "heb": "אזהרות מיוחדות הנוגעות לשימוש בתרופה"
+                },
+                {
+                    "eng": "Before treatment with the medicine, tell your doctor if you have: ",
+                    "heb": "לפני הטיפול בתרופה ספר לרופא אם אתה סובל מ:"
+                },
+                {
+                    "eng": "A disease causing impaired fluid and/or electrolyte balance. For example vomiting, diarrhea, systemic infections, fever or gastrointestinal inflammation",
+                    "heb": "מחלה הגורמת להפרעה במאזן נוזלים ו/או האלקטרוליטים. לדוגמה הקאות, שלשול, זיהומים סיסטמיים, חום או דלקת במערכת העיכול"
+                },
+                {
+                    "eng": "A medical condition which may worsen in case of impaired fluid and/or electrolyte balance. A condition of extremely low sodium levels in your body with a tendency to accumulate excessive quantities of fluids in your body",
+                    "heb": "מצב רפואי שעלול להחמיר במקרה של הפרעה במאזן הנוזלים ו/או האלקטרוליטים. מצב בו רמות נתרן בגופך נמוכות מ יידי ואתה נוטה לאגור יותר מ יידי נוזלים בגופך"
+                },
+                {
+                    "eng": "Cystic fibrosis",
+                    "heb": "סיסטיק פיברוזיס"
+                },
+                {
+                    "eng": "Urination difficulties",
+                    "heb": "קשיים במתן שתן"
+                },
+                {
+                    "eng": "During treatment with the medicine",
+                    "heb": "במהלך הטיפול בתרופה"
+                },
+                {
+                    "eng": "Stop taking the medicine in case of vomiting and/or diarrhea until your condition improves",
+                    "heb": "הפסק לקיחת התרופה במקרה של הקאות ו/או שלשולים עד לשיפור מצב בריאותך"
+                },
+                {
+                    "eng": "Your fluid consumption should be limited to a minimum from 1 hour before taking Minirin Melt in the evening till the next morning (and in any case for at least 8 hours)",
+                    "heb": "צריכת הנוזלים צריכה להיות מוגבלת למינימום החל משעה לפני נטילת מינירין מלט בערב, ועד הבוקר שלמוחרת (ובכל מקרה למשך לפחות 8 שעות)"
+                },
+                {
+                    "eng": "Minirin Melt with food and drinks: Taking Minirin Melt with food may reduce the duration of action and effect of the medicine.",
+                    "heb": "מינירין מלט עם אוכל ושתיה: נטילת מינירין מלט עם מזון עשויה להקטין את משך והשפעת התרופה."
+                },
+                {
+                    "eng": "Drug interactions",
+                    "heb": "אינטראקציות/תגובות בין תרופתיות"
+                },
+                {
+                    "eng": "If you are taking, or have recently taken, other medicines, including nonprescription medicines and nutritional supplements, tell the doctor or pharmacist, particularly if you are taking: ",
+                    "heb": "אם אתה לוקח, או אם לקחת לאחרונה, תרופות אחרות כולל תרופות ללא מרשם ותוספי תזונה, ספר על כך לרופא או לרוקח . במיוחד אם אתה לוקח:"
+                },
+                {
+                    "eng": "medicines for treatment of depression, epilepsy or type II diabetes",
+                    "heb": "תרופות לטיפול בדיכאון , באפילפסיה או בסוכרת מסוג II"
+                },
+                {
+                    "eng": "medicines containing loperamide (anti-diarrheal)",
+                    "heb": "תרופות המכילות לופראמיד (נגד שלשול)"
+                },
+                {
+                    "eng": "medicines of the NSAID class (non-steroidal agents for treatment of pain and/or inflammatory conditions, for example indomethacin). ",
+                    "heb": "תרופות מקבוצת NSAID) תכשירים אשר אינם סטרואידים לטיפול בכאבים ו/או מצבים דלקתיים לדוגמה אינדומטאצין)"
+                },
+                {
+                    "eng": "Pregnancy and breastfeeding ",
+                    "heb": "היריון והנקה"
+                },
+                {
+                    "eng": "If you are pregnant or breastfeeding, think that you may be pregnant or planning to become pregnant, ask your doctor for advice before taking this medicine.",
+                    "heb": "אם את בהיריון או מניקה, חושבת שאת עשויה להיות בהיריון או מתכננת היריון, יש להיוועץ ברופא לפני נטילת התרופה."
+                },
+                {
+                    "eng": "Driving and using machines",
+                    "heb": "נהיגה ושימוש במכונות"
+                },
+                {
+                    "eng": "The medicine has no effect or a negligible effect on the ability to drive and/or operate machines.",
+                    "heb": "לתרופה אין השפעה או השפעה זניחה על היכולת לנהוג ו/או להפעיל מכונות."
+                }
+            ]
+        },
+        {
+            "title": "how to use the medicine",
+            "section_num": "3",
+            "data": [
+                {
+                    "eng": "3. How to use this medicine?",
+                    "heb": "3. כיצד תשתמש בתרופה?"
+                },
+                {
+                    "eng": "Always use this medicine according to your doctor's instructions. ",
+                    "heb": "תמיד יש להשתמש בתכשיר בהתאם להוראות הרופא."
+                },
+                {
+                    "eng": "Check with your doctor or pharmacist if you are not sure about your dose or about how to take this medicine.",
+                    "heb": "עליך לבדוק עם הרופא או הרוקח אם אינך בטוח בנוגע למינון ואופן הטיפול בתכשיר."
+                },
+                {
+                    "eng": "Only your doctor will determine your dose and how you should take this medicine. ",
+                    "heb": "המינון ואופן הטיפול ייקבעו על ידי הרופא בלבד."
+                },
+                {
+                    "eng": "The standard initial dosage is usually 120 microgram, sublingually before bedtime. If required, the doctor may increase the dosage up to 240 microgram sublingually before bedtime. ",
+                    "heb": "המינון ההתחלתי המקובל בדרך כלל הוא 120 מיקרוגרם, מתחת ללשון לפני השינה. במידת הצורך הרופא עשוי לעלות את המינון עד ל 240 מיקרוגרם מתחת ללשון לפני השינה."
+                },
+                {
+                    "eng": "Do not exceed the recommended dose.",
+                    "heb": "אין לעבור על המנה המומלצת."
+                },
+                {
+                    "eng": "Instructions for use ",
+                    "heb": "אופן השימוש"
+                },
+                {
+                    "eng": "The medicine is intended for sublingual administration. Place it under the tongue, where it will completely dissolve with no need for water. ",
+                    "heb": "התרופה מיועדת למתן תת-לשוני. יש להניח אותה מתחת ללשון, שם היא תתמוסס לחלוטין ללא צורך במים."
+                },
+                {
+                    "eng": "Do not take more than one prescribed dose in 24 hours. ",
+                    "heb": "אין ליטול יותר ממנה רשומה אחת ב-24 שעות."
+                },
+                {
+                    "eng": "If you have accidentally taken an overdose or if a child has accidentally swallowed the medicine, immediately contact a doctor or proceed to a hospital emergency room and bring the medicine package with you.",
+                    "heb": "אם נטלת בטעות מנת יתר או אם בטעות בלע ילד מן התרופה, פנה מייד לרופא או לחדר מיון של בית- חולים והבא את אריזת התרופה איתך"
+                },
+                {
+                    "eng": "If you forgot to take the medicine at the scheduled time, never take two doses together! If you forgot to take the medicine, consult the doctor or pharmacist. ",
+                    "heb": "אם שכחת ליטול תרופה זו בזמן הקצוב, בשום אופן אין ליטול שתי מנות ביחד! אם שכחת ליטול את התרופה התייעץ עם הרופא או הרוקח "
+                },
+                {
+                    "eng": "Adhere to the treatment as recommended by the doctor. ",
+                    "heb": "יש להתמיד בטיפול כפי שהומלץ על ידי הרופא."
+                },
+                {
+                    "eng": "Even if your health improves, do not stop taking this medicine without consulting your doctor or pharmacist.",
+                    "heb": "גם אם חל שיפור במצב בריאותך , אין להפסיק את הטיפול בתרופה ללא התייעצות עם הרופא או הרוקח."
+                },
+                {
+                    "eng": "Do not take medicines in the dark! Check the label and dose every time you take a medicine. Wear glasses if you need them.",
+                    "heb": "אין ליטול תרופות בחושך! בדוק התווית והמנה בכל פעם שאתה נוטל תרופה. הרכב משקפיים אם אתה זקוק להם."
+                },
+                {
+                    "eng": "If you have any further questions about using this medicine, consult your doctor or pharmacist.",
+                    "heb": "אם יש לך שאלות נוספות בנוגע לשימוש בתרופה, היוועץ ברופא או ברוקח."
+                }
+            ]
+        },
+        {
+            "title": "side effects",
+            "section_num": "4",
+            "data": [
+                {
+                    "eng": "4. SIDE EFFECTS",
+                    "heb": "4. תופעות לוואי"
+                },
+                {
+                    "eng": "Like with all medicines, using Minirin Melt may cause side effects in some users. Do not be alarmed by this list of side effects; you may not experience any of them.",
+                    "heb": "כמו בכל תרופה, השימוש במינירין מלט עלול לגרום לתופעות לוואי בחלק מהמשתמשים. אל תיבהל למקרא רשימת תופעות הלוואי. ייתכן שלא תסבול מאף אחת מהן ."
+                },
+                {
+                    "eng": "Stop taking this medicine and consult your doctor immediately if you experience: ",
+                    "heb": "הפסק את נטילת התרופה ופנה לרופא ימ יד אם אתה מרגיש: "
+                },
+                {
+                    "eng": "a very strong or persistent headache, abdominal pain, confusion, unexplained weight gain, nausea, vomiting, dizziness, sensation of general discomfort, memory impairment, sensation of lightheadedness, vertigo or falling. ",
+                    "heb": "כאב ראש חזק מאד או ממושך, כאב בטן, בלבול, עלייה בלתי מוסברת במשקל, בחילות, הקאות, סחרחורת, תחושה של אי נוחות כללית, פגיעה בזכרון, תחושה שאתה מסתחרר, מסתובב (ורטיגו) או נופל."
+                },
+                {
+                    "eng": "allergic reactions including itching, skin rash, swelling of the face, lips or mouth, difficulties breathing, wheezing, tension in the chest or cough.",
+                    "heb": "תגובות אלרגיות הכוללות גרד, פריחה עורית, נפיחות בפנים, בשפתיים או בלוע, קשיי נשימה, צפצופים, לחץ בחזה או שיעול."
+                },
+                {
+                    "eng": "Low sodium levels in your blood may cause convulsions. This may occur when you drink a large quantity of fluids during treatment with the medicine. ",
+                    "heb": "רמות נמוכות של נתרן בדמך עלולות לגרום להתכווצויות. זה יותר עלול לקרות כאשר אתה שותה כמות גדולה של נוזלים בזמן הטיפול בתרופה."
+                },
+                {
+                    "eng": "Additional side effects:",
+                    "heb": "תופעות לוואי נוספות:"
+                },
+                {
+                    "eng": "Common side effects (occur in 1-10 in 100 users) ",
+                    "heb": "תופעות לוואי שכיחות (תופעות שמופיעות ב 10 -1 משתמשים מתוך 100) "
+                },
+                {
+                    "eng": "Adults: ",
+                    "heb": "מבוגרים:"
+                },
+                {
+                    "eng": "increase in blood pressure",
+                    "heb": "עלייה בלחץ דם"
+                },
+                {
+                    "eng": "diarrhea, constipation",
+                    "heb": "שלשול, עצירות"
+                },
+                {
+                    "eng": "urinary symptoms",
+                    "heb": "תסמינים במערכת השתן"
+                },
+                {
+                    "eng": "tiredness",
+                    "heb": "עייפות"
+                },
+                {
+                    "eng": "swelling due to fluid accumulation",
+                    "heb": "נפיחות עקב אגירת נוזלים"
+                },
+                {
+                    "eng": "Uncommon side effects (occur in 1-10 in 1,000 users) ",
+                    "heb": "תופעות לוואי שאינן שכיחות (תופעות שמופיעות ב 10 -1 משתמשים מתוך 1,000)"
+                },
+                {
+                    "eng": "sleeping problems, sleepiness",
+                    "heb": "בעיות שינה, ישנוניות"
+                },
+                {
+                    "eng": "numbness, tingling, burning or creeping on the skin (paresthesia)",
+                    "heb": "אובדן תחושה, עקצוץ, צריבה או תחושת נימול בעור (פראסטסיה)"
+                },
+                {
+                    "eng": "vision impairments",
+                    "heb": "הפרעות ראייה"
+                },
+                {
+                    "eng": "feeling of abnormal heart beats (palpitations)",
+                    "heb": "תחושה של דפיקות לב לא תקינות (פלפטציות)"
+                },
+                {
+                    "eng": "low blood pressure",
+                    "heb": "לחץ דם נמוך"
+                },
+                {
+                    "eng": "shortness of breath (dyspnea)",
+                    "heb": "קוצר נשימה (דיספניאה)"
+                },
+                {
+                    "eng": "stomach problems, indigestion, flatulence, bloating",
+                    "heb": "בעיות בקיבה, קשיי עיכול, גזים, נפיחות"
+                },
+                {
+                    "eng": "sweating, itching, rash, hives",
+                    "heb": "הזעה, גרד, פריחה, סרפדת"
+                },
+                {
+                    "eng": "muscle spasms, muscle pain",
+                    "heb": "התכווצות שרירים, כאב שרירים"
+                },
+                {
+                    "eng": "chest pain",
+                    "heb": "כאב בחזה"
+                },
+                {
+                    "eng": "flu-like symptoms",
+                    "heb": "תסמינים דמוי שפעת"
+                },
+                {
+                    "eng": "change in liver function",
+                    "heb": "שינוי בתפקודי כבד"
+                },
+                {
+                    "eng": "low blood potassium levels",
+                    "heb": "רמות אשלגן נמוכות בדם"
+                },
+                {
+                    "eng": "Children and adolescents: ",
+                    "heb": "ילדים ומתבגרים:"
+                },
+                {
+                    "eng": "aggressiveness",
+                    "heb": "תוקפנות"
+                },
+                {
+                    "eng": "emotional instability",
+                    "heb": "אי יציבות רגשית"
+                },
+
+                {
+                    "eng": "urinary symptoms",
+                    "heb": "תסמינים במערכת השתן"
+                },
+                {
+                    "eng": "swelling due to fluid accumulation",
+                    "heb": "נפיחות עקב אגירת נוזלים"
+                },
+                {
+                    "eng": "Rare side effects (occur in 1-10 in 10,000 users) ",
+                    "heb": "תופעות לוואי נדירות (תופעות שמופיעות ב 10 -1 משתמשים מתוך 10,000 )"
+                },
+                {
+                    "eng": "allergic skin reactions",
+                    "heb": "תגובות אלרגיות של העור"
+                },
+                {
+                    "eng": "Children and adolescents: ",
+                    "heb": "ילדים ומתבגרים:"
+                },
+                {
+                    "eng": "anxiety symptoms",
+                    "heb": "תסמינים של חרדה"
+                },
+                {
+                    "eng": "nightmares",
+                    "heb": "סיוטי לילה"
+                },
+                {
+                    "eng": "mood changes",
+                    "heb": "שינויי מצב רוח"
+                },
+                {
+                    "eng": "sleepiness",
+                    "heb": "ישנוניות"
+                },
+                {
+                    "eng": "high blood pressure",
+                    "heb": "לחץ דם גבוה"
+                },
+                {
+                    "eng": "irritability",
+                    "heb": "עצבנות"
+                },
+                {
+                    "eng": "Side effects which their frequency cannot be estimated from the available information:",
+                    "heb": "תופעות לוואי שאת שכיחותן לא ניתן לקבוע מהמידע הקיים :"
+                },
+                {
+                    "eng": "Adults: ",
+                    "heb": "מבוגרים:"
+                },
+                {
+                    "eng": "anaphylactic reactions (severe allergic reactions)",
+                    "heb": "תגובות אנפילקטיות (תגובות אלרגיות חמורות)"
+                },
+                {
+                    "eng": "convulsions",
+                    "heb": "התכווצויות"
+                },
+                {
+                    "eng": "coma",
+                    "heb": "תרדמת"
+                },
+                {
+                    "eng": "Children and adolescents: ",
+                    "heb": "ילדים ומתבגרים:"
+                },
+                {
+                    "eng": "anaphylactic reactions (severe allergic reactions)",
+                    "heb": "תגובות אנפילקטיות (תגובות אלרגיות חמורות)"
+                },
+                {
+                    "eng": "abnormal behavior",
+                    "heb": "התנהגות לא תקינה"
+                },
+                {
+                    "eng": "emotional disorders",
+                    "heb": "הפרעות רגשיות"
+                },
+                {
+                    "eng": "depression",
+                    "heb": "דיכאון"
+                },
+                {
+                    "eng": "hallucinations",
+                    "heb": "הזיות"
+                },
+                {
+                    "eng": "insomnia",
+                    "heb": "נדודי שינה"
+                },
+                {
+                    "eng": "concentration disorders",
+                    "heb": "הפרעות בריכוז"
+                },
+                {
+                    "eng": "increased restlessness and motion",
+                    "heb": "חוסר מנוחה ותנועתיות מוגברת"
+                },
+                {
+                    "eng": "convulsions",
+                    "heb": "התכווצויות"
+                },
+                {
+                    "eng": "nose bleeds",
+                    "heb": "דימום מהאף"
+                },
+                {
+                    "eng": "allergic skin reactions, rash, sweating, hives",
+                    "heb": "תגובות אלרגיות של העור, פריחה, הזעה, סרפדת"
+                },
+                {
+                    "eng": "If you experience any side effect, if any side effect gets worse, or if you experience a side effect not mentioned in this leaflet, consult your doctor.",
+                    "heb": "אם הופיעה תופעת לוואי, אם אחת מתופעות הלוואי מחמירה או כאשר אתה סובל מתופעת לוואי שלא צוינה בעלון, עליך להתייעץ עם הרופא "
+                },
+                {
+                    "eng": "Side effects can be reported to the Ministry of Health by clicking on the link “Reporting side effects following drug treatment” found on the Ministry of Health homepage that directs you to the online form for reporting side effects, or by entering the link:",
+                    "heb": "ניתן לדווח על תופעות לוואי למשרד הבריאות באמצעות לחיצה על הקישור \"דיווח על תופעות לוואי עקב טיפול תרופתי\" שנמצא בדף הבית של אתר משרד הבריאות המפנה לטופס המקוון לדיווח על תופעות לוואי, או ע\"י כניסה לקישור:"
+                }
+            ]
+        },
+        {
+            "title": "medicine storage",
+            "section_num": "5",
+            "data": [
+                {
+                    "eng": "5. How to store the medicine? ",
+                    "heb": "5. איך לאחסן את התרופה?"
+                },
+                {
+                    "eng": "Avoid poisoning! This medicine, and any other medicine, should be kept in a closed place out of the reach and sight of children and/or infants in order to avoid poisoning. Do not induce vomiting unless explicitly instructed to do so by the doctor.",
+                    "heb": "מנע הרעלה! תרופה זו וכל תרופה אחרת יש לשמור במקום סגור מחוץ להישג ידם וטווח ראייתם של ילדים ו/או תינוקות ועל-ידי כך תמנע הרעלה. אל תגרום להקאה ללא הוראה מפורשת מהרופא."
+                },
+                {
+                    "eng": "Do not use the medicine after the expiry date (exp. date) that appears on the package. The expiry date refers to the last day of that month.",
+                    "heb": "אין להשתמש בתרופה אחרי תאריך התפוגה (exp. date) המופיע על גבי האריזה. תאריך התפוגה מתייחס ליום האחרון של אותו חודש."
+                },
+                {
+                    "eng": "Store below 25˚C in the original package to protect from light and moisture.",
+                    "heb": "יש לאחסן מתחת ל-C,25° באריזה המקורית כדי להגן מאור ולחות"
+                }
+            ]
+        },
+        {
+            "title": "additional information",
+            "section_num": "6",
+            "data": [
+                {
+                    "eng": "6. Additional information ",
+                    "heb": "6. מידע נוסף "
+                },
+                {
+                    "eng": "In addition to the active ingredients, the medicine also contains: ",
+                    "heb": "נוסף על החומרים הפעילים התרופה מכילה גם:"
+                },
+                {
+                    "eng": "What the medicine looks like and contents of the pack: ",
+                    "heb": "כיצד נראית התרופה ומה תוכן האריזה"
+                },
+                {
+                    "eng": "Minirin Melt 120 mcg – a white, round tablet with two drops embossed on one side of the tablet.",
+                    "heb": "מינירין מלט 120 מק\"ג טבלייה לבנה, עגולה שמוטבעות עליה שתי טיפות בצד אחד של הטבלייה."
+                },
+                {
+                    "eng": "Minirin Melt 60 mcg – a white, round tablet with one drop embossed on one side of the tablet",
+                    "heb": "מינירין מלט 60 מק\"ג: טבלייה לבנה, עגולה שמוטבעת עליה טיפה אחת בצד אחד של הטבלייה."
+                },
+                {
+                    "eng": "The medicines are supplied in packs containing 30 tablets.",
+                    "heb": "התכשירים מגיעים באריזות המכילות 30 טבליות."
+                },
+                {
+                    "eng": "Registration holder’s name and address: ",
+                    "heb": "בעל הרישום וכתובתו:"
+                },
+                {
+                    "eng": "Ferring Pharmaceuticals Ltd., 8 Hashita St., Industrial Park Caesarea 3088900",
+                    "heb": "פרינג פרמצאוטיקלס בע\"מ, רח' השיטה 8, פארק תעשייה קיסריה 3088900."
+                },
+                {
+                    "eng": "Manufacturer’s name and address: Ferring GmbH, Kiel, Germany",
+                    "heb": "שם היצרן וכתובתו: פרינג GmbH, קיל, גרמניה."
+                },
+                {
+                    "eng": "Revised in September 2022 according to MOH guidelines. ",
+                    "heb": "נערך בספטמבר 2022 בהתאם להנחיות משרד הבריאות."
+                },
+                {
+                    "eng": "Registration number of the medicine in the Ministry of Health’s National Drug Registry: ",
+                    "heb": "מספר רישום התרופה בפנקס התרופות הממלכתי במשרד הבריאות:"
+                }
+            ]
+        }
+    ]
+}
