@@ -37,7 +37,8 @@ class TranslationAccuracyTest(unittest.TestCase):
                 )
                 translation_response = self.translation_manager.translate(
                     translation_request, 
-                    evaluation_leaflet_data=leaflet_data
+                    evaluation_leaflet_data=leaflet_data,
+                    evaluate=True
                 ).translated_text
 
 if __name__ == '__main__':

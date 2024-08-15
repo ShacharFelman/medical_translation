@@ -24,7 +24,6 @@ class TranslationManager(metaclass=SingletonMeta):
         self.use_async = os.getenv('ASYNC_TRANSLATE', '0').lower() in ('1', 'true', 'yes')
 
 
-
     def initialize(self):
         self._initialized = True
 
@@ -33,7 +32,7 @@ class TranslationManager(metaclass=SingletonMeta):
         return self._initialized
 
 
-    def translate(self, translation_request: TranslationRequest, evaluation_leaflet_data: Optional[EvaluationLeafletData] = None) -> TranslationResponse:
+    def translate(self, translation_request: TranslationRequest, evaluation_leaflet_data: Optional[EvaluationLeafletData] = None, evaluate: bool = False) -> TranslationResponse:
         if not self.is_initialized():
             raise RuntimeError("TranslationManager is not initialized")
 
@@ -63,9 +62,15 @@ class TranslationManager(metaclass=SingletonMeta):
                     raise InvalidUserInputError("Invalid Input")
 
             if self.use_async:
-                all_translations = asyncio.run(self.handler.translate_async(translation_request.textInput, evaluation_leaflet_data=evaluation_leaflet_data))
+                all_translations = asyncio.run(self.handler.translate_async(translation_request.textInput,
+                                                                            evaluation_leaflet_data=evaluation_leaflet_data,
+                                                                            evaluate=evaluate
+                                                                            ))
             else:
-                all_translations = self.handler.translate(translation_request.textInput, evaluation_leaflet_data=evaluation_leaflet_data)
+                all_translations = self.handler.translate(translation_request.textInput,
+                                                          evaluation_leaflet_data=evaluation_leaflet_data,
+                                                          evaluate=evaluate
+                                                          )
 
 
             successful_translations = [t for t in all_translations if self._is_translation_successful(t)]

@@ -1,9 +1,8 @@
-from services.evaluation.evaluators import EvaluationStrategy
 from utils.logger import logger
 from typing import List, Union
 from jiwer import per
 
-class PEREvaluator(EvaluationStrategy):
+class PEREvaluator():
     def evaluate(self, reference_sentences: Union[str, List[str]], 
                  hypothesis_sentences: Union[str, List[str]], 
                  source_sentences: Union[str, List[str]] = None) -> float:

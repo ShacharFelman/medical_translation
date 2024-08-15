@@ -17,7 +17,7 @@ class BaseTranslationHandler:
 
 
     async def translate_async(self, text_input: str, **kwargs) -> List[TranslationEntity]:
-        return await self.translate_text_async(text_input)
+        return await self.translate_text_async(text_input, **kwargs)
 
 
     def translate_text(self, text_input: str, **kwargs) -> List[TranslationEntity]:

@@ -1,9 +1,8 @@
-from services.evaluation.evaluators import EvaluationStrategy
 from utils.logger import logger
 from typing import List, Union
 from sacrebleu.metrics import CHRF
 
-class CHRFEvaluator(EvaluationStrategy):
+class CHRFEvaluator():
     def __init__(self):
         self.chrf = CHRF()
 
@@ -12,7 +11,7 @@ class CHRFEvaluator(EvaluationStrategy):
                  candidate: str
                  ) -> float:
         try:
-            reference, candidate, source = self._preprocess_input(reference, candidate)
+            reference, candidate = self._preprocess_input(reference, candidate)
 
             if not reference or not candidate:
                 logger.warning("Empty input: reference or hypothesis sentences are empty.")

@@ -10,7 +10,7 @@ class EvaluationScoreType(Enum):
     # PER     = 'per'
 
     @classmethod
-    def get_types() -> List[str]:
+    def get_types(cls) -> List[str]:
         return [score_type.value for score_type in EvaluationScoreType]
 
 class BLEUScoreType(Enum):
@@ -22,7 +22,7 @@ class BLEUScoreType(Enum):
     # TOKENIZED_METHOD7_WEIGHTS   = 'tokenized_method7_weights'
 
     @classmethod
-    def get_types() -> List[str]:
+    def get_types(cls) -> List[str]:
         return [score_type.value for score_type in BLEUScoreType]
 
 EVALUATION_SCORE_TYPES = [score_type.value for score_type in BLEUScoreType]

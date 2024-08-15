@@ -1,9 +1,8 @@
-from services.evaluation.evaluators import EvaluationStrategy
 from utils.logger import logger
 from typing import List, Union
 # import pyter
 
-class TEREvaluator(EvaluationStrategy):
+class TEREvaluator():
     def evaluate(self, reference_sentences: Union[str, List[str]], 
                  hypothesis_sentences: Union[str, List[str]], 
                  source_sentences: Union[str, List[str]] = None) -> float:

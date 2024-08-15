@@ -9,13 +9,14 @@ class BLEUEvaluator:
     def __init__(self):
         pass
 
-    def evaluate(self, reference: str, 
+    def evaluate(self,
+                 reference: str, 
                  candidate: str, 
                  evaluation_type: str = None) -> float:
         
         try:
             eval_type = evaluation_type.lower()
-            ref, cand = self._preprocess_input(reference, candidate, evaluation_type)
+            ref, cand = self._preprocess_input(reference, candidate, eval_type)
                
             if not ref or not cand:
                 logger.warning("Empty input: reference or candidate is empty.")
@@ -25,21 +26,16 @@ class BLEUEvaluator:
                 score = corpus_bleu(ref, cand)
             elif evaluation_type == BLEUScoreType.TOKENIZED_METHOD1.value:
                 score = sentence_bleu(ref, cand, smoothing_function=SmoothingFunction().method1)
-            elif evaluation_type == BLEUScoreType.TOKENIZED_METHOD7.value:
-                score = sentence_bleu(ref, cand, smoothing_function=SmoothingFunction().method7)
             elif evaluation_type == BLEUScoreType.TOKENIZED_METHOD1_WEIGHTS.value:
                 weights = self._calculate_weights(ref, cand)
                 score = sentence_bleu(ref, cand, weights=weights, smoothing_function=SmoothingFunction().method1)
-            elif evaluation_type == BLEUScoreType.TOKENIZED_METHOD7_WEIGHTS.value:
-                weights = self._calculate_weights(ref, cand)
-                score = sentence_bleu(ref, cand, weights=weights, smoothing_function=SmoothingFunction().method7)
             else:
                 score = corpus_bleu(ref, cand)
 
             return score
 
         except Exception as e:
-            logger.error(f"An error occurred while calculating BLEU score using {evaluation_type}: {str(e)}")
+            logger.error(f"An error occurred while calculating BLEU score using {eval_type}: {str(e)}")
             return 0.0
     
     async def evaluate_async(self, reference: str, 
@@ -49,13 +45,16 @@ class BLEUEvaluator:
     
 
     def _preprocess_input(self, reference: str, candidate: str, evaluation_type: str):
-        ref, cand = reference.lower(), candidate.lower()
-        if "token" in evaluation_type.lower():
-            is_corpus = "corpus" in evaluation_type
-            return self._tokenize_input(ref, cand, is_corpus)
-        else:
-            return self._format_plain_input(ref, cand)
-
+        try:
+            ref, cand = reference.lower(), candidate.lower()
+            if "token" in evaluation_type.lower():
+                is_corpus = "corpus" in evaluation_type
+                return self._tokenize_input(ref, cand, is_corpus)
+            else:
+                return self._format_plain_input(ref, cand)
+        except Exception as e:
+            logger.error(f"An error occurred while preprocessing input: {str(e)}")
+            return None, None
 
     def _format_plain_input(self, reference, candidate):
         ref = [[reference]]
@@ -64,12 +63,15 @@ class BLEUEvaluator:
 
 
     def _tokenize_input(self, reference:str , candidate: str, is_corpus: bool):
-        ref = [word_tokenize(reference)]
-        cand = word_tokenize(candidate)
-        if is_corpus:
-            ref, cand = [ref], [cand]
-        return ref, cand
-
+        try:
+            ref = [word_tokenize(reference)]
+            cand = word_tokenize(candidate)
+            if is_corpus:
+                ref, cand = [ref], [cand]
+            return ref, cand
+        except Exception as e:
+            logger.error(f"An error occurred while tokenizing input: {str(e)}")
+            return None, None
 
     def _calculate_weights(self, reference: List[str], candidate: List[str]) -> List[float]:
         ref_length = len(reference[0])

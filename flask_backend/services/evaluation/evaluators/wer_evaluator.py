@@ -14,7 +14,7 @@ class WEREvaluator():
                 return 0.0
 
             total_wer = 0.0
-            for ref, cand in zip(ref, candidate):
+            for ref, cand in zip(reference, candidate):
                 wer_score = wer(reference=ref, hypothesis=cand)
                 total_wer += wer_score
 

@@ -17,7 +17,7 @@ services:
       - FLASK_DEBUG=1
       - TEST_DATA_DIRPATH=./tests/data
       - MONGODB_URI=mongodb://mongodb:27017/translation_test_db
-      - ASYNC_TRANSLATE=1
+      - ASYNC_TRANSLATE=0
       - TESTS_TO_RUN=${TESTS_TO_RUN:-all}
 
     ports:
