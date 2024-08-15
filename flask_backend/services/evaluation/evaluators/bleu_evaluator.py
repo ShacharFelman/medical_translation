@@ -11,7 +11,6 @@ class BLEUEvaluator:
 
     def evaluate(self, reference: str, 
                  candidate: str, 
-                 source: str = None,
                  evaluation_type: str = None) -> float:
         
         try:

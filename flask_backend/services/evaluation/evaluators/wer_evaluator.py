@@ -1,39 +1,39 @@
-from services.evaluation.evaluators import EvaluationStrategy
 from utils.logger import logger
-from typing import List, Union
 from jiwer import wer
 
-class WEREvaluator(EvaluationStrategy):
-    def evaluate(self, reference_sentences: Union[str, List[str]], 
-                 hypothesis_sentences: Union[str, List[str]], 
-                 source_sentences: Union[str, List[str]] = None) -> float:
+class WEREvaluator():
+    def evaluate(self,
+                 reference:str, 
+                 candidate: str 
+                 ) -> float:
         try:
-            if isinstance(reference_sentences, str):
-                reference_sentences = [reference_sentences]
-            if isinstance(hypothesis_sentences, str):
-                hypothesis_sentences = [hypothesis_sentences]
-
-            if not reference_sentences or not hypothesis_sentences:
+            reference, candidate = self._preprocess_input(reference, candidate)
+            
+            if not reference or not candidate:
                 logger.warning("Empty input: reference or hypothesis sentences are empty.")
                 return 0.0
 
-            if len(reference_sentences) != len(hypothesis_sentences):
-                logger.warning("Mismatch in number of reference and hypothesis sentences.")
-                return 0.0
-
             total_wer = 0.0
-            for ref, hyp in zip(reference_sentences, hypothesis_sentences):
-                wer_score = wer(reference=ref, hypothesis=hyp)
+            for ref, cand in zip(ref, candidate):
+                wer_score = wer(reference=ref, hypothesis=cand)
                 total_wer += wer_score
 
-            average_wer = total_wer / len(reference_sentences)
+            average_wer = total_wer / len(ref)
             return average_wer
 
         except Exception as e:
             logger.error(f"An error occurred while calculating WER score: {str(e)}")
             return 0.0
         
-    async def evaluate_async(self, reference_sentences: Union[str, List[str]], 
-                 hypothesis_sentences: Union[str, List[str]], 
-                 source_sentences: Union[str, List[str]] = None) -> float:
-        return self.evaluate(reference_sentences, hypothesis_sentences, source_sentences)
+    async def evaluate_async(self,
+                             reference:str,
+                             candidate: str
+                             ) -> float:
+        return self.evaluate(reference, candidate)
+    
+
+    def _preprocess_input(self, reference: str, candidate: str):
+        ref, cand = reference.lower(), candidate.lower()
+        ref     = [reference]
+        cand    = [candidate]
+        return ref, cand

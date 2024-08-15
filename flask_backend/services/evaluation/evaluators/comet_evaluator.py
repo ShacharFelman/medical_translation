@@ -98,4 +98,4 @@ class COMETEvaluator():
         ref     = [reference]
         cand    = [candidate]
         source  = [source]
-        return ref, cand
+        return ref, cand, source
