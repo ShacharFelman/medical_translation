@@ -12,10 +12,19 @@ mongo_client = MongoDBClient.get_instance()
 evaluation_manager = EvaluationManager()
 
 # Set to True to override the existing scores
-override_bleu = True
-override_comet = False
-override_chrf = False
-override_wer = False
+overrides_scores = {
+    EvaluationScoreType.BLEU.value:     False,
+    EvaluationScoreType.COMET.value:    False,
+    EvaluationScoreType.CHRF.value:     False,
+    EvaluationScoreType.WER.value:      False
+}
+
+override_bleu_scores = {
+    BLEUScoreType.PLAIN_CORPUS.value:               False,
+    BLEUScoreType.TOKENIZED_CORPUS.value:           False,
+    BLEUScoreType.TOKENIZED_METHOD1.value:          False,
+    BLEUScoreType.TOKENIZED_METHOD1_WEIGHTS.value:  False
+}
 
 def update_scores():
     # Fetch all translation records from the database
@@ -73,102 +82,62 @@ def update_scores():
     logger.info(f"No changes were needed for {no_change_count} records.")
     logger.info(f"Encountered errors with {error_count} records.")
 
-
+# Done!
 def get_all_records_from_db() -> List[TranslationRecordEntity]:
     all_records = mongo_client.get_all_translation_records()
     return all_records
 
-
+# Done!
 def filter_records_with_missing_scores(records: List[TranslationRecordEntity]) -> List[TranslationRecordEntity]:
     filtered_records = []
     for record in records:
         if record.translations:
             for translation in record.translations:
-                if is_translation_missing_score(translation):
+                if is_translation_missing_scores(translation):
                     filtered_records.append(record)
                     break
     logger.info(f"Found {len(filtered_records)} records with missing scores")
     return filtered_records
 
 
-def get_translation_missing_scores(translation: TranslationEntity):
-    score_types = EvaluationScoreType.get_types()
-    bleu_types = BLEUScoreType.get_types()
+# Done!
+def is_translation_missing_scores(translation: TranslationEntity):
+    if is_evaluation_scores_missing(translation):
+        return True   
 
-    if (not translation.evaluation_scores
-        or translation.evaluation_scores is None):
-        return True, score_types, bleu_types
-    
-    missing_scores = [type for type in score_types if translation.evaluation_scores.get(type) is None]
+    missing_scores = get_missing_score_types(translation)
     if (len(missing_scores) == 0):
-        return False, None, None
-
-    if EvaluationScoreType.BLEU.value not in missing_scores:
-        bleu_evaluation_scores = translation.evaluation_scores.get(EvaluationScoreType.BLEU.value)
-        missing_bleu_scores = [type for type in bleu_types if bleu_evaluation_scores.get(type).get is None]
-        if (len(missing_bleu_scores) == 0):
-            return True, missing_scores, None
-        else:
-            return True, missing_scores, missing_bleu_scores
-    else:
-            return True, missing_scores, bleu_types
-
-
-def is_bleu_plain_corpus_missing(evaluation_scores: Dict[str, Any]):
-    if not evaluation_scores.bleu_plain_corpus or evaluation_scores.bleu_plain_corpus is None or override_bleu:
-        return True
-    else:
-        return False
-
-def is_bleu_token_corpus_missing(evaluation_scores: Dict[str, Any]):
-    if not evaluation_scores.bleu_token_corpus or evaluation_scores.bleu_token_corpus is None or override_bleu:
-        return True
-    else:
-        return False
-    
-def is_bleu_token_meth1_missing(evaluation_scores: Dict[str, Any]):
-    if not evaluation_scores.bleu_token_meth1 or evaluation_scores.bleu_token_meth1 is None or override_bleu:
-        return True
-    else:
-        return False
-    
-def is_bleu_token_meth7_missing(evaluation_scores: Dict[str, Any]):
-    if not evaluation_scores.bleu_token_meth7 or evaluation_scores.bleu_token_meth7 is None or override_bleu:
-        return True
-    else:
-        return False
-    
-def is_bleu_token_meth1_w_missing(evaluation_scores: Dict[str, Any]):
-    if not evaluation_scores.bleu_token_meth1_w or evaluation_scores.bleu_token_meth1_w is None or override_bleu:
-        return True
-    else:
-        return False
-    
-def is_bleu_token_meth7_w_missing(evaluation_scores: Dict[str, Any]):
-    if not evaluation_scores.bleu_token_meth7_w or evaluation_scores.bleu_token_meth7_w is None or override_bleu:
-        return True
-    else:
-        return False
-
-def is_comet_score_missing(evaluation_scores: Dict[str, Any]):
-    if not evaluation_scores.comet_score or evaluation_scores.comet_score is None or override_comet:
-        return True
-    else:
-        return False
-
-
-def is_chrf_score_missing(evaluation_scores: Dict[str, Any]):
-    if not evaluation_scores.chrf_score or evaluation_scores.chrf_score is None or override_chrf:
-        return True
-    else:
-        return False
+        missing_bleu_scores = get_missing_bleu_types(translation)
+        if len(missing_bleu_scores) == 0:
+            return False
+        
+    return True
     
 
-def is_wer_score_missing(evaluation_scores: Dict[str, Any]):
-    if not evaluation_scores.wer_score or evaluation_scores.wer_score is None or override_wer:
-        return True
-    else:
-        return False
+# Done!
+def is_evaluation_scores_missing(translation: TranslationEntity):
+    return not translation.evaluation_scores or translation.evaluation_scores is None
+
+
+# Done!
+def get_missing_score_types(translation: TranslationEntity):
+    score_types = EvaluationScoreType.get_types()
+    return [type for type in score_types if translation.evaluation_scores.get(type) is None or overrides_scores.get(type)]
+
+
+# Done!
+def get_missing_bleu_types(translation: TranslationEntity):
+    bleu_name = EvaluationScoreType.BLEU.value
+    missing_bleu_scores = BLEUScoreType.get_types()
+    if is_evaluation_scores_missing(translation):
+        return missing_bleu_scores
+    
+    if bleu_name in get_missing_score_types(translation) or overrides_scores.get(bleu_name):
+        return missing_bleu_scores
+
+    bleu_scores = translation.evaluation_scores.get(bleu_name)
+    missing_bleu_scores = [type for type in missing_bleu_scores if bleu_scores.get is None or override_bleu_scores.get(type)]
+    return missing_bleu_scores
 
 
 def update_translation_scores(tranalsation: TranslationEntity, human_translation: str, input_text: str):

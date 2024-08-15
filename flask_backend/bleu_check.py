@@ -3,7 +3,6 @@ from services.evaluation.evaluators.bleu_evaluator import BLEUEvaluator
 from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction, corpus_bleu
 from utils.logger import logger
 from nltk.tokenize import word_tokenize
-from typing import List, Union
 
 
 bleu_evaluator = BLEUEvaluator()
