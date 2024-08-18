@@ -13,7 +13,7 @@ evaluation_manager = EvaluationManager()
 
 # Set to True to override the existing scores
 overrides_scores = {
-    EvaluationScoreType.BLEU.value:     False,
+    EvaluationScoreType.BLEU.value:     True,
     EvaluationScoreType.COMET.value:    False,
     EvaluationScoreType.CHRF.value:     False,
     EvaluationScoreType.WER.value:      False
