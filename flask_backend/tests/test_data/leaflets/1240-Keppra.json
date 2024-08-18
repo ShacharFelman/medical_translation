@@ -1,0 +1,613 @@
+{
+    "title": "Keppra coated tablets",
+    "index": 0,
+    "dir_index": 1240,
+    "title_lang": {
+        "title_eng": "Keppra coated tablets",
+        "title_heb": "קפרה טבליות מצופות"
+    },
+    "sections": [
+        {
+            "title": "General",
+            "section_num": "0",
+            "data": [
+                {
+                    "eng": "PATIENT PACKAGE INSERT IN ACCORDANCE WITH THE  PHARMACISTS’ REGULATIONS (PREPARATIONS) - 1986 ",
+                    "heb": "עלון לצרכן לפי תקנות הרוקחים (תכשירים) התשמ\"ו – 1986"
+                },
+                {
+                    "eng": " The medicine is dispensed with a doctor’s prescription only",
+                    "heb": "התרופה משווקת על פי מרשם רופא בלבד"
+                },
+                {
+                    "eng": "Keppra 250 mg coated tablets",
+                    "heb": "קפרה 250 מ\"ג טבליות מצופות"
+                },
+                {
+                    "eng": "Keppra 500 mg coated tablets",
+                    "heb": "קפרה 500 מ\"ג טבליות מצופות"
+                },
+                {
+                    "eng": "Keppra 1000 mg coated tablets",
+                    "heb": "קפרה 1000 מ\"ג טבליות מצופות"
+                },
+                {
+                    "eng": " The active ingredient and its quantity:",
+                    "heb": "החומר הפעיל וכמותו:"
+                },
+                {
+                    "eng": "Each tablet of Keppra 250 mg contains:  Levetiracetam 250 mg",
+                    "heb": "כל טבליה של קפרה 250 מ\"ג מכילה: לבטיראצטם 250 מ\"ג."
+                },
+                {
+                    "eng": "Each tablet of Keppra 500 mg contains:  Levetiracetam 500 mg",
+                    "heb": "כל טבליה של קפרה 500 מ\"ג מכילה: לבטיראצטם 500 מ\"ג."
+                },
+                {
+                    "eng": "Each tablet of Keppra 1000 mg contains:  Levetiracetam 1000 mg",
+                    "heb": "כל טבליה של קפרה 1000 מ\"ג מכילה: לבטיראצטם 1000 מ\"ג."
+                },
+                {
+                    "eng": "For a list of inactive ingredients and allergens - see  section 6.",
+                    "heb": "לרשימת החומרים הבלתי פעילים ואלרגנים - ראה סעיף 6."
+                },
+                {
+                    "eng": "Read the entire leaflet carefully before using the medicine. This leaflet contains concise information about the medicine. If you have any other questions, refer to the doctor or the pharmacist. This medicine has been prescribed for treatment of your illness. Do not pass it on to others. It may harm them even if it seems to you that their medical condition is similar.",
+                    "heb": "קרא בעיון את העלון עד סופו בטרם תשתמש בתרופה. עלון זה מכיל מידע תמציתי על התרופה. אם יש לך שאלות נוספות, פנה אל הרופא או אל הרוקח. תרופה זו נרשמה לטיפול במחלתך. אל תעביר אותה לאחרים. היא עלולה להזיקלהם אפילו אם נראה לך כי מצבם הרפואי דומה."
+                },
+                {
+                    "eng": " This medicine is not intended for use in babies and children under 4 years of age.",
+                    "heb": "התרופה אינה מיועדת לשימוש בתינוקות ובילדים מתחת לגיל 4 שנים."
+                }
+            ]
+        },
+        {
+            "title": "medicine intended for",
+            "section_num": "1",
+            "data": [
+                {
+                    "eng": "1. WHAT IS THE MEDICINE INTENDED FOR?",
+                    "heb": "1. למה מיועדת התרופה?"
+                },
+                {
+                    "eng": "1. As monotherapy in different types of epilepsy in adults from 16 years of age.",
+                    "heb": "1. כטיפול יחיד בסוגים שונים של אפילפסיה במבוגרים מעל גיל 16."
+                },
+                {
+                    "eng": " 2. As adjunctive therapy to other anti-epileptic medicines in:",
+                    "heb": "2. כטיפול נילווה לתרופות אנטי אפילפטיות אחרות ב:"
+                },
+                {
+                    "eng": " • Adult and children patients from 4 years of age with different types of epilepsy.",
+                    "heb": "חולים מבוגרים וילדים מגיל 4, החולים בסוגים מסוימים של מחלת האפילפסיה."
+                },
+                {
+                    "eng": " • Adult and adolescent patients from 12 years of age with Juvenile Myoclonic Epilepsy or Idiopathic Generalized Epilepsy.",
+                    "heb": "חולים מבוגרים ומתבגרים מגיל 12 החולים באפילפסיה מסוג Juvenile Myoclonic Epilepsy או מסוג Idiopathic Generalised Epilepsy."
+                },
+                {
+                    "eng": "Therapeutic class: The active ingredient belongs to the anticonvulsants group.",
+                    "heb": "קבוצה תרפויטית: החומר הפעיל שייך לקבוצת חומרים נוגדי עוויתות."
+                }
+            ]
+        },
+        {
+            "title": "before using the medicine",
+            "section_num": "2",
+            "data": [
+                {
+                    "eng": " 2. Before using the medicine:",
+                    "heb": "2. לפני שימוש בתרופה:"
+                },
+                {
+                    "eng": "Do not use this medicine if:",
+                    "heb": "אין להשתמש בתרופה אם:"
+                },
+                {
+                    "eng": "You are sensitive (allergic) to Levetiracetam or other Pyrrolidone derivatives or any of the additional components the medicine contains (see section 6 below).",
+                    "heb": "אתה רגיש (אלרגי) ללבטיראצטם או לנגזרות אחרות של פירולידון או לכל אחד מהמרכיבים הנוספים אשר מכילה התרופה (ראה סעיף 6 להלן)."
+                },
+                {
+                    "eng": " Special warnings regarding the use of the medicine:",
+                    "heb": "אזהרות מיוחדות הנוגעות לשימוש בתרופה:"
+                },
+                {
+                    "eng": "Before treatment with Keppra, inform the doctor if:",
+                    "heb": "לפני הטיפול בקפרה, ספר לרופא אם:"
+                },
+                {
+                    "eng": "You suffer from renal impairment. The doctor may change the medicine’s dosage.",
+                    "heb": "הנך סובל מליקוי בתפקוד הכליה. ייתכן שהרופא ישנה את המינון של התרופה."
+                },
+                {
+                    "eng": "You observed slower growth or unexpected puberty of your child, contact the attending doctor.",
+                    "heb": "הבחנת בהאטה בצמיחה או בהתפתחות מינית לא צפויה של ילדך, יש לפנות לרופא המטפל."
+                },
+                {
+                    "eng": "You experience symptoms of depression and/or suicidal thoughts. A small number of people who were treated with anti-epileptic medicines such as Keppra have experienced suicidal or destructive thoughts towards themselves.",
+                    "heb": "אתה חווה תסמינים של דכאון ו/או מחשבות אובדניות. מספר מועט של אנשים אשר טופלו בתרופות אנטי-אפילפטיות כגון קפרה חוו מחשבות הרסניות או אובדניות כלפי עצמם."
+                },
+                {
+                    "eng": "Taking anticonvulsants may increase the risk for suicidal actions or thoughts.",
+                    "heb": "נטילת תרופות נגד עוויתות עלולה להגביר את הסיכון לפעולות או מחשבות אובדניות."
+                },
+                {
+                    "eng": " You and your family members must pay attention to changes in mood and behavior patterns. Watch for signs indicating risk of suicide, such as: talking or thinking about wanting to hurt yourself, introversion and withdrawal from family and friends, depression or worsening of existing depression, preoccupation with the subject of death, abandoning or giving away prized possessions.",
+                    "heb": "עליך ועל בני משפחתך לשים לב לשינויים במצב הרוח ובדפוסי התנהגות. יש לעקוב אחרי סימנים המעידים על סיכון להתאבדות כגון: דיבורים או מחשבות על הרצון להזיק לעצמך, התכנסות בתוך עצמך והתרחקות ממשפחה וחברים, דיכאון או החמרה בדיכאון קיים, התעסקות בנושא המוות, הפקרה או מסירה של נכסים יקרי ערך."
+                },
+                {
+                    "eng": "You or anyone in your family has a history of irregular heart rate (according to an EKG test) or if you have a medical condition or you are taking medicines that can cause irregular heart rate or disturbances in salt balance.  ",
+                    "heb": "יש לך או למישהו מבני משפחתך היסטוריה של קצב לב לא סדיר (על פי בדיקת אק\"ג) או אם יש לך מחלה או שאתה נוטל תרופות שיכולות לגרום לאי סדירות בקצב הלב או להפרעות במאזן המלח."
+                },
+                {
+                    "eng": "One of the following side effects worsens or persists for more than a few days: ",
+                    "heb": "אחת מתופעות הלוואי הבאות מחמירה או נמשכת למעלה ממספר ימים:"
+                },
+                {
+                    "eng": "Unusual thoughts, irritability or more aggressive reactions than usual, or if you or your family and people around you observe significant changes in your mood or behavior.",
+                    "heb": "מחשבות שאינן רגילות, תחושת רגזנות או תגובתיות תקיפה יותר מהרגיל, או אם אתה או בני משפחתך והסובבים אותך מבחינים בשינויים משמעותיים במצב הרוח או בהתנהגותך."
+                },
+                {
+                    "eng": "Epilepsy worsening: rarely, you may experience increased frequency or worsening of the attacks, particularly during the first month following the beginning of treatment or upon dosage increase. If during treatment the frequency of the attacks increases (e.g., more attacks) or if they worsen, contact the treating doctor as soon as possible. In a very rare form of early-onset epilepsy (epilepsy associated with SCN8A mutations) that causes multiple types of seizures and impairs skills, the seizures may persist or worsen during the treatment.",
+                    "heb": "החמרה באפילפסיה: לעיתים נדירות, ייתכן שתחווה החמרה בהתקפים או עליה בתדירותם, בעיקר במהלך החודש הראשון לאחר תחילת הטיפול או העלאת מינון. במידה ובמהלך הטיפול חלה עליה בתדירות ההתקפים (כגון עליה במספרם) או בחומרתם, יש לפנות לרופא המטפל בהקדם האפשרי . בצורה נדירה מאד של אפילפסיה מגיל צעיר (אפילפסיה הקשורה למוטציות SCN8A) הגורמת פרכוסים מסוגים רבים ופוגעת בכישורים, ייתכן שהפרכוסים ימשכו או יחמירו במהלך הטיפול."
+                },
+                {
+                    "eng": "In case one or more of these signs or any other alarming behavioral pattern appears – contact the doctor immediately!",
+                    "heb": "במקרה של הופעת אחד או יותר מסימנים אלה או כל דפוס התנהגות מדאיג אחר - יש לפנות לרופא מיד!"
+                },
+                {
+                    "eng": "Children and adolescents",
+                    "heb": "ילדים ומתבגרים"
+                },
+                {
+                    "eng": " Keppra is not intended to be a monotherapy for children and adolescents under the age of 16.",
+                    "heb": "קפרה אינה מיועדת כטיפול יחיד לילדים ומתבגרים מתחת לגיל 16."
+                },
+                {
+                    "eng": "Drug interactions:",
+                    "heb": "אינטראקציות/תגובות בין תרופתיות:"
+                },
+                {
+                    "eng": "If you are taking or have recently taken other medicines including non-prescription medicines and food supplements, tell the doctor or the pharmacist. Especially if you are taking:",
+                    "heb": "אם אתה לוקח, או אם לקחת לאחרונה, תרופות אחרות כולל תרופות ללא מרשם ותוספי תזונה, ספר על כך לרופא או לרוקח. במיוחד אם אתה לוקח:"
+                },
+                {
+                    "eng": "Macrogol (laxative). Do not take Macrogol for an hour before or after taking Keppra, since it may reduce the medicine’s efficiency.",
+                    "heb": "מקרוגול (תרופה משלשלת). אין ליטול מקרוגול במשך שעה לפני או שעה אחרי נטילת קפרה מכיוון שהדבר עלול לפגום ביעילות התרופה."
+                },
+                {
+                    "eng": "Temozolomide. Liver function should be evaluated before starting a combination therapy of temozolomide and Keppra. In case a combination therapy has been decreed, liver function tests should be performed regularly during therapy and termination of the combined therapy should be considered as necessary.",
+                    "heb": "טמוזולומיד. יש לבצע הערכת תיפקודי כבד לפני התחלת טיפול משולב של טמוזולומיד וקפרה. במידה והוחלט על טיפול משולב, יש לבצע בדיקות תיפקודי כבד שגרתיות במהלך הטיפול המשולב ולשקול הפסקת הטיפול המשולב במידת הצורך."
+                },
+                {
+                    "eng": "Use of the medicine and food",
+                    "heb": "שימוש בתרופה ומזון"
+                },
+                {
+                    "eng": "The tablets should be taken with a sufficient amount of water (a glass of water). The medicine may be taken with or without food. After taking this medicine, you may feel a bitter taste.",
+                    "heb": "יש ליטול את הטבליות עם כמות מספקת של מים (כוס מים). ניתן ליטול את התרופה עם או ללא מזון. לאחר נטילת התרופה, ייתכן שתחוש טעם מר."
+                },
+                {
+                    "eng": " Use of the medicine and alcohol consumption",
+                    "heb": "שימוש בתרופה וצריכת אלכוהול"
+                },
+                {
+                    "eng": "No data is available regarding an interaction between alcohol and this medicine.",
+                    "heb": "אין מידע לגבי אינטראקציה של התרופה עם אלכוהול."
+                },
+                {
+                    "eng": " Pregnancy, breastfeeding and fertility",
+                    "heb": "הריון, הנקה ופוריות"
+                },
+                {
+                    "eng": "If you are pregnant, breastfeeding, thinking you might be pregnant or planning to become pregnant, you should consult the doctor before taking this medicine. Keppra may be used during pregnancy, if after careful evaluation the doctor deems this treatment necessary. Do not stop the treatment without consulting a doctor. The risk of causing congenital malformations in the fetus cannot be completely ruled out.",
+                    "heb": "אם את בהריון, מניקה, חושבת שאת עשויה להיות בהריון או מתכננת להרות, עלייך להיוועץ ברופא לפני נטילת תרופה זו. ניתן להשתמש בקפרה בזמן הריון, אם לאחר הערכה קפדנית הרופא חושב שטיפול זה הכרחי. אין להפסיק את הטיפול מבלי להיוועץ ברופא. לא ניתן לשלול לחלוטין את הסיכון לגרימת מומים מולדים בעובר."
+                },
+                {
+                    "eng": " Breastfeeding is not recommended during treatment with Keppra.",
+                    "heb": "לא מומלץ להניק בזמן הטיפול בקפרה."
+                },
+                {
+                    "eng": " Driving and operating machinery",
+                    "heb": "נהיגה ושימוש במכונות"
+                },
+                {
+                    "eng": " Keppra may impair your ability to drive or operate heavy machinery, because you might feel drowsy. This effect occurs primarily in the beginning of treatment and after increasing the dose. Do not drive or operate heavy machinery until you feel fit to perform these actions.",
+                    "heb": "קפרה עלולה לפגוע ביכולתך לנהוג או להפעיל מכונות מסוכנות, מכיוון שאתה עלול להרגיש ישנוני. תופעה זו מופיעה בעיקר בתחילת הטיפול ולאחר העלאת מינון. אין לנהוג או להפעיל מכונות מסוכנות עד שתרגיש כשיר לבצע פעולות אלה."
+                },
+                {
+                    "eng": " Children should be cautioned against riding a bicycle or playing near a road etc.",
+                    "heb": "באשר לילדים, יש להזהירם מרכיבה על אופניים או ממשחקים בקרבת הכביש וכדומה."
+                }
+            ]
+        },
+        {
+            "title": "how to use the medicine",
+            "section_num": "3",
+            "data": [
+                {
+                    "eng": " 3. How should you use the medicine?",
+                    "heb": "3. כיצד תשתמש בתרופה?"
+                },
+                {
+                    "eng": "Always use the preparation according to the doctor’s instructions. Check with the doctor or pharmacist if you are uncertain about the dosage and how to use the preparation.",
+                    "heb": "יש להשתמש בתכשיר תמיד בהתאם להוראות הרופא. עליך לבדוק עם הרופא או הרוקח אם אינך בטוח בנוגע למינון ואופן הטיפול בתכשיר."
+                },
+                {
+                    "eng": "The dosage and treatment regimen will be determined by the doctor only. Do not exceed the recommended dose.",
+                    "heb": "המינון ואופן הטיפול יקבעו על ידי הרופא בלבד. אין לעבור על המנה המומלצת."
+                },
+                {
+                    "eng": " Method of administration",
+                    "heb": "צורת הנטילה"
+                },
+                {
+                    "eng": "The tablets should be taken with a sufficient amount of water (a glass of water). The daily dose should be divided into 2 identical doses; one dose should be taken in the morning and one in the evening. Be sure to take the medicine at the same time every day.",
+                    "heb": "יש ליטול את הטבליות עם כמות מספקת של מים (כוס מים). יש לחלק את המינון היומי ל-2 מנות זהות ולקחת מנה בבוקר ומנה בערב. יש להקפיד על נטילת התרופה בזמנים קבועים."
+                },
+                {
+                    "eng": "Keppra tablets is not appropriate for use in children under 6 years of age, due to swallowing difficulties. Keppra oral solution (100 mg/ mL) is the preferred form of administration for children under 6 years old, for children and adolescents (6-17 years old) who weigh less than 50 kg, and when it is difficult to administer an accurate dose with tablets.",
+                    "heb": "קפרה טבליות אינה מתאימה לשימוש בילדים מתחת לגיל 6, בגלל קשיי בליעה. קפרה תמיסה לבליעה (100 מ\"ג/מ\"ל) היא צורת המתן המועדפת לילדים מתחת לגיל 6, לילדים ולמתבגרים (בגילאי 6-17) אשר שוקלים פחות מ-50 ק\"ג וכאשר יש קושי במתן מנה מדויקת באמצעות טבליות."
+                },
+                {
+                    "eng": " Crushing/halving/chewing",
+                    "heb": "כתישה/חציה/לעיסה"
+                },
+                {
+                    "eng": "Do not chew. The tablet is intended to be swallowed. No information is available regarding crushing/pulverizing the tablet. The tablet may be halved in order to facilitate swallowing, but not in order to divide it into equal parts. Once the tablet is halved, both its halves should be swallowed together immediately.",
+                    "heb": "אין ללעוס. הטבליה מיועדת לבליעה. אין מידע לגבי כתישה/ריסוק של הטבליה. ניתן לחצות את הטבליה על מנת להקל על הבליעה, אך לא על מנת לחלקה לחלקים שווים. יש לבלוע את שני החצאים יחד מיד לאחר החציה."
+                },
+                {
+                    "eng": " Duration of treatment",
+                    "heb": "משך הטיפול"
+                },
+                {
+                    "eng": "Keppra is used as a chronic treatment. Treatment with Keppra should be continued as long as your doctor tells you to continue with it.",
+                    "heb": "קפרה משמשת לטיפול כרוני. יש להתמיד בטיפול בקפרה כל עוד הרופא הנחה אותך להמשיך בטיפול."
+                },
+                {
+                    "eng": "Do not discontinue the treatment without an instruction from the doctor, since discontinuing the treatment in this way may increase your seizures.",
+                    "heb": "אין להפסיק את הטיפול ללא הנחיית הרופא כיוון שהפסקת הטיפול בצורה זו עלולה להגביר את ההתקפים."
+                },
+                {
+                    "eng": "If you took an overdose or a child swallowed this medicine by mistake, go to the doctor or the emergency room of the hospital and take the package of the medicine with you. The possible side effects in case of an overdose are: drowsiness, irritability, aggressiveness, impaired alertness, breathing suppression and death.",
+                    "heb": "אם נטלת מנת יתר או אם בטעות בלע ילד מן התרופה, פנה לרופא או לחדר מיון של בית חולים והבא את אריזת התרופה איתך. תופעות הלוואי האפשריות במקרה של מינון יתר הן: ישנוניות, עצבנות, תוקפנות, ירידה בערנות, דיכוי נשימה ותרדמת."
+                },
+                {
+                    "eng": "If you have forgotten to take this medicine at the required time, do not take a double dose. Contact the doctor for directions. Follow the treatment as recommended by the doctor.",
+                    "heb": "אם שכחת ליטול תרופה זו בזמן המיועד, אין ליטול מנה כפולה. פנה לרופא על מנת שינחה אותך מה לעשות. יש להתמיד בטיפול כפי שהומלץ על ידי הרופא."
+                },
+                {
+                    "eng": " If you stop taking the medicine:",
+                    "heb": "אם אתה מפסיק את נטילת התרופה:"
+                },
+                {
+                    "eng": "When discontinuing the treatment, Keppra should be stopped gradually in order to prevent an increase in seizures. If the doctor decides to stop the treatment with Keppra, he will instruct you how to reduce the use gradually.",
+                    "heb": "בהפסקת טיפול, יש להפסיק את נטילת קפרה באופן הדרגתי על מנת למנוע עליה בהתקפים. במידה והרופא יחליט על הפסקת הטיפול בקפרה, הוא ינחה אותך איך להפחית את השימוש באופן הדרגתי."
+                },
+                {
+                    "eng": "Do not take medicines in the dark! Check the label and the dose every time you take the medicine. Wear glasses if you need them.",
+                    "heb": "אין ליטול תרופות בחושך! בדוק התווית והמנה בכל פעם שהנך נוטל תרופה. הרכב משקפיים אם הנך זקוק להם."
+                },
+                {
+                    "eng": "If you have any other questions regarding use of the medicine, consult the doctor or the pharmacist.",
+                    "heb": "אם יש לך שאלות נוספות בנוגע לשימוש בתרופה, היוועץ ברופא או ברוקח."
+                }
+            ]
+        },
+        {
+            "title": "side effects",
+            "section_num": "4",
+            "data": [
+                {
+                    "eng": "4. Side effects:",
+                    "heb": "4. תופעות לוואי:"
+                },
+                {
+                    "eng": "As with any medicine, using Keppra may cause side effects in some users. Do not be alarmed when reading the list of side effects. You may not experience any of them.",
+                    "heb": "כמו בכל תרופה, השימוש בקפרה עלול לגרום לתופעות לוואי בחלק מהמשתמשים. אל תיבהל למקרא רשימת תופעות הלוואי, ייתכן שלא תסבול מאף אחת מהן."
+                },
+                {
+                    "eng": "Contact the doctor or the nearest emergency room immediately if you experience:",
+                    "heb": "יש לפנות מיד לרופא או לחדר המיון הקרוב אם אתה חווה:"
+                },
+                {
+                    "eng": "Weakness, dizziness or difficulty breathing. These may be the signs of a severe allergic (anaphylactic) reaction.",
+                    "heb": "חולשה, תחושת סחרור או קושי לנשום. אלה עלולים להיות סימנים של תגובה אלרגית (אנפילקטית) חמורה."
+                },
+                {
+                    "eng": "Swelling of the face, lips, tongue and throat (Quincke’s oedema).",
+                    "heb": "התנפחות הפנים, שפתיים, לשון וגרון (Quincke’s oedema)."
+                },
+                {
+                    "eng": "Flu-like symptoms and facial rash accompanied by disseminated rash with high fever, high levels of liver enzymes and one type of white blood cells (eosinophils) in blood tests, and enlarged lymph nodes (DRESS syndrome).",
+                    "heb": "תסמינים דמויי שפעת ופריחה על הפנים המלווה בפריחה מפושטת עם חום גבוה, רמות גבוהות של אנזימי כבד ושל סוג תאי דם לבנים (אאזנופילים) בבדיקות הדם ובלוטות לימפה מוגדלות (תסמונת DRESS)."
+                },
+                {
+                    "eng": "Decrease in urine volume, fatigue, nausea, vomiting, confusion and swelling of the legs, ankles and feet. These may be signs of a sudden decrease in renal function.",
+                    "heb": "ירידה בנפח השתן, עייפות, בחילה, הקאה, בלבול והתנפחות הרגליים, קרסוליים וכפות הרגליים. אלה עלולים להיות סימנים לירידה פתאומית בתיפקוד הכלייתי."
+                },
+                {
+                    "eng": "A skin rash which may form blisters and look like small targets (dark spots surrounded by a lighter area, surrounded by a darker-shade ring) (erythema multiforme).",
+                    "heb": "פריחה בעור אשר עלולה ליצור שלפוחיות ולהראות כמו מטרות קטנות (נקודות כהות מוקפות באזור בהיר יותר, המוקף בטבעת כהה) (erythema multiforme)."
+                },
+                {
+                    "eng": "A disseminated rash with blisters and skin peeling, especially around the mouth, nose, eyes and genitalia (Stevens-Johnson syndrome).",
+                    "heb": "פריחה מפושטת עם שלפוחיות והתקלפות של העור, במיוחד סביב הפה, האף, העיניים ואברי המין (סינדרום סטיבנס-ג'ונסון)."
+                },
+                {
+                    "eng": "A more severe rash which causes skin peeling in more than 30% of body surface area (toxic epidermal necrolysis).",
+                    "heb": "פריחה חמורה יותר אשר גורמת להתקלפות של העור ביותר מ-30% משטח הגוף (toxic epidermal necrolysis)."
+                },
+                {
+                    "eng": "Signs of severe mental changes or if anyone around you observes signs of confusion, sleepiness, memory loss (amnesia), memory impairment (forgetfulness), abnormal behavior or other neurological signs which include involuntary or uncontrolled movements. These may be symptoms of encephalopathy.",
+                    "heb": "סימנים לשינויים נפשיים חמורים או אם מישהו סביבך מבחין בסימנים של בלבול, ישנוניות, איבוד זכרון (אמנזיה), פגיעה בזיכרון (שיכחה), התנהגות לא רגילה או סימנים נוירולוגים אחרים הכוללים תנועות לא רצוניות או בלתי נשלטות. אלה עלולים להיות תסמינים של אנצפלופתיה."
+                },
+                {
+                    "eng": "The most common side effects are nasopharyngitis, drowsiness, tiredness and dizziness.",
+                    "heb": "תופעות הלוואי השכיחות ביותר הינן דלקת באף ובלוע, ישנוניות, עייפות וסחרחורת."
+                },
+                {
+                    "eng": "Side effects such as sleepiness, fatigue and dizziness may appear more frequently in the beginning of the treatment or when the dosage is increased. These effects usually subside with time. Very common side effects - side effects that occur in more than one out of ten users:",
+                    "heb": "תופעות לוואי כגון ישנוניות, עייפות וסחרחורת, עשויות להיות שכיחות יותר בתחילת הטיפול או בעת העלאת מינון. תופעות אלו בדרך כלל פוחתות עם הזמן. תופעות לוואי שכיחות מאוד - תופעות שמופיעות ביותר ממשתמש אחד מעשרה:"
+                },
+                {
+                    "eng": "Nasopharyngitis",
+                    "heb": "דלקת באף ובלוע."
+                },
+                {
+                    "eng": "Drowsiness, headache.",
+                    "heb": "ישנוניות, כאב ראש."
+                },
+                {
+                    "eng": "Common side effects - side effects that occur in 1-10 out of 100 users:",
+                    "heb": "תופעות לוואי שכיחות - תופעות שמופיעות ב-1-10 משתמשים מתוך 100:"
+                },
+                {
+                    "eng": "Loss of appetite (anorexia).",
+                    "heb": "חוסר תיאבון (אנורקסיה)."
+                },
+                {
+                    "eng": "Depression, hostility or aggressiveness, anxiety, insomnia, irritability or restlessness.",
+                    "heb": "דיכאון, עוינות או תוקפנות, חרדה, נדודי שינה, עצבנות או אי שקט."
+                },
+                {
+                    "eng": "Spasms, balance disturbances, dizziness, lethargy (a state of lack of energy and lack of enthusiasm), tremor.",
+                    "heb": "עוויתות, הפרעות בשיווי המשקל, סחרחורת, רדמת (לתרגיה - מצב של חוסר אנרגיה וחוסר חשק), רעד."
+                },
+                {
+                    "eng": "Vertigo (sensation of giddiness).",
+                    "heb": "ורטיגו (תחושת סחרור)."
+                },
+                {
+                    "eng": "Cough.",
+                    "heb": "שיעול."
+                },
+                {
+                    "eng": "Abdominal pain, diarrhea, indigestion, vomiting, nausea.",
+                    "heb": "כאב בטן, שלשול, הפרעות בעיכול, הקאה, בחילה."
+                },
+                {
+                    "eng": "Rash.",
+                    "heb": "פריחה."
+                },
+                {
+                    "eng": "Weakness and tiredness",
+                    "heb": "חולשה ועייפות."
+                },
+                {
+                    "eng": "Uncommon side effects - side effects that occur in 1-10 out of 1,000 users:",
+                    "heb": "תופעות לוואי שאינן שכיחות - תופעות שמופיעות ב-1-10 משתמשים מתוך 1,000:"
+                },
+                {
+                    "eng": "Decreased number of blood platelets, decreased number of white blood cells.",
+                    "heb": "ירידה במספר הטסיות בדם, ירידה במספר כדוריות הדם הלבנות."
+                },
+                {
+                    "eng": "Decrease or increase in weight.",
+                    "heb": "ירידה או עלייה במשקל."
+                },
+                {
+                    "eng": "Suicide attempts and suicidal thoughts, mental disorder, abnormal behavior, hallucinations, anger, confusion, panic attack, mental imbalance/mood swings, agitation.",
+                    "heb": "נסיון התאבדות ומחשבות אובדניות, הפרעה נפשית, התנהגות חריגה, הזיות, כעס, בלבול, התקף בהלה, חוסר יציבות נפשית או תנודות במצב הרוח, חוסר מנוחה (אגיטציה)."
+                },
+                {
+                    "eng": "Memory loss, memory impairment (amnesia), impaired coordination/lack of muscle control (ataxia), numbness (paresthesia), lack of concentration.",
+                    "heb": "אובדן זיכרון, ליקוי בזיכרון (שכחה), פגיעה בקואורדינציה/אי שליטה בשרירים (אטקסיה), תחושת נימול (פרסתזיה), חוסר ריכוז."
+                },
+                {
+                    "eng": "Double vision, blurred vision.",
+                    "heb": "ראיה כפולה, טשטוש ראיה."
+                },
+                {
+                    "eng": "Abnormal results/increase in liver function test.",
+                    "heb": "תוצאות לא תקינות/עליה בבדיקת תפקודי כבד."
+                },
+                {
+                    "eng": "Hair loss, eczema, skin itching.",
+                    "heb": "נשירת שיער, אקזמה, גרד בעור."
+                },
+                {
+                    "eng": "Muscle pains, muscle weakness.",
+                    "heb": "כאבי שרירים, חולשת שרירים."
+                },
+                {
+                    "eng": "Proneness to injuries.",
+                    "heb": "נטיה לפציעות."
+                },
+                {
+                    "eng": "Rare side effects - side effects that occur in 1-10 out of 10,000 users:",
+                    "heb": "תופעות לוואי נדירות - תופעות שמופיעות ב-1-10 משתמשים מתוך 10,000:"
+                },
+                {
+                    "eng": "Infection.",
+                    "heb": "זיהום."
+                },
+                {
+                    "eng": "Decreased number of all types of blood cells.",
+                    "heb": "ירידה במספר כדוריות הדם מכל הסוגים."
+                },
+                {
+                    "eng": "Severe allergic reactions (DRESS, anaphylactic reaction [a severe allergic reaction], Quincke’s oedema [swelling of the face, lips, tongue and throat]).",
+                    "heb": "תגובות אלרגיות חמורות (DRESS, תגובה אנפילקטית [תגובה אלרגית חמורה], בצקת Quincke’s oedema [נפיחות של הפנים, השפתיים, הלשון והגרון])."
+                },
+                {
+                    "eng": "A decrease in blood sodium concentration.",
+                    "heb": "ירידה בריכוז הנתרן בדם."
+                },
+                {
+                    "eng": "Suicide, personality disorders, thinking disturbances (slow thinking, inability to concentrate).",
+                    "heb": "התאבדות, הפרעות באישיות, הפרעות בחשיבה (חשיבה איטית, חוסר יכולת להתרכז)."
+                },
+                {
+                    "eng": "Delirium",
+                    "heb": "דליריום."
+                },
+                {
+                    "eng": "Encephalopathy (see subsection “Contact the doctor or the nearest emergency room immediately if you experience” for detailed description of the symptoms).",
+                    "heb": "אנצפלופתיה (ראה תת סעיף \"יש לפנות מיד לרופא או לחדר המיון הקרוב אם אתה חווה\" לתיאור מפורט של התסמינים)."
+                },
+                {
+                    "eng": "Increased frequency or worsening of the attacks.",
+                    "heb": "החמרה בהתקפים או עליה בתדירותם."
+                },
+                {
+                    "eng": "Uncontrollable muscle spasms, which affect the head, torso and limbs, difficulty in controlling movement, excessive movements (hyperkinesia).",
+                    "heb": "התכווצויות שרירים בלתי נשלטות המשפיעות על הראש, הגוף (טורסו) והגפיים, קושי בשליטה על התנועתיות, תנועתיות יתר (היפרקינזיה)."
+                },
+                {
+                    "eng": "Altered heart rate (EKG).",
+                    "heb": "שינוי בקצב הלב (אק\"ג)."
+                },
+                {
+                    "eng": "Inflammation of the pancreas (pancreatitis).",
+                    "heb": "דלקת בלבלב (פנקראטיטיס)."
+                },
+                {
+                    "eng": "Liver failure, inflammation of the liver (hepatitis).",
+                    "heb": "כשל כבדי, דלקת בכבד (הפטיטיס)."
+                },
+                {
+                    "eng": "Sudden decrease in renal function.",
+                    "heb": "ירידה פתאומית בתיפקוד הכלייתי."
+                },
+                {
+                    "eng": "Skin rash (erythema multiforme) which may manifest as small target-like blisters (dark dots in the middle, surrounded by a lighter area, surrounded by a darker-shade ring), disseminated rash with blisters and skin peeling, especially around the mouth, nose, eyes and genitals (Stevens-Johnson syndrome), or a more severe form that causes peeling of more than 30% of skin surface area (toxic epidermal necrolysis).",
+                    "heb": "פריחה עורית (אריתמה מולטיפורם) העלולה להתבטא כשלפוחיות הנראות כמו מטרה קטנה (נקודות כהות במרכז המוקפות באזור בהיר המוקף בטבעת כהה), פריחה מפושטת המלווה בשלפוחיות וקילוף העור, בייחוד סביב הפה, האף, העיניים ואברי המין (תסמונת סטיבנס-ג'ונסון), או צורה חמורה יותר הגורמת לקילוף של למעלה מ-30% משטח העור (נמק אפידרמי רעלני)."
+                },
+                {
+                    "eng": "Rhabdomyolysis (muscle tissue breakdown) and rise in creatine phosphokinase blood levels. This effect is more common in Japanese than non-Japanese patients.",
+                    "heb": "רהבדומיוליזיס (פירוק רקמת שריר) ועלייה בקראטין פוספוקינאז בדם. תופעה זו שכיחה יותר במטופלים יפנים בהשוואה למטופלים שאינם יפנים."
+                },
+                {
+                    "eng": "Limping or difficulty walking.",
+                    "heb": "צליעה או קושי בהליכה."
+                },
+                {
+                    "eng": "A combination of fever, muscle stiffness, unstable blood pressure and heart rate, confusion, decreased level of consciousness (possible signs of a disorder called malignant neuroleptic syndrome). This effect is more common in Japanese than nonJapanese patients.",
+                    "heb": "שילוב של חום, נוקשות שרירים, לחץ דם וקצב לב לא יציבים, בלבול, ירידה ברמת ההכרה (סימנים אפשריים להפרעה המכונה תסמונת נוירולפטית ממארת). תופעה זו שכיחה יותר במטופלים יפנים בהשוואה למטופלים שאינם יפנים."
+                },
+                {
+                    "eng": "Very rare side effects - side effects that occur in less than one out of 10,000 users:",
+                    "heb": "תופעות לוואי נדירות מאד (very rare) - תופעות שמופיעות בפחות ממשתמש אחד מתוך 10,000:"
+                },
+                {
+                    "eng": "Repetitive and uncontrollable thoughts or sensations or an urge to do something over and over again (obsessive compulsive disorder).",
+                    "heb": "מחשבות או תחושות חוזרות ובלתי נשלטות או דחף לבצע משהו שוב ושוב (הפרעה טורדנית כפייתית)."
+                },
+                {
+                    "eng": " If a side effect occurs, if one of the side effects worsens, or if you suffer from a side effect not mentioned in this leaflet, consult your doctor.",
+                    "heb": "אם הופיעה תופעת לוואי, אם אחת מתופעות הלוואי מחמירה, או כאשר אתה סובל מתופעת לוואי שלא צוינה בעלון, עליך להתייעץ עם הרופא."
+                },
+                {
+                    "eng": "Side effects may be reported to the Ministry of Health by clicking on the link “report side effects due to medicinal treatment” found on the Ministry of Health website homepage, which will direct you to the online form for reporting side effects, or by clicking on the following link: https:",
+                    "heb": "ניתן לדווח על תופעות לוואי למשרד הבריאות באמצעות לחיצה על הקישור \"דיווח על תופעות לוואי עקב טיפול תרופתי\" שנמצא בדף הבית של אתר משרד הבריאות המפנה לטופס המקוון לדיווח על תופעות לוואי, או ע\"י כניסה לקישור: "
+                }
+            ]
+        },
+        {
+            "title": "medicine storage",
+            "section_num": "5",
+            "data": [
+                {
+                    "eng": " 5. How to store the medicine?",
+                    "heb": "5. איך לאחסן את התרופה?"
+                },
+                {
+                    "eng": "Avoid poisoning! This medicine and any other medicine must be kept in a closed place out of the reach and sight of children and/ or infants to avoid poisoning. Do not induce vomiting without an explicit instruction from the doctor.",
+                    "heb": "מנע הרעלה! תרופה זו וכל תרופה אחרת יש לשמור במקום סגור מחוץ להישג ידם וטווח ראייתם של ילדים ו/או תינוקות ועל ידי כך תמנע הרעלה. אל תגרום להקאה ללא הוראה מפורשת מהרופא."
+                },
+                {
+                    "eng": "Do not use the medicine after the expiry date (Exp.) appearing on the package. The expiry date refers to the last day of that month.",
+                    "heb": "אין להשתמש בתרופה אחרי תאריך התפוגה (.Exp) המופיע על גבי האריזה. תאריך התפוגה מתייחס ליום האחרון של אותו חודש."
+                },
+                {
+                    "eng": "Store at a temperature lower than 25°C. Store in the original package.",
+                    "heb": "אחסן בטמפרטורה הנמוכה מ-25°C. אחסן באריזה המקורית."
+                }
+            ]
+        },
+        {
+            "title": "additional information",
+            "section_num": "6",
+            "data": [
+                {
+                    "eng": " 6. Additional information:",
+                    "heb": "6. מידע נוסף:"
+                },
+                {
+                    "eng": "In addition to the active ingredient the medicine also contains:",
+                    "heb": "נוסף על החומר הפעיל, התרופה מכילה גם:"
+                },
+                {
+                    "eng": "Keppra 250 mg contains:",
+                    "heb": "קפרה 250 מ\"ג מכילה:"
+                },
+                {
+                    "eng": "Keppra 500 mg contains:",
+                    "heb": "קפרה 500 מ\"ג מכילה:"
+                },
+                {
+                    "eng": "Keppra 1000 mg contains:",
+                    "heb": "קפרה 1000 מ\"ג מכילה:"
+                },
+                {
+                    "eng": "What does the medicine look like and what are the contents of the package:",
+                    "heb": "כיצד נראית התרופה ומה תוכן האריזה:"
+                },
+                {
+                    "eng": "Keppra 250 mg tablets: a blue, oblong, film-coated tablet, scored on one side. Debossed with “ucb” on one side of the score line and “250” on the other side of the score line.",
+                    "heb": "קפרה 250 מ\"ג טבליות: טבליה מצופה מוארכת בצבע כחול עם קו חציה בצד אחד. מצדו האחד של קו החציה מוטבע \"ucb\" ומצדו השני מוטבע \"250\"."
+                },
+                {
+                    "eng": "Keppra 500 mg tablets: a yellow, oblong, film-coated tablet, scored on one side. Debossed with “ucb” on one side of the score line and “500” on the other side of the score line.",
+                    "heb": "קפרה 500 מ\"ג טבליות: טבליה מצופה מוארכת בצבע צהוב עם קו חציה בצד אחד. מצדו האחד של קו החציה מוטבע \"ucb\" ומצדו השני מוטבע \"500\"."
+                },
+                {
+                    "eng": "Keppra 1000 mg tablets: a white, oblong, film-coated tablet, scored on one side. Debossed with “ucb” on one side of the score line and “1000” on the other side of the score line.",
+                    "heb": "קפרה 1000 מ\"ג טבליות: טבליה מצופה מוארכת בצבע לבן עם קו חציה בצד אחד. מצדו האחד של קו החציה מוטבע \"ucb\" ומצדו השני מוטבע \"1000\"."
+                },
+                {
+                    "eng": "The tablets are packed in aluminum blisters, 10 tablets per blister. In a carton package. In different sizes. Not all package sizes may be marketed.",
+                    "heb": "טבליות ארוזות במגשיות אלומיניום, 10 טבליות במגשית. באריזת קרטון. בגדלים שונים. ייתכן שלא כל גדלי האריזות משווקים."
+                },
+                {
+                    "eng": "Marketing authorization holder/importer and the address: CTS Ltd., 4 Haharash St., Hod Hasharon.",
+                    "heb": "בעל הרישום וכתובתו: כצט בע\"מ, רח' החרש 4, הוד השרון."
+                },
+                {
+                    "eng": "Name and address of the manufacturer:",
+                    "heb": "שם היצרן וכתובתו:"
+                },
+                {
+                    "eng": "This leaflet was revised in 06/2023 in accordance with the Ministry of Health guidelines.",
+                    "heb": "עלון זה נערך בתאריך 06/2023 בהתאם להנחיות משרד הבריאות."
+                },
+                {
+                    "eng": "Registration numbers of the medicine in the National Drug Registry of the Ministry of Health:",
+                    "heb": "מספרי רישום התרופה בפנקס התרופות הממלכתי במשרד הבריאות:"
+                }
+            ]
+        }
+    ]
+}

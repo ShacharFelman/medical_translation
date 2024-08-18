@@ -3,7 +3,7 @@ from typing import List, Optional
 
 class EvaluationScoreType(Enum):
     BLEU    = 'bleu'
-    COMET   = 'comet'
+    # COMET   = 'comet'
     CHRF    = 'chrf'
     WER     = 'wer'
     # TER     = 'ter'

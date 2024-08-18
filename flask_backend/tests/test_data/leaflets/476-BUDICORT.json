@@ -1,0 +1,609 @@
+{
+    "title": "BUDICORT",
+    "index": 0,
+    "dir_index": 476,
+    "title_lang": {
+        "title_eng": "BUDICORT",
+        "title_heb": "בודיקורט"
+    },
+    "sections": [
+        {
+            "title": "General",
+            "section_num": "0",
+            "data": [
+                {
+                    "eng": "PATIENT PACKAGE INSERT IN ACCORDANCE WITH THE PHARMACISTS’ REGULATIONS (PREPARATIONS) - 1986 ",
+                    "heb": "עלון לצרכן לפי תקנות הרוקחים (תכשירים) התשמ\"ו – 1986"
+                },
+                {
+                    "eng": "The medicine is dispensed with a doctor’s prescription only",
+                    "heb": "התרופה משווקת על פי מרשם רופא בלבד"
+                },
+                {
+                    "eng": "BUDICORT",
+                    "heb": "בודיקורט"
+                },
+                {
+                    "eng": "TURBUHALER",
+                    "heb": "טורבוהלר"
+                },
+                {
+                    "eng": "Powder for Inhalation",
+                    "heb": "אבקה לשאיפה"
+                },
+                {
+                    "eng": "Composition:",
+                    "heb": "הרכב:"
+                },
+                {
+                    "eng": "Each dose contains: ",
+                    "heb": "כל מנה מכילה:"
+                },
+                {
+                    "eng": "Budesonide 100 mcg",
+                    "heb": "בודסונייד 100 מק\"ג"
+                },
+                {
+                    "eng": "Budesonide 200 mcg",
+                    "heb": "בודסונייד 200 מק\"ג"
+                },
+                {
+                    "eng": "For inactive ingredients, please refer to Section 6 - \"Further Information\".",
+                    "heb": "למרכיבים בלתי פעילים אנא ראה סעיף 6 – מידע נוסף"
+                },
+                {
+                    "eng": "Read this leaflet carefully in its entirety before using the medicine. ",
+                    "heb": "קרא בעיון את העלון עד סופו בטרם תשתמש בתרופה."
+                },
+                {
+                    "eng": "This leaflet contains concise information about the medicine. If you have further questions, refer to the doctor or pharmacist. ",
+                    "heb": "עלון זה מכיל מידע תמציתי על התרופה. אם יש לך שאלות נוספות, פנה אל הרופא או אל הרוקח."
+                },
+                {
+                    "eng": "This medicine has been prescribed for the treatment of your ailment. Do not pass it on to others. It may harm them, even if it seems to you that their ailment is similar.",
+                    "heb": "תרופה זו נרשמה לטיפול במחלתך. אל תעביר אותה לאחרים. היא עלולה להזיק להם אפילו אם נראה לך כי מחלתם דומה."
+                }
+            ]
+        },
+        {
+            "title": "medicine intended for",
+            "section_num": "1",
+            "data": [
+                {
+                    "eng": "1. WHAT IS THE MEDICINE INTENDED FOR?",
+                    "heb": "1. למה מיועדת התרופה?"
+                },
+                {
+                    "eng": "Treatment of bronchial asthma.",
+                    "heb": "לטיפול באסטמה ברונכיאלית."
+                },
+                {
+                    "eng": "Therapeutic group:",
+                    "heb": "קבוצה תרפויטית: "
+                },
+                {
+                    "eng": "Corticosteroid.",
+                    "heb": "קורטיקוסטרואידים. "
+                }
+            ]
+        },
+        {
+            "title": "before using the medicine",
+            "section_num": "2",
+            "data": [
+                {
+                    "eng": "2. BEFORE USING THE MEDICINE",
+                    "heb": "2. לפני השימוש בתרופה"
+                },
+                {
+                    "eng": "Do not use this medicine if:",
+                    "heb": "אין להשתמש בתרופה אם: "
+                },
+                {
+                    "eng": "You are sensitive to Budesonide or to any of the other ingredients contained in the medicine.",
+                    "heb": "אתה רגיש לבודסונייד או לכל אחד מהמרכיבים הנוספים אשר מכילה התרופה"
+                },
+                {
+                    "eng": "Special warnings regarding use of Budicort Turbuhaler:",
+                    "heb": "אזהרות מיוחדות הנוגעות בשימוש בבודיקורט טורבוהלר:"
+                },
+                {
+                    "eng": "Before treatment with Budicort Turbuhaler tell your doctor if:",
+                    "heb": "לפני הטיפול בבודיקורט טורבוהלר ספר לרופא אם: "
+                },
+                {
+                    "eng": "You have a lung infection.",
+                    "heb": "אם הנך סובל מדלקת ריאות"
+                },
+                {
+                    "eng": "You have a cold or chest infection or any problems with breathing.",
+                    "heb": "אם הנך סובל מצינון, מזיהום בחזה או בעיות נשימה אחרות"
+                },
+                {
+                    "eng": "You have or have ever had tuberculosis (TB).",
+                    "heb": "אם הנך סובל או סבלת בעבר משחפת"
+                },
+                {
+                    "eng": "You have liver function problems.",
+                    "heb": "אם הנך סובל מליקוי בתפקודי כבד"
+                },
+                {
+                    "eng": "If you experience blurred vision or other visual disturbances contact your doctor.",
+                    "heb": "במידה והנך חווה ראייה מטושטשת או כל הפרעת ראיה אחרת אנא צור קשר עם הרופא שלך. "
+                },
+                {
+                    "eng": "Drug interactions",
+                    "heb": "תגובות בין תרופתיות "
+                },
+                {
+                    "eng": "If you are taking, or if you recently taken, other medicines including nonprescription medicines and nutritional supplements, tell the doctor or pharmacist. Especially inform the doctor or pharmacist if you are taking:",
+                    "heb": "אם אתה לוקח, או אם לקחת לאחרונה, תרופות אחרות כולל תרופות ללא מרשם ותוספי תזונה, ספר על כך לרופא או לרוקח. במיוחד יש ליידע את הרופא או את הרוקח אם אתה לוקח:"
+                },
+                {
+                    "eng": "Steroid medicines.",
+                    "heb": "תרופות סטרואידליות"
+                },
+                {
+                    "eng": "Medicines to treat fungal infections (such as itraconazole and ketoconazole).",
+                    "heb": "• תרופות לטיפול בזיהומים פטרייתים (כגון איטרקונזול וקטוקונזול)"
+                },
+                {
+                    "eng": "Medicines to treat HIV (such as ritonavir or cobicistat-containing products).",
+                    "heb": "• תרופות לטיפול ב HIV (כגון תכשירים המכילים ריטונוויר או קוביסיסטאט)"
+                },
+                {
+                    "eng": "Pregnancy, breast-feeding and fertility:",
+                    "heb": "הריון, הנקה ופוריות "
+                },
+                {
+                    "eng": "If you are pregnant, breast-feeding, may be pregnant or are planning pregnancy, consult your doctor before using Budicort Turbuhaler. Do not use Budicort Turbuhaler unless your doctor tells you to.",
+                    "heb": "אם הנך בהריון, מניקה, יתכן ואת עשויה להיות בהריון או מתכננת הריון, התייעצי עם הרופא לפני השימוש בבודיקורט טורבוהלר. אל תשתמשי בבודיקורט טורבוהלר ללא הנחיה של הרופא."
+                },
+                {
+                    "eng": "If you get pregnant during treatment with Budicort Turbuhaler, do not stop using Budicort Turbuhaler but talk to your doctor immediately.",
+                    "heb": "אם נודע לך שאת בהריון במהלך הטיפול בבודיקורט טורבוהלר, אל תפסיקי את הטיפול בבודיקורט טורבוהלר אך דברי עם הרופא מיידית."
+                },
+                {
+                    "eng": "Driving and using machines",
+                    "heb": "נהיגה ושימוש במכונות "
+                },
+                {
+                    "eng": "Budicort Turbuhaler is not likely to affect you being able to drive or use any tools or machines.",
+                    "heb": "בודיקורט טורבוהלר אינו אמור להשפיע על היכולת שלך לנהוג או להפעיל מכשור או להשתמש במכונות. "
+                }
+            ]
+        },
+        {
+            "title": "how to use the medicine",
+            "section_num": "3",
+            "data": [
+                {
+                    "eng": "3. HOW SHOULD YOU USE THE MEDICINE?",
+                    "heb": "3. כיצד תשתמש בתרופה?"
+                },
+                {
+                    "eng": "Always use according to the doctor’s instructions. ",
+                    "heb": "יש להשתמש בתכשיר תמיד בהתאם להוראות הרופא"
+                },
+                {
+                    "eng": "Check with the doctor or pharmacist if you are uncertain about the dosage and manner of treatment in this medicine.",
+                    "heb": "עליך לבדוק עם הרופא או הרוקח אם אינך בטוח בנוגע למינון ואופן הטיפול בתכשיר. "
+                },
+                {
+                    "eng": "The dosage and manner of treatment will be determined by the doctor only.",
+                    "heb": "המינון ואופן הטיפול יקבעו על ידי הרופא בלבד. "
+                },
+                {
+                    "eng": "If Budicort Turbuhaler is to be used by a child, make sure the use it correctly as the doctor instructions",
+                    "heb": "אם המטופל בבודיקורט טורבו הלר הוא ילד, אנא וודא כי השימוש הוא על פי הנחיות הרופא."
+                },
+                {
+                    "eng": "Do not exceed the recommended dose.",
+                    "heb": "אין לעבור על המנה המומלצת"
+                },
+                {
+                    "eng": "Duration of treatment-",
+                    "heb": "משך הטיפול - "
+                },
+                {
+                    "eng": "It is important to use Budicort Turbuhaler every day, even if you do not have asthma symptoms every day.",
+                    "heb": "יש להשתמש בבודיקורט טורבוהלר מדי יום, גם אם אינך סובל מתסמיני אסתמה בכל יום"
+                },
+                {
+                    "eng": "Your breathing may improve within 2 days of treatment. However, it can take up to 4 weeks for the medicine to have its full effect.",
+                    "heb": "נשימתך עשויה להשתפר בתוך יומיים של טיפול. אך יתכן ותדרש תקופה של עד 4 שבועות טיפול לקבלת השפעה מירבית של התרופה."
+                },
+                {
+                    "eng": "Important information about your asthma symptoms",
+                    "heb": "מידע חשוב לגבי תסמיני מחלת האסתמה שלך"
+                },
+                {
+                    "eng": "• If you feel you are getting breathless or wheezy while using Budicort Turbuhaler, you should continue treatment but go to see the doctor as soon as possible, as you may need additional treatment.",
+                    "heb": "• במידה ואתה חש קוצר נשימה או צפצופים בשימוש בבודיקורט טורבוהלר, יש להמשיך בטיפול אך לפנות לרופא בהקדם האפשרי משום שיתכן ואתה זקוק לטיפול נוסף"
+                },
+                {
+                    "eng": "Contact the doctor immediately if:",
+                    "heb": "פנה לרופא מיידית במידה וישנה:"
+                },
+                {
+                    "eng": "Your breathing is getting worse or you wake up at night with asthma.",
+                    "heb": "החמרה בנשימה או שאתה מתעורר בלילה עם אסתמה."
+                },
+                {
+                    "eng": "Your chest feels tight in the morning or your chest tightness lasts longer than usual.",
+                    "heb": "תחושת היצרות בחזה בשעות הבוקר או שההיצרות בחזה נמשכת יותר מהרגיל."
+                },
+                {
+                    "eng": "These signs could mean that your condition is not being properly controlled and you may need different or additional treatment immediately.",
+                    "heb": "יתכן וסימנים אלה מראים כי המצב הרפואי שלך אינו מטופל כראוי ויש צורך בטיפול אחר או תוספת טיפול לטיפול הקיים באופן מיידי. "
+                },
+                {
+                    "eng": "Use your Budicort Turbuhaler every day. Daily use helps to prevent asthma symptoms from happening. Your doctor will advise you of the correct and lowest dose to control your asthma. ",
+                    "heb": "יש להשתמש בבודיקורט טורבוהלר מדי יום. שימוש יומיומי יסייע במניעת תסמיני האסתמה. הרופא שלך יקבע עבורך את המינון המתאים והנמוך ביותר הנדרש לשליטה במחלת האסתמה שלך."
+                },
+                {
+                    "eng": "If you have been taking steroid tablets for treatment of your asthma, your doctor may instruct you to reduce the number of tablets that you take once you start to use Budicort Turbuhaler. ",
+                    "heb": "אם הנך נוטל טבליות המכילות סטרואידים לטיפול באסטמה שלך, הרופא שלך עשוי להורות על הפחתת מספר הטבליות שהנך נוטל עם תחילת השימוש בבודיקורט טורבוהלר. "
+                },
+                {
+                    "eng": "Your doctor may consider adding steroid tablets to your treatment plan during periods of stress or a severe asthma attack before surgery of any sort. ",
+                    "heb": "הרופא עשוי לשקול הוספת טבליות סטרואידים לתוכנית הטיפול שלך בתקופות של מתח או התקף אסטמה חמור לפני ניתוח כלשהו "
+                },
+                {
+                    "eng": "How to prepare a new inhaler for first use",
+                    "heb": "הכנת משאף חדש לשימוש ראשון "
+                },
+                {
+                    "eng": "Before using Budicort Turbuhaler for the first time you need to prepare it for use.",
+                    "heb": "לפני השימוש בבודיקורט טורבוהלר בפעם הראשונה יש להכינו לשימוש. "
+                },
+                {
+                    "eng": "Unscrew the white protective cover and lift it off.",
+                    "heb": "יש להבריג החוצה את המכסה המגן הלבן ולהרימו "
+                },
+                {
+                    "eng": "Hold the inhaler upright with brown grip at the bottom. Do not hold the mouthpiece when you turn the grip. Load the inhaler with one dose by turning the brown grip in one direction until it stops and then back to the original position until it stops. It does not matter which way you turn first. You should hear a click sound. Perform the procedure twice.",
+                    "heb": "החזק את המשאף במאונך כאשר המאחז החום כלפי מטה. אין לאחוז בפיה כאשר אתה מסובב את המאחז. טעינת המשאף להכנת מנה אחת נעשית ע\"י סיבוב המאחז החום בכיוון אחד עד לעצירתו והחזרה למצב ההתחלתי עד עצירתו. אין חשיבות לכיוון הסיבוב ההתחלתי. עליך לשמוע \"קליק\". יש לחזור על הפעולה פעמיים."
+                },
+                {
+                    "eng": "The Turbuhaler is now ready for use, and you should not repeat the above procedure again. To take a dose from the inhaler, please follow the instructions below.",
+                    "heb": "הטורבוהלר כעת מוכן לשימוש, ואין לחזור על הפעולה מעלה בשנית. לשם נטילת מנה מהמשאף, אנא בצע את הפעולות המפורטות מטה"
+                },
+                {
+                    "eng": "How to take an inhalation ",
+                    "heb": "כיצד לקחת שאיפה"
+                },
+                {
+                    "eng": "1. Unscrew the white protective cover and lift it off.",
+                    "heb": "1. יש להבריג החוצה את מכסה המגן הלבן ולהרימו."
+                },
+                {
+                    "eng": "2. Hold your inhaler upright with the brown grip at the bottom.",
+                    "heb": "2. יש להחזיק את המשאף במאונך כאשר המאחז החום כלפי מטה."
+                },
+                {
+                    "eng": "3. Do not hold the mouthpiece when you load your Turbuhaler. To load your Turbuhaler with a dose, turn the brown grip in one direction until it stops. Then turn it back to the original position until it stops. You should hear a click sound. Your Turbuhaler is now loaded and ready to use. Only load your Turbuhaler when you need to use it. (It does not matter which way you turn it first).",
+                    "heb": "3. אין לאחוז בפיה כאשר אתה מטעין את המשאף. טעינת המשאף להכנת מנה אחת נעשית ע\"י סיבוב המאחז החום בכיוון אחד עד לעצירתו והחזרה למצב ההתחלתי עד עצירתו. עליך לשמוע \"קליק\". המשאף כעת טעון ומוכן לשימוש. אנא הטען את המשאף רק שאתה זקוק לו. (אין חשיבות לכיוון הסיבוב ההתחלתי)."
+                },
+                {
+                    "eng": "4. Hold your Turbuhaler away from your mouth. Breathe out gently (as far as is comfortable). Do not breathe out through the inhaler.",
+                    "heb": "4. החזק את המשאף רחוק מהפה. נשוף החוצה בעדינות (עד כמה שניתן בנוחות). אין לנשוף החוצה דרך המשאף."
+                },
+                {
+                    "eng": "5. Place the mouthpiece gently between your teeth. Close your lips. Breathe in as deeply and as hard as you can through your mouth. Do not chew or bite on the mouthpiece.",
+                    "heb": "5. יש להחזיק את הפיה בעדינות בין השיניים. לסגור את השפתיים. יש לשאוף פנימה דרך הפה עמוק ובחוזקה ככל שניתן. אין ללעוס או לנשוך את הפיה."
+                },
+                {
+                    "eng": "6. Remove your inhaler from your mouth. After removal of the inhaler breathe out gently. The amount of powder in Budicort Turbuhaler dose is very small. This means you may not be able to taste it after inhalation. If you have followed the instructions, you can still be confident that you have inhaled the dose and the medicine is now in your lungs.",
+                    "heb": "6. יש להוציא את המשאף מהפה. לאחר הוצאת המשאף יש לנשוף החוצה בעדינות. כמות האבקה במנת בודיקורט טורבוהלר קטנה מאוד, ולכן יתכן שלא תרגיש בטעם התרופה הנשאפת. אם בצעת את ההוראות המפורטות מעלה במלואן, הנך יכול להיות בטוח שהמנה נשאפה והתרופה כעת נמצאת בריאות שלך."
+                },
+                {
+                    "eng": "7. If you need an additional dose, repeat steps 2 to 6.",
+                    "heb": "7. אם יש צורך במנה נוספת, יש לחזור על צעדים 2-6."
+                },
+                {
+                    "eng": "8. Replace the protective cover by screwing it back on tightly after use.",
+                    "heb": "8. יש להחזיר את המכסה המגן על ידי הברגתו בחוזקה לאחר השימוש."
+                },
+                {
+                    "eng": "9. Rinse your mouth out with water after inhaling your prescribed dose.",
+                    "heb": "9. שטוף את הפה במים לאחר שאיפת המנה."
+                },
+                {
+                    "eng": "Do not try to remove or twist the mouthpiece. The mouthpiece is fixed to your Turbuhaler and must not be taken off. Do not use the Turbuhaler if it has been damaged or if the mouthpiece has come apart from it.",
+                    "heb": "אין לנסות להסיר או לסובב את הפיה. הפיה מקובעת לטורבו הלר ואין להסירה. אין להשתמש בטורבוהלר אם הוא פגום או שהפיה התנתקה ממנו."
+                },
+                {
+                    "eng": "Cleaning the Turbuhaler",
+                    "heb": "ניקוי הטורבוהלר "
+                },
+                {
+                    "eng": "Wipe the outside of the mouthpiece once a week with a dry tissue. Do not use water or other liquids to clean the mouthpiece.",
+                    "heb": "יש לנקות את החלק החיצוני של הפיה פעם בשבוע בממחטת נייר יבשה. אין להשתמש במים או כל נוזל אחר לניקוי הפיה."
+                },
+                {
+                    "eng": "When to start using a new Turbuhaler",
+                    "heb": "מתי להתחיל להשתמש בטורבוהלר חדש? "
+                },
+                {
+                    "eng": "When you first see a red mark in the indicator window, there are about 20 doses left in the inhaler",
+                    "heb": "כאשר אתה מבחין לראשונה בסימן אדום בחלון - נותרו כ- 20 מנות במשאף."
+                },
+                {
+                    "eng": "You will then need to see your doctor for another prescription.",
+                    "heb": "יש לגשת לרופא לקבל מרשם נוסף. "
+                },
+                {
+                    "eng": "When the red mark has reached the bottom of the indicator window, you must start using the new inhaler.",
+                    "heb": "כאשר הסימן האדום הגיע לתחתית החלון - יש להתחיל להשתמש במשאף החדש. "
+                },
+                {
+                    "eng": "Note:",
+                    "heb": "הערה:"
+                },
+                {
+                    "eng": "The brown grip will still twist and ‘click’ even when your Turbuhaler is empty.",
+                    "heb": "• המאחז החום יסתובב וישמיע \"קליק\" גם אם הטורבוהלר ריק."
+                },
+                {
+                    "eng": "The sound that you hear as you shake your Turbuhaler is produced by a drying agent and not the medicine. Therefore the sound does not tell you how much medicine is left in the Turbuhaler.",
+                    "heb": "• הרשרוש הנשמע בעת ניעור המשאף אינו נוצר ע\"י התרופה אלא ע\"י החומר המייבש. לכן הרשרוש אינו מעיד על כמות התרופה שנשארה בטורבוהלר."
+                },
+                {
+                    "eng": "If you load the Turbuhaler more than once by mistake before taking your dose, you will still only receive one dose.",
+                    "heb": "• במידה והטענת את הטורבוהלר בטעות יותר מפעם אחת לפני השימוש, עדיין תקבל מנה אחת בלבד."
+                },
+                {
+                    "eng": "If you have accidentally taken a higher dosage",
+                    "heb": "אם נטלת בטעות מינון גבוה יותר "
+                },
+                {
+                    "eng": "It is important to take the dosage as stated on the pharmacy label on the pack or according to doctor's instructions. You should not increase or decrease your dose without talking with the doctor. If you have taken an overdose, or if a child has accidentally swallowed the medicine, immediately contact a doctor or go to a hospital emergency room, and bring the package of the medicine with you.",
+                    "heb": "חשוב לטול את המינון כפי שמצוין בתוית הרוקח על גבי האריזה או בהתאם להנחיית הרופא. אין להעלות או להוריד את המינון ללא פניה לרופא. אם נטלת מנת יתר או אם בטעות בלע ילד מן התרופה, פנה מיד לרופא או לחדר מיון של בית חולים והבא אריזת התרופה איתך. "
+                },
+                {
+                    "eng": "If you have forgotten to take the medicine - skip the missed dose and take the next dose as usual. Do not take a double dose to make up for a forgotten dose.",
+                    "heb": "אם שכחת ליטול את התרופה - יש לדלג על הטיפול שנשכח ולקחת את המנה הבאה כרגיל. אין ליטול מנה כפולה כפיצוי על המנה שנשכחה."
+                },
+                {
+                    "eng": "If you stop taking Budicort Turbuhaler ",
+                    "heb": "אם אתה מפסיק את נטילת בודיקורט טורבוהלר "
+                },
+                {
+                    "eng": "Even if the condition of your asthma improves, do not stop treatment with the medicine without instructions from the doctor.",
+                    "heb": "גם אם חל שיפור במצב מחלת האסתמה שלך, אין להפסיק הטיפול בתרופה ללא הנחיית הרופא. "
+                },
+                {
+                    "eng": "If you have any further questions regarding use of the medicine, consult the doctor or the pharmacist.",
+                    "heb": "אם יש לך שאלות נוספות בנוגע לשימוש בתרופה, היוועץ ברופא או ברוקח. "
+                }
+            ]
+        },
+        {
+            "title": "side effects",
+            "section_num": "4",
+            "data": [
+                {
+                    "eng": "4. SIDE EFFECTS ",
+                    "heb": "4. תופעות לוואי"
+                },
+                {
+                    "eng": "As with any medicine, use of Budicort Turbuhaler may cause side effects in some users. Do not be alarmed by reading the list of side effects. You may not suffer from any of them.",
+                    "heb": "כמו בכל תרופה, השימוש בבודיקורט טורבוהלר עלול לגרום לתופעות לוואי בחלק מהמשתמשים. אל תיבהל למקרא רשימת תופעות הלוואי. י יתכן ולא תסבול מאף אחת מהן."
+                },
+                {
+                    "eng": "Stop using Budicort Turbuhaler and refer to the doctor immediately if any of the following side effects appears:",
+                    "heb": "יש להפסיק את השימוש בבודיקורט טורבוהלר ולפנות מיד לרופא אם אחת מתופעות הלוואי הבאות מופיעות: "
+                },
+                {
+                    "eng": "Swelling of the face, particularly around the mouth (with possible swelling of the lips, tongue, eyes and ears), rash, itching, contact dermatitis (a skin problem), hives, bronchospasm (tightening of the muscles in the airways which causes wheezing). This may mean that you are having an allergic reaction. This happens rarely, affecting less than 1 in 1,000 patients.",
+                    "heb": "• התנפחות הפנים, במיוחד סביב הפה (ייתכן ותהיה התנפחות בשפתיים, בלשון, בעיניים, באוזניים), פריחה, גירוד, דלקת עור ממגע (בעיית עור), סרפדת, עווית סימפונות (היצרות שרירי הנשימה הגורמת לצפצופים בנשימה). ייתכן שאתה חווה תגובה אלרגית. תופעה זו נדירה, יכולה לקרות בפחות ממטופל אחד ל- 1000 מטופלים."
+                },
+                {
+                    "eng": "Sudden wheezing after inhaling the medicine. If this happens, also use your ‘reliever’ inhaler straight away. This happens very rarely, affecting less than 1 in 10,000 patients.",
+                    "heb": "• צפצופים פתאומיים בנשימה לאחר שאיפת התרופה. במקרה זה יש להשתמש באופן מיידי בנוסף במשאף להקלה מיידית הקיים ברשותך. תופעה זאת עלולה להתרחש לעיתים נדירות מאוד, בפחות ממטופל אחד מתוך 10,000 מטופלים."
+                },
+                {
+                    "eng": "Other possible side effects:",
+                    "heb": "תופעות לוואי נוספות: "
+                },
+                {
+                    "eng": "Common side effects (may affect up to 1 in 10 patients):",
+                    "heb": "תופעות לוואי שכיחות (תופעות שמופיעות בעד 1 מתוך 10 מטופלים):"
+                },
+                {
+                    "eng": "Thrush (a fungal infection) in the mouth - This is less likely if you rinse your mouth out with water after using Budicort Turbuhaler.",
+                    "heb": "• פטרת בפה – ניתן להוריד שכיחות תופעה זו אם הנך מקפיד לשטוף פיך עם מים לאחר השימוש בבודיקורט טורבוהלר."
+                },
+                {
+                    "eng": "Mild sore throat, coughing and a hoarse voice.",
+                    "heb": "• כאב גרון קל, שיעול וצרידות."
+                },
+                {
+                    "eng": "Pneumonia (infection of the lung) in COPD patients.",
+                    "heb": "• דלקת ריאות בחולי COPD."
+                },
+                {
+                    "eng": "Refer to the doctor if you have one or more of the following symptoms while taking Budicort Turbuhaler, they could be symptoms of a lung infection:",
+                    "heb": "פנה לרופא אם הנך סובל מאחד או יותר מהתסמינים הבאים כשאתה נוטל בודיקורט טורבו הלר, תסמינים אלה עלולים להוות סימן לדלקת ריאות:"
+                },
+                {
+                    "eng": "Fever or chills.",
+                    "heb": "- חום או צמרמורת"
+                },
+                {
+                    "eng": "Increased mucus production, change in mucus color.",
+                    "heb": "- יצור ליחה מוגבר, שינוי בצבע הליחה"
+                },
+                {
+                    "eng": "Increased cough or increased breathing difficulties.",
+                    "heb": "- שיעול מוגבר או קושי נשימה מוגבר"
+                },
+                {
+                    "eng": "Uncommon side effects (may affect up to 1 in 100 patients):",
+                    "heb": "תופעות לוואי שאינן שכיחות (תופעות שמופיעות בעד 1 מתוך 100 מטופלים):"
+                },
+                {
+                    "eng": "Feeling worried, restless and nervous.",
+                    "heb": "- תחושת דאגה, חוסר מנוחה ועצבנות"
+                },
+                {
+                    "eng": "Depression.",
+                    "heb": "- דכאון"
+                },
+                {
+                    "eng": "Trembling.",
+                    "heb": "- רעד"
+                },
+                {
+                    "eng": "Cataract (clouding of the lens in the eye).",
+                    "heb": "- קטרקט (עכירות של עדשת העין)"
+                },
+                {
+                    "eng": "Muscle cramps.",
+                    "heb": "- התכווצות שרירים"
+                },
+                {
+                    "eng": "Blurred vision.",
+                    "heb": "- ראייה מטושטשת"
+                },
+                {
+                    "eng": "Rare side effects (may affect up to 1 in 1,000 patients):",
+                    "heb": "תופעות לוואי נדירות (תופעות שמופיעות בעד 1 מתוך 1000 מטופלים):"
+                },
+                {
+                    "eng": "Sleeping problems, feeling over-excited or irritable. These effects are more likely to occur in children.",
+                    "heb": "- הפרעות בשינה, התרגשות יתר או רגזנות רבה. תופעות לוואי אלו נראות בדרך כלל בתדירות רבה יותר בילדים."
+                },
+                {
+                    "eng": "Bruising of the skin.",
+                    "heb": "- חבורות בעור"
+                },
+                {
+                    "eng": "Loss of voice.",
+                    "heb": "- איבוד קול"
+                },
+                {
+                    "eng": "Hoarse voice (in children).",
+                    "heb": "- צרידות (בילדים)"
+                },
+                {
+                    "eng": "Inhaled corticosteroids may affect the normal production of steroid hormones in your body, particularly if you use high doses for a long time, for example 400 micrograms or more daily for several years. The effects include: ",
+                    "heb": "קורטיקוסטרואידים הניתנים בשאיפה עלולים להשפיע על הייצור התקין של הורמונים סטרואידליים בגופך, בייחוד אם הנך משתמש במינונים גבוהים לאורך זמן. לדוגמא, 400 מק\"ג ומעלה ביממה למשך מספר שנים. ההשפעה יכולה לכלול:"
+                },
+                {
+                    "eng": "These effects are much less likely to happen with inhaled corticosteroids than with corticosteroid tablets.",
+                    "heb": "השפעות אלה בעלות סיכוי נמוך יותר להופיע בשימוש בקורטיקוסטרואידים בשאיפה בהשוואה לשימוש בטבליות של קורטיקוסטרואידים."
+                },
+                {
+                    "eng": "changes in bone density.",
+                    "heb": "- שינויים בצפיפות העצם"
+                },
+                {
+                    "eng": "glaucoma (increased pressure in the eye)",
+                    "heb": "- גלאוקומה (עליה בלחץ תוך עיני)"
+                },
+                {
+                    "eng": "a slowing of the rate of growth of children and adolescents (rare). If high doses are given over several years, final adult height may be reduced by about 1 cm.",
+                    "heb": "- האטה בקצב הגדילה של ילדים ומתבגרים (נדיר). כאשר ניתנים מינונים גבוהים במשך מספר שנים, ייתכן והגובה הסופי של הילד יהיה נמוך בכסנטימטר אחד."
+                },
+                {
+                    "eng": "an effect on the adrenal gland (a small gland next to the kidney) (rare).",
+                    "heb": "- השפעה על בלוטת האדרנל (בלוטה קטנה הסמוכה לכליות) (נדיר)"
+                },
+                {
+                    "eng": "Reporting side effects",
+                    "heb": "דיווח על תופעות לוואי"
+                },
+                {
+                    "eng": "Side effects can be reported to the Ministry of Health by clicking on the link “Report Side Effects of Drug Treatment” found on the Ministry of Health homepage that directs you to the online form for reporting side effects, or by entering the link:",
+                    "heb": "\"ניתן לדווח על תופעות לוואי למשרד הבריאות באמצעות לחיצה על הקישור \"דיווח על תופעות לוואי עקב טיפול תרופתי\" שנמצא בדף הבית של אתר משרד הבריאות המפנה לטופס המקוון לדיווח על תופעות לוואי, או ע\"י כניסה לקישור:"
+                }
+            ]
+        },
+        {
+            "title": "medicine storage",
+            "section_num": "5",
+            "data": [
+                {
+                    "eng": "5. HOW SHOULD THE MEDICINE BE STORED? ",
+                    "heb": "5. איך לאחסן את התרופה?"
+                },
+                {
+                    "eng": "Avoid poisoning! This medicine, and any other medicine, must be kept in a safe place out of the reach and sight of children and/or infants in order to avoid poisoning. Do not induce vomiting unless explicitly instructed to do so by the doctor.",
+                    "heb": "מנע הרעלה! תרופה זו וכל תרופה אחרת יש לשמור במקום סגור מחוץ להישג ידם וטווח ראייתם של ילדים ו/או תינוקות ועל ידי כך תמנע הרעלה. אל תגרום להקאה ללא הוראה מפורשת מהרופא."
+                },
+                {
+                    "eng": "Do not use the medicine after the expiry date (exp. date) appearing on the package. The expiry date refers to the last day of that month.",
+                    "heb": "אין להשתמש בתרופה אחרי תאריך התפוגה (exp. Date) המופיע על גבי האריזה. תאריך התפוגה מתייחס ליום האחרון של אותו חודש."
+                },
+                {
+                    "eng": "Storage conditions:",
+                    "heb": "תנאי האחסון:"
+                },
+                {
+                    "eng": "Do not store at a temperature above 30°C.",
+                    "heb": "- אין לשמור תרופה זו מעל 30 מעלות צלזיוס."
+                },
+                {
+                    "eng": "When not in use, your Turbuhaler should be stored with the protective cover tightened.",
+                    "heb": "- יש להשאיר את הכיסוי הגנה מוברג היטב על הטורבוהלר שלך אם אינך משתמש במכשיר."
+                }
+            ]
+        },
+        {
+            "title": "additional information",
+            "section_num": "6",
+            "data": [
+                {
+                    "eng": "6. FURTHER INFORMATION ",
+                    "heb": "6. מידע נוסף "
+                },
+                {
+                    "eng": "The preparation contains the active ingredient Budesonide. The preparation has 2 dosages: ",
+                    "heb": "התכשיר מכיל את החומר הפעיל בודסונייד. לתכשיר 2 מינונים:"
+                },
+                {
+                    "eng": "Budicort Turbuhaler 100 contains 200 doses (inhalations). Each metered dose contains100 micrograms of budesonide.",
+                    "heb": "בודיקורט טורבוהלר 100 מכיל 200 מנות (שאיפות). כל מנה מדודה מכילה 100 מק\"ג של בודסונייד"
+                },
+                {
+                    "eng": "Budicort Turbuhaler 200 contains 100 doses (inhalations). Each metered dose contains200 micrograms of budesonide.",
+                    "heb": "בודיקורט טורבוהלר 200 מכיל 100 מנות (שאיפות). כל מנה מדודה מכילה 200 מק\"ג של בודסונייד"
+                },
+                {
+                    "eng": "What does the medicine look like and what are the contents of the package - Budicort Turbuhaler is an inhaler containing your medicine. Each inhaler contains 100 or 200 doses (inhalations), the inhaler is white with a brown grip",
+                    "heb": "כיצד נראית התרופה ומה תוכן האריזה – בודיקורט טורבוהלר הינו משאף המכיל את התרופה שלך. כל משאף מכיל 100 או 200 מנות (שאיפות) המשאף הינו בצבע לבן עם מאחז בצבע חום."
+                },
+                {
+                    "eng": "Registration number of the medicine in the National Drug Registry of the Ministry of Health: ",
+                    "heb": "מס. רישום התרופה בפנקס התרופות הממלכתי במשרד הבריאות:"
+                },
+                {
+                    "eng": "Manufacturer: ",
+                    "heb": "יצרן:"
+                },
+                {
+                    "eng": "AstraZeneca AB, Sweden",
+                    "heb": "אסטרהזניקה AB שוודיה"
+                },
+                {
+                    "eng": "License holder and importer: ",
+                    "heb": "בעל הרישום והיבואן:"
+                },
+                {
+                    "eng": "AstraZeneca (Israel) Ltd.,",
+                    "heb": "אסטרהזניקה (ישראל) בע\"מ"
+                },
+                {
+                    "eng": "P.O. Box 1455, Hod Hasharon 4524075",
+                    "heb": "ת.ד 1455, הוד השרון 4524075"
+                },
+                {
+                    "eng": "The format of this leaflet was determined by the Ministry of Health and its content was checked and approved by the Ministry of Health in January 2012 and was updated according to the Ministry of Health guidelines in February 2020. ",
+                    "heb": "פורמט עלון זה נקבע ע\"י משרד הבריאות ותוכנו נבדק ואושר ע\"י משרד הבריאות בתאריך ינואר 2012 ועודכן בהתאם להוראות משרד הבריאות בפברואר 2020."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,761 @@
+{
+    "title": "Lipitor",
+    "index": 0,
+    "dir_index": 994,
+    "title_lang": {
+        "title_eng": "Lipitor",
+        "title_heb": "ליפיטור"
+    },
+    "sections": [
+        {
+            "title": "General",
+            "section_num": "0",
+            "data": [
+                {
+                    "eng": "Patient leaflet in accordance with the Pharmacists' Regulations (Preparations) - 1986",
+                    "heb": "עלון לצרכן לפי תקנות הרוקחים (תכשירים) התשמו 1986 "
+                },
+                {
+                    "eng": "This medicine is dispensed with a doctor’s prescription only ",
+                    "heb": "התרופה משווקת על פי מרשם רופא בלבד "
+                },
+                {
+                    "eng": "Lipitor® 10 mg",
+                    "heb": "ליפיטור™ 10 מ\"ג"
+                },
+                {
+                    "eng": "Lipitor® 20 mg",
+                    "heb": "ליפיטור™ 20 מ\"ג"
+                },
+                {
+                    "eng": "Lipitor® 40 mg ",
+                    "heb": "ליפיטור™ 40 מ\"ג"
+                },
+                {
+                    "eng": "Lipitor® 80 mg ",
+                    "heb": "ליפיטור™ 80 מ\"ג"
+                },
+                {
+                    "eng": "Film-coated tablets ",
+                    "heb": "טבליות מצופות"
+                },
+                {
+                    "eng": "Atorvastatin (as calcium) 10 mg, 20 mg, 40 mg, 80 mg",
+                    "heb": "אטורבסטטין (כמלח סידן) 10 מ\"ג, 20 מ\"ג, 40 מ\"ג, 80 מ\"ג"
+                },
+                {
+                    "eng": "For a list of inactive ingredients and allergens in this preparation: see section 2 \"Important information about some of this medicine’s ingredients\" and section 6 \"Further information\".\nRead the entire leaflet carefully before using this medicine. This leaflet contains concise information about this medicine. If you have any further questions, consult your doctor or pharmacist.",
+                    "heb": "חומרים בלתי פעילים ואלרגניים: ראה פרק 2 סעיף \"מידע חשוב על חלק מהמרכיבים של התרופה\" ופרק 6 \"מידע נוסף\" .\nקרא בעיון את העלון עד סופו בטרם תשתמש בתרופה. עלון זה מכיל מידע תמציתי על התרופה. אם יש לך שאלות נוספות, פנה אל הרופא או אל הרוקח."
+                },
+                {
+                    "eng": "This medicine has been prescribed for you. Do not pass it on to others. It may harm them, even if it seems to you that their medical condition is similar to yours.",
+                    "heb": "תרופה זו נרשמה עבורך. אל תעביר אותה לאחרים. היא עלולה להזיק להם אפילו אם נראה לך כי מצבם הרפואי דומה לשלך."
+                }
+            ]
+        },
+        {
+            "title": "WHAT IS THIS MEDICINE INTENDED FOR? ",
+            "section_num": "1",
+            "data": [
+                {
+                    "eng": "1. WHAT IS THIS MEDICINE INTENDED FOR?",
+                    "heb": "1. למה מיועדת התרופה?"
+                },
+                {
+                    "eng": "To reduce blood lipid levels (cholesterol and triglycerides) and to increase HDL.",
+                    "heb": "להורדת רמת השומנים בדם (כולסטרול וטריגליצרידים) ולהעלאתו של HDL"
+                },
+                {
+                    "eng": "To prevent cardiovascular diseases (such as myocardial infarction or stroke) in patients at high risk for a primary event.",
+                    "heb": "למניעת מחלות לב וכלי דם (כגון אוטם שריר הלב או שבץ) במטופלים בעלי סיכון גבוה לאירוע ראשוני."
+                },
+                {
+                    "eng": "In patients with a coronary heart disease, Lipitor reduces the risk of myocardial infarction, stroke, hospitalization due to heart failure, angina pectoris and/or need for catheterization.",
+                    "heb": "בחולים עם מחלת לב כלילית, ליפיטור מוריד את הסיכון להופעת אוטם שריר הלב, שבץ מוחי, אשפוז עקב אי ספיקת לב, תעוקת לב ו/או צורך בצנתור."
+                },
+                {
+                    "eng": "Therapeutic group:",
+                    "heb": "קבוצה תרפויטית:"
+                },
+                {
+                    "eng": "Statins – HMG-CoA reductase enzyme inhibitors",
+                    "heb": "סטטינים - מעכבי האנזים HMG-CoA רדוקטאז."
+                }
+            ]
+        },
+        {
+            "title": "before using the medicine",
+            "section_num": "2",
+            "data": [
+                {
+                    "eng": "2. BEFORE USING THE MEDICINE",
+                    "heb": "2. לפני השימוש בתרופה"
+                },
+                {
+                    "eng": "Do not use the medicine if :",
+                    "heb": "אין להשתמש בתרופה אם :"
+                },
+                {
+                    "eng": "• you have liver problems (acute liver failure or decompensated cirrhosis)",
+                    "heb": "אתה סובל מבעיות בכבד (אי ספיקת כבד חמורה או שחמת כבד שאינה בשליטה)"
+                },
+                {
+                    "eng": "you are sensitive (allergic) to the active ingredient or to any of the other ingredients contained in the medicine (listed in section 6). Stop using the medicine and get medical help right away if you have signs of a serious allergic reaction including:",
+                    "heb": "אתה רגיש (אלרגי) לחומר הפעיל או לכל אחד מהמרכיבים הנוספים אשר מכילה התרופה (מפורטים בסעיף 6). הפסק להשתמש בתרופה ופנה מיד לעזרה רפואית אם אתה מרגיש סימנים של אלרגיה חמורה, כולל:"
+                },
+                {
+                    "eng": "swelling of your face, lips, tongue, or throat",
+                    "heb": "התנפחות של הפנים, השפתיים, הלשון או הגרון"
+                },
+                {
+                    "eng": "fainting or dizziness",
+                    "heb": "עילפון או סחרחורת"
+                },
+                {
+                    "eng": "very rapid heartbeat",
+                    "heb": "דופק מאוד מהיר"
+                },
+                {
+                    "eng": "severe skin rash or itching",
+                    "heb": "פריחה או גרד חריפים בעור"
+                },
+                {
+                    "eng": "flu-like symptoms including fever, sore throat, cough, tiredness, and joint pain",
+                    "heb": "תסמינים דמויי שפעת כולל חום, כאב גרון, שיעול, עייפות וכאב במפרקים"
+                },
+                {
+                    "eng": "Special warnings regarding use of the medicine",
+                    "heb": "אזהרות מיוחדות הנוגעות לשימוש בתרופה"
+                },
+                {
+                    "eng": "Before treatment with Lipitor, tell your doctor if:",
+                    "heb": "לפני הטיפול בליפיטור ספר לרופא אם:"
+                },
+                {
+                    "eng": "you have unexplained muscle aches or weakness",
+                    "heb": "אתה סובל מכאבי שרירים או מחולשה בלתי מוסברים."
+                },
+                {
+                    "eng": "you drink more than 2 glasses of alcohol daily.",
+                    "heb": "אתה שותה יותר משתי כוסות אלכוהול ביום."
+                },
+                {
+                    "eng": "you have diabetes.",
+                    "heb": "אתה סובל מסוכרת."
+                },
+                {
+                    "eng": "you have thyroid problems.",
+                    "heb": "אתה סובל מבעיות בבלוטת המגן (התירואיד)"
+                },
+                {
+                    "eng": "you have kidney problems.",
+                    "heb": "אתה סובל מבעיות בכליות."
+                },
+                {
+                    "eng": "you have had a stroke",
+                    "heb": "סבלת משבץ"
+                },
+                {
+                    "eng": "you are pregnant or plan to become pregnant.",
+                    "heb": "את בהיריון או מתכננת להיכנס להיריון"
+                },
+                {
+                    "eng": "you are breastfeeding or plan to breastfeed.",
+                    "heb": "את מיניקה או מתכננת להיניק"
+                },
+                {
+                    "eng": "This medicine is usually not intended for children below 10 years of age and for girls who have not yet started menstruating.",
+                    "heb": "תרופה זו אינה מיועדת בדרך כלל לילדים מתחת לגיל 10 שנים ולבנות שטרם קיבלו מחזור."
+                },
+                {
+                    "eng": "Tests and follow up",
+                    "heb": "בדיקות ומעקב"
+                },
+                {
+                    "eng": "Before starting treatment with Lipitor, it is recommended to perform a liver function test. These tests may need to be repeated during treatment with the medicine.",
+                    "heb": "מומלץ לערוך בדיקת תפקודי כבד לפני תחילת הטיפול בליפיטור. ייתכן שיהיה צורך לחזור על בדיקות אלו במהלך הטיפול בתרופה."
+                },
+                {
+                    "eng": "Drug interactions",
+                    "heb": "תגובות בין תרופתיות"
+                },
+                {
+                    "eng": "If you are taking or have recently taken, other medicines, including nonprescription medicines and dietary supplements, tell your doctor or pharmacist. Especially if you are taking:",
+                    "heb": "אם אתה לוקח, או לקחת לאחרונה תרופות אחרות כולל תרופות ללא מרשם ותוספי תזונה, ספר על כך לרופא או לרוקח. במיוחד אם אתה לוקח:"
+                },
+                {
+                    "eng": "Medicines for immune system (cyclosporine)",
+                    "heb": "תרופות למערכת החיסון (ציקלוספורין)"
+                },
+                {
+                    "eng": "Medicines for cholesterol (gemfibrozil)",
+                    "heb": "תרופות לכולסטרול (גמפיברוזיל)"
+                },
+                {
+                    "eng": "Medicines for infections (erythromycin, clarithromycin, itraconazole, ketoconazole, voriconazole, posaconazole and rifampin)",
+                    "heb": "תרופות לזיהומים (אריתרומיצין, קלריתרומיצין, איטרקונאזול, קטוקונאזול, ווריקונאזול, פוסקונאזול וריפמפין)"
+                },
+                {
+                    "eng": "Birth control pills",
+                    "heb": "גלולות למניעת היריון"
+                },
+                {
+                    "eng": "Medicines for heart failure (digoxin)",
+                    "heb": "תרופות לאי ספיקת לב (דיגוקסין)"
+                },
+                {
+                    "eng": "Medicines for gout (colchicine)",
+                    "heb": "תרופות לשיגדון (קולכיצין)"
+                },
+                {
+                    "eng": "Niacin",
+                    "heb": "ניאצין"
+                },
+                {
+                    "eng": "Fibrates",
+                    "heb": "פיבראטים"
+                },
+                {
+                    "eng": "Medicines for viruses that treat HIV, AIDS, or hepatitis C (antivirals)",
+                    "heb": "תרופות לו ירוסים, המטפל ות ב HIV, איידס או הפטיטיס C) תרופות אנטי ויראליות)"
+                },
+                {
+                    "eng": "Tipranavir in combination with ritonavir",
+                    "heb": "טיפרנאביר בשילוב עם ריטונאביר"
+                },
+                {
+                    "eng": "Ledipasvir in combination with sofosbuvir",
+                    "heb": "לדיפאסוויר בשילוב עם סופוסבוביר"
+                },
+                {
+                    "eng": "Saquinavir in combination with ritonavir",
+                    "heb": "סאקווינאביר בשילוב עם ריטונאביר"
+                },
+                {
+                    "eng": "Elbasvir in combination with grazoprevir",
+                    "heb": "אלבאסביר בשילוב עם גרזופרביר"
+                },
+                {
+                    "eng": "Nelfinavir",
+                    "heb": "נלפינאביר"
+                },
+                {
+                    "eng": "Glecaprevir in combination with pibrentasvir",
+                    "heb": "גלקפרביר בשילוב עם פיברנטאסביר"
+                },
+                {
+                    "eng": "Simpravir",
+                    "heb": "סימפרביר"
+                },
+                {
+                    "eng": "Darunavir in combination with ritonavir",
+                    "heb": "דרונאביר בשילוב עם ריטונאביר"
+                },
+                {
+                    "eng": "Fosamprenavir in combination with ritonavir",
+                    "heb": "פוסאמפרבאניר בשילוב עם ריטונאביר"
+                },
+                {
+                    "eng": "Letermovir",
+                    "heb": "לטרמוביר"
+                },
+                {
+                    "eng": "Lopinavir in combination with ritonavir",
+                    "heb": "לופינאביר בשילוב עם ריטונאביר"
+                },
+                {
+                    "eng": "Fosamprenavir",
+                    "heb": "פוסאמברבאניר"
+                },
+                {
+                    "eng": "Using this medicine and food",
+                    "heb": "שימוש בתרופה ומזון"
+                },
+                {
+                    "eng": "The medicine can be taken with or without a meal.",
+                    "heb": "ניתן ליטול את התרופה עם או ללא ארוחה."
+                },
+                {
+                    "eng": "Do not drink large quantities of grapefruit juice (more than 1 liter per day) during the course of treatment with the preparation.",
+                    "heb": "בזמן הטיפול בתכשיר אין לשתות כמויות גדולות של מיץ אשכוליות (מעל ליטר ביום)."
+                },
+                {
+                    "eng": "Maintain a low-cholesterol diet during the course of treatment with the preparation.",
+                    "heb": "יש להקפיד על תזונה דלת כולסטרול במהלך השימוש בתכשיר."
+                },
+                {
+                    "eng": "During the course of treatment with the medicine, do not drink more than 2 glasses of alcohol per day (see section 2, 'Before treatment with Lipitor, tell your doctor if:')",
+                    "heb": "במהלך הטיפול בתרופה אין לשתות יותר משתי כוסות אלכוהול ביום (ראה בפרק 2 - 'לפני הטיפול בליפיטור ספר לרופא אם:')"
+                },
+                {
+                    "eng": "Pregnancy, breastfeeding, and fertility: Do not use the medicine if you are pregnant, think that you are pregnant or are planning to become pregnant or if you are breastfeeding. If you become pregnant while using the medicine, stop taking it and contact the doctor immediately, since the medicine may harm the fetus.",
+                    "heb": "היריון, הנקה ופוריות: אין להשתמש בתרופה אם את בהיריון, חושבת שאת בהיריון או מתכננת להיכנס להיריון או אם את מיניקה. אם נכנסת להיריון במהלך השימוש בתרופה, הפסיקי ליטול אותה ופני מיד אל הרופא מאחר והתרופה עלולה להזיק לעובר."
+                },
+                {
+                    "eng": "Important information about some of this medicine’s ingredients: This medicine contains lactose. If you have been told by your doctor that you are suffering from intolerance to certain sugars, consult your doctor before taking the medicine.",
+                    "heb": "מידע חשוב על חלק מהמרכיבים של התרופה: תרופה זו מכילה לקטוז. אם נאמר לך ע\"י הרופא שאתה סובל מאי סבילות לסוכרים מסוימים, יש להיוועץ ברופא לפני נטילת התרופה."
+                }
+            ]
+        },
+        {
+            "title": "HOW TO USE THIS MEDICINE?",
+            "section_num": "3",
+            "data": [
+                {
+                    "eng": "3.HOW TO USE THIS MEDICINE?",
+                    "heb": "3. כיצד תשתמש בתרופה?"
+                },
+                {
+                    "eng": "Always use this preparation according to your doctor's instructions. Check with the doctor or pharmacist if you are uncertain about the dosage and treatment regimen of the preparation. The dosage and treatment regimen will be determined by your doctor only.",
+                    "heb": "יש להשתמש בתכשיר תמיד בהתאם להוראות הרופא. עליך לבדוק עם הרופא או הרוקח אם אינך בטוח בנוגע למינון ואופן הטיפול בתכשיר. המינון ואופן הטיפול יקבעו על ידי הרופא בלבד."
+                },
+                {
+                    "eng": "Do not exceed the recommended dose.",
+                    "heb": "אין לעבור על המנה המומלצת."
+                },
+                {
+                    "eng": "Swallow the tablet whole with a small quantity of water. The tablet can be taken at any time of day, preferably at the same time.",
+                    "heb": "יש לבלוע את הטבליה בשלמותה עם מעט מים. ניתן ליטול את הטבליה בכל שעה ביום, עדיף בשעה קבועה."
+                },
+                {
+                    "eng": "The tablet must not be crushed/halved/chewed, since it is film-coated.",
+                    "heb": "אסור לכתוש/לחצות/ללעוס את הטבליה, מכיוון שהיא מצופה."
+                },
+                {
+                    "eng": "If you have taken an overdose, or if a child has accidentally swallowed some medicine, immediately see a doctor or go to a hospital emergency room and bring the medicine package with you.",
+                    "heb": "אם נטלת מנת יתר או אם בטעות בלע ילד מן התרופה, פנה מיד לרופא או לחדר מיון של בית חולים והבא את אריזת התרופה איתך."
+                },
+                {
+                    "eng": "If you forget to take the medicine at the scheduled time, take a dose as soon as you remember. Do not take the dose if more than 12 hours have passed since you forgot the dose. Never take a double dose. Always adhere to the treatment as recommended by the doctor.",
+                    "heb": "אם שכחת ליטול את התרופה בזמן המיועד, יש ליטול מנה מיד שנזכרת. אין ליטול את המנה אם חלפו יותר מ-12 שעות מאז ששכחת את המנה. בכל מקרה, אין ליטול מנה כפולה. יש להתמיד בטיפול כפי שהומלץ על ידי הרופא."
+                },
+                {
+                    "eng": "Adhere to the treatment regimen as recommended by your doctor.",
+                    "heb": "יש להתמיד בטיפול כפי שהומלץ על ידי הרופא."
+                },
+                {
+                    "eng": "Even if your health improves, do not stop taking this medicine without consulting your doctor.",
+                    "heb": "גם אם חל שיפור במצב בריאותך, אין להפסיק את הטיפול בתרופה ללא התייעצות עם הרופא."
+                },
+                {
+                    "eng": "Do not take medicines in the dark! Check the label and dose each time you take a medicine. Wear glasses if you need them.",
+                    "heb": "אין ליטול תרופות בחושך! בדוק התווית והמנה בכל פעם שהי נך נוטל תרופה. יש להרכיב משקפיים אם הינך זקוק להם."
+                },
+                {
+                    "eng": "If you have any further questions about using this medicine, consult your doctor or pharmacist.",
+                    "heb": "אם יש לך שאלות נוספות בנוגע לשימוש בתרופה, היוועץ ברופא או ברוקח."
+                }
+            ]
+        },
+        {
+            "title": "side effects",
+            "section_num": "4",
+            "data": [
+                {
+                    "eng": "4. SIDE EFFECTS ",
+                    "heb": "4. תופעות לוואי"
+                },
+                {
+                    "eng": "As with any medicine, use of Lipitor may cause side effects in some users. Do not be alarmed by this list of side effects; you may not experience any of them.",
+                    "heb": "כמו בכל תרופה, השימוש בליפיטור עלול לגרום לתופעות לוואי בחלק מהמשתמשים. אל תיבהל למקרא רשימת תופעות הלוואי, ייתכן שלא תסבול מאף אחת מהן."
+                },
+                {
+                    "eng": "Serious side effects:",
+                    "heb": "תופעות לוואי חמורות:"
+                },
+                {
+                    "eng": "Use of Lipitor may cause serious side effects, including:",
+                    "heb": "השימוש בליפיטור יכול לגרום להופעת תופעות לוואי חמורות כולל:"
+                },
+                {
+                    "eng": "Use of Lipitor may cause serious side effects, including:",
+                    "heb": "השימוש בליפיטור יכול לגרום להופעת תופעות לוואי חמורות כולל:"
+                },
+                {
+                    "eng": "Muscle pain, tenderness and weakness (myopathy). Muscle problems, including rhabdomyolysis, may be serious in some people, and may rarely lead to kidney damage, which can lead to death.",
+                    "heb": "כאבים בשרירים, רגישות וחולשת שרירים (מיופתיה). בעיות בשרירים, כולל פירוק של שריר, עלולות להיות חמורות באנשים מסוימים ולעיתים נדירות לגרום לנזק בכליות אשר יכול להוביל למוות."
+                },
+                {
+                    "eng": "Contact your doctor immediately if:",
+                    "heb": "יש לפנות מייד לרופא אם:"
+                },
+                {
+                    "eng": "Swelling of your face, lips, tongue or throat",
+                    "heb": "התנפחות של הפנים, השפתיים , הלשון או הגרון"
+                },
+                {
+                    "eng": "Difficulty breathing or swallowing",
+                    "heb": "קושי בנשימה או בבליעה"
+                },
+                {
+                    "eng": "Fainting or dizziness",
+                    "heb": "עילפון או סחרחורת"
+                },
+                {
+                    "eng": "Very rapid heartbeat",
+                    "heb": "דופק מאוד מהיר"
+                },
+                {
+                    "eng": "Severe skin rash or itching",
+                    "heb": "פריחה או גרד חריפים בעור"
+                },
+                {
+                    "eng": "Flu-like symptoms including fever, sore throat, cough, tiredness, and joint pain",
+                    "heb": "תסמינים דמויי שפעת כולל חום, כאב גרון , שיעול , עייפות וכאב במפרק"
+                },
+                {
+                    "eng": "Muscle pain, weakness and tenderness without clear reason, especially if accompanied by fever or unusual tiredness",
+                    "heb": "כאבים בשרירים, חולשה ו רגישות שהחלו ללא סיבה ברורה, במיוחד אם מלווים בחום או אם אתה חש עייף מהרגיל"
+                },
+                {
+                    "eng": "Persistent muscle problems even after stopping the medicine, may require further tests to diagnose the cause",
+                    "heb": "בעיות בשרירים אשר אינן נעלמות גם לאחר שהרופא הנחה אותך להפסיק ליטול את התרופה, ייתכן שהרופא יפנה אותך לבדיקות נוספות כדי לברר ממה נובעות הבעיות בשרירים"
+                },
+                {
+                    "eng": "Taking certain other medicines during Lipitor treatment",
+                    "heb": "נטילת תרופות מסוימות אחרות בזמן הטיפול בליפיטור"
+                },
+                {
+                    "eng": "Drinking large amounts of grapefruit juice",
+                    "heb": "שתיית כמויות גדולות של מיץ אשכוליות"
+                },
+                {
+                    "eng": "Age 65 or older",
+                    "heb": "בן 65 ומעלה"
+                },
+                {
+                    "eng": "Thyroid problems (hypothyroidism) that are not controlled",
+                    "heb": "בעיות בבלוטת המגן (תת פעילות של הבלוטה, היפותירואידיזם) שאינן נשלטות"
+                },
+                {
+                    "eng": "Kidney problems",
+                    "heb": "בעיות בכליות"
+                },
+                {
+                    "eng": "Taking high doses of Lipitor",
+                    "heb": "נטילת מינונים גבוהים של ליפיטור"
+                },
+                {
+                    "eng": "Sensation of tiredness or weakness",
+                    "heb": "תחושת עייפות או חולשה"
+                },
+                {
+                    "eng": "Nausea or vomiting",
+                    "heb": "בחילות או הקאות"
+                },
+                {
+                    "eng": "Loss of appetite",
+                    "heb": "אובדן תיאבון"
+                },
+                {
+                    "eng": "Pain in the upper abdomen",
+                    "heb": "כאבים בבטן העליונה"
+                },
+                {
+                    "eng": "Urine color becoming darker (amber color)",
+                    "heb": "צבע השתן הופך כהה יותר (צבע ענברי)"
+                },
+                {
+                    "eng": "Yellowing of the skin and the whites of the eyes",
+                    "heb": "הצהבת העור ולובן העיניים"
+                },
+                {
+                    "eng": "The most common side effects are:",
+                    "heb": "תופעות הלוואי השכיחות ביותר הן:"
+                },
+                {
+                    "eng": "Nasal congestion",
+                    "heb": "גודש באף"
+                },
+                {
+                    "eng": "Sore throat",
+                    "heb": "כאב גרון"
+                },
+                {
+                    "eng": "Runny nose",
+                    "heb": "נזלת"
+                },
+                {
+                    "eng": "Diarrhea",
+                    "heb": "שלשול"
+                },
+                {
+                    "eng": "Pain in extremities",
+                    "heb": "כאבים בגפיים"
+                },
+                {
+                    "eng": "Urinary tract infection",
+                    "heb": "דלקת בדרכי השתן"
+                },
+                {
+                    "eng": "Nausea",
+                    "heb": "בחילות"
+                },
+                {
+                    "eng": "Muscle and joint pain",
+                    "heb": "כאבי שרירים ומפרקים"
+                },
+                {
+                    "eng": "Muscle spasms",
+                    "heb": "התכווצויות שרירים"
+                },
+                {
+                    "eng": "Abdominal pain",
+                    "heb": "כאבים בבטן"
+                },
+                {
+                    "eng": "Insomnia",
+                    "heb": "נדודי שינה"
+                },
+                {
+                    "eng": "Additional side effects:",
+                    "heb": "תופעות לוואי נוספות:"
+                },
+                {
+                    "eng": "malaise",
+                    "heb": "תחושת מחלה"
+                },
+                {
+                    "eng": "fever",
+                    "heb": "חום"
+                },
+                {
+                    "eng": "abdominal discomfort",
+                    "heb": "אי נוחות בבטן"
+                },
+                {
+                    "eng": "flatulence",
+                    "heb": "נפיחות"
+                },
+                {
+                    "eng": "gas",
+                    "heb": "גזים"
+                },
+                {
+                    "eng": "hepatitis",
+                    "heb": "דלקת כבד"
+                },
+                {
+                    "eng": "cholestasis",
+                    "heb": "עימדון מרה"
+                },
+                {
+                    "eng": "musculoskeletal pain",
+                    "heb": "כאבי שרירים ושלד"
+                },
+                {
+                    "eng": "muscle weakness",
+                    "heb": "חולשת שרירים"
+                },
+                {
+                    "eng": "neck pain",
+                    "heb": "כאב בצוואר"
+                },
+                {
+                    "eng": "joint swelling",
+                    "heb": "נפיחות במפרקים"
+                },
+                {
+                    "eng": "symptoms of lupus-like disease",
+                    "heb": "תסמינים של מחלה דמוית זאבת"
+                },
+                {
+                    "eng": "increased transaminase levels",
+                    "heb": "עלי יה ברמת טרנסאמינזות"
+                },
+                {
+                    "eng": "changes in liver enzyme levels",
+                    "heb": "שינויים ברמת אנזימי כבד"
+                },
+                {
+                    "eng": "increased alkaline phosphatase level",
+                    "heb": "עלייה ברמת אלקליין פוספטאז"
+                },
+                {
+                    "eng": "increased creatine phosphokinase level",
+                    "heb": "עלייה ברמת קריאטין פוספוקינאז"
+                },
+                {
+                    "eng": "increased blood sugar level (hyperglycemia)",
+                    "heb": "עלי יה ברמת הסוכר בדם (היפרגליקמיה)"
+                },
+                {
+                    "eng": "nightmares",
+                    "heb": "סיוטי לילה"
+                },
+                {
+                    "eng": "nosebleed",
+                    "heb": "דימום מהאף"
+                },
+                {
+                    "eng": "urticaria",
+                    "heb": "סרפדת"
+                },
+                {
+                    "eng": "blurred vision",
+                    "heb": "טשטוש ראייה"
+                },
+                {
+                    "eng": "tinnitus",
+                    "heb": "טינטון"
+                },
+                {
+                    "eng": "appearance of white blood cells in urine",
+                    "heb": "הופעת תאי דם לבנים בשתן"
+                },
+                {
+                    "eng": "pancreatitis",
+                    "heb": "דלקת בלבלב"
+                },
+                {
+                    "eng": "fatigue",
+                    "heb": "עייפות"
+                },
+                {
+                    "eng": "liver failure which may be life threatening",
+                    "heb": "אי ספיקת כבד שעלולה לסכן חיים"
+                },
+                {
+                    "eng": "anaphylaxis (severe hypersensitivity reaction to a foreign agent)",
+                    "heb": "אנפילקסיס (תגובת רגישות- יתר לגורם זר בדרגת חומרה קשה)"
+                },
+                {
+                    "eng": "tendon rupture",
+                    "heb": "קרע בגיד"
+                },
+                {
+                    "eng": "myositis and rhabdomyolysis (muscle cell degradation)",
+                    "heb": "דלקת בשריר ו רבדומיוליזיס (התפרקות של תאי שריר)"
+                },
+                {
+                    "eng": "dizziness",
+                    "heb": "סחרחורת"
+                },
+                {
+                    "eng": "peripheral neuropathy",
+                    "heb": "פגיעה בעצבים היקפיים"
+                },
+                {
+                    "eng": "cognitive impairment associated with statins",
+                    "heb": "פגיעה קוגניטיבית (לדוגמה: אובדן זיכרון, שכחון, פגיעה בזיכון , בלבול) שקשורה בשימוש בסטטינים"
+                },
+                {
+                    "eng": "depression",
+                    "heb": "דיכאון"
+                },
+                {
+                    "eng": "interstitial lung disease",
+                    "heb": "מחלת ריאה אינטרסטיציאלית"
+                },
+                {
+                    "eng": "local edema",
+                    "heb": "בצקת מקומית"
+                },
+                {
+                    "eng": "rash",
+                    "heb": "פריחה"
+                },
+                {
+                    "eng": "If you experience any side effect, if any side effect gets worse, or if you experience a side effect not mentioned in this leaflet, consult your doctor.",
+                    "heb": "אם הופיעה תופעת לוואי, אם אחת מתופעות הלוואי מחמירה או כאשר אתה סובל מתופעת לוואי שלא צוינה בעלון, עליך להתייעץ עם הרופא."
+                },
+                {
+                    "eng": "You can report side effects to the Ministry of Health by following the link 'Reporting Side Effects of Drug Treatment' on the Ministry of Health home page (www.health.gov.il) which links to an online form for reporting side effects or by using the link: https://sideeffects.health.gov.il",
+                    "heb": "ניתן לדווח על תופעות לוואי למשרד הבריאות באמצעות לחיצה על הקישור 'דיווח על תופעות לוואי עקב טיפול תרופתי' שנמצא בדף הבית של אתר משרד הבריאות (www.health.gov.il) המפנה לטופס המקוון לדיווח על תופעות לוואי, או על ידי השימוש בקישור: https://sideeffects.health.gov.il"
+                }
+            ]
+        },
+        {
+            "title": "medicine storage",
+            "section_num": "5",
+            "data": [
+                {
+                    "eng": "5. HOW SHOULD THE MEDICINE BE STORED? ",
+                    "heb": "5. איך לאחסן את התרופה?"
+                },
+                {
+                    "eng": "Prevent poisoning! This and any other medicine should be kept in a closed place, out of the reach and sight of children and/or infants to avoid poisoning. Do not induce vomiting unless explicitly instructed to do so by a doctor.",
+                    "heb": "מנע הרעלה! תרופה זו וכל תרופה אחרת יש לשמור במקום סגור מחוץ להישג ידם וטווח ראייתם של ילדים ו/או תינוקות ועל ידי כך תמנע הרעלה. אין לגרום להקאה ללא הוראה מפורשת מהרופא."
+                },
+                {
+                    "eng": "Do not use the medicine after the expiry date (exp. date) which is stated on the package. The expiry date refers to the last day of that month.",
+                    "heb": "אין להשתמש בתרופה אחרי תאריך התפוגה (date .exp (המופיע על גבי האריזה. תאריך התפוגה מתייחס ליום האחרון של אותו חודש."
+                },
+                {
+                    "eng": "Store the medicine below 25˚C.",
+                    "heb": ".25 0 • יש לאחסן את התרופה מתחת ל - C"
+                }
+            ]
+        },
+        {
+            "title": "additional information",
+            "section_num": "6",
+            "data": [
+                {
+                    "eng": "6. FURTHER INFORMATION ",
+                    "heb": "6. מידע נוסף "
+                },
+                {
+                    "eng": "In addition to the active ingredients, the medicine also contains: ",
+                    "heb": "נוסף על החומרים הפעילים התרופה מכילה גם:"
+                },
+                {
+                    "eng": "Calcium carbonate",
+                    "heb": "סידן קרבונט"
+                },
+                {
+                    "eng": "Lactose monohydrate",
+                    "heb": "לקטוז מונוהידרט"
+                },
+                {
+                    "eng": "Microcrystalline cellulose",
+                    "heb": "צילולוזה מיקרוקריסטלית"
+                },
+                {
+                    "eng": "Croscarmellose sodium",
+                    "heb": "קרוסקרמלוז נתרן"
+                },
+                {
+                    "eng": "Opadry white",
+                    "heb": "אופאדרי לבן"
+                },
+                {
+                    "eng": "Hydroxypropyl cellulose",
+                    "heb": "צילולוזה הידרוקסיפרופילית"
+                },
+                {
+                    "eng": "Magnesium stearate",
+                    "heb": "סטארטט מגנזיום"
+                },
+                {
+                    "eng": "Polysorbate 80",
+                    "heb": "פוליסורבט 80"
+                },
+                {
+                    "eng": "Simethicone emulsion",
+                    "heb": "אמולסיה סימטיקון"
+                },
+                {
+                    "eng": "Lipitor 10 mg: 27.25 mg lactose monohydrate.",
+                    "heb": "ליפיטור 10 מ\"ג: 27.25 מ\"ג לקטוז מונוהידראט."
+                },
+                {
+                    "eng": "Lipitor 20 mg: 54.5 mg lactose monohydrate.",
+                    "heb": "ליפיטור 20 מ\"ג: 54.5 מ\"ג לקטוז מונוהידראט."
+                },
+                {
+                    "eng": "Lipitor 40 mg: 109 mg lactose monohydrate.",
+                    "heb": "ליפיטור 40 מ\"ג: 109 מ\"ג לקטוז מונוהידראט."
+                },
+                {
+                    "eng": "Lipitor 80 mg: 218 mg lactose monohydrate.",
+                    "heb": "ליפיטור 80 מ\"ג: 218 מ\"ג לקטוז מונוהידראט."
+                },
+                {
+                    "eng": "Pfizer PFE Pharmaceuticals Israel Ltd., 9 Shenkar St., Herzliya Pituach.",
+                    "heb": "פייזר פי אף אי פרמצבטיקה ישראל בע\"מ, 9 שנקר, הרצליה פיתוח."
+                }
+            ]
+        }
+    ]
+}

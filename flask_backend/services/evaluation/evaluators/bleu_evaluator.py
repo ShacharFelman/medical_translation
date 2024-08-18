@@ -22,9 +22,9 @@ class BLEUEvaluator:
             eval_type = evaluation_type.lower()
             ref, cand = self._preprocess_input(reference, candidate, eval_type)
                
-            logger.info(f"Evaluation type: {evaluation_type}")
-            logger.info(f"Reference: {ref}")
-            logger.info(f"Candidate: {cand}")
+            # logger.info(f"Evaluation type: {evaluation_type}")
+            # logger.info(f"Reference: {ref}")
+            # logger.info(f"Candidate: {cand}")
             
             if not ref or not cand:
                 logger.warning("Empty input: reference or candidate is empty.")

@@ -97,8 +97,8 @@ class EvaluationManager():
             if score_type == EvaluationScoreType.BLEU.value:
                 return self._update_bleu_score(reference, candidate, bleu_types)
 
-            elif score_type == EvaluationScoreType.COMET.value:
-                return self._update_comet_score(reference, candidate, source)
+            # elif score_type == EvaluationScoreType.COMET.value:
+            #     return self._update_comet_score(reference, candidate, source)
 
             elif score_type == EvaluationScoreType.CHRF.value:
                 score = self._chrf_evaluator.evaluate(reference, candidate)
