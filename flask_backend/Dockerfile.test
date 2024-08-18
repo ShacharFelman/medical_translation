@@ -13,6 +13,7 @@ RUN --mount=type=cache,target=/root/.cache/pip \
 ENV NLTK_DATA /nltk_data/
 ADD . $NLTK_DATA
 RUN python3 -m nltk.downloader punkt -d /usr/share/nltk_data
+RUN python3 -m nltk.downloader punkt_tab -d /usr/share/nltk_data
 RUN python3 -m nltk.downloader stopwords -d /usr/share/nltk_data
 
 COPY . .
