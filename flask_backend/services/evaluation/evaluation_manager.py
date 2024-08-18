@@ -77,6 +77,8 @@ class EvaluationManager():
                 if updated:
                     evaluation_scores.update(new_scores)
                     scores_updated = True
+                else:
+                    logger.warning(f"Failed to update {score_type} score")
             else:
                 logger.warning(f"Unknown score type: {score_type}")
 
