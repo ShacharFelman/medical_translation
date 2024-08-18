@@ -1,7 +1,7 @@
 from typing import List
 from tqdm import tqdm
 from database.mongodb_client import MongoDBClient
-from data.entities import TranslationRecordEntity, TranslationEntity, EvaluationScores
+from data.entities import TranslationRecordEntity, TranslationEntity
 from services.evaluation.evaluation_manager import EvaluationManager
 from utils.constants import EvaluationScoreType, BLEUScoreType
 
@@ -27,7 +27,6 @@ override_bleu_scores = {
 }
 
 def update_scores():
-    # Fetch all translation records from the database
     all_records = get_all_records_from_db()
     filtered_records: List[TranslationRecordEntity] = filter_records_with_missing_scores(all_records)
 
@@ -47,15 +46,15 @@ def update_scores():
                     logger.warning(f"Skipping translation due to missing translated text")
                     continue
                 try:
-                    translation_updated, new_evaluation_scores = update_translation_scores(translation, human_translation, input_text)
-                    if translation_updated:
+                    scores_updated, new_evaluation_scores = update_translation_scores(translation, human_translation, input_text)
+                    if scores_updated:
                         translation.evaluation_scores = new_evaluation_scores
                         record_updated = True
                         logger.info(f"Scores updated")
 
                     if (record.best_translation and 
                         record.best_translation.translator_name == translation.translator_name):
-                        record.best_translation.evaluation_scores = new_evaluation_scores
+                        record.best_translation.evaluation_scores = translation.evaluation_scores
                         logger.info(f"Best Translation scores updated after translation scores {'not ' if not record_updated else ''}updated")
                         record_updated = True
 
@@ -82,26 +81,29 @@ def update_scores():
     logger.info(f"No changes were needed for {no_change_count} records.")
     logger.info(f"Encountered errors with {error_count} records.")
 
-# Done!
+
 def get_all_records_from_db() -> List[TranslationRecordEntity]:
     all_records = mongo_client.get_all_translation_records()
     return all_records
 
-# Done!
+
 def filter_records_with_missing_scores(records: List[TranslationRecordEntity]) -> List[TranslationRecordEntity]:
     filtered_records = []
     for record in records:
         if record.translations:
             for translation in record.translations:
-                if is_translation_missing_scores(translation):
+                if is_translation_missing_any_score(translation):
                     filtered_records.append(record)
                     break
+        if (record not in filtered_records and
+            record.best_translation and
+            is_translation_missing_any_score(record.best_translation)):
+            filtered_records.append(record)
     logger.info(f"Found {len(filtered_records)} records with missing scores")
     return filtered_records
 
 
-# Done!
-def is_translation_missing_scores(translation: TranslationEntity):
+def is_translation_missing_any_score(translation: TranslationEntity):
     if is_evaluation_scores_missing(translation):
         return True   
 
@@ -114,18 +116,15 @@ def is_translation_missing_scores(translation: TranslationEntity):
     return True
     
 
-# Done!
 def is_evaluation_scores_missing(translation: TranslationEntity):
     return not translation.evaluation_scores or translation.evaluation_scores is None
 
 
-# Done!
 def get_missing_score_types(translation: TranslationEntity):
     score_types = EvaluationScoreType.get_types()
     return [type for type in score_types if translation.evaluation_scores.get(type) is None or overrides_scores.get(type)]
 
 
-# Done!
 def get_missing_bleu_types(translation: TranslationEntity):
     bleu_name = EvaluationScoreType.BLEU.value
     missing_bleu_scores = BLEUScoreType.get_types()
@@ -142,67 +141,22 @@ def get_missing_bleu_types(translation: TranslationEntity):
 
 def update_translation_scores(tranalsation: TranslationEntity, human_translation: str, input_text: str):
     scores_updated = False
-    if tranalsation.evaluation_scores and tranalsation.evaluation_scores is not None:
-        evaluation_scores = tranalsation.evaluation_scores
+    missing_score_types = get_missing_score_types(tranalsation)
+    missing_bleu_types = get_missing_bleu_types(tranalsation)
+    if is_evaluation_scores_missing(tranalsation):
+        evaluation_scores = None
+        logger.info(f"evaluation_scores is missing")
     else:
-        evaluation_scores = EvaluationScores()
-
-    # # Check if the bleu_plain_corpus score is missing and update it
-    # if is_bleu_plain_corpus_missing(evaluation_scores):
-    #     bleu_updated, evaluation_scores = evaluation_manager.update_translation_scores(tranalsation,
-    #                                                                                    human_translation, "plain_corpus")
-    #     if bleu_updated:
-    #         scores_updated = True
-
-    # # Check if the bleu_token_corpus score is missing and update it
-    # if is_bleu_token_corpus_missing(evaluation_scores):
-    #     bleu_updated, evaluation_scores = update_bleu_score(evaluation_scores, tranalsation.translated_text, human_translation, "token_corpus")
-    #     if bleu_updated:
-    #         scores_updated = True
-
-    # # # Check if the bleu_token_meth1 score is missing and update it
-    # if is_bleu_token_meth1_missing(evaluation_scores):
-    #     bleu_updated, evaluation_scores = update_bleu_score(evaluation_scores, tranalsation.translated_text, human_translation, "token_meth1")
-    #     if bleu_updated:
-    #         scores_updated = True
-
-    # # # Check if the bleu_token_meth7 score is missing and update it
-    # if is_bleu_token_meth7_missing(evaluation_scores):
-    #     bleu_updated, evaluation_scores = update_bleu_score(evaluation_scores, tranalsation.translated_text, human_translation, "token_meth7")
-    #     if bleu_updated:
-    #         scores_updated = True
-
-    # # # Check if the bleu_token_meth1_w score is missing and update it
-    # if is_bleu_token_meth1_w_missing(evaluation_scores):
-    #     bleu_updated, evaluation_scores = update_bleu_score(evaluation_scores, tranalsation.translated_text, human_translation, "token_meth1_w")
-    #     if bleu_updated:
-    #         scores_updated = True
-
-    # # # Check if the bleu_token_meth7_w score is missing and update it
-    # if is_bleu_token_meth7_w_missing(evaluation_scores):
-    #     bleu_updated, evaluation_scores = update_bleu_score(evaluation_scores, tranalsation.translated_text, human_translation, "token_meth7_w")
-    #     if bleu_updated:
-    #         scores_updated = True
-
-    # # # Check if the COMET score is missing and update it
-    # if is_comet_score_missing(evaluation_scores):
-    #     comet_updated, evaluation_scores = update_comet_score(evaluation_scores, input_text, tranalsation.translated_text, human_translation)
-    #     if comet_updated:
-    #         scores_updated = True
-    
-    # # # Check if the chrF score is missing and update it
-    # if is_chrf_score_missing(evaluation_scores):
-    #     chrf_updated, evaluation_scores = update_chrf_score(evaluation_scores, tranalsation.translated_text, human_translation)
-    #     if chrf_updated:
-    #         scores_updated = True
-
-    # # # Check if the WER score is missing and update it
-    # if is_wer_score_missing(evaluation_scores):
-    #     wer_updated, evaluation_scores = update_wer_score(evaluation_scores, tranalsation.translated_text, human_translation)
-    #     if wer_updated:
-    #         scores_updated = True
-
-
+        evaluation_scores = tranalsation.evaluation_scores
+    logger.info(f"Missing scores: {missing_score_types}, {missing_bleu_types}")
+    if len(missing_score_types) > 0:
+        scores_updated, evaluation_scores = evaluation_manager.update_scores(evaluation_scores,
+                                                                            human_translation,
+                                                                            tranalsation.translated_text,
+                                                                            input_text,
+                                                                            missing_score_types,
+                                                                            missing_bleu_types)
+                        
     return scores_updated, evaluation_scores
 
 
