@@ -1,0 +1,509 @@
+{
+  "title": "Propyl-Thiocil",
+  "index": 0,
+  "dir_index": "38",
+  "title_lang": {
+    "title_heb": "פרופיל-תיוציל",
+    "title_eng": "Propyl-Thiocil",
+    "title_ara": "x"
+  },
+  "sections": [
+    {
+      "title": "General",
+      "section_num": 0,
+      "data": [
+        {
+          "eng": "Tablets Composition:",
+          "heb": "טבליות הרכב:"
+        },
+        {
+          "eng": "Each tablet contains 50 mg Propylthiouracil and inactive ingredients.",
+          "heb": "כל טבליה מכילה: פרופילתיואוראציל 50 מ\"ג )mg 50 Propylthiouracil( ומרכיבים בלתי פעילים."
+        },
+        {
+          "eng": "For important information about allergens, see section 2 and section 6 for additional information.",
+          "heb": "למידע חשוב על אלרגנים ראה סעיף 2 \"מידע חשוב על חלק מהמרכיבים של התרופה\" וסעיף 6 - \"מידע נוסף\"."
+        },
+        {
+          "eng": "Read the entire leaflet carefully before using the medicine.",
+          "heb": "קרא בעיון את העלון עד סופו בטרם תשתמש בתרופה."
+        },
+        {
+          "eng": "This leaflet contains concise information about the medicine.",
+          "heb": "עלון זה מכיל מידע תמציתי על התרופה."
+        },
+        {
+          "eng": "If you have additional questions, consult your pharmacist or doctor.",
+          "heb": "אם יש לך שאלות נוספות, פנה אל הרוקח או אל הרופא."
+        },
+        {
+          "eng": "This medicine has been prescribed for you. Do not pass it on to others.",
+          "heb": "תרופה זו נרשמה עבורך. אל תעביר אותה לאחרים."
+        },
+        {
+          "eng": "It may harm them even if their medical condition seems similar to yours.",
+          "heb": "היא עלולה להזיק להם אפילו אם נראה לך כי מצבם הרפואי דומה."
+        }
+      ]
+    },
+    {
+      "title": "medicine intended for",
+      "section_num": 1,
+      "data": [
+        {
+          "eng": "The medicine is intended to treat an overactive thyroid gland.",
+          "heb": "התרופה מיועדת לטיפול בפעילות-יתר של בלוטת התריס."
+        },
+        {
+          "eng": "Therapeutic group",
+          "heb": "קבוצה תרפויטית."
+        },
+        {
+          "eng": "A medicine belonging to the antithyroid group, type-thiouracil.",
+          "heb": "תרופה מקבוצת האנטיתירואיד (Antithyroid) מסוג תיואורציל."
+        },
+        {
+          "eng": "An overactive thyroid gland is a condition in which the thyroid gland produces too much thyroid hormone.",
+          "heb": "פעילות-יתר של בלוטת התריס היא מצב בו בלוטת התריס (תירואיד) מייצרת יותר מדי הורמון תירואיד."
+        }
+      ]
+    },
+    {
+      "title": "before using the medicine",
+      "section_num": 2,
+      "data": [
+        {
+          "eng": "Do not use medicine if:",
+          "heb": "אין להשתמש בתרופה אם:"
+        },
+        {
+          "eng": "You are allergic to the active ingredient propylthiouracil or to any of the other ingredients contained in the medicine. (See section 6 for additional information).",
+          "heb": " •אתה רגיש (אלרגי) לחומר הפעיל פרופילתיואוראציל או לכל אחד מהמרכיבים הנוספים אשר מכילה התרופה (ראה סעיף 6 - 'מידע נוסף')."
+        },
+        {
+          "eng": "Special warnings regarding the use of the medicine:",
+          "heb": "אזהרות מיוחדות הנוגעות לשימוש בתרופה:"
+        },
+        {
+          "eng": "Before treatment with Thiocil-Propyl, inform your doctor if:",
+          "heb": "לפני הטיפול בפרופיל-תיוציל ספר לרופא אם:"
+        },
+        {
+          "eng": "You are breastfeeding, pregnant, or might be pregnant.",
+          "heb": " •את בהיריון, עשויה להיות בהיריון או שאת מניקה."
+        },
+        {
+          "eng": "You have had any problems with your kidneys or liver in the past.",
+          "heb": " •היתה לך בעבר בעיה כלשהיא בכבד או בכליות."
+        },
+        {
+          "eng": "You are over 40 years old.",
+          "heb": " •גילך מעל 40."
+        },
+        {
+          "eng": "Contact your doctor immediately before taking this medicine if:",
+          "heb": "פנה לרופא שלך מיד לפני נטילת תרופה זו אם:"
+        },
+        {
+          "eng": "You experience symptoms such as nausea, development of liver disease, yellowing of the eyes or skin, diarrhea, feeling unwell, chills or itching, easy bleeding, pale stools, dark urine.",
+          "heb": "אתה מפתח תסמינים של מחלת כבד, כגון בחילה, תחושת חולי, שלשול, הצהבה של העור או העיניים, שתן כהה, צואה בהירה, דימום ביתר קלות, גרד או צמרמורת."
+        },
+        {
+          "eng": "Some severe liver reactions, including cases requiring liver transplant or resulting in fatal outcomes, have been reported in adults and children treated with propylthiouracil.",
+          "heb": "מקרים מסוימים של תגובות כבד חמורות, לרבות מקרים שהסתיימו במוות או שדרשו השתלת כבד, דווחו הן בילדים והן במבוגרים אשר נטלו פרופילתיואוראציל."
+        },
+        {
+          "eng": "Tests and monitoring:",
+          "heb": "בדיקות ומעקב:"
+        },
+        {
+          "eng": "During the treatment period with Thiocil-Propyl, your doctor may refer you for routine blood tests or other tests to check your condition and ensure that you are taking the appropriate dosage.",
+          "heb": "במשך תקופת הטיפול בתכשיר, ייתכן שהרופא יפנה אותך לבדיקות דם שגרתיות או בדיקות אחרות על מנת לבדוק את מצבך ולוודא כי אתה נוטל את המינון המתאים."
+        },
+        {
+          "eng": "Drug interactions:",
+          "heb": "תגובות בין-תרופתיות:"
+        },
+        {
+          "eng": "If you are taking or have recently taken other medicines, including prescription and non-prescription medicines, inform your doctor or pharmacist.",
+          "heb": "אם אתה לוקח, או אם לקחת לאחרונה, תרופות אחרות כולל תרופות ללא מרשם ותוספי תזונה, ספר על כך לרופא או לרוקח."
+        },
+        {
+          "eng": "Especially if you are taking:",
+          "heb": "במיוחד אם אתה לוקח:"
+        },
+        {
+          "eng": "Mineral dietary supplements containing iodine.",
+          "heb": "תוספי תזונה מינרליים שמכילים יוד."
+        },
+        {
+          "eng": "Medicines that may cause a decrease in the number of white blood cells, therefore reducing the body's resistance to infections. If you are unsure, ask your pharmacist or doctor.",
+          "heb": "תרופות הגורמות לירידה במספר תאי הדם הלבנים בגופך ולכן מפחיתות את עמידות הגוף בפני זיהומים. אם אינך בטוח, שאל את הרופא שלך או את הרוקח."
+        },
+        {
+          "eng": "Medicines containing theophylline, aminophylline, or digoxin.",
+          "heb": "תרופות המכילות תאופילין, אמינופילין או דיגוקסין."
+        },
+        {
+          "eng": "Pregnancy, Breastfeeding, and Fertility:",
+          "heb": "היריון, הנקה ופוריות:"
+        },
+        {
+          "eng": "Pregnancy:",
+          "heb": "היריון:"
+        },
+        {
+          "eng": "The effect of Thiocil-Propyl on the fetus is unknown.",
+          "heb": "ההשפעה של פרופיל-תיוציל על העובר אינה ידועה."
+        },
+        {
+          "eng": "Inform your doctor immediately if you are pregnant, planning to become pregnant, or think you might be pregnant.",
+          "heb": "עלייך ליידע את הרופא שלך מיד אם את בהיריון, חושבת שאת בהיריון או מתכננת להיכנס להיריון."
+        },
+        {
+          "eng": "You may be given Thiocil-Propyl during pregnancy if the benefit of the treatment outweighs the potential risk to the fetus.",
+          "heb": "יתכן שתקבלי טיפול בפרופיל-תיוציל בזמן ההיריון, אם התועלת מהטיפול תעלה על הסיכון הפוטנציאלי לעובר."
+        },
+        {
+          "eng": "However, the medicine may affect the thyroid gland of the fetus.",
+          "heb": "התרופה עשויה להשפיע על בלוטת התריס של העובר."
+        },
+        {
+          "eng": "If you need to take the medicine during pregnancy, you should be given the lowest effective dosage and your thyroid function should be checked every four to six weeks.",
+          "heb": "אם את צריכה ליטול את התרופה במהלך ההיריון, יהיה עליך לקבל את המינון היעיל הנמוך ביותר ולבדוק את תפקוד בלוטת התריס כל 4-6 שבועות."
+        },
+        {
+          "eng": "Breastfeeding:",
+          "heb": "הנקה:"
+        },
+        {
+          "eng": "You should inform your doctor if you are breastfeeding or planning to breastfeed while taking the medicine.",
+          "heb": "עלייך ליידע את הרופא שלך אם את מניקה או מתכננת להניק במהלך נטילת התרופה."
+        },
+        {
+          "eng": "If you need to take the medicine while breastfeeding, you should take the lowest effective dosage and your baby's thyroid function and development should be monitored.",
+          "heb": "אם את צריכה ליטול את התרופה במהלך תקופת ההנקה, עלייך לקבל את המינון היעיל הנמוך ביותר ולעקוב אחר התפתחות התינוק ותפקוד בלוטת התריס שלו."
+        },
+        {
+          "eng": "Fertility:",
+          "heb": "פוריות:"
+        },
+        {
+          "eng": "Taking Thiocil-Propyl can restore your fertility back to normal. Hyperthyroidism may affect your fertility.",
+          "heb": "יתר פעילות של בלוטת התריס עלולה להשפיע על הפוריות שלך. נטילת פרופיל-תיוציל יכולה להחזיר את הפוריות שלך למצב תקין."
+        },
+        {
+          "eng": "Important information about some of the ingredients of the medicine:",
+          "heb": "מידע חשוב על חלק מהמרכיבים של התרופה:"
+        },
+        {
+          "eng": "Thiocil-Propyl tablets contain lactose. If your doctor has told you that you have an intolerance to some sugars, consult your doctor before taking this medicine. Each tablet contains 22 mg of lactose monohydrate.",
+          "heb": "טבליות פרופיל-תיוציל מכילות לקטוז. אם נאמר לך על-ידי הרופא שלך שיש לך אי-סבילות (רגישות) לסוכרים מסוימים, היוועץ ברופא שלך לפני נטילת התרופה. הטבליה מכילה 22 מ\"ג לקטוז מונוהידרט."
+        },
+        {
+          "eng": "This medicine contains less than 23 mg of sodium per tablet and is therefore considered sodium-free. Each Thiocil-Propyl tablet contains 0.06 mg of sodium benzoate, which may aggravate jaundice (yellowing of the eyes and skin) in newborns (up to 4 weeks of age).",
+          "heb": "תרופה זו מכילה פחות מ23- מ\"ג נתרן בטבליה ולפיכך נחשבת נטולת נתרן. כל טבלית פרופיל-תיוציל מכילה 0.06 מ\"ג של סודיום בנזואט (122E), העלול להגביר צהבת (הצהבה של העור והעיניים) ביילודים (תינוקות עד גיל 4 שבועות)."
+        }
+      ]
+    },
+    {
+      "title": "how to use the medicine",
+      "section_num": 3,
+      "data": [
+        {
+          "eng": "Always use the s’doctor preparation according to the instructions if you are uncertain about the use and dosage, Check with the pharmacist or doctor.",
+          "heb": "יש להשתמש בתכשיר תמיד בהתאם להוראות הרופא. אם אינך בטוח בנוגע למינון ולאופן הטיפול בתכשיר, עליך לבדוק עם הרוקח או הרופא."
+        },
+        {
+          "eng": "The regimen and dosage will be determined by the doctor only.",
+          "heb": "המינון ואופן הטיפול יקבעו על-ידי הרופא בלבד."
+        },
+        {
+          "eng": "Do not exceed the recommended dose.",
+          "heb": "אין לעבור על המנה המומלצת."
+        },
+        {
+          "eng": "Method of use: The medicine should be taken with water. The tablet may be crushed or halved if necessary.",
+          "heb": "אופן השימוש: יש לבלוע את התרופה עם מים. ניתן לחצות את הטבליה או במידת הצורך לכתוש את הטבליה."
+        },
+        {
+          "eng": "If you accidentally took a higher dosage, it is important not to take too many Thiocil-Propyl tablets. If a child accidentally swallowed the tablets or if you took an overdose, go immediately to the emergency room or doctor and take the medicine's package with you.",
+          "heb": "אם נטלת בטעות מינון גבוה יותר, חשוב לא ליטול יותר מדי טבליות פרופיל-תיוציל. אם נטלת מנת יתר או אם בטעות בלעת ילד מן התרופה, פנה מיד לרופא או לחדר מיון של בית חולים והבא את אריזת התרופה איתך."
+        },
+        {
+          "eng": "If you forgot to take the medicine at the required time, take a dose as soon as you remember. If it is almost time for your next dose, only take the next dose and skip the forgotten dose. Do not take a double dose to compensate for a missed dose.",
+          "heb": "אם שכחת לקחת את התרופה בזמן הדרוש, יש לקחת את המנה כשנזכרת. אם זמן הנטילה הבא כבר קרוב, דלג על המנה ששכחת וקח רק את המנה הבאה. אין לקחת מנה כפולה כדי לפצות על מנה שנשכחה."
+        },
+        {
+          "eng": "Follow the treatment as recommended by the doctor.",
+          "heb": "יש להתמיד בטיפול כפי שהומלץ על ידי הרופא."
+        },
+        {
+          "eng": "If you stop taking the medicine, take the medicine for the instructed period by your doctor. Do not stop taking the medicine without consulting your doctor.",
+          "heb": "אם אתה מפסיק את נטילת התרופה, עליך לקחת את התרופה למשך התקופה אשר הורה לך הרופא. אין להפסיק לקחת את התרופה מבלי להיוועץ ברופא."
+        },
+        {
+          "eng": "Check the label! Do not take medicines in the dark. Wear glasses if you need them.",
+          "heb": "אין ליטול תרופות בחושך! בדוק את התווית! הרכב משקפיים אם הינך זקוק להם."
+        },
+        {
+          "eng": "If you have other questions regarding the use of the medicine, consult the pharmacist or doctor.",
+          "heb": "אם יש לך שאלות נוספות בנוגע לשימוש בתרופה, היוועץ ברופא או ברוקח."
+        }
+      ]
+    },
+    {
+      "title": "side effects",
+      "section_num": 4,
+      "data": [
+        {
+          "eng": "Using Propylthiouracil with any medicine",
+          "heb": "כמו בכל תרופה, השימוש בפרופיל-תיוציל עם כל תרופה"
+        },
+        {
+          "eng": "Do not be alarmed",
+          "heb": "אל תיבהל"
+        },
+        {
+          "eng": "Some users may cause side effects",
+          "heb": "למשתמשים חלקים ייתכן ויגרמו לתופעות לוואי"
+        },
+        {
+          "eng": "You may not experience any of them",
+          "heb": "יתכן ולא תחווה אף אחת מהן"
+        },
+        {
+          "eng": "When reading the list of side effects",
+          "heb": "בקריאת רשימת התופעות הלוואי"
+        },
+        {
+          "eng": "If you experience any of them",
+          "heb": "אם אתה חווה אחת או יותר מהן"
+        },
+        {
+          "eng": "Contact the doctor immediately",
+          "heb": "יש לפנות מיד לרופא"
+        },
+        {
+          "eng": "Following effects may occur:",
+          "heb": "הנה מספר מהתופעות האפשריות:"
+        },
+        {
+          "eng": "Ulcers or rashes in the mouth, sore throat, Fever",
+          "heb": "כוויות או פריחות בפה, גרון נפוח, חום"
+        },
+        {
+          "eng": "This could be a sign that you are not producing white blood cells to fight infection",
+          "heb": "זה עשוי להיות סימן שאינך מייצר תאי דם לבנים להילחם בזיהום"
+        },
+        {
+          "eng": "In this case, treatment should be stopped",
+          "heb": "במקרה כזה, יש להפסיק את הטיפול"
+        },
+        {
+          "eng": "However, this is a rare side effect that mostly occurs within the first two months of treatment",
+          "heb": "מדובר בתופעת לוואי נדירה המופיעה לרוב בחודשיים הראשונים של הטיפול"
+        },
+        {
+          "eng": "and in patients over 40 years old taking high dosage",
+          "heb": "ובמטופלים מעל גיל 40 הנוטלים מינון גבוה"
+        },
+        {
+          "eng": "Pain in the blood, muscle pain, joint swelling, Fever",
+          "heb": "כאב בדם, כאב שרירים, נפיחות במפרקים, חום"
+        },
+        {
+          "eng": "Rash, shortness of breath, urine discoloration",
+          "heb": "פריחה, קצרת נשימה, הצהבת של השתן"
+        },
+        {
+          "eng": "Propylthiouracil may cause inflammation of the blood vessel walls",
+          "heb": "פרופילתיואוראציל עלול לגרום לדלקת בדפנות כלי הדם"
+        },
+        {
+          "eng": "This effect can be serious if left untreated",
+          "heb": "תופעה זו עלולה להיות חמורה אם אינה מטופלת"
+        },
+        {
+          "eng": "Even if you have been taking Propylthiouracil for many years",
+          "heb": "אפשר שהתופעה תתרחש גם אם אתה נוטל פרופיל-תיוציל במשך שנים רבות"
+        },
+        {
+          "eng": "Tell the doctor if you suffer from any of the following:",
+          "heb": "יש לדווח לרופא אם אתה סובל מאחת מהתופעות הבאות:"
+        },
+        {
+          "eng": "More than a few days from any of the following side effects:",
+          "heb": "אם אתה סובל יותר ממספר ימים מתופעות לוואי הבאות:"
+        },
+        {
+          "eng": "Rash",
+          "heb": "פריחה"
+        },
+        {
+          "eng": "Itching",
+          "heb": "גרד"
+        },
+        {
+          "eng": "Hair loss",
+          "heb": "נשירת שיער"
+        },
+        {
+          "eng": "Skin discoloration",
+          "heb": "שינוי בצבע העור"
+        },
+        {
+          "eng": "Swelling (for example in the feet and legs)",
+          "heb": "נפיחות (לדוגמא ברגליים ובכפות הרגליים)"
+        },
+        {
+          "eng": "Nausea and vomiting",
+          "heb": "בחילה והקאה"
+        },
+        {
+          "eng": "Abdominal discomfort",
+          "heb": "אי-נוחות בבטן"
+        },
+        {
+          "eng": "Loss of taste sense",
+          "heb": "איבוד חוש הטעם"
+        },
+        {
+          "eng": "Muscle or joint aches",
+          "heb": "כאבי שרירים או מפרקים"
+        },
+        {
+          "eng": "Tingling sensation and headache",
+          "heb": "תחושת דקירות ועקצוץ, כאב ראש"
+        },
+        {
+          "eng": "Additional side effects",
+          "heb": "תופעות לוואי נוספות"
+        },
+        {
+          "eng": "Side effects with unknown frequency:",
+          "heb": "תופעות לוואי בתדירות לא ידועה:"
+        },
+        {
+          "eng": "Liver inflammation, Liver failure",
+          "heb": "דלקת כבד, כשל כבדי"
+        },
+        {
+          "eng": "Rare side effects (side effects occurring in 1-10 users out of 10,000):",
+          "heb": "תופעות לוואי נדירות (תופעות שמתרחשות ב1-10 מתוך 10,000 משתמשים):"
+        },
+        {
+          "eng": "Anemia, Fever, Muscle weakness and sensitivity, Lupus-like syndrome",
+          "heb": "אנמיה, חום, חולשה של השרירים ורגישות, תסמונת דמוית זאבת"
+        },
+        {
+          "eng": "Damage or inflammation of the liver, which may include jaundice, confusion, coma, and death",
+          "heb": "נזק או דלקת בכבד, כולל צהבת, בלבול, תרדמת ומוות"
+        },
+        {
+          "eng": "Kidney inflammation (blood in the urine), signs of damage and red spots on the skin due to inflammation of the small blood vessels in the skin, shortness of breath and cough",
+          "heb": "דלקת בכליות (דם בשתן), סימני חבלה ונקודות אדומות בעור עקב דלקת בכלי הדם הקטנים בעור, קוצר נשימה ושיעול"
+        },
+        {
+          "eng": "Slow blood clotting, bleeding and appearance of signs of damage much more easily than usual",
+          "heb": "קרישת דם איטית, דימום והופעת סימני חבלה בקלות רבה יותר מהרגיל"
+        },
+        {
+          "eng": "Your body may produce fewer white blood cells than usual, which may lead to higher susceptibility to infections",
+          "heb": "הגוף שלך עלול לייצר פחות תאי דם לבנים מהרגיל, מה שעלול לגרום לרגישות גבוהה יותר לזיהומים"
+        },
+        {
+          "eng": "Levels will return to normal when treatment with the medicine is stopped",
+          "heb": "הרמות יחזרו למצב הרגיל כאשר יופסק הטיפול בתרופה"
+        },
+        {
+          "eng": "If a side effect occurs, or if a side effect worsens, consult your doctor",
+          "heb": "אם תופעת לוואי מתרחשת, או אם תופעת לוואי מחמירה, יש להתייעץ עם הרופא"
+        },
+        {
+          "eng": "Side effects Reporting",
+          "heb": "דיווח על תופעות לוואי"
+        },
+        {
+          "eng": "Side effects may be reported to the Ministry of Health",
+          "heb": "ניתן לדווח על תופעות לוואי למשרד הבריאות"
+        },
+        {
+          "eng": "Report medicinal side effects following treatment",
+          "heb": "לדווח על תופעות לוואי עקב טיפול תרופתי"
+        },
+        {
+          "eng": "Clicking on the link",
+          "heb": "על ידי לחיצה על הקישור"
+        },
+        {
+          "eng": "Found on the Ministry of Health website",
+          "heb": "שנמצא באתר משרד הבריאות"
+        },
+        {
+          "eng": "You will be directed to the form for online side effects reporting",
+          "heb": "תופנה לטופס המקוון לדיווח על תופעות לוואי"
+        },
+        {
+          "eng": "Clicking by",
+          "heb": "על ידי לחיצה"
+        },
+        {
+          "eng": "Or clicking on the following link:",
+          "heb": "או על ידי לחיצה על הקישור הבא:"
+        },
+        {
+          "eng": "il.gov.health.sideeffects://https",
+          "heb": "il.gov.health.sideeffects://https"
+        }
+      ]
+    },
+    {
+      "title": "medicine storage",
+      "section_num": 5,
+      "data": []
+    },
+    {
+      "title": "additional information",
+      "section_num": 6,
+      "data": [
+        {
+          "eng": "In addition to the active ingredient, the medicine also contains:",
+          "heb": "נוסף על המרכיב הפעיל, התרופה מכילה גם:"
+        },
+        {
+          "eng": "microcrystalline cellulose, lactose monohydrate, Starch, magnesium stearate, gelatin, sodium starch glycolate, sodium benzoate (E122).",
+          "heb": "סיבים ציטוכריסטלים מיקרוסקופיים, לקטוז מונוהידרט, תירס, סטיארט מגנזיום, ג'לטין, גליקולט תירס נתרן, ובנזואט נתרן (E122)."
+        },
+        {
+          "eng": "What does the medicine look like and what is in the package?",
+          "heb": "כיצד נראית התרופה ומה תוכן האריזה?"
+        },
+        {
+          "eng": "Thiocil-Propyl tablets are flat beveled-edge, white tablets with a score line on one side and debossed with 'TEVA' on the other side.",
+          "heb": "טבליות פרופיל-תיוציל הינן טבליות שטוחות עם קצוות בעלות שיפוע, לבנות, עם קו חצייה בצד אחד והרמות 'TEVA' בצד השני."
+        },
+        {
+          "eng": "Package Sizes: 30 or 90 tablets. Not all package sizes may be marketed.",
+          "heb": "גדלי אריזות: 30 או 90 טבליות. ייתכן שלא כל גדלי האריזות ישווקו."
+        },
+        {
+          "eng": "Manufacturer and Marketing Authorization Holder: Teva Israel Ltd., 124 Dvora HaNevi Street, Tel Aviv 6944020, Israel.",
+          "heb": "יצרן ובעל רישום: טבע ישראל בע\"מ, רחוב דבורה הנביאה 124, תל אביב 6944020, ישראל."
+        },
+        {
+          "eng": "This leaflet was revised in January 2023 in accordance with the Ministry of Health guidelines.",
+          "heb": "עלון זה נערך בינואר 2023 לפי ההנחיות של משרד הבריאות."
+        },
+        {
+          "eng": "Drug Registration Number in the national drug registry of the Ministry of Health: 026.63.21054.",
+          "heb": "מספר רישום התרופה בפנקס התרופות הממלכתי במשרד הבריאות: 026.63.21054."
+        },
+        {
+          "eng": "For the sake of simplicity and ease of reading, this leaflet is written in the masculine form. However, the medicine is intended for both genders.",
+          "heb": "לצורך הפשטה והקלת הקריאה, נוסח זה כתוב בלשון זכר. עם זאת, התרופה מיועדת לשני המינים."
+        }
+      ]
+    }
+  ]
+}

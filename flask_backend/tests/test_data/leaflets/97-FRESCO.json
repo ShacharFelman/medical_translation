@@ -1,0 +1,289 @@
+{
+    "title": "FRESCO Tablets",
+    "index": 0,
+    "dir_index": 97,
+    "title_lang": {
+        "title_eng": "FRESCO Tablets",
+        "title_heb": "פרסקו טבליות"
+    },
+    "sections": [
+        {
+            "title": "General",
+            "section_num": "0",
+            "data": [
+                {
+                    "eng": "PATIENT PACKAGE INSERT IN ACCORDANCE WITH THE PHARMACISTS› REGULATIONS  (PREPARATIONS) - 1986",
+                    "heb": "עלון לצרכן לפי תקנות הרוקחים (תכשירים) התשמ\"ו - 1986"
+                },
+                {
+                    "eng": "Read this package insert carefully in its entirety before using this medicine",
+                    "heb": "קרא/י בעיון את העלון עד סופו בטרם תשתמש/י בתרופה"
+                },
+                {
+                    "eng": "The format of this leaflet was determined by the Ministry of Health and its content was checked and approved by it in 08/2008",
+                    "heb": "פורמט עלון זה נקבע ע\"י משרד הבריאות ותוכנו נבדק ואושר על ידו ב-08/2008"
+                },
+                {
+                    "eng": "FRESCO Tablets",
+                    "heb": "פרסקו טבליות"
+                },
+                {
+                    "eng": "COMPOSITION: Each tablet contains: ",
+                    "heb": "הרכב: כל טבליה מכילה:"
+                },
+                {
+                    "eng": "Inactive ingredients: ",
+                    "heb": "חומרים בלתי פעילים:"
+                },
+                {
+                    "eng": "Each tablet contains 1.4 mg sodium, 3 mg lactose and 0.2 mg saccharin sodium",
+                    "heb": "כל טבליה מכילה 1.4 מ\"ג נתרן, 3 מ\"ג לקטוז ו- 0.2 מ\"ג סכרין-סודיום"
+                },
+                {
+                    "eng": "Acid neutralizing capacity per tablet: about 10.5 mEq ",
+                    "heb": "כושר סתירת חומצה לטבליה: כ- mEq 10.5"
+                },
+                {
+                    "eng": "Therapeutic group: Antacid. ",
+                    "heb": "קבוצה תרפויטית: סותר חומצה."
+                },
+                {
+                    "eng": "Therapeutic activity: For the reduction or neutralization of gastric acidity excess.",
+                    "heb": "פעילות רפואית: להורדה או נטרול חומציות יתר בקיבה."
+                },
+                {
+                    "eng": "When should the preparation not be used?",
+                    "heb": "מתי אין להשתמש בתכשיר?"
+                },
+                {
+                    "eng": "Do not use this medicine if you are sensitive to any of its ingredients. ",
+                    "heb": "אין להשתמש אם ידועה רגישות לאחד ממרכיבי התרופה."
+                },
+                {
+                    "eng": "Do not use this medicine in case of hypercalcemia or acute renal function impairment. Do not use this medicine if you have symptoms of appendicitis or intestinal inflammation, e.g.: stomach pain, nausea or vomiting. Do not use this medicine if you suffer from kidney stones or sarcoidosis.",
+                    "heb": "אין להשתמש בתרופה זו במקרה של יתר סידן או אי תפקוד כלייתי חריף. אין להשתמש אם יש סימנים של דלקת התוספתן או דלקת מעיים כגון: כאבי בטן, בחילה או הקאות. אין להשתמש בתרופה אם הינך סובל/ת מאבנים בכליות או סרקואידוזיס."
+                },
+                {
+                    "eng": "Do not take this medicine without consulting a  doctor before starting treatment: ",
+                    "heb": "אין להשתמש בתרופה מבלי להיוועץ ברופא לפני התחלת הטיפול:"
+                },
+                {
+                    "eng": "If you are pregnant or breastfeeding.",
+                    "heb": "אם הינך בהריון או מיניקה."
+                },
+                {
+                    "eng": "If you are suffering, or have suffered in the past, from impaired function of the kidney/urinary tract, the thyroid gland, the digestive system",
+                    "heb": "אם הינך סובל/ת או סבלת בעבר מליקוי בתפקוד: הכליה/מערכת השתן, בלוטת התריס, מערכת העיכול"
+                },
+                {
+                    "eng": "e.g.: constipation or intestinal obstruction, appendicitis, colitis, hemorrhoids, intestinal or rectal bleeding, colostomy, ileostomy, diarrhea. If you suffer from bone fractures, liver diseases, cardiac/ vascular diseases",
+                    "heb": "כגון: עצירות או חסימת מעיים, אפנדיציט, קוליטיס, טחורים, דימום מהמעיים או דימום רקטלי, קולוסטומי, אילאוסטומי, שלשול. אם הינך סובל/ת משברים בעצמות, מחלות כבד, מחלות לב/כלי דם."
+                },
+                {
+                    "eng": "How will this medicine affect your daily life? ",
+                    "heb": "איך תשפיע התרופה על חיי היום יום שלך?"
+                },
+                {
+                    "eng": "Avoid excessive use of tobacco, alcoholic beverages or beverages containing caffeine.",
+                    "heb": "הימנע/י משימוש מופרז בטבק, משקאות אלכוהוליים או משקאות המכילים קפאין."
+                },
+                {
+                    "eng": "Warnings: Do not use this medicine frequently, or for a long period, without consulting a doctor. ",
+                    "heb": "אזהרות: אין להשתמש בתרופה זו לעתים קרובות או תקופה ממושכת בלי להיוועץ ברופא."
+                },
+                {
+                    "eng": "If you are sensitive to any type of food or medicine, inform your doctor before commencing treatment with this medicine. Do not use this medicine on the morning before undergoing an acid secretion tests.",
+                    "heb": "אם הינך רגיש/ה למזון כלשהו או לתרופה כלשהי, עליך להודיע על-כך לרופא לפני נטילת התרופה. אין ליטול תרופה זו בבוקר שלפני בדיקה להפרשת חומצות הקיבה."
+                },
+                {
+                    "eng": "In prolonged treatment with this medicine (as instructed by the doctor) it is advisable to perform blood calcium concentration tests. ",
+                    "heb": "בטיפול ממושך בתרופה זו (בהוראת רופא) רצוי לערוך בדיקות ריכוז סידן בדם."
+                },
+                {
+                    "eng": "Drug interactions: ",
+                    "heb": "תגובות בין תרופתיות:"
+                },
+                {
+                    "eng": "If you are taking another drug concomitantly or if you have just finished treatment with another medicine, inform the attending doctor, in order to prevent hazards or lack of efficacy arising from drug interactions. This is especially important for medicines belonging to the following groups: ",
+                    "heb": "אם הינך נוטל/ת תרופה נוספת, או אם גמרת זה עתה טיפול בתרופה אחרת, עליך לדווח לרופא המטפל כדי למנוע סיכונים או אי יעילות הנובעים מתגובות בין תרופתיות, במיוחד לגבי תרופות מהקבוצות הבאות"
+                },
+                {
+                    "eng": "antifungal (ketoconazole), products containing iron and phosphates, calcium, magnesium, antibiotics (tetracyclines, fluoroquinolones), vitamin D, digitalis glycosides, cellulose sodium phosphate, methanamine, sodium polystyrene sulfonate, corticosteroids, phenytoin.",
+                    "heb": "תרופה נגד פטריות (קטוקונאזול), תרופות המכילות ברזל ופוספט, קלציום, מגנזיום, אנטיביוטיקה (טטרהציקלינים, פלורוקינולונים), ויטמין D, גליקוזידים של דיגיטליס, צלולוז סודיום פוספט, מתנאמין, סודיום פוליסטירן סולפונט, קורטיקוסטרואידים, פניטואין."
+                }
+            ]
+        },
+        {
+            "title": "medicine intended for",
+            "section_num": "1",
+            "data": [
+            ]
+        },
+        {
+            "title": "before using the medicine",
+            "section_num": "2",
+            "data": [
+            ]
+        },
+        {
+            "title": "how to use the medicine",
+            "section_num": "3",
+            "data": [
+                {
+                    "eng": "Directions for use:",
+                    "heb": "אופן השימוש:"
+                },
+                {
+                    "eng": "Chew or suck the tablet slowly.",
+                    "heb": "יש ללעוס או למצוץ את התרופה."
+                },
+                {
+                    "eng": "How  can  you  contribute  to  the success of the treatment?",
+                    "heb": "כיצד תוכל/י לסייע להצלחת הטיפול?"
+                },
+                {
+                    "eng": "In order to prevent kidney stones drink plenty of fluids.",
+                    "heb": "על מנת למנוע אבנים בכליה, עליך להרבות בשתיית נוזלים."
+                },
+                {
+                    "eng": "AVOID POISONING! This medicine, and all other medicines, must be stored in a safe place out of the reach of children and/or infants, to avoid poisoning. If you have taken an overdose, or if a child has accidentally swallowed the medicine, proceed immediately to a hospital emergency room and bring the package of the medicine with you",
+                    "heb": "מנע/י הרעלה! תרופה זו וכל תרופה אחרת יש לשמור במקום סגור מחוץ להישג ידם של ילדים ו/או תינוקות ועל ידי כך תמנע/י הרעלה. אם נטלת מנת יתר  או אם בטעות בלע ילד מן התרופה פנה/י מיד לחדר מיון של בית חולים והבא/י אריזת התרופה איתך. "
+                },
+                {
+                    "eng": "Do not induce vomiting unless explicitly instructed to do so by a doctor! ",
+                    "heb": "אין לגרום להקאה ללא הוראה מפורשת מרופא! "
+                },
+                {
+                    "eng": "Do not take medicines in the dark! ",
+                    "heb": "אין ליטול תרופות בחושך!"
+                },
+                {
+                    "eng": "Check the label and the dose each time you take your medicine. ",
+                    "heb": " יש לבדוק התווית והמנה בכל פעם שהינך נוטל/ת תרופה."
+                },
+                {
+                    "eng": "Wear glasses if you need them.",
+                    "heb": "יש להרכיב משקפיים אם הינך זקוק/ה להם."
+                }
+            ]
+        },
+        {
+            "title": "side effects",
+            "section_num": "4",
+            "data": [
+                {
+                    "eng": "Side effects: ",
+                    "heb": "תופעות לוואי: "
+                },
+                {
+                    "eng": "In addition to the desired effect of the medicine, adverse reactions may occur during the course of taking this medicine, for example",
+                    "heb": "בנוסף לפעילות הרצויה של התרופה, בזמן השימוש בה עלולות להופיע תופעות לוואי, כגון"
+                },
+                {
+                    "eng": "dryness of the mouth",
+                    "heb": "יובש בפה"
+                },
+                {
+                    "eng": "constipation",
+                    "heb": "עצירות"
+                },
+                {
+                    "eng": "diarrhea",
+                    "heb": "שלשול"
+                },
+                {
+                    "eng": "chalky taste",
+                    "heb": "טעם גירי"
+                },
+                {
+                    "eng": "stomach pain",
+                    "heb": "כאבי בטן"
+                },
+                {
+                    "eng": "thirst",
+                    "heb": "צימאון"
+                },
+                {
+                    "eng": "loss of appetite",
+                    "heb": "חוסר תיאבון"
+                },
+                {
+                    "eng": "nausea",
+                    "heb": "בחילות"
+                },
+                {
+                    "eng": "vomiting",
+                    "heb": "הקאות"
+                },
+                {
+                    "eng": "digestive system disturbances",
+                    "heb": "הפרעות במערכת העיכול"
+                },
+                {
+                    "eng": "In the event that you experience side effects not mentioned in this leaflet, or if there is a change in your general health, consult your doctor immediately. ",
+                    "heb": "בכל מקרה שבו הינך מרגיש/ה תופעות לוואי שלא צוינו בעלון זה או אם חל שינוי בהרגשתך הכללית עליך להתייעץ עם הרופא מיד."
+                },
+                {
+                    "eng": "Recommended dosage unless otherwise prescribed by your doctor:",
+                    "heb": "מינון מקובל בהעדר הוראה אחרת מרופא:"
+                },
+                {
+                    "eng": "1-2 tablets after meals, at bedtime and as needed.",
+                    "heb": "1-2 טבליות לאחר הארוחה ולפני השינה ובשעת הצורך."
+                },
+                {
+                    "eng": "Do not exceed 15 tablets a day.",
+                    "heb": "אין לעבור על 15 טבליות ביום."
+                },
+                {
+                    "eng": "This medicine is not intended for administration to children under 6 years of age unless directed by the doctor. ",
+                    "heb": "תרופה זו אינה מיועדת לילדים מתחת לגיל 6 אלא בהוראת רופא"
+                },
+                {
+                    "eng": "Attention: Allow a lapse of at least two hours between taking this medicine and taking other oral medications",
+                    "heb": "שים/י לב: יש לחכות פרק זמן של שעתיים לפחות בין נטילת תרופה זו לבין תרופות אחרות הנלקחות דרך הפה."
+                },
+                {
+                    "eng": "Do not take this medicine at the same time with large amounts of milk and dairy products, bran, whole grain products, spinach.",
+                    "heb": "אין ליטול תרופה זו בו זמנית עם כמויות גדולות של חלב ומוצריו, סובין, מוצרי חיטה מלאה, תרד."
+                }
+            ]
+        },
+        {
+            "title": "medicine storage",
+            "section_num": "5",
+            "data": [
+                {
+                    "eng": "Storage:",
+                    "heb": "אחסנה:"
+                },
+                {
+                    "eng": "Store below 25°C in a dry place",
+                    "heb": "שמור במקום יבש, בטמפרטורה מתחת ל–25°C."
+                },
+                {
+                    "eng": "Even if kept in their original container and stored as recommended, medicines may be kept for a limited period only. Please note the expiry date of the medicine! In case of doubt, consult the pharmacist who dispensed the medicine to you. ",
+                    "heb": "גם לפי תנאי האריזה/האחסנה המומלצים, תרופות נשמרות לתקופה מוגבלת בלבד. נא לשים לב לתאריך התפוגה של התכשיר! בכל מקרה של ספק, עליך להיוועץ ברוקח שסיפק לך את התרופה. "
+                },
+                {
+                    "eng": "Do not store different medications in the same package. ",
+                    "heb": "אין לאחסן תרופות שונות באותה אריזה."
+                }
+            ]
+        },
+        {
+            "title": "additional information",
+            "section_num": "6",
+            "data": [
+                {
+                    "eng": "License number",
+                    "heb": "מס' רישום התרופה"
+                },
+                {
+                    "eng": "Manufacturer: Rekah Pharm. Prod. Ltd., 30 Hamelacha St., Holon, Israel.",
+                    "heb": "יצרן: רקח תעשיית תרופות בע\"מ, רח' המלאכה 30, חולון, ישראל."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,590 @@
+{
+  "title": "Muscol",
+  "index": 0,
+  "dir_index": "12",
+  "title_lang": {
+    "title_heb": "מוסקול",
+    "title_eng": "Muscol",
+    "title_ara": "x"
+  },
+  "sections": [
+    {
+      "title": "General",
+      "section_num": 0,
+      "data": [
+        {
+          "eng": "Muscol Tablets",
+          "heb": "מוסקול טבליות"
+        },
+        {
+          "eng": "Each tablet contains: Paracetamol 500 mg, Orphenadrine citrate 30 mg, Orphenadrine citrate 30 mg",
+          "heb": "כל טבליה מכילה: פראצטמול 500 מ\"ג, אורפנדרין ציטראט 30 מ\"ג"
+        },
+        {
+          "eng": "For information regarding inactive ingredients, see section 2 – “Important information about some of the ingredients of the medicine” and section 6 – “Additional information”.",
+          "heb": "למידע על מרכיבים בלתי פעילים ראה סעיף 2 – \"מידע חשוב על חלק מהמרכיבים של התרופה\" וסעיף 6 – \"מידע נוסף\"."
+        },
+        {
+          "eng": "Read the entire leaflet carefully before using the medicine. This leaflet contains concise information about the medicine. If you have additional questions, refer to the doctor or the pharmacist.",
+          "heb": "קרא בעיון את העלון עד סופו בטרם תשתמש בתרופה. עלון זה מכיל מידע תמציתי על התרופה. אם יש לך שאלות נוספות, פנה אל הרופא או אל הרוקח."
+        },
+        {
+          "eng": "This medicine has been prescribed for you. Do not pass it on to others. It may harm them even if it seems to you that their medical condition is similar.",
+          "heb": "תרופה זו נרשמה עבורך. אל תעביר אותה לאחרים. היא עלולה להזיק להם אפילו אם נראה לך כי מצבם הרפואי דומה."
+        },
+        {
+          "eng": "This medicine is not intended for use in children under 12 years of age.",
+          "heb": "תרופה זו אינה מיועדת לשימוש בילדים מתחת לגיל 12 שנים."
+        }
+      ]
+    },
+    {
+      "title": "medicine intended for",
+      "section_num": 1,
+      "data": [
+        {
+          "eng": "The medicine is intended to relieve muscle pain.\n",
+          "heb": "התרופה מיועדת לשיכוך כאב שרירים.\n"
+        },
+        {
+          "eng": "Therapeutic class:\nParacetamol – analgesic and antipyretic.\nOrphenadrine citrate – a skeletal muscle relaxant, which acts\nin the central nervous system to produce a reaction of muscle\nrelaxation\n",
+          "heb": "קבוצה תרפויטית:\nפראצטמול – משכך כאבים ומוריד חום.\nאורפנדרין ציטראט – מרפה שרירי שלד, הפועל במערכת העצבים\nהמרכזית ליצירת תגובה של הרפיית שרירים.\n"
+        }
+      ]
+    },
+    {
+      "title": "before using the medicine",
+      "section_num": 2,
+      "data": [
+        {
+          "eng": "Do not use the medicine if:",
+          "heb": "אין להשתמש בתרופה אם:"
+        },
+        {
+          "eng": "You are sensitive (allergic) to the active ingredients (paracetamol or orphenadrine citrate) or to any of the other ingredients this medicine contains (see section 6 – “Additional information”). Always check the ingredients to make sure you can use this medicine.",
+          "heb": "\tאתה רגיש )אלרגי( לחומרים הפעילים )פראצטמול או אורפנדרין ציטראט( או לכל אחד מהמרכיבים הנוספים אשר מכילה התרופה )ראה סעיף 6 – \"מידע נוסף\"(. בדוק תמיד את המרכיבים על-מנת לוודא שאתה יכול להשתמש בתרופה זו."
+        },
+        {
+          "eng": "You have glaucoma (high intra-ocular pressure).",
+          "heb": "\tאתה סובל מגלאוקומה )לחץ תוך-עיני גבוה(."
+        },
+        {
+          "eng": "You have an intestinal obstruction or esophageal disease.",
+          "heb": "\tאתה סובל מחסימת מעיים או ממחלה בוושט."
+        },
+        {
+          "eng": "You have an enlarged prostate or urinary tract obstruction.",
+          "heb": "\tאתה סובל מבלוטת ערמונית מוגדלת או מחסימת דרכי השתן."
+        },
+        {
+          "eng": "You have a muscle weakness disease (myasthenia gravis).",
+          "heb": "\tאתה סובל ממחלת חולשת שרירים )מיאסתניה גרביס(."
+        },
+        {
+          "eng": "Special warnings regarding the use of the medicine",
+          "heb": "אזהרות מיוחדות הנוגעות לשימוש בתרופה"
+        },
+        {
+          "eng": "If you have developed skin side effects in the past as a result of taking preparations containing paracetamol, do not take preparations containing paracetamol, so that severe skin side effects will not recur.",
+          "heb": "\tאם פיתחת בעבר תופעות לוואי עוריות כתוצאה מנטילת תכשירים המכילים פראצטמול, אין ליטול תכשירים המכילים פראצטמול, כדי שלא יגרמו שוב תופעות עוריות חמורות."
+        },
+        {
+          "eng": "The preparation contains paracetamol, which may cause liver damage when:",
+          "heb": "\tהתכשיר מכיל פראצטמול העלול לגרום לנזק בכבד כאשר:"
+        },
+        {
+          "eng": "Given at a higher dosage than recommended or for a prolonged period.",
+          "heb": "\tניתן במינון גבוה מהמומלץ או לתקופה ממושכת."
+        },
+        {
+          "eng": "Alcoholic beverages are consumed during the course of treatment.",
+          "heb": "\tשותים משקאות אלכוהוליים בזמן הטיפול."
+        },
+        {
+          "eng": "Additional medicines which affect liver function are taken.",
+          "heb": "\tנוטלים תרופות נוספות המשפיעות על פעילות הכבד."
+        },
+        {
+          "eng": "Before commencing treatment with Muscol, inform the doctor if:",
+          "heb": "לפני הטיפול במוסקול, ספר לרופא אם:"
+        },
+        {
+          "eng": "You are sensitive (allergic) to any other medicine or to any food.",
+          "heb": "\tאתה רגיש )אלרגי( לתרופה אחרת כלשהי או למזון כלשהו."
+        },
+        {
+          "eng": "You have heart problems.",
+          "heb": "\tאתה סובל מבעיות לב."
+        },
+        {
+          "eng": "You have liver or kidney problems.",
+          "heb": "\tאתה סובל מבעיות בכבד או בכליות."
+        },
+        {
+          "eng": "You are suffering from alcohol addiction.",
+          "heb": "\tאתה סובל מהתמכרות לאלכוהול."
+        },
+        {
+          "eng": "You have or have previously had jaundice.",
+          "heb": "\tאתה סובל או סבלת בעבר מצהבת."
+        },
+        {
+          "eng": "You have any other medical condition.",
+          "heb": "\tאתה סובל מכל מצב רפואי אחר."
+        },
+        {
+          "eng": "You are taking other paracetamol-containing preparations.",
+          "heb": "\tאתה נוטל תכשירים אחרים המכילים פראצטמול."
+        },
+        {
+          "eng": "You are taking any medicines for another medical condition.",
+          "heb": "\tאתה נוטל תרופות כלשהן למצב רפואי אחר."
+        },
+        {
+          "eng": "During treatment, you may be at risk of developing certain side effects. It is important that you understand these risks and how to monitor them. See additional information in section 4 – “Side effects”.",
+          "heb": "במהלך הטיפול, אתה עלול להיות בסיכון לפתח תופעות לוואי מסוימות. חשוב שתבין את הסיכונים הללו ואיך לעקוב אחריהם. ראה מידע נוסף בסעיף 4 – \"תופעות לוואי\"."
+        },
+        {
+          "eng": "While taking Muscol you should do the following:",
+          "heb": "במהלך נטילת מוסקול עליך לבצע את הדברים הבאים:"
+        },
+        {
+          "eng": "Remind any doctor, dentist and pharmacist that you visit that you are taking Muscol.",
+          "heb": "\tהזכר לכל רופא, רופא שיניים ורוקח, אליהם אתה מגיע, שאתה נוטל מוסקול."
+        },
+        {
+          "eng": "Inform your doctor immediately if you become pregnant.",
+          "heb": "\tהודיעי לרופא שלך מייד אם נכנסת להיריון."
+        },
+        {
+          "eng": "Muscol may cause dry mouth. For temporary relief you can use sugar-free gum or candies, melt some ice in your mouth or use a saliva substitute.",
+          "heb": "\tמוסקול עלולה לגרום ליובש בפה. להקלה זמנית ניתן להעזר במסטיק ללא סוכר או בסוכריות, להמיס קרח בפה או להשתמש בתחליף רוק."
+        },
+        {
+          "eng": "If the mouth dryness persists, refer to your dentist.",
+          "heb": "\tאם היובש בפה נמשך, פנה לרופא השיניים שלך."
+        },
+        {
+          "eng": "Children and adolescents",
+          "heb": "ילדים ומתבגרים"
+        },
+        {
+          "eng": "This medicine should not be given to children under 12 years of age.",
+          "heb": "אין לתת תרופה זו לילדים מתחת לגיל 12 שנים."
+        },
+        {
+          "eng": "Tests and follow-up",
+          "heb": "בדיקות ומעקב"
+        },
+        {
+          "eng": "During prolonged or high-dose treatment with this medicine, blood, urine and liver function tests should be performed.",
+          "heb": "בתקופת טיפול ממושך בתרופה זו או בטיפול במינונים גבוהים יש לערוך בדיקות דם, שתן ותפקודי כבד."
+        },
+        {
+          "eng": "Drug interactions",
+          "heb": "תגובות בין-תרופתיות"
+        },
+        {
+          "eng": "If you are taking or have recently taken other medicines, including non-prescription medicines and nutritional supplements, tell the doctor or the pharmacist. Especially if you are taking:",
+          "heb": "אם אתה לוקח, או אם לקחת לאחרונה, תרופות אחרות כולל תרופות ללא מרשם ותוספי תזונה, ספר על כך לרופא או לרוקח. במיוחד אם אתה לוקח:"
+        },
+        {
+          "eng": "Sedatives and tranquilizers.",
+          "heb": "\tתרופות הרגעה ומשרות שינה."
+        },
+        {
+          "eng": "Alcohol.",
+          "heb": "\tאלכוהול."
+        },
+        {
+          "eng": "Medicines for epilepsy – phenytoin, carbamazepine.",
+          "heb": "\tתרופות לאפילפסיה – פניטואין, קרבמזפין."
+        },
+        {
+          "eng": "Anticoagulants.",
+          "heb": "\tתרופות למניעת קרישי דם."
+        },
+        {
+          "eng": "Medicines that affect gastric emptying rate, such as metoclopramide, propantheline or domperidone, antidepressants and narcotic analgesics.",
+          "heb": "\tתרופות המשפיעות על מהירות התרוקנות הקיבה, כגון מטוכלופרמיד, פרופנתלין או דומפרידון, נוגדי דיכאון ומשככי כאבים נרקוטיים."
+        },
+        {
+          "eng": "Chloramphenicol (antibiotic).",
+          "heb": "\tכלורמפניקול )אנטיביוטיקה(."
+        },
+        {
+          "eng": "Non-steroidal anti-inflammatory drugs.",
+          "heb": "\tתכשירים נוגדי דלקת שאינם סטרואידים."
+        },
+        {
+          "eng": "Preparations that stimulate the production of enzymes in the liver (e.g. rifampicin, barbiturates).",
+          "heb": "\tתכשירים המזרזים יצור אנזימים בכבד )לדוגמא: ריפמפיצין, ברביטורטים(."
+        },
+        {
+          "eng": "Cholestyramine (for lowering blood cholesterol levels).",
+          "heb": "\tכולסטיראמין )להורדת רמות כולסטרול בדם(."
+        },
+        {
+          "eng": "Probenecid (for treatment of gout).",
+          "heb": "\tפרובנציד )לטיפול בשגדון(."
+        },
+        {
+          "eng": "Certain medicines may interfere with Muscol and affect how it works, including:",
+          "heb": "תרופות מסוימות עשויות להפריע למוסקול ולהשפיע על אופן פעולתה, כולל:"
+        },
+        {
+          "eng": "Phenothiazines, which are used to treat serious emotional and mental disorders.",
+          "heb": "\tפנותיאזינים, המשמשים לטיפול בהפרעות רגשיות ונפשיות חמורות."
+        },
+        {
+          "eng": "Medicines used to relieve stomach cramps or spasms.",
+          "heb": "\tתרופות המשמשות להקלה על התכווציות או על עוויתות בבטן."
+        },
+        {
+          "eng": "Check with your doctor or pharmacist if you are not sure about what medicines, vitamins or food supplements you are taking and whether these affect Muscol.",
+          "heb": "בדוק עם הרופא שלך או עם הרוקח אם אינך בטוח אילו תרופות, ויטמינים או תוספי מזון אתה נוטל והאם אלה משפיעים על מוסקול."
+        },
+        {
+          "eng": "Using Muscol and alcohol consumption",
+          "heb": "שימוש במוסקול וצריכת אלכוהול"
+        },
+        {
+          "eng": "Tell your doctor if you drink alcohol.",
+          "heb": "ספר לרופא שלך אם אתה שותה אלכוהול."
+        },
+        {
+          "eng": "During treatment with Muscol, do not consume alcohol due to increased risk of liver damage. Drinking alcohol while using Muscol may cause an increase in the occurrence or severity of side effects such as drowsiness.",
+          "heb": "בזמן הטיפול במוסקול אין לצרוך אלכוהול בגלל הגדלת הסיכון לנזק לכבד. שתיית אלכוהול תוך כדי שימוש במוסקול עלולה לגרום לעלייה באירועים או להחמרה של תופעות לוואי כמו ישנוניות."
+        },
+        {
+          "eng": "Pregnancy and breastfeeding",
+          "heb": "היריון והנקה"
+        },
+        {
+          "eng": "Tell your doctor if you are pregnant or planning to become pregnant and consult with him if you are breastfeeding or planning to breastfeed.",
+          "heb": "ספרי לרופא שלך אם את בהיריון או מתכננת להרות והתייעצי איתו אם את מניקה או מתכננת להיניק."
+        },
+        {
+          "eng": "Driving and operating machinery",
+          "heb": "נהיגה ושימוש במכונות"
+        },
+        {
+          "eng": "Care should be taken when driving or operating machinery until you know how the medicine affects you.",
+          "heb": "יש לנקוט בזהירות בנהיגה או בהפעלת מכונות עד שתדע כיצד התרופה משפיעה עליך."
+        },
+        {
+          "eng": "Muscol may cause blurry vision or drowsiness in some patients.",
+          "heb": "מוסקול עלולה לגרום לראיה עמומה או לישנוניות אצל חלק מהחולים."
+        },
+        {
+          "eng": "If you experience these side effects, you should refrain from driving or operating machinery.",
+          "heb": "אם אתה חווה תופעות לוואי אלו, עליך להימנע מנהיגה או מהפעלת מכונות."
+        },
+        {
+          "eng": "Important information about some of the ingredients of Muscol:",
+          "heb": "מידע חשוב אודות חלק מהמרכיבים של מוסקול:"
+        },
+        {
+          "eng": "This medicine contains lactose, if you have been told by your doctor that you have an intolerance to some sugars, contact your doctor before taking this medicine.",
+          "heb": "תרופה זו מכילה לקטוז, אם נאמר לך על-ידי רופאך שיש לך אי סבלנות לכמה מסוכרים, פנה לרופאך לפני שאתה לוקח את התרופה הזו."
+        }
+      ]
+    },
+    {
+      "title": "how to use the medicine",
+      "section_num": 3,
+      "data": [
+        {
+          "eng": "Always use the preparation according to the doctor's instructions only.",
+          "heb": "יש להשתמש בתכשיר תמיד בהתאם להוראות הרופא בלבד."
+        },
+        {
+          "eng": "Check with the doctor or pharmacist if you are uncertain about the dosage and how to use the preparation.",
+          "heb": "עליך לבדוק עם הרופא או עם הרוקח אם אינך בטוח בנוגע למינון ולאופן הטיפול בתכשיר."
+        },
+        {
+          "eng": "The dosage and treatment regimen will be determined only by the doctor. The generally accepted dosage is:",
+          "heb": "המינון ואופן הטיפול יקבעו על-ידי הרופא בלבד. המינון המקובל בדרך כלל הוא:"
+        },
+        {
+          "eng": "Do not exceed a dosage of 2 tablets 3 times a day.",
+          "heb": "אין לעבור על מינון של 2 טבליות 3 פעמים ביום."
+        },
+        {
+          "eng": "Do not exceed the recommended dose.",
+          "heb": "אין לעבור על המנה המומלצת."
+        },
+        {
+          "eng": "If pain is not relieved within 5 days despite using the medicine, refer to your doctor.",
+          "heb": "עליך לפנות לרופא אם לא היתה הקלה בכאבים תוך 5 ימים למרות השימוש בתרופה."
+        },
+        {
+          "eng": "Method of use",
+          "heb": "אופן השימוש"
+        },
+        {
+          "eng": "The tablet can be halved on the score line. Swallow the medicine with some water.",
+          "heb": "ניתן לחצות את הטבליה בקו החצייה. יש לבלוע את התרופה עם מעט מים."
+        },
+        {
+          "eng": "The medicine may be taken with food.",
+          "heb": "ניתן ליטול את התרופה עם אוכל."
+        },
+        {
+          "eng": "There is no information regarding pulverization and chewing of the tablet.",
+          "heb": "אין מידע לגבי כתישה ולעיסה של הטבליה."
+        },
+        {
+          "eng": "If you accidentally took a higher dosage",
+          "heb": "אם נטלת בטעות מינון גבוה יותר"
+        },
+        {
+          "eng": "If you took an overdose or if a child accidentally swallowed this medicine, refer immediately to a doctor or to the nearest hospital emergency room and take the package of the medicine with you, you may need urgent medical attention. An overdose of paracetamol-containing medicines may cause severe liver damage.",
+          "heb": "אם נטלת מנת יתר או אם בטעות בלע ילד מן התרופה, פנה מייד לרופא או לחדר מיון של בית החולים הקרוב והבא את אריזת התרופה איתך, ייתכן שתזדקק לטיפול רפואי דחוף. מנת יתר של תרופות המכילות פראצטמול עלולה לגרום לנזק חמור לכבד."
+        },
+        {
+          "eng": "Seek treatment even if you feel okay and there is no sign of poisoning. Symptoms of an overdose include abdominal pain, nausea and vomiting, diarrhea, loss of appetite, swelling, increased sweating, pain or tenderness in the upper abdomen, and they may not reflect the severity of liver damage.",
+          "heb": "פנה לטיפול גם אם הרגשתך טובה ואין סימן להרעלה. תסמינים של מנת יתר כוללים כאבי בטן, בחילה והקאה, שלשול, אובדן תיאבון, נפיחות, הזעה מוגברת, כאב או רגישות בבטן העליונה, וייתכן שהם לא משקפים את חומרת הנזק לכבד."
+        },
+        {
+          "eng": "If you forgot to take the medicine",
+          "heb": "אם שכחת ליטול את התרופה"
+        },
+        {
+          "eng": "If you forgot to take this medicine at the scheduled time and remembered this within one hour of the scheduled time of the forgotten dose, take the dose as soon as you remember. If you remember at a later time, skip the forgotten dose and take the next dose at the usual time. Do not take a double dose to compensate for a missed dose.",
+          "heb": "אם שכחת ליטול תרופה זו בזמן המיועד ונזכרת בכך בתוך כשעה מזמן הנטילה של המנה שנשכחה, יש ליטול את המנה מייד כשנזכרת. אם נזכרת מאוחר יותר, דלג על המנה שנשכחה וקח את המנה הבאה בזמן הרגיל. אין ליטול מנה כפולה על-מנת לפצות על המנה שנשכחה."
+        },
+        {
+          "eng": "Follow the treatment as recommended by the doctor.",
+          "heb": "יש להתמיד בטיפול כפי שהומלץ על-ידי הרופא."
+        },
+        {
+          "eng": "Even if there is an improvement in your health, do not stop treatment with the medicine without consulting the doctor.",
+          "heb": "גם אם חל שיפור במצב בריאותך אין להפסיק את הטיפול בתרופה ללא התייעצות עם הרופא."
+        },
+        {
+          "eng": "Do not take medicines in the dark! Check the label and the dose every time you take a medicine. Wear glasses if you need them.",
+          "heb": "אין ליטול תרופות בחושך! בדוק התווית והמנה בכל פעם שהינך נוטל תרופה. הרכב משקפיים אם הינך זקוק להם."
+        },
+        {
+          "eng": "If you have any other questions regarding use of the medicine, consult the doctor or the pharmacist.",
+          "heb": "אם יש לך שאלות נוספות בנוגע לשימוש בתרופה, היוועץ ברופא או ברוקח."
+        }
+      ]
+    },
+    {
+      "title": "side effects",
+      "section_num": 4,
+      "data": [
+        {
+          "eng": "As with any medicine, using Muscol may cause side effects in some users.",
+          "heb": "כמו בכל תרופה, השימוש במוסקול עלול לגרום לתופעות לוואי בחלק מהמשתמשים."
+        },
+        {
+          "eng": "Do not be alarmed when reading the list of side effects. You may not experience any of them.",
+          "heb": "אל תיבהל למקרא רשימת תופעות הלוואי. ייתכן שלא תסבול מאף אחת מהן."
+        },
+        {
+          "eng": "Certain side effects may require medical attention. Review the information below and if necessary, refer to the doctor or pharmacist for further questions about side effects.",
+          "heb": "תופעות לוואי מסוימות עשויות לדרוש טיפול רפואי. עיין במידע שלהלן ואם יש צורך, פנה אל הרופא או אל הרוקח לשאלות נוספות לגבי תופעות לוואי."
+        },
+        {
+          "eng": "Severe side effects:",
+          "heb": "תופעות לוואי חמורות:"
+        },
+        {
+          "eng": "Stop the treatment and refer to a doctor immediately:",
+          "heb": "יש להפסיק את הטיפול ולפנות מייד לרופא:"
+        },
+        {
+          "eng": "If severe allergic reactions appear, such as skin rash and itch, swelling of the extremities and/or face, lips, tongue, throat that can cause breathing or swallowing difficulties or tightness and/or wheezing in the chest.",
+          "heb": "אם מופיעות תגובות אלרגיות חריפות, כגון פריחה בעור וגרד, התנפחות של הגפיים ו/או של הפנים, השפתיים, הלשון, הגרון אשר עלולה לגרום לקשיי נשימה או בליעה או לחץ ו/או צפצופים בחזה."
+        },
+        {
+          "eng": "Paracetamol may, in rare cases, cause the appearance of severe skin diseases whose symptoms can be: redness, rash, blisters, widespread skin damage.",
+          "heb": "פראצטמול עלול לגרום, במקרים נדירים, להופעת מחלות עור חריפות שהסימנים שלהן יכולים להיות: אודם, פריחה, שלפוחיות, פגיעה עורית נרחבת."
+        },
+        {
+          "eng": "Severe skin side effects may appear even if you had no problems in the past taking preparations containing the active ingredient paracetamol.",
+          "heb": "תופעות לוואי עוריות חריפות עלולות להופיע גם אם בעבר נטלת תכשירים המכילים את המרכיב הפעיל פראצטמול ללא בעיה."
+        },
+        {
+          "eng": "If skin side effects appear, discontinue treatment and refer to a doctor immediately.",
+          "heb": "אם מופיעות תופעות לוואי עוריות, יש להפסיק את הטיפול ולפנות לרופא באופן מיידי."
+        },
+        {
+          "eng": "If signs of changes in the blood system occur, such as unusual bruising or bleeding, developing inflammations more easily as a result of a severe decrease in the number of white blood cells.",
+          "heb": "אם מופיעים סימנים של שינויים במערכת הדם, כגון חבורות או דימומים חריגים, התפתחות דלקות ביתר קלות כתוצאה מירידה חמורה במספר תאי הדם הלבנים."
+        },
+        {
+          "eng": "Shortness of breath.",
+          "heb": "קוצר נשימה."
+        },
+        {
+          "eng": "Unusual tiredness or weakness.",
+          "heb": "עייפות או חולשה חריגות."
+        },
+        {
+          "eng": "Sores, ulcers or white spots on the lips or in the mouth.",
+          "heb": "פצעים, כיבים או כתמים לבנים על השפתיים או בפה."
+        },
+        {
+          "eng": "Additional side effects:",
+          "heb": "תופעות לוואי נוספות:"
+        },
+        {
+          "eng": "Refer to the doctor if any of the following side effects occurs:",
+          "heb": "פנה לרופא אם מופיעה אחת מתופעות הלוואי הבאות:"
+        },
+        {
+          "eng": "Fast heartbeat or palpitations",
+          "heb": "דופק מהיר או דפיקות לב"
+        },
+        {
+          "eng": "Fainting",
+          "heb": "עילפון"
+        },
+        {
+          "eng": "Eye pain",
+          "heb": "כאב בעיניים"
+        },
+        {
+          "eng": "Hallucinations",
+          "heb": "הזיות"
+        },
+        {
+          "eng": "Breathing difficulties",
+          "heb": "קשיי נשימה"
+        },
+        {
+          "eng": "Rash",
+          "heb": "פריחה"
+        },
+        {
+          "eng": "Dry mouth (see also section 2 – “Before using the medicine”)",
+          "heb": "יבשות בפה )ראה גם סעיף 2 – \"לפני השימוש בתרופה\"("
+        },
+        {
+          "eng": "Abdominal or stomach cramps or pain",
+          "heb": "כאבים או כיבים בבטן או בקיבה"
+        },
+        {
+          "eng": "Blurry vision",
+          "heb": "ראייה מטושטשת"
+        },
+        {
+          "eng": "Confusion",
+          "heb": "בלבול"
+        },
+        {
+          "eng": "Constipation",
+          "heb": "עצירות"
+        },
+        {
+          "eng": "Difficulty urinating",
+          "heb": "קושי במתן שתן"
+        },
+        {
+          "eng": "Somnolence",
+          "heb": "ישנוניות"
+        },
+        {
+          "eng": "Nausea",
+          "heb": "בחילה"
+        },
+        {
+          "eng": "If a side effect occurs, if one of the side effects worsens, or if you suffer from a side effect not mentioned in this leaflet, consult your doctor.",
+          "heb": "אם הופיעה תופעת לוואי, אם אחת מתופעות הלוואי מחמירה או כאשר אתה סובל מתופעת לוואי שלא צוינה בעלון, עליך להתייעץ עם הרופא."
+        },
+        {
+          "eng": "Reporting side effects",
+          "heb": "דיווח על תופעות לוואי"
+        },
+        {
+          "eng": "Side effects may be reported to the Ministry of Health by clicking on the link “Report side effects due to medicinal treatment” found on the Ministry of Health website homepage (www.health.gov.il), which will direct you to the online form for reporting side effects, or by clicking on the following link:",
+          "heb": "ניתן לדווח על תופעות לוואי למשרד הבריאות באמצעות לחיצה על הקישור \"דיווח על תופעות לוואי עקב טיפול תרופתי\" שנמצא בדף הבית של אתר משרד הבריאות )il.gov.health.www )המפנה לטופס המקוון לדיווח על תופעות לוואי, או על-ידי כניסה לקישור:"
+        },
+        {
+          "eng": "https://sideeffects.health.gov.il",
+          "heb": "https://sideeffects.health.gov.il"
+        }
+      ]
+    },
+    {
+      "title": "medicine storage",
+      "section_num": 5,
+      "data": [
+        {
+          "eng": "Avoid poisoning!",
+          "heb": "מנע הרעלה!"
+        },
+        {
+          "eng": "This medicine and any other medicine must be kept in a closed place out of the reach and sight of children and/or infants to avoid poisoning.",
+          "heb": "תרופה זו וכל תרופה אחרת יש לשמור במקום סגור מחוץ להישג ידם וטווח ראייתם של ילדים ו/או תינוקות ועל-ידי כך תמנע הרעלה."
+        },
+        {
+          "eng": "Do not induce vomiting without an explicit instruction from the doctor.",
+          "heb": "אל תגרום להקאה ללא הוראה מפורשת מהרופא."
+        },
+        {
+          "eng": "Do not use the medicine after the expiry date (exp. date) appearing on the package. The expiry date refers to the last day of that month.",
+          "heb": "אין להשתמש בתרופה אחרי תאריך התפוגה )date .exp )המופיע על גבי האריזה. תאריך התפוגה מתייחס ליום האחרון של אותו חודש."
+        },
+        {
+          "eng": "Store in a dry place, below 25°C.",
+          "heb": "יש לאחסן במקום יבש, מתחת ל-C."
+        }
+      ]
+    },
+    {
+      "title": "additional information",
+      "section_num": 6,
+      "data": [
+        {
+          "eng": "In addition to the active ingredients, the medicine also contains:",
+          "heb": "נוסף על המרכיבים הפעילים התרופה מכילה גם:"
+        },
+        {
+          "eng": "Microcrystalline cellulose, gelatin, sodium starch glycolate, magnesium stearate, purified water, colloidal silicon dioxide, FD&C Red No. 3 aluminium lake.",
+          "heb": "Microcrystalline cellulose, gelatin, sodium starch glycolate, magnesium stearate, purified water, colloidal silicon dioxide, FD&C Red No. 3 aluminium lake."
+        },
+        {
+          "eng": "What does the medicine look like and what are the contents of the package?",
+          "heb": "כיצד נראית התרופה ומה תוכן האריזה:"
+        },
+        {
+          "eng": "A light pink, round, flat tablet, with a score line on one side and debossed with the word “IKA” on the other side.",
+          "heb": "טבליה עגולה ושטוחה בצבע ורוד בהיר, עם קו חצייה בצידה האחד והטבעה של המילה \"IKA \"בצידה השני."
+        },
+        {
+          "eng": "The pack contains 20 or 1,000 tablets.",
+          "heb": "האריזה מכילה 20 או 1,000 טבליות."
+        },
+        {
+          "eng": "Not all package sizes may be marketed.",
+          "heb": "ייתכן שלא כל גדלי האריזות משווקים."
+        },
+        {
+          "eng": "Name and address of the marketing authorization holder and manufacturer:",
+          "heb": "שם בעל הרישום והיצרן וכתובתו:"
+        },
+        {
+          "eng": "Teva Israel Ltd., 124 Dvora HaNevi’a St., Tel Aviv 6944020",
+          "heb": "טבע ישראל בע\"מ, רח' דבורה הנביאה ,124 תל אביב 6944020"
+        },
+        {
+          "eng": "The leaflet was revised in January 2023 in accordance with the Ministry of Health guidelines.",
+          "heb": "העלון נערך בינואר 2023 בהתאם להנחיות משרד הבריאות."
+        },
+        {
+          "eng": "Registration number of the medicine in the national drug registry of the Ministry of Health: 018.08.20537",
+          "heb": "מספר רישום התרופה בפנקס התרופות הממלכתי במשרד הבריאות: 018.08.20537"
+        },
+        {
+          "eng": "For the sake of simplification and ease of reading, this leaflet is formulated in the masculine gender. Nevertheless, the medicine is intended for both genders.",
+          "heb": "לשם הפשטות ולהקלת הקריאה, עלון זה נוסח בלשון זכר. על אף זאת, התרופה מיועדת לבני שני המינים."
+        }
+      ]
+    }
+  ]
+}

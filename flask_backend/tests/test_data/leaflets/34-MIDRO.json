@@ -1,0 +1,369 @@
+{
+  "title": "MIDRO Tea",
+  "index": 0,
+  "dir_index": "34",
+  "title_lang": {
+    "title_heb": "מידרו תה",
+    "title_eng": "MIDRO Tea",
+    "title_ara": "x"
+  },
+  "sections": [
+    {
+      "title": "General",
+      "section_num": 0,
+      "data": [
+        {
+          "eng": "Tea 75%",
+          "heb": "תה 57%"
+        },
+        {
+          "eng": "Active ingredients:",
+          "heb": "חומרים פעילים:"
+        },
+        {
+          "eng": "Each 100 g contains: Sennae Folium 75 g",
+          "heb": "כל 011 גרם תה מכילים: סנה פוליום 57 גרם g 75 Folium Sennae"
+        },
+        {
+          "eng": "75% Folium Sennae equivalent to 2.7% hydroxyanthracenes",
+          "heb": "57% סנה פוליום מקבילים להידרוקסיאנתרצנים 7.5%"
+        },
+        {
+          "eng": "Inactive ingredients and allergens: see section 6 \"Additional information\".",
+          "heb": "חומרים בלתי פעילים ואלרגניים: ראה סעיף 6 \"מידע נוסף\"."
+        },
+        {
+          "eng": "Read the entire leaflet carefully before you start using this medicine. This leaflet contains essential information about this medicine. If you\nhave any further questions, refer to the physician or the pharmacist.",
+          "heb": "קרא בעיון את העלון עד סופו בטרם תשתמש בתרופה. עלון זה מכיל מידע תמציתי על התרופה. אם יש לך שאלות נוספות, פנה אל הרופא או אל הרוקח."
+        },
+        {
+          "eng": "This medicine has been prescribed for your treatment. Do not pass it on to others. It may harm them, even if it seems to you that their medical\ncondition is similar.",
+          "heb": "תרופה זו נרשמה עבורך. אל תעביר אותה לאחרים. היא עלולה להזיק להם אפילו אם נראה לך כי מצבם הרפואי דומה."
+        },
+        {
+          "eng": "The medicine is not intended for children under the age of 12 years.",
+          "heb": "תרופה זו אינה מיועדת לילדים מתחת לגיל 07 שנים."
+        }
+      ]
+    },
+    {
+      "title": "medicine intended for",
+      "section_num": 1,
+      "data": [
+        {
+          "eng": "This medicine is indicated for the treatment of constipation.",
+          "heb": "התרופה מיועדת לטיפול בסיבוכים."
+        },
+        {
+          "eng": "Therapeutic group: Laxative",
+          "heb": "קבוצה תרפויטית: משלשל"
+        }
+      ]
+    },
+    {
+      "title": "before using the medicine",
+      "section_num": 2,
+      "data": [
+        {
+          "eng": "Do not use this medicine if:",
+          "heb": "אין להשתמש בתרופה אם:"
+        },
+        {
+          "eng": "You are sensitive to any of the ingredients that this medicine contains",
+          "heb": "ידועה רגישות לאחד ממרכיבי התרופה"
+        },
+        {
+          "eng": "In the case of intestinal occlusion",
+          "heb": "יש חסימת מעיים"
+        },
+        {
+          "eng": "In the case of chronic intestinal dysfunction",
+          "heb": "יש חוסר תפקוד כרוני של המעיים"
+        },
+        {
+          "eng": "In the case of acute intestinal inflammation such as Crohn's disease or ulcerative colitis",
+          "heb": "יש דלקת מעיים חריפה כגון מחלת קרוהן או דלקת כיבית של המעי הגס"
+        },
+        {
+          "eng": "In the case of intestinal bleeding",
+          "heb": "יש דימום במעיים"
+        },
+        {
+          "eng": "In the case of gastrointestinal tract obstruction",
+          "heb": "יש היצרות בצינור העיכול"
+        },
+        {
+          "eng": "In the case of symptoms of appendicitis",
+          "heb": "יש תסמינים של דלקת התוספתן"
+        },
+        {
+          "eng": "In the case of abdominal pain of unknown reason",
+          "heb": "יש כאב בטן מסיבה לא ידועה"
+        },
+        {
+          "eng": "In the case of severe dehydration associated with loss of fluids and electrolytes",
+          "heb": "התייבשות חמורה המלווה באיבוד נוזלים ואלקטרוליטים"
+        },
+        {
+          "eng": "Children under 12 years",
+          "heb": "ילדים מתחת לגיל 12"
+        },
+        {
+          "eng": ".! Special warnings regarding the use of this medicine",
+          "heb": ".!. אזהרות מיוחדות הנוגעות לשימוש בתרופה"
+        },
+        {
+          "eng": "Prolonged use may cause diarrhea and dependence on laxative preparations of this type.",
+          "heb": "שימוש ממושך עלול לגרום לשלשולים ולתלות בתכשירים משלשלים כגון זה."
+        },
+        {
+          "eng": "Do not use this medicine frequently, or for a long period exceeding 1-2 weeks, without consulting a physician.",
+          "heb": "אין להשתמש בתרופה זו לעיתים קרובות או לתקופה ממושכת העולה על 1-2 שבועות בלי להיוועץ ברופא."
+        },
+        {
+          "eng": "If you are sensitive to any type of food or medicine, inform your physician before commencing treatment with this medicine.",
+          "heb": "אם הנך רגיש למזון כלשהו או לתרופה כלשהי, עליך להודיע על כך לרופא לפני נטילת התרופה."
+        },
+        {
+          "eng": "This preparation is indicated only for constipation continuing for several days. A lack of bowel movement for 1-2 days does not justify use of this medicine.",
+          "heb": "תכשיר זה מיועד רק לעצירות הנמשכת מספר ימים. חוסר פעילות המעיים ליום או יומיים אינו מצדיק שימוש בו."
+        },
+        {
+          "eng": "Upon chronic use, abuse or use at dosages higher than the recommended dosages, you may develop diarrhea with fluid loss and electrolyte imbalance (including potassium loss); dependence associated with the need to increase the dosage, paralytic ileus with functional intestinal obstruction.",
+          "heb": "בעת שימוש כרוני, שימוש לרעה או במינונים הגבוהים מהמינונים המומלצים, עלול להתפתח שלשול, עם איבוד נוזלים וחוסר איזון אלקטרוליטים )לרבות איבוד אשלגן(; תלות, מלווה בצורך בעליה במינון, ריפיון של המעי הגס עם הצרות תפקודית."
+        },
+        {
+          "eng": "Do not use this preparation for other purposes, such as “body cleansing” etc.",
+          "heb": "אין להשתמש בו למטרות אחרות כגון \"ניקוי הגוף\" וכדומה."
+        },
+        {
+          "eng": "Before using \"Midro Tea\", tell your physician if:",
+          "heb": "לפני תחילת הטיפול ב\"מידרו תה\", ספר לרופא אם:"
+        },
+        {
+          "eng": "You are pregnant or breast-feeding.",
+          "heb": "הינך בהריון או מניקה."
+        },
+        {
+          "eng": "You suffer or have previously suffered from impaired cardiac function.",
+          "heb": "הנך סובל או סבלת בעבר מליקוי בתפקוד הלב."
+        },
+        {
+          "eng": "You have rectal bleeding.",
+          "heb": "יש לך דימום בפי הטבעת."
+        },
+        {
+          "eng": "You have intense abdominal pain.",
+          "heb": "יש לך כאב בטן חזק."
+        },
+        {
+          "eng": "You have signs of appendicitis (such as: abdominal pain, nausea and vomiting).",
+          "heb": "יש לך סימנים של דלקת התוספתן )כגון: כאב בטן, בחילות והקאות(."
+        },
+        {
+          "eng": "If you are taking or have recently taken other medicines, including nonprescription medicines and nutritional supplements, inform your physician or pharmacist. In particular if you are taking:",
+          "heb": "אם אתה לוקח, או אם לקחת לאחרונה, תרופות אחרות כולל תרופות ללא מרשם ותוספי תזונה, ספר על כך לרופא או לרוקח, במיוחד אם אתה לוקח:"
+        },
+        {
+          "eng": "Other laxatives",
+          "heb": "תרופות משלשלות אחרות"
+        },
+        {
+          "eng": "Antacids",
+          "heb": "נוגדי חומציות"
+        },
+        {
+          "eng": "Diuretics",
+          "heb": "משתנים"
+        },
+        {
+          "eng": "Licorice based medicines",
+          "heb": "תרופות המבוססות על ליקוריץ"
+        },
+        {
+          "eng": "Corticosteroids",
+          "heb": "קורטיקוסטרואידים"
+        },
+        {
+          "eng": "Medicines for the treatment of heart failure (such as Digoxin)",
+          "heb": "תרופות לטיפול באי- ספיקת לב )כגון דיגוקסין("
+        },
+        {
+          "eng": "Antiarrhythmic medicines",
+          "heb": "תרופות נגד הפרעות קצב"
+        },
+        {
+          "eng": "Antihistamines (such as Terfenadine)",
+          "heb": "אנטיהיסטמינים )כגון טרפנדין("
+        },
+        {
+          "eng": "Allow a lapse of at least two hours between taking this medicine and taking another oral medicine.",
+          "heb": "יש לחכות פרק זמן של שעתיים לפחות בין נטילת תרופה זו לבין נטילת תרופות אחרות דרך הפה."
+        },
+        {
+          "eng": "Pregnancy and breastfeeding",
+          "heb": "הריון והנקה"
+        },
+        {
+          "eng": "If you are pregnant or breast-feeding you should consult a physician or pharmacist before using this medicine.",
+          "heb": "אם הינך בהריון או מניקה יש להיוועץ ברופא או ברוקח לפני השימוש בתרופה."
+        },
+        {
+          "eng": "Driving and using machines",
+          "heb": "נהיגה ושימוש במכונות"
+        },
+        {
+          "eng": "Midro Tea is not expected to affect the ability to drive or to operate machines. However, if you experience dizziness, you must be careful while driving and operating machines",
+          "heb": "למידרו תה לא אמורה להיות השפעה על יכולת הנהיגה או הפעלת מכונות. עם זאת, במידה ואתה חש בסחרחורת, עליך להיזהר בנהיגה והפעלת מכונות."
+        }
+      ]
+    },
+    {
+      "title": "how to use the medicine",
+      "section_num": 3,
+      "data": [
+        {
+          "eng": "You should check with the physician or the pharmacist if you are unsure.",
+          "heb": "עליך לבדוק עם הרופא או הרוקח אם אינך בטוח."
+        },
+        {
+          "eng": "This medicine is not intended for children under the age of 12 years.",
+          "heb": "תרופה זו אינה מיועדת לילדים מתחת לגיל 12 שנים."
+        },
+        {
+          "eng": "The dosage and treatment will be determined only by the physician. The usual acceptable dosage is:",
+          "heb": "המינון ואופן הטיפול יקבעו על ידי הרופא בלבד. המינון המקובל בדרך כלל הוא:"
+        },
+        {
+          "eng": "Unless instructed otherwise by the physician, chew 1/4 up to 1½ full measuring scoops (maximum 1.5 gram). Chew or swallow the medicine with some water about 1 hour before bedtime.",
+          "heb": "בהיעדר המלצה אחרת מרופא, יש ללעוס 1/4 עד 1/21 כפות מדידה מלאות )0.7 גרם לכל היותר(. יש ללעוס או לבלוע את התרופה עם מעט מים כשעה לפני השינה."
+        },
+        {
+          "eng": "Start with 1/2 full measuring scoop of Midro Tea.",
+          "heb": "יש להתחיל ב- 1/2 כף מדידה מלאה של מידרו תה."
+        },
+        {
+          "eng": "Adjust the dose according to your needs by increasing or reducing it as required. Do not exceed the daily dose of 1½ full measuring scoops.",
+          "heb": "התאם את המינון לצרכיך, על ידי העלאתו או הפחתתו כנדרש. אין לעבור על המנה היומית של 1/20 כפות מדידה מלאות."
+        },
+        {
+          "eng": "If there is no improvement in your condition within 1 week, refer to your physician.",
+          "heb": "אם לא חל שיפור במצבך תוך שבוע, יש לפנות לרופא."
+        },
+        {
+          "eng": "Do not exceed the recommended dose.",
+          "heb": "אין לעבור על המנה המומלצת."
+        },
+        {
+          "eng": "Persist with the treatment as recommended by the physician.",
+          "heb": "יש להתמיד בטיפול כפי שהומלץ על ידי הרופא."
+        },
+        {
+          "eng": "Allow a lapse of at least two hours between taking this medicine and taking other oral medicines.",
+          "heb": "יש לחכות פרק זמן של שעתיים לפחות בין נטילת תרופה זו לבין נטילת תרופות אחרות דרך הפה."
+        },
+        {
+          "eng": "If you have accidentally taken a higher dose, or if a child has accidentally swallowed the medicine, go immediately to a hospital emergency room and bring the medicine package with you.",
+          "heb": "אם נטלת בטעות מינון גבוה יותר או אם בטעות בלע ילד מן התרופה, פנה מיד לחדר המיון של בית החולים והבא את אריזת התרופה אתך."
+        },
+        {
+          "eng": "How can you contribute to the success of the treatment?",
+          "heb": "כיצד תוכל לסייע בהצלחת הטיפול?"
+        },
+        {
+          "eng": "Make sure your liquid intake is sufficient in order to help soften the stool. This preparation causes a bowel movement usually within 6-12 hours, but occasionally more time is needed (up to 24 hours).",
+          "heb": "יש להקפיד על שתיית נוזלים במשך היום שתעזור בריכוך הצואה. התכשיר מעורר פעילות המעיים בדרך כלל תוך 6-07 שעות, אך לפעמים דרוש יותר זמן )עד 72 שעות(."
+        },
+        {
+          "eng": "Do not take medicines in the dark! Check the label and the dose each time you take your medicine. Wear glasses if you need them.",
+          "heb": "אין ליטול תרופות בחושך! בדוק התווית והמנה בכל פעם שהנך לוקח תרופה. הרכב משקפיים אם הנך זקוק להם."
+        },
+        {
+          "eng": "If you have any further questions regarding the use of this medicine, consult the physician or the pharmacist.",
+          "heb": "אם יש לך שאלות נוספות בנוגע לשימוש בתרופה, היוועץ ברופא או ברוקח."
+        }
+      ]
+    },
+    {
+      "title": "side effects",
+      "section_num": 4,
+      "data": [
+        {
+          "eng": "Like all medicines, Midro Tea may cause side effects in some users.",
+          "heb": "כמו בכל תרופה, השימוש במידרו תה עלול לגרום לתופעות לוואי בחלק מהמשתמשים."
+        },
+        {
+          "eng": "Do not be alarmed by reading the list of side effects. You may not experience any of them.",
+          "heb": "אל תיבהל למקרא רשימת תופעות הלוואי. יתכן ולא תסבל מאף אחת מהן."
+        },
+        {
+          "eng": "Rash",
+          "heb": "פריחה"
+        },
+        {
+          "eng": "Abdominal spasms",
+          "heb": "עוויתות בבטן"
+        },
+        {
+          "eng": "Diarrhea",
+          "heb": "שלשול"
+        },
+        {
+          "eng": "Rare side effects (<1/10,000)",
+          "heb": "מופיעות לעיתים נדירות )1/10,000>)"
+        },
+        {
+          "eng": "Unusual weakness or fatigue",
+          "heb": "עייפות או חולשה יוצאת דופן"
+        },
+        {
+          "eng": "Increased heart rate",
+          "heb": "קצב לב מוגבר"
+        },
+        {
+          "eng": "Confusion",
+          "heb": "בלבול"
+        },
+        {
+          "eng": "Abdominal flatulence",
+          "heb": "גזים בבטן"
+        },
+        {
+          "eng": "Abdominal pain",
+          "heb": "כאבי בטן"
+        },
+        {
+          "eng": "These effects may be signs of electrolyte loss. Upon occurrence of any of these side effects, stop the treatment and contact your physician immediately.",
+          "heb": "ייתכן ותופעות הללו הן מהוות סימנים לאובדן אלקטרוליטים. בהופעת אחת מתופעות לוואי אילו יש להפסיק את השימוש ולפנות מיד לרופא."
+        },
+        {
+          "eng": "This medicine may cause a change in the colour of the urine. Such a change should not be a cause for worry.",
+          "heb": "תרופה זו עלולה לגרום לשינוי בצבע השתן, בשינוי כזה אין כל מקום לדאגה."
+        },
+        {
+          "eng": "If any side effect gets worse, or if you suffer from a side effect not mentioned in the leaflet, or if there is a change in your general health, you should consult the physician immediately.",
+          "heb": "אם אחת מתופעות הלוואי מחמירה ,או כאשר אתה סובל מתופעת לוואי שלא הוזכרה בעלון ,או אם חל שינוי בהרגשתך הכללית עליך להתייעץ עם הרופא מיד."
+        },
+        {
+          "eng": "Reporting side effects:",
+          "heb": "דיווח על תופעות לוואי:"
+        }
+      ]
+    },
+    {
+      "title": "medicine storage",
+      "section_num": 5,
+      "data": []
+    },
+    {
+      "title": "additional information",
+      "section_num": 6,
+      "data": [
+        {
+          "eng": "What does the medicine look like and what are the contents of the package:\nMidro Tea product is a herbal mixture of heterogeneous green color with purple flakes, of mild aromatic odor. The mixture is packed in\na paper bag stored in a carton box.\nThe product package contains 80 grams.\n",
+          "heb": "כיצד נראית התרופה ומה תוכן האריזה:\nהתכשיר מידרו תה הינו תערובת צמחים, בעלת צבע ירוק הטרוגני עם שבבים של צבע סגול, בעלת ריח ארומטי קל. התערובת ארוזה בשקית נייר המאוחסנת בקופסת\nקרטון.\nלמוצר אריזה עבור כמות של 01 גרם.\n"
+        }
+      ]
+    }
+  ]
+}

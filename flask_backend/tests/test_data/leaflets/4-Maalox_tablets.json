@@ -1,0 +1,401 @@
+{
+  "title": "Maalox Plus Chewable Tablets",
+  "index": 0,
+  "dir_index": 4,
+  "title_lang": {
+    "title_heb": "מאלוקס פלוס טבליות לעיסה",
+    "title_eng": "Maalox Plus Chewable Tablets"
+  },
+  "sections": [
+    {
+      "title": "General",
+      "section_num": 0,
+      "data": [
+        {
+          "eng": "Active ingredients and their quantity per dosage unit:",
+          "heb": "חומרים פעילים וכמותם ביחידת מינון:"
+        },
+        {
+          "eng": "Each tablet contains:",
+          "heb": "כל טבליה מכילה:"
+        },
+        {
+          "eng": "Aluminium Oxide hydrated 200",
+          "heb": "אלומיניום אוקסיד הידראט 200"
+        },
+        {
+          "eng": "Magnesium hydroxide 200",
+          "heb": "מגנזיום הידרוקסיד 200"
+        },
+        {
+          "eng": "Dimethicone 25",
+          "heb": "דימתיקון 25"
+        },
+        {
+          "eng": "Inactive ingredients: see section 6.",
+          "heb": "חומרים בלתי פעילים: ראה סעיף .6"
+        },
+        {
+          "eng": "Read this leaflet carefully in its entirety before using the medicine. This leaflet contains concise information about the medicine. If you have further questions, refer to the doctor or pharmacist",
+          "heb": "קרא בעיון את העלון עד סופו בטרם תשתמש בתרופה. עלון זה מכיל מידע תמציתי על התרופה. אם יש לך שאלות נוספות, פנה אל הרופא או אל הרוקח."
+        },
+        {
+          "eng": "Keep this leaflet; you may need to read it again.",
+          "heb": "שמור על עלון זה, ייתכן ותצטרך לקרוא בו שוב."
+        },
+        {
+          "eng": "Use according to the instructions in the Dosage section in this leaflet. Consult the pharmacist if you need further information. Refer to the doctor if symptoms worsen or are not improving.",
+          "heb": "עליך להשתמש על פי ההוראות בסעיף המינון בעלון זה. היוועץ ברוקח אם הנך זקוק למידע נוסף. עליך לפנות לרופא באם תסמיני המחלה (סימפטומים) מחמירים או אינם משתפרים."
+        },
+        {
+          "eng": "The medicine is not intended for children.",
+          "heb": "התרופה אינה מיועדת לילדים."
+        }
+      ]
+    },
+    {
+      "title": "medicine intended for",
+      "section_num": 1,
+      "data": [
+        {
+          "eng": "1. WHAT IS THE MEDICINE INTENDED FOR?",
+          "heb": "1. למה מיועדת התרופה? "
+        },
+        {
+          "eng": "Maalox Plus contains three different medicines: two that belong to the group called antacids and one which is an anti-foaming agent. Maalox Plus is used as an antacid, an anti-flatulence agent and to relieve the sensation of heartburn in the digestive system",
+          "heb": "מאלוקס פלוס מכיל שלוש תרופות שונות: שתיים ששייכות לקבוצה הנקראת סותרי חומצה ואחת שהיא נגד גזים. מאלוקס פלוס משמש כסותר חומצה, נגד גזים ולהקלה על תחושת הצרבת במערכת העיכול."
+        },
+        {
+          "eng": "Therapeutic group: antacid and anti-flatulence agent in the digestive system.",
+          "heb": "קבוצה תרפויטית: סותר חומצה וסופח גזים במערכת העיכול."
+        }
+      ]
+    },
+    {
+      "title": "before using the medicine",
+      "section_num": 2,
+      "data": [
+        {
+          "eng": "2. BEFORE USING THE MEDICINE",
+          "heb": "2. לפני השימוש בתרופה"
+        },
+        {
+          "eng": "Do not use the medicine if you:",
+          "heb": "אין להשתמש בתרופה אם הנך:"
+        },
+        {
+          "eng": "are sensitive (allergic) to aluminium hydroxide, magnesium hydroxide, simethicone or to any of the other ingredients (see section 6). Signs of an allergic reaction include: rash, swallowing or breathing problems, swelling of the lips, face, throat or tongue.",
+          "heb": "רגיש (אלרגי) לאלומיניום הידרוקסיד, מגנזיום הידרוקסיד, סימת יקון, או לאחד ממרכיבי התרופה האחרים (ראה סעיף 6). סימנים לתגובה אלרגית כוללים: פריחה, בעיות בבליעה או בנשימה, נפיחות בשפתיים, בפנים, בגרון או בלשון."
+        },
+        {
+          "eng": "feel severe exhaustion",
+          "heb": "מרגיש תשישות חמורה."
+        },
+        {
+          "eng": "are suffering from kidney problems/kidney failure",
+          "heb": "סובל מבעיות בכליות/אי ספיקת כליות"
+        },
+        {
+          "eng": "are suffering from severe abdominal pain or partial or full bowel obstruction.",
+          "heb": "סובל מכאבים חזקים בבטן או מחסימת מעיים חלקית או מלאה."
+        },
+        {
+          "eng": "are suffering from a low blood phosphate level. This condition can be identified in your blood tests.",
+          "heb": "סובל מרמת זרחן (פוספאט) נמוכה בדם. ניתן לזהות מצב זה בבדיקות דם."
+        },
+        {
+          "eng": "Do not take the medicine if one of the conditions listed above applies to you. If you are uncertain, talk to your doctor or pharmacist before using the medicine.",
+          "heb": "אין לקחת את התרופה אם אחד מהסעיפים הנזכרים מעלה נוגע אליך. במידה ואינך בטוח, שוחח עם הרופא שלך או הרוקח, לפני השימוש בתרופה"
+        },
+        {
+          "eng": "Special warnings regarding use of this medicine:",
+          "heb": "אזהרות מיוחדות הנוגעות לשימוש בתרופה:"
+        },
+        {
+          "eng": "Refer to the doctor or pharmacist before beginning treatment if you are on a low-phosphorus diet.",
+          "heb": "פנה לרופא או לרוקח לפני תחילת הטיפול אם הנך נמצא בדיאטה דלת זרחן. "
+        },
+        {
+          "eng": "Children and adolescents",
+          "heb": "ילדים ומתבגרים"
+        },
+        {
+          "eng": "Maalox Plus Chewable Tablets is not intended for children.",
+          "heb": "מאלוקס פלוס טבליות לעיסה אינו מיועד לילדים."
+        },
+        {
+          "eng": "Drug interactions",
+          "heb": "אינטראקציות/תגובות בין תרופתיות"
+        },
+        {
+          "eng": "If you are taking, or have recently taken, other medicines, including non-prescription medicines and nutritional supplements, tell the doctor or pharmacist.",
+          "heb": "אם אתה נוטל, או אם נטלת לאחרונה, תרופות אחרות כולל תרופות ללא מרשם ותוספי תזונה, ספר על כך לרופא או לרוקח. "
+        },
+        {
+          "eng": "Do not take Maalox Plus and other medicines at the same time, since Maalox Plus may affect the activity of other medicines.",
+          "heb": "אין לקחת מאלוקס פלוס ותרופות אחרות באותו הזמן מכיוון שמאלוקס פלוס עלול לפגוע בפעילות של תרופות אחרות."
+        },
+        {
+          "eng": "If Maalox Plus is taken within one hour of another medicine, it may affect the absorption of the medicine into the blood.",
+          "heb": "אם מאלוקס פלוס נלקח בתוך שעה מתרופה אחרת, הוא יכול להשפיע על ספיגת התרופה בדם. "
+        },
+        {
+          "eng": "Some medicines may be affected by magnesium hydroxide or may affect the activity of magnesium hydroxide.",
+          "heb": "תרופות מסוימות עלולות להיות מושפעות ממגנזיום הידרוקסיד או עלולות להשפיע על פעילותו של המגנזיום הידרוקסיד. "
+        },
+        {
+          "eng": "Wait at least two hours between taking other medicines and taking Maalox Plus (a lapse of 4 hours for fluoroquinolone).",
+          "heb": "יש להמתין פרק זמן של שעתיים לפחות בין נטילת תרופות אחרות, לבין נטילת מאלוקס פלוס (מרווח של 4 שעות לפלואורוקווינולון). "
+        },
+        {
+          "eng": "In particular, tell the doctor or pharmacist if you are taking, have recently taken, or may take:",
+          "heb": "במיוחד ספר לרופא או לרוקח אם אתה נוטל, נטלת לאחרונה או עלול ליטול: "
+        },
+        {
+          "eng": "preparations given for heart/blood pressure diseases, such as quinidine, metoprolol, atenolol, propranolol, digoxin",
+          "heb": "תכשירים הניתנים למחלות לב/לחץ דם כגון : כינידין, מטופרולול, אטנולול, פרופרנולול, דיגוקסין"
+        },
+        {
+          "eng": "preparations to treat anemia such as iron salts",
+          "heb": "תכשירים לטיפול באנמיה כגון: מלחי ברזל"
+        },
+        {
+          "eng": "medicines from the H2 antagonist group, given to treat stomach ulcers, such as cimetidine, ranitidine, famotidine",
+          "heb": "תרופות מקבוצת נוגדי 2H הניתנות לטיפול בכיב קיבה כגון: סימטידין, רניטידין, פמוטידין "
+        },
+        {
+          "eng": "preparations to treat malaria, such as chloroquine, hydroxychloroquine ",
+          "heb": "תכשירים לטיפול במלריה כגון: כלורוקווין, הידרוקסיכלורוקווין "
+        },
+        {
+          "eng": "bisphosphonates, given to treat osteoporosis or Paget’s disease, such as sodium alendronate, sodium etidronate, sodium risedronate",
+          "heb": "תרופות מקבוצת ביספוספונאטים הניתנות לטיפול באוסטאופורוזיס או למחלת פאג'ט כגון : סודיום אלנדרונאט, סודיום אטידרונט, סודיום ריזדרונט "
+        },
+        {
+          "eng": "preparations to treat some allergies, inflammations or abnormal immune system reactions - glucocorticoids",
+          "heb": "תכשירים לטיפול באלרגיות, דלקות או בתגובה בלתי תקינה של מערכת החיסון – גלוקוקורטיקואידים"
+        },
+        {
+          "eng": "preparations to treat tuberculosis - ethambutol, isoniazid",
+          "heb": "תכשירים לטיפול בשחפת- אתמבוטול, איזוניאזיד"
+        },
+        {
+          "eng": "preparations to treat infections, such as fluoroquinolone, lincosamides, ketoconazole, tetracyclines, cephalosporins (cefpodoxime, cefdinir), rifampicin",
+          "heb": "תכשירים לטיפול בזיהומים כגון: פלואורוקווינולון, לינקוזאמידים, קטוקונזול טטראציקלינים, צפלוספורינים (צפפודוקסים, צפדיניר), ריפמפיצין"
+        },
+        {
+          "eng": "neuroleptic preparations from the phenothiazine group, such as fluphenazine, thioridazine",
+          "heb": "תכשירים נוירולפטים מקבוצת פנוטיאזינים כגון : פלופנזין, תיורידזין"
+        },
+        {
+          "eng": "preparations to treat excess potassium - polystyrene sulfonate (kayexalate)",
+          "heb": "תכשיר לטיפול בעודף אשלגן - פוליסטירן סולפונאט (קיאקסאלאט)"
+        },
+        {
+          "eng": "preparations to treat pain, such as diflunisal, indomethacin",
+          "heb": "תכשירים נגד כאבים כגון: דיפלוניזל, אינדומטצין"
+        },
+        {
+          "eng": "preparations to prevent dental caries, such as sodium fluoride",
+          "heb": "תכשירים למניעת עששת כגון: סודיום פלואוריד "
+        },
+        {
+          "eng": "preparations to treat an underactive thyroid gland, such as levothyroxine",
+          "heb": "תכשיר לטיפול בחסר הורמון של בלוטת התריס - לבותירוקסין "
+        },
+        {
+          "eng": "preparations to treat rheumatoid arthritis, such as penicillamine",
+          "heb": "תכשירים לטיפול בדלקת מפרקים שגרונית – פניצילאמין. "
+        },
+        {
+          "eng": "preparations to reduce the blood cholesterol level, such as rosuvastatin",
+          "heb": "תכשירים להורדת רמת הכולסטרול בדם כגון: רוזובסטטין "
+        },
+        {
+          "eng": "salicylates, including aspirin, chlorpromazine (antipsychotic), vitamins",
+          "heb": "סליצילטים, כולל אספירין, כלורפרומאזין (אנטי פסיכוטי), ויטמינים "
+        },
+        {
+          "eng": "combined administration with quinidine can cause an increase in blood quinidine levels",
+          "heb": "מתן משולב עם כינידין יכול לגרום להעלאת רמות הכינידין בדם"
+        },
+        {
+          "eng": "combined administration with preparations containing citrate can increase aluminium levels, particularly in patients suffering from kidney function problems",
+          "heb": "מתן משולב עם תכשירים המכילים ציטראט יכול להעלות את רמות האלומיניום בעיקר בחולים הסובלים מבעיות בתפקוד הכליה "
+        },
+        {
+          "eng": "Use of the medicine and food",
+          "heb": "שימוש בתרופה ומזון"
+        },
+        {
+          "eng": "Chew the tablet 20 minutes to one hour after meals and at bedtime.",
+          "heb": "יש ללעוס את הטבליה 20 דקות עד שעה לאחר הארוחות וכן לפני השינה."
+        },
+        {
+          "eng": "Pregnancy and breastfeeding",
+          "heb": "היריון והנקה"
+        },
+        {
+          "eng": "Consult the doctor or pharmacist before using this medicine if: you are pregnant, may become pregnant, or think you are pregnant. Do not use the medicine during the first three months of pregnancy. you are breastfeeding or plan to breastfeed.",
+          "heb": "יש להיוועץ ברופא או ברוקח לפני השימוש בתרופה אם: הנך בהיריון, עשויה להיכנס להיריון או חושבת שהנך בהיריון. אין להשתמש בתרופה בשלושת חודשי ההיריון הראשונים. הנך מניקה או מתכננת הנקה. "
+        },
+        {
+          "eng": "Important information about some of the ingredients in this medicine",
+          "heb": "מידע חשוב על חלק מהמרכיבים של התרופה"
+        },
+        {
+          "eng": "If the doctor has told you that you suffer from a problem of intolerance or from a disturbance in digestion of certain sugars, or if you have been diagnosed as suffering from hereditary fructose intolerance a rare genetic disorder, in which people suffering from it cannot break down fructose, consult the doctor before using the medicine.",
+          "heb": "אם הרופא אמר לך כי הנך סובל מבעיה של חוסר סבילות או הפרעה בעיכול של סוכרים מסוימים, או אם אובחנת כסובל מאי סבילות תורשתית לפרוקטוז, הפרעה גנטית נדירה, שהסובלים ממנה אינם יכולים לפרק פרוקטוז, יש להיוועץ ברופא לפני השימוש בתרופה."
+        },
+        {
+          "eng": "The medicine may be harmful to the teeth.",
+          "heb": "התרופה עלולה להזיק לשיניים."
+        },
+        {
+          "eng": "For patients with diabetes, the amount of glucose should be taken into consideration.",
+          "heb": "יש לקחת את כמות הגלוקוז בחשבון במטופלים הסובלים מסוכרת. "
+        }
+      ]
+    },
+    {
+      "title": "how to use the medicine",
+      "section_num": 3,
+      "data": [
+        {
+          "eng": "Check with the doctor or pharmacist if you are uncertain about the dosage and treatment regimen of the preparation.",
+          "heb": "עליך לבדוק עם הרופא או הרוקח אם אינך בטוח בנוגע למינון ואופן הטיפול בתכשיר."
+        },
+        {
+          "eng": "Intended for administration by mouth. The tablets should be thoroughly chewed before swallowing them.",
+          "heb": "מיועד למתן דרך הפה. את הטבליות יש ללעוס היטב לפני בליעתן. "
+        },
+        {
+          "eng": "The usual dosage is generally:",
+          "heb": "המינון המקובל בדרך כלל הוא:"
+        },
+        {
+          "eng": "The usual dosage for adults and the elderly: One or two tablets, 4 times a day, 20 minutes to one hour after meals and at bedtime, or according to doctor’s instructions.",
+          "heb": "מינון מקובל למבוגרים וקשישים : טבליה אחת או שתיים, 4 פעמים ביום, 20 דקות עד שעה לאחר הארוחות וכן לפני שינה או לפי הוראות הרופא."
+        },
+        {
+          "eng": "Do not exceed the recommended dosage.",
+          "heb": "אין לעבור על המנה המומלצת."
+        },
+        {
+          "eng": "If the symptoms do not pass, refer to the doctor. Do not take for more than two weeks without instruction from the doctor",
+          "heb": "אם התסמינים לא חולפים יש לפנות לרופא. אין לקחת יותר משבועיים ללא הוראת רופא."
+        },
+        {
+          "eng": "Maalox Plus Chewable Tablets is not intended for children.",
+          "heb": "מאלוקס פלוס טבליות לעיסה אינו מיועד לילדים."
+        },
+        {
+          "eng": "Tests and follow-up: If you have to have diagnostic tests with radioactive reagents, inform the doctor that you are taking this medicine, as the test results may be affected by the presence of aluminium.",
+          "heb": "בדיקות ומעקב: אם עליך לבצע בדיקות אבחנתיות בחומרים רדיואקטיביים עליך לדווח לרופא שהנך לוקח תרופה זו, כיוון שתוצאות הבדיקה עלולות להיות מושפעות מנוכחות אלומיניום. "
+        },
+        {
+          "eng": "If you accidentally took an overdose or if a child has accidentally swallowed the medicine, refer immediately to a doctor or proceed to a hospital emergency room and bring the package of the medicine with you. In such a case, you may suffer from diarrhea, abdominal pain, bloating, vomiting, indigestion, heartburn, upset stomach, constipation, loss of appetite, dry mouth. These can be caused by intestinal obstruction.",
+          "heb": "אם נטלת בטעות מנת יתר או אם בטעות בלע ילד מן התרופה, פנה מיד לרופא או לחדר מיון של בית חולים והבא אריזת התרופה אתך. במקרה זה הנך עלול לסבול משלשול, כאב בטן, נפיחות, הקאות, בעיות עיכול, צרבת, קיבה רגישה, עצירות, אובדן תיאבון, יובש בפה. אלו יכולים להיגרם מחסימת מעיים."
+        },
+        {
+          "eng": "High dosages of the preparation may cause or worsen phosphate deficiency, bone problems, increased calcium levels in the urine, rickets.",
+          "heb": "מינונים גבוהים של התכשיר עלולים לגרום או להחמיר מחסור בזרחן, בעיות בעצמות, עלייה ברמות הסידן בשתן, רככת העצמות."
+        },
+        {
+          "eng": "Do not take medicines in the dark! Check the label and the dose each time you take medicine. Wear glasses if you need them.",
+          "heb": "אין ליטול תרופות בחושך! בדוק התווית והמנה בכל פעם שהנך נוטל תרופה. הרכב משקפיים אם הנך זקוק להם."
+        },
+        {
+          "eng": "If you have further questions regarding use of the medicine, consult the doctor or pharmacist.",
+          "heb": "אם יש לך שאלות נוספות בנוגע לשימו ש בתרופה, היוועץ ברופא או ברוקח. "
+        }
+      ]
+    },
+    {
+      "title": "side effects",
+      "section_num": 4,
+      "data": [
+        {
+          "eng": "As with any medicine, use of Maalox Plus may cause side effects in some users. Do not be alarmed by the list of side effects. you may not suffer from any of them",
+          "heb": "כמו בכל תרופה השימוש במאלוקס פלוס עלול לגרום לתופעות לוואי בחלק מהמשתמשים. אל תיבהל למקרא רשימת תופעות הלוואי. ייתכן ולא תסבול מאף אחת מהן"
+        },
+        {
+          "eng": "Stop taking the medicine and refer immediately to the doctor or proceed to a hospital emergency room if:",
+          "heb": "הפסק לקחת את התרופה ופנה מיד לרופא או לחדר המיון של בית חולים אם:"
+        },
+        {
+          "eng": "Side effects of unknown frequency (cannot be evaluated from the existing data):",
+          "heb": "תופעות לוואי עם שכיחות לא ידועה (לא ניתן להערכה מהנתונים הקיימים):"
+        },
+        {
+          "eng": "You suffer from a red and lumpy skin rash, swollen eyelids, face, lips, mouth or tongue, itching, difficulty breathing or swallowing. ",
+          "heb": "הנך סובל מפריחה אדומה וגבשושית, נפיחות בעפעפיים, בפנים, בשפתיים, בפה או בלשון, גרד, קשיי נשימה או בליעה."
+        },
+        {
+          "eng": "This could be an allergic reaction.",
+          "heb": "זו יכולה להיות תגובה אלרגית."
+        },
+        {
+          "eng": "Consult the doctor if one of the following side effects worsens or lasts longer than a few days:",
+          "heb": "פנה לרופא אם הופיעה תופעת לוואי, אחת מהתופעות הבאות מחמירה או מתמשכת יותר ממספר ימים"
+        },
+        {
+          "eng": "Uncommon side effects (may occur in up to 1 patient in 100): Constipation, Diarrhea",
+          "heb": "תופעות לוואי לא שכיחות (עלולות להופיע אצל עד 1 מתוך 100 מטופלים): עצירות, שלשול"
+        },
+        {
+          "eng": "Very rare side effects (may occur in up to 1 patient in 10,000): Hypermagnesemia (excessive magnesium in the blood), including observations after prolonged administration to patients with renal impairment",
+          "heb": "תופעות לוואי נדירות מאוד (עלולות להופיע אצל עד 1 מתוך 10,000 מטופלים): היפרמגנזמיה (יתר מגנזיום בדם), כולל באבחנה לאחר שימוש ממושך בחולים עם פגיעה בתפקוד הכליות "
+        },
+        {
+          "eng": "Side effects of unknown frequency (cannot be evaluated from the existing data):",
+          "heb": "תופעות לוואי עם שכיחות לא ידועה (לא ניתן להערכה מהנתונים הקיימים):"
+        },
+        {
+          "eng": "Hypophosphatemia (decrease in blood phosphate level) that may occur with a high dosage of the preparation, and even at normal doses, especially in patients on a lowphosphorus diet, Hyperaluminemia (condition of abnormally high blood aluminium level), Abdominal pain",
+          "heb": "היפופוספטמיה (ירידה ברמת הזרחן בדם) העלולה להופיע במינון גבוה של התכשיר ואף במינון רגיל, בעיקר במטופלים הנמצאים בדיאטה דלת זרחן, היפראלומינמיה (מצב אנורמלי של יתר אלומיניום בדם), כאב בטן "
+        }
+      ]
+    },
+    {
+      "title": "medicine storage",
+      "section_num": 5,
+      "data": [
+        {
+          "eng": "Avoid poisoning! This medicine, and any other medicine, should be kept in a safe place out of the reach and sight of children and/or infants in order to avoid poisoning. Do not induce vomiting unless explicitly instructed to do so by a doctor.",
+          "heb": "מנע הרעלה! תרופה זו וכל תרופה אחרת יש לשמור במקום סגור מחוץ להישג ידם וטווח ראייתם של ילדים ו/או תינוקות ועל-ידי כך תמנע הרעלה. אין לגרום להקאה ללא הוראה מפורשת מהרופא"
+        },
+        {
+          "eng": "Do not use the medicine after the expiry date that appears on the package. The expiry date refers to the last day of that month.",
+          "heb": "אין להשתמש בתרופה אחרי תאריך התפוגה המופיע על גבי האריזה. תאריך התפוגה מתייחס ליום האחרון של אותו חודש."
+        },
+        {
+          "eng": "Do not dispose of medicines in the household waste bin or wastewater. Ask your pharmacist how to dispose of medicines you no longer need. These measures will help protect the environment.",
+          "heb": "אין להשליך תרופות באשפה הביתית או לתוך הביוב הביתי. שאל את הרוקח שלך איך להשליך תרופות שאינך זקוק להן יותר. אמצעים אלו יעזרו להגן על הסביבה"
+        }
+      ]
+    },
+    {
+      "title": "additional information",
+      "section_num": 6,
+      "data": [
+        {
+          "eng": "In addition to the active ingredients, the medicine also contains",
+          "heb": "נוסף על החומרים הפעילים התרופה מכילה גם"
+        },
+        {
+          "eng": "What the medicine looks like and contents of the package",
+          "heb": "כיצד נראית התרופה ומה תוכן האריזה "
+        },
+        {
+          "eng": "Maalox Plus Tablets are white-yellowish, lemon-flavored and scented tablets",
+          "heb": "טבליות מאלוקס פלוס הן טבליות בצבע לבן וצהבהב בטעם וריח של לימון"
+        },
+        {
+          "eng": "Quantity per package: 40 or 50 tablets per package. Not all package sizes may be marketed.",
+          "heb": "כמות באריזה: 40 או 50 טבליות באריזה. ייתכן ולא כל הגדלים משווקים."
+        }
+      ]
+    }
+  ]
+}
