@@ -3,7 +3,7 @@ from typing import List, Optional
 
 class EvaluationScoreType(Enum):
     BLEU    = 'bleu'
-    # COMET   = 'comet'
+    COMET   = 'comet'
     CHRF    = 'chrf'
     WER     = 'wer'
     # TER     = 'ter'
@@ -24,12 +24,6 @@ class BLEUScoreType(Enum):
     @classmethod
     def get_types(cls) -> List[str]:
         return [score_type.value for score_type in BLEUScoreType]
-
-    @classmethod
-    def get_types_tokenized(cls) -> List[str]:
-        types = [score_type.value for score_type in BLEUScoreType]
-        types.remove(BLEUScoreType.PLAIN_CORPUS.value)
-        return types
 
 EVALUATION_SCORE_TYPES = [score_type.value for score_type in BLEUScoreType]
 
