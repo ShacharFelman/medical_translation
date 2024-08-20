@@ -18,7 +18,7 @@ class TranslationAccuracyTest(unittest.TestCase):
     def test_full_leaflet_translation(self):
         for section in self.leaflet_data['sections']:
             self.translate_and_evaluate_section(section)
-
+ 
 
     def translate_and_evaluate_section(self, section: Dict) -> float:
         for item in section['data']:
