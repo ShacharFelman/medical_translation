@@ -1,0 +1,250 @@
+{
+    "title": "AGISTEN Lozenges",
+    "index": 0,
+    "dir_index": 2111,
+    "title_lang": {
+        "title_eng": "AGISTEN Lozenges",
+        "title_heb": "אגיסטן לכסניות למציצה"
+    },
+    "sections": [
+        {
+            "title": "General",
+            "section_num": "0",
+            "data": [
+                {
+                    "eng": "PATIENT PACKAGE INSERT IN ACCORDANCE WITH THE PHARMACISTS’ REGULATIONS (PREPARATIONS) - 1986",
+                    "heb": "עלון לצרכן לפי תקנות הרוקחים (תכשירים) התשמ\"ו - 1986"
+                },
+                {
+                    "eng": "The medicine is dispensed with a doctor’s prescription only.",
+                    "heb": "התרופה משווקת על פי מרשם רופא בלבד"
+                },
+                {
+                    "eng": "Each lozenge contains Clotrimazole 10",
+                    "heb": "כל לכסנית מציצה מכילה קלוטרימאזול 10"
+                },
+                {
+                    "eng": "Inactive and allergenic ingredients in the preparation – see section 6 in the leaflet and section 2",
+                    "heb": "חומרים בלתי פעילים ואלרגניים בתכשיר - ראה סעיף 6 בעלון וסעיף 2"
+                },
+                {
+                    "eng": "Read this leaflet carefully in its entirety before using the medicine. This leaflet contains concise information about the medicine. If you have further questions, refer to the doctor or pharmacist.",
+                    "heb": "קרא בעיון את העלון עד סופו בטרם תשתמש בתרופה. עלון זה מכיל מידע תמציתי על התרופה. אם יש לך שאלות נוספות, פנה אל הרופא או אל הרוקח."
+                },
+                {
+                    "eng": "This medicine has been prescribed for you. Do not pass it on to others. It may harm them, even if it seems to you that their medical condition is similar",
+                    "heb": "תרופה זו נרשמה עבורך. אל תעביר אותה לאחרים. היא עלולה להזיק להם אפילו אם נראה לך כי מצבם הרפואי דומה."
+                },
+                {
+                    "eng": "The medicine is not intended for children under the age of 3. You must use the product according to the instructions in the dosage section in this leaflet. Consult the pharmacist if you need further information. Refer to the doctor if signs of the illness (symptoms) worsen or do not improve after 7 days.",
+                    "heb": "התרופה אינה מיועדת לילדים מתחת לגיל .3 עליך להשתמש בתכשיר ע“פ ההוראות בסעיף המינון בעלון זה. היוועץ ברוקח אם הנך זקוק למידע נוסף. עליך לפנות לרופא במידה ותסמיני המחלה (סימפטומים) מחמירים או אינם משתפרים לאחר 7 ימים."
+                }
+            ]
+        },
+        {
+            "title": "medicine intended for",
+            "section_num": "1",
+            "data": [
+                {
+                    "eng": "1. WHAT IS THE MEDICINE INTENDED FOR?",
+                    "heb": "1. למה מיועדת התרופה?"
+                },
+                {
+                    "eng": "For local treatment of Candida infections diagnosed in the oral cavity and pharynx. For prophylactic treatment to reduce the incidence of oropharyngeal candidiasis in patients immunocompromised by chemotherapy, radiotherapy, steroid therapy in leukemia, solid tumors and renal transplantation. ",
+                    "heb": "לטיפול מקומי בזיהומי קנדידה שאובחנו בחלל הפה והלוע. לטיפול מונע לירידת שכיחות מקרי קנדידיאזיס בחלל הפה והלוע (candidiasis oropharyngeal) במטופלים עם פגיעה בתפקוד מערכת החיסון הנגרמת מכימותרפיה, הקרנות, טיפול סטרואידי בלוקמיה, גידולים מוצקים (tumors solid (והשתלות כליה."
+                },
+                {
+                    "eng": "Therapeutic group: Anti-inflammatory for local oral treatment.",
+                    "heb": "קבוצה תרפויטית: נוגדי דלקת לטיפול מקומי אוראלי."
+                }
+                
+            ]
+        },
+        {
+            "title": "before using the medicine",
+            "section_num": "2",
+            "data": [
+                {
+                    "eng": "2. BEFORE USING THE MEDICINE",
+                    "heb": "2. לפני שימוש בתרופה"
+                },
+                {
+                    "eng": "Do not use the medicine if: You are sensitive (allergic) to the active ingredient clotrimazole or to any of the additional ingredients contained in the medicine.",
+                    "heb": "אין להשתמש בתרופה אם: אתה רגיש (אלרגי) לחומר הפעיל קלוטרימאזול או לכל אחד מהמרכיבים הנוספים אשר מכילה התרופה."
+                },
+                {
+                    "eng": "Special warnings regarding use of the medicine",
+                    "heb": "אזהרות מיוחדות הנוגעות לשימוש בתרופה"
+                },
+                {
+                    "eng": "Agisten lozenges are not intended for the treatment of systemic fungal infection.",
+                    "heb": "אגיסטן לכסניות אינן מיועדות לטיפול בזיהום פטרייתי סיסטמי"
+                },
+                {
+                    "eng": "Do not use this medicine for a prolonged period without consulting a doctor.",
+                    "heb": "אין להשתמש בתרופה זו תקופה ממושכת בלי להיוועץ ברופא."
+                },
+                {
+                    "eng": "The medicine may affect the results of liver function tests",
+                    "heb": "התרופה יכולה להשפיע על תוצאות בדיקות תפקודי כבד."
+                },
+                {
+                    "eng": "Before treatment with Agisten lozenges, tell the doctor if",
+                    "heb": "לפני הטיפול באגיסטן לכסניות ספר לרופא אם"
+                },
+                {
+                    "eng": "you are sensitive to any food or medicine",
+                    "heb": "הנך רגיש למזון כלשהו או לתרופה כלשהי"
+                },
+                {
+                    "eng": "you are pregnant or breastfeeding",
+                    "heb": "הנך בהריון או מניקה"
+                },
+                {
+                    "eng": "Tests and Follow-up ",
+                    "heb": "בדיקות ומעקב"
+                },
+                {
+                    "eng": "It is recommended to perform periodic liver function tests, particularly in patients with existing liver disease.",
+                    "heb": "מומלץ לבצע בדיקות תפקודי כבד תקופתיות, בייחוד בקרב מטופלים עם מחלה כבדית קיימת."
+                },
+                {
+                    "eng": "Drug interactions:",
+                    "heb": "אינטראקציות/תגובות בין תרופתיות"
+                },
+                {
+                    "eng": "If you are taking, or have recently taken, other medicines including non-prescription medicines and nutritional supplements, tell the doctor or pharmacist.",
+                    "heb": "אם אתה לוקח, או אם לקחת לאחרונה, תרופות אחרות כולל תרופות ללא מרשם ותוספי תזונה, ספר על כך לרופא או לרוקח."
+                },
+                {
+                    "eng": "Pregnancy and breastfeeding ",
+                    "heb": "הריון והנקה"
+                },
+                {
+                    "eng": "If you are pregnant or breastfeeding, consult the doctor.",
+                    "heb": "אם הנך בהריון או מניקה יש להיוועץ ברופא."
+                },
+                {
+                    "eng": "Important information about some of the ingredients of the medicine ",
+                    "heb": "מידע חשוב על חלק מהמרכיבים של התרופה"
+                },
+                {
+                    "eng": "consult the doctor before taking the medicine.",
+                    "heb": "התייעץ עם הרופא לפני נטילת התרופה."
+                }
+            ]
+        },
+        {
+            "title": "how to use the medicine",
+            "section_num": "3",
+            "data": [
+                {
+                    "eng": "3. HOW SHOULD YOU USE THE MEDICINE?",
+                    "heb": "3. כיצד תשתמש בתרופה?"
+                },
+                {
+                    "eng": "Always use the product according to the doctor’s instructions. Check with the doctor or pharmacist if you are uncertain about the dosage and treatment regimen of this product.",
+                    "heb": "יש להשתמש בתכשיר תמיד בהתאם להוראות הרופא. עליך לבדוק עם הרופא או הרוקח אם אינך בטוח בנוגע למינון ואופן הטיפול בתכשיר."
+                },
+                {
+                    "eng": "The dosage and treatment regimen will be determined by the doctor only. The usual dosage is generally: For treatment of an existing Candida infection: One lozenge five times a day for two weeks.",
+                    "heb": "המינון ואופן הטיפול יקבעו על-ידי הרופא בלבד. המינון המקובל בדרך כלל הוא: לטיפול בזיהום קנדידה קיים: לכסנית אחת חמש פעמים ביום למשך שבועיים."
+                },
+                {
+                    "eng": "For prophylactic treatment in immunocompromised patients: One lozenge three times a day for the duration of chemotherapy or until steroids are reduced to a fixed daily dose.",
+                    "heb": "לטיפול מונע בחולים הסובלים מדיכוי מערכת החיסון: לכסנית אחת שלוש פעמים ביום למשך תקופת הכימותרפיה או עד לירידה ברמת הסטרואידים למינון יומי קבוע."
+                },
+                {
+                    "eng": "Do not exceed the recommended dosage.",
+                    "heb": "אין לעבור על המנה המומלצת."
+                },
+                {
+                    "eng": "The lozenge is intended for sucking - allow the lozenge to dissolve slowly in the mouth for about 15-30 minutes – do not swallow.",
+                    "heb": "הלכסנית מיועדת למציצה - יש לאפשר לה להתמוסס לאט בפה במשך כ- 15-30 דקות - אין לבלוע."
+                },
+                {
+                    "eng": "If you took an overdose, or if a child has accidentally swallowed the medicine, refer immediately to a doctor or proceed to a hospital emergency room, and bring the package of the medicine with you.",
+                    "heb": "אם נטלת מנת יתר או אם בטעות בלע ילד מן התרופה, פנה מיד לרופא או לחדר מיון של בית חולים והבא אריזת התרופה איתך."
+                },
+                {
+                    "eng": "Adhere to the treatment regimen as recommended by the doctor. Even if there is an improvement in your health, do not stop treatment with the medicine without consulting with the doctor.",
+                    "heb": "יש להתמיד בטיפול כפי שהומלץ על-ידי הרופא. גם אם חל שיפור במצב בריאותך, אין להפסיק הטיפול בתרופה ללא התייעצות עם הרופא."
+                },
+                {
+                    "eng": "Do not take medicines in the dark! Check the label and the dose each time you take medicine. Wear glasses if you need them.",
+                    "heb": "אין ליטול תרופות בחושך! בדוק את התווית והמנה בכל פעם שהנך נוטל תרופה. הרכב משקפיים אם הנך זקוק להם."
+                },
+                {
+                    "eng": "If you have further questions regarding use of the medicine, consult a doctor or pharmacist.",
+                    "heb": "אם יש לך שאלות נוספות בנוגע לשימוש בתרופה, היוועץ ברופא או ברוקח."
+                }
+            ]
+        },
+        {
+            "title": "side effects",
+            "section_num": "4",
+            "data": [
+                {
+                    "eng": "4. SIDE EFFECTS",
+                    "heb": "4. תופעות לוואי"
+                },
+                {
+                    "eng": "As with any medicine, use of Agisten lozenges may cause side effects in some users. Do not be alarmed when reading the list of side effects. You may not suffer from any of them.",
+                    "heb": "כמו בכל תרופה, השימוש באגיסטן לכסניות עלול לגרום לתופעות לוואי בחלק מהמשתמשים. אל תיבהל למקרא רשימת תופעות הלוואי. יתכן ולא תסבול מאף אחת מהן."
+                },
+                {
+                    "eng": "In addition to the desired effect of the medicine, side effects such as: nausea, vomiting, a sensation of discomfort in the mouth, pruritus, may occur during the use of this medicine. ",
+                    "heb": "בנוסף לפעילות הרצויה של התרופה, בזמן השימוש בה עלולות להופיע תופעות לוואי כגון: בחילה, הקאה, תחושת אי-נוחות בפה, גרד."
+                },
+                {
+                    "eng": "Side effects that require special attention: The medicine can affect the results of liver function tests (see special warnings in section 2).",
+                    "heb": "תופעות לוואי המחייבות התייחסות מיוחדת: התרופה יכולה להשפיע על תוצאות בבדיקות תפקודי כבד (ראה אזהרות מיוחדות בסעיף 2)."
+                },
+                {
+                    "eng": "If a side effect occurs, if one of the side effects worsens or if you suffer from a side effect not mentioned in this leaflet, consult with the doctor.",
+                    "heb": "אם הופיעה תופעת לוואי, אם אחת מתופעות הלוואי מחמירה או כאשר אתה סובל מתופעת לוואי שלא הוזכרה בעלון, עליך להתייעץ עם הרופא."
+                },
+                {
+                    "eng": "Reporting side effects: Side effects can be reported to the Ministry of Health by clicking on the link",
+                    "heb": "דיווח על תופעות לוואי ניתן לדווח על תופעות לוואי למשרד הבריאות באמצעות לחיצה על הקישור"
+                }
+            ]
+        },
+        {
+            "title": "medicine storage",
+            "section_num": "5",
+            "data": [
+                {
+                    "eng": "Avoid poisoning! This medicine, and any other medicine, should be kept in a safe place out of the reach and sight of children and/or infants in order to avoid poisoning. Do not induce vomiting unless explicitly instructed to do so by the doctor.",
+                    "heb": "מנע הרעלה! תרופה זו וכל תרופה אחרת יש לשמור במקום סגור מחוץ להישג ידם וטווח ראייתם של ילדים ו/או תינוקות ועל ידי כך תמנע הרעלה. אל תגרום להקאה ללא הוראה מפורשת מהרופא."
+                },
+                {
+                    "eng": "Do not use the medicine after the expiry date (exp. date) that appears on the package. The expiry date refers to the last day of that month.",
+                    "heb": "אין להשתמש בתרופה אחרי תאריך התפוגה (date .exp) המופיע על גבי האריזה. תאריך התפוגה מתייחס ליום האחרון של אותו חודש."
+                },
+                {
+                    "eng": "After first opening this product can be used until the expiry date that appears on the package, but not later than this date.",
+                    "heb": "לאחר פתיחה ראשונה ניתן להשתמש בתכשיר עד לתאריך התפוגה המצויין על גבי האריזה, אך לא יאוחר מתאריך זה."
+                }
+            ]
+        },
+        {
+            "title": "additional information",
+            "section_num": "6",
+            "data": [
+                {
+                    "eng": "In addition to the active ingredient, the medicine also contains:",
+                    "heb": "נוסף על החומר הפעיל התרופה מכילה גם:"
+                },
+                {
+                    "eng": "What does the medicine look like and what are the contents of the package: A bottle containing 70 white to off-white round flat lozenges",
+                    "heb": "כיצד נראית התרופה ומה תוכן האריזה: בקבוק המכיל 70 לכסניות עגולות ושטוחות בצבע לבן עד אוף וויט"
+                },
+                {
+                    "eng": "Registration number of the medicine in the National Drug Registry of the Ministry of Health: 15913.34540",
+                    "heb": "מספר רישום התרופה בפנקס התרופות הממלכתי במשרד הבריאות: 15913.34540"
+                }
+            ]
+        }
+    ]
+}

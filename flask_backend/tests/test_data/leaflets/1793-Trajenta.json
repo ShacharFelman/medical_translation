@@ -1,0 +1,547 @@
+{
+    "title": "Trajenta",
+    "index": 0,
+    "dir_index": 1793,
+    "title_lang": {
+        "title_eng": "Trajenta",
+        "title_heb": "טרג'נטה"
+    },
+    "sections": [
+        {
+            "title": "General",
+            "section_num": "0",
+            "data": [
+                {
+                    "eng": "Patient leaflet in accordance with the Pharmacists' Regulations (Preparations) - 1986",
+                    "heb": "עלון לצרכן לפי תקנות הרוקחים (תכשירים) התשמ\"ו - 1986"
+                },
+                {
+                    "eng": "Read this package insert carefully in its entirety before using this medicine",
+                    "heb": "התרופה משווקת על פי מרשם רופא בלבד"
+                },
+                {
+                    "eng": "Inactive ingredients and allergens in this preparation - see section 6 ‘Additional information’. ",
+                    "heb": "חומרים בלתי פעילים ואלרגניים בתכשיר – ראה סעיף 6 'מידע נוסף'"
+                },
+                {
+                    "eng": "Read the entire leaflet carefully before you start using the medicine. This leaflet contains concise information about the medicine. If you have further questions, contact the doctor or pharmacist. This medicine has been prescribed to treat your illness. Do not pass it on to others. It may harm them, even if it seems to you that their illness is similar to yours.",
+                    "heb": "קרא בעיון את העלון עד סופו בטרם תשתמש בתרופה. עלון זה מכיל מידע תמציתי על התרופה. אם יש לך שאלות נוספות, פנה אל הרופא או אל הרוקח. תרופה זו נרשמה לטיפול במחלתך. אל תעביר אותה לאחרים. היא עלולה להזיק להם אפילו אם נראה לך כי מחלתם דומה. "
+                }
+                
+            ]
+        },
+        {
+            "title": "medicine intended for",
+            "section_num": "1",
+            "data": [
+                {
+                    "eng": "In addition to diet and physical activity, Trajenta is intended to improve control of blood sugar levels in adults with type 2 diabetes. Trajenta can be given as monotherapy or in combination with additional medicinal products to reduce blood sugar levels.",
+                    "heb": "טרג'נטה מיועדת, בנוסף לדיאטה ואימון גופני, לשיפור איזון רמות הסוכר בדם במבוגרים עם סוכרת מסוג .2 טרג'נטה יכולה להינתן כטיפול בודד או בשילוב עם תכשירים נוספים להורדת רמות הסוכר בדם. "
+                },
+                {
+                    "eng": "Limitations of use: Do not use Trajenta to treat type 1 diabetes or diabetic ketoacidosis, because Trajenta is not effective with these conditions.",
+                    "heb": "הגבלות שימוש: אין להשתמש בטרג'נטה לטיפול בסוכרת מסוג 1 או לטיפול בחמצת קטוטית סוכרתית , מכיוון שטרג'נטה אינה יעילה למצבים אלו."
+                },
+                {
+                    "eng": "Trajenta has not been studied in patients who have previously had inflammation of the pancreas (pancreatitis). It is not known whether patients who have previously suffered from pancreatitis are at an increased risk of developing pancreatitis during the treatment with Trajenta.",
+                    "heb": "טרג'נטה לא נבדקה במטופלים אשר סבלו בעבר מדלקת לבלב. לא ידוע האם מטופלים אשר סבלו בעבר מדלקת לבלב הם בסיכון גבוה יותר לפתח דלקת לבלב במהלך הטיפול בטרג'נטה."
+                },
+                {
+                    "eng": "Therapeutic group: inhibitors of the enzyme",
+                    "heb": "קבוצה תרפויטית: מעכבי אנזים"
+                }                
+            ]
+        },
+        {
+            "title": "before using the medicine",
+            "section_num": "2",
+            "data": [
+                {
+                    "eng": "You are sensitive (allergic) to the active ingredient linagliptin or to any of the additional ingredients in the medicine (for a list of inactive ingredients, please see section 6 ‘Additional information’). Symptoms of severe allergic reaction to Trajenta may include skin rash, itching, flaking or peeling of the skin, raised red patches on your skin (hives), swelling of your face, lips, tongue and throat which may cause difficulty breathing or swallowing, difficulty swallowing or breathing.",
+                    "heb": "אתה רגיש (אלרגי) לחומר הפעיל לינגליפטין או לכל אחד מהמרכיבים הנוספים אשר מכילה התרופה (לרשימת המרכיבים הבלתי פעילים, ראה סעיף 6 'מידע נוסף'). תסמיני תגובה אלרגית חמורה לטרג'נטה עלולים לכלול פריחה עורית, גרד, קשקשת או קילוף בעור, כתמים מוגבהים ואדומים על העור שלך (סרפדת), נפיחות של הפנים, השפתיים, הלשון והגרון שלך אשר עלולה לגרום לקושי בנשימה או בבליעה, קושי בבליעה או בנשימה."
+                },
+                {
+                    "eng": " If you experience any of these symptoms, stop taking Trajenta and call your doctor immediately or go to the emergency room in the nearest hospital.",
+                    "heb": "אם אתה חווה תסמין כלשהו מתסמינים אלה, הפסק ליטול טרג'נטה ופנה מייד לרופא שלך או גש לחדר המיון בבית החולים הקרוב ביותר."
+                },
+                {
+                    "eng": "Special warnings about using this medicine",
+                    "heb": "אזהרות מיוחדות הנוגעות לשימוש בתרופה"
+                },
+                {
+                    "eng": "Before using Trajenta, tell the doctor about your medical condition, including if:",
+                    "heb": "לפני הטיפול בטרג'נטה, ספר לרופא על מצבך הרפואי, כולל אם:"
+                },
+                {
+                    "eng": "You are taking additional medicines to lower your blood sugar, especially medicines called 'sulfonylurea' (such as glimepiride) or insulin. Combining these medicines with Trajenta increases the risk of getting low blood sugar level (hypoglycemia). The doctor may want to reduce the dose of sulfonylurea or insulin. See details in section 4, 'Side effects'",
+                    "heb": "אתה לוקח תרופות נוספות להורדת הסוכר בדם, בייחוד תרופות הנקראות 'סולפונילאוראה' (כגון גלימפיריד) או אינסולין. שילוב תרופות אלה עם טרג'נטה מעלה את הסיכון לירידה ברמת הסוכר בדם (היפוגליקמיה). ייתכן שהרופא ירצה להוריד את מינון הסולפונילאוראה או האינסולין. ראה פירוט בסעיף 4 'תופעות לוואי'."
+                },
+                {
+                    "eng": "You have or have had inflammation of your pancreas (pancreatitis), gallstones, alcoholism, high levels of triglycerides in the blood.",
+                    "heb": "אתה סובל או סבלת בעבר מדלקת לבלב (פנקראטיטיס), אבנים בכיס מרה, אלכוהוליזם, רמות גבוהות של טריגליצרידים בדם."
+                },
+                {
+                    "eng": "You have had angioedema (localized edema due to excessive infiltration of fluid from the blood vessels) because you are taking another medicine from the inhibitor group.",
+                    "heb": "סבלת בעבר מאנגיואדמה (בצקת מקומית עקב חדירת-יתר של נוזלים אל מחוץ לכלי דם) עקב נטילת תרופה אחרת מקבוצת מעכבי אנזים"
+                },
+                {
+                    "eng": "You have ever had heart failure or problems with your kidneys.",
+                    "heb": "היו לך אי פעם אי ספיקת לב או בעיות עם הכליות שלך."
+                },
+                {
+                    "eng": "You are pregnant or plan to become pregnant",
+                    "heb": "הינך בהיריון או מתכננת להיכנס להיריון."
+                },
+                {
+                    "eng": "You are breastfeeding or plan to breastfeed.",
+                    "heb": "הינך מניקה או מתכננת להניק."
+                },
+                {
+                    "eng": "After taking Trajenta, tell the doctor immediately:",
+                    "heb": "לאחר נטילת טרג'נטה, ספר לרופא מייד:"
+                },
+                {
+                    "eng": "Pancreatitis can occur in patients treated with Trajenta, it may be severe and lead to death. Certain medical problems may increase the risk of pancreatitis. ",
+                    "heb": "דלקת לבלב יכולה להופיע במטופלים בטרג'נטה, עלולה להיות חמורה ולהוביל למוות. בעיות רפואיות מסוימות עלולות להעלות את הסיכון לדלקת לבלב."
+                },
+                {
+                    "eng": "Stop taking Trajenta and consult the doctor immediately if there is a pain in the stomach area (abdomen) that is severe and will not go away. The pain may radiate from the abdomen to the back, and the pain can appear with or without vomiting. These may be symptoms of pancreatitis.",
+                    "heb": "יש להפסיק ליטול טרג'נטה ולהיוועץ ברופא מייד אם מופיע כאב באזור הבטן שהינו חמור ושאינו חולף. הכאב עלול להקרין מהבטן לגב, והכאב יכול להופיע עם או ללא הקאות. ייתכן שאלו תסמינים לדלקת לבלב. "
+                },
+                {
+                    "eng": "If you have any of the following symptoms:",
+                    "heb": "אם יש לך אחד מהתסמינים הבאים:"
+                },
+                {
+                    "eng": "increasing shortness of breath or trouble breathing, especially when you lie down",
+                    "heb": "קוצר נשימה שמתגבר או בעיות בנשימה, במיוחד כשהינך שוכב"
+                },
+                {
+                    "eng": "swelling or fluid retention, especially in the feet, ankles or legs",
+                    "heb": "נפיחות או אצירת נוזלים, במיוחד בכפות הרגליים, קרסוליים או רגליים"
+                },
+                {
+                    "eng": "an unusually fast increase in weight",
+                    "heb": "עלייה מהירה באופן חריג במשקל"
+                },
+                {
+                    "eng": "unusual tiredness",
+                    "heb": "עייפות חריגה"
+                },
+                {
+                    "eng": "All these may be symptoms of heart failure. Heart failure means your heart does not pump blood well enough.",
+                    "heb": "כל אלה עלולים להיות תסמינים של אי ספיקת לב. אי ספיקת לב פירושה שהלב שלך לא שואב את הדם באופן מספק."
+                },
+                {
+                    "eng": "Serious allergic reactions have happened in people who are taking Trajenta. The symptoms may include:",
+                    "heb": "תגובות אלרגיות חמורות התרחשו אצל אנשים הנוטלים טרג'נטה. התסמינים עלולים לכלול:"
+                },
+                {
+                    "eng": "swelling of the face, lips, tongue, throat, and other areas on your skin.",
+                    "heb": "נפיחות של הפנים, השפתיים, הלשון, הגרון ואזורים אחרים על גבי העור שלך."
+                },
+                {
+                    "eng": "raised red areas on your skin (hives).",
+                    "heb": "אזורים מוגבהים ואדומים על גבי העור שלך (סרפדת)"
+                },
+                {
+                    "eng": "difficulty with swallowing or breathing.",
+                    "heb": "קושי בבליעה או בנשימה."
+                },
+                {
+                    "eng": "skin rash, itching, flaking, or peeling.",
+                    "heb": "פריחה, גרד, קשקשת או קילוף בעור."
+                },
+                {
+                    "eng": "If you have any of these symptoms, stop taking Trajenta and contact your doctor immediately or go to the emergency room in the nearest hospital.",
+                    "heb": "אם הינך חווה תסמין כלשהו מתסמינים אלה, הפסק ליטול טרג'נטה ופנה מייד לרופא שלך או גש לחדר המיון בבית החולים הקרוב ביותר."
+                },
+                {
+                    "eng": "Consult the doctor right away if you have severe joint pain.",
+                    "heb": "יש להיוועץ מייד ברופא אם יש לך כאב חמור במפרקים."
+                },
+                {
+                    "eng": "Contact your doctor right away if you develop blisters or sores on the outer layer of the skin (erosions). Your doctor may tell you to stop taking Trajenta",
+                    "heb": "פנה לרופא שלך מייד אם מתפתחים שלפוחיות או פצעים בשכבה העליונה של העור (ארוזיות). ייתכן שהרופא שלך ינחה אותך להפסיק טיפול בטרג'נטה. "
+                },
+                {
+                    "eng": "Children and adolescents The safety and efficacy of the medicine have not been tested in children and adolescents under 18 years old.",
+                    "heb": "ילדים ומתבגרים יעילות ובטיחות התרופה לא נבדקו בילדים ומתבגרים מתחת לגיל 18"
+                },
+                {
+                    "eng": "Tests and follow-up",
+                    "heb": "בדיקות ומעקב"
+                },
+                {
+                    "eng": "During the course of treatment, the blood sugar levels must be tested according to the doctor’s instructions.",
+                    "heb": "בתקופת הטיפול יש לבדוק את רמות הסוכר בדם, בהתאם להוראות הרופא. "
+                },
+                {
+                    "eng": "Consult the doctor on how to prevent, identify and treat low blood sugar levels (hypoglycemia), high blood sugar levels (hyperglycemia), and diabetes complications.",
+                    "heb": "התייעץ עם הרופא כיצד למנוע, לזהות ולטפל ברמות סוכר נמוכות בדם (היפוגליקמיה), ברמות סוכר גבוהות בדם (היפרגליקמיה) ובסיבוכים של סוכרת"
+                },
+                {
+                    "eng": "Drug interactions",
+                    "heb": "אינטראקציות/תגובות בין תרופתיות"
+                },
+                {
+                    "eng": "If you are taking or have recently taken other medicines, including nonprescription medications and dietary supplements, tell the doctor or pharmacist. Trajenta may affect the way other medicines work, and other medicines may affect the way Trajenta works. Particularly tell the doctor if you are taking:",
+                    "heb": "אם אתה לוקח, או אם לקחת לאחרונה, תרופות אחרות כולל תרופות ללא מרשם ותוספי תזונה, ספר על כך לרופא או לרוקח. טרג'נטה עלולה להשפיע על האופן שבו תרופות אחרות פועלות ותרופות אחרות עלולות להשפיע על האופן שבו טרג'נטה פועלת. במיוחד ספר לרופא אם אתה לוקח:"
+                },
+                {
+                    "eng": "insulin or other medicines that can lower your blood sugar. Your doctor may tell you to take Trajenta along with other diabetes medicines. Low blood sugar may happen more often when Trajenta is taken with other diabetes medicines.",
+                    "heb": "אינסולין או תרופות אחרות שיכולות להוריד את הסוכר בדמך.  ייתכן שהרופא שלך ינחה אותך ליטול טרג'נטה יחד עם תרופות אחרות לסוכרת. סוכר נמוך בדם עלול לקרות לעיתים תכופות יותר כשטרג'נטה נלקחת יחד עם תרופות אחרות לסוכרת."
+                },
+                {
+                    "eng": "rifampicin, an antibiotic that is used to treat tuberculosis.",
+                    "heb": "ריפאמפיצין, אנטיביוטיקה שמשמשת לטיפול בשחפת."
+                },
+                {
+                    "eng": "Know the medicines you take. Keep a list of them to show the doctor and pharmacist when you get a new medicine.",
+                    "heb": "הכר את התרופות שהינך נוטל. שמור רשימה שלהן על מנת להראות לרופא ולרוקח כשהינך מקבל תרופה חדשה."
+                },
+                {
+                    "eng": "Using the medicine and food The medicine can be taken with or without food.",
+                    "heb": "שימוש בתרופה ומזון ניתן ליטול את התרופה עם מזון או בלעדיו"
+                },
+                {
+                    "eng": "Pregnancy, breastfeeding, and fertility If you are pregnant, plan to become pregnant, are breastfeeding or plan to breastfeed, consult a doctor before taking the medicine",
+                    "heb": "היריון, הנקה ופוריות אם הינך בהיריון, מתכננת היריון, מניקה או מתכננת להניק, יש להיוועץ ברופא לפני השימוש"
+                },
+                {
+                    "eng": "It is not known if Trajenta will harm the unborn baby. If you are pregnant, talk to your doctor about the best way to control your blood sugar levels during pregnancy.",
+                    "heb": "לא ידוע אם טרג'נטה תזיק לעובר. אם הינך בהיריון, דברי עם הרופא שלך בנוגע לדרך הטובה ביותר לאזן את רמות הסוכר בדמך בזמן ההיריון."
+                },
+                {
+                    "eng": " It is not known if Trajenta passes into your breast milk. Consult your doctor about the best way to feed your baby if you take Trajenta.",
+                    "heb": "לא ידוע אם טרג'נטה עוברת לחלב האם שלך. התייעצי עם הרופא שלך על הדרך הטובה ביותר להאכלת תינוקך אם הינך נוטלת טרג'נטה."
+                }
+            ]
+        },
+        {
+            "title": "how to use the medicine",
+            "section_num": "3",
+            "data": [
+                {
+                    "eng": "Always use this preparation according to the doctor's instructions. Check with the doctor or pharmacist if you are not sure about the dose and about how to take the medicine.",
+                    "heb": "יש להשתמש בתכשיר תמיד בהתאם להוראות הרופא. עליך לבדוק עם הרופא או הרוקח אם אינך בטוח בנוגע למינון ואופן הטיפול בתכשיר."
+                },
+                {
+                    "eng": "Only your doctor will determine the dose and how you should take the medicine. The recommended dose is usually one film-coated tablet, once a day. Patients with kidney failure or liver failure do not require a dose adjustment.",
+                    "heb": "המינון ואופן הטיפול ייקבעו על ידי הרופא בלבד. המינון המקובל בדרך כלל הוא טבלייה מצופה אחת פעם אחת ביום. באוכלוסיות מטופלים עם אי ספיקת כליות או אי ספיקת כבד אין צורך בהתאמת מינון התרופה."
+                },
+                {
+                    "eng": "Do not exceed the recommended dose.",
+                    "heb": "אין לעבור על המנה המומלצת."
+                },
+                {
+                    "eng": "Swallow the medicine with water. There is no information about crushing / splitting / chewing",
+                    "heb": "יש לבלוע את התרופה עם מים. אין מידע לגבי כתישה / חציה / לעיסה. "
+                },
+                {
+                    "eng": "If you have accidentally taken a higher dose: If you have taken an overdose or if a child has accidentally swallowed some medicine, immediately contact a doctor or go to a hospital emergency room and bring the medicine package with you.",
+                    "heb": "אם נטלת בטעות מינון גבוה יותר: אם נטלת מנת יתר או אם בטעות בלע ילד מן התרופה, פנה מייד לרופא או לחדר מיון של בית חולים והבא אריזת התרופה איתך."
+                },
+                {
+                    "eng": "If you forget to take the medicine at the scheduled time, take it as soon as you remember. If you do not remember until it is time to take the next dose, skip the forgotten dose and go back to the regular schedule. Do not take two doses of Trajenta together.",
+                    "heb": "אם שכחת ליטול את התרופה בזמן המיועד, יש ליטול אותה מייד כשנזכרת. אם לא נזכרת עד שהגיע הזמן ליטול את המנה הבאה, דלג על המנה שנשכחה, וחזור לזמן הנטילה הרגיל. אין לקחת שתי מנות של טרג'נטה ביחד."
+                },
+                {
+                    "eng": "Adhere to the treatment as recommended by the doctor. Even if your health improves, do not stop taking the medicine without consulting the doctor. If you stop taking this medicine your blood sugar levels may go up.",
+                    "heb": "יש להתמיד בטיפול כפי שהומלץ על ידי הרופא. גם אם חל שיפור במצב בריאותך, אין להפסיק הטיפול בתרופה ללא התייעצות עם הרופא. אם אתה מפסיק את נטילת התרופה, רמות הסוכר בדמך עלולות לעלות."
+                },
+                {
+                    "eng": "Do not take medicines in the dark! Check the label and dose every time you take medicine. Wear glasses if you need them.",
+                    "heb": "אין ליטול תרופות בחושך! בדוק התווית והמנה בכל פעם שהינך נוטל תרופה. הרכב משקפיים אם הינך זקוק להם."
+                },
+                {
+                    "eng": "If you have further questions about using the medicine, consult the doctor or pharmacist.",
+                    "heb": "אם יש לך שאלות נוספות בנוגע לשימוש בתרופה, היוועץ ברופא או ברוקח."
+                }
+            ]
+        },
+        {
+            "title": "side effects",
+            "section_num": "4",
+            "data": [
+                {
+                    "eng": "Side effects: ",
+                    "heb": "תופעות לוואי: "
+                },
+                {
+                    "eng": "Like with all medicines, using Trajenta may cause side effects in some users. Do not be alarmed by the list of side effects. You may not experience any of them.",
+                    "heb": "כמו בכל תרופה, השימוש בטרג'נטה עלול לגרום לתופעות לוואי בחלק מהמשתמשים. אל תיבהל למקרא רשימת תופעות הלוואי. ייתכן שלא תסבול מאף אחת מהן."
+                },
+                {
+                    "eng": "Trajenta may cause serious side effects including:",
+                    "heb": "טרג'נטה עלולה לגרום לתופעות לוואי חמורות, הכוללות:"
+                },
+                {
+                    "eng": "Inflammation of the pancreas (pancreatitis) (uncommon side effect - effect that occurs in 1-10 users in 1,000) which may be severe and lead to death. Certain medical problems increase the likelihood of pancreatitis.",
+                    "heb": "דלקת לבלב (פנקראטיטיס) (תופעת לוואי שאינה שכיחה - תופעה שמופיעה ב 1-10 משתמשים מתוך 1000) שעלולה להיות חמורה ולהוביל למוות. בעיות רפואיות מסוימות מעלות את הסבירות לדלקת לבלב. "
+                },
+                {
+                    "eng": "Before you start taking Trajenta, tell your doctor if you have ever had:",
+                    "heb": "לפני שתתחיל ליטול טרג'נטה, ספר לרופא שלך אם סבלת אי פעם מ:"
+                },
+                {
+                    "eng": "inflammation of your pancreas (pancreatitis)",
+                    "heb": "דלקת בלבלב שלך (פנקראטיטיס)"
+                },
+                {
+                    "eng": "a history of alcoholism",
+                    "heb": "עבר של אלכוהוליזם"
+                }, 
+                {
+                    "eng": "stones in your gallbladder",
+                    "heb": "אבנים בכיס המרה שלך"
+                }, 
+                {
+                    "eng": "high blood triglyceride levels",
+                    "heb": "רמות גבוהות של טריגליצרידים בדם"
+                }, 
+                {
+                    "eng": "Stop taking Trajenta and consult the doctor immediately if there is a pain in the stomach area (abdomen) that is severe and will not go away. The pain may radiate from the abdomen to the back. The pain can appear with or without vomiting. These may be symptoms of pancreatitis. ",
+                    "heb": "יש להפסיק ליטול טרג'נטה ולהיוועץ ברופא מייד אם מופיע כאב באזור הבטן שהנו חמור ושאינו חולף. הכאב עלול להקרין מהבטן לגב. הכאב יכול להופיע עם או ללא הקאות. ייתכן שאלו תסמינים לדלקת לבלב."
+                }, 
+                {
+                    "eng": "Low blood sugar levels (hypoglycemia) (very common side effect - effect that occurs in more than 1 user in 10). If you are taking Trajenta with another medicine that may cause low blood sugar, such as sulfonylurea or insulin, your risk of getting low blood sugar levels is higher. The dose of your sulfonylurea medicine or insulin may need to be lowered while you take Trajenta. Signs and symptoms of low blood sugar may include:",
+                    "heb": "רמות סוכר נמוכות בדם (היפוגליקמיה) (תופעת לוואי שכיחה מאוד – תופעה שמופיעה ביותר ממשתמש אחד מתוך 10). אם הינך נוטל טרג'נטה עם תרופה נוספת אשר עלולה לגרום לסוכר נמוך בדם, כגון סולפונילאוראה או אינסולין, הסיכון שלך לרמות סוכר נמוכות בדם גבוה יותר. ייתכן שיהיה צורך להוריד את המינון של תרופת הסולפונילאוראה או האינסולין בזמן שהינך נוטל טרג'נטה. סימנים ותסמינים של סוכר נמוך בדם עלולים לכלול: "
+                }, 
+                {
+                    "eng": "headache",
+                    "heb": "כאב ראש"
+                }, 
+                {
+                    "eng": "irritability",
+                    "heb": "אי שקט"
+                }, 
+                {
+                    "eng": "drowsiness",
+                    "heb": "נמנום"
+                }, 
+                {
+                    "eng": "hunger",
+                    "heb": "רעב"
+                }, 
+                {
+                    "eng": "weakness",
+                    "heb": "חולשה"
+                }, 
+                {
+                    "eng": "fast heartbeat",
+                    "heb": "דופק מהיר"
+                }, 
+                {
+                    "eng": "dizziness",
+                    "heb": "סחרחורת"
+                }, 
+                {
+                    "eng": "sweating",
+                    "heb": "הזעה"
+                }, 
+                {
+                    "eng": "confusion",
+                    "heb": "בלבול"
+                }, 
+                {
+                    "eng": "shaking or feeling jittery",
+                    "heb": "רעד או תחושת עצבנות"
+                }, 
+                {
+                    "eng": "Allergic reactions (hypersensitivity) (unknown frequency). Severe allergic reactions have happened in people taking Trajenta. The symptoms may include:",
+                    "heb": "תגובות אלרגיות (רגישות יתר) (שכיחות לא ידועה). תגובות אלרגיות חמורות הופיעו אצל אנשים הנוטלים טרג'נטה. התסמינים עלולים לכלול:"
+                }, 
+                {
+                    "eng": "swelling of the face, lips, tongue, throat and other areas on your skin.",
+                    "heb": "נפיחות של הפנים, השפתיים, הלשון, הגרון ואזורים אחרים על גבי העור שלך."
+                }, 
+                {
+                    "eng": "raised red areas on your skin (hives)",
+                    "heb": "אזורים מוגבהים ואדומים על גבי העור שלך (סרפדת)."
+                }, 
+                {
+                    "eng": "difficulty swallowing or breathing",
+                    "heb": "קושי בבליעה או בנשימה."
+                }, 
+                {
+                    "eng": "skin rash, itching, flaking or peeling.",
+                    "heb": "פריחה, גרד, קשקשת או קילוף בעור."
+                }, 
+                {
+                    "eng": "If you experience any of these symptoms, stop taking Trajenta and contact your doctor immediately or go to the emergency room in the nearest hospital.",
+                    "heb": "אם הינך חווה תסמין כלשהו מתסמינים אלה, הפסק ליטול טרג'נטה ופנה מייד לרופא שלך או גש לחדר המיון בבית החולים הקרוב ביותר."
+                }, 
+                {
+                    "eng": "Severe, disabling joint pain (unknown frequency).",
+                    "heb": "כאבי מפרקים חמורים הגורמים למוגבלות (שכיחות לא ידועה)."
+                }, 
+                {
+                    "eng": "Consult the doctor immediately if you have sever joint pain.",
+                    "heb": "יש להיוועץ מייד ברופא אם יש לך כאב חמור במפרקים. "
+                }, 
+                {
+                    "eng": "Skin reaction (unknown frequency).",
+                    "heb": "תגובה עורית (שכיחות לא ידועה)"
+                }, 
+                {
+                    "eng": "Contact your doctor immediately if you develop blisters or sores on the upper layer of the skin (erosions). Your doctor may tell you to stop taking Trajenta.",
+                    "heb": "פנה לרופא שלך מייד אם מתפתחים שלפוחיות או פצעים בשכבה העליונה של העור (ארוזיה). ייתכן שהרופא שלך ינחה אותך להפסיק טיפול בטרג'נטה."
+                }, 
+                {
+                    "eng": "Heart failure (unknown frequency). Heart failure means that your heart does not pump blood well enough.",
+                    "heb": "אי ספיקת לב (שכיחות לא ידועה). אי ספיקת לב פירושה שהלב שלך לא שואב את הדם באופן מספק."
+                }, 
+                {
+                    "eng": "Before you start taking Trajenta, tell your doctor if you have ever had heart failure or problems with your kidneys. Contact your doctor immediately if you have any of the following symptoms:",
+                    "heb": "לפני שתתחיל ליטול טרג'נטה, ספר לרופא שלך אם היו לך אי פעם אי ספיקת לב או בעיות עם הכליות שלך. פנה לרופא שלך מייד אם יש לך אחד מהתסמינים הבאים:"
+                }, 
+                {
+                    "eng": "increasing shortness of breath or trouble breathing, especially when you lie down",
+                    "heb": "קוצר נשימה שמתגבר או בעיות בנשימה, במיוחד כשהינך שוכב"
+                }, 
+                {
+                    "eng": "swelling or fluid retention, especially in the feet, ankles or legs",
+                    "heb": "נפיחות או אצירת נוזלים, במיוחד בכפות הרגליים, קרסוליים או רגליים"
+                }, 
+                {
+                    "eng": "an unusually fast increase in weight",
+                    "heb": "עלייה מהירה באופן חריג במשקל"
+                }, 
+                {
+                    "eng": "unusual tiredness",
+                    "heb": "עייפות חריגה"
+                }, 
+                {
+                    "eng": "These could be symptoms of heart failure.",
+                    "heb": "אלה עלולים להיות תסמינים של אי ספיקת לב"
+                }, 
+                {
+                    "eng": "Common side effects, effects that occur in 1-10 users in 100:",
+                    "heb": "תופעות לוואי שכיחות, תופעות שמופיעות ב 1-10 משתמשים מתוך :100"
+                }, 
+                {
+                    "eng": "stuffy or runny nose and sore throat",
+                    "heb": "אף סתום או נזלת וכאב גרון"
+                }, 
+                {
+                    "eng": "diarrhea",
+                    "heb": "שלשול"
+                }, 
+                {
+                    "eng": "cough",
+                    "heb": "שיעול"
+                }, 
+                {
+                    "eng": "urinary tract infection",
+                    "heb": "דלקת בדרכי השתן"
+                }, 
+                {
+                    "eng": "high blood levels of fats (lipids or triglycerides)",
+                    "heb": "(רמות שומנים גבוהות בדם (ליפידים או טריגליצרידים"
+                }, 
+                {
+                    "eng": "weight gain",
+                    "heb": "עלייה במשקל"
+                }, 
+                {
+                    "eng": "constipation",
+                    "heb": "עצירות"
+                }, 
+                {
+                    "eng": "back pain",
+                    "heb": "כאב גב"
+                }, 
+                {
+                    "eng": "joint pain",
+                    "heb": "כאבי מפרקים "
+                }, 
+                {
+                    "eng": "upper respiratory tract infection",
+                    "heb": "זיהום בדרכי הנשימה העליונות"
+                }, 
+                {
+                    "eng": "headache",
+                    "heb": "כאב ראש "
+                }, 
+                {
+                    "eng": "pain in the extremities",
+                    "heb": "כאב בגפיים"
+                }, 
+                {
+                    "eng": "in laboratory test: increase in uric acid, increase of enzymes that break up fats (lipase), increase in the enzyme amylase.",
+                    "heb": "בבדיקת מעבדה: עלייה בחומצת שתן, עלייה באנזימים המפרקים שומן (ליפאז), עלייה באנזים עמילאז."
+                }, 
+                {
+                    "eng": "Other side effects of unknown frequency (side effects whose frequency has not been established yet):",
+                    "heb": "תופעות לוואי נוספות ששכיחותן אינה ידועה (תופעות ששכיחותן טרם נקבעה):"
+                }, 
+                {
+                    "eng": "muscle pain",
+                    "heb": "כאבי שרירים"
+                }, 
+                {
+                    "eng": "mouth ulcers, inflammation of the mouth (stomatitis)",
+                    "heb": "כיבים בפה, דלקת בחלל הפה"
+                }, 
+                {
+                    "eng": "breakdown of muscle",
+                    "heb": "תמס שריר"
+                }, 
+                {
+                    "eng": "rash",
+                    "heb": "פריחה."
+                }, 
+                {
+                    "eng": "The side effects listed above occurred when Trajenta was used on its own or together with other medicines used to control diabetes.",
+                    "heb": "תופעות הלוואי הרשומות מעלה הופיעו כאשר היה שימוש בטרג'נטה כתכשיר יחיד או כאשר טרג'נטה נלקחה בשילוב עם תכשירים אחרים לאיזון הסוכרת. "
+                }, 
+                {
+                    "eng": "If you experience any side effect, if any side effect gets worse, or if you experience a side effect not mentioned in the leaflet, consult your doctor.",
+                    "heb": "אם הופיעה תופעת לוואי, אם אחת מתופעות הלוואי מחמירה, או כאשר אתה סובל מתופעת לוואי שלא הוזכרה בעלון, עליך להתייעץ עם הרופא. "
+                }
+            ]
+        },
+        {
+            "title": "medicine storage",
+            "section_num": "5",
+            "data": [
+                {
+                    "eng": "Prevent poisoning! To prevent poisoning, keep this, and all other medicines, in a closed place out of the reach and sight of children and/or infants. Do not induce vomiting unless explicitly instructed to do so by a doctor. ",
+                    "heb": "מנע הרעלה! תרופה זו וכל תרופה אחרת יש לשמור במקום סגור מחוץ להישג ידם וטווח ראייתם של ילדים ו/או תינוקות ועל ידי כך תמנע הרעלה. אל תגרום להקאה ללא הוראה מפורשת מהרופא. "
+                },
+                {
+                    "eng": "Do not use the medicine after the expiry date which is stated on the package. The expiry date refers to the last day of that month.",
+                    "heb": "אין להשתמש בתרופה אחרי תאריך התפוגה המופיע על גבי האריזה. תאריך התפוגה מתייחס ליום האחרון של אותו חודש."
+                }, 
+                {
+                    "eng": "Storage conditions:",
+                    "heb": "תנאי אחסון:"
+                } 
+                
+            ]
+        },
+        {
+            "title": "additional information",
+            "section_num": "6",
+            "data": [
+                {
+                    "eng": "In addition to the active ingredient the medicine also contains the following inactive ingredients:",
+                    "heb": "נוסף על המרכיב הפעיל, התרופה מכילה גם את המרכיבים הבלתי פעילים הבאים:"
+                },
+                {
+                    "eng": "What the medicine looks like and what are the contents of the pack: Trajenta is a film-coated, light red, round, bi-convex, beveled edged tablet. The logo of Boehringer Ingelheim is debossed on one side",
+                    "heb": "כיצד נראית התרופה ומה תוכן האריזה: טרג'נטה הינה טבלייה מצופה בצבע אדום בהיר, עגולה, קמורה משני הצדדים ובעלת קצוות משופעים. מצד אחד מוטבע הלוגו של חברת בורינגר אינגלהיים "
+                },
+                {
+                    "eng": "Packs contain blisters of film coated tablets . Each pack contains 7, 30, or 90 film-coated tablets.",
+                    "heb": "האריזות כוללות מגשיות של הטבליות המצופות. כל אריזה מכילה ,7 30 או 90 טבליות מצופות"
+                },
+                {
+                    "eng": "Not all pack sizes may be marketed.",
+                    "heb": "ייתכן שלא כל גודלי האריזות משווקים."
+                }
+            ]
+        }
+    ]
+}

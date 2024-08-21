@@ -12,7 +12,7 @@ class TranslationAccuracyTest(unittest.TestCase):
         self.testing_handler = TestingTranslationHandler()
         self.translation_manager = TranslationManager(self.testing_handler)
         self.translation_manager.initialize()
-        with open('tests/test_data/leaflets/4-Maalox_tablets.json', 'r', encoding='utf-8') as f:
+        with open('tests/test_data/leaflets/1973-Trajenta.json', 'r', encoding='utf-8') as f:
             self.leaflet_data = json.load(f)
 
     def test_full_leaflet_translation(self):
