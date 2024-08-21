@@ -1,4 +1,0 @@
-
-from engine.output_handling.output_validation import OutputValidationHandler
-
-output_validation_handler = OutputValidationHandler()

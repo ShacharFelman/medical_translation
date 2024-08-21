@@ -1,10 +1,8 @@
 from langchain_core.prompts import ChatPromptTemplate
-from langchain.output_parsers import RegexParser
 import re
 
 # Translation Prompt Template
 translation_success_string = "[TRANSLATION SUCCESSFUL]"
-translation_failure_string = "[TRANSLATION FAILED]"
 
 translation_prompt_template = f'''
 As a translation model specialized in Hebrew to English translation, your task is to accurately translate a specific paragraph
@@ -26,11 +24,6 @@ Then your response will be:
 
 translation_prompt = ChatPromptTemplate.from_messages([("system", translation_prompt_template), ("user", "<heb_text>{text_input}</heb_text>")])
 
-# translation_parser = RegexParser(
-#     regex=r"(?:<eng_text>([\s\S]*?)</eng_text>\s*)?(\[TRANSLATION (?:SUCCESSFUL|FAILED)\])",
-#     output_keys=["translated_text", "status"]
-# )
-
 class TranslationParser:
     def parse(self, text):
         # Strip leading and trailing whitespace from the input text
@@ -51,6 +44,3 @@ class TranslationParser:
         }
 
 translation_parser = TranslationParser()
-
-# If the text you receive contains no Hebrew text, contains no medical/pharmacological information or could not appear in a CMI leaflet,
-# respond with {translation_failure_string}.

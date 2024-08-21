@@ -1,5 +1,4 @@
 from utils.logger import logger
-from typing import List, Union
 from sacrebleu.metrics import CHRF
 
 class CHRFEvaluator():

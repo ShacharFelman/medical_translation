@@ -9,6 +9,7 @@ from data.entities import TranslationRecordEntity, TranslationEntity
 
 mongo_client = MongoDBClient()
 len_threshold = 10
+score_threshold = 0.00
 
 
 def generate_bleu_report(records: List[Dict[str, Any]]) -> Dict[str, Any]:
@@ -33,6 +34,8 @@ def calculate_bleu_scores(records: List[TranslationRecordEntity]) -> Dict[str, A
         bleu_scores = [score for score in bleu_scores if score is not None]
         bleu_score = max(bleu_scores)
         if bleu_score is not None:
+            if bleu_score < score_threshold:
+                print(f"{record.evaluation_leaflet_data.leaflet_id}, {record.evaluation_leaflet_data.section_number}[{record.evaluation_leaflet_data.array_location}]. Low BLEU score found: {bleu_score}")
             update_scores(record, bleu_score, leaflet_scores, section_scores)
 
     avg_leaflet_scores = calculate_average_scores(leaflet_scores)
@@ -52,14 +55,19 @@ def calculate_bleu_scores(records: List[TranslationRecordEntity]) -> Dict[str, A
 def get_bleu_score(translation: TranslationEntity) -> float:
     if not translation or not translation.evaluation_scores:
         return None
+    
     bleu = translation.evaluation_scores.get('bleu')
     if bleu:
         if len(translation.translated_text) > len_threshold:
             scores = [bleu.get(bleu_type, None) for bleu_type in BLEUScoreType.get_types_tokenized()]
             scores = [score for score in scores if score is not None]
-            if len(scores) == 0:
+            if not scores or len(scores) == 0:
                 return bleu.get(BLEUScoreType.PLAIN_CORPUS.value, None)
-            return max(scores) if scores else None
+            bleu_score = max(scores)
+            if bleu_score > score_threshold:
+                return bleu_score
+            else:
+                return bleu.get(BLEUScoreType.PLAIN_CORPUS.value, None)
         else:
             return bleu.get(BLEUScoreType.PLAIN_CORPUS.value, None)
     return None

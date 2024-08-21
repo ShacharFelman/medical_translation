@@ -2,7 +2,7 @@ from flask import jsonify, request ,Blueprint
 from typing import Optional
 from utils.logger import logger
 from utils.constants import Language
-from utils.exceptions import InvalidUserInputError
+from utils.error_handlers import InvalidUserInputError
 from flask import send_file
 from io import BytesIO
 from docx.shared import Pt

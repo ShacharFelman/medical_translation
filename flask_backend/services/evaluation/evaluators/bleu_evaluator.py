@@ -1,4 +1,3 @@
-import re
 import unicodedata
 import string
 from typing import List
@@ -6,7 +5,6 @@ from utils.logger import logger
 from nltk.tokenize import word_tokenize
 from nltk.translate.bleu_score import sentence_bleu, corpus_bleu, SmoothingFunction
 from utils.constants import BLEUScoreType
-
 
 class BLEUEvaluator:
     def __init__(self):
@@ -22,10 +20,6 @@ class BLEUEvaluator:
             eval_type = evaluation_type.lower()
             ref, cand = self._preprocess_input(reference, candidate, eval_type)
                
-            # logger.info(f"Evaluation type: {evaluation_type}")
-            # logger.info(f"Reference: {ref}")
-            # logger.info(f"Candidate: {cand}")
-            
             if not ref or not cand:
                 logger.warning("Empty input: reference or candidate is empty.")
                 return 0.0
