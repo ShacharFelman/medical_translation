@@ -3,9 +3,11 @@ from typing import List, Optional
 
 class EvaluationScoreType(Enum):
     BLEU    = 'bleu'
-    # COMET   = 'comet'
+    COMET   = 'comet'
     CHRF    = 'chrf'
     WER     = 'wer'
+    # TER     = 'ter'
+    # PER     = 'per'
 
     @classmethod
     def get_types(cls) -> List[str]:
@@ -16,21 +18,16 @@ class BLEUScoreType(Enum):
     TOKENIZED_CORPUS            = 'tokenized_corpus'
     TOKENIZED_METHOD1           = 'tokenized_method1'
     TOKENIZED_METHOD1_WEIGHTS   = 'tokenized_method1_weights'
+    # TOKENIZED_METHOD7           = 'tokenized_method7'
+    # TOKENIZED_METHOD7_WEIGHTS   = 'tokenized_method7_weights'
 
     @classmethod
     def get_types(cls) -> List[str]:
         return [score_type.value for score_type in BLEUScoreType]
 
-    @classmethod
-    def get_types_tokenized(cls) -> List[str]:
-        types = [score_type.value for score_type in BLEUScoreType]
-        types.remove(BLEUScoreType.PLAIN_CORPUS.value)
-        return types
-
 EVALUATION_SCORE_TYPES = [score_type.value for score_type in BLEUScoreType]
 
 
-# TODO: Check if needed
 class Language(Enum):
     HE = 'heb'
     EN = 'eng'
@@ -49,7 +46,7 @@ class Language(Enum):
         if lang_name.lower() in ('ar', 'ara', 'arabic'):
             return Language.ARABIC
         
-# TODO: Check if needed
+
 class FileType(Enum):
     PDF = 'pdf'
     DOC = 'doc'

@@ -6,9 +6,6 @@ from services.evaluation.evaluators.comet_evaluator import COMETEvaluator
 from services.evaluation.evaluators.bleu_evaluator import BLEUEvaluator
 from services.evaluation.evaluators.wer_evaluator import WEREvaluator
 from services.evaluation.evaluators.chrf_evaluator import CHRFEvaluator
-# from services.evaluation.evaluators.per_evaluator import PEREvaluator
-# from services.evaluation.evaluators.ter_evaluator import TEREvaluator
-
 
 class EvaluationManager():
     def __init__(self):
@@ -16,8 +13,6 @@ class EvaluationManager():
         self._bleu_evaluator     = BLEUEvaluator()
         self._wer_evaluator      = WEREvaluator()
         self._chrf_evaluator     = CHRFEvaluator()
-        # self.per_evaluator    = PEREvaluator()
-        # self.ter_evaluator    = TEREvaluator()
 
 
     def update_record_scores(self,

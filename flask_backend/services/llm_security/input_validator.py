@@ -1,5 +1,5 @@
 import os
-from typing import Dict, Tuple
+from typing import Tuple
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
 from utils.logger import logger

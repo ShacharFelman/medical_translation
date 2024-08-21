@@ -1,64 +1,62 @@
-# File: analytics/bleu_report_generator.py
-
 from typing import List, Dict, Any
 from collections import defaultdict
 import matplotlib.pyplot as plt
 import numpy as np
+from utils.constants import EvaluationScoreType, BLEUScoreType
+
+
+    # report = {
+    #     "best_translation_report_bleu_plain_corpus": best_translation_report_bleu_plain_corpus,
+    #     "best_translation_report_bleu_token_corpus": best_translation_report_bleu_token_corpus,
+    #     "best_translation_report_bleu_token_meth1": best_translation_report_bleu_token_meth1,
+    #     "best_translation_report_bleu_token_meth7": best_translation_report_bleu_token_meth7,
+    #     "best_translation_report_bleu_token_meth1_w": best_translation_report_bleu_token_meth1_w,
+    #     "best_translation_report_bleu_token_meth7_w": best_translation_report_bleu_token_meth7_w,
+
+    #     "highest_bleu_report_bleu_plain_corpus": highest_bleu_report_bleu_plain_corpus,
+    #     "highest_bleu_report_bleu_token_corpus": highest_bleu_report_bleu_token_corpus,
+    #     "highest_bleu_report_bleu_token_meth1": highest_bleu_report_bleu_token_meth1,
+    #     "highest_bleu_report_bleu_token_meth7": highest_bleu_report_bleu_token_meth7,
+    #     "highest_bleu_report_bleu_token_meth1_w": highest_bleu_report_bleu_token_meth1_w,
+    #     "highest_bleu_report_bleu_token_meth7_w": highest_bleu_report_bleu_token_meth7_w,
+    # }
 
 class BLEUReportGenerator:
     @staticmethod
     def generate_bleu_report(records: List[Dict[str, Any]]) -> Dict[str, Any]:
 
-        len_treshold = 50
+        # len_treshold = 50
 
-        best_translation_report_bleu_plain_corpus   = BLEUReportGenerator._calculate_bleu_scores(records, use_best=True, score_type= 'bleu_plain_corpus')
-        best_translation_report_bleu_token_corpus   = BLEUReportGenerator._calculate_bleu_scores(records, use_best=True, score_type= 'bleu_token_corpus')
-        best_translation_report_bleu_token_meth1    = BLEUReportGenerator._calculate_bleu_scores(records, use_best=True, score_type= 'bleu_token_meth1')
-        best_translation_report_bleu_token_meth7    = BLEUReportGenerator._calculate_bleu_scores(records, use_best=True, score_type= 'bleu_token_meth7')
-        best_translation_report_bleu_token_meth1_w  = BLEUReportGenerator._calculate_bleu_scores(records, use_best=True, score_type= 'bleu_token_meth1_w')
-        best_translation_report_bleu_token_meth7_w  = BLEUReportGenerator._calculate_bleu_scores(records, use_best=True, score_type= 'bleu_token_meth7_w')
-        
-        best_translation_report_bleu_combo  = BLEUReportGenerator._calculate_bleu_scores(records, use_best=True, score_type= 'combo',
-                                                                                         score_type_below= 'bleu_plain_corpus',
-                                                                                         score_type_above= 'bleu_token_meth1_w',
-                                                                                         len_treshold= len_treshold)
-        
-        highest_bleu_report_bleu_plain_corpus   = BLEUReportGenerator._calculate_bleu_scores(records, use_best=False, score_type= 'bleu_plain_corpus')
-        highest_bleu_report_bleu_token_corpus   = BLEUReportGenerator._calculate_bleu_scores(records, use_best=False, score_type= 'bleu_token_corpus')
-        highest_bleu_report_bleu_token_meth1    = BLEUReportGenerator._calculate_bleu_scores(records, use_best=False, score_type= 'bleu_token_meth1')
-        highest_bleu_report_bleu_token_meth7    = BLEUReportGenerator._calculate_bleu_scores(records, use_best=False, score_type= 'bleu_token_meth7')
-        highest_bleu_report_bleu_token_meth1_w  = BLEUReportGenerator._calculate_bleu_scores(records, use_best=False, score_type= 'bleu_token_meth1_w')
-        highest_bleu_report_bleu_token_meth7_w  = BLEUReportGenerator._calculate_bleu_scores(records, use_best=False, score_type= 'bleu_token_meth7_w')
-        
-        highest_bleu_report_bleu_token_combo  = BLEUReportGenerator._calculate_bleu_scores(records, use_best=False, score_type= 'combo',
-                                                                                           score_type_below= 'bleu_plain_corpus',
-                                                                                           score_type_above= 'bleu_token_meth1_w',
-                                                                                           len_treshold= len_treshold)
-        
-        report = {
-            "best_translation_report_bleu_plain_corpus": best_translation_report_bleu_plain_corpus,
-            "best_translation_report_bleu_token_corpus": best_translation_report_bleu_token_corpus,
-            "best_translation_report_bleu_token_meth1": best_translation_report_bleu_token_meth1,
-            "best_translation_report_bleu_token_meth7": best_translation_report_bleu_token_meth7,
-            "best_translation_report_bleu_token_meth1_w": best_translation_report_bleu_token_meth1_w,
-            "best_translation_report_bleu_token_meth7_w": best_translation_report_bleu_token_meth7_w,
+        best_translation_report = {}
+        highest_bleu_report = {}
+        report = {}
+        for bleu_tpe in BLEUScoreType.get_types():
+            best_translation_report[bleu_tpe] = BLEUReportGenerator._calculate_bleu_scores(records, use_best=True,  score_type=bleu_tpe)
+            highest_bleu_report[bleu_tpe]     = BLEUReportGenerator._calculate_bleu_scores(records, use_best=False, score_type=bleu_tpe)
+            
+            report['best_' + bleu_tpe] = best_translation_report[bleu_tpe]
+            report['highest_' + bleu_tpe] = highest_bleu_report[bleu_tpe]
 
-            "highest_bleu_report_bleu_plain_corpus": highest_bleu_report_bleu_plain_corpus,
-            "highest_bleu_report_bleu_token_corpus": highest_bleu_report_bleu_token_corpus,
-            "highest_bleu_report_bleu_token_meth1": highest_bleu_report_bleu_token_meth1,
-            "highest_bleu_report_bleu_token_meth7": highest_bleu_report_bleu_token_meth7,
-            "highest_bleu_report_bleu_token_meth1_w": highest_bleu_report_bleu_token_meth1_w,
-            "highest_bleu_report_bleu_token_meth7_w": highest_bleu_report_bleu_token_meth7_w,
-        }
+            BLEUReportGenerator._generate_bleu_comparison_plot(best_translation_report[bleu_tpe],
+                                                               highest_bleu_report[bleu_tpe],
+                                                               score_type= bleu_tpe)
 
-        BLEUReportGenerator._generate_bleu_comparison_plot(best_translation_report_bleu_plain_corpus, highest_bleu_report_bleu_plain_corpus, score_type= 'bleu_plain_corpus')
-        BLEUReportGenerator._generate_bleu_comparison_plot(best_translation_report_bleu_token_corpus, highest_bleu_report_bleu_token_corpus, score_type= 'bleu_token_corpus')
-        BLEUReportGenerator._generate_bleu_comparison_plot(best_translation_report_bleu_token_meth1, highest_bleu_report_bleu_token_meth1, score_type= 'bleu_token_meth1')
-        BLEUReportGenerator._generate_bleu_comparison_plot(best_translation_report_bleu_token_meth7, highest_bleu_report_bleu_token_meth7, score_type= 'bleu_token_meth7')
-        BLEUReportGenerator._generate_bleu_comparison_plot(best_translation_report_bleu_token_meth1_w, highest_bleu_report_bleu_token_meth1_w, score_type= 'bleu_token_meth1_w')
-        BLEUReportGenerator._generate_bleu_comparison_plot(best_translation_report_bleu_token_meth7_w, highest_bleu_report_bleu_token_meth7_w, score_type= 'bleu_token_meth7_w')
+
         
-        BLEUReportGenerator._generate_bleu_comparison_plot(best_translation_report_bleu_combo, highest_bleu_report_bleu_token_combo, score_type= 'combo')
+        
+        # best_translation_report_bleu_combo  = BLEUReportGenerator._calculate_bleu_scores(records, use_best=True, score_type= 'combo',
+        #                                                                                  score_type_below= 'bleu_plain_corpus',
+        #                                                                                  score_type_above= 'bleu_token_meth1_w',
+        #                                                                                  len_treshold= len_treshold)
+        
+   
+        # highest_bleu_report_bleu_token_combo  = BLEUReportGenerator._calculate_bleu_scores(records, use_best=False, score_type= 'combo',
+        #                                                                                    score_type_below= 'bleu_plain_corpus',
+        #                                                                                    score_type_above= 'bleu_token_meth1_w',
+        #                                                                                    len_treshold= len_treshold)
+        
+
+        # BLEUReportGenerator._generate_bleu_comparison_plot(best_translation_report_bleu_combo, highest_bleu_report_bleu_token_combo, score_type= 'combo')
 
         return report
 

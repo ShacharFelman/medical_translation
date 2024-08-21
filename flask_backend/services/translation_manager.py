@@ -3,7 +3,7 @@ import os
 from typing import List, Optional
 from utils.singleton_meta import SingletonMeta
 from utils.logger import logger
-from utils.exceptions import InvalidUserInputError
+from utils.error_handlers import InvalidUserInputError
 from database.mongodb_client import MongoDBClient
 from services.translation.llm_manager import initialize_translators
 from services.translation.translation_selector import translation_selector

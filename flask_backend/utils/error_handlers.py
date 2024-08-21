@@ -15,3 +15,7 @@ def invalid_user_input_error(error):
     return jsonify(
         {"error_message": error.english_message}
     ), 500
+
+class InvalidUserInputError(Exception):
+    def __init__(self, error_message:str) -> None:
+        self.error_message = error_message
