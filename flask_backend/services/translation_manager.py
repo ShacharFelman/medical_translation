@@ -132,8 +132,7 @@ class TranslationManager(metaclass=SingletonMeta):
             
             self._update_translation_scores(translation_record, similarity_scores)
             self._save_translation_to_db(translation_record)
-            # self._update_translation_in_db(translation_record)
-            # self._log_translation(translation_record)
+            self._log_translation(translation_record)
 
             return translation_entity_to_response(best_translation)
         
@@ -175,18 +174,9 @@ class TranslationManager(metaclass=SingletonMeta):
         except Exception as e:
             logger.error(f"Failed to save translation to MongoDB: {str(e)}")
 
-#TODO: Delete this method after testing
-    def _update_translation_in_db(self, translation_record: TranslationRecordEntity):
-        try:
-            result, matched, updated = self.mongo_client.update_translation_record(translation_record)
-            if(result and matched > 0 and updated > 0):
-                logger.info(f"Translation updated in MongoDB (Matched: {matched}, Updated: {updated})")
-        except Exception as e:
-            logger.error(f"Failed to save translation to MongoDB: {str(e)}")
-
     def _log_translation(self, translation_record: TranslationRecordEntity):
-        logger.info(f"Translation request:")
-        logger.info(f"Input text: {translation_record.input}")
+        logger.debug(f"Translation request:")
+        logger.debug(f"Input text: {translation_record.input}")
         
         for translation in translation_record.translations:
             logger.debug(f"Translator: {translation.translator_name}")

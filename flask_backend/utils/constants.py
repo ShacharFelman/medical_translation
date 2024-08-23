@@ -30,7 +30,6 @@ class BLEUScoreType(Enum):
 EVALUATION_SCORE_TYPES = [score_type.value for score_type in BLEUScoreType]
 
 
-# TODO: Check if needed
 class Language(Enum):
     HE = 'heb'
     EN = 'eng'
@@ -48,17 +47,3 @@ class Language(Enum):
             return Language.HEBREW
         if lang_name.lower() in ('ar', 'ara', 'arabic'):
             return Language.ARABIC
-        
-# TODO: Check if needed
-class FileType(Enum):
-    PDF = 'pdf'
-    DOC = 'doc'
-    DOCX = 'docx'
-    TXT = 'txt'
-
-    @classmethod
-    def get_file_type(cls, filename: str) -> Optional["FileType"]:
-        file_extension = filename.split('.')[-1].lower()
-        for file_type in cls:
-            if file_extension == file_type.value:
-                return file_type
