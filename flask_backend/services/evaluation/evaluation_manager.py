@@ -1,7 +1,8 @@
 from typing import Dict, Tuple, Any, List, Union
 from utils.logger import logger
-from data.entities import TranslationRecordEntity, TranslationEntity
 from utils.constants import EvaluationScoreType, BLEUScoreType
+from data.entities import TranslationRecordEntity, TranslationEntity
+from services.translation.prompt_templates import translation_parser
 from services.evaluation.evaluators.comet_evaluator import COMETEvaluator
 from services.evaluation.evaluators.bleu_evaluator import BLEUEvaluator
 from services.evaluation.evaluators.wer_evaluator import WEREvaluator
@@ -22,7 +23,7 @@ class EvaluationManager():
                                          ) -> Tuple[bool, TranslationEntity]:
         scores_updated = False
         reference = record.evaluation_leaflet_data.human_translation
-        source = record.input,
+        source = translation_parser.remove_html_tags(record.input)
         for translation in record:
             update, translation = self.update_translation_scores(translation,
                                                                  reference,
@@ -45,9 +46,10 @@ class EvaluationManager():
                                   score_types: Union[str, List[str]] = None,
                                   bleu_types: Union[str, List[str]] = None
                                   ) -> Tuple[bool, TranslationEntity]:
+        translated_text = translation_parser.remove_html_tags(translation.translated_text)
         scores_updated, translation.evaluation_scores = self.update_scores(translation.evaluation_scores,
                                                                            reference,
-                                                                           translation.translated_text,
+                                                                           translated_text,
                                                                            source,
                                                                            score_types,
                                                                            bleu_types)
