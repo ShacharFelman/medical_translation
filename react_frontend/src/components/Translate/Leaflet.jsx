@@ -35,7 +35,6 @@ export default function Leaflet() {
                 <div className='flex justify-center'>click to add section</div>
                 <AddButton className="flex justify-center flex-shrink-0" onClick={addSection} />
             </div>
-
         </main>
     );
 }
