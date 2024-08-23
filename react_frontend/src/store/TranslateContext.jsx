@@ -129,7 +129,6 @@ export default function TranslateContextProvider({children}) {
       try {
         const savedCurrentLeaflet = await saveLeafletToDB(state.currentLeaflet);
         dispatch({ type: 'SET_LEAFLETS', leaflets: [...state.leaflets, savedCurrentLeaflet] });
-        // dispatch({ type: 'NEW_CURRENT_LEAFLET' });
         console.log('Leaflet saved successfully');
       } catch (error) {
         dispatchError(error, 'Failed to save leaflet. Please try again.');

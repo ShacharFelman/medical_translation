@@ -1,6 +1,3 @@
-import mediTranslateLogo from '../assets/logo.png';
-// import LogoTitle from './LogoTitle';
-
 export default function Header() {
 
   return (

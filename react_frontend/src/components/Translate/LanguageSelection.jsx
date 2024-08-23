@@ -10,4 +10,3 @@ export default function LanguageSelection() {
         </div>
     );
 }
-// w-[45%]
