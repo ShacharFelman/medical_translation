@@ -18,13 +18,6 @@ export default function TranslateSection({inputText,
   useEffect(() => {
     setLocalInputText(inputText);
   }, [inputText]);
-
-
-    // function handleTextToTranslate(event){
-    //   const newText = event.target.value;
-    //   setLocalInputText(newText);
-    //   onInputChange(newText);
-    // }  
     
     function handleTextToTranslate(newText){
       setLocalInputText(newText);
