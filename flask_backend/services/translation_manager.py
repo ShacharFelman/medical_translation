@@ -1,20 +1,19 @@
-import time
+import asyncio
+import os
 from typing import List, Optional
-
 from utils.singleton_meta import SingletonMeta
 from utils.logger import logger
-from utils.exceptions import InvalidUserInputError
+from utils.error_handlers import InvalidUserInputError
 from database.mongodb_client import MongoDBClient
 from services.translation.llm_manager import initialize_translators
 from services.translation.translation_selector import translation_selector
 from services.llm_security.input_validator import PromptInjectionDetector
 from data.entities import TranslationEntity, TranslationRecordEntity, EvaluationLeafletData
 from data.boundaries import TranslationRequest, TranslationResponse
-from data.data_conversions import translator_llm_response_to_entity, translation_entity_to_response
-from services.translation.runtime_translation_handler import RuntimeTranslationHandler
+from data.data_conversions import translation_entity_to_response
 from services.translation.base_translation_handler import BaseTranslationHandler
+from datetime import datetime
 
-import time
 
 class TranslationManager(metaclass=SingletonMeta):
     def __init__(self, handler: BaseTranslationHandler) -> None:
@@ -23,20 +22,22 @@ class TranslationManager(metaclass=SingletonMeta):
         self.translators = initialize_translators()
         self.mongo_client = MongoDBClient.get_instance()
         self.prompt_injection_detector = PromptInjectionDetector()
+        self.use_async = os.getenv('ASYNC_TRANSLATE', '0').lower() in ('1', 'true', 'yes')
 
 
     def initialize(self):
         self._initialized = True
 
+
     def is_initialized(self):
         return self._initialized
 
-    def translate(self, translation_request: TranslationRequest, evaluation_leaflet_data: Optional[EvaluationLeafletData] = None) -> TranslationResponse:
+
+    def translate(self, translation_request: TranslationRequest, evaluation_leaflet_data: Optional[EvaluationLeafletData] = None, evaluate: bool = False) -> TranslationResponse:
         if not self.is_initialized():
             raise RuntimeError("TranslationManager is not initialized")
 
         try:
-
             if not evaluation_leaflet_data:
                 is_valid, error_message = self.prompt_injection_detector.validate_input(translation_request.textInput)
                 if not is_valid:
@@ -61,13 +62,18 @@ class TranslationManager(metaclass=SingletonMeta):
                     
                     raise InvalidUserInputError("Invalid Input")
 
+            if self.use_async:
+                all_translations = asyncio.run(self.handler.translate_async(translation_request.textInput,
+                                                                            evaluation_leaflet_data=evaluation_leaflet_data,
+                                                                            evaluate=evaluate
+                                                                            ))
+            else:
+                all_translations = self.handler.translate(translation_request.textInput,
+                                                          evaluation_leaflet_data=evaluation_leaflet_data,
+                                                          evaluate=evaluate
+                                                          )
 
-            # all_translations = self._generate_translations(translation_request.textInput, human_verified_translation)
-            # if evaluation_leaflet_data:
-            all_translations = self.handler.translate(translation_request.textInput, evaluation_leaflet_data=evaluation_leaflet_data)
-            # else:
-                # all_translations = self.handler.translate(translation_request.textInput)
-            
+
             successful_translations = [t for t in all_translations if self._is_translation_successful(t)]
             
             if not successful_translations:
@@ -122,7 +128,8 @@ class TranslationManager(metaclass=SingletonMeta):
             
             self._update_translation_scores(translation_record, similarity_scores)
             self._save_translation_to_db(translation_record)
-            self._log_translation(translation_record)
+            # self._update_translation_in_db(translation_record)
+            # self._log_translation(translation_record)
 
             return translation_entity_to_response(best_translation)
         
@@ -144,8 +151,18 @@ class TranslationManager(metaclass=SingletonMeta):
 
     def _save_translation_to_db(self, translation_record: TranslationRecordEntity):
         try:
+            translation_record.timestamp = datetime.now()
             result = self.mongo_client.insert_translation_performance(translation_record)
             logger.info(f"Translation saved to MongoDB with ID: {result}")
+        except Exception as e:
+            logger.error(f"Failed to save translation to MongoDB: {str(e)}")
+
+#TODO: Delete this method after testing
+    def _update_translation_in_db(self, translation_record: TranslationRecordEntity):
+        try:
+            result, matched, updated = self.mongo_client.update_translation_record(translation_record)
+            if(result and matched > 0 and updated > 0):
+                logger.info(f"Translation updated in MongoDB (Matched: {matched}, Updated: {updated})")
         except Exception as e:
             logger.error(f"Failed to save translation to MongoDB: {str(e)}")
 
@@ -154,15 +171,12 @@ class TranslationManager(metaclass=SingletonMeta):
         logger.info(f"Input text: {translation_record.input}")
         
         for translation in translation_record.translations:
-            logger.info(f"Translator: {translation.translator_name}")
-            logger.info(f"Status: {translation.metadata.get('status', 'unknown')}")
-            logger.info(f"Translated text: {'Present' if translation.translated_text else 'Empty'}")
-            logger.info(f"Score: {translation.score:.4f}" if translation.score is not None else "Score: N/A")
-            logger.info(f"Response time: {translation.response_time:.2f} seconds")
-            # if translation.bleu_score is not None:
-            #     logger.info(f"BLEU score: {translation.bleu_score:.4f}")
-            logger.info(f"Translator metadata: {translation.metadata}")
-            logger.info("---")
+            logger.debug(f"Translator: {translation.translator_name}")
+            logger.debug(f"Translated output: {'Valid' if translation.translated_text else 'Empty'}")
+            logger.debug(f"Similarity Score: {translation.score:.4f}" if translation.score is not None else "Score: N/A")
+            logger.debug(f"Response time: {translation.response_time:.2f} seconds")
+            logger.debug(f"Translator metadata: {translation.metadata}")
+            logger.debug("---")
 
     @staticmethod
     def _is_translation_successful(translation: TranslationEntity) -> bool:
@@ -171,5 +185,3 @@ class TranslationManager(metaclass=SingletonMeta):
             translation.translated_text and
             translation.translated_text.strip() != ""
         )
-
-# translation_manager = TranslationManager()

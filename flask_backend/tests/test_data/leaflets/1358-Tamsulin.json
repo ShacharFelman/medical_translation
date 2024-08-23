@@ -1,0 +1,321 @@
+{
+    "title": "Tamsulin",
+    "index": 0,
+    "dir_index": 1358,
+    "title_lang": {
+        "title_eng": "Tamsulin",
+        "title_heb": "טמסולין"
+    },
+    "sections": [
+        {
+            "title": "General",
+            "section_num": "0",
+            "data": [
+                {
+                    "eng": "Patient package insert in accordance with the Pharmacists' Regulations - (Preparations) - 1986 ",
+                    "heb": "עלון לצרכן לפי תקנות הרוקחים (תכשירים) התשמ\"ו - 1986"
+                },
+                {
+                    "eng": "This medicine is sold with a doctor's prescription only",
+                    "heb": "התרופה משווקת על פי מרשם רופא בלבד"
+                },
+                {
+                    "eng": "Modified-Release Capsules",
+                    "heb": "כמוסות בשחרור מבוקר"
+                },
+                {
+                    "eng": "Active ingredient: Each capsule of Tamsulin contains: ",
+                    "heb": "החומר הפעיל: כל כמוסה של טמסולין מכילה:"
+                },
+                {
+                    "eng": "For the list of additional ingredients, please see section 6",
+                    "heb": "לרשימת המרכיבים הנוספים ראה סעיף .6 "
+                },
+                {
+                    "eng": "Read this entire leaflet carefully before using the medicine. This leaflet contains concise information about the medicine. If you have any further questions, please refer to your doctor or pharmacist.",
+                    "heb": "קרא בעיון את העלון עד סופו בטרם תשתמש בתרופה. עלון זה מכיל מידע תמציתי על התרופה. אם יש לך שאלות נוספות, פנה אל הרופא או אל הרוקח."
+                },
+                {
+                    "eng": "This medicine has been prescribed for the treatment of your illness. Do not pass it on to others. It may harm them, even if it seems to you that their illness is similar.",
+                    "heb": "תרופה זו נרשמה לטיפול במחלתך. אל תעביר אותה לאחרים. היא עלולה להזיק להם אפילו אם נראה לך כי מחלתם דומה"
+                },
+                {
+                    "eng": "The medicine is not intended for children and adolescents under the age of 18.",
+                    "heb": "התרופה אינה מיועדת לילדים ומתבגרים מתחת לגיל .18"
+                }
+            ]
+        },
+        {
+            "title": "medicine intended for",
+            "section_num": "1",
+            "data": [
+                {
+                    "eng": "1. What is the medicine intended for?",
+                    "heb": "1. למה מיועדת התרופה?"
+                },
+                {
+                    "eng": "The medicine is intended to treat functional symptoms of benign enlargement of the prostate",
+                    "heb": "התרופה מיועדת לטיפול בהפרעות תפקוד הנגרמות כתוצאה מהגדלה שפירה של הערמונית."
+                },
+                {
+                    "eng": "Therapeutic group: Selective Alpha adrenergic receptor blocker",
+                    "heb": "קבוצה תרפויטית: חוסם סלקטיבי לאדרנורצפטורים אלפא"
+                }
+            ]
+        },
+        {
+            "title": "before using the medicine",
+            "section_num": "2",
+            "data": [
+                {
+                    "eng": "2. Before you take the medicine:",
+                    "heb": "2. לפני השימוש בתרופה:"
+                },
+                {
+                    "eng": "Do not use this medicine if:",
+                    "heb": "אין להשתמש בתרופה אם:"
+                },
+                {
+                    "eng": "You are sensitive (allergic) to the active ingredient, or to any of the additional ingredients this medicine contains (for the list of the additional ingredients, please see section 6).",
+                    "heb": "אתה רגיש (אלרגי) לחומר הפעיל או לכל אחד מהמרכיבים הנוספים אשר מכילה התרופה (לרשימת המרכיבים הנוספים, ראה סעיף 6)"
+                },
+                {
+                    "eng": "You suffer from severe liver insufficiency.",
+                    "heb": "אתה סובל מאי ספיקת כבד חמורה."
+                },
+                {
+                    "eng": "You suffer or have suffered in the past from low blood pressure, dizziness or fainting as a result of a decrease in blood pressure, for example during a sudden transition from lying to standing or sitting",
+                    "heb": "אתה סובל או סבלת בעבר מלחץ דם נמוך, מסחרחורות או מהתעלפות כתוצאה מירידה בלחץ הדם, למשל בעת מעבר פתאומי משכיבה לעמידה או ישיבה"
+                },
+                {
+                    "eng": "Special warnings regarding the use of this medicine:",
+                    "heb": "אזהרות מיוחדות הנוגעות לשימוש בתרופה:"
+                },
+                {
+                    "eng": "Do not use this medicine without consulting your doctor before starting treatment: if you suffer or have suffered in the past from impaired function of: the kidney/urinary system.",
+                    "heb": "אין להשתמש בתרופה מבלי להיוועץ ברופא לפני התחלת הטיפול: אם אתה סובל או סבלת בעבר מליקוי בתפקוד: הכליה/מערכת השתן."
+                },
+                {
+                    "eng": "Before the start of treatment and during the treatment period with this medicine, a kidney function test, rectal examination and, if necessary, testing to determine the PSA should be performed.",
+                    "heb": "לפני התחלת הטיפול ובתקופת הטיפול בתרופה זו יש לערוך בדיקת תפקוד כליות, בדיקה רקטלית, ובמידת הצורך בדיקה לקביעת ה-PSA."
+                },
+                {
+                    "eng": "If you are sensitive to any food or medicine, you are to inform your doctor beforetaking this medicine",
+                    "heb": "אם אתה רגיש למזון כלשהו או לתרופה כלשהי, עליך להודיע על כך לרופא לפני נטילת התרופה."
+                },
+                {
+                    "eng": "This medicine may seldomly cause a decrease in blood pressure while standing (even leading to fainting). Thus, in the event that dizziness or weakness develops, the patient should sit or lie down until the phenomenon passes.",
+                    "heb": " תרופה זו עלולה לגרום לעיתים רחוקות לירידת לחץ דם בעמידה (עד לעילפון), לכן במקרה של התפתחות סחרחורת או חולשה, על החולה להתיישב או לשכב עד לחלוף התופעה."
+                },
+                {
+                    "eng": "If you are about to undergo eye cataract surgery, or if you suffer from an increase in intraocular pressure (glaucoma), inform your ophthalmologist of current or past use of this medicine. If necessary, the ophthalmologist will take preventative measures (medicinal or surgical). Consult your attending doctor about discontinuing treatment with the medicine before eye cataract surgery, or surgery for the treatment of an increase in intraocular pressure.",
+                    "heb": "אם אתה עומד לעבור ניתוח עיניים מסוג קטרקט או אם אתה סובל מעליה בלחץ התוך עיני (גלאוקומה), יש לידע את רופא העיניים על השימוש בתרופה או על שימוש בה בעבר. בעת הצורך ינקוט רופא העיניים בצעדי מניעה (תרופתיים או כירורגיים). יש להיוועץ ברופא המטפל לגבי הפסקת הטיפול בתרופה לפני ניתוח קטרקט בעיניים, או ניתוח לטיפול בעליה בלחץ התוך עיני."
+                },
+                {
+                    "eng": "This medicine is not intended for children and adolescents under the age of 18, since it is ineffective in this population.",
+                    "heb": "התרופה אינה מיועדת לילדים ומתבגרים מתחת לגיל ,18 מכיוון שאינה יעילה באוכלוסייה זו"
+                },
+                {
+                    "eng": "Drug interactions:",
+                    "heb": "תגובות בין תרופתיות:"
+                },
+                {
+                    "eng": "Please tell your doctor or pharmacist if you are taking or have recently taken any other medicines, including non-prescription medicines and nutritional supplements. You should especially inform your doctor or pharmacist if you take:",
+                    "heb": "אם אתה לוקח, או אם לקחת לאחרונה תרופות אחרות, כולל תרופות ללא מרשם ותוספי תזונה, ספר על כך לרופא או לרוקח. במיוחד יש ליידע את הרופא או הרוקח אם אתה לוקח:"
+                },
+                {
+                    "eng": "Medicines against blood clotting (warfarin).",
+                    "heb": "תרופות נגד קרישת דם (וורפרין)."
+                },
+                {
+                    "eng": "Medicines to reduce blood pressure from the alpha-blockers group (for example doxazosin, prazosin), medicines that reduce blood pressure: the combination may cause an unwanted decrease in blood pressure. ",
+                    "heb": "תרופות להורדת לחץ דם מקבוצת חוסמי אלפא (כגון, דוקסאזוסין, פראזוסין), תרופות שמורידות לחץ דם: השילוב עלול לגרום לירידה לא רצויה בלחץ הדם."
+                },
+                {
+                    "eng": "Medicines that may decrease the clearance of Tamsulin from the body, for example: ketoconazole, erythromycin.",
+                    "heb": "תרופות שעלולות להוריד את הפינוי של טמסולין מהגוף, כגון: קטוקונאזול, אריתרומיצין"
+                },
+                {
+                    "eng": "Use of the medicine and food Take Tamsulin after breakfast or after the first meal of the day.",
+                    "heb": "שימוש בתרופה ומזון יש לקחת טמסולין לאחר ארוחת הבוקר או לאחר הארוחה הראשונה ביום."
+                },
+                {
+                    "eng": "Pregnancy, breastfeeding and fertility: Tamsulin is not intended for women.",
+                    "heb": "הריון, הנקה, ופוריות: טמסולין אינו מיועד לנשים. "
+                },
+                {
+                    "eng": "In men, instances of abnormal ejaculation (ejaculation disorders) have been reported, meaning that the semen does not exit the body through the urethra, but rather passes into the urinary bladder (retrograde ejaculation) or the volume of ejaculate decreases or disappears (ejaculation failure). This phenomenon is not harmful.",
+                    "heb": "בגברים, דווחו מקרים של שפיכת זרע חריגה (הפרעות בשפיכה), משמעות הדבר היא כי הזרע אינו יוצא מהגוף דרך השופכה, אלא עובר לתוך שלפוחית השתן (פליטה לאחור) או נפח השפיכה יורד או נעלם (אי-שפיכה). תופעה זו אינה מזיקה."
+                },
+                {
+                    "eng": "Driving and use of machinery There is no evidence that Tamsulin affects the ability to drive or operate machinery that requires alertness.",
+                    "heb": "נהיגה ושימוש במכונות אין ראיות לכך שטמסולין משפיע על היכולת לנהוג או להפעלת מכונות הדורשות ערנות."
+                },
+                {
+                    "eng": "However, Tamsulin may cause dizziness, and therefore you must be careful when driving, and/or operating machinery that requires alertness. ",
+                    "heb": "עם זאת, טמסולין עלול לגרום לסחרחורת, ועל כן עליך להיזהר בנהיגה, ו/או בהפעלת מכונות אשר דורשת ערנות."
+                }
+            ]
+        },
+        {
+            "title": "how to use the medicine",
+            "section_num": "3",
+            "data": [
+                {
+                    "eng": "Always use the medicine according to the doctor's instructions. Check with your doctor or pharmacist if you are not sure regarding the dosage and manner of treatment.",
+                    "heb": "יש להשתמש בתרופה תמיד בהתאם להוראות הרופא. עליך לבדוק עם הרופא או הרוקח אם אינך בטוח בנוגע למינון ואופן הטיפול."
+                },
+                {
+                    "eng": "The dosage and manner of treatment will be determined by the doctor only.",
+                    "heb": "המינון ואופן הטיפול יקבעו על ידי הרופא בלבד."
+                },
+                {
+                    "eng": "The standard dosage is usually: one capsule daily, recommended to be taken at the same time each day. Do not exceed the recommended dose",
+                    "heb": "המינון המקובל בדרך כלל הוא: כמוסה אחת ביום. מומלץ באותה השעה בכל יום. אין לעבור על המנה המומלצת."
+                },
+                {
+                    "eng": "Swallow the capsule whole with water (while standing or sitting upright to prevent choking). Do not chew or crush the capsule or its contents since this compromises the release mechanism of the active ingredient from the capsule.",
+                    "heb": "יש לבלוע את התרופה בשלמותה עם מים (בעמידה או ישיבה זקופה למניעת חנק). אין ללעוס או לכתוש את הכמוסה או תוכנה מאחר שהדבר פוגע במנגנון השחרור של החומר הפעיל מהכמוסה."
+                },
+                {
+                    "eng": "For those with difficulty swallowing, the capsule may be opened and the granules within swallowed immediately without chewing them.",
+                    "heb": "למתקשים בבליעה ניתן לפתוח את הכמוסה ולבלוע מיד את הגרגירים שבתוכה מבלי ללעוס אותם."
+                },
+                {
+                    "eng": "Tests and follow up",
+                    "heb": "בדיקות ומעקב"
+                },
+                {
+                    "eng": "Periodic medical tests needed in order to monitor your medical condition should be performed. Also see section ‘Special warnings regarding the use of this medicine.'",
+                    "heb": "יש לבצע בדיקות רפואיות תקופתיות אשר נחוצות בכדי לעקוב אחר המצב הרפואי שלך. ראה גם סעיף 'אזהרות מיוחדות הנוגעות לשימוש בתרופה'."
+                },
+                {
+                    "eng": "If you have accidentally taken a higher dosage: a higher dosage may cause an unwanted decrease in blood pressure, increase in heart rate and fainting. ",
+                    "heb": "אם נטלת בטעות מינון גבוה יותר: מינון גבוה יותר עלול לגרום לירידה לא רצויה בלחץ הדם, עליה בקצב הלב ועילפון."
+                },
+                {
+                    "eng": "If you have taken an overdose, or if a child has accidentally swallowed the medicine, refer immediately to a doctor or hospital emergency room and bring the medicine package with you.",
+                    "heb": "אם נטלת מנת יתר או אם בטעות בלע ילד מן התרופה, פנה מיד לרופא או לחדר מיון של בית חולים והבא אריזת התרופה איתך."
+                },
+                {
+                    "eng": "If you forgot to take the medicine at the designated time, do not take a double dose. Take the next dose at the regular time and consult with your doctor.",
+                    "heb": "אם שכחת ליטול תרופה זו בזמן המיועד, אין ליטול מנה כפולה. קח את המנה הבאה בזמן הרגיל והיוועץ ברופא."
+                },
+                {
+                    "eng": "Be consistent with the treatment as recommended by your doctor. ",
+                    "heb": "יש להתמיד בטיפול כפי שהומלץ על ידי הרופא."
+                },
+                {
+                    "eng": "Even if your condition improves, do not stop treatment with this medicine without consulting your doctor. If you stop taking the medicine before the designated time, the symptoms may return. ",
+                    "heb": "גם אם חל שיפור במצב בריאותך, אין להפסיק את הטיפול בתרופה ללא התייעצות עם הרופא. אם אתה מפסיק את נטילת התרופה לפני הזמן, התסמינים עלולים לחזור."
+                },
+                {
+                    "eng": "Always consult with your doctor if you consider stopping the treatment.",
+                    "heb": "תמיד היוועץ ברופא במידה ואתה שוקל להפסיק את הטיפול."
+                },
+                {
+                    "eng": "Do not take medicines in the dark! Check the label and the dose each time you take a medicine. Wear glasses if you need them.",
+                    "heb": "אין ליטול תרופות בחושך! בדוק התווית והמנה בכל פעם שאתה נוטל תרופה. הרכב משקפיים אם אתה זקוק להם."
+                },
+                {
+                    "eng": "consult the doctor or pharmacist.",
+                    "heb": "היוועץ ברופא או ברוקח."
+                }
+            ]
+        },
+        {
+            "title": "side effects",
+            "section_num": "4",
+            "data": [
+                {
+                    "eng": "4. Side effects",
+                    "heb": "4. תופעות לוואי"
+                },
+                {
+                    "eng": "As with any medicine, the use of Tamsulin may cause side effects in some users. Do not be alarmed while reading the list of side effects. You may not suffer from any of them. ",
+                    "heb": "כמו בכל תרופה, השימוש בטמסולין עלול לגרום לתופעות לוואי בחלק מהמשתמשים. אל תיבהל למקרא רשימת תופעות הלוואי. יתכן ולא תסבול מאף אחת מהן."
+                },
+                {
+                    "eng": "Discontinue use and refer to your doctor immediately if a sudden allergic reaction appears (rare). ",
+                    "heb": "יש להפסיק את השימוש ולפנות מיד לרופא אם מופיעה תגובה אלרגית פתאומית (נדיר)."
+                },
+                {
+                    "eng": "The symptoms include: swelling of the hands and/or feet, difficulty breathing, itchiness, skin rash.",
+                    "heb": "התסמינים כוללים נפיחות בכפות הידיים ו/או הרגליים, קשיי נשימה, גרד, פריחה בעור."
+                },
+                {
+                    "eng": "Additional side effects:",
+                    "heb": "תופעות לוואי נוספות:"
+                },
+                {
+                    "eng": "Common side effects (appear in 1-10 users out of 100): Dizziness, especially in the sudden transition to sitting or standing; abnormal ejaculation – meaning that the semen does not exit the body through the urethra, but rather passes into the urinary bladder (retrograde ejaculation), or the volume of ejaculate decreases or disappears (ejaculation failure), (this phenomenon is not harmful).",
+                    "heb": "תופעות לוואי שכיחות (מופיעות ב- 1-10 משתמשים מתוך 100): סחרחורת, במיוחד במעבר פתאומי לישיבה או עמידה; פליטת זרע חריגה- משמעות הדבר היא כי הזרע אינו יוצא מהגוף דרך השופכה, אלא עובר לתוך שלפוחית השתן (פליטה לאחור), או נפח השפיכה יורד או נעלם (אי-שפיכה), (תופעה זו אינה מזיקה)."
+                },
+                {
+                    "eng": "Uncommon side effects (appear in 1-10 users out of 1,000): Headache, exhaustion, low blood pressure while standing, rapid or irregular pulse, rhinitis (runny nose), nasal congestion, constipation, diarrhea, nausea, vomiting, rash, weakness, itchiness, hives (urticaria). ",
+                    "heb": "תופעות לוואי שאינן שכיחות (מופיעות ב- 1-10 משתמשים מתוך 1,000): כאב ראש, תשישות, לחץ דם נמוך בעמידה, דופק מהיר או לא סדיר, ריניטיס (נזלת), גודש באף, עצירות, שלשול, בחילה, הקאה, פריחה, חולשה, גירוד, חרלת (אורטיקריה)."
+                },
+                {
+                    "eng": "Rare side effects (appear in 1-10 users out of 10,000): Feeling faint and sudden swelling in the body’s soft tissue (for example: throat, tongue), breathing difficulties and/or itchiness and rash, at times as an allergic reaction (angioedema).",
+                    "heb": "תופעות לוואי נדירות (מופיעות ב- 1-10 משתמשים מתוך 10,000): תחושת עילפון ונפיחות פתאומית ברקמות הרכות של הגוף (לדוגמא: גרון, לשון), קשיי נשימה ו/או גירודים ופריחה, לעיתים כתגובה אלרגית (אנגויאדמה)."
+                },
+                {
+                    "eng": "Very rare side effects (appear in less than 1 user out of 10,000): Prolonged erection (priapism); rash, inflammation and blisters on the skin and/or on the mucosa of the lips, eyes, mouth, nose or genitals (Stevens-Johnson syndrome), heart rate disturbances, shortness of breath.",
+                    "heb": "תופעות לוואי נדירות מאוד (מופיעות בפחות ממשתמש אחד מתוך 10,000): זקפה ממושכת (פריאפיזם), פריחה, דלקת ושלפוחיות בעור ו/או בריריות של השפתיים, העיניים, הפה, האף או איברי המין (תסמונת סטיבנס ג'ונסון), הפרעות בקצב הלב, קוצר נשימה."
+                },
+                {
+                    "eng": "Side effects of unknown frequency (effects whose frequency has not yet been determined):",
+                    "heb": "תופעות לוואי ששכיחותן אינה ידועה (תופעות ששכיחותן טרם נקבעה):"
+                },
+                {
+                    "eng": "If you undergo eye cataract surgery or surgery to treat an increase in intraocular pressure (glaucoma), and you take the medicine or have taken it in the past, pupil constriction which does not dilate during the course of the surgery as well as intraoperative floppy iris syndrome may occur.",
+                    "heb": "אם אתה עובר ניתוח קטרקט בעיניים או ניתוח לטיפול בעליה בלחץ התוך עיני (גלאוקומה), ואתה לוקח את התרופה או לקחת בעבר, תתכן במהלך הניתוח תופעה של אישון מצומצם שאינו מתרחב וכן רפיון של החלק הצבעוני בעין"
+                },
+                {
+                    "eng": "Dryness in the mouth.",
+                    "heb": "יובש בפה"
+                },
+                {
+                    "eng": "If a side effect appears, if one of the side effects worsens, or when you suffer from a side effect not mentioned in the leaflet, consult your doctor.",
+                    "heb": "אם הופיעה תופעת לוואי, אם אחת מהתופעות הלוואי מחמירה, או כאשר אתה סובל מתופעת לוואי שלא צויינה בעלון, עליך להתייעץ עם הרופא."
+                },
+                {
+                    "eng": "",
+                    "heb": "5. איך לאחסן את התרופה?"
+                }
+            ]
+        },
+        {
+            "title": "medicine storage",
+            "section_num": "5",
+            "data": [
+                {
+                    "eng": "Avoid poisoning! This medicine, and any other medicine, must be stored in a closed place out of the reach and sight of children and/or infants, to avoid poisoning. Do not induce vomiting unless explicitly instructed to do so by the doctor.",
+                    "heb": "מנע הרעלה! תרופה זו וכל תרופה אחרת יש לשמור במקום סגור מחוץ להישג ידם וטווח ראייתם של ילדים ו/או תינוקות ועל ידי כך תמנע הרעלה. אל תגרום להקאה ללא הוראה מפורשת מהרופא."
+                },
+                {
+                    "eng": "Do not use the medicine after the expiry date stated on the package. The expiry date refers to the last day of that month.",
+                    "heb": "אין להשתמש בתרופה אחרי תאריך התפוגה המופיע על גבי האריזה. תאריך התפוגה מתייחס ליום האחרון של אותו חודש."
+                }
+            ]
+        },
+        {
+            "title": "additional information",
+            "section_num": "6",
+            "data": [
+                {
+                    "eng": "In addition to the active ingredient, the medicine also contains:",
+                    "heb": "נוסף על החומר הפעיל, התרופה מכילה גם:"
+                },
+                {
+                    "eng": "What does the medicine look like and what does the package contain?",
+                    "heb": "כיצד נראית התרופה ומהו תוכן האריזה?"
+                },
+                {
+                    "eng": "Orange colored capsules that contain yellowish-white granules in blister packs of 30 capsules.",
+                    "heb": "כמוסות בצבע כתום ובתוכן גרגירים בצבע לבן-צהבהב באריזת מגשיות של 30 כמוסות."
+                }
+            ]
+        }
+    ]
+}

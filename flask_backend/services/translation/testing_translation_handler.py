@@ -1,30 +1,32 @@
 from utils.logger import logger
-from typing import List
 from services.translation.base_translation_handler import BaseTranslationHandler
-from services.evaluation.comet_evaluator import COMETEvaluator
-from services.evaluation.bleu_evaluator import BLEUEvaluator
-from data.entities import TranslationEntity, EvaluationScores
+from services.evaluation.evaluation_manager import EvaluationManager
+from data.entities import TranslationEntity, EvaluationLeafletData
 
 
 class TestingTranslationHandler(BaseTranslationHandler):
     def __init__(self):
         super().__init__()
-        self.comet_evaluator = COMETEvaluator()
-        self.bleu_evaluator = BLEUEvaluator()
+        self.evalution_manager = EvaluationManager()
 
-    def translate(self, text_input: str, **kwargs) -> List[TranslationEntity]:
-        translations = self.translate_text(text_input)
-        evaluation_leaflet_data = kwargs.get('evaluation_leaflet_data')
 
-        # Calculate BLEU and COMET scores for successful translations
-        if evaluation_leaflet_data:
-            for translation in translations:
-                if self._is_translation_successful(translation):
-                    bleu_score = self.bleu_evaluator.evaluate(evaluation_leaflet_data.human_translation, translation.translated_text)
-                    comet_score = self.comet_evaluator.evaluate([evaluation_leaflet_data.human_translation], [translation.translated_text], [text_input])
-                    translation.evaluation_scores = EvaluationScores(bleu_score=bleu_score, comet_score=comet_score)
+    def _process_translation(self, translation: TranslationEntity, text_input: str, **kwargs) -> TranslationEntity:
+        evaluation_leaflet_data: EvaluationLeafletData = kwargs.get('evaluation_leaflet_data')
+        evaluate: bool = kwargs.get('evaluate', False)
 
-        return translations
+        translation_updated = translation
+
+        if evaluation_leaflet_data and self._is_translation_successful(translation) and evaluate:
+            scores_updated, translation_updated = self.evalution_manager.update_translation_scores(translation, evaluation_leaflet_data.human_translation, text_input)
+            if not scores_updated:
+                logger.error("Failed to update translation scores.")
+
+        return translation_updated
+
+
+    async def _process_translation_async(self, translation: TranslationEntity, text_input: str, **kwargs) -> TranslationEntity:
+        return self._process_translation(translation, text_input, **kwargs)
+
 
     @staticmethod
     def _is_translation_successful(translation: TranslationEntity) -> bool:

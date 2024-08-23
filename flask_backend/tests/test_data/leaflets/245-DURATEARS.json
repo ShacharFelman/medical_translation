@@ -1,0 +1,405 @@
+{
+    "title": "DURATEARS",
+    "index": 0,
+    "dir_index": 245,
+    "title_lang": {
+        "title_eng": "DURATEARS",
+        "title_heb": "דורהטירס"
+    },
+    "sections": [
+        {
+            "title": "General",
+            "section_num": "0",
+            "data": [
+                {
+                    "eng": "Patient package insert in accordance with the Pharmacists' Regulations - (Preparations) - 1986 ",
+                    "heb": "עלון לצרכן לפי תקנות הרוקחים (תכשירים) התשמ\"ו - 1986"
+                },
+                {
+                    "eng": "This medicine is dispensed without a doctor’s Prescription",
+                    "heb": "התרופה משווקת ללא מרשם רופא"
+                },
+                {
+                    "eng": "DURATEARS",
+                    "heb": "דורהטירס"
+                },
+                {
+                    "eng": "Ocular Lubricating Ointment",
+                    "heb": "משחת סיכה לעיניים "
+                },
+                {
+                    "eng": "Preservative Free",
+                    "heb": "ללא חומרים משמרים"
+                },
+                {
+                    "eng": "Composition:",
+                    "heb": ":הרכב"
+                },
+                {
+                    "eng": "Read this package insert carefully in its entirety before using this medicine. This leaflet contains concise information on the medicine. If you have any further questions, refer to the doctor or to the pharmacist.",
+                    "heb": "קרא בעיון את העלון עד סופו בטרם תשתמש בתרופה. עלון זה מכיל מידע תמציתי על התרופה. אם יש לך שאלות נוספות, פנה אל הרופא או אל הרוקח ."
+                },
+                {
+                    "eng": "You must use this medicine properly. Consult your pharmacist if you need additional information. You should refer to your doctor if the disease symptoms worsens or do not improve after 3 days.",
+                    "heb": "עליך להשתמש בתרופה בצורה הנכונה. היוועץ ברוקח אם הינך זקוק למידע נוסף. עליך לפנות אל הרופא באם סימני המחלה (הסימפטומים) מחמירים או אינם משתפרים לאחר 3 ימים."
+                }
+            ]
+        },
+        {
+            "title": "medicine intended for",
+            "section_num": "1",
+            "data": [
+                {
+                    "eng": "1. What is this medicine intended for?",
+                    "heb": "1. למה מיועדת התרופה?"
+                },
+                {
+                    "eng": "Therapeutic activity:",
+                    "heb": "פעילות רפואית: "
+                },
+                {
+                    "eng": "Lubricating ointment intended to prevent ocular dryness.",
+                    "heb": "משחת סיכה למניעת יובש בעיניים. "
+                },
+                {
+                    "eng": "Therapeutic group:",
+                    "heb": "קבוצה תרפויטית:"
+                },
+                {
+                    "eng": "eye preparations.",
+                    "heb": "תכשירים לעיניים. "
+                }
+            ]
+        },
+        {
+            "title": "before using the medicine",
+            "section_num": "2",
+            "data": [
+                {
+                    "eng": "2. Before using the medicine",
+                    "heb": "2. לפני שימוש בתרופה"
+                },
+                {
+                    "eng": "Do not use the medicine if:",
+                    "heb": "אין להשתמש בתרופה אם:"
+                },
+                {
+                    "eng": "• You have a known sensitivity to any of the ingredients of the medicine",
+                    "heb": "• ידועה לך רגישות לאחד ממרכיבי הת רופה"
+                },
+                {
+                    "eng": "Special warnings regarding use of the medicine:",
+                    "heb": "אזהרות מיוחדות הנוגעות לשימוש בתרופה:"
+                },
+                {
+                    "eng": "• If you are sensitive to any type of food or medicine, inform the doctor before commencing treatment with this medicine.",
+                    "heb": "• אם הינך רגיש למזון כלשהו או לתרופה כלשהי עליך להודיע על כך לרופא לפני נטילת התרופה."
+                },
+                {
+                    "eng": "• Duratears is intended for use in the eyes only.",
+                    "heb": "• דורהטירס מיועד לשימוש בעיניים בלבד."
+                },
+                {
+                    "eng": "• Do not wear contact lenses during treatment with this preparation.",
+                    "heb": "• אין להרכיב עדשות מגע בזמן השימוש בתכשיר."
+                },
+                {
+                    "eng": "• If you experience headache, eye pain or irritation of the eyes, vision changes or persistent redness in the eyes or if your condition worsens or persists for more than 3 days – discontinue the treatment and refer to your doctor.",
+                    "heb": "• אם יש לך כאב ראש או הינך מרגיש כאב או גירוי בעיניים, שינוי בראייה או אדמומיות מתמדת בעיניים או אם מצבך מחמיר או נמשך מעל 3 ימים- הפסק הטיפול ופנה לרופא."
+                },
+                {
+                    "eng": "Children",
+                    "heb": "ילדים"
+                },
+                {
+                    "eng": "The safety and efficacy of DURATEARS eye ointment in children has not been determined.",
+                    "heb": "הבטיחות והיעילות של דורהטירס בילדים לא נקבעו. "
+                },
+                {
+                    "eng": "If you are taking, or have recently taken, other medicines including nonprescription medicines and nutritional supplements, inform the doctor or pharmacist",
+                    "heb": "אם אתה לוקח , או אם לקחת לאחרונה, תרופות אחרות כולל תרופות ללא מרשם ותוספי תזונה, ספר על כך לרופא או לרוקח."
+                },
+                {
+                    "eng": "• If you are using other eye preparations (for instance, drops), you must wait at least 5 minutes between each application. Administer the eye ointment last.",
+                    "heb": "• במידה ואתה משתמש בתכשירים אחרים המיועדים לעיניים (למשל טיפות) יש להמתין לפחות 5 דקות בין שימוש לשימוש. יש להשתמש במשחת העיניים אחרונה."
+                },
+                {
+                    "eng": "Use of the medicine and food:",
+                    "heb": "שימוש בתרופה ומזון:"
+                },
+                {
+                    "eng": "Food and drink have no influence on the treatment.",
+                    "heb": "מזון ושתיה אינם משפיעים על הטיפול."
+                },
+                {
+                    "eng": "Pregnancy and breastfeeding:",
+                    "heb": "הריון והנקה:"
+                },
+                {
+                    "eng": "Duratears can be used during pregnancy and breastfeeding",
+                    "heb": "ניתן להשתמש בדורהטירס בתקופת ההריון וההנקה."
+                },
+                {
+                    "eng": "If you are pregnant, are planning to get pregnant, or if you are breastfeeding, consult your doctor or pharmacist before using any medicine",
+                    "heb": "אם הינך בהריון, עומדת להיכנס להריון או אם הינך מניקה, היוועצי ברופא או ברוקח לפני השימוש בתרופות."
+                },
+                {
+                    "eng": "Driving and use of machines:",
+                    "heb": "נהיגה ושימוש במכונות:"
+                },
+                {
+                    "eng": "If your vision becomes blurred after using this preparation, do not drive or operate machines., until the vision becomes clear again.",
+                    "heb": "אם לאחר השימוש בתכשיר נגרם טשטוש ראייה, אל תנהג ברכב, ואל תפעיל מכונות עד שהראייה שבה ומתבהרת."
+                },
+                {
+                    "eng": "DURATEARS contains lanoline (wool fat) which may cause local skin reactions (f.e contact dermatitis).",
+                    "heb": "דורהטירס מכיל לנולין אשר עלול לגרום לתגובות עוריות מקומיות (כגון קונטקט דרמטיטיס)."
+                }
+            ]
+        },
+        {
+            "title": "how to use the medicine",
+            "section_num": "3",
+            "data": [
+                {
+                    "eng": "3. How should you use the medicine?",
+                    "heb": "3. כיצד תשתמש בתרופה?"
+                },
+                {
+                    "eng": "Always use this medicine as described in this leaflet, unless your doctor has told you differently. You should check with your doctor or pharmacist if you are not sure.",
+                    "heb": "יש להשתמש בתרופה כפי שמפורט בעלון זה, אלא אם כן הרופא הורה אחרת. עליך לבדוק עם הרופא או הרוקח אם אינך בטוח."
+                },
+                {
+                    "eng": "If your doctor has prescribed Duratears to you, your doctor will instruct you how long you should use this medicine. Do not stop the treatment early.",
+                    "heb": "אם הרופא רשם לך דורהטירס הוא יורה לך במשך כמה זמן להשתמש בתרופה. אל תפסיק את הטיפול מוקדם."
+                },
+                {
+                    "eng": "The usual dose is the application of a small quantity of ointment in the eye(s), at night before going to bed.",
+                    "heb": "המינון המקובל בדרך כלל הוא מריחת כמות קטנה של משחה בעין או בעיניים, בלילה לפני השינה."
+                },
+                {
+                    "eng": "Do not exceed the recommended dose",
+                    "heb": "אין לעבור על המנה המומלצת."
+                },
+                {
+                    "eng": "You must wait at least 5 minutes between the application of this medicine and the application of other eye preparations",
+                    "heb": "יש להמתין 5 דקות לפחות בין מתן תרופה זו לבין מתן תכשירים לעיניים אחרים."
+                },
+                {
+                    "eng": "If no improvement of your condition occurs within 3 days, refer to your doctor.",
+                    "heb": "אם לא חל שיפור במצבך תוך 3 ימים יש לפנות לרופא."
+                },
+                {
+                    "eng": "Attention: this medicine is intended for external use only.",
+                    "heb": "שים לב: תרופה זו מיועדת לשימוש חיצוני בלבד."
+                },
+                {
+                    "eng": "Directions for use:",
+                    "heb": "אופן השימוש:"
+                },
+                {
+                    "eng": "In order to prevent contamination of the ointment, Do not allow the tip of the tube to come into contact with any surface (including the eye itself). Following use, wipe the tube tip with a clean tissue and afterwards, close the tube tightly",
+                    "heb": "בכדי להימנע מזיהום המשחה,אין לאפשר לקצה השפופרת לבוא במגע עם משטח כלשהו (כולל העין עצמה). לאחר השימוש, יש לנגב את קצה שפופרת המשחה בעזרת ממחטת נייר נקיה ולאחר מכן לסגור היטב את השפופרת."
+                },
+                {
+                    "eng": "How to use this ointment:",
+                    "heb": "כיצד להשתמש במשחה:"
+                },
+                {
+                    "eng": "First, wash your hands. Tilt your head back and pull the lower eyelid downwards to form a “pocket” (see Picture 1). Administer the medicine into this “pocket”",
+                    "heb": "ראשית, רחץ את ידיך. הטה ראשך לאחור ומשוך את העפעף התחתון, ליצירת \"כיס\" (ראה תמונה 1).יש לשים את התרופה בתוך \"כיס\" זה."
+                },
+                {
+                    "eng": "Bring the tip of the tube close to the eye. Make sure that the tube tip does not touch the eye, the eyelid and their surroundings. Gently squeeze the tube until a thin ribbon is expelled to the “pocket” (see Picture 2). An amount of 1 cm of ointment is usually sufficient, unless you have received other instructions from the doctor or the pharmacist.",
+                    "heb": "קרב את קצה השפופרת לעין. יש לוודא כי קצה השפופרת לא נוגע בעין, בעפעף ובסביבתם. לחץ בעדינות על השפופרת עד ליציאת רצועה של משחה אל ה\"כיס\" (ראה תמונה 2). כמות של 1 ס\"מ של משחה הינה בדרך כלל מספיקה,אלא אם קיבלת הוראה אחרת מהרופא או הרוקח."
+                },
+                {
+                    "eng": "Close your eyes gently for 1-2 minutes (see Picture 3).",
+                    "heb": "עצום את עינייך בעדינות למשך כ 1 עד 2 דקות (ראה תמונה 3)."
+                },
+                {
+                    "eng": "After using this eye ointment, wash your hands in order to clean them from traces of the medicine. In order to prevent spread of infection, do not use the same tube of medicine in more than one person.",
+                    "heb": "לאחר השימוש במשחת העיניים , רחץ את ידיך בכדי לנקותן משאריות של תרופה. בכדי להימנע מהפצת זיהום, אין להשתמש באותו מיכל של תרופה ליותר מאדם אחד."
+                },
+                {
+                    "eng": "If you applied accidentally an overdose:",
+                    "heb": "אם נטלת בטעות מינון גבוה יותר"
+                },
+                {
+                    "eng": "Duratears can be used as often as needed, unless your doctor has told you differently",
+                    "heb": "ניתן להשתמש בדורהטירס בהתאם לצורך, אלא אם כן הרופא הורה לך אחרת."
+                },
+                {
+                    "eng": "If you have applied more Duratears into your eye than necessary, wait a few minutes until the ointment softens, then gently wipe away excess ointment from the lower eyelid. Be careful not to touch the eye with either your fingertip or a tissue. If needed, you can rinse it out of your eye with lukewarm water. Don’t put in any more ointment until it’s time for your next regular dose.",
+                    "heb": "אם שמת בתוך העין דורהטירס בכמות גדולה מהנדרשת חכה מספר דקות עד שהמשחה מתרככת. אחר כך נגב את עודף המשחה מן העפעף התחתון. היזהר לא לגעת בעין עם האצבע או טישו. אם יש צורך, ניתן לשטוף את העין עם מים פושרים. אל תשים שוב משחה עד המועד הבא לנטילת התרופה."
+                },
+                {
+                    "eng": "If you swallowed accidentally the content of the entire tube, no side effects are to be expected; however, it is recommended to refer to a doctor, pharmacist or anti-poison center. If a child accidentally swallowed the medicine, refer to a doctor or to the emergency ward of a hospital immediately and bring the package of the medicine with you.",
+                    "heb": "אם בטעות בלעת את תוכן השפופרת כולה, לא צפויות תופעות לוואי אולם מומלץ לפנות לרופא, רוקח או מרכז הרעלות. אם בטעות בלע ילד מן התרופה, פנה מיד לרופא או לחדר מיון של בית חולים והבא אריזת התרופה איתך."
+                },
+                {
+                    "eng": "If you forgot to take this medicine at the designated time, take a dose as soon as you remember, However, if it is almost time for your next dose, skip the missed dose and go back to your regular dosing schedule. Do not put extra ointment in your eye to make up for the forgotten dose",
+                    "heb": "אם שכחת ליטול תרופה זו בזמן הקצוב, יש ליטול מנה מיד כשנזכרת, עם זאת, אם המועד סמוך מאוד למועד הבא של נטילת התרופה, יש לדלג על המועד שנשכח ולקחת את התרופה במועד המיועד הבא בהתאם ללוח הזמנים המקורי. אל תיקח מנה גדולה יותר כדי לפצות על המנה שנשכחה."
+                },
+                {
+                    "eng": " Do not take medicines in the dark! Check the label and the dose each time you take a medicine. Wear glasses if you need them",
+                    "heb": "אין ליטול תרופות בחושך! בדוק התווית והמנה בכל פעם שהינך נוטל תרופה. הרכב משקפיים אם הינך זקוק להם."
+                },
+                {
+                    "eng": "If you stop using Duratears",
+                    "heb": "אם אתה מפסיק להשתמש בדורהטירס"
+                },
+                {
+                    "eng": "In case you stop treatment, be aware that your symptoms of dry eye(s) may re-occur.",
+                    "heb": "אם אתה מפסיק להשתמש בדורהטירס , עליך לדעת שתסמיני היובש בעיניים עלולים להופיע שוב."
+                },
+                {
+                    "eng": "If you have further questions on the use of this medicine, ask your doctor or pharmacist.",
+                    "heb": "אם יש לך שאלות נוספות בנוגע לשימוש בתרופה, היוועץ ברופא או ברוקח."
+                }
+            ]
+        },
+        {
+            "title": "side effects",
+            "section_num": "4",
+            "data": [
+                {
+                    "eng": "4. Side Effects:",
+                    "heb": "4. תופעות לוואי"
+                },
+                {
+                    "eng": "As with any medicine, use of Duratears can cause side effects in some users. Do not be alarmed when reading the list of the side effects. You may not experience any of them.",
+                    "heb": "כמו בכל תרופה, השימוש בדורהטירס עלול לגרום לתופעות לוואי בחלק מהמשתמשים. אל תיבהל למקרא רשימת תופעות הלוואי. יתכן ולא תסבול מאף אחת מהן."
+                },
+                {
+                    "eng": "The following side effects have been seen with DURATEARS. Frequency (not known) cannot be estimated from the available data:",
+                    "heb": "תופעות הלוואי הבאות נצפו בשימוש עם דורהטירס , תדירות לא ידועה אשר לא ניתנת להערכה מהנתונים :"
+                },
+                {
+                    "eng": "• Effects in the eye:",
+                    "heb": "• תופעות בעיניים: "
+                },
+                {
+                    "eng": "eye pain",
+                    "heb": "כאב בעיניים"
+                },
+                {
+                    "eng": "eye swelling",
+                    "heb": "התנפחות"
+                },
+                {
+                    "eng": "itchy eye",
+                    "heb": "גירוד בעין"
+                },
+                {
+                    "eng": "eye irritation",
+                    "heb": "גירוי בעין"
+                },
+                {
+                    "eng": "abnormal sensation in the eye",
+                    "heb": "תחושה חריגה בעין"
+                },
+                {
+                    "eng": "eye redness",
+                    "heb": "אדמומיות"
+                },
+                {
+                    "eng": "blurred vision",
+                    "heb": "טשטוש ראייה"
+                },
+                {
+                    "eng": "eye discomfort",
+                    "heb": "אי נוחות"
+                },
+                {
+                    "eng": "increased tear production",
+                    "heb": "ייצור מוגבר של דמעות"
+                },
+                {
+                    "eng": "• General side effects:",
+                    "heb": "• תופעות לוואי כלליות:"
+                },
+                {
+                    "eng": "headache",
+                    "heb": "כאב ראש"
+                },
+                {
+                    "eng": "If you get any side effect, or if any of the side effects worsens, or if you suffer from a side effect not listed in the leaflet, consult your doctor.",
+                    "heb": "אם הופיעה תופעת לוואי, אם אחת מתופעות הלוואי מחמירה, או כאשר אתה סובל מתופעת לוואי שלא הוזכרה בעלון, עליך להתייעץ עם הרופא."
+                },
+                {
+                    "eng": "Reporting side effects",
+                    "heb": "דיווח על תופעות לוואי"
+                },
+                {
+                    "eng": "Side effects can be reported to the Ministry of Health by clicking on the link “Report Side Effects of Drug Treatment” found on the Ministry of Health homepage that directs you to the online form for reporting side effects, or by entering the link",
+                    "heb": "ניתן לדווח על תופעות לוואי למשרד הבריאות באמצעות לחיצה על הקישור \"דיווח על תופעות לוואי עקב טיפול תרופתי\" שנמצא בדף הבית של אתר משרד הבריאות המפנה לטופס המקוון לדיווח על תופעות לוואי, או ע\"י כניסה לקישור"
+                }
+            ]
+        },
+        {
+            "title": "medicine storage",
+            "section_num": "5",
+            "data": [
+                {
+                    "eng": "5. How to store the medicine?",
+                    "heb": "5. איך לאחסן את התרופה?"
+                },
+                {
+                    "eng": "• Avoid poisoning! This medicine and all other medicine must be kept in a closed place out of the reach of children and/or infants to avoid poisoning. Do not induce vomiting without explicit instruction from the doctor",
+                    "heb": "• מנע הרעלה! תרופה זו וכל תרופה אחרת יש לשמור במקום סגור מחוץ להישג ידם של ילדים ו/או תינוקות ועל ידי כך תמנע הרעלה. אל תגרום להקאה ללא הוראה מפורשת מהרופא."    
+                },
+                {
+                    "eng": "• Do not use the medicine after the expiry date that appears on the package. The expiry date refers to the last day of the same month.",
+                    "heb": "• אין להשתמש בתרופה אחרי תאריך התפוגה המופיע על גבי האריזה. תאריך התפוגה מתייחס ליום האחרון של אותו חודש "    
+                },
+                {
+                    "eng": "• Store at a temperature range of 15°- 25°C",
+                    "heb": "• יש לאחסן בטווח הטמפרטורות 25°C -15°."    
+                },
+                {
+                    "eng": "• Do not use the medicine for more than a month from the time the tube was first opened.",
+                    "heb": "• אין להשתמש בתרופה יותר מחודש ימים לאחר פתיחת השפופרת לראשונה."    
+                },
+                {
+                    "eng": "• Do not store different medicines in the same package.",
+                    "heb": "• אין לאחסן תרופות שונות באותה אריזה."    
+                }
+            ]
+        },
+        {
+            "title": "additional information",
+            "section_num": "6",
+            "data": [
+                {
+                    "eng": "6. Additional information",
+                    "heb": "6. מידע נוסף "
+                },
+                {
+                    "eng": "In addition to the active ingredient(s), The medicine also contains: The medicine does not contain active ingredients. The medicine contains:",
+                    "heb": "נוסף על החומר(ים) הפעיל(ים) התרופה מכילה גם: התרופה לא מכילה חומרים פעילים. התרופה מכילה:"
+                },
+                {
+                    "eng": "What does the medicine look like and what is the content of the package:",
+                    "heb": "כיצד נראית התרופה ומה תוכן האריזה:"
+                },
+                {
+                    "eng": "A tube containing a white to light yellow, translucent, homogenous ointment.",
+                    "heb": "שפופרת המכילה משחה לבנה עד צהובה בהירה,שקופה למחצה, הומוגנית."
+                },
+                {
+                    "eng": "Import and Marketing Ltd., 8 Hashita St., Caesarea Industrial Zone 38900.",
+                    "heb": "בעל הרישום וכתובתו: לפידות מדיקל יבוא ושיווק בע\"מ, רח' השיטה 8, פארק תעשייה קיסריה, 38900."
+                },
+                {
+                    "eng": "Manufacturer and its address:",
+                    "heb": "שם יצרן וכתובתו:"
+                },
+                {
+                    "eng": "Registration number of the medicine in the National Drug Registry of the Ministry of Health: 1093324050",
+                    "heb": "מס' רישום התרופה בפנקס התרופות הממלכתי במשרד הבריאות: 1093324050"
+                }
+            ]
+        }
+    ]
+}

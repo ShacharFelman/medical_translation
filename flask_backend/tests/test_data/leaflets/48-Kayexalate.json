@@ -1,0 +1,330 @@
+{
+  "title": "Kayexalate",
+  "index": 0,
+  "dir_index": "48",
+  "title_lang": {
+    "title_heb": "קיאקסאלאט",
+    "title_eng": "Kayexalate",
+    "title_ara": "x"
+  },
+  "sections": [
+    {
+      "title": "General",
+      "section_num": 0,
+      "data": [
+        {
+          "eng": "Active ingredient and its quantity:\nSodium polystyrene sulfonate 99.934%\n",
+          "heb": "החומר הפעיל וכמותו:\nסודיום פוליסטירן סולפונאט 99.934%"
+        },
+        {
+          "eng": "Inactive ingredients – see section 6.\n",
+          "heb": "חומרים בלתי פעילים - ראה סעיף .6\n"
+        },
+        {
+          "eng": "Read this leaflet carefully in its entirety before using this medicine. This leaflet contains concise information about the medicine. If you have further questions, refer to the doctor or pharmacist. Keep this leaflet; you may need to read it again.\n",
+          "heb": "קרא בעיון את העלון עד סופו בטרם תשתמש בתרופה. עלון זה מכיל מידע תמציתי על התרופה. אם יש לך שאלות נוספות, פנה אל הרופא או אל הרוקח. שמור על עלון זה, ייתכן ותצטרך לקרוא בו שוב.\n"
+        },
+        {
+          "eng": "This medicine has been prescribed to treat you. Do not pass it on to others. It may harm them even if it seems to you that their medical condition is similar.\n",
+          "heb": "תרופה זו נרשמה לטיפול עבורך. אל תעביר אותה לאחרים. היא עלולה להזיק להם אפילו אם נראה לך כי מצבם הרפואי דומה.\n"
+        },
+        {
+          "eng": "If a side effect worsens or if you experience a side effect not mentioned in this leaflet, please refer to a doctor or pharmacist.\n",
+          "heb": "אם תופעת לוואי מחמירה או אם הופיעה תופעת לוואי שלא מצוינת בעלון זה אנא פנה לרופא או לרוקח.\n"
+        },
+        {
+          "eng": "If you have further questions, refer to a doctor or pharmacist.\n",
+          "heb": "אם יש לך שאלות נוספות, פנה אל הרופא או אל הרוקח.\n"
+        }
+      ]
+    },
+    {
+      "title": "medicine intended for",
+      "section_num": 1,
+      "data": [
+        {
+          "eng": "This medicine is intended for the treatment of excess blood potassium\n(hyperkalaemia).\n",
+          "heb": "התרופה מיועדת לטיפול ביתר אשלגן בדם )היפרקלמיה(.\n"
+        },
+        {
+          "eng": "This preparation contains an ion-exchange resin which, when passing through\nthe gastrointestinal tract, releases sodium ions and, in their place, binds mostly\npotassium ions. The preparation is not absorbed by the body. \n",
+          "heb": "התכשיר מכיל שרף מחליף יונים אשר בעוברו במערכת העיכול משחרר יוני סודיום וקושר\nבמקומם יוני אשלגן בעיקר. התכשיר אינו נספג בגוף. \n"
+        },
+        {
+          "eng": "Therapeutic group: Medicines for the treatment of hyperkalaemia and\nhyperphosphataemia.\n",
+          "heb": "קבוצה תרפויטית: תרופות לטיפול בהיפרקלמיה והיפרפוספטמיה.\n"
+        }
+      ]
+    },
+    {
+      "title": "before using the medicine",
+      "section_num": 2,
+      "data": [
+        {
+          "eng": "You are sensitive (allergic) to the active ingredient sodium polystyrene sulfonate or to any of the other components of this medicine (see details in section 6). Signs of an allergic reaction include: rash, swallowing or breathing problems, swelling of the lips, face, throat or tongue.",
+          "heb": "הנך רגיש )אלרגי( לחומר הפעיל סודיום פוליסטירן סולפונאט או לכל אחד ממרכיבי התרופה האחרים )ראה פירוט בסעיף 6(. סימני תגובה אלרגית כוללים: פריחה, בעיות בבליעה או בנשימה, התנפחות השפתיים, הפנים, הגרון או הלשון."
+        },
+        {
+          "eng": "You have been told that you suffer from low blood potassium levels (hypokalemia).",
+          "heb": "נאמר לך שהנך סובל מרמה נמוכה של אשלגן בדם )היפוקלמיה(."
+        },
+        {
+          "eng": "Your gut is partially or completely blocked (obstructive bowel disease).",
+          "heb": "הנך סובל מחסימה מלאה או חלקית במעי )מחלת מעי חסימתית(."
+        },
+        {
+          "eng": "You are taking a sweetener called sorbitol (“no sugar” sweetener). This is because taking sorbitol and Kayexalate concomitantly may cause narrowing of the gut wall (gastrointestinal stenosis) and decreased blood flow to the gut wall (intestinal ischemia), which cause severe damage to the gut (necrosis and perforation). Do not take sorbitol during treatment with Kayexalate.",
+          "heb": "הנך נוטל ממתיק בשם סורביטול )ממתיק ״ללא סוכר״(. זאת משום שנטילת סורביטול וקיאקסאלאט בו-זמנית עלולה לגרום להיצרות במעיים )stenosis gastrointestinal ) ולירידה בזרימת דם למעי )ischemia intestinal), שגורמים לנזק חמור במעיים )perforation and necrosis). אין ליטול סורביטול בעת הטיפול בקיאקסאלאט."
+        },
+        {
+          "eng": "Do not use in neonates with reduced gut motility (caused by surgery or medicinal treatment).",
+          "heb": "אין להשתמש בילודים עם תנועתיות מעיים ירודה )נגרמה מניתוח או מטיפול תרופתי(."
+        },
+        {
+          "eng": "Do not administer the medicine orally to neonates. If one or more of the listed conditions apply to you, or if you are uncertain, talk to the doctor.",
+          "heb": "אין לתת את התרופה דרך הפה לילודים. אם אחד או יותר מהמקרים המפורטים קשורים אליך, או אם אינך בטוח, שוחח עם הרופא."
+        },
+        {
+          "eng": "Special warnings regarding use of the medicine Before treatment with this medicine, inform the doctor if: You have or have suffered in the past from irregularities in the digestive system. You have heart problems. You have high blood pressure. You have kidney problems. You have swelling in your arms or legs (oedema).",
+          "heb": "אזהרות מיוחדות הנוגעות לשימוש בתרופה לפני הטיפול בתרופה ספר לרופא אם: הנך סובל או סבלת בעבר מאי סדירות במערכת העיכול. הנך סובל מבעיות בלב. הנך סובל מיתר לחץ דם. הנך סובל מבעיות בכליות. הנך סובל מנפיחות בידיים או ברגליים )בצקת(."
+        },
+        {
+          "eng": "Children Exercise caution and consult the doctor before use in premature babies and in babies with a low birth weight or that have reduced intestinal motility. Exercise caution to avoid overdose or inadequate dilution when administering to children and infants. Overdose may cause severe constipation. If you are not sure if the listed conditions apply to you, consult the doctor before commencing treatment with Kayexalate.",
+          "heb": "ילדים יש להיזהר ולהתייעץ עם הרופא לפני השימוש בפגים ובתינוקות בעלי משקל לידה נמוך או שיש להם תנועתיות מעיים מופחתת. יש להיזהר ממינון עודף או מיהול בלתי מספיק במתן לילדים ולתינוקות. מינון עודף עלול לגרום לעצירות חמורה. אם אינך בטוח אם המקרים המפורטים קשורים אליך, היוועץ ברופא לפני התחלת השימוש בקיאקסאלאט."
+        },
+        {
+          "eng": "Tests and follow-up Blood tests Your doctor will instruct you to regularly perform blood tests while you are taking this medicine. This is to check the levels of salts (potassium, sodium, calcium and magnesium) in your blood.",
+          "heb": "בדיקות ומעקב בדיקות דם רופאך יורה לך על ביצוע בדיקות דם באופן קבוע בזמן נטילת תרופה זו. זאת על מנת לבדוק רמות מלחים )אשלגן, נתרן, סידן ומגנזיום( בדמך."
+        },
+        {
+          "eng": "Drug interactions If you are taking, or have recently taken, other medicines, including nonprescription medicines and nutritional supplements, inform the doctor or pharmacist. This is because Kayexalate may affect the way certain medicines work, and certain medicines may affect the way Kayexalate works. It is especially important to inform the doctor or pharmacist if you are taking: Medicines that contain salts such as magnesium, potassium or calcium. Consult your doctor if you are not sure. Some medicines for constipation (laxatives) that contain magnesium. Some medicines for indigestion (antacids) that contain magnesium or aluminum. Digoxin or medicines similar to digitalis - for heart problems. Levothyroxine or thyroxine – for treatment of an underactive thyroid. Lithium – for treatment of mental illnesses. If you are uncertain if this applies to you, consult the doctor before commencing treatment with Kayexalate.",
+          "heb": "אינטראקציות/תגובות בין תרופתיות אם אתה לוקח, או אם לקחת לאחרונה, תרופות אחרות כולל תרופות ללא מרשם ותוספי תזונה, ספר על כך לרופא או לרוקח. זאת מכיוון שקיאקסאלאט עלול להשפיע על אופן הפעולה של תרופות מסוימות, וכן תרופות מסוימות עלולות להשפיע על אופן הפעולה של קיאקסאלאט. במיוחד יש ליידע את הרופא או הרוקח אם אתה לוקח: תרופות המכילות מלחים כגון מגנזיום, אשלגן, או סידן. היוועץ ברופאך אם אינך בטוח. תרופות מסוימות לעצירות )משלשלים( המכילות מגנזיום. תרופות מסוימות להפרעות בעיכול )נוגדי חומצה( המכילות מגנזיום או אלומיניום. דיגוקסין, או תרופות דומות לדיגיטליס - לבעיות לב. לבותירוקסין או תירוקסין - לטיפול בתת פעילות בלוטת התריס. ליתיום - לטיפול במחלות נפש. אם אינך בטוח אם זה מתייחס אליך, היוועץ ברופא לפני התחלת השימוש בקיאקסאלאט."
+        },
+        {
+          "eng": "Pregnancy and breastfeeding Consult the doctor before using this medicine if: You are pregnant, can become pregnant or think you may be pregnant. You are breastfeeding or plan to breastfeed. Consult the doctor or pharmacist before use.",
+          "heb": "הריון והנקה יש להיוועץ ברופא לפני השימוש בתרופה אם: הינך בהריון, יכולה להרות, או חושבת שהינך בהריון. הינך מניקה או מתכננת להניק. התייעצי עם הרופא או הרוקח לפני השימוש."
+        },
+        {
+          "eng": "Important information about some of the ingredients in this medicine Kayexalate contains 1400 to 1700 mg sodium (main component of cooking/ table salt) in each 15 g dose. This is equivalent to 280-340% of the recommended maximum daily dietary intake of sodium for an adult. Talk to your doctor or pharmacist if you need 15 g or more daily for a prolonged period, especially if you have been advised to follow a low salt (sodium) diet.",
+          "heb": "מידע חשוב על חלק מהמרכיבים של התרופה קיאקסאלאט מכיל 1400 עד 1700 מ״ג נתרן )המרכיב העיקרי במלח בישול/שולחני( בכל מנה של 15 גרם. זה שווה ערך ל- 280-340% מהצריכה המרבית של נתרן המומלצת למבוגר ליום. שוחח עם הרופא או הרוקח אם אתה זקוק ל- 15 גרם ליום או יותר לתקופה ממושכת, במיוחד אם הומלץ לך להקפיד על דיאטה דלת מלח )נתרן(."
+        },
+        {
+          "eng": "How to use the medicine? You must always use the product according to the doctor's instructions. You should check with your doctor or pharmacist if you are unsure about the dosage and administration of the product. The dosage will depend on the results of the blood test. For children, the dosage will also be determined according to the child's weight. Each measuring spoon of Kayexalate contains 15 grams of powder. Do not heat Kayexalate - heating can alter the properties of the product. Consult your doctor about means to prevent or treat constipation caused sometimes by using the product. Taking the medicine: This medicine is intended for use orally or rectally (by enema). Use the Kayexalate suppository immediately after preparation.",
+          "heb": ".3 כיצד תשתמש בתרופה? יש להשתמש בתכשיר תמיד בהתאם להוראות הרופא. עליך לבדוק עם הרופא או הרוקח אם אינך בטוח בנוגע למינון ואופן הטיפול בתכשיר. המינון יהיה תלוי בתוצאות בדיקת דם. עבור ילדים המינון יקבע גם על פי משקל הילד. כל כפית מדידה של קיאקסאלאט מכילה 15 גרם אבקה. אסור לחמם קיאקסאלאט - חימום עלול לשנות את תכונות התכשיר. יש להיוועץ ברופא לגבי אמצעים למניעה או לטיפול בעצירות הנגרמת לעיתים עקב שימוש בתכשיר. נטילת התרופה: תרופה זאת מיועדת לשימוש דרך הפה או דרך החלחולת )פי הטבעת(. יש להשתמש בתרחיף קיאקסאלאט מיד לאחר הכנתו."
+        }
+      ]
+    },
+    {
+      "title": "how to use the medicine",
+      "section_num": 3,
+      "data": [
+        {
+          "eng": "Always use this preparation according to the doctor’s instructions. Check with the doctor or pharmacist if you are uncertain about the dosage and treatment regimen of the preparation.",
+          "heb": "תמיד להשתמש בתכשיר זה לפי הוראות הרופא. יש לבדוק עם הרופא או הרוקח אם אינך בטוח בנוגע למינון ואופן הטיפול בתכשיר.\n"
+        },
+        {
+          "eng": "• The dosage will depend on blood test results.",
+          "heb": "• המינון יהיה תלוי בתוצאות בדיקת הדם.\n"
+        },
+        {
+          "eng": "• For children, the dosage will be determined by the child’s weight.",
+          "heb": "• עבור ילדים, המינון יקבע על פי משקל הילד.\n"
+        },
+        {
+          "eng": "• Each Kayexalate measuring spoon contains 15 g of powder.",
+          "heb": "• כל כפית מדידה של קיאקסאלאט מכילה 15 גרם אבקה.\n"
+        },
+        {
+          "eng": "• It is forbidden to heat Kayexalate – heating can change the properties of the preparation.",
+          "heb": "• אסור לחמם קיאקסאלאט - חימום עלול לשנות את תכונות התכשיר.\n"
+        },
+        {
+          "eng": "• Consult the doctor with regard to prophylactic measures or treatment for constipation sometimes caused by use of the preparation.",
+          "heb": "• יש להיוועץ ברופא לגבי אמצעים למניעה או לטיפול בעצירות הנגרמת לעיתים עקב שימוש בתכשיר.\n"
+        },
+        {
+          "eng": "Taking the medicine:",
+          "heb": "נטילת התרופה:\n"
+        },
+        {
+          "eng": "• This medicine is intended for oral or rectal use.",
+          "heb": "• תרופה זאת מיועדת לשימוש דרך הפה או דרך החלחולת )פי הטבעת(.\n"
+        },
+        {
+          "eng": "• Use the Kayexalate suspension immediately after preparing it.",
+          "heb": "• יש להשתמש בתרחיף קיאקסאלאט מיד לאחר הכנתו.\n"
+        },
+        {
+          "eng": "Oral administration:",
+          "heb": "מתן דרך הפה:\n"
+        },
+        {
+          "eng": "• Mix with a small amount of water up to half a cup, depending on the dose, and drink immediately. Sweetened water can be used to improve the taste. Similarly, a paste can be made with sweeteners, such as jam or honey.",
+          "heb": "• יש לערבב במעט מים עד חצי כוס בהתאם למנה ולשתות מיד. לשיפור הטעם ניתן להשתמש במים ממותקים. כמו כן, ניתן להכין הכנה סמיכה עם חומרים ממתיקים כגון ריבה או דבש.\n"
+        },
+        {
+          "eng": "• Do not mix this medicine with fruit juice; this may impair the activity of the medicine.",
+          "heb": "• אין לערבב תרופה זאת עם מיץ פירות, הדבר עלול להפריע לפעילות התרופה.\n"
+        },
+        {
+          "eng": "• Remain in an upright position when taking the medicine in order to prevent aspiration of the powder into the respiratory system.",
+          "heb": "• יש להיות במצב זקוף בזמן נטילת התרופה, על מנת למנוע את שאיפת האבקה למערכת הנשימה.\n"
+        },
+        {
+          "eng": "• Take the medicine at least 3 hours before or 3 hours after other medicines you may take orally. If you are suffering from gastroparesis (a condition in which the stomach does not empty regularly), wait at least 6 hours before or after you take other medicines orally.",
+          "heb": "• יש ליטול את התרופה לפחות 3 שעות לפני או 3 שעות אחרי תרופות אחרות שייתכן והנך נוטל דרך הפה. אם הנך סובל מגסטרופרזיס )מצב בו הקיבה אינה מתרוקנת באופן סדיר(, יש לחכות לפחות 6 שעות לפני או אחרי שהנך נוטל תרופות אחרות דרך הפה.\n"
+        },
+        {
+          "eng": "Rectal administration:",
+          "heb": "מתן דרך פי הטבעת:\n"
+        },
+        {
+          "eng": "• A preparation for rectal use should be made. Refer to the medical staff for instructions.",
+          "heb": "• יש להכין הכנה למתן דרך פי הטבעת. פנה לצוות רפואי לקבלת הנחיות.\n"
+        },
+        {
+          "eng": "• Try to keep the medicine in the rectum for at least 4-10 hours. Afterwards, wash the area thoroughly.",
+          "heb": " יש לנסות לשמור על התרופה בתוך פי הטבעת למשך 4-10 שעות לפחות. לאחר מכן, יש לשטוף ביסודיות את האזור.\n"
+        },
+        {
+          "eng": "The dosage and treatment regimen will be determined by the doctor only.",
+          "heb": "המינון ואופן הטיפול יקבעו על ידי הרופא בלבד.\n"
+        },
+        {
+          "eng": "Do not exceed the recommended dose!",
+          "heb": "אין לעבור על המנה המומלצת!\n"
+        },
+        {
+          "eng": "If you accidentally took a higher dosage, or if a child accidentally swallowed the medicine, proceed to a hospital emergency room immediately and bring the package of the medicine with you.",
+          "heb": "אם נטלת בטעות מינון גבוה יותר או אם בטעות בלע ילד מן התרופה, פנה מיד לחדר מיון של בית החולים, והבא אריזת התרופה איתך.\n"
+        },
+        {
+          "eng": "If you took an overdose, you may suffer from the following signs:",
+          "heb": "אם נטלת מנת יתר הנך עלול לסבול מהסימנים הבאים:\n"
+        },
+        {
+          "eng": "• feeling irritable or confused",
+          "heb": "• תחושת עצבנות או בלבול\n"
+        },
+        {
+          "eng": "• being unable to concentrate",
+          "heb": "• חוסר יכולת להתרכז\n"
+        },
+        {
+          "eng": "• muscle weakness and weakened reflexes that may lead to paralysis",
+          "heb": "• חולשת שרירים ורפלקסים מוחלשים העלולים להוביל לשיתוק\n"
+        },
+        {
+          "eng": "• breathing problems",
+          "heb": "• בעיות נשימה\n"
+        },
+        {
+          "eng": "• faster or pounding heartbeat",
+          "heb": "• דפיקות לב מואצות או חזקות\n"
+        },
+        {
+          "eng": "• muscle cramps.",
+          "heb": "• התכווצויות שרירים.\n"
+        },
+        {
+          "eng": "If you forgot to take this medicine at the scheduled time, do not take a double dose. Consult your doctor about when you should take your medicine.",
+          "heb": "אם שכחת לקחת תרופה זאת בזמן הדרוש, אין ליטול מנה כפולה. היוועץ ברופאך לגבי מתי עליך לקבל את התרופה שלך.\n"
+        },
+        {
+          "eng": "Adhere to the treatment recommended by the doctor. Even if there is an improvement in your health, do not stop treatment with this medicine without consulting the doctor or pharmacist.",
+          "heb": "יש להתמיד בטיפול כפי שהומלץ על ידי הרופא. גם אם חל שיפור במצב בריאותך, אין להפסיק הטיפול בתרופה ללא התייעצות עם הרופא או הרוקח.\n"
+        },
+        {
+          "eng": "If you stop taking the medicine: Take Kayexalate until your doctor tells you to stop the treatment. If you discontinue the treatment against the doctor’s instructions, your ailment may recur.",
+          "heb": "אם אתה מפסיק את נטילת התרופה: יש ליטול קיאקסאלאט עד שרופאך הורה לך על הפסקת הטיפול. אם תפסיק את הטיפול שלא לפי הוראת רופא, מחלתך עלולה לחזור.\n"
+        },
+        {
+          "eng": "Do not take medicines in the dark! Check the label and the dose each time you take medicine. Wear glasses if you need them.",
+          "heb": "אין ליטול תרופות בחושך! בדוק התווית והמנה בכל פעם שהנך נוטל תרופה. הרכב משקפיים אם הנך זקוק להם.\n"
+        },
+        {
+          "eng": "If you have further questions regarding use of this medicine, consult the doctor or pharmacist.",
+          "heb": "אם יש לך שאלות נוספות בנוגע לשימוש בתרופה, היוועץ ברופא או ברוקח.\n"
+        }
+      ]
+    },
+    {
+      "title": "side effects",
+      "section_num": 4,
+      "data": [
+        {
+          "eng": "As with any medicine, use of Kayexalate may cause side effects in some users. Do\nnot be alarmed when reading the list of side effects. You may not experience any\nof them.\n",
+          "heb": "כמו בכל תרופה, השימוש בקיאקסאלאט עלול לגרום לתופעות לוואי בחלק מהמשתמשים.\nאל תיבהל למקרא רשימת תופעות הלוואי. ייתכן ולא תסבול מאף אחת מהן.\n"
+        },
+        {
+          "eng": "Refer to a doctor immediately if you notice one or more of the following\nsevere side effects:\n• You have an allergic reaction. Signs may include: rash, swallowing or breathing\nproblems, swelling of the lips, face, throat or tongue.\n• Severe stomach pain, rectal pain.\n• Bloating, severe constipation.\n• Severe nausea and vomiting.\n• Black, bloody or tarry stools, coughing up blood or vomit that looks like coffee\ngrounds.\n• Blood in vomit.\n",
+          "heb": "פנה לרופא מיד אם הנך מבחין באחת או יותר מתופעות הלוואי החמורות הבאות:\n• אם הנך סובל מתגובה אלרגית. הסימנים עלולים לכלול: פריחה, בעיות בבליעה או\nבנשימה, נפיחות בשפתיים, בפנים, בגרון או בלשון.\n• כאב חמור בקיבה, כאב רקטלי.\n• נפיחות, עצירות חמורה.\n• בחילה והקאה חמורות.\n• צואה שחורה, דמית או בצבע זפת, שיעול דמי או קיא שנראה כמו קפה טחון.\n• דם בקיא.\n"
+        },
+        {
+          "eng": "Refer to the doctor as soon as possible if you suffer from the following side\neffects:\n• Feeling tired, confusion, muscle weakness, muscle cramps or a change in heart\nrate. These signs may be due to low levels of potassium in your body.\n• Feeling jittery, having fits or muscle cramps. This may be due to low levels of\ncalcium or magnesium in your body.\n• High blood pressure, kidney problems, heart problems or swelling in the limbs.\nThis may be due to high levels of sodium in your body.\n• Stomach upset, pain in the gut, narrowing or blockage of the gut.\n• Decreased blood flow to the gut wall which causes intense abdominal pain or\ncollapse.\n• Loss of appetite.\n• Feeling sick, being sick, constipation or diarrhoea.\n• Feeling short of breath or coughing. This may be the first sign of a serious chest\ninfection, which can be caused by accidentally breathing in this medicine.\n",
+          "heb": "יש לפנות לרופא בהקדם האפשרי אם הנך סובל מתופעות הלוואי הבאות:\n• תחושת עייפות, בלבול, חולשת שרירים, התכווצויות שרירים או שינויים בקצב הלב.\nסימנים אלה עלולים לנבוע כתוצאה מרמות אשלגן נמוכות בגופך.\n• עצבנות, עוויתות או התכווציות שרירים. דבר זה עלול לנבוע מרמות סידן או מגנזיום\nנמוכות בגופך.\n• לחץ דם גבוה, בעיות בכליות, בעיות בלב או נפיחות בגפיים. דבר זה עלול לנבוע כתוצאה\nמרמות גבוהות של נתרן בגופך.\n• קלקול קיבה, כאבים במעיים, היצרות או חסימת מעיים.\n• ירידה בזרימת דם למעיים שגורמת לכאב בטן חזק או התמוטטות.\n• אובדן תיאבון.\n• תחושת בחילה, הקאה, עצירות או שלשול.\n• תחושת קוצר נשימה או שיעול. דבר זה עלול להיות הסימן הראשון של דלקת חמורה\nבחזה, העלולה להיגרם משאיפה בטעות של התרופה.\n"
+        },
+        {
+          "eng": "Side effects and drug interactions in children and infants:\nParents must inform the attending doctor of any side effects and about any other\nmedicines being administered to the child!\nSee special warnings detailed above.\nIf a side effect occurs, if any of the side effects worsen, or persist for more\nthan a few days, or if you suffer from a side effect not mentioned in this\nleaflet, consult the doctor.\n",
+          "heb": "תופעות לוואי ותגובות בין תרופתיות בילדים ובתינוקות:\nעל ההורים לדווח לרופא המטפל על כל תופעת לוואי וכן על כל תרופה נוספת הניתנת לילד!\nראה לעיל אזהרות מיוחדות שפורטו.\nאם הופיעה תופעת לוואי, אם אחת מתופעות הלוואי מחמירה, או נמשכת יותר ממספר\nימים או כאשר אתה סובל מתופעת לוואי שלא הוזכרה בעלון, עליך להתייעץ עם הרופא.\n"
+        },
+        {
+          "eng": "Side effects can be reported to the Ministry of Health by clicking on the link\n“Report Side Effects of Drug Treatment” found on the Ministry of Health homepage\n(www.health.gov.il) that directs you to the online form for reporting side effects, or\nby entering the link: https://sideeffects.health.gov.il\n",
+          "heb": "ניתן לדווח על תופעות לוואי למשרד הבריאות באמצעות לחיצה על הקישור ״דיווח\nעל תופעות לוואי עקב טיפול תרופתי״ שנמצא בדף הבית של אתר משרד הבריאות\n(www.health.gov.il) המפנה לטופס המקוון לדיווח על תופעות לוואי, או ע״י כניסה לקישור:\nhttps://sideeffects.health.gov.il\n"
+        }
+      ]
+    },
+    {
+      "title": "medicine storage",
+      "section_num": 5,
+      "data": [
+        {
+          "eng": "Avoid poisoning! This medicine and any other medicine must be kept in a closed place out of the reach and sight of children and/or infants to avoid poisoning. Do not induce vomiting without explicit instruction from the doctor.\n",
+          "heb": "מנע הרעלה! תרופה זו וכל תרופה אחרת יש לשמור במקום סגור מחוץ להישג ידם וטווח ראייתם של ילדים ו/או תינוקות ועל ידי כך תמנע הרעלה. אל תגרום להקאה ללא הוראה מפורשת מהרופא.\n"
+        },
+        {
+          "eng": "Do not use the medicine after the expiry date (exp. date) that appears on the package. The expiry date refers to the last day of that month. Do not discard any medicine in the wastewater or household waste. Ask your pharmacist how to dispose of medicines that you no longer use. These measures will help protect the environment.\n",
+          "heb": "אין להשתמש בתרופה אחרי תאריך התפוגה )date .exp )המופיע על גבי האריזה. תאריך התפוגה מתייחס ליום האחרון של אותו חודש. אל תזרוק תרופה כלשהיא באמצעות שפכים או פסולת ביתית. שאל את הרוקח שלך איך לזרוק את התרופות שאתה כבר לא משתמש בהן. צעדים אלו יסייעו להגן על איכות הסביבה.\n"
+        },
+        {
+          "eng": "Storage conditions:\n",
+          "heb": "תנאי אחסון:\n"
+        },
+        {
+          "eng": "Store at a temperature below 30°C. Close firmly to avoid penetration of light and humidity.\n",
+          "heb": "יש לאחסן בטמפרטורה מתחת ל- C.30° יש לסגור היטב למניעת חדירה של אור ולחות.\n"
+        },
+        {
+          "eng": "After opening for the first time, the preparation can be used for up to one month.\n",
+          "heb": "ניתן להשתמש בתכשיר עד חודש מרגע הפתיחה.\n"
+        }
+      ]
+    },
+    {
+      "title": "additional information",
+      "section_num": 6,
+      "data": [
+        {
+          "eng": "In addition to the active ingredient, the medicine also contains: saccharin, vanillin.\n",
+          "heb": "נוסף על החומר הפעיל התרופה מכילה גם: vanillin ,saccharin.\n"
+        },
+        {
+          "eng": "What the medicine looks like and the contents of the package: Kayexalate is a brownish-yellow powder, packaged in a 454 g container with a 15 g measuring spoon.\n",
+          "heb": "כיצד נראית התרופה ומה תוכן האריזה: קיאקסאלאט זו אבקה בצבע חום-צהוב, ארוזה במיכל של 454 גרם עם כפית מדידה של 15 גרם.\n"
+        },
+        {
+          "eng": "License Holder and Importer and its address: sanofi-aventis Israel ltd. Address: P.O.B 8090, Netanya. Revised in September 2022 according to MOH guidelines.\n",
+          "heb": "בעל הרישום והיבואן וכתובתו: סאנופי אוונטיס ישראל בע״מ כתובת: ת.ד. ,8090 נתניה. נערך בספטמבר 2022 בהתאם להנחיות משרד הבריאות.\n"
+        },
+        {
+          "eng": "This leaflet does not contain all the information about your medicine. If you have any question or are not sure about anything, please ask your doctor.\n",
+          "heb": "עלון זה לא כולל את כל המידע על התכשיר. אם יש לך שאלה כלשהי או אינך בטוח בדבר מה אנא פנה לרופא.\n"
+        },
+        {
+          "eng": "Registration number of the medicine in the National Drug Registry of the Ministry of Health: 1415921158\n",
+          "heb": "מספר רישום התרופה בפנקס התרופות הממלכתי במשרד הבריאות: 1415921158\n"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,877 @@
+{
+    "title": "Rivotril",
+    "index": 0,
+    "dir_index": 63,
+    "title_lang": {
+        "title_eng": "Rivotril",
+        "title_heb": "ריווטריל"
+    },
+    "sections": [
+        {
+            "title": "General",
+            "section_num": "0",
+            "data": [
+                {
+                    "eng": "Patient package insert in accordance with the Pharmacists' Regulations - (Preparations) - 1986 ",
+                    "heb": "עלון לצרכן לפי תקנות הרוקחים (תכשירים) התשמ\"ו - 1986"
+                },
+                {
+                    "eng": "This medicine is dispensed with a doctor's prescription only",
+                    "heb": "התרופה משווקת על פי מרשם רופא בלבד "
+                },
+                {
+                    "eng": "Rivotril",
+                    "heb": "ריווטריל"
+                },
+                {
+                    "eng": "2.5 mg/ml",
+                    "heb": "2.5 מ\"ג/מ\"ל"
+                },
+                {
+                    "eng": "Drops",
+                    "heb": "טיפות"
+                },
+                {
+                    "eng": "Composition",
+                    "heb": "הרכב:"
+                },
+                {
+                    "eng": "1 ml Rivotril contains:",
+                    "heb": "1 מ\"ל ריווטריל מכיל:"
+                },
+                {
+                    "eng": "clonazepam 2.5 mg",
+                    "heb": "קלונאזפאם 2.5 מ\"ג"
+                },
+                {
+                    "eng": " For information on inactive ingredients, see section 6 - ‘Additional information’.",
+                    "heb": "* למידע על מרכיבים בלתי פעילים ראה סעיף 6 - \"מידע נוסף\"."
+                },
+                {
+                    "eng": "Read the entire leaflet carefully before you start using this medicine. This leaflet contains concise information about this medicine. If you have any further questions, consult your doctor or pharmacist. ",
+                    "heb": "קרא בעיון את העלון עד סופו בטרם תשתמש בתרופה. עלון זה מכיל מידע תמציתי על התרופה. אם יש לך שאלות נוספות, פנה אל הרופא או אל הרוקח."
+                },
+                {
+                    "eng": "This medicine has been prescribed to treat your illness. Do not pass it on to others. It may harm them, even if it seems to you that their medical condition is similar to yours.",
+                    "heb": "תרופה זו נרשמה לטיפול במחלתך. אל תעביר אותה לאחרים. היא עלולה להזיק להם אפילו אם נראה לך כי מצבם הרפואי דומה."
+                },
+                {
+                    "eng": "Introduction to patient leaflet for benzodiazepines",
+                    "heb": "הקדמה לעלון לצרכן לבנזודיאזפינים"
+                },
+                {
+                    "eng": "This medicine belongs to a group of medicines called benzodiazepines, which have special properties, and require extreme caution when used. Close medical follow-up is very important when taking this medicine",
+                    "heb": "תרופה זו שייכת לקבוצת הבנזודיאזפינים, שלה תכונות מיוחדות המחייבות זהירות רבה בשימוש בה. יש חשיבות רבה במעקב רפואי צמוד עם נטילת תרופה זו."
+                },
+                {
+                    "eng": "The following section relates only to short-term treatment with the medicine:",
+                    "heb": "הפסקה הבאה מתייחסת רק לטיפול קצר טווח בתרופה:"
+                },
+                {
+                    "eng": "When you take this medicine, be sure to contact your doctor after 2 to 4 weeks, as the treatment is only intended for short periods of time.",
+                    "heb": "כאשר הינך נוטל תרופה זו הקפד לפנות לרופא לאחר 2 עד 4 שבועות, כיוון שהטיפול נועד לתקופות קצרות בלבד."
+                },
+                {
+                    "eng": "Prolonged use of the medicine may cause it to become less effective",
+                    "heb": " שימוש ממושך בתרופה עלול לגרום לכך שהשפעת התרופה תפחת"
+                },
+                {
+                    "eng": "Prolonged use may cause a serious side effect of dependence, where it will be difficult for the patient to stop taking the medicine.",
+                    "heb": "שימוש ממושך עלול לגרום לתופעה קשה של תלות, אשר תקשה על החולה להפסיק ליטול את התרופה"
+                },
+                {
+                    "eng": "Uncontrolled discontinuation of treatment may be accompanied by withdrawal symptoms such as tension, nervousness, confusion, tremor, insomnia, abdominal pain, vomiting, nausea, sweating, spasms, cramps and muscle pain.",
+                    "heb": "הפסקת טיפול בלתי מבוקרת עלולה להיות מלווה בתופעות גמילה, כגון מתח, עצבנות, בלבול, רעד, נדודי שינה, כאבי בטן, הקאות, בחילות, זיעה, עוויתות, התכווצויות וכאבי שרירים."
+                },
+                {
+                    "eng": "At times, prolonged use of medicine may cause changes in behavioral patterns and intrusive thoughts",
+                    "heb": "לעיתים, שימוש ממושך בתרופה עלול לגרום לשינויים בדפוסי התנהגות ומחשבות טורדניות."
+                },
+                {
+                    "eng": "Particularly in the elderly, it is recommended to use caution when walking, as the medicine inhibits alertness and at times coordination of body movements, and therefore there is a concern of slips or falls.",
+                    "heb": "במיוחד אצל קשישים מומלץ להישמר בעת ההליכה, כיוון שהתרופה פוגמת בערנות ולעיתים בתיאום תנועות הגוף, ועל -כן יש חשש למעידות או נפילות. "
+                },
+                {
+                    "eng": "Taking this medicine along with opioids, other central nervous system depressants (including drugs) or alcohol may cause a sense of deep drowsiness, difficulty breathing (respiratory depression), coma and death.",
+                    "heb": "נטילת תרופה זו עם תרופות ממשפחת האופיואידים, תרופות אחרות המדכאות מערכת עצבים מרכזית (כולל סמים) או אלכוהול עלולה לגרום לתחושת ישנוניות עמוקה, קשיי נשימה (דיכוי נשימתי) ,תרדמת ומוות."
+                }
+            ]
+        },
+        {
+            "title": "medicine intended for",
+            "section_num": "1",
+            "data": [
+                {
+                    "eng": "1. What is this medicine intended for?",
+                    "heb": "1. למה מיועדת התרופה?"
+                },
+                {
+                    "eng": "The medicine is intended for treatment of epilepsy or panic disorder.",
+                    "heb": "התרופה מיועדת לטיפול באפילפסיה (מחלת הנפילה) או בהתקפי חרדה"
+                },
+                {
+                    "eng": "Therapeutic group: ",
+                    "heb": "קבוצה תרפויטית: "
+                },
+                {
+                    "eng": "Rivotril belongs to a group of medicines called benzodiazepines.",
+                    "heb": "ריווטריל שייך לקבוצת תרופות הנקראת בנזודיאזפינים ."
+                }
+            ]
+        },
+        {
+            "title": "before using the medicine",
+            "section_num": "2",
+            "data": [
+                {
+                    "eng": "2. Before using this medicine",
+                    "heb": "2. לפני השימוש בתרופה"
+                },
+                {
+                    "eng": "Do not use this medicine if:",
+                    "heb": "אין להשתמש בתרופה אם:"
+                },
+                {
+                    "eng": "• you are sensitive (allergic) to the active ingredient, clonazepam, or to any other benzodiazepines or to any of the other ingredients in this medicine (see section 6 - 'Additional information').",
+                    "heb": "• אתה רגיש (אלרגי) לחומר הפעיל קלונאזפאם או לכל בנזודיאזפין אחר או לכל אחד מהמרכיבים הנוספים אשר מכילה התרופה (ראה סעיף 6 – 'מידע נוסף')."
+                },
+                {
+                    "eng": "• you have chronic obstructive airways disease with incipient respiratory failure.",
+                    "heb": "• יש לך מחלה חסימתית של דרכי נשימה כרונית עם התחלה של כשל נשימתי."
+                },
+                {
+                    "eng": "• you have severe liver failure, as benzodiazepines may accelerate hepatic encephalopathy.",
+                    "heb": "• יש לך אי ספיקה כבדית חמורה מאחר שבנזודיאזפינים עלולים להאיץ אנצפלופתיה כבדית."
+                },
+                {
+                    "eng": "• you are dependent on addictive medicines and central nervous system depressants, including alcohol.",
+                    "heb": "• יש לך תלות בתרופות ממכרות ובמדכאי מערכת העצבים המרכזית, כולל אלכוהול."
+                },
+                {
+                    "eng": "This medicine may be addictive. The risks are greater for patients with higher dosages or longterm treatment, or patients with a history of alcohol or drug abuse.",
+                    "heb": "תרופה זו עלולה להיות ממכרת. הסיכונים גדולים יותר עבור מטופלים במינונים גבוהים או בטיפול ארוך טווח, או מטופלים אשר יש להם היסטוריה של אלכוהול או שימוש לרעה בסמים."
+                },
+                {
+                    "eng": "Special warnings about using this medicine",
+                    "heb": "אזהרות מיוחדות הנוגעות לשימוש בתרופה "
+                },
+                {
+                    "eng": "Rivotril should be taken as drops only. See section 3 - ‘How to use this medicine?’ for more information. If you are unsure about whether you need to use Rivotril, contact your doctor.",
+                    "heb": "יש לקחת ריווטריל כטיפות בלבד. ראה סעיף 3 – \"כיצד תשתמש בתרופה?\" למידע נוסף. אם אינך בטוח האם אתה צריך להשתמש בריווטריל, פנה לרופא."
+                },
+                {
+                    "eng": "Before treatment with Rivotril, tell your doctor if:",
+                    "heb": "לפני הטיפול בריווטריל, ספר לרופא אם:"
+                },
+                {
+                    "eng": "• you are pregnant, became pregnant during treatment with Rivotril or are planning to become pregnant: It is unknown whether Rivotril harms an unborn baby when taken by a pregnant woman. If you need to take Rivotril when you are pregnant, your doctor will discuss with you the risks and benefit for you and your unborn baby.",
+                    "heb": "• את בהיריון, נכנסת להיריון במהלך הטיפול בריווטריל או מתכננת להיות בהיריון: לא ידוע האם ריווטריל מזיק לעובר כאשר הוא ניטל על-ידי אשה בהיריון. אם יש צורך לקחת ריווטריל כאשר את בהיריון, הרופא ידון איתך בסיכונים ובתועלת עבורך ועבור העובר."
+                },
+                {
+                    "eng": "• you have health problems, including:",
+                    "heb": "• יש לך בעיות בריאותיות, כולל:"
+                },
+                {
+                    "eng": "o liver, kidney or lung disease",
+                    "heb": "o מחלת כבד, כליה או ריאה"
+                },
+                {
+                    "eng": "o high or low blood pressure",
+                    "heb": "o לחץ דם גבוה או נמוך"
+                },
+                {
+                    "eng": "o myasthenia gravis (severe muscle weakness)",
+                    "heb": "o מיאסטניה גראביס (חולשת שרירים חמורה)"
+                },
+                {
+                    "eng": "o sleep apnea (a condition in which you have temporary pauses in breathing during sleep)",
+                    "heb": "o דום נשימה (מצב שבו יש לך הפסקות זמניות בנשימה במהלך שינה)"
+                },
+                {
+                    "eng": "o glaucoma (a condition in which there is high pressure in the eye)",
+                    "heb": "o גלאוקומה (מצב שבו יש לך לחץ גבוה בעין)"
+                },
+                {
+                    "eng": "o depression, psychosis or schizophrenia and/or if you have had depression or suicidal thoughts in the past",
+                    "heb": "o דיכאון, פסיכוזה או סכיזופרניה ו/או היה לך דיכאון או מחשבות אובדניות בעבר"
+                },
+                {
+                    "eng": "o porphyria (a rare disorder in blood pigment)",
+                    "heb": "o פורפיריה (הפרעה נדירה בפיגמנט בדם)"
+                },
+                {
+                    "eng": "o history of alcohol or drug abuse",
+                    "heb": "o היסטוריה של שימוש לרעה באלכוהול או סמים"
+                },
+                {
+                    "eng": "Additional warnings:",
+                    "heb": "אזהרות נוספות:"
+                },
+                {
+                    "eng": "• Tell the doctor, dentist and pharmacist treating you that you are taking Rivotril.",
+                    "heb": "• ספר לרופא, לרופא השיניים ולרוקח המטפלים בך כי אתה נוטל ריווטריל."
+                },
+                {
+                    "eng": "• Tell your doctor if, for any reason, you did not take the medicine according to their instructions. This is because the doctor may think that the medicine is ineffective and change your treatment unnecessarily.",
+                    "heb": "• ספר לרופא אם מסיבה כלשהי לא נטלת את התכשיר בהתאם להנחיותיו. זאת מאחר שהרופא עלול לחשוב שהתכשיר אינו יעיל ועלול לשנות את טיפולך שלא לצורך."
+                },
+                {
+                    "eng": "• Tell your doctor if you feel that Rivotril is not helping your medical condition.",
+                    "heb": "• ספר לרופא אם אתה חש שריווטריל אינו עוזר למצבך הרפואי."
+                },
+                {
+                    "eng": "• Make sure you are under continuous medical follow-up.",
+                    "heb": "• יש להקפיד על מעקב רפואי רציף."
+                },
+                {
+                    "eng": "• Make sure that you have a sufficient amount of the medicine over the weekend or on holidays.",
+                    "heb": "• יש להקפיד כי תהיה ברשותך כמות מספקת של תכשיר במהלך סוף השבוע או בחגים."
+                },
+                {
+                    "eng": "• Do not use Rivotril to treat other medical conditions without being instructed to do so by your doctor.",
+                    "heb": "• אין להשתמש בריווטריל לטיפול במצבים רפואיים אחרים ללא הנחיית הרופא."
+                },
+                {
+                    "eng": "• Caution is required with the elderly, patients who do not feel well, after drinking alcohol or after taking other medicines - some of the users may feel side effects such as drowsiness, confusion, dizziness or instability, which may increase the risk of falls. The treating doctor will instruct abstaining from alcohol during treatment with Rivotril.",
+                    "heb": "• זהירות נדרשת בקשישים, במטופלים שאינם חשים בטוב, לאחר שתיית אלכוהול או לאחר נטילת תרופות אחרות – חלק מהמשתמשים עשויים להרגיש תופעות לוואי כגון נמנום, בלבול, סחרחורת או חוסר יציבות אשר עלולים להגדיל את הסיכון לנפילות. הרופא המטפל יורה להימנע מאלכוהול בעת טיפול בריווטריל."
+                },
+                {
+                    "eng": "Children and adolescents",
+                    "heb": "ילדים ומתבגרים"
+                },
+                {
+                    "eng": "The safety and efficacy of the Rivotril in treatment of panic disorder in children under the age of 18 is unknown.",
+                    "heb": "הבטיחות והיעילות של ריווטריל בטיפול בהתקפי חרדה בילדים מתחת לגיל 18 איננה ידועה."
+                },
+                {
+                    "eng": "Tests and follow-up",
+                    "heb": "בדיקות ומעקב"
+                },
+                {
+                    "eng": "While being treated with Rivotril, your doctor may refer you for blood tests and other tests for time to time to check your progress and identify side effects.",
+                    "heb": "במשך תקופת הטיפול בריווטריל, ייתכן שתופנה על-ידי הרופא לבדיקות דם ובדיקות אחרות מעת לעת על מנת לבדוק את התקדמותך ולזהות תופעות לוואי."
+                },
+                {
+                    "eng": "Drug interactions",
+                    "heb": "תגובות בין תרופתיות"
+                },
+                {
+                    "eng": "If you are taking or have recently taken other medicines, including nonprescription medications and dietary supplements, tell your doctor or pharmacist. Particularly if you are taking: ",
+                    "heb": "אם אתה לוקח או אם לקחת לאחרונה תרופות אחרות כולל תרופות ללא מרשם ותוספי תזונה, ספר על כך לרופא או לרוקח. במיוחד אם אתה לוקח:"
+                },
+                {
+                    "eng": "• Sleeping pills, sleep-inducing or relaxing substances",
+                    "heb": "• טבליות לשינה, חומרים משרי שינה או מרגיעים"
+                },
+                {
+                    "eng": "• Medicines for depression",
+                    "heb": "• תרופות לדיכאון"
+                },
+                {
+                    "eng": "• Medicines for epilepsy",
+                    "heb": "• תרופות לאפילפסיה"
+                },
+                {
+                    "eng": "• Medicines for allergies or colds such as antihistamines",
+                    "heb": "• תרופות לאלרגיות או צינון כגון אנטי-היסטמינים"
+                },
+                {
+                    "eng": "• Pain relievers",
+                    "heb": "• משככי כאבים"
+                },
+                {
+                    "eng": "• Muscle relaxants",
+                    "heb": "• מרפי שרירים"
+                },
+                {
+                    "eng": "• Anesthetics",
+                    "heb": "• חומרים מאלחשים"
+                },
+                {
+                    "eng": "• Cimetidine - a medicine used to treat ulcers",
+                    "heb": "• סימטידין – תרופה המשמשת לטיפול בכיבים"
+                },
+                {
+                    "eng": "• Disulfiram - a medicine used to treat alcohol abuse",
+                    "heb": "• דיסולפיראם – תרופה המשמשת לטיפול בשימוש לרעה באלכוהול"
+                },
+                {
+                    "eng": "These medicines may affect Rivotril or may affect the manner in which Rivotril works. Your doctor or pharmacist can tell you what to do if you take any of these medicines. They also have a more complete list of medicines you should be cautious with or refrain from using when taking Rivotril.",
+                    "heb": "תרופות אלה עשויות להיות מושפעות על-ידי ריווטריל או עלולות להשפיע על האופו שבו ריווטריל פועל. הרופא או הרוקח יכולים לספר לך מה לעשות את אתה נוטל כל אחת מתרופות אלה. יש להם בנוסף רשימה מלאה יותר של תרופות אשר יש להיזהר או להימנע מהן כאשר לוקחים ריווטריל."
+                },
+                {
+                    "eng": "If you have not informed your doctor about any medicine mentioned above, tell them before you start using Rivotril.",
+                    "heb": "אם לא סיפרת לרופא על כל תרופה המצוינת לעיל, ספר לו בטרם אתה מתחיל לעשות שימוש בריווטריל."
+                },
+                {
+                    "eng": "Using this medicine and alcohol consumption",
+                    "heb": "שימוש בתרופה וצריכת אלכוהול "
+                },
+                {
+                    "eng": "Do not drink alcohol when taking Rivotril. Alcohol may increase the effects of Rivotril and lead to severe side effects.",
+                    "heb": "אל תשתה אלכוהול כאשר אתה נוטל ריווטריל. אלכוהול עלול להגביר את ההשפעות של ריווטריל ולהוביל לתופעות לוואי חמורות."
+                },
+                {
+                    "eng": "Pregnancy and breastfeeding ",
+                    "heb": "היריון והנקה"
+                },
+                {
+                    "eng": "If you need to take Rivotril when you are pregnant, your doctor will discuss the risks and benefit for you and your unborn baby.",
+                    "heb": "אם יש צורך לקחת ריווטריל כאשר את בהיריון, הרופא ידון בסיכונים ובתועלת עבורך ועבור העובר. "
+                },
+                {
+                    "eng": "you are breastfeeding or plan to breastfeed: Rivotril is excreted into breast milk and may cause drowsiness and/or feeding difficulties in the baby. Rivotril is not recommended for use when breastfeeding.",
+                    "heb": " אם את מניקה או מתכננת להניק: ריווטריל עובר לחלב אם ועלול לגרום לנמנום ו/או קשיי הנקה לתינוק. ריווטריל אינו מומלץ לשימוש בהנקה."
+                },
+                {
+                    "eng": "Driving and using machines",
+                    "heb": "נהיגה ושימוש במכונות"
+                },
+                {
+                    "eng": "Do not drive or operate machines until you know how the medicine affects you. ",
+                    "heb": "אין לנהוג או להפעיל מכונות עד אשר תדע כיצד התכשיר משפיע עליך"
+                },
+                {
+                    "eng": "Rivotril may cause drowsiness or dizziness in some patients and therefore could affect alertness. ",
+                    "heb": "ריווטריל עלול לגרום לנמנום או סחרחורת בחלק מהמטופלים ולכן עשוי להשפיע על הערנות"
+                },
+                {
+                    "eng": "Make sure that you know how the medicine affects you before you drive a car or operate machines or perform any other action that could be dangerous if you are drowsy, dizzy or unfocused.",
+                    "heb": "ודא כי אתה יודע כיצד התכשיר משפיע עליך לפני שאתה נוהג ברכב או מפעיל מכונות או עושה כל פעילות אחרת אשר עלולה להיות מסוכנת אם אתה מנומנם, מסוחרר או לא מרוכז."
+                },
+                {
+                    "eng": "Children should be cautioned against riding a bicycle, playing near a road, and the like.",
+                    "heb": "באשר לילדים, יש להזהירם מרכיבה על אופניים או ממשחקים בקרבת הכביש וכדומה."
+                }
+            ]
+        },
+        {
+            "title": "how to use the medicine",
+            "section_num": "3",
+            "data": [
+                {
+                    "eng": "3. How to use this medicine?",
+                    "heb": "3. כיצד תשתמש בתרופה?"
+                },
+                {
+                    "eng": "Always use this medicine according to your doctor's instructions. Check with your doctor or pharmacist if you are not sure about your dose or about how to take this medicine. Only your doctor will determine your dose and how you should take this medicine. ",
+                    "heb": "יש להשתמש בתכשיר תמיד בהתאם להוראות הרופא. עליך לבדוק עם הרופא או הרוקח אם אינך בטוח בנוגע למינון ואופן הטיפול בתכשיר. המינון ואופן הטיפול יקבעו על ידי הרופא בלבד."
+                },
+                {
+                    "eng": "Rivotril can be taken with or without food.",
+                    "heb": "ניתן לקחת ריווטריל עם או ללא אוכל."
+                },
+                {
+                    "eng": "Standard dosage in epilepsy",
+                    "heb": "מינון מקובל באפילפסיה"
+                },
+                {
+                    "eng": "The dosage of Rivotril must be individually adjusted for each patient according to the patient’s clinical response, tolerance of the drug and the patient’s age.",
+                    "heb": "המינון של ריווטריל צריך להיות מותאם בנפרד לכל מטופל בהתאם לתגובה הקלינית של המטופל, הסבילות של התרופה וגיל המטופל."
+                },
+                {
+                    "eng": "A single oral dose of Rivotril begins to take effect within 30-60 minutes and remains effective for 6-8 hours in children and 8-12 hours in adults. ",
+                    "heb": "מנה אחת של ריווטריל דרך הפה מתחילה להשפיע בתוך 30-60 דקות ונשארת יעילה במשך 6-8 שעות בילדים ו-8-12 שעות במבוגרים."
+                },
+                {
+                    "eng": "To avoid side effects at the beginning of treatment, it is essential to start treatment with Rivotril at a low dose and increase the daily dose progressively until the maintenance dose suited to the individual patient has been reached.",
+                    "heb": "כדי להימנע מתופעות לוואי בתחילת הטיפול, חיוני להתחיל את הטיפול בריווטריל במינון נמוך ולהעלות את המינון היומי באופן הדרגתי עד להגעה למינון האחזקה אשר מתאים לכל מטופל בנפרד."
+                },
+                {
+                    "eng": "The initial dose for infants and children up to the age of 10 years (or up to 30 kg of body weight):",
+                    "heb": "פעוטות וילדים עד גיל 10 (או עד משקל של 30 ק\"ג): "
+                },
+                {
+                    "eng": "The initial dose is 0.01-0.03 mg/kg of bodyweight daily, given in 2-3 divided doses. The daily maximum dose in children is 0.2 mg/kg of bodyweight and should not be exceeded.",
+                    "heb": "המינון ההתחלתי הינו 0.01-0.03 מ\"ג לכל ק\"ג משקל גוף ביום, הניתן ב-2-3 מנות מחולקות. המינון היומי המקסימלי בילדים הינו 0.2 מ\"ג לכל ק\"ג משקל גוף ואין לעבור אותו."
+                },
+                {
+                    "eng": "Children aged 10 to 16: The initial dose is 1-1.5 mg/day, given in 2-3 divided doses. The dose may be increased gradually until the individual maintenance dose (usually 3-6 mg/day) is reached.",
+                    "heb": "ילדים בגיל 10 עד 16: המינון ההתחלתי הינו 1-1.5 מ\"ג ליום הניתן ב-2-3 מנות מחולקות. המינון יעלה באופן הדרגתי עד להגעה למינון האחזקתי האישי (בדרך כלל 3-6 מ\"ג ליום)."
+                },
+                {
+                    "eng": "Adults: The initial dose for adults should not exceed 1.5 mg/day divided into 3 doses. ",
+                    "heb": "מבוגרים: אין לעבור את המינון ההתחלתי למבוגרים שהינו 1.5 מ\"ג ליום המחולק ל-3 מנות."
+                },
+                {
+                    "eng": "Usually a maintenance dose of 3-6 mg per day is sufficient. The maximum therapeutic dose for adults is 20 mg daily and should not be exceeded.",
+                    "heb": "בדרך כלל מינון אחזקתי של 3-6 מ\"ג ליום מספיק. המינון התרפויטי המקסימלי למבוגרים הינו 20 מ\"ג ליום ואין לעבור אותו."
+                },
+                {
+                    "eng": "The daily dose should be divided into 3 equal doses. If doses are not equally divided, the largest dose should be taken before retiring. The maintenance dose level is best attained after 1-3 weeks of treatment. Once the maintenance dose level has been reached, the daily amount may be given in a single dose in the evening.",
+                    "heb": "יש לחלק את המינון היומי ל-3 מנות שוות. אם המנות לא מחולקות באופן שווה, יש לקחת את המנה הגדולה ביותר לפני השינה. רמת מינון האחזקה מושגת בצורה הטובה ביותר לאחר טיפול של 1-3 שבועות. לאחר שמגיעים לרמת מינון האחזקה, ניתן לקחת את הכמות היומית במנה אחת בערב."
+                },
+                {
+                    "eng": "Standard dosage in panic disorder",
+                    "heb": "מינון מקובל בהתקפי חרדה"
+                },
+                {
+                    "eng": "The initial dose for adults with panic disorder is 0.25 mg twice daily (0.5 mg/day).",
+                    "heb": "המינון ההתחלתי עבור מבוגרים עם חרדה הינו 0.25 מ\"ג פעמיים ביום (0.5 מ\"ג ליום)."
+                },
+                {
+                    "eng": "The usual maintenance dose is 1 mg twice daily (2 mg/day). A maximum dose of 2 mg twice daily (4 mg/day) may be prescribed by the doctor in exceptional cases.",
+                    "heb": "מינון האחזקה הרגיל למבוגרים הינו 1 מ\"ג פעמיים ביום (2 מ\"ג ליום). מינון מקסימלי של 2 מ\"ג פעמיים ביום (4 מ\"ג ליום) עשוי להירשם על ידי הרופא במקרים יוצאי דופן."
+                },
+                {
+                    "eng": "Once a stable dose is achieved, patients may switch to a once daily dose, usually taken at bedtime.",
+                    "heb": "לאחר שמגיעים למינון יציב, מטופלים יכולים להחליף למנה אחת ביום, הניתנת בדרך כלל לפני השינה. "
+                },
+                {
+                    "eng": "Treatment should be discontinued gradually.",
+                    "heb": "הפסקת טיפול צריכה להיעשות בהדרגה."
+                },
+                {
+                    "eng": "Do not exceed the recommended dose",
+                    "heb": "אין לעבור על המנה המומלצת. "
+                },
+                {
+                    "eng": "Directions for use: ",
+                    "heb": "אופן השימוש: "
+                },
+                {
+                    "eng": "Measure the prescribed dose of Rivotril as drops only",
+                    "heb": "מדוד את מנת הריווטריל שנרשמה כטיפות בלבד."
+                },
+                {
+                    "eng": "Do not administer drops directly into the mouth from the bottle",
+                    "heb": "אין לטפטף ישירות מן הבקבוק לפה."
+                },
+                {
+                    "eng": "After each administration, ensure that the dropper is secure in the neck of the bottle. Drops should be given with a spoon. ",
+                    "heb": "לאחר כל מתן, ודא כי המזלף מאובטח במקומו בתוך צוואר הבקבוק. יש לתת את הטיפות בכפית."
+                },
+                {
+                    "eng": "After each opening of the bottle, make sure the dropper is secured within the neck of the bottle.",
+                    "heb": "לאחר כל פתיחה של הבקבוק יש לוודא כי המזלף מאובטח במקומו בתוך צוואר הבקבוק."
+                },
+                {
+                    "eng": "Rivotril may be diluted in water, tea or fruit juice.",
+                    "heb": "ניתן למהול את התכשיר ריווטריל במים, תה או מיץ פירות."
+                },
+                {
+                    "eng": "Continue taking Rivotril until your doctor tells you to stop. Do not take the medicine for a longer period of time than prescribed by the doctor. ",
+                    "heb": "יש להמשיך לקחת ריווטריל עד אשר הרופא אומר לך להפסיק. אין ליטול את התכשיר למשך זמן ארוך יותר ממה שנרשם לך על ידי הרופא."
+                },
+                {
+                    "eng": "If you are not sure what to do, ask your doctor or pharmacist.",
+                    "heb": "אם אינך בטוח מה לעשות, שאל את הרופא או הרוקח"
+                },
+                {
+                    "eng": "If you have accidentally taken a higher dose",
+                    "heb": "אם נטלת בטעות מינון גבוה יותר"
+                },
+                {
+                    "eng": "If you think that you or any other person has used a higher dose of Rivotril or if a child has accidentally swallowed some medicine, tell the doctor immediately or go to a hospital emergency room and bring the medicine package with you.",
+                    "heb": "אם אתה חושב שאתה או כל אדם אחר השתמש במינון גבוה יותר של ריווטריל או אם בטעות בלע ילד מן התרופה, ספר על כך מיד לרופא או פנה לחדר מיון של בית חולים והבא את אריזת התרופה איתך."
+                },
+                {
+                    "eng": "Do this even if there are no signs of discomfort or poisoning. You may require urgent medical care.",
+                    "heb": "עשה זאת אפילו אם אין סימנים של אי נוחות או הרעלה. אתה עשוי להזדקק לטיפול רפואי דחוף."
+                },
+                {
+                    "eng": "If you have taken too much Rivotril, you may feel drowsiness, tired, confused, dizzy, you have difficulty breathing, you feel weak or are unconscious. ",
+                    "heb": "אם נטלת יותר מדי ריווטריל אתה עלול לחוש מטושטש, עייף, מבולבל, מסוחרר, לסבול מקשיי נשימה, חולשה או מחוסר הכרה."
+                },
+                {
+                    "eng": "If you forget to take the medicine ",
+                    "heb": "אם שכחת ליטול את התרופה"
+                },
+                {
+                    "eng": "If it is almost time for your next dose, skip the forgotten dose and take the next dose at your regular time. If not, take the dose you missed immediately after remembering and then continue as usual.",
+                    "heb": "אם כמעט הגיע הזמן למנה הבאה שלך, דלג על המנה ששכחת וקח את המנה הבאה בזמן הקבוע שלך. אם לא, קח את המנה ששכחת מיד כשנזכרת ולאחר מכן המשך לקחת כרגיל."
+                },
+                {
+                    "eng": "Do not take a double dose to make up for a forgotten dose.",
+                    "heb": "אין ליטול מנה כפולה על מנת לפצות על מנה שנשכחה."
+                },
+                {
+                    "eng": "Adhere to the treatment as recommended by your doctor. Even if your health improves, do not stop taking this medicine without consulting your doctor.",
+                    "heb": "יש להתמיד בטיפול כפי שהומלץ על ידי הרופא. גם אם חל שיפור במצב בריאותך, אין להפסיק הטיפול בתרופה ללא התייעצות עם הרופא."
+                },
+                {
+                    "eng": "Reducing the dosage or discontinuing treatment must be done gradually according to the doctor’s instruction. Sudden termination of treatment with Rivotril may cause the appearance of undesirable effects. Your doctor will explain to you how you should gradually lower the dose of Rivotril until you can completely discontinue use.",
+                    "heb": "הורדת המינון או הפסקת הטיפול חייבת להיעשות בהתאם להנחיית הרופא ובאופן הדרגתי. הפסקה פתאומית של הטיפול בריווטריל, עלולה לגרום להופעת תופעות בלתי רצויות. הרופא יסביר לך כיצד עליך להפחית בהדרגה את המינון של ריווטריל עד אשר תוכל להפסיק את השימוש לגמרי."
+                },
+                {
+                    "eng": "Do not take medicines in the dark! Check the label and dose each time you take a medicine. Wear glasses if you need them. ",
+                    "heb": "אין ליטול תרופות בחושך! בדוק התווית והמנה בכל פעם שאתה נוטל תרופה. הרכב משקפיים אם הינך זקוק להם."
+                },
+                {
+                    "eng": "If you have any further questions about using this medicine, consult your doctor or pharmacist.",
+                    "heb": "אם יש לך שאלות נוספות בנוגע לשימוש בתרופה, היוועץ ברופא או ברוקח."
+                }
+            ]
+        },
+        {
+            "title": "side effects",
+            "section_num": "4",
+            "data": [
+                {
+                    "eng": "4. Side effects",
+                    "heb": "4. תופעות לוואי"
+                },
+                {
+                    "eng": "Like with all medicines, using Rivotril may cause side effects in some users. Do not be alarmed by this list of side effects. You may not experience any of them. You may require medical care if you experience some of the side effects.",
+                    "heb": "כמו בכל תרופה, השימוש בריווטריל עלול לגרום לתופעות לוואי בחלק מהמשתמשים. אל תיבהל למקרא רשימת תופעות הלוואי. ייתכן שלא תסבול מאף אחת מהן. אתה עלול להזדקק לטיפול רפואי אם תחווה חלק מתופעות הלוואי."
+                },
+                {
+                    "eng": "Tell your treating doctor or pharmacist as soon as possible if you do not feel well during treatment with Rivotril.",
+                    "heb": "ספר לרופא המטפל או לרוקח בהקדם האפשרי אם אתה חש ברע במהלך הטיפול בריווטריל."
+                },
+                {
+                    "eng": "Contact your doctor immediately or go to the hospital emergency room closest to your home if you feel one of the following:",
+                    "heb": "יש לפנות מיד לרופא או לפנות לחדר מיון של בית חולים הקרוב לביתך אם אתה מרגיש אחד מהבאים:"
+                },
+                {
+                    "eng": "• Difficulty breathing",
+                    "heb": "• קשיים בנשימה"
+                },
+                {
+                    "eng": "• Sudden anxiety or excitement",
+                    "heb": "• חרדה או התרגשות פתאומיים"
+                },
+                {
+                    "eng": "• Delusions or hallucinations",
+                    "heb": "• הזיות או אשליות"
+                },
+                {
+                    "eng": "• Severe sleep disorders",
+                    "heb": "• הפרעות שינה חמורות"
+                },
+                {
+                    "eng": "These are severe side effects that may require urgent medical care. These side effects are rare.",
+                    "heb": "אלו תופעות לוואי חמורות אשר עלולות להצריך טיפול רפואי דחוף. תופעות לוואי אלה הינן נדירות."
+                },
+                {
+                    "eng": "Tell your doctor if you one of the following side effects:",
+                    "heb": "ספר לרופא אם אתה מרגיש אחת מתופעות הלוואי הבאות:"
+                },
+                {
+                    "eng": "• Drowsiness, tiredness",
+                    "heb": "• נמנום, עייפות"
+                },
+                {
+                    "eng": "• Dizziness, instability",
+                    "heb": "• סחרחורת, חוסר יציבות"
+                },
+                {
+                    "eng": "• Muscular weakness",
+                    "heb": "• חולשת שרירים"
+                },
+                {
+                    "eng": "• Tremor",
+                    "heb": "• רעד"
+                },
+                {
+                    "eng": "• Memory loss, inattention, confusion, lack of focus",
+                    "heb": "• אובדן זיכרון, חוסר תשומת לב, בלבול, חוסר ריכוז"
+                },
+                {
+                    "eng": "• Headache, feeling hungover in the morning",
+                    "heb": "• כאב ראש, הרגשת חמרמורת (הנגאובר) בבוקר"
+                },
+                {
+                    "eng": "• Slurred speech (swallowing words)",
+                    "heb": "• דיבור לא ברור (בליעת מילים)"
+                },
+                {
+                    "eng": "• Unpleasant dreams",
+                    "heb": "• חלומות לא נעימים"
+                },
+                {
+                    "eng": "• Palpitations",
+                    "heb": "• דפיקות לב"
+                },
+                {
+                    "eng": "• Vomiting",
+                    "heb": "• הקאות"
+                },
+                {
+                    "eng": "Additional side effects:",
+                    "heb": "תופעות לוואי נוספות:"
+                },
+                {
+                    "eng": "• Drowsiness",
+                    "heb": "• ישנוניות"
+                },
+                {
+                    "eng": "• Depression",
+                    "heb": "• דיכאון"
+                },
+                {
+                    "eng": "• Dizziness",
+                    "heb": "• סחרחורת"
+                },
+                {
+                    "eng": "• Nervousness",
+                    "heb": "• עצבנות"
+                },
+                {
+                    "eng": "• Ataxia",
+                    "heb": "• אטקסיה"
+                },
+                {
+                    "eng": "• Reduced intellectual ability",
+                    "heb": "• ירידה ביכולת האינטלקטואלית"
+                },
+                {
+                    "eng": "• Abnormal coordination",
+                    "heb": "• קואורדינציה לא תקינה"
+                },
+                {
+                    "eng": "• Problem speaking",
+                    "heb": "• פגם בדיבור"
+                },
+                {
+                    "eng": "• Memory impairment",
+                    "heb": "• הפרעות בזיכרון"
+                },
+                {
+                    "eng": "• Emotional instability",
+                    "heb": "• אי יציבות רגשית"
+                },
+                {
+                    "eng": "• Decreased sex drive (libido)",
+                    "heb": "• ירידה בדחף המיני (ליבידו)"
+                },
+                {
+                    "eng": "• Confusion",
+                    "heb": "• בלבול"
+                },
+                {
+                    "eng": "• Upper respiratory infection",
+                    "heb": "• זיהום בדרכי נשימה עליונות"
+                },
+                {
+                    "eng": "• Sinusitis",
+                    "heb": "• סינוסיטיס"
+                },
+                {
+                    "eng": "• Rhinitis",
+                    "heb": "• דלקת אף"
+                },
+                {
+                    "eng": "• Cough",
+                    "heb": "• שיעול"
+                },
+                {
+                    "eng": "• Pharyngitis",
+                    "heb": "• דלקת לוע"
+                },
+                {
+                    "eng": "• Bronchitis",
+                    "heb": "• דלקת סימפונות"
+                },
+                {
+                    "eng": "• Constipation",
+                    "heb": "• עצירות"
+                },
+                {
+                    "eng": "• Decreased appetite",
+                    "heb": "• ירידה בתיאבון"
+                },
+                {
+                    "eng": "• Abdominal pain",
+                    "heb": "• כאב בטן"
+                },
+                {
+                    "eng": "• Tiredness",
+                    "heb": "• עייפות"
+                },
+                {
+                    "eng": "• Allergic reaction",
+                    "heb": "• תגובה אלרגית"
+                },
+                {
+                    "eng": "• Muscle pain",
+                    "heb": "• כאבי שרירים"
+                },
+                {
+                    "eng": "• Flu",
+                    "heb": "• שפעת"
+                },
+                {
+                    "eng": "• Frequent urination",
+                    "heb": "• תכיפות בהטלת שתן"
+                },
+                {
+                    "eng": "• Urinary tract infection",
+                    "heb": "• זיהום בדרכי השתן"
+                },
+                {
+                    "eng": "• Blurry vision",
+                    "heb": "• ראייה מטושטשת"
+                },
+                {
+                    "eng": "• Women: Menstrual pain, vaginitis",
+                    "heb": "• נשים: כאבי וסת, דלקת בנרתיק"
+                },
+                {
+                    "eng": "• Men: Delayed ejaculation, impotence",
+                    "heb": "• גברים: עיכוב בפליטת זרע, אין אונות"
+                },
+                {
+                    "eng": "• Body as a whole: Weight increase, accident, weight decrease, wound, edema, fever, shivering, abrasions, ankle edema, foot edema, swelling around the eyes (periorbital edema), malaise, pain, inflammation of tissue beneath the skin (cellulitis), localized inflammation.",
+                    "heb": "• הגוף בכללותו: עלייה במשקל, תאונה, ירידה במשקל, פציעה, בצקת, חום, צמרמורת, שריטות, קרסול בצקתי, רגל בצקתית, בצקת סביב העיניים, חוסר נוחות, כאב, דלקת רקמה תת- עורית (צלוליטיס), דלקת מקומית."
+                },
+                {
+                    "eng": "• Heart disorders: Chest pain, postural hypotension",
+                    "heb": "• הפרעות לב: כאב בחזה, תת- לחץ דם בעמידה"
+                },
+                {
+                    "eng": "• Central and peripheral nervous system disorders: Migraine, prickling sensation (paresthesia), drunkenness, feeling unable to control urination (enuresis), partial paralysis (paresis), tremor, burning skin, falling, head fullness, hoarseness, hyperactivity, loss of sensation (hypoesthesia), thick tongue, twitching.",
+                    "heb": "• הפרעות מערכת העצבים המרכזית והפריפרית: מיגרנה, נימול, שיכרות, הרגשה של אי שליטה במתן שתן, שיתוק חלקי, רעד, עור צורב, נפילות, מלאות ראש, צרידות, היפראקטיביות, איבוד תחושה, לשון עבה, עוויתות."
+                },
+                {
+                    "eng": "• Gastrointestinal system disorders: abdominal discomfort, gastrointestinal inflammation, upset stomach, toothache, flatulence, heartburn (pyrosis), increased saliva, tooth disorders, frequent bowel movements, pelvic pain, indigestion (dyspepsia), hemorrhoids",
+                    "heb": "• הפרעות מערכת העיכול: אי נוחות בטנית, דלקת במערכת העיכול, קלקול קיבה, כאב שיניים, נפיחנות, צרבת, רוק מוגבר, הפרעות בשיניים, תנועות מעיים (יציאות) תכופות, כאב באגן, קשיי עיכול, טחורים"
+                },
+                {
+                    "eng": "• Hearing and vestibular disorders: vertigo, ear infection (otitis), earache, motion sickness",
+                    "heb": "• הפרעות שמיעה ואוזניים: ורטיגו, דלקת אוזניים, כאבי אוזניים, מחלת ים"
+                },
+                {
+                    "eng": "• Heart rhythm disorders: palpitations",
+                    "heb": "• הפרעות קצב לב: דפיקות לב"
+                },
+                {
+                    "eng": "• Metabolic and nutritional disorders: thirst, gout",
+                    "heb": "• הפרעות מטבוליזם ותזונה: צמא, שיגדון"
+                },
+                {
+                    "eng": "• Musculoskeletal system disorders: back pain, traumatic fracture, sprains, leg pain, nape pain, muscle cramps, leg cramps, ankle pain, shoulder pain, tendinitis, joint pain (arthralgia), hypertonia, lower back pain (lumbago), pain in feet, jaw pain, knee pain, swollen knee",
+                    "heb": "• הפרעות מערכת שריר- שלד: כאב גב, שבר טראומטי, נקע, כאב ברגל, כאב בעורף, עוויתות בשרירים, עוויתות ברגל, כאב בקרסול, כאב בכתף, דלקת גיד, כאב במפרק, היפרטוניה, כאב בגב תחתון (לומבאגו), כאב בכפות הרגליים, כאב בלסת, כאב בברך, ברך נפוחה"
+                },
+                {
+                    "eng": "• Blood system disorders: dermal bleeding",
+                    "heb": "• הפרעות מערכת הדם: רגל עם דלקת וריד ים פקקתית (תרומבופלביטיס )"
+                },
+                {
+                    "eng": "• Psychiatric disorders: insomnia, organic disinhibition, anxiety, depersonalization, excessive dreaming, loss of sex drive (libido), increased appetite, increased sex drive (libido), decreased reactions, aggression, apathy, disturbance in attention, excitement, anger, abnormal hunger, illusions, nightmares, sleep disorder, suicidal thoughts, yawning",
+                    "heb": "• הפרעות פסיכיאטריות: נדודי שינה, ביטול עכבות, חרדה, דפרסונליזציה, חלומות מוגזמים, איבוד הדחף המיני (ליבידו), הגברת תיאבון, עלייה בדחף המיני (ליבידו), ירידה בתגובות, תוקפנות, אדישות, הפרעה בקשב, התרגשות, זעם, רעב חריג, אשליות, סיוטים, הפרעה בשינה, מחשבות אובדניות, פיהוקים"
+                },
+                {
+                    "eng": "• Female reproductive system disorders: breast pain, menstrual irregularity",
+                    "heb": "• הפרעות מערכת רבייה נשית: כאב בשדיים, אי סדירות בווסת"
+                },
+                {
+                    "eng": "• Male reproductive system disorders: decreased ejaculation",
+                    "heb": "• הפרעות מערכת רבייה גברית: ירידה בפליטת זרע"
+                },
+                {
+                    "eng": "• Resistance mechanism disorders: fungal infection, viral infection, streptococcal infection, herpes simplex infection, mononucleosis, candidiasis",
+                    "heb": "• הפרעות במנגנוני עמידות: זיהום פטרייתי, זיהום נגיפי, זיהום סטרפטוקוק, זיהום הרפס סימפלקס, מונונוקלאזיס, קנדידיאזיס"
+                },
+                {
+                    "eng": "• Respiratory system disorders: Excessive sneezing, asthmatic attack, shortness of breath (dyspnea), nosebleed, pneumonia, pleurisy",
+                    "heb": "• הפרעות מערכת הנשימה: התעטשות ביתר, התקף אסתמה, קוצר נשימה, דימום מהאף, דלקת ריאות, דלקת צדר (פלאוריטיס)"
+                },
+                {
+                    "eng": "• Skin and appendages disorders: acne flare, balding (alopecia), xeroderma, contact dermatitis, flushing, itching (pruritus), pustular reaction, skin burns, skin disorders",
+                    "heb": "• הפרעות עור ונספחים : התפרצות אקנה, התקרחות, יובש עור, דלקת עור ממגע (קונטקט דרמטיטיס ), הסמקה, גרד, תגובה מוגלתית, כוויות בעור, הפרעות בעור"
+                },
+                {
+                    "eng": "• Disorders of the senses: taste loss",
+                    "heb": "• הפרעות חושים: איבוד טעם"
+                },
+                {
+                    "eng": "• Urinary system disorders: painful urination (dysuria), inflammation of the bladder (cystitis), excessive urination (polyuria), urinary incontinence, bladder dysfunction, urinary retention, urinary tract bleeding, urine discoloration",
+                    "heb": "• הפרעות מערכת השתן: כאב במתן שתן, דלקת שלפוחית השתן, השתנת יתר, אי שליטה במתן שתן, תפקוד לקוי של השלפוחית, אצירת שתן, דימום במערכת השתן, שינוי צבע השתן"
+                },
+                {
+                    "eng": "• Vascular disorders: Thrombophlebitis of the leg",
+                    "heb": "• הפרעות כלי דם: רגל עם דלקת וריד ים פקקתית (תרומבופלביטיס )"
+                },
+                {
+                    "eng": "• Vision disorders: eye irritation, visual disturbances, double vision (diplopia), eye twitching, styes, visual field defect, dry eye (xerophthalmia)",
+                    "heb": "• הפרעות ראייה: גירוי בעין, הפרעות בראייה, ראייה כפולה, עוויתות בעין, שעורה, פגם בשדה הראייה, יובש עין"
+                },
+                {
+                    "eng": "If you experience any side effect, if any side effect gets worse, or if you experience a side effect not mentioned in this leaflet, consult your doctor or pharmacist.",
+                    "heb": "אם הופיעה תופעת לוואי, אם אחת מתופעות הלוואי מחמירה, או כאשר אתה סובל מתופעת לוואי שלא צוינה בעלון, עליך להתייעץ עם הרופא או הרוקח ."
+                },
+                {
+                    "eng": "Reporting side effects",
+                    "heb": "דיווח על תופעות לוואי "
+                },
+                {
+                    "eng": "You can report side effects to the Ministry of Health by following the link ‘Reporting Side Effects of Drug Treatment’ on the Ministry of Health home page which links to an online form for reporting side effects. You can also use this link",
+                    "heb": "ניתן לדווח על תופעות לוואי למשרד הבריאות באמצעות לחיצה על הקישור \"דיווח על תופעות לוואי עקב טיפול תרופתי\" שנמצא בדף הבית של אתר משרד הבריאות המפנה לטופס המקוון לדיווח על תופעות לוואי, או ע\"י כניסה לקישור"
+                }
+            ]
+        },
+        {
+            "title": "medicine storage",
+            "section_num": "5",
+            "data": [
+                {
+                    "eng": "5. How to store the medicine?",
+                    "heb": "5. איך לאחסן את התרופה?"
+                },
+                {
+                    "eng": "Prevent poisoning! To prevent poisoning, keep this, and all other medicines, in a closed place, out of the reach and sight of children and/or infants. Do not induce vomiting unless explicitly instructed to do so by a doctor.",
+                    "heb": "מנע הרעלה! תרופה זו וכל תרופה אחרת יש לשמור במקום סגור מחוץ להישג ידם וטווח ראייתם של ילדים ו/או תינוקות ועל ידי כך תמנע הרעלה. אל תגרום להקאה ללא הוראה מפורשת מהרופא."
+                },
+                {
+                    "eng": "Do not use the medicine after the expiry date which is stated on the package. The expiry date refers to the last day of that month.",
+                    "heb": "אין להשתמש בתרופה אחרי תאריך התפוגה המופיע על גבי האריזה והבקבוק. תאריך התפוגה מתייחס ליום האחרון של אותו חודש."
+                },
+                {
+                    "eng": "Storage conditions:",
+                    "heb": "תנאי אחסון:"
+                },
+                {
+                    "eng": "• Do not store above 25°C. Store the bottle in an upright position.",
+                    "heb": "• אין לאחסן בטמפרטורה העולה על 25°C. יש לאחסן את הבקבוק כשהוא ניצב ישר."
+                },
+                {
+                    "eng": "• The medicine can be used for up to 120 days from the time of opening.",
+                    "heb": "• ניתן להשתמש בתרופה עד 120 ימים מיום פתיחתה."
+                },
+                {
+                    "eng": "• In case of doubt, consult the pharmacist who dispensed the medicine to you.",
+                    "heb": "• בכל מקרה של ספק, עליך להיוועץ ברוקח שסיפק לך את התרופה."
+                },
+                {
+                    "eng": "• Dispose of any unused medicine appropriately. Do not throw away the medicine via household waste or wastewater. Ask the pharmacist how to throw away medicines you no longer need. These steps will help protect the environment.",
+                    "heb": "• השלך באופן מתאים כל תרופה שלא נעשה בה שימוש. אין להשליך את התרופה לפח האשפה הביתי או למי הביוב. שאל את הרוקח כיצד להשליך תרופות שאין לך בהן יותר צורך. צעדים אלו יעזרו להגן על הסביבה."
+                }
+            ]
+        },
+        {
+            "title": "additional information",
+            "section_num": "6",
+            "data": [
+                {
+                    "eng": "6. Additional information",
+                    "heb": "6. מידע נוסף "
+                },
+                {
+                    "eng": "In addition to the active ingredient, this medicine also contains:",
+                    "heb": "נוסף על המרכיב הפעיל, התרופה מכילה גם:"
+                },
+                {
+                    "eng": "What the medicine looks like and contents of the pack: Rivotril is sold as clear, blue drops meant for swallowing. Each pack contains a bottle with 10 ml of Rivotril.",
+                    "heb": "כיצד נראית התרופה ומה תוכן האריזה: התרופה ריווטריל משווקת כטיפות צלולות בצבע כחול המיועדות לבליעה. כל אריזה מכילה בקבוק אחד ובו 10 מ\"ל של ריווטריל."
+                },
+                {
+                    "eng": "License holder’s name and address: Tzamal Bio-Pharma Ltd., 20 Hamagshimim St., PetahTikva",
+                    "heb": "שם בעל הרישום וכתובתו: צמל ביו-פארמה בע\"מ, רח' המגשימים 20, פתח-תקוה"
+                },
+                {
+                    "eng": "Manufacturer’s name and address: CHEPLAPHARM Ltd., Greifswald, Germany",
+                    "heb": "שם היצרן וכתובתו: צפלאפארם בע\"מ, גרייפסוואלד, גרמניה"
+                },
+                {
+                    "eng": "Revised in May 2021 in accordance with Ministry of Health guidelines",
+                    "heb": "נערך במאי 2021 בהתאם להנחיות משרד הבריאות."
+                },
+                {
+                    "eng": "Registration number of the medicine in the Ministry of Health’s National Drug Registry: 061-31-21476-00",
+                    "heb": "מספר רישום התרופה בפנקס התרופות הממלכתי במשרד הבריאות: 061-31-21476-00"
+                }
+            ]
+        }
+    ]
+}

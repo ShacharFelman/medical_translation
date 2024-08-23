@@ -9,7 +9,6 @@ uuid
 
 # Language detection and processing
 langdetect
-nltk
 scikit-learn
 
 # Document processing
@@ -20,14 +19,18 @@ htmldocx
 langchain
 langchain_openai
 langchain_anthropic
-langchain_community
-langchain-google-genai
 langchain_voyageai 
 
 # other llms
 openai
 openai-function-tokens
 anthropic
+
+# evaluation
+nltk
+# pyter
+sacrebleu
+jiwer
 
 # test requirements
 pandas

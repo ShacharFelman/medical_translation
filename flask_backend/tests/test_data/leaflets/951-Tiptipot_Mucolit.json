@@ -1,0 +1,361 @@
+{
+    "title": "Tiptipot Mucolit",
+    "index": 0,
+    "dir_index": 951,
+    "title_lang": {
+        "title_eng": "Tiptipot Mucolit",
+        "title_heb": "טיפטיפות מוקוליט"
+    },
+    "sections": [
+        {
+            "title": "General",
+            "section_num": "0",
+            "data": [
+                {
+                    "eng": "Patient package insert in accordance with the Pharmacists' Regulations - (Preparations) - 1986 ",
+                    "heb": "עלון לצרכן לפי תקנות הרוקחים (תכשירים) התשמ\"ו - 1986"
+                },
+                {
+                    "eng": "This medicine is dispensed without a doctor's prescription",
+                    "heb": "התרופה משווקת ללא מרשם רופא"
+                },
+                {
+                    "eng": "The active ingredient and its concentration:",
+                    "heb": "החומר הפעיל וריכוזו:"
+                },
+                {
+                    "eng": "Each drop contains 5 mg of carbocysteine.",
+                    "heb": "כל טיפה מכילה 5 מג קרבוציסטאין."
+                },
+                {
+                    "eng": "For inactive ingredients and allergens in the preparation, see the section Important information about some ingredients of the medicine and section 6",
+                    "heb": "חומרים בלתי פעילים ואלרגניים בתכשיר - ראה סעיף מידע חשוב על חלק מהמרכיבים של התרופה ופרק 6"
+                },
+                {
+                    "eng": "Read the entire leaflet carefully before using the medicine.",
+                    "heb": "קרא בעיון את העלון עד סופו בטרם תשתמש בתרופה"
+                },
+                {
+                    "eng": " This leaflet contains concise information about the medicine",
+                    "heb": "עלון זה מכיל מידע תמציתי על התרופה"
+                },
+                {
+                    "eng": "If you have any other questions, refer to the doctor or the pharmacist.",
+                    "heb": "אם יש לך שאלות נוספות, פנה אל הרופא או אל הרוקח."
+                },
+                {
+                    "eng": "The medicine is not intended for children under the age of 2. Below this age – contact the doctor",
+                    "heb": "התרופה אינה מיועדת לילדים מתחת לגיל שנתיים. מתחת לגיל זה יש לפנות לרופא"
+                },
+                {
+                    "eng": "Use the preparation according to the instructions in the dosage section of this leaflet. Consult the pharmacist if you have further questions.",
+                    "heb": "עליך להשתמש בתכשיר על פי ההוראות בסעיף המינון בעלון זה. היוועץ ברוקח אם הנך זקוק למידע נוסף."
+                },
+                {
+                    "eng": "Refer to the doctor if signs of the ailment (symptoms) worsen or do not improve after 7 days",
+                    "heb": " עליך לפנות לרופא במידה ותסמיני המחלה (סימפטומים) מחמירים או אינם משתפרים לאחר 7 ימים."
+                },
+                {
+                    "eng": "Tiptipot Mucolit is intended especially for children. ",
+                    "heb": "טיפטיפות מוקוליט מיועד במיוחד לילדים."
+                }
+            ]
+        },
+        {
+            "title": "medicine intended for",
+            "section_num": "1",
+            "data": [
+                {
+                    "eng": "The medicine is intended for relief in respiratory system disorders accompanied by excessive and/or viscous mucus.",
+                    "heb": "התרופה מיועדת להקלה בהפרעות במערכת הנשימה המלוות בליחה מוגברת ו/או צמיגה"
+                },
+                {
+                    "eng": "Therapeutic class: expectorants",
+                    "heb": "קבוצה תרפויטית: מכייחים"
+                }
+            ]
+        },
+        {
+            "title": "before using the medicine",
+            "section_num": "2",
+            "data": [
+                {
+                    "eng": "Do not use this medicine if:",
+                    "heb": "אין להשתמש בתרופה אם:"
+                },
+                {
+                    "eng": " The child is under 2 years of age.",
+                    "heb": "הילד מתחת לגיל שנתיים."
+                },
+                {
+                    "eng": "There is a known sensitivity (allergy) to carbocysteine or to any of the additional ingredients the medicine contains (see section 6). Signs of allergic reaction include: rash, breathing or swallowing problems, swelling of the lips, face, throat or tongue.",
+                    "heb": "ידועה רגישות (אלרגיה) לקרבוציסטאין או לכל אחד מהמרכיבים הנוספים אשר מכילה התרופה (ראה פרק 6). הסימנים של תגובה אלרגית כוללים: פריחה, בעיות נשימה או בליעה, נפיחות של השפתיים, הפנים, הגרון או הלשון."
+                },
+                {
+                    "eng": " In case of a gastric or intestinal ulcer.",
+                    "heb": "במקרה של כיב בקיבה או במעי."
+                },
+                {
+                    "eng": "Special warnings regarding the use of the medicine:",
+                    "heb": " אזהרות מיוחדות הנוגעות לשימוש בתרופה:"
+                },
+                {
+                    "eng": "Before treatment with Tiptipot Mucolit, inform the doctor if:",
+                    "heb": "לפני הטיפול בטיפטיפות מוקוליט, ספר לרופא אם:"
+                },
+                {
+                    "eng": "The child has had a gastric or intestinal ulcer in the past",
+                    "heb": "הילד סבל בעבר מכיב בקיבה או במעי"
+                },
+                {
+                    "eng": "Drug-drug interactions:",
+                    "heb": "אינטראקציות/תגובות בין תרופתיות:"
+                },
+                {
+                    "eng": "If the child is taking or has recently taken other medicines, including non-prescription medicines and dietary supplements, tell the doctor or pharmacist. Especially if the child is taking:",
+                    "heb": "אם הילד לוקח, או אם לקח לאחרונה, תרופות אחרות כולל תרופות ללא מרשם ותוספי תזונה, ספר על כך לרופא או לרוקח. במיוחד אם הילד לוקח:"
+                },
+                {
+                    "eng": " Other medicines that may cause gastric bleeding",
+                    "heb": "תרופות אחרות שעלולות לגרום לדימום בקיבה"
+                },
+                {
+                    "eng": "Pregnancy, breastfeeding and fertility:",
+                    "heb": "הריון, הנקה ופוריות:"
+                },
+                {
+                    "eng": "Tiptipot Mucolit is intended especially for children. If you are an adult using this medicine, do not use the medicine without consulting a doctor prior to starting the treatment if you are pregnant, might be pregnant, planning to become pregnant, breastfeeding or planning to breastfeed.",
+                    "heb": "טיפטיפות מוקוליט מיועד במיוחד לילדים. אם הינך מבוגרת המשתמשת בתרופה, אין להשתמש בתרופה מבלי להיוועץ ברופא לפני התחלת הטיפול אם הנך בהריון, עשויה להיות בהריון, מתכננת להיכנס להריון, מניקה או מתכננת להניק."
+                },
+                {
+                    "eng": "Use of Mucolit is not recommended during pregnancy and breastfeeding.",
+                    "heb": "השימוש במוקוליט אינו מומלץ בהריון ובהנקה."
+                },
+                {
+                    "eng": "Important information about some ingredients of the medicine:",
+                    "heb": " מידע חשוב על חלק מהמרכיבים של התרופה:"
+                },
+                {
+                    "eng": ". If you have been told by the doctor that the child has intolerance to certain sugars or that he had been diagnosed with hereditary fructose intolerance, a rare genetic disorder in which a person cannot metabolize fructose, consult the doctor before administering the medicine.",
+                    "heb": "אם נאמר לך על ידי הרופא שלילד יש אי סבילות לסוכרים מסוימים או שאובחן עם אי סבילות תורשתית לפרוקטוז, הפרעה גנטית נדירה בה אדם אינו יכול לפרק פרוקטוז, היוועץ ברופא לפני מתן התרופה."
+                },
+                {
+                    "eng": "The preparation contains parabens, which may cause an allergic reaction (even after some time).",
+                    "heb": "התכשיר מכיל פרבנים שעלולים לגרום לתגובה אלרגית (אפילו לאחר זמן)."
+                }
+            ]
+        },
+        {
+            "title": "how to use the medicine",
+            "section_num": "3",
+            "data": [
+                {
+                    "eng": "Check with the doctor or pharmacist if you are uncertain about the dosage and how to use the preparation.",
+                    "heb": "עליך לבדוק עם הרופא או הרוקח אם אינך בטוח בנוגע למינון ולאופן הטיפול בתכשיר"
+                },
+                {
+                    "eng": "The generally accepted dosage is:",
+                    "heb": "המינון המקובל בדרך כלל הוא:"
+                },
+                {
+                    "eng": "Accepted dosage for children based on weight:",
+                    "heb": "מינון מקובל לילדים על פי משקל:"
+                },
+                {
+                    "eng": "Children at the same age may have significantly different weights. That is why it is recommended to determine the dosage per weight according to the calculation below.",
+                    "heb": "ילדים בגילאים זהים יכולים להיות בעלי משקלים שונים באופן משמעותי. לכן מומלץ לקבוע את המינון לפי המשקל עפ התחשיב שלהלן."
+                },
+                {
+                    "eng": "The total dose should be divided into 3-4 doses during the day, according to age, as specified in the dosage table.",
+                    "heb": "יש לחלק את המנה הכוללת לשלושה עד ארבעה מתנים ביום, בהתאם לגיל, כפי שמפורט בטבלת המינונים."
+                },
+                {
+                    "eng": "Do not exceed the recommended dose",
+                    "heb": "אין לעבור על המנה המומלצת"
+                },
+                {
+                    "eng": "Duration of treatment:",
+                    "heb": "משך הטיפול:"
+                },
+                {
+                    "eng": "If no improvement in the condition is felt within 7 days, contact the doctor. However, if the condition is getting worse during treatment, contact the doctor before the 7 days of treatment are over.",
+                    "heb": "אם לא חל שיפור במצב תוך 7 ימים יש לפנות לרופא. אולם במידה וחלה החמרה במהלך הטיפול יש לפנות לרופא לפני תום 7 ימי הטיפול."
+                },
+                {
+                    "eng": "Attention: be sure to measure the dose with the dropper.",
+                    "heb": "שים לב: יש להקפיד על מדידת המנה בטפטפת."
+                },
+                {
+                    "eng": "Method of use:",
+                    "heb": "אופן השימוש:"
+                },
+                {
+                    "eng": "Do not shake the medicine before use - shaking makes it difficult for the drops to leave the dropper.",
+                    "heb": "אין לנער את התרופה לפני השימוש - הניעור מקשה על יציאת הטיפות דרך הטפטפת."
+                },
+                {
+                    "eng": "The original dropper is calibrated to release a measured and accurate amount with each use. Do not replace the original dropper with another.",
+                    "heb": "אין להחליף את הטפטפת המקורית באחרת מאחר והיא מכוילת להוצאת כמות מדודה ומדויקת בכל שימוש."
+                },
+                {
+                    "eng": "Open the cap by simultaneously pushing it downwards and turning it counter-clockwise (see figure 1).",
+                    "heb": "פתח את הפקק על ידי לחיצה כלפי מטה וסיבוב נגד כיוון השעון בו זמנית (ראה איור 1)."
+                },
+                {
+                    "eng": "Hold the bottle vertically over the spoon and wait for the drops to come out (see figure 2).",
+                    "heb": "החזק את הבקבוק בצורה אנכית מעל הכפית וחכה לטפטוף (ראה איור 2)."
+                },
+                {
+                    "eng": "If no drops come out, tap the bottom of the bottle lightly (see figure 3).",
+                    "heb": "אם הטיפות לא יוצאות, יש לטפוח בעדינות על תחתית הבקבוק (ראה איור 3)."
+                },
+                {
+                    "eng": "Count the drops precisely.",
+                    "heb": "ספור את הטיפות במדויק."
+                },
+                {
+                    "eng": "Pour the measured content of the spoon into the patient’s mouth.",
+                    "heb": "שפוך את תכולת הכפית המדודה לפה המטופל"
+                },
+                {
+                    "eng": "Do not pour the medicine directly from the bottle into the mouth!",
+                    "heb": "אין לטפטף את התרופה ישירות מהבקבוק לפה!"
+                },
+                {
+                    "eng": "Wipe the bottle’s top (the dropper). Be sure to put the cap on tightly immediately after you finish using the medicine in order to prevent the dropper from clogging",
+                    "heb": "נגב את ראש הבקבוק (הטפטפת). הקפד לסגור היטב את הפקק מיד בתום השימוש על מנת למנוע סתימת הטפטפת."
+                },
+                {
+                    "eng": "If the child accidentally took a higher dosage, he may suffer from indigestion (digestive system disturbances).",
+                    "heb": "אם הילד נטל בטעות מינון גבוה יותר הוא עלול לסבול מקלקול קיבה (הפרעות במערכת העיכול)."
+                },
+                {
+                    "eng": "If the child has taken an overdose or if a child has accidentally swallowed the medicine, proceed immediately to a doctor or a hospital emergency room and bring the package of the medicine with you.",
+                    "heb": "אם הילד נטל מנת יתר או אם בטעות בלע ילד מן התרופה, פנה מיד לרופא או לחדר מיון של בית חולים והבא אריזת התרופה איתך."
+                },
+                {
+                    "eng": "If you forgot to administer the medicine at the required time, do not administer a double dose. Administer the next dose at the regular time and consult a doctor",
+                    "heb": "אם שכחת לתת את התרופה בזמן הדרוש, אין לתת מנה כפולה. תן את המנה הבאה בזמן הרגיל והיוועץ ברופא."
+                },
+                {
+                    "eng": "Do not take medicines in the dark! Check the label and the dose every time you take the medicine. Wear glasses if you need them.",
+                    "heb": "אין ליטול תרופות בחושך! בדוק התווית והמנה בכל פעם שהנך נוטל תרופה. הרכב משקפיים אם הנך זקוק להם."
+                },
+                {
+                    "eng": "If you have any other questions regarding use of the medicine, consult the doctor or the pharmacist.",
+                    "heb": "אם יש לך שאלות נוספות בנוגע לשימוש בתרופה, היוועץ ברופא או ברוקח."
+                }
+            ]
+        },
+        {
+            "title": "side effects",
+            "section_num": "4",
+            "data": [
+                {
+                    "eng": "As with any medicine, using Tiptipot Mucolit may cause side effects in some users. Do not be alarmed when reading the list of side effects. The child may not suffer from any of them.",
+                    "heb": "כמו בכל תרופה, השימוש בטיפטיפות מוקוליט עלול לגרום לתופעות לוואי בחלק מהמשתמשים. אל תיבהל למקרא רשימת תופעות הלוואי. ייתכן שהילד לא יסבול מאף אחת מהן."
+                },
+                {
+                    "eng": "Stop using the medicine and immediately refer to a doctor or to a hospital emergency room in the following cases:",
+                    "heb": "יש להפסיק את השימוש ולפנות מיד לרופא או לחדר מיון של בית חולים במקרים הבאים:"
+                },
+                {
+                    "eng": "An allergic reaction. Signs include: rash, breathing or swallowing problems, swelling of the lips, face, throat or tongue.",
+                    "heb": "תגובה אלרגית. הסימנים כוללים: פריחה, בעיות נשימה או בליעה, נפיחות של השפתיים, הפנים, הגרון או הלשון."
+                },
+                {
+                    "eng": " Appearance of blisters or bleeding on the skin, including around the lips, eyes, mouth, nose and genitalia. These effects may be accompanied by flu-like symptoms and fever - these may indicate Stevens-Johnson syndrome.",
+                    "heb": "שלפוחיות או דימום על העור, כולל סביב השפתיים, העיניים, הפה, האף ואיברי המין. ייתכן שתופעות אלו יהיו מלוות בתסמינים דמויי שפעת וחום - אלו עלולים להצביע על תסמונת סטיבנס ג'ונסון"
+                },
+                {
+                    "eng": "Bloody vomit, tar-black stool.",
+                    "heb": "הקאה דמית, צואה שחורה כזפת."
+                },
+                {
+                    "eng": "Tell the doctor or pharmacist if any of the following side effects worsens or lasts longer than a few days:",
+                    "heb": "יש לידע את הרופא או הרוקח אם אחת מתופעות הלוואי הבאות מחמירה או נמשכת מעבר למספר ימים:"
+                },
+                {
+                    "eng": "Nausea or vomiting",
+                    "heb": "בחילה או הקאה"
+                },
+                {
+                    "eng": "Diarrhea",
+                    "heb": "שלשול"
+                },
+                {
+                    "eng": "Abdominal pain",
+                    "heb": "כאב בטן"
+                },
+                {
+                    "eng": "If a side effect occurs, if one of the side effects worsens, or if you suffer from a side effect not mentioned in this leaflet, consult your doctor",
+                    "heb": "אם הופיעה תופעת לוואי, אם אחת מתופעות הלוואי מחמירה, או כאשר אתה סובל מתופעת לוואי שלא צוינה בעלון, עליך להתייעץ עם הרופא."
+                },
+                {
+                    "eng": "Reporting side effects:",
+                    "heb": "דיווח על תופעות לוואי:"
+                },
+                {
+                    "eng": "Side effects may be reported to the Ministry of Health by clicking on the link Report side effects due to medicinal treatment found on the Ministry of Health website homepage",
+                    "heb": "ניתן לדווח על תופעות לוואי למשרד הבריאות באמצעות לחיצה על הקישור דיווח על תופעות לוואי עקב טיפול תרופתי שנמצא בדף הבית של אתר משרד הבריאות"
+                }
+            ]
+        },
+        {
+            "title": "medicine storage",
+            "section_num": "5",
+            "data": [
+                {
+                    "eng": " Avoid poisoning!",
+                    "heb": " מנע הרעלה!"
+                },
+                {
+                    "eng": "Avoid poisoning! This medicine and any other medicine must be kept in a closed place out of the reach and sight of children and/or infants to avoid poisoning. Do not induce vomiting without an explicit instruction from the doctor",
+                    "heb": "תרופה זו וכל תרופה אחרת יש לשמור במקום סגור מחוץ להישג ידם וטווח ראייתם של ילדים ו/או תינוקות ועל ידי כך תמנע הרעלה. אל תגרום להקאה ללא הוראה מפורשת מהרופא."
+                },
+                {
+                    "eng": "Do not use the medicine after the expiry date appearing on the package. The expiry date refers to the last day of that month.",
+                    "heb": "אין להשתמש בתרופה אחרי תאריך התפוגה המופיע על גבי האריזה. תאריך התפוגה מתייחס ליום האחרון של אותו חודש."
+                },
+                {
+                    "eng": "Once the bottle has been opened, Tiptipot Mucolit may be used for 2 months.",
+                    "heb": "לאחר הפתיחה הראשונה ניתן להשתמש בטיפטיפות מוקוליט במשך חודשיים."
+                }
+            ]
+        },
+        {
+            "title": "additional information",
+            "section_num": "6",
+            "data": [
+                {
+                    "eng": "In addition to the active ingredient, the medicine also contains:",
+                    "heb": "נוסף על החומר הפעיל, התרופה מכילה גם:"
+                },
+                {
+                    "eng": "Sorbitol Solution 70%, Sodium Carbonate Decahydrate, Sodium Citrate, Citric Acid, Sodium Methyl Hydroxybenzoate, Cream Essence, Saccharin Sodium, Sodium Propyl Hydroxybenzoate, Disodium Edetate, Purified Water.",
+                    "heb": "Sorbitol Solution 70%, Sodium Carbonate Decahydrate, Sodium Citrate, Citric Acid, Sodium Methyl Hydroxybenzoate, Cream Essence, Saccharin Sodium, Sodium Propyl Hydroxybenzoate, Disodium Edetate, Purified Water."
+                },
+                {
+                    "eng": "What does the medicine look like and what are the contents of the package:",
+                    "heb": "כיצד נראית התרופה ומה תוכן האריזה:"
+                },
+                {
+                    "eng": "A glass bottle containing 15 ml of yellow-brown solution with caramel flavor",
+                    "heb": "בקבוק זכוכית המכיל 15 מל נוזל בצבע צהוב-חום בטעם קרמל."
+                },
+                {
+                    "eng": "Manufacturer/license holder and address",
+                    "heb": "שם היצרן/בעל הרישום וכתובתו"
+                },
+                {
+                    "eng": "This leaflet was revised in 01/2021 in accordance with the Ministry of Health guidelines",
+                    "heb": "עלון זה נערך בתאריך 01/2021 בהתאם להנחיות משרד הבריאות."
+                },
+                {
+                    "eng": "Registration number of the medicine in the national drug registry of the Ministry of Health",
+                    "heb": "מספר רישום התרופה בפנקס התרופות הממלכתי במשרד "
+                }
+            ]
+        }
+    ]
+}

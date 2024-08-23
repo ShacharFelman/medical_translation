@@ -1,0 +1,276 @@
+{
+  "title": "Silverol® Cream",
+  "index": 0,
+  "dir_index": 10,
+  "title_lang": {
+    "title_heb": "סילברול® קרם",
+    "title_eng": "Silverol® Cream"
+  },
+  "sections": [
+    {
+      "title": "General",
+      "section_num": 0,
+      "data": [
+        {
+          "eng": "Skin cream",
+          "heb": "קרם לעור"
+        },
+        {
+          "eng": "Composition",
+          "heb": "הרכב"
+        },
+        {
+          "eng": "Silver Sulfadiazine 1%",
+          "heb": "סילבר סולפהדיאזין 1%"
+        },
+        {
+          "eng": "in a water-soluble base",
+          "heb": "בבסיס מסיס במים"
+        },
+        {
+          "eng": "For information regarding inactive ingredients\nand allergens in the medicine, see “Important\ninformation about some of the ingredients of the\nmedicine”insection2and“Additionalinformation”\nin section 6.",
+          "heb": "למידע על מרכיבים בלתי פעילים ואלרגניים בתרופה ראה.\n\"מידע חשוב על חלק מהמרכיבים של התרופה\" בסעיף 2,\nו-\"מידע נוסף\" בסעיף 6."
+        },
+        {
+          "eng": "Read the entire leaflet carefully before using the\nmedicine.This leaflet contains concise information\nabout the medicine. If you have additional\nquestions, refer to the doctor or the pharmacist.",
+          "heb": "קרא בעיון את העלון עד סופו בטרם תשתמש בתרופה.\nעלון זה מכיל מידע תמציתי על התרופה. אם יש לך שאלות\nנוספות, פנה אל הרופא או אל הרוקח."
+        },
+        {
+          "eng": "This medicine has been prescribed for your\ntreatment. Do not pass it on to others. It may\nharm them even if it seems to you that their medical\ncondition is similar.",
+          "heb": "תרופה זו נרשמה לטיפול עבורך. אל תעביר אותה לאחרים.\nהיא עלולה להזיק להם אפילו אם נראה לך כי מצבם הרפוא\nדומה."
+        }
+      ]
+    },
+    {
+      "title": "medicine intended for",
+      "section_num": 1,
+      "data": [
+        {
+          "eng": "A topical antimicrobial preparation for treatment\nof burns, infected pressure ulcers and infected\nleg ulcers.",
+          "heb": "תכשיר אנטימיקרוביאלי מקומי לטיפול בכוויות, בפצעי לחץ.\nמזוהמים ובכיבים מזוהמים ברגל."
+        },
+        {
+          "eng": "Therapeutic class: antibacterial of the\nsulfonamides group.",
+          "heb": "קבוצה תרפויטית: אנטיבקטריאלי מקבוצת הסולפונאמידים."
+        }
+      ]
+    },
+    {
+      "title": "before using the medicine",
+      "section_num": 2,
+      "data": [
+        {
+          "eng": "Do not use this medicine:",
+          "heb": "אין להשתמש בתרופה:"
+        },
+        {
+          "eng": "If you are sensitive (allergic) to the active\ningredient, silver sulfadiazine, or to any of\nthe other ingredients this medicine contains,\nsuch as cetostearyl alcohol or propylene glycol",
+          "heb": "אם אתה רגיש (אלרגי) לחומר הפעיל סילבר\nסולפהדיאזין או לכל אחד מהמרכיבים האחרים אשר\nמכילה התרופה, כגון צטוסטיאריל אלכוהול או פרופילן\nגליקול"
+        },
+        {
+          "eng": "If you are sensitive to medicines that contain\nsulfonamides",
+          "heb": "אם אתה רגיש לתרופות המכילות סולפונאמידים"
+        },
+        {
+          "eng": "If you are pregnant or breastfeeding",
+          "heb": "אם את בהריון או מניקה"
+        },
+        {
+          "eng": "In premature or newborn infants during the\nfirst few months of their lives",
+          "heb": "בפגים או בתינוקות במהלך החודשים הראשונים\nלחייהם."
+        },
+        {
+          "eng": "Special warnings regarding the use of the\nmedicine",
+          "heb": "אזהרות מיוחדות הנוגעות לשימוש בתרופה"
+        },
+        {
+          "eng": "Before treatment with Silverol Cream, inform\nthe doctor, pharmacist or nurse if:",
+          "heb": "לפני הטיפול בסילברול קרם ספר לרופא, לרוקח או\nלאחות אם:"
+        },
+        {
+          "eng": "You are suffering from kidney or liver problems",
+          "heb": "אתה סובל מבעיות בכליות או בכבד"
+        },
+        {
+          "eng": "You have glucose-6-phosphate dehydrogenase\n(G6PD) deficiency",
+          "heb": "אתה סובל מחסר באנזים גלוקוז-6-פוספאט-דהידרוגנאז (G6PD)"
+        },
+        {
+          "eng": "You are taking medicines prescribed by your\ndoctor for treatment of epilepsy or diabetes",
+          "heb": "אתה נוטל תרופות שהרופא רשם לך לטיפול באפילפסיה.\nאו בסוכרת"
+        },
+        {
+          "eng": "You are using a biological medicine for the\nremoval of dead tissue from a leg ulcer or a sore",
+          "heb": "אתה משתמש בתרופה ביולוגית להסרת רקמה מתה.\nמכיב ברגל או מפצע."
+        },
+        {
+          "eng": "Upon using sulfadiazine, rashes that may be life-\nthreatening have been reported (Stevens-Johnson\nsyndrome,toxic epidermal necrolysis),that at first\nlook like reddish target-like spots or round patches,\nsometimes with blisters in the middle.\nAdditional symptoms include ulcers in the mouth,\nthroat, nose and genitals and conjunctivitis (red\nand swollen eyes)",
+          "heb": "בשימוש בסולפהדיאזין דווחו פריחות העלולות לסכן חיים\n(תסמונת סטיבנס-ג'ונסון, טוקסיק אפידרמל נקרוליזיס (נמק.\nרעלני בעור)), שבהתחלה נראות ככתמי מטרה אדמדמים.\nאו כטלאים עגולים, לעיתים עם שלפוחיות במרכז\nתסמינים נוספים כוללים כיבים בפה, בגרון, באף, באברי\nהמין ודלקת הלחמית (עיניים אדומות ונפוחות)"
+        },
+        {
+          "eng": "These life-threatening rashes are often\naccompanied by flu-like symptoms.The rash can\ndevelop into extensive blisters or peeling of the skin.",
+          "heb": "פריחות מסכנות חיים אלה מלוות לעיתים קרובות בתסמינים.\nדמויי שפעת. הפריחה יכולה להתפתח לשלפוחיות מפושטותת\nאו לקילוף העור."
+        },
+        {
+          "eng": "The highest risk for occurrence of serious skin\nreactions is during the first weeks of treatment.",
+          "heb": "הסיכוי הגבוה ביותר להופעת תגובות עור רציניות הוא\nבמהלך השבועות הראשונים של הטיפול."
+        },
+        {
+          "eng": "If you develop Stevens-Johnson syndrome or toxic\nepidermal necrolysis while using silver sulfadiazine,\ndo not use silver sulfadiazine again at any time.",
+          "heb": "אם בשימוש בסילבר סולפהדיאזין פיתחת את תסמונת\nסטיבנס-ג'ונסון או טוקסיק אפידרמל נקרוליזיס (נמק רעלנ\nבעור), אסור לך לחזור ולהשתמש בסילבר סולפהדיאזי\nבכל זמן שהוא."
+        },
+        {
+          "eng": "If you develop a rash or these skin symptoms,refer\nto the doctor immediately and inform him that you\nare being treated with this medicine.",
+          "heb": "אם מתפתחים אצלך פריחה או תסמיני עור אלו, פנה לרופא באופן מיידי ודווח לו שאתה מטופל בתרופה זו"
+        },
+        {
+          "eng": "Drug interactions",
+          "heb": "תגובות בין תרופתיות"
+        },
+        {
+          "eng": "If you are taking or have recently taken\nother medicines, including non-prescription\nmedicines and food supplements,tell the doctor\nor the pharmacist.",
+          "heb": "אם אתה לוקח, או אם לקחת לאחרונה, תרופות אחרותת\nכולל תרופות ללא מרשם ותוספי תזונה, ספר על כך\nלרופא או לרוקח."
+        },
+        {
+          "eng": "The effects of other medicines maybe altered when\nextensive burn areas are being treated.",
+          "heb": "השפעתן של תרופות אחרות יכולה להשתנות, כאשר מטפלים.\nבאזורי כוויה נרחבים."
+        },
+        {
+          "eng": "Use of the medicine, food and alcohol\nFood,drinks or alcohol have no known  effects on\nthe use of Silverol Cream.",
+          "heb": "שימוש בתרופה, מזון ואלכוהול\nאין השפעות ידועות של מזון שתייה או אלכוהול על השימוש.\nבסילברול קרם."
+        },
+        {
+          "eng": "Important information about some of the\ningredients of the medicine\nThe medicine contains cetostearyl alcohol,which\nmay cause local skin reactions (such as contact\ndermatitis).",
+          "heb": "מידע חשוב על חלק מהמרכיבים של התרופה\nהתרופה מכילה צטוסטיאריל אלכוהול אשר עלול לגרום\nלתגובות עוריות מקומיות (כגון דלקת עור ממגע)."
+        },
+        {
+          "eng": "This medicine contains 7 grams of propylene\nglycol in every 100 grams of cream. Propylene\nglycol may irritate the skin.Because  this medicine\ncontains propylene glycol, it should not be used\non open wounds or extensive areas of broken or\ndamaged skin (such as burns) without consulting\na doctor or a pharmacist.",
+          "heb": "תרופה זו מכילה 7 גרם פרופילן גליקול בכל 100 גרם קרם.\nפרופילן גליקול עלול לגרום לגירוי בעור. בגלל שתרופה זו\nמכילה פרופילן גיקול, אי להשתמש בה על פצעים פתוחים.\nאו על אזורים נרחבים של עור מפוצץ או ניזוק (כגון כוויות)\nללא התייעצות עם רופא או רוקח."
+        }
+      ]
+    },
+    {
+      "title": "how to use the medicine",
+      "section_num": 3,
+      "data": [
+        {
+          "eng": "The dosage and treatment regimen will be determined only by the doctor. The generally accepted dosage is: According to the doctor’s instructions only. Do not exceed the recommended dose.",
+          "heb": "המינון ואופן הטיפול יקבעו על ידי הרופא בלבד. המינון המקובל בדרך כלל הוא: לפי הוראות הרופא בלבד. אין לעבור על המנה המומלצת."
+        },
+        {
+          "eng": "How to use the medicine: Sterile measures should be taken when applying Silverol Cream and it should be applied directly onto the burn wounds after they have been thoroughly cleansed.",
+          "heb": "איך להשתמש בתרופה: יש לנקוט באמצעים סטריליים בעת מריחת הקרם ולמרוח אותו ישירות על פצעי הכוויות לאחר שנוקו היטב."
+        },
+        {
+          "eng": "The cream should be applied in a layer 3-5 mm thick over the entire area of the wound, according to the doctor’s instructions. The infected area must be covered with cream at all times.",
+          "heb": "יש למרוח את הקרם בשכבה בעובי של 3-5 מ\"מ על כל שטח הפצע, בהתאם להוראות הרופא. השטח הנגוע חייב להיות מכוסה בקרם בכל עת."
+        },
+        {
+          "eng": "If for any reason the cream is rubbed off, apply a new layer. An individual tube should be used for each patient. The tube should only be opened right before use.",
+          "heb": "אם לכל סיבה שהיא הקרם הוסר, יש למרוח אותו מחדש. יש להשתמש בשפופרת נפרדת לכל חולה. אין לפתוח את השפופרת אלא סמוך לשימוש."
+        },
+        {
+          "eng": "Any cream remaining upon completion of the treatment should be discarded. Consult the pharmacist about the best way to do that. Do not swallow. For external use only.",
+          "heb": "יש להשליך שאריות הקרם בתום השימוש. יש להיוועץ עם הרוקח מהו הדרך הטובה ביותר לעשות זאת. אין לבלוע. לשימוש חיצוני בלבד."
+        },
+        {
+          "eng": "If you accidentally used a larger amount: If you used an overdose or if a child swallowed this medicine by mistake, go to the doctor or a hospital emergency room immediately and take the package of the medicine with you.",
+          "heb": "אם השתמשת בטעות בכמות גדולה: אם השתמשת במנת יתר או אם בטעות בלע ילד מן התרופה, פנה מיד לרופא או לחדר מיון של בית חולים והבא אריזת התרופה איתך."
+        },
+        {
+          "eng": "Do not take medicines in the dark! Check the\nlabel and the dose every time you take the\nmedicine. Wear glasses if you need them.\nIf you have any other questions regarding\nuse of the medicine,consult the doctor or the\npharmacist.",
+          "heb": "אין ליטול תרופות בחושך! בדוק התווית והמנה בכל פעם.\nשהינך נוטל תרופה. הרכב משקפיים אם הינך זקוק להם..\nאם יש לך שאלות נוספות בנוגע לשימוש בתרופה, היוועץ\nברופא או ברוקח."
+        }
+      ]
+    },
+    {
+      "title": "side effects",
+      "section_num": 4,
+      "data": [
+        {
+          "eng": "As with any medicine, using Silverol cream may\ncause side effects in some users. Do not be\nalarmed when reading the list of side effects.\nYou may not experience any of them.",
+          "heb": "כמו לכל תרופה, השימוש בסילברול קרם עלול לגרום\nלתופעות לוואי בחלק מהמשתמשים. אל תיבהל למקרא.\nרשימת תופעות הלוואי. ייתכן שלא תסבול מאף אחת מהן."
+        },
+        {
+          "eng": "Rashes that may be life-threatening have been\nreported (Stevens-Johnson syndrome, toxic\nepidermal necrolysis)",
+          "heb": "דווחו פריחות העלולות לסכן חיים (תסמונת סטיבנס-ג'ונסון\nטוקסיק אפידרמל נקרוליזיס (נמק רעלני בעור)\n"
+        },
+        {
+          "eng": "Even\nthough these effects are very rare, if you notice\nthedevelopmentofsignsorsymptomsofaserious\nside effect, stop using the medicine immediately\nand seek medical advice urgently.",
+          "heb": "למרות שתופעות אלו הן מאוד נדירות, אם אתה.\nמרגיש התפתחות של סימנים או תסמינים של תופעת לוואי\nחמורה, הפסק את השימוש בתרופה באופן מיידי ופנה\nלקבלת יעוץ רפואי דחוף.\n"
+        },
+        {
+          "eng": "Common side effects(occur in less than 1 of 10\nusers but in more than 1 of 100 users):",
+          "heb": "תופעות לוואי שכיחות (מופיעות בפחות מ-1 מתוך 10\nמשתמשים אבל ביותר מ-1 מתוך 100 משתמשים)."
+        },
+        {
+          "eng": "Irritation",
+          "heb": "גירוי"
+        },
+        {
+          "eng": "rash around the would(including eczena and\n contact dermatitis).Decrease in the number of white blood cells\n(leukopenia), which may lead to an increased\nrisk for infection.",
+          "heb": "פריחה סביב אזור הפצע (כולל אקזמה ודלקת עור ממגע.\nירידה במספר תאי דם לבנים (לויקופניה) שעלולה להוביל.\nלסיכון מוגבר לזיהום. הערכים חוזרים בדרך כלל לנורמה."
+        },
+        {
+          "eng": " The values usually return to\ntheir normal range within a few days, but the\ndoctor will need to monitor them closely to\nensure that the count returns to normal.",
+          "heb": "תוך מספר ימים; אולם הרופא יצטרך לבצע ניטור מקרוב.\nעל מנת להבטיח שהספירה חוזרת למצב נורמלי."
+        },
+        {
+          "eng": "Rare side effects (occur in less than 1 of 1,000\nusers but in more than 1 of 10,000 users):",
+          "heb": "תופעות לוואי נדירות (מופיעות בפחות מ-1 מתוך 1,000\nמשתמשים אבל ביותר מ-1 מתוך 10,000 משתמשים)."
+        },
+        {
+          "eng": "Skin discoloration (due to absorption of silver\nfor prolonged periods [silver comes from the\ncomposition of the active ingredient – silver\nsulfadiazine]).",
+          "heb": "שינוי צבע העור (עקב ספיגת כסף לאורך תקופות\nממושכות [כסף = סילבר מתוך הרכב החומר הפעיל --\nסילבר סולפהדיאזין)."
+        },
+        {
+          "eng": "Very rare side effects (occur in less than 1 out\nof 10,000 users):",
+          "heb": "תופעות לוואי נדירות מאוד (מופיעות בפחות ממשתמש.\n1 מתוך 10,000 משתמשים)"
+        },
+        {
+          "eng": "Renal failure. Inform the doctor if you have\ndifficultyurinating,ifyoupassmoreorlessurine\nthanusual,orifyounoticebloodorcloudiness\nintheurine.Thismaybeasignthatthekidneys\ndo not function properly.",
+          "heb": "כשל כלייתי. יש ליידע את הרופא אם אתה מתקשה\nבמתן שתן, נותן שתן בכמות גדולה או קטנה מהרגיל, או\nאם אתה מבחין בדם בשתן או בעכירות השתן. זה יכול\nלהיות סימן לכך שהכליות אינן עובדות כראוי"
+        },
+        {
+          "eng": "Rashes that may be life-threatening(Stevens-\nJohnson syndrome,toxic epidermal necrolysis)",
+          "heb": "פריחות העלולות לסכן חיים (תסמונת סטיבנס-ג'ונסון\nטוקסיק אפידרמל נקרוליזיס (נמק רעלני בעור)"
+        },
+        {
+          "eng": "A number of bacteria and fungal infections may\nbe resistant to Silverol Cream, and therefore\nburn wounds can become inflamed.Sometimes\nan allergy can appear.If you experience redness\nand swelling, consult a doctor or nurse.",
+          "heb": "מספר חיידקים וזיהומים פטרייתיים יכולים להיות עמידים.\nלקרם סילברול, ולכןיכולות להיגרם דלקות בפצעי כוויות\nלפעמים יכולה להופיע אלרגיה. אם מופיעות אצלך\nאדמומיות ונפיחות עליך להתייעץ עם רופא או עם אחות."
+        },
+        {
+          "eng": "Other side effects",
+          "heb": "תופעות לוואי אחרות"
+        },
+        {
+          "eng": "Hypersensitivity to sunlight",
+          "heb": "רגישות יתר לקרני השמש."
+        },
+        {
+          "eng": "If a side effect occurs,if one of the side effects\nworsens,or if you suffer from a side effect not\nmentioned in this leaflet,consult your doctor.",
+          "heb": "אם הופיעה תופעת לוואי, אם אחת מתופעות הלוואי\nמחמירה או כאשר אתה סובל מתופעת לוואי שלא צוינה.\nבעלון, עליך להתייעץ עם הרופא."
+        }
+      ]
+    },
+    {
+      "title": "medicine storage",
+      "section_num": 5,
+      "data": [
+        {
+          "eng": "Avoid poisoning! This medicine and any other\nmedicine must be kept in a closed place out of\nthe reach and sight of children and/or infants to\navoid poisoning.Do not induce vomiting without\nan explicit instruction from the doctor.",
+          "heb": "מנע הרעלה! תרופה זו וכל תרופה אחרת יש לשמור\nבמקום סגור מחוץ להישג ידם וטווח ראייתם של ילדים.\nו/או תינוקות ועל ידי כך תמנע הרעלה. אל תגרום להקאה.\nללא הוראה מפורשת מהרופא."
+        },
+        {
+          "eng": "Do not use the medicine after the expiry date\n(exp. date) appearing on the package",
+          "heb": "אין להשתמש בתרופה אחרי תאריך התפוגה\nהמופיע על גבי האריזה. תאריך התפוגה.\nמתייחס ליום האחרון של אותו חודש."
+        }
+      ]
+    },
+    {
+      "title": "additional information",
+      "section_num": 6,
+      "data": []
+    }
+  ]
+}

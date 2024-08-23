@@ -19,7 +19,7 @@ export default function Leaflet() {
     return (
         <main className="flex p-4 flex-col h-full">
             <LanguageSelection/>
-            <div className="flex-grow overflow-y-auto">
+            <div className="overflow-y-auto">
                 {currentLeaflet.sections.map(section => (
                     <TranslateSection 
                         key={section.id}
@@ -31,7 +31,11 @@ export default function Leaflet() {
                     />
                 ))}
             </div>
-            <AddButton className="flex justify-center flex-shrink-0" onClick={addSection} />
-      </main>
+            <div>  
+                <div className='flex justify-center'>click to add section</div>
+                <AddButton className="flex justify-center flex-shrink-0" onClick={addSection} />
+            </div>
+
+        </main>
     );
 }

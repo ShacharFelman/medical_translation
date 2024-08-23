@@ -1,6 +1,4 @@
 from langchain_core.prompts import ChatPromptTemplate
-# from langchain.output_parsers import RegexParser
-from bs4 import BeautifulSoup
 import re
 
 # Translation Prompt Template
@@ -26,12 +24,7 @@ Then your response will be:
 Provide a response without any additional information or comments besides the previously stated phrase and annotations.
 '''
 
-translation_prompt = ChatPromptTemplate.from_messages([("system", translation_prompt_template), ("user", "{text_input}")])
-
-# translation_parser = RegexParser(
-#     regex=r"(?:<eng_text>([\s\S]*?)</eng_text>\s*)?(\[TRANSLATION (?:SUCCESSFUL|FAILED)\])",
-#     output_keys=["translated_text", "status"]
-# )
+translation_prompt = ChatPromptTemplate.from_messages([("system", translation_prompt_template), ("user", "<heb_text>{text_input}</heb_text>")])
 
 class TranslationParser:
     def parse(self, text):
@@ -53,6 +46,3 @@ class TranslationParser:
         }
 
 translation_parser = TranslationParser()
-
-# If the text you receive contains no Hebrew text, contains no medical/pharmacological information or could not appear in a CMI leaflet,
-# respond with {translation_failure_string}.

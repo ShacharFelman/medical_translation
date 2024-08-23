@@ -5,8 +5,8 @@ import Fab from '@mui/material/Fab';
 export default function AddButton({className, onClick}){
     return (
         <div className= {className}>
-            <Fab size="medium" color="primary" aria-label="add">
-                <AddIcon onClick={onClick}/>
+            <Fab size="large" color="primary" aria-label="add">
+                <AddIcon fontSize="large" onClick={onClick}/>
             </Fab>
         </div>
     );

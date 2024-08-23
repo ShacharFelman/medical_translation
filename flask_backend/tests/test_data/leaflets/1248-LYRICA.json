@@ -1,0 +1,729 @@
+{
+    "title": "LYRICA",
+    "index": 0,
+    "dir_index": 1248,
+    "title_lang": {
+        "title_eng": "LYRICA",
+        "title_heb": "ליריקה"
+    },
+    "sections": [
+        {
+            "title": "General",
+            "section_num": "0",
+            "data": [
+                {
+                    "eng": "Patient package insert in accordance with the Pharmacists' Regulations - (Preparations) - 1986 ",
+                    "heb": "עלון לצרכן לפי תקנות הרוקחים (תכשירים) התשמ\"ו - 1986"
+                },
+                {
+                    "eng": "The medicine is dispensed with a doctor’s prescription only",
+                    "heb": "התרופה משווקת על פי מרשם רופא בלבד"
+                },
+                {
+                    "eng": "LYRICA® 25 mg",
+                    "heb": "ליריקה™ 25 מ\"ג"
+                },
+                {
+                    "eng": "Capsules",
+                    "heb": "כמוסות"
+                },
+                {
+                    "eng": "Active ingredient:",
+                    "heb": "חומר פעיל:"
+                },
+                {
+                    "eng": "Pregabalin 25, 50, 75, 100, 150, 200, 225, 300 mg",
+                    "heb": "פרגבלין 25, 50, 75, 100, 150, 200, 225, 300 מ\"ג"
+                },
+                {
+                    "eng": "Inactive ingredients and allergens: see section 2 under \"Important information about some of this medicine's ingredients\" and section 6 “Further information”.",
+                    "heb": "חומרים בלתי פעילים ואלרגניים: ראה סעיף 2 תחת \"מידע חשוב על חלק מהמרכיבים של התרופה\" וסעיף 6 \"מידע נוסף\"."
+                },
+                {
+                    "eng": "Read the entire leaflet carefully before using this medicine. This leaflet contains concise information about this medicine. If you have any further questions, consult your doctor or pharmacist.",
+                    "heb": "קרא בעיון את העלון עד סופו בטרם תשתמש בתרופה. עלון זה מכיל מידע תמציתי על התרופה. אם יש לך שאלות נוספות, פנה אל הרופא או אל הרוקח."
+                },
+                {
+                    "eng": "This medicine has been prescribed for you. Do not pass it on to others, it may harm them, even if it seems to you that their medical condition is similar to yours.",
+                    "heb": "תרופה זו נרשמה לטיפול עבורך, אל תעביר אותה לאחרים. היא עלולה להזיק להם גם אם נראה לך כי מצבם הרפואי דומה."
+                },
+                {
+                    "eng": "This medicine is not intended for treatment of children and adolescents under 18 years of age.",
+                    "heb": "תרופה זו אינה מיועדת לטיפול בילדים ומתבגרים מתחת לגיל 18 שנים."
+                }
+            ]
+        },
+        {
+            "title": "medicine intended for",
+            "section_num": "1",
+            "data": [
+                {
+                    "eng": "1. WHAT IS THE MEDICINE INTENDED FOR?",
+                    "heb": "1. למה מיועדת התרופה?"
+                },
+                {
+                    "eng": "For treatment of neuropathic (neural) pain in adults, for treatment of fibromyalgia and for treatment of generalised anxiety disorder in adults",
+                    "heb": "לטיפול בכאב ממקור נוירופאטי (עצבי) במבוגרים, לטיפול בדאבת שרירים (פיברומיאלגיה- Fibromyalgia) ולטיפול בהפרעת חרדה מוכללת במבוגרים."
+                },
+                {
+                    "eng": "Therapeutic group:",
+                    "heb": "קבוצה תרפויטית: "
+                },
+                {
+                    "eng": "A gamma-aminobutyric acid analog.",
+                    "heb": "אנלוג לחומצה גאמא אמינובוטירית"
+                }
+            ]
+        },
+        {
+            "title": "before using the medicine",
+            "section_num": "2",
+            "data": [
+                {
+                    "eng": "2. BEFORE USING THIS MEDICINE",
+                    "heb": "2. לפני השימוש בתרופה"
+                },
+                {
+                    "eng": "Do not use this medicine if:",
+                    "heb": "אין להשתמש בתרופה אם:"
+                },
+                {
+                    "eng": "• you are sensitive (allergic) to the active ingredient or to any of the other ingredients contained in this medicine (listed in section 6).",
+                    "heb": "• אתה רגיש (אלרגי) לחומר הפעיל או לכל אחד מהמרכיבים הנוספים אשר מכילה התרופה (המפורטים בסעיף 6)."
+                },
+                {
+                    "eng": "Special warnings regarding use of the medicine",
+                    "heb": "אזהרות מיוחדות הנוגעות לשימוש בתרופה"
+                },
+                {
+                    "eng": "Refer to your doctor before taking the medicine.",
+                    "heb": "פנה לרופא שלך לפני נטילת התרופה."
+                },
+                {
+                    "eng": "• Some patients taking Lyrica have reported allergic effects. These effects include swelling of the face, lips, tongue and throat, as well as diffuse skin rash. If you experience one or more of these effects, refer to a doctor immediately.",
+                    "heb": "• חלק מן החולים הנוטלים ליריקה דיווחו על תופעות אלרגיות. תופעות אלו כוללות נפיחות בפנים, בשפתיים, בלשון ובלוע וכן פריחה עורית מפושטת. אם אתה חווה אחת או יותר מתופעות אלו, עליך לפנות באופן מיידי לרופא."
+                },
+                {
+                    "eng": "• Serious skin rashes including Stevens-Johnson syndrome and toxic epidermal necrolysis have been reported in association with Lyrica. Stop using the medicine and refer to a doctor immediately if you experience one or more of the symptoms related to these serious skin reactions described in section 4.",
+                    "heb": "• פריחות עוריות חמורות, כגון תסמונת סטיבנס-ג'ונסון ונמק אפידרמלי רעיל, דווחו בהקשר של השימוש בליריקה. יש להפסיק את השימוש בתרופה ולפנות מיד לרופא אם אתה חווה אחד או יותר מהתסמינים הקשורים בתופעות העוריות החמורות המתוארות בסעיף 4."
+                },
+                {
+                    "eng": "• The medicine may cause dizziness and somnolence, such that elderly patients taking the preparation are at increased risk of falls and injuries. Exercise caution until you become accustomed to the effect of the medicine on you.",
+                    "heb": "• התרופה עלולה לגרום לסחרחורת ולישנוניות, כך שחולים מבוגרים הנוטלים את התכשיר הם בסיכון מוגבר לנפילות ולפציעות. יש לנקוט בזהירות עד שתתרגל להשפעת התרופה עליך."
+                },
+                {
+                    "eng": "• The medicine may cause blurring or loss of vision, or other changes in eyesight, most of which are transient - inform the doctor immediately of any change in your vision.",
+                    "heb": "• התרופה עלולה לגרום לטשטוש או אובדן ראייה או שינויים אחרים בראייה, שרובם חולפים - יש להודיע לרופא באופן מיידי על כל שינוי שחל בראייה."
+                },
+                {
+                    "eng": "• In some patients with diabetes, who gain weight while taking the preparation, the dosage of medicines for lowering the blood sugar level may have to be adjusted.",
+                    "heb": "• בחולי סוכרת מסוימים, העולים במשקל תחת הטיפול בתכשיר, ייתכן צורך בהתאמת מינון התרופות להורדת רמת הסוכר בדם."
+                },
+                {
+                    "eng": "• Certain side effects, such as sleepiness, may be more common, because patients with spinal cord injury may be taking other medicines to treat pain and spasticity, which have side effects similar to those of Lyrica and their severity may increase when these are taken together.",
+                    "heb": "• תופעות לוואי מסוימות, כגון ישנוניות, עשויות להיות יותר שכיחות, כיוון שחולים עם פגיעה בעמוד השדרה עשויים ליטול תרופות נוספות לטיפול בכאב וספסטיות, שלהן תופעות לוואי דומות לאלו של ליריקה וחומרתן עשויה לגבור כאשר אלו ניטלות יחד."
+                },
+                {
+                    "eng": "• Heart failure has been reported in a number of patients who took Lyrica, mostly in elderly patients with cardiovascular diseases. Before starting use of the medicine, inform the doctor if you are suffering, or have suffered in the past, from a heart disease.",
+                    "heb": "• במספר חולים שנטלו ליריקה דווח על כשל לבבי, בעיקר אצל מבוגרים בעלי מחלות לב וכלי דם. לפני תחילת השימוש בתרופה, יש ליידע את הרופא אם אתה סובל או סבלת בעבר ממחלת לב."
+                },
+                {
+                    "eng": "• A few cases of kidney failure associated with treatment with Lyrica have been reported. If you notice decreased urination during the treatment with the medicine, inform the doctor, as discontinuation of treatment with the medicine may bring an improvement.",
+                    "heb": "• קיימים מספר דיווחים של כשל כלייתי על רקע טיפול בליריקה. אם במהלך הטיפול בתרופה אתה מבחין בהשתנה מופחתת, יש לדווח על כך לרופא, שכן הפסקת הטיפול התרופתי עשויה להביא לשיפור."
+                },
+                {
+                    "eng": "• Some patients who were treated with antiepileptic medicines such as Lyrica have had thoughts of harming or killing themselves or shown suicidal behavior. In case of onset of such thoughts or behavior at any stage, refer to the doctor immediately.",
+                    "heb": "• בחולים מסויימים, שטופלו בתרופות אנטי אפילפטיות כגון ליריקה, דווח על מחשבות על פגיעה עצמית או מחשבות אובדניות או שהראו התנהגות אובדנית. במקרה של הופעת מחשבות או התנהגות מסוג זה בכל שלב, יש לפנות לרופא מיד."
+                },
+                {
+                    "eng": "• Combination of Lyrica with other medicines (e.g., certain types of analgesics) which might cause constipation, may cause gastrointestinal problems (e.g., constipation, blocked or paralyzed bowel). Inform the doctor if you are suffering from constipation, especially if you are prone to constipation.",
+                    "heb": "• שילוב ליריקה עם תרופות אחרות (כגון סוגים מסוימים של משככי כאבים) העשויות לגרום לעצירות, עלול לגרום לבעיות במערכת העיכול (כגון: עצירות, חסימת או שיתוק מעי). יש להודיע לרופא אם אתה סובל מעצירות, במיוחד אם קיימת נטייה לעצירות."
+                },
+                {
+                    "eng": "• Before starting this medicine, inform your doctor if you are or have previously been dependent on or addicted to alcoholic beverages, drugs or any medicines. In this case, you may have a greater risk of becoming dependent on Lyrica.",
+                    "heb": "• לפני תחילת השימוש בתרופה, יש ליידע את הרופא אם אתה סובל או סבלת בעבר מתלות או התמכרות למשקאות חריפים, לסמים או לתרופות כלשהן. במצב כזה ייתכן שיש לך סיכוי גבוה יותר לפתח תלות בליריקה."
+                },
+                {
+                    "eng": "• Convulsions may occur during treatment with the medicine or immediately after its discontinuation – inform the doctor immediately if you are suffering from convulsions.",
+                    "heb": "• במהלך השימוש בתרופה או מיד לאחר הפסקתה עשויות להופיע עוויתות - יש להודיע לרופא באופן מיידי אם אתה סובל מעוויתות."
+                },
+                {
+                    "eng": "• Reduced brain functioning (encephalopathy) has been reported in a number of patients with other underlying ailments. Inform the doctor if you are aware of any serious medical conditions, including liver or kidney diseases.",
+                    "heb": "• במספר חולים עם מחלות רקע נוספות דווח על ירידה בתפקוד מוחי (אנצפלופתיה). יש ליידע את הרופא אם ידוע על מצב רפואי בעל השלכות משמעותיות, כולל מחלות כבד או כליות."
+                },
+                {
+                    "eng": "• There have been reports of breathing difficulties. If you have nervous system disorders, respiratory disorders, renal impairment, or you are older than 65, your doctor may prescribe you a different dosing regimen. Consult your doctor if you experience difficulty breathing or shallow breaths.",
+                    "heb": "• קיימים דיווחים על קשיי נשימה. אם יש לך הפרעות במערכת העצבים, הפרעות נשימה, ליקוי כלייתי או שאתה מעל גיל 65, ייתכן שהרופא ירשום לך משטר מינון אחר. היוועץ ברופא אם יש לך קושי נשימתי או נשימות שטוחות."
+                },
+                {
+                    "eng": "Dependence",
+                    "heb": "תלות"
+                },
+                {
+                    "eng": "Some people may become dependent on Lyrica (a need to keep taking the medicine). They may have withdrawal effects when they stop using Lyrica (see section 3, “How to use this medicine?” and “If you stop taking the medicine”). If you have concerns that you may become dependent on Lyrica, it is important that you consult your doctor. ",
+                    "heb": "אנשים מסוימים יפתחו תלות בליריקה (צורך להמשיך לקחת את התרופה). הם עלולים לפתח תסמיני גמילה בהפסקת השימוש בליריקה (ראה סעיף 3, \"כיצד תשתמש בתרופה?\" ו-\"אם אתה מפסיק את נטילת התרופה\"). אם קיים חשש שאתה עלול לפתח תלות בליריקה, חשוב שתתייעץ עם הרופא."
+                },
+                {
+                    "eng": "If you notice any of the following signs while taking Lyrica, it could be a sign that you have become dependent:",
+                    "heb": "אם הבחנת באחד מהסימנים הבאים בזמן שאתה נוטל ליריקה, זה יכול להיות סימן שפיתחת תלות:"
+                },
+                {
+                    "eng": "• You need to take the medicine for longer than prescribed for you",
+                    "heb": "• אתה צריך ליטול את התרופה לתקופת זמן ארוכה יותר מזו שנרשמה עבורך"
+                },
+                {
+                    "eng": "• You feel you need to take more than the dose prescribed for you",
+                    "heb": "• אתה מרגיש שאתה צריך ליטול יותר מהמנה שנרשמה עבורך"
+                },
+                {
+                    "eng": "• You are using the medicine for reasons other than those for which it was prescribed",
+                    "heb": "• אתה משתמש בתרופה מסיבות שונות מאלו אשר עבורן היא נרשמה לך"
+                },
+                {
+                    "eng": "• You have made repeated, unsuccessful attempts to quit or control the use of the medicine",
+                    "heb": "• היו לך נסיונות חוזרים ולא מוצלחים להפסיק או לשלוט בשימוש בתרופה"
+                },
+                {
+                    "eng": "• When you stop taking the medicine you feel unwell, and you feel better once taking the medicine again",
+                    "heb": "• כשאתה מפסיק ליטול את התרופה אתה מרגיש לא טוב, ואתה מרגיש טוב יותר לאחר נטילת התרופה שוב"
+                },
+                {
+                    "eng": "If you notice any of these signs, contact your doctor to discuss the best treatment for you, including when you should stop taking the medicine and how to do this safely.",
+                    "heb": "אם אתה מבחין בכל אחד מסימנים אלו, פנה אל הרופא והתייעץ איתו לגבי הטיפול המיטבי עבורך, כולל מתי יש להפסיק לקחת את התרופה ואיך לעשות זאת בבטחה."
+                },
+                {
+                    "eng": "Drug interactions",
+                    "heb": "תגובות בין תרופתיות"
+                },
+                {
+                    "eng": "If you are taking or have recently taken, other medicines, including nonprescription medicines and dietary supplements, tell your doctor or pharmacist. Particularly if you are taking:",
+                    "heb": "אם אתה לוקח, או אם לקחת לאחרונה, תרופות אחרות כולל תרופות ללא מרשם ותוספי תזונה, ספר על כך לרופא או לרוקח. במיוחד אם אתה לוקח:"
+                },
+                {
+                    "eng": "Lyrica and certain other medicines may have mutual influences on activity. ",
+                    "heb": "לליריקה ולתרופות מסוימות אחרות עלולות להיות השפעות הדדיות על הפעילות."
+                },
+                {
+                    "eng": "If Lyrica is taken with certain medicines which have sedative effects (including opioids), Lyrica may potentiate these effects, and could lead to respiratory failure, coma and death. The degree of dizziness, sleepiness and decreased concentration may be increased if Lyrica is taken together with:",
+                    "heb": "אם ליריקה נלקחת במקביל לתרופות מסוימות בעלות השפעות מרגיעות (כולל אופיאטים), ליריקה עלולה להגביר השפעות אלו ולהוביל לכשל נשימתי, לתרדמת (קומה) ולמוות. עוצמת הסחרחורת, ישנוניות, וירידה בריכוז עלוליםלעלות אם ליריקה נלקחת במקביל ל:"
+                },
+                {
+                    "eng": "Oxycodone – an analgesic",
+                    "heb": "אוקסיקודון - תרופה לשיכוך כאבים"
+                },
+                {
+                    "eng": "Lorazepam – a medicine for treating anxiety",
+                    "heb": "לוראזפאם - תרופה לטיפול בחרדה"
+                },
+                {
+                    "eng": "Alcohol",
+                    "heb": "אלכוהול"
+                },
+                {
+                    "eng": "Lyrica may be taken with oral contraceptives.",
+                    "heb": "ניתן ליטול ליריקה עם גלולות למניעת היריון."
+                },
+                {
+                    "eng": "Using this medicine and food",
+                    "heb": "שימוש בתרופה ומזון"
+                },
+                {
+                    "eng": "The medicine can be taken without regard to meals.",
+                    "heb": "ניתן ליטול התרופה ללא קשר לארוחות."
+                },
+                {
+                    "eng": "Using this medicine and alcohol consumption",
+                    "heb": "שימוש בתרופה וצריכת אלכוהול"
+                },
+                {
+                    "eng": "Do not consume alcohol during the treatment with the medicine.",
+                    "heb": "אין לצרוך אלכוהול במהלך הטיפול בתרופה."
+                },
+                {
+                    "eng": "Pregnancy, breastfeeding, and fertility",
+                    "heb": "היריון, הנקה ופוריות"
+                },
+                {
+                    "eng": "Do not use Lyrica during pregnancy or when breastfeeding, unless the doctor has instructed you to do so after consulting with him. Pregabalin use during the first 3 months of pregnancy may cause birth defects in the unborn child that require medical treatment. In a study reviewing data from women in Nordic countries who took pregabalin in the first 3 months of pregnancy, 6 in 100 babies had such birth defects. This compares to 4 in 100 babies born to women not treated with pregabalin in the study. Abnormalities of the face (orofacial clefts), the eyes, the nervous system (including the brain), kidneys and genitals have been reported.",
+                    "heb": "אין להשתמש בליריקה במהלך ההיריון או תקופת ההנקה, אלא אם בהוראת הרופא לאחר היוועצות עמו. השימוש בפרגבלין במהלך 3 חודשי ההריון הראשונים עלול לגרום למומים מולדים בעובר הדורשים טיפול רפואי. במחקר שסקר נתונים מנשים ממדינות נורדיות אשר נטלו פרגבלין במהלך 3 החודשים הראשונים של ההיריון, 6 תינוקות מתוך 100 סבלו ממומים מולדים כאלו. זאת בהשוואה ל 4 תינוקות מתוך 100 שנולדו לנשים שלא טופלו בפרגבלין במחקר. דווח על חריגות בפנים (שסעים בפנים ובפה), בעיניים, במערכת העצבים (כולל במח), בכליות ובאברי המין."
+                },
+                {
+                    "eng": "Women who may become pregnant during the treatment with the medicine must use effective contraceptive measures.",
+                    "heb": "נשים העשויות להרות במהלך הטיפול בתרופה חייבות להשתמש באמצעי מניעה יעילים."
+                },
+                {
+                    "eng": "If you are pregnant or breastfeeding, think you may be pregnant or are planning to become pregnant, consult your doctor or pharmacist before taking this medicine. ",
+                    "heb": "אם את בהריון או מניקה, חושבת שאת בהריון או מתכננת להיכנס להריון, היוועצי ברופא או ברוקח לפני נטילת תרופה זו."
+                },
+                {
+                    "eng": "Driving and using machines",
+                    "heb": "נהיגה ושימוש במכונות"
+                },
+                {
+                    "eng": "Do not drive or operate dangerous machinery until you know how the medicine affects you, since use of this medicine may cause dizziness, drowsiness or decreased concentration.",
+                    "heb": "אין לנהוג או להפעיל מכונות מסוכנות עד שתדע כיצד התרופה משפיעה עליך, בגלל שהשימוש בתרופה זו עלול לגרום לסחרחורת, לנמנום או לירידה בריכוז."
+                },
+                {
+                    "eng": "Important information about some of this medicine's ingredients",
+                    "heb": "מידע חשוב על חלק מהמרכיבים של התרופה"
+                },
+                {
+                    "eng": "The preparation contains lactose monohydrate. If you have been told in the past by a doctor that you have an intolerance to certain sugars, consult the doctor before starting  treatment with this medicine.",
+                    "heb": "התכשיר מכיל לקטוז מונוהידראט. אם נאמר לך בעבר על ידי רופא שיש לך אי סבילות לסוכרים מסוימים, יש להיוועץ ברופא לפני התחלת הטיפול בתרופה זו."
+                },
+                {
+                    "eng": "This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially \"sodium-free\".",
+                    "heb": "תרופה זו מכילה פחות מ-1 מילימול נתרן (23 מ\"ג) בכמוסה, ולכן ניתן להגדירה כי הינה -\"ללא נתרן\" מבחינה מהותית."
+                }
+            ]
+        },
+        {
+            "title": "how to use the medicine",
+            "section_num": "3",
+            "data": [
+                {
+                    "eng": "3. HOW TO USE THIS MEDICINE?",
+                    "heb": "3. כיצד תשתמש בתרופה?"
+                },
+                {
+                    "eng": "Always use this medicine according to the doctor’s instructions. Check with the doctor or pharmacist if you are uncertain about the dosage and treatment regimen of the medicine. The dosage and treatment regimen will be determined by your doctor only.",
+                    "heb": "יש להשתמש בתכשיר תמיד בהתאם להוראות הרופא. עליך לבדוק עם הרופא או הרוקח אם אינך בטוח בנוגע למינון ואופן הטיפול בתכשיר. המינון ואופן הטיפול יקבעו על ידי הרופא בלבד."
+                },
+                {
+                    "eng": "Do not exceed the recommended dose",
+                    "heb": "אין לעבור על המנה המומלצת."
+                },
+                {
+                    "eng": "Swallow the capsule whole. Do not open and disperse the contents of the capsule, since such forms of administration have not been tested. Swallow the medicine with water.",
+                    "heb": "יש לבלוע את הכמוסה בשלמותה. אסור לפתוח ולפזר את תוכן הכמוסה, היות שצורות מתן אלו לא נבדקו. יש לבלוע את התרופה עם מים."
+                },
+                {
+                    "eng": "If you have taken an overdose or if a child has accidentally swallowed the medicine, refer to a doctor immediately or proceed to a hospital emergency room and bring the package of the medicine with you. You may feel sleepy, confused, agitated or restless as a result of taking an overdose of Lyrica. In addition, there have been reports of fits (convulsions) and unconsciousness (coma).",
+                    "heb": "אם נטלת מנת יתר או אם בטעות בלע ילד מן התרופה, פנה מיד לרופא או לחדר מיון של בית חולים והבא את אריזת התרופה איתך. אתה עלול להרגיש ישנוני, מבולבל, מודאג או חסר מנוחה כתוצאה מנטילת מינון יתר של ליריקה. כמו כן דווחו התקפים של עוויתות (פרכוסים) ואיבוד הכרה (תרדמת)."
+                },
+                {
+                    "eng": "If you forget to take this medicine at the scheduled time",
+                    "heb": "אם שכחת ליטול תרופה זו בזמן המיועד"
+                },
+                {
+                    "eng": "It is important to take the medicine every day at a set time. If you forget to take this medicine at the designated time, do not take a double dose. Take the next dose at the usual time and consult the doctor. ",
+                    "heb": "חשוב ליטול את התרופה בכל יום בשעה קבועה. אם שכחת ליטול תרופה זו בזמן המיועד, אין ליטול מנה כפולה. קח את המנה הבאה בזמן הרגיל והיוועץ ברופא."
+                },
+                {
+                    "eng": "Adhere to the treatment as recommended by the doctor.",
+                    "heb": "יש להתמיד בטיפול כפי שהומלץ על ידי הרופא."
+                },
+                {
+                    "eng": "If you stop taking the medicine",
+                    "heb": "אם אתה מפסיק את נטילת התרופה"
+                },
+                {
+                    "eng": "Even if there is an improvement in your health, do not stop treatment with the medicine without consulting the doctor. If a decision is made to discontinue treatment, your doctor will tell you how to do it. Discontinuation of treatment with the medicine must be gradual, over a period of at least one week.",
+                    "heb": "גם אם חל שיפור במצב בריאותך, אין להפסיק הטיפול בתרופה ללא התייעצות עם הרופא. אם הוחלט על הפסקת טיפול, הרופא יסביר לך איך לעשות זאת. הפסקת הטיפול בתרופה חייבת להיות הדרגתית, במשך תקופה של שבוע ימים לפחות."
+                },
+                {
+                    "eng": "After stopping treatment with the medicine (whether short or long-term treatment), you may experience certain symptoms called withdrawal symptoms. These symptoms include insomnia, headaches, nausea, anxiety, diarrhea, flu-like symptoms, convulsions, nervousness, depression, pain, sweating and dizziness. These effects may be more experience withdrawal symptoms, you should contact your doctor.",
+                    "heb": "לאחר הפסקת הטיפול בתרופה (בין אם טיפול קצר או ארוך טווח) ייתכן שתחווה תסמינים מסויימים שנקראים תסמיני גמילה. תסמינים אלו כוללים: נדודי שינה, כאבי ראש, בחילות, חרדה, שלשול, סימפטומים דמויי שפעת, עוויתות, עצבנות, דיכאון, כאבים, הזעה וסחרחורות. ככל שהתרופה ניטלת במשך זמן ארוך יותר, תופעות אלו עשויות להיות שכיחות וחמורות יותר. אם אתה חווה תסמיני גמילה, יש לפנות לרופא."
+                },
+                {
+                    "eng": "Do not take medicines in the dark! Check the label and dose each time you take the medicine. Wear glasses if you need them.",
+                    "heb": "אין ליטול תרופות בחושך! בדוק התווית והמנה בכל פעם שהינך נוטל תרופה. הרכב משקפיים אם הינך זקוק להם."
+                },
+                {
+                    "eng": "If you have any further questions about using this medicine, consult your doctor or pharmacist.",
+                    "heb": "אם יש לך שאלות נוספות בנוגע לשימוש בתרופה, היוועץ ברופא או ברוקח."
+                }
+            ]
+        },
+        {
+            "title": "side effects",
+            "section_num": "4",
+            "data": [
+                {
+                    "eng": "4. SIDE EFFECTS",
+                    "heb": "4. תופעות לוואי"
+                },
+                {
+                    "eng": "As with any medicine, use of Lyrica may cause side effects in some users. Do not be alarmed by this list of side effects; you may not suffer from any of them.",
+                    "heb": "כמו בכל תרופה, השימוש בליריקה עלול לגרום לתופעות לוואי בחלק מהמשתמשים. אל תיבהל למקרא רשימת תופעות הלוואי. ייתכן שלא תסבול מאף אחת מהן."
+                },
+                {
+                    "eng": "Refer to a doctor immediately if you suffer from swelling of the face or tongue or a severe skin reaction (the skin reddens and becomes covered with blisters or peels).",
+                    "heb": "יש לפנות מיד לרופא אם אתה סובל מנפיחות בפנים או בלשון או מתגובה עורית חמורה (העור מאדים ומתכסה שלפוחיות או מתקלף)."
+                },
+                {
+                    "eng": "Very common side effects: occur in more than 1 in 10 people",
+                    "heb": "תופעות לוואי שכיחות מאוד: מופיעות ביותר מ-1 מתוך 10 אנשים"
+                },
+                {
+                    "eng": "Dizziness, drowsiness, headaches.",
+                    "heb": "סחרחורות, תחושת נמנום, כאבי ראש."
+                },
+                {
+                    "eng": "These are common side effects that may occur in up to 1 in 10 people taking the medicine:",
+                    "heb": "תופעות לוואי אלו יכולות להופיע בעד 1 מתוך 10 אנשים הנוטלים את התרופה:"
+                },
+                {
+                    "eng": "• Increased appetite.",
+                    "heb": "• תיאבון מוגבר."
+                },
+                {
+                    "eng": "• Feeling of elation, confusion, disorientation, decrease in sexual interest, irritability.",
+                    "heb": "• תחושת התרוממות רוח, בלבול, קשיי התמצאות, ירידה בחשק המיני, עצבנות."
+                },
+                {
+                    "eng": "• Concentration or memory impairment, loss of memory, clumsiness, tremor, speech disturbance, tingling feeling, numbness, sedation, lethargy, insomnia, fatigue, feeling abnormal.",
+                    "heb": "• הפרעה בריכוז או בזיכרון, איבוד זיכרון, גמלוניות, רעד, הפרעה בדיבור, תחושת עקצוץ, חוסר/קהות בתחושה, סדציה, רדמת, נדודי שינה, עייפות, תחושה משונה."
+                },
+                {
+                    "eng": "• Blurred vision, double vision.",
+                    "heb": "• טשטוש ראייה, ראייה כפולה."
+                },
+                {
+                    "eng": "• Vertigo, balance disorders, falls.",
+                    "heb": "• ורטיגו, הפרעות בשיווי המשקל, נפילות."
+                },
+                {
+                    "eng": "• Dry mouth, constipation, vomiting, flatulence, diarrhea, nausea, swollen abdomen.",
+                    "heb": "• יבש בפה, עצירות, הקאות, גזים, שלשול, בחילות, בטן נפוחה."
+                },
+                {
+                    "eng": "• Erection problems.",
+                    "heb": "• בעיות זקפה."
+                },
+                {
+                    "eng": "• Swelling of the body including the extremities.",
+                    "heb": "• נפיחות של הגוף, כולל הגפיים."
+                },
+                {
+                    "eng": "• Feeling drunk, abnormal style of walking.",
+                    "heb": "• תחושת שכרות, סגנון הליכה חריג."
+                },
+                {
+                    "eng": "• Weight gain.",
+                    "heb": "• עלייה במשקל."
+                },
+                {
+                    "eng": "• Muscle cramps, joint pain, back and limb pains.",
+                    "heb": "• התכווציות שרירים, כאב מפרקים, כאבי גב וגפיים."
+                },
+                {
+                    "eng": "• Sore throat.",
+                    "heb": "• כאב גרון."
+                },
+                {
+                    "eng": "Uncommon side effects: occur in up to 1 in 100 people",
+                    "heb": "תופעות לוואי שאינן שכיחות: מופיעות ב-עד 1 מתוך 100 אנשים"
+                },
+                {
+                    "eng": "• Loss of appetite, weight loss, decreased blood sugar level, increased blood sugar level.",
+                    "heb": "• אובדן תיאבון, ירידה במשקל, ירידה ברמת הסוכר בדם, עלייה ברמת הסוכר בדם."
+                },
+                {
+                    "eng": "• Change in self-perception, restlessness, depression, anxiety, mood swings, difficulty finding words, hallucinations, abnormal dreams, panic attacks, apathy, aggression, elevated mood, mental impairment, difficulty with thinking, increase in sexual interest, problems with sexual functioning, including inability to achieve a sexual climax, delayed ejaculation.",
+                    "heb": "• שינוי בתפיסת האדם את עצמו, אי שקט, דיכאון, חרדה, שינויי מצב רוח, קושי במציאת מילים, הזיות, חלומות משונים, התקפי פאניקה, אפאתיה, תוקפנות, מצב רוח מרומם, הפרעה נפשית, קושי בחשיבה, עלייה בחשק המיני, בעיות בתפקוד המיני, כולל חוסר יכולת להגיע לפורקן מיני, עיכוב בשפיכה."
+                },
+                {
+                    "eng": "• Vision changes including loss of peripheral vision, nystagmus, flashes of light, jerky movements, reduced reflexes, increased activity, dizziness on standing, skin sensitivity, loss of taste, burning sensation, tremor on movement, decreased consciousness, loss of consciousness, fainting, increased sensitivity to noise, feeling unwell.",
+                    "heb": "• שינויים בראייה כולל אובדן ראייה היקפית, ריצוד עיניים, הבזקי אור, תנועות קופצניות, ירידה בתגובות רפלקס, פעלתנות, סחרחורת בעמידה, רגישות עורית, איבוד טעם, תחושת צריבה, רעד בתנועה, ירידה ברמת ההכרה, אובדן הכרה, עילפון, רגישות מוגברת לרעש, תחושת מחלה."
+                },
+                {
+                    "eng": "• Dry eyes, eye swelling or pain, weak eyes, watery eyes, eye irritation.",
+                    "heb": "• עיניים יבשות, נפיחות או כאב בעין, חולשת עיניים, עיניים דומעות, גירוי בעין."
+                },
+                {
+                    "eng": "• Heart rhythm disturbances, increased heart rate, low or high blood pressure, changes in heart beat, heart failure.",
+                    "heb": "• הפרעות בקצב הלב, קצב לב מוגבר, לחץ דם נמוך או גבוה, שינויים בדופק, כשל לבבי."
+                },
+                {
+                    "eng": "• Flushing, hot flushes.",
+                    "heb": "• סמקה, גלי חום."
+                },
+                {
+                    "eng": "• Difficulty breathing, dry nose, nasal congestion.",
+                    "heb": "• קושי בנשימה, יובש באף, אף סתום."
+                },
+                {
+                    "eng": "• Increased saliva production, heartburn, numbness around the mouth.",
+                    "heb": "• יצירת רוק מוגברת, צרבת, רדימות מסביב לפה."
+                },
+                {
+                    "eng": "• Sweating, rash, chills, fever.",
+                    "heb": "• הזעה, פריחה, צמרמורות, חום."
+                },
+                {
+                    "eng": "• Muscle twitching, joint swelling, muscle stiffness, pain including muscle pain, neck pain.",
+                    "heb": "• עוויתות שרירים, נפיחות במפרקים, קשיחות שרירים, כאב כולל כאב שרירים, כאב צוואר."
+                },
+                {
+                    "eng": "• Breast pain.",
+                    "heb": "• כאב בשדיים."
+                },
+                {
+                    "eng": "• Difficulty with or painful urination, incontinence.",
+                    "heb": "• קושי או כאב במתן שתן, בריחת שתן."
+                },
+                {
+                    "eng": "• Weakness, thirst, chest tightness.",
+                    "heb": "• חולשה, צמא, לחץ בחזה."
+                },
+                {
+                    "eng": "• Changes in blood and liver function tests (increased blood creatine phosphokinase, increased liver enzymes, decreased blood platelets, neutropenia, increased blood creatinine, decrease in blood potassium).",
+                    "heb": "• שינויים בבדיקות דם ותפקודי כבד (עלייה בקראטין פוספוקינאז בדם, עלייה באנזימי כבד, ירידה בטסיות הדם, נויטרופניה, עלייה בקריאטינין בדם, ירידה באשלגן בדם)."
+                },
+                {
+                    "eng": "• Hypersensitivity, swollen face, itchiness, hives, runny nose, nose bleed, cough, snoring.",
+                    "heb": "• רגישות יתר, נפיחות בפנים, גרד, חרלת, נזלת, דימום מהאף, שיעול, נחירות."
+                },
+                {
+                    "eng": "• Painful menstrual periods.",
+                    "heb": "• כאבים במחזור החודשי."
+                },
+                {
+                    "eng": "• Cold hands and feet.",
+                    "heb": "• ידיים ורגליים קרות."
+                },
+                {
+                    "eng": "Rare side effects: occur in up to 1 in 1,000 people",
+                    "heb": "תופעות לוואי נדירות: מופיעות ב-עד 1 מתוך 1,000 אנשים"
+                },
+                {
+                    "eng": "• Abnormal sense of smell, swinging vision, change in depth perception, visual brightness, vision loss.",
+                    "heb": "• חוש ריח חריג, תנודתיות בראייה, שינוי בתפיסת העומק, בהירות חזותית, איבוד ראייה."
+                },
+                {
+                    "eng": "• Dilated pupils, crossed eyes.",
+                    "heb": "• אישונים מורחבים, פזילה."
+                },
+                {
+                    "eng": "• Cold sweat, irritation of the throat, swollen tongue.",
+                    "heb": "• זיעה קרה, גירוי בגרון, לשון נפוחה."
+                },
+                {
+                    "eng": "• Inflammation of the pancreas.",
+                    "heb": "• דלקת לבלב."
+                },
+                {
+                    "eng": "• Difficulty in swallowing.",
+                    "heb": "• קושי בבליעה."
+                },
+                {
+                    "eng": "• Slower or reduced movement of the body.",
+                    "heb": "• תנועתיות גוף איטית יותר או מופחתת."
+                },
+                {
+                    "eng": "• Difficulty with writing.",
+                    "heb": "• קושי בכתיבה."
+                },
+                {
+                    "eng": "• Edema in the abdominal area.",
+                    "heb": "• בצקות באזור הבטן."
+                },
+                {
+                    "eng": "• Fluid in the lungs.",
+                    "heb": "• נוזלים בריאות."
+                },
+                {
+                    "eng": "• Convulsions.",
+                    "heb": "• עוויתות."
+                },
+                {
+                    "eng": "• Changes in ECG which correspond to heart rhythm disturbances.",
+                    "heb": "• שינויים בא.ק.ג התואמים להפרעות קצב לב."
+                },
+                {
+                    "eng": "• Muscle damage.",
+                    "heb": "• נזק לשריר."
+                },
+                {
+                    "eng": "• Breast discharge, abnormal breast growth, breast growth in men.",
+                    "heb": "• הפרשה מהשדיים, הגדלת שדיים חריגה, הגדלת שדיים אצל גברים."
+                },
+                {
+                    "eng": "• Menstrual period disturbances.",
+                    "heb": "• הפרעות במחזור החודשי."
+                },
+                {
+                    "eng": "• Kidney failure, reduced urine volume, urinary retention.",
+                    "heb": "• כשל כלייתי, ירידה בנפח השתן, אצירת שתן."
+                },
+                {
+                    "eng": "• Decrease in white blood cell count in blood test.",
+                    "heb": "• ירידה בספירת תאי הדם הלבנים בבדיקת דם."
+                },
+                {
+                    "eng": "• Abnormal behavior, suicidal behavior, suicidal thoughts.",
+                    "heb": "• התנהגות חריגה, התנהגות אובדנית, מחשבות אובדניות."
+                },
+                {
+                    "eng": "• Allergic reactions (may be manifested by: breathing difficulties, inflammation of the eyes [keratitis] and serious skin reactions characterized by reddish non-elevated, target-like or circular patches on the trunk, often with central blisters, skin peeling, ulcers of mouth, throat, nose, genitals and eyes. These serious skin rashes can be preceded by fever and flu-like symptoms (Stevens-Johnson syndrome, toxic epidermal necrolysis).",
+                    "heb": "• תגובות אלרגיות (עשויות להתבטא ב: קשיי נשימה, דלקת עיניים [דלקת בקרנית], ותגובות עוריות חמורות המאופיינות בכתמים עגולים, אדמדמים, לא מוגבהים באיזור הגו, אשר לעתים קרובות מלווים בשלפוחיות במרכזם, התקלפות העור, כיבים בפה, בגרון, באף, באיברי המין ובעיניים. לתופעות עוריות חמורות אלו יכולות להיות תופעות מקדימות, כגון חום ותסמינים דמויי שפעת (תסמונת סטיבנס-ג'ונסונס, נמק אפידרמלי רעיל)."
+                },
+                {
+                    "eng": "• Jaundice (yellowing of the skin and whites of the eyes).",
+                    "heb": "• צהבת (הצהבה של העור ולובן העיניים)."
+                },
+                {
+                    "eng": "• Parkinsonism, that is symptoms resembling Parkinson’s disease; such as tremor, bradykinesia (decreased ability to move), and rigidity (muscle stiffness).",
+                    "heb": "• פרקינסוניזם, כלומר תסמינים שדומים למחלת הפרקינסון כמו: רעד, ברדיקינזיה (ירידה ביכולת התנועה) וקשיחות (נוקשות שרירים)."
+                },
+                {
+                    "eng": "Very rare side effects: may occur in up to 1 in 10,000 people",
+                    "heb": "תופעות לוואי נדירות מאוד: יכולות להופיע ב-עד 1 מתוך 10,000 אנשים"
+                },
+                {
+                    "eng": "• Liver failure.",
+                    "heb": "• כשל כבדי."
+                },
+                {
+                    "eng": "• Hepatitis (inflammation of the liver).",
+                    "heb": "• דלקת כבד (הפטיטיס)."
+                },
+                {
+                    "eng": "Side effects of unknown frequency",
+                    "heb": "תופעות לוואי ששכיחותן אינה ידועה:"
+                },
+                {
+                    "eng": "• Becoming dependent on Lyrica",
+                    "heb": "• פיתוח תלות בליריקה"
+                },
+                {
+                    "eng": "After stopping treatment (short or long-term) with Lyrica, you may experience certain symptoms called withdrawal symptoms (see Section 3 “If you stop taking the medicine”).",
+                    "heb": "לאחר הפסקת הטיפול בליריקה (בין אם טיפול קצר או ארוך טווח) ייתכן שתחווה תסמינים מסויימים שנקראים תסמיני גמילה. (ראה סעיף 3 \"אם אתה מפסיק את נטילת התרופה\")."
+                },
+                {
+                    "eng": "Certain side effects, such as sleepiness, may be more common, because patients with spinal cord injury may be taking additional medicines to treat pain and spasticity, which have side effects similar to those of Lyrica and their severity may increase when these are taken together.",
+                    "heb": "תופעות לוואי מסוימות, כגון ישנוניות, עשויות להיות יותר שכיחות, כיוון שחולים עם פגיעה בעמוד השדרה עשויים ליטול תרופות נוספות לטיפול בכאב וספסטיות, שלהן תופעות לוואי דומות לאלו של ליריקה וחומרתן עשויה לגבור כאשר אלו ניטלות יחד."
+                },
+                {
+                    "eng": "The following side effects have been reported post-marketing: difficulty breathing and shallow breaths.",
+                    "heb": "תופעות הלוואי הבאות דווחו לאחר שיווקה של התרופה: קושי נשימתי ונשימות שטוחות."
+                },
+                {
+                    "eng": "If a side effect occurs, if any of the side effects worsen, or if you suffer from a side effect not mentioned in the leaflet, consult with the doctor",
+                    "heb": "אם הופיעה תופעת לוואי, אם אחת מתופעות הלוואי מחמירה, או כאשר אתה סובל מתופעת לוואי שלא צוינה בעלון, עליך להתייעץ עם הרופא."
+                },
+                {
+                    "eng": "Side effects can be reported to the Ministry of Health by clicking on the link “Report Side Effects of Drug Treatment” found on the Ministry of Health homepage that directs you to the online form for reporting side effects, or by entering the following link",
+                    "heb": "ניתן לדווח על תופעות לוואי למשרד הבריאות באמצעות לחיצה על הקישור \"דיווח על תופעות לוואי עקב טיפול המפנה לטופס המקוון לדיווח על תרופתי\" שנמצא בדף הבית של אתר משרד הבריאות  תופעות לוואי, או ע\"י כניסה לקישור"
+                }
+            ]
+        },
+        {
+            "title": "medicine storage",
+            "section_num": "5",
+            "data": [
+                {
+                    "eng": "5. HOW TO STORE THE MEDICINE?",
+                    "heb": "5. איך לאחסן את התרופה?"
+                },
+                {
+                    "eng": "• Prevent poisoning! This medicine and any other medicine must be kept in a closed place out of the reach and sight of children and/or infants in order to avoid poisoning. Do not induce vomiting unless explicitly instructed to do so by the doctor.",
+                    "heb": "• מנע הרעלה! תרופה זו וכל תרופה אחרת יש לשמור במקום סגור מחוץ להישג ידם וטווח ראייתם של ילדים ו/או תינוקות ועל ידי כך תמנע הרעלה. אל תגרום להקאה ללא הוראה מפורשת מהרופא."
+                },
+                {
+                    "eng": "• Do not use the medicine after the expiry date (exp. date) that appears on the package. The expiry date refers to the last day of that month.",
+                    "heb": "• אין להשתמש בתרופה אחרי תאריך התפוגה  (exp. date) המופיע על גבי האריזה. תאריך התפוגה מתייחס ליום האחרון של אותו חודש."
+                },
+                {
+                    "eng": "• Store below 25°C.",
+                    "heb": "• יש לאחסן בטמפרטורה הנמוכה מ-25ºC"
+                }
+            ]
+        },
+        {
+            "title": "additional information",
+            "section_num": "6",
+            "data": [
+                {
+                    "eng": "6. FURTHER INFORMATION",
+                    "heb": "6. מידע נוסף "
+                },
+                {
+                    "eng": "In addition to the active ingredient, this medicine also contains:",
+                    "heb": "נוסף על המרכיב הפעיל התרופה מכילה גם:"
+                },
+                {
+                    "eng": "Lyrica 75 mg, 100 mg, 200 mg, 225 mg and 300 mg capsules also contain",
+                    "heb": "כמוסות ליריקה 75 מ\"ג, 100 מ\"ג, 200 מ\"ג, 225 מ\"ג ו-300 מ\"ג מכילות גם"
+                },
+                {
+                    "eng": "The preparation contains lactose monohydrate:",
+                    "heb": ":התכשיר מכיל לקטוז מונוהידראט"
+                },
+                {
+                    "eng": "Lyrica 25 mg - 35 mg lactose monohydrate, Lyrica 50 mg - 70 mg lactose monohydrate,",
+                    "heb": "ליריקה 25 מ\"ג - 35 מ\"ג לקטוז מונוהידראט, ליריקה 50 מ\"ג - 70 מ\"ג לקטוז מונוהידראט,"
+                },
+                {
+                    "eng": "Lyrica 75 mg - 8.25 mg lactose monohydrate, Lyrica 100 mg - 11 mg lactose monohydrate,",
+                    "heb": "ליריקה 75 מ\"ג - 8.25 מ\"ג לקטוז מונוהידראט, ליריקה 100 מ\"ג - 11 מ\"ג לקטוז מונוהידראט,"
+                },
+                {
+                    "eng": "Lyrica 150 mg - 16.5 mg lactose monohydrate, Lyrica 200 mg - 22 mg lactose monohydrate,",
+                    "heb": "ליריקה 150 מ\"ג - 16.5 מ\"ג לקטוז מונוהידראט, ליריקה 200 מ\"ג - 22 מ\"ג לקטוז מונוהידראט,"
+                },
+                {
+                    "eng": "Lyrica 225 mg - 24.75 mg lactose monohydrate, Lyrica 300 mg - 33 mg lactose monohydrate.",
+                    "heb": "ליריקה 225 מ\"ג - 24.75 מ\"ג לקטוז מונוהידראט, ליריקה 300 מ\"ג - 33 מ\"ג לקטוז מונוהידראט."
+                },
+                {
+                    "eng": "What the medicine looks like and the contents of the pack:",
+                    "heb": ":כיצד נראית התרופה ומה תוכן האריזה"
+                },
+                {
+                    "eng": "Lyrica 25 mg: a white capsule with the word “Pfizer” imprinted on one side and “PGN 25” on",
+                    "heb": "ליריקה 25 מ\"ג: כמוסה בצבע לבן עם המילה \"Pfizer\" מוטבעת בצד אחד ו\"PGN 25\" מוטבעת בצד שני."
+                },
+                {
+                    "eng": "Lyrica 50 mg: a white capsule with a black stripe, with the word “Pfizer” imprinted on one",
+                    "heb": "ליריקה 50 מ\"ג: כמוסה בצבע לבן עם פס שחור והמילה \"Pfizer\" מוטבעת בצד אחד ו\"PGN 50\" מוטבעת בצד שני."
+                },
+                {
+                    "eng": "Lyrica 75 mg: a white-orange capsule with the word “Pfizer” imprinted on one side and “PGN",
+                    "heb": "ליריקה 75 מ\"ג: כמוסה בצבע לבן-כתום עם המילה \"Pfizer\" מוטבעת בצד אחד ו\"PGN 75\" מוטבעת בצד שני."
+                },
+                {
+                    "eng": "Lyrica 100 mg: an orange capsule with the word “Pfizer” imprinted on one side and “PGN",
+                    "heb": "ליריקה 100 מ\"ג: כמוסה בצבע כתום עם המילה \"Pfizer\" מוטבעת בצד אחד ו\"PGN 100\" מוטבעת בצד שני."
+                },
+                {
+                    "eng": "Lyrica 150 mg: a white capsule with the word “Pfizer” imprinted on one side and “PGN 150”",
+                    "heb": "ליריקה 150 מ\"ג: כמוסה בצבע לבן עם המילה \"Pfizer\" מוטבעת בצד אחד ו\"PGN 150\" מוטבעת בצד שני."
+                },
+                {
+                    "eng": "Lyrica 200 mg: a light orange capsule with the word “Pfizer” imprinted on one side and “PGN",
+                    "heb": "ליריקה 200 מ\"ג: כמוסה בצבע כתום בהיר עם המילה \"Pfizer\" מוטבעת בצד אחד ו\"PGN 200\" מוטבעת בצד שני."
+                },
+                {
+                    "eng": "Lyrica 225 mg: a white-light orange capsule with the word “Pfizer” imprinted on one side and “PGN 225” on the other side.",
+                    "heb": "ליריקה 225 מ\"ג: כמוסה בצבע לבן-כתום בהיר עם המילה \"Pfizer\" מוטבעת בצד אחד ו\"PGN 225\" מוטבעת בצד שני."
+                },
+                {
+                    "eng": "Lyrica 300 mg: a white-orange capsule with the word “Pfizer” imprinted on one side and “PGN 300” on the other side.",
+                    "heb": "ליריקה 300 מ\"ג: כמוסה בצבע לבן-כתום עם המילה \"Pfizer\" מוטבעת בצד אחד ו\"PGN 300\" מוטבעת בצד שני."
+                },
+                {
+                    "eng": "The medicine is available in a package of 14, 21, 28, 56, 84, 100, 112 capsules.",
+                    "heb": "התרופה זמינה באריזה של 14, 21, 28, 56, 84, 100, 112 כמוסות."
+                },
+                {
+                    "eng": "Not all pack sizes may be marketed.",
+                    "heb": "ייתכן שלא כל גודלי האריזה משווקים."
+                },
+                {
+                    "eng": "Registration holder and address: Pfizer PFE Pharmaceuticals Israel Ltd., 9 Shenkar St., Herzliya Pituach 46725.",
+                    "heb": "בעל הרישום וכתובתו: פייזר פי אף אי פרמצבטיקה ישראל בע\"מ, רח' שנקר 9, הרצליה פיתוח 46725."
+                },
+                {
+                    "eng": "Registration numbers of the medicines in the National Drug Registry of the Ministry of Health:",
+                    "heb": "מספרי רישום התרופות בפנקס התרופות הממלכתי במשרד הבריאות:"
+                },
+                {
+                    "eng": "Revised in 08/2022 according to MOH guidelines.",
+                    "heb": "עודכן ב-08/2022 בהתאם להנחיות משרד הבריאות."
+                }
+            ]
+        }
+    ]
+}

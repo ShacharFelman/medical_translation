@@ -1,0 +1,457 @@
+{
+    "title": "טרידרם",
+    "index": 0,
+    "dir_index": 557,
+    "title_lang": {
+        "title_eng": "Triderm",
+        "title_heb": "טרידרם"
+    },
+    "sections": [
+        {
+            "title": "General",
+            "section_num": "0",
+            "data": [
+                {
+                    "eng": "Patient package insert in accordance with the Pharmacists' Regulations - (Preparations) - 1986 ",
+                    "heb": "עלון לצרכן לפי תקנות הרוקחים (תכשירים) התשמ\"ו - 1986"
+                },
+                {
+                    "eng": "Composition:",
+                    "heb": "הרכב: "
+                },
+                {
+                    "eng": "Each gram contains:",
+                    "heb": "כל גרם מכיל:"
+                },
+                {
+                    "eng": "Read all of this leaflet carefully before you start using the medicine.",
+                    "heb": "קרא בעיון את העלון עד סופו בטרם תשתמש בתרופה."
+                },
+                {
+                    "eng": "This leaflet contains concise information about Triderm Cream. If you have any further questions, refer to the doctor or pharmacist.",
+                    "heb": " עלון זה מכיל מידע תמציתי על טרידרם קרם. אם יש לך שאלות נוספות, פנה אל הרופא או אל הרוקח"
+                },
+                {
+                    "eng": "This medicine has been prescribed for you. Do not pass it on to others. It may harm them, even if their medical condition seems similar to yours.",
+                    "heb": "תרופה זו נרשמה עבורך. אל תעביר אותה לאחרים. היא עלולה להזיק להם , אפילו אם נראה לך כי מצבם הרפואי דומה."
+                }
+            ]
+        },
+        {
+            "title": "medicine intended for",
+            "section_num": "1",
+            "data": [
+                {
+                    "eng": "Triderm Cream is indicated for the treatment of dermatoses responsive to corticosteroids when complicated by secondary infections caused by bacteria (sensitive to gentamicin) and fungi (sensitive to clotrimazole) or when the possibility of such infections is suspected.",
+                    "heb": "טרידרם קרם מותווה לטיפול במחלות עור המגיבות לקורטיקוסטרואידים עם סיבוך משני של זיהומים חיידקיים (הרגישים לגנטמיצין) וזיהומים פטרייתיים (הרגישים לקלוטרימזול), או כאשר יש חשד לאפשרות של זיהומים כאלה"
+                },
+                {
+                    "eng": "The cream is suitable for the treatment of oozing eczema.",
+                    "heb": "הקרם מתאים לטיפול באקזמה מפרישה."
+                },
+                {
+                    "eng": "Therapeutic Group:",
+                    "heb": "קבוצה תרפויטית:"
+                },
+                {
+                    "eng": "Betamethasone - potent glucocorticoid.",
+                    "heb": "בטאמתאזון – גלוקוקורטיקואיד פוטנטי (עוצמתי)."
+                },
+                {
+                    "eng": "Clotrimazole - antifungal.",
+                    "heb": "קלוטרימזול – אנטי פטרייתי."
+                },
+                {
+                    "eng": "Gentamicin - aminoglycoside antibiotic.",
+                    "heb": "גנטמיצין – אנטיביוטיקה ממשפחת האמינוגליקוזידים. "
+                }
+            ]
+        },
+        {
+            "title": "before using the medicine",
+            "section_num": "2",
+            "data": [
+                {
+                    "eng": "BEFORE USING TRIDERM CREAM",
+                    "heb": "לפני שימוש בטרידרם קרם"
+                },
+                {
+                    "eng": "Do not use Triderm Cream",
+                    "heb": "אין להשתמש בטרידרם קרם"
+                },
+                {
+                    "eng": "if you are sensitive (allergic) to betamethasone dipropionate, clotrimazole, gentamicin sulfate or any of the other ingredients of this medicine. For a list of inactive ingredients, see section 6.",
+                    "heb": "אם אתה רגיש (אלרגי) לבטא מתאזון דיפרופיונאט, קלוטרימזול, גנטמיצין סולפט או לכל אחד מהמרכיבים הנוספים אשר מכילה התרופה. לרשימת המרכיבים הבלתי פעילים ראה סעיף 6."
+                },
+                {
+                    "eng": "in cases of skin infections [of viral, bacterial (including tuberculosis) and fungal aetiology] or syphilitic skin diseases, chicken pox (varicella), herpes infections (e.g. fever blisters), vaccine reactions, skin ulcers and acne. The doctor should be informed immediately.",
+                    "heb": "במקרים של זיהומים בעור [ממקור נגיפי, חיידקי (כולל שחפת) ופטרייתי] או מחלות עור הקשורות לעגבת, אבעבועות רוח (וריצלה), זיהומי הרפס (למשל שלפוחיות חום) , תגובות לחיסון, כיבים בעור ואקנה. יש ליידע את הרופא מיד."
+                },
+                {
+                    "eng": "facial application is not recommended in the presence of rosacea or perioral dermatitis.",
+                    "heb": "מריחה על הפנים אינה מומלצת כשיש לך רוזציאה (חזזית ורודה) או דלקת בעור סביב הפה. "
+                },
+                {
+                    "eng": "in case of open wounds or damaged skin areas.",
+                    "heb": "במקרה של פצעים פתוחים או איזורים פגומים בעור. "
+                },
+                {
+                    "eng": "under occlusive dressings. ",
+                    "heb": "מתחת לחבישות אטומות."
+                },
+                {
+                    "eng": "do not use on mucous membranes, to the eyes or the area around the eyes.",
+                    "heb": "אין להשתמש על רקמות ריריות, על העיניים או באיזור מסביב ל עיניים. "
+                },
+                {
+                    "eng": "2.2 Special warnings regarding use of Triderm Cream",
+                    "heb": "2.2 אזהרות מיוחדות הנוגעות לשימוש בטרידרם קרם"
+                },
+                {
+                    "eng": "Triderm Cream is a very effective pharmaceutical product. Do not use Triderm Cream longer than the prescribed time period. Normally the treatment duration for adults and adolescents is maximum 2-3 weeks otherwise the skin may get damaged. For instruction for use and duration of use in children see section ‘’use in children’’ and dosage section in section 3.",
+                    "heb": "טרידרם קרם הוא תכשיר יעיל מאוד. אין להשתמש בטרידרם קרם מעבר לתקופת הזמן שנרשמה. בדרך כלל, משך הטיפול במבוגרים ובמתבגרים הינו 2-3 שבועות לכל היותר, אחרת העור עלול להיפגע. להוראות השימוש ומשך השימוש בילדים ראה סעיף שימוש בילדים וכן סעיף המינון בפרק 3 "                 
+                },
+                {
+                    "eng": "If your skin disease does not respond to the treatment within a few days or is even getting worse, contact your doctor. Please inform your doctor if itching, redness, blisters, a marked thinning or lesions of the skin occur",
+                    "heb": "אם מחלת העור שלך אינה מגיבה לטיפול תוך כמה ימים או אפילו מחמירה, צור קשר עם הרופא שלך. אנא יידע את ה רופא שלך אם מופיע גרד, אדמומיות, שלפוחיות, הידקקות ניכרת של העור או נגעים ב עור."
+                },
+                {
+                    "eng": "If your symptoms recur shortly after the end of treatment within 2 weeks, do not use the cream without first consulting a doctor again, unless your doctor has instructed you to do so. If your symptoms recur after they have subsided, you should seek medical advice before repeating the treatment if the redness extends beyond the area originally treated and the skin burns.",
+                    "heb": "אם התסמינים שלך חוזרים על עצמם זמן קצר לאחר הפסקת הטיפול, תוך שבועיים, אל תשתמש בקרם מבלי להתייעץ שוב עם רופא, אלא אם כן הרופא שלך הורה לך לעשות זאת. אם התסמינים שלך חוזרים על עצמם לאחר שדעכו, עליך לפנות לייעוץ רפואי לפני חזרה על הטיפול, אם האדמומיות חורגת מהאיזור המקורי שטופל והעור צורב"
+                },
+                {
+                    "eng": "If unexpected hypersensitivity reactions occur, in form of redness or swelling of the skin area, the treatment must be discontinued.",
+                    "heb": "אם מתרחשות תופעות לא צפויות של רגישות יתר, בצורה של אדמומיות או נפיחות של האיזור בעור, יש להפסיק את הטיפול."
+                },
+                {
+                    "eng": "It should be avoided to treat extensive body areas (more than 10% of the body surface) or highly absorbing skin areas [open wounds, damaged skin, intertriginous areas (skin folds), bends of the joints, between fingers and toes, the muco-cutaneous junction and around the eyes].",
+                    "heb": "יש להימנע מטיפול באזורים נרחבים בגוף (יותר מ- 10% משטח הגוף) או באיזורים בעור בעלי ספיגה גבוהה [פצעים פתוחים, עור פגוע, אזורים המשתפשפים זה בזה (קפלי עור), כיפופי מפרקים, בין אצבעות הידיים והרגליים, בחיבורים בין רקמה רירית לעור ומסביב לעיניים]."
+                },
+                {
+                    "eng": "If Triderm Cream is used on extensive skin areas or for long-term, skin changes may occur; impact on the skin thickness, dilatation and increase of blood vessels, formation of stripes and spots. Therefore, do not use Triderm Cream on extensive skin areas without consulting your doctor.",
+                    "heb": "שינויים בעור עלולים להתרחש בשימוש בטרידרם קרם על איזורים נרחבים או בשימוש טל ווך ארוך ; השפעה על עובי העור, התרחבות והגדלה של כלי דם, היווצרות של פסים וכתמים. לכן, אין להשתמש בטרידרם קרם באיזורים נרחבים ללא התייעצות עם הרופא שלך. "
+                },
+                {
+                    "eng": "Tell your doctor if blurred vision or visual disturbances occur. Your doctor will decide whether or not to consult an ophthalmologist to determine what are the possible causes (including opacity of the lens, glaucoma or other rare diseases) of your visual disturbances.",
+                    "heb": "ספר לרופא שלך אם אתה חווה ראייה מטושטשת או הפרעות בראייה. הרופא שלך יחליט אם להתייעץ או לא להתייעץ עם רופא עיניים כדי לקבוע מהם הגורמים האפשריים (כולל אטימות של העדשה, גלאוקומה או מחלות נדירות אחרות) להפרעות בראייה שלך."
+                },
+                {
+                    "eng": "Use in Children",
+                    "heb": "שימוש בילדים"
+                },
+                {
+                    "eng": "Triderm Cream should be used with caution in children from the age of2-12 years, not longer than 5-7 days and not on extensive body areas. The use in children under the age of 2 years is not recommended. ",
+                    "heb": "יש להשתמש בזהירות בטרידרם קרם בילדים בגילאי 2-12 שנים, לא יותר מ- 5-7 ימים ולא על שטחי גוף נרחבים. השימוש בילדים מתחת לגיל שנתיים אינו מומלץ."
+                },
+                {
+                    "eng": "If Triderm Cream must be used in children from the age of 2-12 years, the treatment should be closely monitored by a doctor, as the active substances may penetrate the skin and cause undesirable events. This applies in particular for the treatment of highly absorbing skin areas like the face, neck, scalp, genital or rectal region and in skin folds.",
+                    "heb": "אם חייבים להשתמש בטרידרם קרם בילדים בגילאי 2-12 שנים, על הטיפול להיות מפוקח מקרוב על- ידי רופא, מכיוון שהחומרים הפעילים עלולים לחדור דרך העור ולגרום לתופעות בלתי רצויות. הדבר נוגע במיוחד לטיפול באיזורי עור בעלי ספיגה גבוהה כמו הפנים, הצוואר, הקרקפת, אזור אברי המין או איזור פי-הטבעת ובקפלי עור."
+                },
+                {
+                    "eng": "Do not use Triderm Cream for any later skin disease. ",
+                    "heb": "אין להשתמש בטרידרם קרם עבור מחלות עור שיופיעו בהמשך. "
+                },
+                {
+                    "eng": "When Triderm Cream is used in the genital or anal region, the presence of the excipients petroleum jelly and liquid paraffin may diminish the tear resistance of concomitantly used latex condoms, thereby compromising their safety when in use",
+                    "heb": "כאשר משתמשים בטרידרם קרם באיזור אברי המין או פי -הטבעת, הנוכחות של החומרים הבלתי פעילים וזלין ופראפין נוזלי עשויה להפחית את עמידות קונדומי הלטקס מפני קריעה כאשר נעשה בהם שימוש במקביל, ובשל כך לסכן את בטיחות השימוש בהם."
+                },
+                {
+                    "eng": "Pregnancy and breastfeeding",
+                    "heb": "ה ריון ו הנקה"
+                },
+                {
+                    "eng": "If you are pregnant or want to become pregnant or if you are breast feeding, you should only use Triderm Cream after consulting your doctor",
+                    "heb": "אם את בהיריון או רוצה להיכנס יהל ריון, או אם את מניקה, יש להשתמש בטרידרם קרם רק לאחר התייעצות עם הרופא שלך. "
+                },
+                {
+                    "eng": "Drug interactions",
+                    "heb": "אינטר צקא יות בין תרופ תיות"
+                },
+                {
+                    "eng": "If you are taking, or have recently taken other medicines, including nonprescription medicines and nutritional supplements, you should inform the attending doctor or pharmacist.",
+                    "heb": "אם אתה לוקח, או אם לקחת לאחרונה, תרופות אחרות כולל תרופות ללא מרשם רופא ותוספי תזונה, ספר על כך לרופא או לרוקח."
+                },
+                {
+                    "eng": "Important information about some of the ingredients of Triderm Cream",
+                    "heb": "מידע חשוב אודות חלק מהמרכיבים של טרידרם קרם "
+                },
+                {
+                    "eng": "Cetostearyl alcohol",
+                    "heb": "צטוסטאריל אלכוהול "
+                },
+                {
+                    "eng": "Triderm Cream contains cetosteayl alcohol which may cause a local skin reactions (e.g. contact dermatitis).",
+                    "heb": "טרידרם קרם מכיל צטוסטאריל אלכוהול, ש עלול לגרום לתגובות מקומיות בעור (למשל ד לקת עור ממגע). "
+                },
+                {
+                    "eng": "Propylene glycol",
+                    "heb": "פרופילן גליקול "
+                },
+                {
+                    "eng": "Triderm Cream contains propylene glycol 100 mg per 1 g of the cream. Propylene glycol may cause skin irritation.",
+                    "heb": "טרידרם קרם מכיל פרופילן גליקול 100 מ''ג בכל 1 גר' של קרם. פרופילן גליקול עלול לגרום לגירוי בעור. "
+                },
+                {
+                    "eng": "Benzyl alcohol",
+                    "heb": "בנזיל אלכוהול "
+                },
+                {
+                    "eng": "Triderm Cream contains benzyl alcohol 10 mg per 1 g of the cream. Benzyl alcohol may cause allergic reactions or mild local irritation.",
+                    "heb": "טרידרם קרם מכילה בנזיל אלכוהול 10 מג בכל 1 גר' של קרם. בנזיל אלכוהול עלול לגרום לתגובות אלרגיות או לגירוי מקומי קל."
+                },
+                {
+                    "eng": "Inform your doctor or pharmacist, if you are ",
+                    "heb": "יידע את הרופא או הרוקח אם:"
+                },
+                {
+                    "eng": "suffering from other illnesses ",
+                    "heb": "הנך סובל ממחלות אחרות"
+                },
+                {
+                    "eng": "you have allergies ",
+                    "heb": "יש לך אלרגיות"
+                }
+            ]
+        },
+        {
+            "title": "how to use the medicine",
+            "section_num": "3",
+            "data": [
+                {
+                    "eng": "HOW SHOULD YOU USE TRIDERM CREAM?",
+                    "heb": "כיצד תשתמש בטרידרם קרם?"
+                },
+                {
+                    "eng": "Always use Triderm Cream as instructed by the doctor.",
+                    "heb": "יש להשתמש בטרידרם קרם תמיד בהתאם להוראות הרופא. "    
+                },
+                {
+                    "eng": "You should check with the doctor or pharmacist if you are not sure regarding the dosage and treatment regimen.",
+                    "heb": "עליך לבדוק עם הרופא או הרוקח אם אינך בטוח בנוגע למינון ואופן הטיפול בתכשיר. "    
+                },
+                {
+                    "eng": "The dosage, duration of treatment, and treatment regimen will be determined by the doctor only.",
+                    "heb": "המינון, משך הטיפול ואופן הטיפול יקבעו על ידי הרופא בלבד."    
+                },
+                {
+                    "eng": "Usually the recommended dosage is : ",
+                    "heb": "המינון ה מקובל בדרך כלל הוא:"    
+                },
+                {
+                    "eng": "Adults and adolescents: ",
+                    "heb": "מבוגרים ומתבגרים: "    
+                },
+                {
+                    "eng": "Apply a thin layer of the cream to cover the entire affected area, and the skin around it twice a day (in the morning and in the evening). ",
+                    "heb": "יש למרוח שכבה דקה של הקרם לכיסוי מלא של האזור הנגוע והעור שמסביבו, פעמיים ביום (בבוקר ובערב )."    
+                },
+                {
+                    "eng": "The duration of treatment in adults and adolescents is 2-3 weeks at the most.",
+                    "heb": "משך הטיפול במבוגרים ובמתבגרים הינו 2-3 שבועות לכל היותר."    
+                },
+                {
+                    "eng": "Children: ",
+                    "heb": "ילדים: "    
+                },
+                {
+                    "eng": "The use in children younger than 2 years of age is not recommended.",
+                    "heb": "השימוש בילדים מתחת לגיל שנתיים אינו מומלץ. "    
+                },
+                {
+                    "eng": "Children from the age of 2-12 years: ",
+                    "heb": "ילדים בגילאי 2-12 שנים:"    
+                },
+                {
+                    "eng": "Apply a thin film of the cream only on the affected skin area.",
+                    "heb": "יש למרוח שכבה דקה של הקרם לאזור הנגוע בלבד. "    
+                },
+                {
+                    "eng": "Do not apply more than twice daily",
+                    "heb": "אין למרוח יותר מפעמיים ביום"    
+                },
+                {
+                    "eng": "Keep at least 6-12 hours between applications.",
+                    "heb": "יש לשמור על מרווחים של לפחות 6-12 שעות בין מריחה אחת לשניה."    
+                },
+                {
+                    "eng": "Duration of use in children from the age of 2-12 years is limited to 5-7 days. See also section 2.2 Use in children",
+                    "heb": "משך הטיפול בילדים בגילאי 2-12 שנים מוגבל ל 5-7 ימים. ראה גם בסעיף 2.2  שימוש בילדים . "    
+                },
+                {
+                    "eng": "Do not exceed the recommended dose.",
+                    "heb": "אין לעבור על המנה המומלצת."    
+                },
+                {
+                    "eng": "Pay Attention:",
+                    "heb": "שים לב :"    
+                },
+                {
+                    "eng": "Do not swallow! This medicine is intended for external use only. ",
+                    "heb": " לא לבלוע! תרופה זו מיועדת לשימוש חיצוני בלבד."    
+                },
+                {
+                    "eng": "Avoid contact with the eyes and mucous membranes (e.g. in mouth and nose), see section 2.2 Special warnings regarding use of Triderm Cream. ",
+                    "heb": "יש להימנע ממגע עם העיניים ורקמות ריריות (למשל ב פה ובאף), ראה סעיף 2.2  אזהרות מיוחדות הנוגעות לשימוש בטרידרם קרם."    
+                },
+                {
+                    "eng": "Do not use under occlusive dressings.",
+                    "heb": "אין להשתמש מתחת לחבישות אוטמות."    
+                },
+                {
+                    "eng": "If you have accidentally used more Triderm Cream than you should",
+                    "heb": "אם השתמשת בטעות ביותר טרידרם קרם מכפי שהיית צריך "    
+                },
+                {
+                    "eng": "If you have used an overdose, or if a child has accidentally swallowed the medicine, proceed immediately to a doctor or to a hospital emergency room and bring the package of the medicine with you. ",
+                    "heb": "אם השתמשת במינון יתר או אם בטעות בלע ילד מן התרופה, פנה מיד לרופא או לחדר מיון של בית חולים והבא אריזת התרופה איתך."    
+                },
+                {
+                    "eng": "Do not take medicines in the dark! Check the label and the dose each time you take a medicine. Wear glasses if you need them.",
+                    "heb": "אין ליטול תרופות בחושך! יש לבדוק התווית והמנה בכל פעם שהינך נוטל תרופה. הרכב משקפיים אם הנך זקוק להם."    
+                },
+                {
+                    "eng": "If you have further questions on the use of the medicine, consult with a doctor or a pharmacist.",
+                    "heb": "אם יש לך שאלות נוספות בנוגע לשימוש בתרופה, היוועץ ברופא או ברוקח. "    
+                }
+            ]
+        },
+        {
+            "title": "side effects",
+            "section_num": "4",
+            "data": [
+                {
+                    "eng": "4. Side Effects:",
+                    "heb": "4. תופעות לוואי"
+                },
+                {
+                    "eng": "As with any medicine, Triderm Cream may cause side effects, in some users.",
+                    "heb": "כמו בכל תרופה, השימוש ב טרידרם קרם עלול לגרום לתופעות לוואי בחלק מהמשתמשים. "
+                },
+                {
+                    "eng": "Do not be alarmed by reading the list of side effects, you may not suffer from any of them",
+                    "heb": "אל תיבהל למקרא רשימת תופעות הלוואי. ייתכן שלא תסבול מאף אחת מהן. "
+                },
+                {
+                    "eng": "The following side effects may occur when using Triderm Cream: ",
+                    "heb": "תופעות הלוואי הבאות עלולות לקרות בזמן שימוש בטרידרם קרם: "
+                },
+                {
+                    "eng": "Skin irritations, burning, itching, dryness and hypersensitivity and skin discoloration may occur. It is not known whether the skin discoloration is reversible.",
+                    "heb": "גירויים בעור, צריבה, גרד, יובש ורגישות יתר ושינוי בצבע העור עלולים להתרחש. לא ידוע אם השינוי בצבע העור הינו הפיך."
+                },
+                {
+                    "eng": "After long-term application a thinning of the concerned skin areas, a dilatation of small superficial blood vessels and the formation of blue-reddish stripes may occur",
+                    "heb": "לאחר מריחה ממושכת, עשויה לקרות הידקקות של איזורי העור המטופלים, התרחבות של כלי דם שטחיים קטנים והיווצרות של פסים כחולים-אדומים."
+                },
+                {
+                    "eng": "If used on extensive skin areas, occlusive dressings or if applied on damaged skin, the active substance may penetrate the skin and cause undesirable events. This includes endocrine disrupting effects or the occurrence of a so far (symptomless) latent diabetes.",
+                    "heb": "אם נעשה שימוש על איזורי עור נרחבים, בחבישות אטומות או אם נמרח על עור פגוע, החומר הפעיל עלול לחדור לעור ולגרום לתופעות בלתי רצויות. הדבר כולל השפעות של שיבוש אנדוקריני או הופעה של תסמינים של סוכרת במקרים של סוכרת שעד כה היתה סוכרת סמויה (ללא תסמינים)."
+                },
+                {
+                    "eng": "Withdrawal reaction after end of treatment: ",
+                    "heb": "תגובת גמילה לאחר סיום הטיפול:"
+                },
+                {
+                    "eng": "After continuous use for an extended period of time, a withdrawal reaction may occur after treatment ends. This may include one or more of the following symptoms: redness of the skin that may extend beyond the treated area, a burning or stinging sensation, severe itching, peeling skin, oozing open blisters.",
+                    "heb": "לאחר שימוש רציף לתקופת זמן ממושכת, עלולה להופיע תגובת גמילה לאחר סיום הטיפול. הדבר עשוי לכלול אחד או יותר מהתסמינים הבאים: אדמומיות בעור שיכולה להתרחב מעבר לאיזור שטופל, תחושת צריבה או עקצוץ, גרד חמור, קילוף העור, שלפוחיות פתוחות מפרישות."                
+                },
+                {
+                    "eng": "Blurred vision has been reported with the use of topical corticosteroids.",
+                    "heb": "ראייה מטושטשת דווחה בעת שימוש בקורטיקוסטרואידים מקומיים."
+                },
+                {
+                    "eng": "If a side effect appears, if any of the side effects worsens or if you suffer from a side effect not mentioned in this leaflet, consult with the doctor.",
+                    "heb": "אם הופיעה תופעת לוואי, אם אחת מתופעות הלוואי מחמירה או כאשר אתה סובל מתופעת לוואי שלא צוינה בעלון, עליך להתייעץ עם הרופא."
+                },
+                {
+                    "eng": "Side effects can be reported to the Ministry of Health by using the link Reporting side effects due to medicinal treatment at the home page of the Ministry of Health's website",
+                    "heb": "ניתן לדווח על תופעות לוואי למשרד הבריאות באמצעות לחיצה על הקישור דיווח על תופעות לוואי עקב טיפול תרופתי, שנמצא בדף הבית של אתר משרד הבריאות"
+                }
+            ]
+        },
+        {
+            "title": "medicine storage",
+            "section_num": "5",
+            "data": [
+                {
+                    "eng": " HOW TO STORE TRIDERM CREAM?",
+                    "heb": "איך לאחסן טרידרם קרם?"
+                },
+                {
+                    "eng": "Avoid Poisoning!",
+                    "heb": "מנע הרעלה!"
+                },
+                {
+                    "eng": "This medicine, and any other medicine must be stored in a safe place out of the reach and sight of children and/or infants, in order to avoid poisoning.",
+                    "heb": "תרופה זו וכל תרופה אחרת יש לשמור במקום סגור מחוץ להישג ידם וטווח ראייתם של ילדים ו/או תינוקות ועל-ידי כך תמנע הרעלה."
+                },
+                {
+                    "eng": "Do not induce vomiting unless explicitly instructed to do so by a doctor. ",
+                    "heb": "אל תגרום להקאה ללא הוראה מפורשת מהרופא."
+                },
+                {
+                    "eng": "Do not use the medicine after the expiry date which is stated on the pack. The expiry date refers to the last day of the indicated month.",
+                    "heb": "אין להשתמש בתרופה אחרי תאריך התפוגה המופיע על גבי האריזה. תאריך התפוגה מתייחס ליום האחרון של החודש המצויין. "
+                },
+                {
+                    "eng": "Storage conditions: ",
+                    "heb": "תנאי אחסון :"
+                },
+                {
+                    "eng": " After first opening, Tridem Cream can be used for 3 months. ",
+                    "heb": "לאחר פתיחה ראשונה, ניתן להשתמש בטרידרם קרם במשך 3 חודשים."
+                },
+                {
+                    "eng": "Medicines should not be disposed of via wastewater or household waste. Ask the pharmacist how to dispose of medicines you no longer use. These measures will help to protect the environment. ",
+                    "heb": "אין להשליך תרופות לביוב או לפח אשפה ביתי. שאל את הרוקח איך להשליך תרופות שאינן בשימוש עוד. אמצעים אלו יסייעו להגן על הסביבה."
+                }     
+            ]
+        },
+        {
+            "title": "additional information",
+            "section_num": "6",
+            "data": [
+                {
+                    "eng": "In addition to the active ingredients Triderm Cream also contains:",
+                    "heb": "נוסף על המרכיבים הפעילים טרידרם קרם מכיל גם: "
+                },
+                {
+                    "eng": "White soft paraffin, propylene glycol,cetostearyl alcohol, liquid paraffin, cetomacrogol1000, benzyl alcohol, sodium dihydrogen phosphate dihydrate, phosphoric acid, sodium hydroxide, purified water",
+                    "heb": "White soft paraffin, propylene glycol,cetostearyl alcohol, liquid paraffin, cetomacrogol1000, benzyl alcohol, sodium dihydrogen phosphate dihydrate, phosphoric acid, sodium hydroxide, purified water"
+                },
+                {
+                    "eng": "What Triderm Cream looks like: ",
+                    "heb": "כיצד נרא ה טרידרם קרם: "
+                },
+                {
+                    "eng": "Smooth, uniform, white to off-white cream, free from foreign matter.",
+                    "heb": "חלק, אחיד, בצבע לבן עד אוף-וייט , ללא חומר זר. "
+                },
+                {
+                    "eng": "Pack sizes: ",
+                    "heb": "גודל י האריזות :"
+                },
+                {
+                    "eng": "15 gr or 30 gr tubes .",
+                    "heb": "שפופרות של 15 גר' או 30 גר'."
+                },
+                {
+                    "eng": "Not all pack sizes may be marketed.",
+                    "heb": "ייתכן שלא כל גודלי האריזות משווקים. "
+                },
+                {
+                    "eng": "License holder and address: ",
+                    "heb": "בעל הרישום וכתובתו :"
+                },
+                {
+                    "eng": "Revised in November 2023 according to MOH guidelines.",
+                    "heb": "נערך ב נובמבר 2023 בהתאם להנחיות משרד הבריאות."
+                },
+                {
+                    "eng": "Drug registration no. listed in the official Registry of the Ministry of Health:",
+                    "heb": "מספר רישום התרופה בפנקס התרופות הממלכתי במשרד הבריאות :"
+                }
+            ]
+        }
+    ]
+}

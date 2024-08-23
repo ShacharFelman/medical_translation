@@ -1,0 +1,861 @@
+{
+    "title": "Keppra coated tablets",
+    "index": 0,
+    "dir_index": 3114,
+    "title_lang": {
+        "title_eng": "Keppra coated tablets",
+        "title_heb": "קפרה טבליות מצופות"
+    },
+    "sections": [
+        {
+            "title": "General",
+            "section_num": "0",
+            "data": [
+                {
+                    "eng": "PATIENT PACKAGE INSERT IN ACCORDANCE WITH THE  PHARMACISTS’ REGULATIONS (PREPARATIONS) - 1986 ",
+                    "heb": "עלון לצרכן לפי תקנות הרוקחים (תכשירים) התשמ\"ו – 1986"
+                },
+                {
+                    "eng": "The dispensing of this medicine requires a doctor’s prescription",
+                    "heb": "התרופה משווקת על פי מרשם רופא בלבד"
+                },
+                {
+                    "eng": "Retevmo 40 MG",
+                    "heb": "רטבמו 40 מ\"ג"
+                },
+                {
+                    "eng": "Retevmo 80 MG",
+                    "heb": "רטבמו 80 מ\"ג"
+                },
+                {
+                    "eng": "Active ingredient and its concentration:",
+                    "heb": "החומר הפעיל וריכוזו:"
+                },
+                {
+                    "eng": "Each capsule of Retevmo 40 mg contains 40 mg of selpercatinib.",
+                    "heb": "כל כמוסה של רטבמו 40 מ\"ג מכילה 40 מ\"ג סלפרקאטיניב."
+                },
+                {
+                    "eng": "Each capsule of Retevmo 80 mg contains 80 mg of selpercatinib.",
+                    "heb": "כל כמוסה של רטבמו 80 מ\"ג מכילה 80 מ\"ג סלפרקאטיניב."
+                },
+                {
+                    "eng": "Inactive ingredients and allergens in the preparation: please see section 6 'Additional Information'.",
+                    "heb": "חומרים בלתי פעילים ואלרגניים בתכשיר: ראה סעיף 6 'מידע נוסף'."
+                },
+                {
+                    "eng": "Read this patient leaflet carefully in its entirety before using this medicine. This leaflet contains concise information regarding this medicine. If you have any further questions, please contact your doctor or pharmacist. This medicine has been prescribed to treat your illness. Do not pass it on to others. It may harm them, even if it seems to you that their illness is similar.",
+                    "heb": "קרא בעיון את העלון עד סופו בטרם תשתמש בתרופה. עלון זה מכיל מידע תמציתי על התרופה. אם יש לך שאלות נוספות, פנה אל הרופא או אל הרוקח. תרופה זו נרשמה לטיפול במחלתך. אל תעביר אותה לאחרים. היא עלולה להזיק להם אפילו אם נראה לך כי מחלתם דומה."
+                }
+            ]
+        },
+        {
+            "title": "medicine intended for",
+            "section_num": "1",
+            "data": [
+                {
+                    "eng": "1. WHAT IS THE MEDICINE INTENDED FOR?",
+                    "heb": "1. למה מיועדת התרופה?"
+                },
+                {
+                    "eng": "Retevmo is used to treat certain cancers caused by abnormal RET genes and is indicated:",
+                    "heb": "רטבמו משמשת לטיפול בסוגי סרטן מסוימים הנגרמים על ידי מופעים חריגים של גנים מסוג RET ומיועדת:"
+                },
+                {
+                    "eng": "for the treatment of adult patients with metastatic RET fusion-positive non-small cell lung cancer (NSCLC)",
+                    "heb": "לטיפול במבוגרים שיש להם סרטן ריאות גרורתי של תאים שאינם קטנים שהוא חיובי ל - Fusion RET"
+                },
+                {
+                    "eng": "for the treatment of adult and pediatric patients 12 years of age and older with advanced or metastatic RET-mutant medullary thyroid cancer (MTC) who require systemic therapy.",
+                    "heb": "לטיפול במבוגרים ובילדים מגיל 12 ומעלה עם סרטן מדולארי של בלוטת התריס (MTC) המתקדם או הגורם להתפשטות, שיש להם מוטציות בגנים RET ושזקוקים לטיפול מערכתי."
+                },
+                {
+                    "eng": "for the treatment of adult and pediatric patients 12 years of age and older with advanced or metastatic RET fusion-positive thyroid cancer who require systemic therapy and who are radioactive iodine-refractory (if radioactive iodine is appropriate)",
+                    "heb": "לטיפול במבוגרים ובילדים מגיל 12 ומעלה עם סרטן בלוטת התריס (תירואיד) המתקדם או הגורם להתפשטות, חיובי ל-Fusion RET, שזקוקים לטיפול מערכתי ושהם עמידים לטיפול ביוד רדיואקטיבי (אם יש צורך ביוד רדיואקטיבי)."
+                },
+                {
+                    "eng": "Therapeutic group: Antineoplastic and immunomodulating agents, antineoplastic agents, protein kinase inhibitors",
+                    "heb": "קבוצה תרפויטית: חומרים אנטי-נאופלסטיים ואימונומודולטים, חומרים אנטי-ניאופלסטיים, מעכבי חלבון קינאז"
+                }
+            ]
+        },
+        {
+            "title": "before using the medicine",
+            "section_num": "2",
+            "data": [
+                {
+                    "eng": " 2. Before using the medicine:",
+                    "heb": "2. לפני שימוש בתרופה:"
+                },
+                {
+                    "eng": "Do not use this medicine if:",
+                    "heb": "אין להשתמש בתרופה אם:"
+                },
+                {
+                    "eng": "BEFORE USING THIS MEDICINE",
+                    "heb": "לפני השימוש בתרופה"
+                },
+                {
+                    "eng": "• you are hypersensitive (allergic) to selpercatinib or any of the other ingredients of this medicine (listed in section 6).",
+                    "heb": "• אתה רגיש (אלרגי) לסלפרקאטיניב או לכל אחד מהמרכיבים הנוספים אשר מכילה התרופה (המפורטים בסעיף 6)"
+                },
+                {
+                    "eng": "Special warnings regarding the use of this medicine: Before and during treatment with Retevmo, talk to your doctor if you:",
+                    "heb": "אזהרות מיוחדות הנוגעות לשימוש בתרופה: לפני ובמהלך הטיפול ברטבמו, ספר לרופא אם אתה"
+                },
+                {
+                    "eng": "have liver problems",
+                    "heb": "סובל מבעיות כבד"
+                },
+                {
+                    "eng": "have lung or breathing problems other than lung cancer",
+                    "heb": "סובל מבעיות בריאות או מבעיות נשימה, חוץ מאשר סרטן הריאות"
+                },
+                {
+                    "eng": "have high blood pressure",
+                    "heb": "סובל מלחץ דם גבוה"
+                },
+                {
+                    "eng": "have heart problems including a condition called QT prolongation",
+                    "heb": "סובל מבעיות לב, כולל מצב הנקרא הארכת מקטע QT) prolongation QT("
+                },
+                {
+                    "eng": "have bleeding problems",
+                    "heb": "סובל מדימומים"
+                },
+                {
+                    "eng": "plan to have surgery. You should stop taking Retevmo at least 7 days before your planned surgery. See section 4 'Side effects'",
+                    "heb": "מתכנן לעבור ניתוח. עליך להפסיק לקחת רטבמו לפחות 7 ימים לפני הניתוח. ראה סעיף 4 'תופעות לוואי'"
+                },
+                {
+                    "eng": "Children and Adolescents",
+                    "heb": "ילדים ומתבגרים"
+                },
+                {
+                    "eng": "The medicine is intended for ages 12 years and older.",
+                    "heb": "התכשיר מיועד לבני 12 ומעלה ."
+                },
+                {
+                    "eng": "It is not known if Retevmo is safe and effective when used:",
+                    "heb": "לא ידוע האם רטבמו בטוחה ויעילה כאשר משמשת:"
+                },
+                {
+                    "eng": "in children younger than 12 years of age for the treatment of MTC who require systemic therapy, and advanced thyroid cancer who require systemic therapy and who have received radioactive iodine and it did not work or is no longer working, or",
+                    "heb": "בילדים מתחת לגיל ,12 עבור טיפול ב- MTC הדורש טיפול מערכתי, ובעבור טיפול בסרטן מתקדם של בלוטת התריס הדורש טיפול מערכתי ושקי בלו טיפול ביוד רדיואקטיבי שלא הועיל או שהפסיק לעבוד, או"
+                },
+                {
+                    "eng": "in children for the treatment of any other cancers.",
+                    "heb": "בילדים בעבור טיפול בכל סוגי הסרטן האחרים."
+                },
+                {
+                    "eng": "Tests and follow-up",
+                    "heb": "בדיקות ומעקב "
+                },
+                {
+                    "eng": "Your doctor will perform blood tests before and during treatment with Retevmo in order to diagnose liver problems.",
+                    "heb": "הרופא יבצע בדיקות דם לפני ובמהלך הטיפול ברטבמו על מנת לאבחן בעיות כבד."
+                },
+                {
+                    "eng": "Retevmo may affect your blood pressure. Your blood pressure will be measured before and during treatment with Retevmo.",
+                    "heb": "רטבמו עשוי להשפיע על לחץ הדם שלך. לחץ הדם שלך ימדד לפני ובמהלך הטיפול עם רטבמו."
+                },
+                {
+                    "eng": "Retevmo may affect your heart rate. Your doctor will perform tests before and during treatment with Retevmo to check your heart activity and the levels of salts in your body (electrolytes) and the TSH hormone in your blood.",
+                    "heb": "רטבמו עשוי להשפיע על קצב הלב שלך. הרופא יבצע בדיקות לפני ובמהלך הטיפול עם רטבמו כדי לבדוק את פעילות הלב שלך ואת רמות המלחים בגוף (אלקטרוליטים) והורמון ה-TSH בדמך."
+                },
+                {
+                    "eng": "Your doctor will perform blood tests in order to diagnose signs of tumor disintegration (TLS).",
+                    "heb": "הרופא יבצע בדיקות דם על מנת לאבחן אצלך סימנים להתפרקות הגידול (TLS)."
+                },
+                {
+                    "eng": "Your doctor will perform blood tests to check your thyroid function before and during treatment with Retevmo.",
+                    "heb": "הרופא יבצע בדיקות דם כדי לבדוק את תפקוד בלוטת התריס שלך לפני ובמהלך הטיפול ב רטבמו."
+                },
+                {
+                    "eng": "Your doctor will perform a pregnancy test before you start treatment with Retevmo.",
+                    "heb": "הרופא יבצע בדיקת הריון לפני שתתחילי טיפול ברטבמו."
+                },
+                {
+                    "eng": "Drug interactions",
+                    "heb": "אינטראקציות/תגובות בין תרופתיות"
+                },
+                {
+                    "eng": "If you are taking or have recently taken any other medicines, including nonprescription medications and nutritional supplements, tell your doctor or pharmacist.",
+                    "heb": "אם אתה לוקח או אם לקחת לאחרונה תרופות אחרות כולל תרופות ללא מרשם ותוספי תזונה, ספר על כך לרופא או לרוקח."
+                },
+                {
+                    "eng": "Retevmo may affect the way other medicines work, and other medicines may affect how Retevmo works, and may increase your risk of side effects.",
+                    "heb": "רטבמו עלולה להשפיע על הדרך בה תרופות אחרות פועלות , ותרופות אחרות עלולות להשפיע על פעילות רטבמו, והן עשויות להגביר את הסיכון לתופעות לוואי."
+                },
+                {
+                    "eng": "You should avoid taking St. John’s wort, proton pump inhibitors (PPIs such as dexlansoprazole, esomeprazole, lansoprazole, omeprazole, pantoprazole sodium and rabeprazole), H2 blockers (such as famotidine, nizatidine and cimetidine), and antacids that contain aluminum, magnesium, calcium, simethicone, or buffered medicines during treatment with Retevmo.",
+                    "heb": "המנע משימוש בפרע מחורר (היפריקום - Wort s'John .St(, מעכבי משאבות פרוטונים ( PPIs כגון דקסלנסופרזול, אסאומפרזול, לנסופרזול, אומפרזול, פנטופרזול סודיום ורבפרזול), חוסמי 2H) כמו פמוטידין, ניזאטידין וסימטידין) ונוגדי חומצה שמכילים אלומיניום, מגנזיום, סידן, סימטיקון או תרופות מנטרלות חומציות במהלך הטיפול ברטבמו."
+                },
+                {
+                    "eng": "If you cannot avoid taking PPIs",
+                    "heb": "אם אינך יכול להפסיק לקחת מעכבי משאבות פרוטונים"
+                },
+                {
+                    "eng": "H2 blockers or antacids",
+                    "heb": "חוסמי 2 H או נוגדי חומצה"
+                },
+                {
+                    "eng": "see section 3 “How to use this medicine?”",
+                    "heb": "ראה סעיף 3 'כיצד להשתמש בתרופה?'"
+                },
+                {
+                    "eng": "for more information on how to take Retevmo with these medicines.",
+                    "heb": "למידע נוסף כיצד תוכל לקחת רטבמו יחד עם תרופות אלו."
+                },
+                {
+                    "eng": "Know the medicines you take. Keep a list of them to show your healthcare provider and pharmacist when you get a new medicine.",
+                    "heb": "דע מהן התרופות שאתה לוקח. שמור רשימה שלהן על מנת להראות לרופא ולרוקח כאשר אתה מקבל תרופה חדשה."
+                },
+                {
+                    "eng": "Use of this medicine and food",
+                    "heb": "שימוש בתרופה ומזון"
+                },
+                {
+                    "eng": "Retevmo is taken by mouth, usually 2 times a day about 12 hours apart, with or without food",
+                    "heb": "רטבמו נלקחת דרך הפה, בדרך כלל פעמיים ביום בהפרש של 12 שעות, עם או ללא אוכל"
+                },
+                {
+                    "eng": "If you take a proton-pump inhibitor (PPIs such as dexlansoprazole, esomeprazole, lansoprazole, omeprazole, pantoprazole sodium, and rabeprazole), take Retevmo with food.",
+                    "heb": " אם אתה לוקח מעכב משאבות פרוטונים (PPI כמו דקסלנסופרזול, אסאומפרזול, לנסופרזול, אומפרזול, פנטופרזול סודיום ורבפרזול), קח רטבמו עם האוכל."
+                },
+                {
+                    "eng": "Pregnancy, breastfeeding and fertility",
+                    "heb": "הריון, הנקה ופוריות"
+                },
+                {
+                    "eng": "Pregnancy",
+                    "heb": "הריון"
+                },
+                {
+                    "eng": "Tell your doctor if you are pregnant or plan to become pregnant. Retevmo can harm your unborn baby. You should not become pregnant during treatment with Retevmo.",
+                    "heb": "פני אל הרופא אם את בהריון או שאת מתכננת להכנס להריון. רטבמו יכולה להזיק לעובר שלך. אין להרות במהלך הטיפול ברטבמו."
+                },
+                {
+                    "eng": "If you are able to become pregnant, your healthcare provider will do a pregnancy test before you start treatment with Retevmo.",
+                    "heb": "אם את מסוגלת להרות, הרופא יבצע בדיקת הריון לפני שתתחילי טיפול ברטבמו."
+                },
+                {
+                    "eng": "Females who are able to become pregnant should use effective birth control (contraception) during treatment and for 1 week after your last dose of Retevmo. Talk to your doctor about birth control methods that may be right for you.",
+                    "heb": "נשים שמסוגלות להרות צריכות להשתמש באמצעי מניעה יעיל במהלך הטיפול ועד למשך שבוע אחד לאחר המנה האחרונה של רטבמו. התייעצי עם הרופא מהו אמצעי מניעת ההריון שיכול להתאים עבורך."
+                },
+                {
+                    "eng": "Tell your doctor right away if you become pregnant or think you might be pregnant during treatment with Retevmo.",
+                    "heb": "פני אל הרופא מיד אם נכנסת להריון או שאת חושבת שאת עלולה להיות בהריון במהלך הטיפול ברטבמו."
+                },
+                {
+                    "eng": "Males with female partners who are able to become pregnant should use effective birth control during treatment with Retevmo and for 1 week after your last dose of Retevmo.",
+                    "heb": "גברים שיש להם בנות זוג שמסוגלות להרות צריכים להשתמש באמצעי מניעה יעיל במהלך הטיפול ברטבמו ועד למשך שבוע אחד לאחר המנה האחרונה של רטבמו."
+                },
+                {
+                    "eng": "Breastfeeding",
+                    "heb": "הנקה"
+                },
+                {
+                    "eng": "Tell your doctor if you are breastfeeding or plan to breastfeed. It is not known if Retevmo passes into your breast milk. Do not breastfeed during treatment with Retevmo and for 1 week after your last dose.",
+                    "heb": "פני אל הרופא אם את מיניקה או מתכננת להניק. לא ידוע האם רטבמו עוברת בחלב האם. אל תניקי במהלך הטיפול ברטבמו ועד למשך שבוע אחד לאחר המנה האחרונה"
+                },
+                {
+                    "eng": "Fertility",
+                    "heb": "פוריות"
+                },
+                {
+                    "eng": "Retevmo may affect fertility in females and males, which may affect your ability to have children. Talk to your doctor if this is a concern for you",
+                    "heb": "רטבמו עלולה להשפיע על הפוריות בנשים ובגברים, בצורה היכולה להשפיע על יכולתך להביא ילדים . פנה אל הרופא אם נושא זה מדאיג אותך."
+                },
+                {
+                    "eng": "Retevmo may make you feel tired, weak, or dizzy. Do not drive or use any tools or machines if you feel tired, weak, or dizzy.",
+                    "heb": "רטבמו עשוי לגרום לך להרגיש עייף, חלש או לסבול מסחרחורת. אל תנהג או תשתמש בכלים או מכונות אם אתה מרגיש עייף, חלש או סובל מסחרחורת."
+                },
+                {
+                    "eng": "You should take special care when driving and using machines as you may feel tired or dizzy while taking Retevmo.",
+                    "heb": "עליך לנקוט משנה זהירות בעת נהיגה ושימוש במכונות מכיוון שאתה עלול לחוש עייפות או סחרחורת בעת נטילת רטבמו."
+                }
+            ]
+        },
+        {
+            "title": "how to use the medicine",
+            "section_num": "3",
+            "data": [
+                {
+                    "eng": " 3. How should you use the medicine?",
+                    "heb": "3. כיצד תשתמש בתרופה?"
+                },
+                {
+                    "eng": "The medicine should always be used according to the doctor's instructions.",
+                    "heb": "יש להשתמש בתכשיר תמיד בהתאם להוראות הרופא."
+                },
+                {
+                    "eng": "You should check with your doctor or pharmacist if you are not sure about the dosage and manner of treatment with this medicine. The dosage and manner of treatment will be determined only by the doctor. Your doctor may change your dose, temporarily stop, or permanently stop treatment with Retevmo if you have side effects.",
+                    "heb": "עליך לבדוק עם הרופא או הרוקח אם אינך בטוח בנוגע למינון ואופן הטיפול בתכשיר. המינון ואופן הטיפול יקבעו על ידי הרופא בלבד. אם תסבול מתופעות לוואי, הרופא עשוי לשנות את המינון, או להפסיק באופן זמני או קבוע את הטיפול ברטבמו."
+                },
+                {
+                    "eng": "Do not change your dose or stop taking Retevmo unless your doctor tells you.",
+                    "heb": "אל תשנה את המינון ואל תפסיק לקחת רטבמו אלא אם כן הרופא אומר לך לעשות כך."
+                },
+                {
+                    "eng": "Retevmo is taken by mouth, usually 2 times a day about 12 hours apart.",
+                    "heb": "רטבמו נלקחת דרך הפה, בדרך כלל פעמיים ביום כל 12 שעות."
+                },
+                {
+                    "eng": "Take Retevmo with or without food.",
+                    "heb": "אתה יכול לקחת רטבמו עם או ללא אוכל."
+                },
+                {
+                    "eng": "If you take a proton-pump inhibitor (PPIs such as dexlansoprazole, esomeprazole, lansoprazole, omeprazole, pantoprazole sodium, and rabeprazole), take Retevmo with food.",
+                    "heb": "אם אתה לוקח מעכב משאבות פרוטונים (PPI כמו דקסלנסופרזול, אסאומפרזול, לנסופרזול, אומפרזול, פנטופרזול סודיום ורבפרזול), קח רטבמו עם האוכל."
+                },
+                {
+                    "eng": "If you take an antacid that contains aluminum, magnesium, calcium, simethicone, or buffered medicines, take Retevmo 2 hours before or 2 hours after taking the antacid.",
+                    "heb": "אם אתה לוקח נוגד חומצה שמכיל אלומיניום, מגנזיום, סידן, סימטיקון או תרופות מנטרלות חומציות, קח רטבמו שעתיים לפני או שעתיים אחרי שאתה לוקח את נוגד החומצה."
+                },
+                {
+                    "eng": "If you take an H2 blocker (such as famotidine, nizatidine, and cimetidine), take Retevmo 2 hours before or 10 hours after taking the H2 blocker.",
+                    "heb": "אם א תה לוקח חוסם 2 H) כמו פמוטידין, ניזאטידין וסימטידין), קח רטבמו שעתיים לפני או 10 שעות אחרי שאתה לוקח את חוסם ה2-H."
+                },
+                {
+                    "eng": "If you vomit after taking the dose of Retevmo, do not take a double dose. Take your next dose of Retevmo at your usual time.",
+                    "heb": "אם אתה מקיא לאחר נטילת מנה של רטבמו , אל תיקח מנה נוספת. קח את המנה הבאה של רטבמו בזמן הרגיל."
+                },
+                {
+                    "eng": "Do not exceed the recommended dosage",
+                    "heb": "אין לעבור על המנה המומלצת."
+                },
+                {
+                    "eng": "Swallow Retevmo capsules whole. Do not crush or chew the capsules",
+                    "heb": "יש לקחת את כמוסות רטבמו בשלמותן. אין לכתוש או ללעוס את הכמוסות."
+                },
+                {
+                    "eng": "If you have accidentally taken a higher dose",
+                    "heb": "אם נטלת בטעות מינון גבוה יותר"
+                },
+                {
+                    "eng": "If you take too much Retevmo or if a child accidentally swallowed the medicine, call your doctor or go to the nearest hospital Emergency Room right away and bring the medicine pack with you.",
+                    "heb": "אם נטלת מנת יתר או אם בטעות בלע ילד מן התרופה, פנה מיד לרופא או לחדר מיון של בית חולים והבא את אריזת התרופה איתך."
+                },
+                {
+                    "eng": "If you forgot to take the medicine",
+                    "heb": "אם שכחת ליטול את התרופה"
+                },
+                {
+                    "eng": "If you forgot to take the medicine at the specified time, do not take a missed dose of Retevmo unless it is more than 6 hours until your next scheduled dose.",
+                    "heb": "אם שכחת ליטול תרופה זו בזמן המיועד, אין ליטול את מנת הרטבמו שהוחמצה , אלא אם כן נותרו יותר מ -6 שעות עד למנה המתוכננת הבאה."
+                },
+                {
+                    "eng": "Treatment should be continued as recommended by the doctor.",
+                    "heb": "יש להתמיד ב טיפול כפי שהומלץ על ידי הרופא."
+                },
+                {
+                    "eng": "If you forgot to take the medicine at the specified time, do not take a missed dose of Retevmo unless it is more than 6 hours until your next scheduled dose.",
+                    "heb": "אם שכחת ליטול תרופה זו בזמן המיועד, אין ליטול את מנת הרטבמו שהוחמצה , אלא אם כן נותרו יותר מ -6 שעות עד למנה המתוכננת הבאה."
+                },
+                {
+                    "eng": "Treatment should be continued as recommended by the doctor.",
+                    "heb": "יש להתמיד ב טיפול כפי שהומלץ על ידי הרופא."
+                },
+                {
+                    "eng": "Even if there is an improvement in your health, do not stop taking Retevmo without consulting your doctor.",
+                    "heb": "גם אם חל שיפור במצב בריאותך, אין להפסיק את הטיפול בתרופה ללא התייעצות עם הרופא."
+                },
+                {
+                    "eng": "Do not take medicines in the dark! Check the label and the dose each time you take your medicine. Wear glasses if you need them. If you have any further questions regarding the use of this medicine, consult the doctor or pharmacist.",
+                    "heb": "אין ליטול תרופות בחושך! בדוק את התווית והמנה בכל פעם שהנך נוטל תרופה. הרכב משקפיים אם הנך זקוק להם. אם יש לך שאלות נוספות בנוגע לשימוש בתרופה, היוועץ ברופא או ברוקח."
+                }
+            ]
+        },
+        {
+            "title": "side effects",
+            "section_num": "4",
+            "data": [
+                {
+                    "eng": "4. Side effects:",
+                    "heb": "4. תופעות לוואי:"
+                },
+                {
+                    "eng": "Do not take medicines in the dark! Check the label and the dose each time you take your medicine. Wear glasses if you need them. If you have any further questions regarding the use of this medicine, consult the doctor or pharmacist.",
+                    "heb": "אין ליטול תרופות בחושך! בדוק את התווית והמנה בכל פעם שהנך נוטל תרופה. הרכב משקפיים אם הנך זקוק להם. אם יש לך שאלות נוספות בנוגע לשימוש בתרופה, היוועץ ברופא או ברוקח."
+                },
+                {
+                    "eng": "Retevmo may cause serious side effects, including:",
+                    "heb": "רטבמו עלולה לגרום לתופעות לוואי חמורות, כולל:"
+                },
+                {
+                    "eng": "Liver problems. Liver problems (increased liver enzymes) are common with Retevmo and may sometimes be serious. Your doctor will do blood tests before and during treatment with Retevmo to check for liver problems. Tell your doctor right away if you get any of the following symptoms of liver problems during treatment:",
+                    "heb": "בעיות כבד. בעיות בכבד (עליה באנזימי הכבד) הן תופעות שכיחות ברטבמו ולעיתים הן עלולות להיות חמורות. הרופא יבצע בדיקות דם לפני ובמהלך הטיפול ברטבמו על מנת לאבחן בעיות כבד. פנה אל הרופא מיד אם אתה סובל מאחד מהתסמינים הבאים במהלך הטיפול:"
+                },
+                {
+                    "eng": "yellowing of your skin or the white part of your eyes (jaundice)",
+                    "heb": "הצהבה של העור או של החלק הלבן שבעיניים (צהבת)"
+                },
+                {
+                    "eng": "loss of appetite",
+                    "heb": "חוסר תיאבון"
+                },
+                {
+                    "eng": "nausea or vomiting",
+                    "heb": "בחילות או הקאות"
+                },
+                {
+                    "eng": "dark “tea-colored” urine",
+                    "heb": "שתן כהה (בצבע תה)"
+                },
+                {
+                    "eng": "sleepiness",
+                    "heb": "יישוניות"
+                },
+                {
+                    "eng": "pain on the upper right side of your stomach area",
+                    "heb": "כאב בחלק הימני העליון של הבטן"
+                },
+                {
+                    "eng": "bleeding or bruising",
+                    "heb": " דימומים או חבורות "
+                },
+                {
+                    "eng": "Lung problems.",
+                    "heb": "בעיות בריאות "
+                },
+                {
+                    "eng": "Retevmo may cause severe or life-threatening inflammation of the lungs during treatment, that can lead to death.",
+                    "heb": "רטבמו עלולה לגרום לדלקת ריאות חריפה או מסכנת חיים במהלך הטיפול, שעלולה לגרום למוות."
+                },
+                {
+                    "eng": "Tell your doctor right away if you have any new or worsening lung symptoms, including:",
+                    "heb": "פנה אל הרופא מיד אם אתה סובל מתסמינים חדשים או מהחרפה של תסמינים , כולל:"
+                },
+                {
+                    "eng": "shortness of breath",
+                    "heb": "קוצר נשימה"
+                },
+                {
+                    "eng": "cough",
+                    "heb": "שיעול"
+                },
+                {
+                    "eng": "fever",
+                    "heb": "חום"
+                },
+                {
+                    "eng": "High blood pressure (hypertension)",
+                    "heb": "לחץ דם גבוה"
+                },
+                {
+                    "eng": "High blood pressure is common with Retevmo and may sometimes be severe.",
+                    "heb": "לחץ דם גבוה הוא תופעה שכיחה של רטבמו ולעיתים היא עלולה להיות חמורה"
+                },
+                {
+                    "eng": "You should check your blood pressure regularly during treatment with Retevmo. If you develop blood pressure problems, your doctor may prescribe medicine to treat your high blood pressure.",
+                    "heb": "עליך לבדוק את לחץ הדם בקביעות במהלך הטיפול ברטבמו. אם אתה מפתח בעיות ב לחץ הדם , הרופא עשוי לרשום לך תרופות לטיפול בלחץ דם"
+                },
+                {
+                    "eng": "Tell your doctor if you have increased blood pressure readings or get any symptoms of high blood pressure, including:",
+                    "heb": "פנה אל הרופא אם אתה סובל מלחץ דם גבוה או אם יש לך תסמינים של לחץ דם גבוה, הכוללים:"
+                },
+                {
+                    "eng": "confusion",
+                    "heb": "בלבול"
+                },
+                {
+                    "eng": "dizziness",
+                    "heb": "סחרחורות"
+                },
+                {
+                    "eng": "headaches",
+                    "heb": "כאבי ראש"
+                },
+                {
+                    "eng": "chest pain",
+                    "heb": "כאב בחזה"
+                },
+                {
+                    "eng": "shortness of breath",
+                    "heb": "קוצר נשימה"
+                },
+                {
+                    "eng": "Heart rhythm changes (QT prolongation)",
+                    "heb": "שינויים בקצב הלב (הארכת QT)"
+                },
+                {
+                    "eng": "",
+                    "heb": "כמו בכל תרופה, השימוש בקפרה עלול לגרום לתופעות לוואי בחלק מהמשתמשים. אל תיבהל למקרא רשימת תופעות הלוואי, ייתכן שלא תסבול מאף אחת מהן."
+                },
+                {
+                    "eng": "Very slow, very fast, or irregular heartbeats",
+                    "heb": "קצב לב מאוד איטי, מאוד מהיר, או בלתי רגיל"
+                },
+                {
+                    "eng": "Your doctor may perform tests to check heart activity, electrolyte levels, and thyroid-stimulating hormone levels",
+                    "heb": "הרופא עשוי לערוך בדיקות לבדוק את פעילות הלב, את רמות האלקטרוליטים, ואת רמות הורמון מגרה בלוטת התריס"
+                },
+                {
+                    "eng": "Symptoms to report to your healthcare provider",
+                    "heb": "תסמינים שעליך לפנות לספק הרפואי שלך"
+                },
+                {
+                    "eng": "Retevmo may cause very slow, very fast or irregular heartbeats.",
+                    "heb": "רטבמו עלולה לגרום לקצב לב מאוד איטי, מאוד מהיר או בלתי רגיל."
+                },
+                {
+                    "eng": "Your doctor may perform tests before and during treatment with Retevmo to check the activity of your heart and the levels of body salts (electrolytes) and thyroid-stimulating hormone (TSH) in your blood.",
+                    "heb": "הרופא עשוי לערוך בדיקות לפני ובמהלך הטיפול ברטבמו על מנת לבדוק את פעילות לבך, את הכמויות של המלחים בגוף (אלקטרוליטים) ושל הורמון מגרה בלוטת התריס (TSH ,hormone stimulating-thyroid)."
+                },
+                {
+                    "eng": "Retevmo may cause very slow, very fast or irregular heartbeats. Your doctor may perform tests before and during treatment with Retevmo to check the activity of your heart and the levels of body salts (electrolytes) and thyroid-stimulating hormone (TSH) in your blood. Tell your healthcare provider right away if you get any of the following symptoms:",
+                    "heb": "רטבמו עלולה לגרום לקצב לב מאוד איטי, מאוד מהיר או בלתי רגיל. הרופא עשוי לערוך בדיקות לפני ובמהלך הטיפול ברטבמו על מנת לבדוק את פעילות לבך, את הכמויות של המלחים בגוף (אלקטרוליטים) ושל הורמון מגרה בלוטת התריס (TSH ,hormone stimulating-thyroid(. פנה אל הרופא מיד אם אתה סובל מאחד מהתסמינים הבאים:"
+                },
+                {
+                    "eng": "shortness of breath",
+                    "heb": "קוצר נשימה"
+                },
+                {
+                    "eng": "cough",
+                    "heb": "שיעול"
+                },
+                {
+                    "eng": "fever",
+                    "heb": "חום"
+                },
+                {
+                    "eng": "High blood pressure is common with Retevmo and may sometimes be severe.",
+                    "heb": "לחץ דם גבוה הוא תופעה שכיחה של רטבמו ולעיתים היא עלולה להיות חמורה"
+                },
+                {
+                    "eng": "You should check your blood pressure regularly during treatment with Retevmo. If you develop blood pressure problems, your doctor may prescribe medicine to treat your high blood pressure.",
+                    "heb": "עליך לבדוק את לחץ הדם בקביעות במהלך הטיפול ברטבמו. אם אתה מפתח בעיות ב לחץ הדם , הרופא עשוי לרשום לך תרופות לטיפול בלחץ דם"
+                },
+                {
+                    "eng": "Tell your doctor if you have increased blood pressure readings or get any symptoms of high blood pressure, including:",
+                    "heb": "פנה אל הרופא אם אתה סובל מלחץ דם גבוה או אם יש לך תסמינים של לחץ דם גבוה, הכוללים:"
+                },
+                {
+                    "eng": "confusion",
+                    "heb": "בלבול"
+                },
+                {
+                    "eng": "dizziness",
+                    "heb": "סחרחורות"
+                },
+                {
+                    "eng": "headaches",
+                    "heb": "כאבי ראש"
+                },
+                {
+                    "eng": "chest pain",
+                    "heb": "כאב בחזה"
+                },
+                {
+                    "eng": "shortness of breath",
+                    "heb": "קוצר נשימה"
+                },
+                {
+                    "eng": "loss of consciousness",
+                    "heb": "אובדן הכרה"
+                },
+                {
+                    "eng": "fainting",
+                    "heb": "התעלפות"
+                },
+                {
+                    "eng": "dizziness",
+                    "heb": "סחרחורות"
+                },
+                {
+                    "eng": "chest pain, shortness of breath",
+                    "heb": "שינוי בדרך בה הלב שלך פועם (פלפיטציות, הלמות לב)"
+                },
+                {
+                    "eng": "vomiting blood or if your vomit looks like coffee-grounds",
+                    "heb": "הקאה של דם או אם הקיא שלך נראה כמו פולי קפה"
+                },
+                {
+                    "eng": "unusual vaginal bleeding",
+                    "heb": "דימום לא רגיל מהנרתיק"
+                },
+                {
+                    "eng": "nose bleeds that happen often",
+                    "heb": "דימום מהאף שמתרחש לעיתים קרובות"
+                },
+                {
+                    "eng": "pink or brown urine",
+                    "heb": "שתן ורוד או חום"
+                },
+                {
+                    "eng": "red or black (looks like tar) stools",
+                    "heb": "צואה אדומה או שחורה (נראית כמו זפת)"
+                },
+                {
+                    "eng": "drowsiness or difficulty being awakened",
+                    "heb": "נמנום או קושי להתעורר"
+                },
+                {
+                    "eng": "coughing up blood or blood clots",
+                    "heb": "שיעול דמי או של קרישי דם"
+                },
+                {
+                    "eng": "confusion",
+                    "heb": "בלבול"
+                },
+                {
+                    "eng": "unusual bleeding or bruising of your skin",
+                    "heb": "דימומים או חבורות לא רגילים בעור"
+                },
+                {
+                    "eng": "headache",
+                    "heb": "כאבי ראש"
+                },
+                {
+                    "eng": "change in speech",
+                    "heb": "שינויים בדיבור"
+                },
+                {
+                    "eng": "menstrual bleeding that is heavier than normal",
+                    "heb": "מחזור חודשי עם דימום כבד מהרגיל"
+                },
+                {
+                    "eng": "vomiting blood or if your vomit looks like coffee-grounds",
+                    "heb": "הקאה של דם או אם הקיא שלך נראה כמו פולי קפה"
+                },
+                {
+                    "eng": "unusual vaginal bleeding",
+                    "heb": "דימום לא רגיל מהנרתיק"
+                },
+                {
+                    "eng": "nose bleeds that happen often",
+                    "heb": "דימום מהאף שמתרחש לעיתים קרובות"
+                },
+                {
+                    "eng": "pink or brown urine",
+                    "heb": "שתן ורוד או חום"
+                },
+                {
+                    "eng": "red or black (looks like tar) stools",
+                    "heb": "צואה אדומה או שחורה (נראית כמו זפת)"
+                },
+                {
+                    "eng": "drowsiness or difficulty being awakened",
+                    "heb": "נמנום או קושי להתעורר"
+                },
+                {
+                    "eng": "coughing up blood or blood clots",
+                    "heb": "שיעול דמי או של קרישי דם"
+                },
+                {
+                    "eng": "confusion",
+                    "heb": "בלבול"
+                },
+                {
+                    "eng": "unusual bleeding or bruising of your skin",
+                    "heb": "דימומים או חבורות לא רגילים בעור"
+                },
+                {
+                    "eng": "headache",
+                    "heb": "כאבי ראש"
+                },
+                {
+                    "eng": "change in speech",
+                    "heb": "שינויים בדיבור"
+                },
+                {
+                    "eng": "menstrual bleeding that is heavier than normal",
+                    "heb": "מחזור חודשי עם דימום כבד מהרגיל"
+                },
+                {
+                    "eng": "Tumor lysis syndrome (TLS). TLS is caused by a fast breakdown of cancer cells. TLS can cause kidney failure, the need for dialysis treatment, and an abnormal heartbeat. TLS can lead to hospitalization. Your doctor may do blood tests to check you for TLS. You should stay well hydrated during treatment with Retevmo. Call your healthcare provider or get emergency medical help right away if you develop any of these symptoms during treatment with Retevmo:",
+                    "heb": "תסמינים של התפרקות הגידול (TLS ,syndrome lysis Tumor(. TLS נגרם על ידי התפרקות מהירה של תאי סרטן. TLS עלול לגרום לאי ספיקת כליות , לצורך בטיפול בדיאליזה, ולקצב לב שאינו תקין. TLS יכול להוביל לאשפוז. הרופא יבצע בדיקות דם על מנת לאבחן אצלך TLS. עליך להשגיח שאינך מתייבש במהלך הטיפול ברטבמו. פנה אל הרופא או לעזרה רפואית מיד כאשר אתה מפתח אחד מהתסמינים הבאים במהלך הטיפול ברטבמו:"
+                },
+                {
+                    "eng": "nausea",
+                    "heb": "בחילות"
+                },
+                {
+                    "eng": "shortness of breath",
+                    "heb": "קוצר נשימה"
+                },
+                {
+                    "eng": "vomiting",
+                    "heb": "הקאות"
+                },
+                {
+                    "eng": "muscle cramps",
+                    "heb": "התכווצות שרירים"
+                },
+                {
+                    "eng": "weakness",
+                    "heb": "חולשה"
+                },
+                {
+                    "eng": "seizures",
+                    "heb": "פרכוסים"
+                },
+                {
+                    "eng": "swelling",
+                    "heb": "נפיחות"
+                },
+                {
+                    "eng": "Risk of wound healing problems. Wounds may not heal properly during treatment with Retevmo. Tell your healthcare provider if you plan to have any surgery before or during treatment with Retevmo.",
+                    "heb": "סיכון לבעיות בריפוי פצעים. פצעים עלולים שלא להתרפאות כיאות במהלך הטיפול ברטבמו. פנה אל הרופא אם אתה מתכנן לעבור ניתוח לפני או במהלך הטיפול ברטבמו."
+                },
+                {
+                    "eng": "You should stop taking Retevmo at least 7 days before planned surgery.",
+                    "heb": "עליך להפסיק לקחת רטבמו לפחות 7 ימים לפני ניתוח מתוכנן."
+                },
+                {
+                    "eng": "Your healthcare provider should tell you when you may start taking Retevmo again after surgery.",
+                    "heb": "הרופא יורה לך מתי תוכל לשוב ולקחת רטבמו לאחר הניתוח."
+                },
+                {
+                    "eng": "Low thyroid hormone levels in your blood (hypothyroidism).",
+                    "heb": "רמות נמוכות של הורמון בלוטת התריס בדם (hypothyroidism)."
+                },
+                {
+                    "eng": "Your doctor will do blood tests to check your thyroid function before and during treatment with Retevmo.",
+                    "heb": "הרופא יערוך בדיקות דם על מנת לבחון את תפקוד בלוטת התריס שלך לפני ובמהלך הטיפול ברטבמו."
+                },
+                {
+                    "eng": "Tell your doctor right away if you develop signs or symptoms of low thyroid hormone levels, including:",
+                    "heb": "פנה אל הרופא מיד אם אתה מפתח סימנים או תסמינים של רמות נמוכות של הורמוני בלוטת התריס."
+                },
+                {
+                    "eng": "weight gain",
+                    "heb": "עליה במשקל"
+                },
+                {
+                    "eng": "feeling cold",
+                    "heb": "הרגשת קור"
+                },
+                {
+                    "eng": "tiredness that worsens or that does not go away",
+                    "heb": "עייפות שמחריפה או שאינה חולפת"
+                },
+                {
+                    "eng": "constipation",
+                    "heb": "עצירות"
+                },
+                {
+                    "eng": "Additional side effects",
+                    "heb": "תופעות לוואי נוספות"
+                },
+                {
+                    "eng": "Very common side effects (may affect more than 1 in 10 users) include:",
+                    "heb": "תופעות לוואי שכיחות מאוד (עלולות להשפיע על יותר מ משתמש 1 מתוך 10) כוללות:"
+                },
+                {
+                    "eng": "swelling of your arms, legs, hands, and feet (edema)",
+                    "heb": "נפיחות בזרועות, רגליים, ידיים וכפות הרגליים (בצקת פריפריאלית)"
+                },
+                {
+                    "eng": "diarrhea",
+                    "heb": "שלשול"
+                },
+                {
+                    "eng": "tiredness",
+                    "heb": "עייפות"
+                },
+                {
+                    "eng": "dry mouth",
+                    "heb": "יובש בפה"
+                },
+                {
+                    "eng": "high blood pressure",
+                    "heb": "לחץ דם גבוה"
+                },
+                {
+                    "eng": "stomach-area (abdominal) pain",
+                    "heb": "כאבי בטן"
+                },
+                {
+                    "eng": "constipation",
+                    "heb": "עצירות"
+                },
+                {
+                    "eng": "rash",
+                    "heb": "פריחה"
+                },
+                {
+                    "eng": "nausea",
+                    "heb": "בחילה"
+                },
+                {
+                    "eng": "headache",
+                    "heb": "כאבי ראש"
+                },
+                {
+                    "eng": "decreased white blood cell count",
+                    "heb": "ירידה בספירת תאי דם לבנים"
+                },
+                {
+                    "eng": "decreased levels of sodium in the blood",
+                    "heb": "ירידה ברמות הנתרן בדם"
+                },
+                {
+                    "eng": "decreased levels of calcium in the blood",
+                    "heb": "ירידה ברמות הסידן בדם"
+                },
+                {
+                    "eng": "If a side effect occurs, if one of the side effects worsens or if you have a side effect not mentioned in the leaflet, consult your doctor.",
+                    "heb": "אם הופיעה תופעת לוואי, אם אחת מתופעות הלוואי מחמירה או כאשר אתה סובל מתופעת לוואי שלא צוינה בעלון, עליך להתייעץ עם הרופא."
+                }
+            ]
+        },
+        {
+            "title": "medicine storage",
+            "section_num": "5",
+            "data": [
+                {
+                    "eng": " 5. How to store the medicine?",
+                    "heb": "5. איך לאחסן את התרופה?"
+                },
+                {
+                    "eng": "Avoid poisoning! This medicine and any other medicine should be kept in a closed place out of the sight and reach of children and/or infants in order to avoid poisoning. Do not induce vomiting without an explicit instruction from the doctor.",
+                    "heb": "מנע הרעלה! תרופה זו וכל תרופה אחרת יש לשמור במקום סגור מחוץ להישג ידם וטווח ראייתם של ילדים ו/או תינוקות ועל ידי כך תמנע הרעלה. אל תגרום להקאה ללא הוראה מפורשת מהרופא."
+                },
+                {
+                    "eng": "Do not use the medicine after the expiry date (exp. date) which is stated on the package label.",
+                    "heb": "אין להשתמש בתרופה אחרי תאריך התפוגה (date .exp (המופיע על גבי התווית"
+                },
+                {
+                    "eng": "Storage conditions:",
+                    "heb": "תנאי איחסון:"
+                },
+                {
+                    "eng": "Store below 30°C.",
+                    "heb": "יש לאחסן מתחת ל-C.30°"
+                },
+                {
+                    "eng": "Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw away medicines you no longer use. These measures will help protect the environment.",
+                    "heb": "אין להשליך תרופות לביוב או לאשפה. שאל את הרוקח כיצד להשמיד תרופות שאינן בשימוש. אמצעים אלו יעזרו לשמור על הסביבה."
+                }
+            ]
+        },
+        {
+            "title": "additional information",
+            "section_num": "6",
+            "data": [
+                {
+                    "eng": " 6. Additional information:",
+                    "heb": "6. מידע נוסף:"
+                },
+                {
+                    "eng": "In addition to the active ingredient, the medicine also contains:",
+                    "heb": "נוסף על המרכיב הפעיל, התרופה מכילה גם:"
+                },
+                {
+                    "eng": "gelatin, titanium dioxide, ferric oxide",
+                    "heb": "ג'לטין, דו חמצני טיטניום, חמצן ברזל"
+                },
+                {
+                    "eng": "gelatin, titanium dioxide, FD&C blue #1",
+                    "heb": "ג'לטין, דו חמצני טיטניום, כחול FD&C מספר 1"
+                },
+                {
+                    "eng": "The medicine is available in the form of capsules. The 40 mg capsules are pink and white, imprinted with '40' in black ink. The 80 mg capsules are blue and white, imprinted with '80' in black ink.",
+                    "heb": "התרופה זמינה בצורת קפסולות. קפסולות מיליגרם 40 הן ורודות ולבנות, עם הדפס '40' בדיו שחורה. קפסולות מיליגרם 80 הן כחולות ולבנות, עם הדפס '80' בדיו שחורה."
+                }
+            ]
+        }
+    ]
+}

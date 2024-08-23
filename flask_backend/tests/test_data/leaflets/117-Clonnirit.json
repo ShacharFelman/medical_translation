@@ -1,0 +1,545 @@
+{
+    "title": "Clonnirit",
+    "index": 0,
+    "dir_index": 117,
+    "title_lang": {
+        "title_eng": "Clonnirit",
+        "title_heb": "קלוניריט"
+    },
+    "sections": [
+        {
+            "title": "General",
+            "section_num": "0",
+            "data": [
+                {
+                    "eng": "Patient package insert in accordance with the Pharmacists' Regulations - (Preparations) - 1986 ",
+                    "heb": "עלון לצרכן לפי תקנות הרוקחים (תכשירים) התשמ\"ו - 1986"
+                },
+                {
+                    "eng": "The medicine is dispensed with a doctor's prescription only",
+                    "heb": "התרופה משווקת על פי מרשם רופא בלבד"
+                },
+                {
+                    "eng": "Clonnirit",
+                    "heb": "קלוניריט"
+                },
+                {
+                    "eng": "Active ingredient:",
+                    "heb": "החומר הפעיל:"
+                },
+                {
+                    "eng": "Each tablet contains: 25 mcg Clonidine hydrochloride",
+                    "heb": "כל טבליה מכילה: 25 מק\"ג קלונידין הידרוכלוריד"
+                },
+                {
+                    "eng": "For the list of the additional ingredients, see section 6. See also 'Important information about some of the medicine's ingredients' in section 2.",
+                    "heb": "לרשימת המרכיבים הנוספים ראה סעיף 6. ראה גם 'מידע חשוב על חלק מהמרכיבים של התרופה' בסעיף 2."
+                },
+                {
+                    "eng": "Read the entire leaflet carefully before using this medicine.",
+                    "heb": "קרא בעיון את העלון עד סופו בטרם תשתמש בתרופה."
+                },
+                {
+                    "eng": "This leaflet contains concise information about the medicine. If you have any further questions, refer to the doctor or pharmacist. ",
+                    "heb": "עלון זה מכיל מידע תמציתי על התרופה. אם יש לך שאלות נוספות, פנה אל הרופא או אל הרוקח."
+                },
+                {
+                    "eng": "This medicine has been prescribed for treating your illness. Do not pass it on to others. It may harm them, even if it seems to you that their illness is similar to yours.",
+                    "heb": "תרופה זו נרשמה לטיפול במחלתך. אל תעביר אותה לאחרים. היא עלולה להזיק להם אפילו אם נראה לך כי מחלתם דומה."
+                }
+            ]
+        },
+        {
+            "title": "medicine intended for",
+            "section_num": "1",
+            "data": [
+                {
+                    "eng": "1. What is the medicine intended for?",
+                    "heb": "1. למה מיועדת התרופה?"
+                },
+                {
+                    "eng": "The medicine is intended for preventing migraine attacks and recurring headaches, that are not acute, due to narrowing or dilation of blood vessels.",
+                    "heb": "התרופה מיועדת למניעת התקפי מיגרנה וכאבי ראש חוזרים, עקב התכווצות או התרחבות כלי דם, שאינם אקוטיים."
+                },
+                {
+                    "eng": "In addition, the medicine is intended for the treatment of flushing for women in menopause. ",
+                    "heb": "כמו כן, התרופה מיועדת לטיפול בהסמקה של גיל המעבר בנשים."
+                },
+                {
+                    "eng": "Therapeutic group:",
+                    "heb": "קבוצה תרפויטית:"
+                },
+                {
+                    "eng": "Anti-migraine medicines",
+                    "heb": "תרופות נגד מיגרנה"
+                }
+            ]
+        },
+        {
+            "title": "before using the medicine",
+            "section_num": "2",
+            "data": [
+                {
+                    "eng": "2. Before using the medicine",
+                    "heb": "2. לפני השימוש בתרופה"
+                },
+                {
+                    "eng": "Do not use the medicine if:",
+                    "heb": "אין להשתמש בתרופה אם:"
+                },
+                {
+                    "eng": "• You are sensitive (allergic) to the active ingredient or to any of the additional ingredients the medicine contains (for a list of the additional ingredients, see section 6).",
+                    "heb": "• אתה רגיש (אלרגי) לחומר הפעיל או לכל אחד מהמרכיבים הנוספים אשר מכילה התרופה (לרשימת המרכיבים הנוספים, ראה סעיף 6)."
+                },
+                {
+                    "eng": "• You suffer from a slow heartbeat caused by a heart disease called ‘sick sinus syndrome’ or from severe heart problems.",
+                    "heb": "• אתה סובל מקצב לב איטי הנגרם ממחלה של הלב הנקראת 'תסמונת סינוס חולה' או מבעיות חמורות בלב."
+                },
+                {
+                    "eng": "Special warnings regarding the use of the medicine:",
+                    "heb": "אזהרות מיוחדות הנוגעות לשימוש בתרופה:"
+                },
+                {
+                    "eng": "• Use of the medicine may cause dryness in the eyes; this may constitute a problem for patients wearing contact lenses.",
+                    "heb": "• השימוש בתרופה עלול לגרום ליובש בעיניים; דבר זה עלול להוות בעיה במטופלים המרכיבים עדשות מגע."
+                },
+                {
+                    "eng": "• If you are about to undergo surgery (including dental) or any procedure requiring anesthesia, inform the doctor and the anesthesiologist of taking this medicine.",
+                    "heb": "• אם אתה עומד לעבור ניתוח (כולל דנטלי) או כל פעולה הכרוכה בהרדמה, יש לדווח לרופא ולרופא המרדים על נטילת תרופה זו."
+                },
+                {
+                    "eng": "• If you are sensitive to any food or medicine, inform your doctor before taking this medicine.",
+                    "heb": "• אם אתה רגיש למזון כלשהו או לתרופה כלשהי, עליך להודיע על-כך לרופא לפני נטילת התרופה."
+                },
+                {
+                    "eng": "Before starting the treatment with Clonnirit tell the doctor if:",
+                    "heb": "לפני התחלת הטיפול בקלוניריט ספר לרופא אם:"
+                },
+                {
+                    "eng": "You suffer or have suffered in the past from Raynaud’s disease - a problem with blood circulation to the fingers and toes, or from other problems of blood circulation (including blood circulation to the brain).",
+                    "heb": "• אתה סובל או סבלת בעבר ממחלת ריינו (Raynaud’s disease) - בעיה בזרימת הדם לאצבעות הידיים והרגליים, או מבעיות אחרות בזרימת דם (כולל זרימת דם למוח)."
+                },
+                {
+                    "eng": "You suffer or have suffered in the past from impaired function of the: heart and/or blood vessels, kidneys.",
+                    "heb": "• אתה סובל או סבלת בעבר מליקוי בתפקוד: הלב ו/או כלי הדם, הכליות."
+                },
+                {
+                    "eng": "You suffer or have suffered in the past from depression.",
+                    "heb": "• אתה סובל או סבלת בעבר מדיכאון."
+                },
+                {
+                    "eng": "You suffer from a nerve disorder that causes a change in feeling in the hands and feet.",
+                    "heb": "• אתה סובל מהפרעה עצבית הגורמת לשינוי בתחושה בידיים וברגליים."
+                },
+                {
+                    "eng": "You suffer from constipation.",
+                    "heb": "• אם אתה סובל מעצירות."
+                },
+                {
+                    "eng": "If you are taking or have recently taken any other medicines, including non-prescription medicines and nutritional supplements, please tell the doctor or pharmacist. Especially inform the doctor or pharmacist if you are taking the following medicines (it should be noted that the following list mentions the active ingredients of the medicines. If you are unsure whether you are using one of these medicines, please consult with the doctor or pharmacist): ",
+                    "heb": "אם אתה לוקח או אם לקחת לאחרונה תרופות אחרות, כולל תרופות ללא מרשם ותוספי תזונה, ספר על כך לרופא או לרוקח. במיוחד יש ליידע את הרופא או הרוקח אם אתה לוקח את התרופות הבאות (יש לציין כי הרשימה שלהלן מציינת את החומרים הפעילים בתרופות. אם אינך בטוח האם אתה משתמש באחת מהתרופות הללו אנא התייעץ עם הרופא או הרוקח):"
+                },
+                {
+                    "eng": "• Anti-anxiety medicines, sedatives, sleeping medicines and anesthetics for surgery.",
+                    "heb": "• תרופות נוגדות חרדה, תרופות להרגעה, תרופות לשינה וחומרים מרדימים לניתוחים."
+                },
+                {
+                    "eng": "• Tricyclic antidepressants and other antidepressants such as mirtazapine.",
+                    "heb": "• תרופות נוגדות דיכאון טריציקליות ותרופות נוגדות דיכאון אחרות כגון מירטאזאפין."
+                },
+                {
+                    "eng": "• Antipsychotics (for the treatment of mental disorders).",
+                    "heb": "• תרופות אנטיפסיכוטיות (לטיפול בבעיות נפשיות)."
+                },
+                {
+                    "eng": "• Medicines used to slow the heart rate or to lower blood pressure (beta blockers).",
+                    "heb": "• תרופות המשמשות להאטת קצב הלב או להורדת לחץ דם (חוסמי בטא)."
+                },
+                {
+                    "eng": "• Diuretics.",
+                    "heb": "• תרופות משתנות."
+                },
+                {
+                    "eng": "• Medicines to treat heart rate disturbances or for heart failure (cardiac glycosides).",
+                    "heb": "• תרופות לטיפול בהפרעות בקצב הלב או באי ספיקת הלב (גליקוזידים של הלב)."
+                },
+                {
+                    "eng": "• Medicines to treat high blood pressure and medicines of the alpha-blocker group (used for the treatment of high blood pressure, heart or prostate gland problems).",
+                    "heb": "• תרופות ליתר לחץ דם ותרופות מקבוצת חוסמי אלפא (המשמשות לטיפול בלחץ דם גבוה, בעיות בלב או בבלוטת הערמונית)."
+                },
+                {
+                    "eng": "• Medicines that dilate blood vessels (vasodilators).",
+                    "heb": "• תרופות המרחיבות כלי דם."
+                },
+                {
+                    "eng": "• Methylphenidate.",
+                    "heb": "• מתילפנידאט."
+                },
+                {
+                    "eng": "Use of the medicine and alcohol consumption: Do not drink wines or alcoholic beverages during the treatment period with this medicine. The medicine may cause drowsiness and drinking alcohol may exacerbate this effect. ",
+                    "heb": "שימוש בתרופה וצריכת אלכוהול: אין לשתות יינות או משקאות חריפים בתקופת הטיפול בתרופה זו. התרופה עלולה לגרום לישנוניות ושתיית אלכוהול עלולה להחמיר את התופעה."
+                },
+                {
+                    "eng": "Pregnancy, breast-feeding and fertility: ",
+                    "heb": "הריון הנקה ופוריות:"
+                },
+                {
+                    "eng": "Pregnancy",
+                    "heb": "הריון"
+                },
+                {
+                    "eng": "There is limited information about the use of Clonnirit during pregnancy. As with all medicines, do not use Clonnirit, especially during the first three months of pregnancy (first trimester), without consulting the doctor, if you are pregnant, think you are pregnant, or are planning a pregnancy. The medicine passes through the placenta and could slow the heart rate of the fetus. ",
+                    "heb": "קיים מידע מוגבל לגבי השימוש בקלוניריט בהריון. כמו בכל התרופות, אין להשתמש בקלוניריט, במיוחד במהלך שלושת החודשים הראשונים להריון (טרימסטר ראשון), מבלי להתייעץ עם הרופא, אם את בהריון, חושבת שאת בהריון או מתכננת הריון. התרופה עוברת דרך השלייה ועלולה להאט את קצב לב העובר."
+                },
+                {
+                    "eng": "Breastfeeding",
+                    "heb": "הנקה"
+                },
+                {
+                    "eng": "The medicine is secreted into the breastmilk. There is insufficient information about the effect of the medicine while breastfeeding and therefore the use of the medicine is not recommended.",
+                    "heb": "התרופה מופרשת בחלב האם. אין מספיק מידע על השפעת התרופה בהנקה ולכן השימוש בתרופה אינו מומלץ."
+                },
+                {
+                    "eng": "Fertility",
+                    "heb": "פוריות"
+                },
+                {
+                    "eng": "There is insufficient information about the effect of the medicine on fertility",
+                    "heb": "אין מספיק מידע לגבי השפעת התרופה על הפוריות."
+                },
+                {
+                    "eng": "Driving and use of machinery: Caution! Use of this medicine may impair the ability to drive and cause impairment of alertness, dizziness, drowsiness or disturbances of vision. If you experience these effects - do not drive, operate machinery or take part in any endangering activity requiring alertness.",
+                    "heb": "נהיגה ושימוש במכונות: זהירות! השימוש בתרופה זו עלול לפגום בכושר הנהיגה ולגרום לפגיעה בערנות, סחרחורת, נמנום או ליקויים בראיה. אם אתה חש בתופעות אלה - אין לנהוג, להפעיל מכונות, או להשתתף בפעילות מסכנת המחייבת ערנות."
+                },
+                {
+                    "eng": "Use in children: This medicine is not intended for children below the age of 18, since there is no data for this population.",
+                    "heb": "שימוש בילדים: תרופה זו אינה מיועדת לילדים מתחת לגיל 18, מכיוון שאין נתונים עבור אוכלוסיה זו."
+                },
+                {
+                    "eng": "Important information about some of the medicine’s ingredients:",
+                    "heb": "מידע חשוב על חלק מהמרכיבים של התרופה:"
+                },
+                {
+                    "eng": "The medicine contains lactose. If you are sensitive to lactose, or if the doctor told you that you have intolerance to certain sugars, inform the doctor before taking this medicine - see section 6.",
+                    "heb": "התכשיר מכיל לקטוז. אם אתה רגיש ללקטוז או אם הרופא אמר לך שיש לך אי סבילות לסוכרים מסוימים, יש לידע את הרופא לפני נטילת תרופה זו - ראה סעיף 6."
+                }
+            ]
+        },
+        {
+            "title": "how to use the medicine",
+            "section_num": "3",
+            "data": [
+                {
+                    "eng": "3. How to use the medicine?",
+                    "heb": "3. כיצד תשתמש בתרופה?"
+                },
+                {
+                    "eng": "Always use according to the doctor's instructions. Check with the doctor or pharmacist if you are not sure",
+                    "heb": "תמיד יש להשתמש לפי הוראות הרופא. עליך לבדוק עם הרופא או הרוקח אם אינך בטוח."
+                },
+                {
+                    "eng": "The dosage and the manner of treatment will be determined by the doctor only. ",
+                    "heb": "המינון ואופן הטיפול ייקבעו על ידי הרופא בלבד."
+                },
+                {
+                    "eng": "Use this medicine at set intervals as determined by the attending doctor",
+                    "heb": "יש להשתמש בתרופה זו בזמנים קצובים כפי שנקבע על ידי הרופא המטפל."
+                },
+                {
+                    "eng": "The standard dosage is usually: Initial dosage of 2 tablets taken together, twice a day. If required, after two weeks, the doctor may increase the dose to 3 tablets taken together, twice a day. The duration of treatment will be determined by the doctor in accordance with your condition. It may take 2 to 4 weeks before reaching the full effect. ",
+                    "heb": "המינון המקובל בדרך כלל הוא: מינון התחלתי של 2 טבליות יחד, פעמיים ביום. במידת הצורך, ייתכן ולאחר שבועיים הרופא יעלה את המינון ל- 3 טבליות יחד, פעמיים ביום. משך הטיפול ייקבע על ידי הרופא בהתאם למצבך. ייתכן ויחלפו 2 עד 4 שבועות עד להשפעה המלאה."
+                },
+                {
+                    "eng": "Do not exceed the recommended dose. ",
+                    "heb": "אין לעבור על המנה המומלצת."
+                },
+                {
+                    "eng": "Swallow the medicine with a glass of water.",
+                    "heb": "יש לבלוע את התרופה עם כוס מים."
+                },
+                {
+                    "eng": "Do not chew or crush the tablet!",
+                    "heb": "אין ללעוס או לכתוש את הטבליה!"
+                },
+                {
+                    "eng": "Do not halve the tablet since there is no scored line.",
+                    "heb": "אין לחצות את הטבליה מאחר ואין קו חציה."
+                },
+                {
+                    "eng": "Tests and follow-up: During the treatment period with this medicine, your blood pressure should be monitored. ",
+                    "heb": "בדיקות ומעקב: בתקופת הטיפול בתרופה זו יש לערוך מעקב אחר לחץ הדם."
+                },
+                {
+                    "eng": "If you have accidentally taken a higher dosage: If you have taken an overdose or if a child has accidentally swallowed the medicine, proceed immediately to a hospital emergency room and bring the medicine package with you. Symptoms of overdose may include: constricted pupils, slow heart rate, hypotension (low blood pressure), low blood pressure upon sitting up or standing up, hypothermia, sleepiness, coma, respiratory depression, sleep apnea, hypertension (high blood pressure), vomiting, dry mouth.",
+                    "heb": "אם נטלת בטעות מינון גבוה יותר: אם נטלת מנת יתר או אם בטעות בלע ילד מן התרופה, פנה מיד לחדר מיון של בית-חולים, והבא אריזת התרופה איתך. תסמיני מינון יתר עשויים לכלול: כיווץ אישונים, קצב לב איטי, תת לחץ דם (לחץ דם נמוך), לחץ דם נמוך בעת קימה לישיבה או לעמידה, תת חום (היפותרמיה), ישנוניות, תרדמת, דיכוי נשימתי, הפסקת נשימה בשינה, יתר לחץ דם (לחץ דם גבוה), הקאות, יובש בפה."
+                },
+                {
+                    "eng": "If you forgot to take the medicine at the set time, take the dose as soon as you remember, however, if it is nearly time for the next dose, skip the forgotten dose. Do not take a double dose to make up for a forgotten dose! ",
+                    "heb": "אם שכחת ליטול את התרופה בזמן הקצוב יש ליטול מנה מיד כשנזכרת, אך אם זמן המנה הבאה מתקרב, דלג על המנה שנשכחה. אין ליטול מנה כפולה בכדי לפצות על המנה שנשכחה!"
+                },
+                {
+                    "eng": "Adhere to the treatment as recommended by the doctor.",
+                    "heb": "יש להתמיד בטיפול כפי שהומלץ על ידי הרופא."
+                },
+                {
+                    "eng": "If you stop taking the medicine: Even if your state of health improves, do not stop the treatment with the medicine without consulting your doctor, and even then, only in a gradual manner. Sudden discontinuation of the medicine may cause withdrawal symptoms (especially if you have been using the medicine at a high dosage and/or for a prolonged period), such as agitation, restlessness, palpitations (strong heart beating), a rapid increase in blood pressure, restlessness, tremor, headache and gastrointestinal system symptoms such as nausea. Therefore, it is essential to gradually reduce the dose, according to the doctors's instructions.",
+                    "heb": "אם אתה מפסיק את נטילת התרופה: גם אם חל שיפור במצב בריאותך אין להפסיק את הטיפול בתרופה ללא התייעצות עם הרופא, וגם אז רק באופן הדרגתי. הפסקת נטילת התרופה באופן פתאומי עלולה לגרום לתסמיני גמילה (במיוחד במידה והשתמשת בתרופה במינון גבוה ו/או לתקופה ממושכת), כגון אי-שקט, חוסר מנוחה, פלפיטציות (דופק חזק), עליה מהירה בלחץ הדם, עצבנות, רעד, כאב ראש ותסמינים במערכת העיכול כגון בחילות. לכן חיוני להקטין את המינון בהדרגתיות, לפי הוראות הרופא."
+                },
+                {
+                    "eng": "Do not take medicines in the dark! Check the label and the dose each time you take a medicine. Wear glasses if you need them. ",
+                    "heb": "אין ליטול תרופות בחושך! בדוק התווית והמנה בכל פעם שאתה נוטל תרופה. הרכב משקפיים אם אתה זקוק להם."
+                },
+                {
+                    "eng": "If you have any further questions regarding the use of the medicine, consult the doctor or pharmacist.",
+                    "heb": "אם יש לך שאלות נוספות בנוגע לשימוש בתרופה, היוועץ ברופא או ברוקח."
+                }
+            ]
+        },
+        {
+            "title": "side effects",
+            "section_num": "4",
+            "data": [
+                {
+                    "eng": "4. Side Effects:",
+                    "heb": "4. תופעות לוואי"
+                },
+                {
+                    "eng": "As with any medicine, the use of Clonnirit may cause side effects in some users. Do not be alarmed while reading the list of side effects. You may not suffer from any of them.",
+                    "heb": "כמו בכל תרופה, השימוש בקלוניריט עלול לגרום לתופעות לוואי בחלק מהמשתמשים. אל תיבהל למקרא רשימת תופעות הלוואי. ייתכן ולא תסבול מאף אחת מהן."
+                },
+                {
+                    "eng": "Most of the side effects usually resolve following the period of adaptation to the medicine. ",
+                    "heb": "מרבית תופעות הלוואי חולפות בדרך כלל לאחר תקופת ההסתגלות לתכשיר. "
+                },
+                {
+                    "eng": "Refer to the doctor immediately if you experience symptoms of pseudo-obstruction of the large intestine causing colicky pains, vomiting, and constipation (rare).",
+                    "heb": "יש לפנות מיד לרופא אם מופיעים תסמינים של פסאודו-חסימה במעי הגס הגורמים לכאבים עוויתיים, הקאות ועצירות (נדיר)."
+                },
+                {
+                    "eng": "Additional side effects:",
+                    "heb": "תופעות לוואי נוספות:"
+                },
+                {
+                    "eng": "Very common side effects (appear in more than one user out of ten):",
+                    "heb": "תופעות לוואי שכיחות מאוד (מופיעות ביותר ממשתמש אחד מתוך עשרה):"
+                },
+                {
+                    "eng": "dizziness",
+                    "heb": "סחרחורת"
+                },
+                {
+                    "eng": "sedation (fuzziness, drowsiness, unusual tiredness)",
+                    "heb": "סדציה (טשטוש, נמנום, עייפות בלתי רגילה)"
+                },
+                {
+                    "eng": "dizziness when standing up (due to a sharp drop in blood pressure)",
+                    "heb": "סחרחורת בעת קימה לעמידה (כתוצאה מירידה חדה בלחץ הדם)"
+                },
+                {
+                    "eng": "dry mouth",
+                    "heb": "יובש בפה"
+                },
+                {
+                    "eng": "Common side effects (appear in 1-10 users out of 100):",
+                    "heb": "תופעות לוואי שכיחות (מופיעות ב 1-10 משתמשים מתוך 100): "
+                },
+                {
+                    "eng": "depression",
+                    "heb": "דיכאון"
+                },
+                {
+                    "eng": "sleeping problems",
+                    "heb": "בעיות שינה"
+                },
+                {
+                    "eng": "headache",
+                    "heb": "כאב ראש"
+                },
+                {
+                    "eng": "constipation",
+                    "heb": "עצירות"
+                },
+                {
+                    "eng": "nausea",
+                    "heb": "בחילות"
+                },
+                {
+                    "eng": "vomiting",
+                    "heb": "הקאות"
+                },
+                {
+                    "eng": "pain below the ear (from the salivary glands)",
+                    "heb": "כאבים תחת האוזן (מבלוטות הרוק)"
+                },
+                {
+                    "eng": "erectile dysfunction",
+                    "heb": "בעיות בזיקפה"
+                },
+                {
+                    "eng": "fatigue",
+                    "heb": "עייפות"
+                },
+                {
+                    "eng": "Uncommon side effects (appear in 1-10 users out of 1,000):",
+                    "heb": "תופעות לוואי שאינן שכיחות (מופיעות ב 1-10 משתמשים מתוך 1,000): "
+                },
+                {
+                    "eng": "erroneous perception of reality",
+                    "heb": "תפיסה מוטעית של המציאות"
+                },
+                {
+                    "eng": "hallucinations",
+                    "heb": "הזיות"
+                },
+                {
+                    "eng": "nightmares",
+                    "heb": "סיוטים"
+                },
+                {
+                    "eng": "altered sensation in the hands and feet",
+                    "heb": "שינויי תחושה בידיים וברגליים"
+                },
+                {
+                    "eng": "slow heartbeats",
+                    "heb": "דפיקות לב איטיות"
+                },
+                {
+                    "eng": "Raynaud’s syndrome (a problem with blood circulation to the fingers and toes)",
+                    "heb": "תסמונת ריינו (בעיה בזרימת הדם לאצבעות הידיים והרגליים)"
+                },
+                {
+                    "eng": "rash",
+                    "heb": "פריחה"
+                },
+                {
+                    "eng": "itch",
+                    "heb": "גרד"
+                },
+                {
+                    "eng": "urticaria (nettle rash)",
+                    "heb": "אורטיקריה (חרלת)"
+                },
+                {
+                    "eng": "general unwell feeling",
+                    "heb": "תחושה כללית רעה"
+                },
+                {
+                    "eng": "Rare side effects (appear in 1-10 users out of 10,000):",
+                    "heb": "תופעות לוואי נדירות (מופיעות ב 1-10 משתמשים מתוך 10,000):"
+                },
+                {
+                    "eng": "breast enlargement in men",
+                    "heb": "הגדלת השדיים בגברים"
+                },
+                {
+                    "eng": "dry eyes",
+                    "heb": "יובש בעיניים"
+                },
+                {
+                    "eng": "abnormal and irregular heartbeats",
+                    "heb": "דפיקות לב לא רגילות ולא סדירות"
+                },
+                {
+                    "eng": "dryness of the nasal mucosa",
+                    "heb": "יובש בריריות האף"
+                },
+                {
+                    "eng": "hair loss",
+                    "heb": "נשירת שיער"
+                },
+                {
+                    "eng": "increase in blood sugar level",
+                    "heb": "עליה ברמת הסוכר בדם"
+                },
+                {
+                    "eng": "Side effects of unknown frequency (effects whose frequency has not yet been determined): ",
+                    "heb": "תופעות לוואי ששכיחותן אינה ידועה (תופעות ששכיחותן טרם נקבעה): "
+                },
+                {
+                    "eng": "confusion",
+                    "heb": "בלבול"
+                },
+                {
+                    "eng": "decreased libido",
+                    "heb": "ירידה בחשק המיני"
+                },
+                {
+                    "eng": "vision problems such as blurred vision",
+                    "heb": "בעיות ראיה כגון טשטוש ראיה"
+                },
+                {
+                    "eng": "very slow heartbeats",
+                    "heb": "דפיקות לב איטיות מאוד"
+                },
+                {
+                    "eng": "If a side effect appears, if one of the side effects worsens, or if you suffer from a side effect not mentioned in the leaflet, consult with the doctor. ",
+                    "heb": "אם הופיעה תופעת לוואי, אם אחת מתופעות הלוואי מחמירה או כאשר אתה סובל מתופעת לוואי שלא צוינה בעלון, עליך להתייעץ עם הרופא."
+                },
+                {
+                    "eng": "Side effects may be reported to the Ministry of Health by clicking on the link \"Report on side effects following medicinal treatment\" on the homepage of the Ministry of Health website which leads to an online form for reporting side effects, or by entering the link",
+                    "heb": "ניתן לדווח על תופעות לוואי למשרד הבריאות באמצעות לחיצה על הקישור \"דיווח על תופעות לוואי עקב טיפול תרופתי\" שנמצא בדף הבית של אתר משרד הבריאות המפנה לטופס המקוון לדיווח על תופעות לוואי, או ע\"י כניסה לקישור"
+                }
+            ]
+        },
+        {
+            "title": "medicine storage",
+            "section_num": "5",
+            "data": [
+                {
+                    "eng": "5. How to store the medicine?",
+                    "heb": "5. איך לאחסן את התרופה?"
+                },
+                {
+                    "eng": "Avoid poisoning! This medicine, and any other medicine, must be stored in a safe place out of the reach and sight of children and/or infants, to avoid poisoning. Do not induce vomiting unless explicitly instructed to do so by the doctor.",
+                    "heb": "מנע הרעלה! תרופה זו וכל תרופה אחרת יש לשמור במקום סגור מחוץ להישג ידם וטווח ראייתם של ילדים ו/או תינוקות ועל ידי כך תמנע הרעלה. אל תגרום להקאה ללא הוראה מפורשת מהרופא."
+                },
+                {
+                    "eng": "• Do not use the medicine after the expiry date stated on the package. The expiry date refers to the last day of that month.",
+                    "heb": "• אין להשתמש בתרופה אחרי תאריך התפוגה המופיע על גבי האריזה. תאריך התפוגה מתייחס ליום האחרון של אותו חודש."
+                },
+                {
+                    "eng": "• Storage conditions: Store below 25°C.",
+                    "heb": "• תנאי אחסון: יש לאחסן מתחת ל-25°C."
+                }
+            ]
+        },
+        {
+            "title": "additional information",
+            "section_num": "6",
+            "data": [
+                {
+                    "eng": "6. Additional information",
+                    "heb": "6. מידע נוסף "
+                },
+                {
+                    "eng": "In addition to the active ingredient, the medicine also contains:",
+                    "heb": "נוסף על החומר הפעיל, התרופה מכילה גם:"
+                },
+                {
+                    "eng": "Each tablet contains approximately 18 mg of lactose",
+                    "heb": "כל טבליה מכילה כ- 18 מ\"ג לקטוז."
+                },
+                {
+                    "eng": "What does the medicine look like and what does the package contain?",
+                    "heb": "כיצד נראית התרופה ומה תוכן האריזה?"
+                },
+                {
+                    "eng": "Light blue small round tablets, in blister packs of 30 tablets. ",
+                    "heb": "טבליות עגולות קטנות בצבע תכלת, באריזת מגשיות של 30 טבליות."
+                },
+                {
+                    "eng": "Registration holder and manufacturer: Rafa Laboratories Ltd., P.O. Box 405, Jerusalem 9100301",
+                    "heb": "בעל הרישום והיצרן: מעבדות רפא בע\"מ, ת.ד. 405, ירושלים 9100301"
+                },
+                {
+                    "eng": "Medicine registration number in the National Medicines Registry of the Ministry of Health: 0445422183",
+                    "heb": "מספר רישום התרופה בפנקס התרופות הממלכתי במשרד הבריאות: 0445422183"
+                },
+                {
+                    "eng": "Revised in July 2023 according to MOH's guidelines",
+                    "heb": "נערך ביולי 2023 בהתאם להנחיות משרד הבריאות."
+                }
+            ]
+        }
+    ]
+}

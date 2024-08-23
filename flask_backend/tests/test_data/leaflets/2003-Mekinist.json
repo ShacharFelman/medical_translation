@@ -1,0 +1,1605 @@
+{
+    "title": "Mekinist film-coated tablets",
+    "index": 0,
+    "dir_index": 2003,
+    "title_lang": {
+        "title_eng": "Mekinist film-coated tablets",
+        "title_heb": "מקיניסט תבליות מצופות"
+    },
+    "sections": [
+        {
+            "title": "General",
+            "section_num": "0",
+            "data": [
+                {
+                    "eng": "Patient leaflet in accordance with the Pharmacists' Regulations (Preparations) - 1986",
+                    "heb": "עלון לצרכן לפי תקנות הרוקחים (תכשירים) התשמ\"ו - 1986"
+                },
+                {
+                    "eng": "The medicine is dispensed with a doctor's prescription only",
+                    "heb": "התרופה משווקת על פי מרשם רופא בלבד"
+                },
+                {
+                    "eng": "Mekinist® 0.5 mg, film-coated tablets",
+                    "heb": "מקיניסט 0.5 מ\"ג, טבליות מצופות"
+                },
+                {
+                    "eng": "Each film-coated tablet contains trametinib (as dimethyl sulfoxide) 0.5 mg",
+                    "heb": "כל טבליה מצופה מכילה טרמטיניב (כדימתיל סולפוקסיד) 0.5 מ\"ג"
+                },
+                {
+                    "eng": "Mekinist® 2 mg, film-coated tablets",
+                    "heb": "מקיניסט 2 מ\"ג, טבליות מצופות"
+                },
+                {
+                    "eng": "Each film-coated tablet contains trametinib (as dimethyl sulfoxide) 2 mg",
+                    "heb": "כל טבליה מצופה מכילה טרמטיניב (כדימתיל סולפוקסיד) 2 מ\"ג"
+                },
+                {
+                    "eng": "Inactive ingredients and allergens: See section 6 ‘Additional information’ and section 2 under ‘Important information about some of this medicine’s ingredients’. ",
+                    "heb": "חומרים בלתי פעילים ואלרגניים: ראה סעיף 6 \"מידע נוסף\" וכן בסעיף 2 \"מידע חשוב על חלק מהמרכיבים של התרופה\"."
+                },
+                {
+                    "eng": "Read the entire leaflet carefully before using the medicine. This leaflet contains concise information about the medicine. If you have any further questions, refer to your doctor or pharmacist. ",
+                    "heb": "קרא בעיון את העלון עד סופו בטרם תשתמש בתרופה. עלון זה מכיל מידע תמציתי על התרופה. אם יש לך שאלות נוספות, פנה אל הרופא או אל הרוקח."
+                },
+                {
+                    "eng": "This medicine has been prescribed for you. Do not pass it on to others. It may harm them, even if it seems to you that their medical condition is similar to yours.",
+                    "heb": "תרופה זו נרשמה עבורך. אל תעביר אותה לאחרים. היא עלולה להזיק להם אפילו אם נראה לך כי מצבם הרפואי דומה."
+                }
+            ]
+        },
+        {
+            "title": "medicine intended for",
+            "section_num": "1",
+            "data": [
+                {
+                    "eng": "1. WHAT IS THE MEDICINE INTENDED FOR?",
+                    "heb": "1. למה מיועדת התרופה?"
+                },
+                {
+                    "eng": "Mekinist is used as monotherapy or in combination with an additional medicine containing dabrafenib for the treatment of adults with a type of skin cancer called melanoma that has spread to other parts of the body or cannot be removed by surgery.",
+                    "heb": "מקיניסט משמשת כטיפול יחיד או כשילוב עם תרופה נוספת המכילה דבראפניב לטיפול במבוגרים בסוג של סרטן עור הנקרא מלנומה אשר התפשט לחלקים אחרים בגוף, או שלא ניתן להסירו באמצעות ניתוח. מקיניסט בשילוב עם דבראפניב משמשת גם כטיפול משלים במלנומה שלב 3 במבוגרים לאחר הסרה מלאה של הנגע באמצעות ניתוח."
+                },
+                {
+                    "eng": "Mekinist in combination with dabrafenib is also used for the treatment of adults with an advanced stage of lung cancer called non-small cell lung cancer (NSCLC).",
+                    "heb": "ממקיניסט בשילוב עם דבראפניב משמשת גם לטיפול במבוגרים אשר נמצאים בשלב מתקדם של סרטן ריאה הנקרא סרטן ריאה מסוג של תאים לא קטנים (NSCLC)."
+                },
+                {
+                    "eng": "Mekinist in combination with dabrafenib is also intended for the treatment of a type of thyroid cancer called anaplastic thyroid cancer (ATC) that has a mutation in the BRAF gene (BRAF V600E mutation), which has spread to other parts of the body or is in one place and in advanced state, and after no satisfactory results have been obtained from local treatment options.",
+                    "heb": "מקיניסט בשילוב עם דבראפניב מיועדת גם לטיפול בסוג של סרטן בלוטת התריס הנקרא סרטן בלוטת התריס מסוג אנפלסטי (ATC) הנושא מוטציה בגן BRAF V600E mutation) BRAF), אשר התפשט לחלקים אחרים בגוף או שנמצא במקום אחד ובמצב מתקדם, ולאחר שלא הושגו תוצאות משביעות רצון מאפשרויות טיפול מקומיות."
+                },
+                {
+                    "eng": "Mekinist in combination with dabrafenib is intended for the treatment of solid tumours in adults and children 6 years and older which cannot be removed by surgery or have spread to other areas of the body and have worsened (progressed), have no other satisfactory treatment options and carry mutation in the BRAF gene. Mekinist is not intended for the treatment of colorectal cancer.",
+                    "heb": "מקיניסט בשילוב עם דבראפניב מיועדת לטיפול בגידולים מוצקים במבוגרים ובילדים מגיל 6 ומעלה אשר לא ניתן להסירם באמצעות ניתוח או שהתפשטו לאזורים אחרים בגוף, ואשר החמירו (התקדמו) ואין עבורם אפשרויות טיפול אחרות משביעות רצון והנושאים מוטציה בגן BRAF. מקיניסט אינה מיועדת לטיפול בסרטן המעי הגס והחלחולת."
+                },
+                {
+                    "eng": "Therapeutic group: ",
+                    "heb": "קבוצה תרפויטית:"
+                },
+                {
+                    "eng": "protein kinase inhibitor, antineoplastic agent. ",
+                    "heb": "מעכב פרוטאין קינאזות, גורם אנטי נאופלסטי."
+                },
+                {
+                    "eng": "All these types of cancer have a particular change (mutation) in a gene called BRAF at the V600 position.",
+                    "heb": "בכל סוגי סרטן אלה יש שינוי מסוים (מוטציה) בגן הנקרא BRAF במיקום ה- V600."
+                },
+                {
+                    "eng": "This mutation in the gene may have caused the cancer to develop. The medicine targets proteins made from this mutated gene and slows down or stops the development of the cancer.",
+                    "heb": "ייתכן שהמוטציה הזו בגן היא שגרמה להתפתחות הסרטן. התרופה מכוונת כלפי חלבונים שנוצרו מן הגן המוטנטי הזה ומאטה או עוצרת את התפתחות הסרטן."
+                }
+            ]
+        },
+        {
+            "title": "before using the medicine",
+            "section_num": "2",
+            "data": [
+                {
+                    "eng": "2. BEFORE USING THE MEDICINE",
+                    "heb": "2. לפני השימוש בתרופה"
+                },
+                {
+                    "eng": "Mekinist should only be used to treat melanomas, non-small cell lung cancer (NSCLC), anaplastic thyroid cancer (ATC) and solid tumours with the BRAF mutation.",
+                    "heb": "יש להשתמש במקיניסט רק לטיפול במלנומות, בסרטן ריאה מסוג של תאים לא קטנים (NSCLC), בסרטן בלוטת התריס מסוג אנפלסטי (ATC) ובגידולים מוצקים עם מוטציה בגן- BRAF."
+                },
+                {
+                    "eng": "Therefore, before starting treatment, your doctor will test for this mutation.",
+                    "heb": "לכן לפני התחלת טיפול הרופא יערוך בדיקה למוטציה זו."
+                },
+                {
+                    "eng": "If your doctor decides that you will receive a combined treatment of Mekinist and dabrafenib, read the dabrafenib leaflet carefully as well as this leaflet.",
+                    "heb": "אם הרופא מחליט שתקבל טיפול משולב של מקיניסט ודבראפניב, קרא בעיון את העלון של דבראפניב כמו גם עלון זה."
+                },
+                {
+                    "eng": "If you have any further questions on the use of this medicine, refer to your doctor.",
+                    "heb": "אם יש לך שאלות נוספות כלשהן בנוגע לשימוש בתרופה זו, פנה לרופא."
+                },
+                {
+                    "eng": "Do not use this medicine if:",
+                    "heb": "אין להשתמש בתרופה אם:"
+                },
+                {
+                    "eng": "You are sensitive (allergic) to trametinib or to any of the other ingredients in this medicine (listed in section 6 of this leaflet).",
+                    "heb": "אתה רגיש (אלרגי) לטרמטיניב או לכל אחד מהמרכיבים הנוספים אשר מכילה התרופה (מפורטים בסעיף 6 בעלון זה)."
+                },
+                {
+                    "eng": "Check with your doctor if you think this applies to you.",
+                    "heb": "בדוק עם הרופא אם אתה סבור שזה מתייחס אליך."
+                },
+                {
+                    "eng": "Special warnings about using this medicine",
+                    "heb": "אזהרות מיוחדות הנוגעות לשימוש בתרופה"
+                },
+                {
+                    "eng": "Before using Mekinist, tell your doctor if:",
+                    "heb": "לפני הטיפול במקיניסט ספר לרופא אם:"
+                },
+                {
+                    "eng": "Before using Mekinist, tell your doctor if:",
+                    "heb": "לפני הטיפול במקיניסט ספר לרופא אם:"
+                },
+                {
+                    "eng": "• you have any liver problems. Your doctor may perform blood tests to monitor your liver function while you are taking this medicine.",
+                    "heb": "• יש לך בעיות כלשהן בכבד. ייתכן שהרופא יבצע בדיקות דם כדי לנטר את תפקודי הכבד בזמן שאתה לוקח את התרופה הזו."
+                },
+                {
+                    "eng": "• you have or have ever had kidney problems.",
+                    "heb": "• יש לך או אי פעם היו לך בעיות בכליה."
+                },
+                {
+                    "eng": "• you have or have ever had breathing or lung problems.",
+                    "heb": "• יש לך או אי פעם היו לך בעיות בנשימה או בריאה."
+                },
+                {
+                    "eng": "• you have heart problems such as heart failure (which can cause shortness of breath, difficulty in breathing when lying down, swelling of the feet or legs) or problems with the way your heart beats. Your doctor should check your heart function before and during treatment.",
+                    "heb": "• יש לך בעיות בלב כמו אי ספיקת לב (אשר עלולות לגרום לקוצר נשימה, קושי לנשום בשכיבה, נפיחות של כפות הרגליים או הרגליים) או בעיות בדרך שבה הלב פועם. הרופא צריך לבדוק את תפקוד הלב לפני ובמהלך הטיפול."
+                },
+                {
+                    "eng": "• you have eye problems, including blockage of the vein draining the eye (retinal vein occlusion) or swelling in the eye which may be caused by fluid blockage (chorioretinopathy).",
+                    "heb": "• יש לך בעיות עיניים כולל חסימה בווריד המנקז את העין (חסימה בווריד הרשתית) או נפיחות בעין שייתכן שנגרמה מחסימת נוזל (chorioretinopathy)."
+                },
+                {
+                    "eng": "Before treatment with Mekinist in combination with dabrafenib, tell your doctor if:",
+                    "heb": "לפני הטיפול במקיניסט בשילוב עם דבראפניב, ספר לרופא אם:"
+                },
+                {
+                    "eng": "• you have had a different type of cancer other than melanoma, non-small cell lung cancer (NSCLC), anaplastic thyroid cancer (ATC) or solid tumours, as you may be at greater risk of developing non skin cancers when taking Mekinist. ",
+                    "heb": "• היה לך סרטן מסוג אחר שאינו מלנומה, סרטן ריאה מסוג של תאים לא קטנים (NSCLC), סרטן בלוטת התריס מסוג אנפלסטי (ATC) או גידולים מוצקים, מאחר שייתכן שאתה בסיכון גבוה יותר לפתח סוגי סרטן שאינם עוריים כאשר אתה לוקח מקיניסט."
+                },
+                {
+                    "eng": "Check with your doctor if you think any of these may apply to you. ",
+                    "heb": "בדוק עם הרופא אם אתה סבור שאחד מאלה מתייחס אליך."
+                },
+                {
+                    "eng": "Conditions you need to look out for  ",
+                    "heb": "מצבים שאתה צריך לשים לב אליהם"
+                },
+                {
+                    "eng": "Some people taking Mekinist develop other conditions which can be serious. You need to know about important symptoms to look out for.  ",
+                    "heb": "חלק מהאנשים הלוקחים מקיניסט מפתחים מצבים אחרים העלולים להיות חמורים. עליך לדעת על תסמינים חשובים אליהם יש לשים לב."
+                },
+                {
+                    "eng": "Bleeding",
+                    "heb": "דימום"
+                },
+                {
+                    "eng": "Taking Mekinist or the combination of Mekinist and dabrafenib can cause serious bleeding including in the brain, the digestive system (such as stomach, rectum or intestine), lungs, and other organs, and can lead to death. Symptoms may include:",
+                    "heb": "נטילת מקיניסט או שילוב של מקיניסט עם דבראפניב יכולה לגרום לדימום חמור כולל במוח, במערכת העיכול (כגון בבטן, בפי הטבעת או במעי), בריאות ובאיברים אחרים, ועלולה להוביל למוות. התסמינים יכולים לכלול:"
+                },
+                {
+                    "eng": "• headaches, dizziness, or feeling weak",
+                    "heb": "• כאב ראש, סחרחורת או תחושת חולשה"
+                },
+                {
+                    "eng": "• blood in the stools or black stools",
+                    "heb": "• דם בצואה או צואה שחורה"
+                },
+                {
+                    "eng": "• blood in the urine",
+                    "heb": "• דם בשתן"
+                },
+                {
+                    "eng": "• stomach pain",
+                    "heb": "• כאב בטן"
+                },
+                {
+                    "eng": "• coughing/vomiting up blood",
+                    "heb": "• שיעול דמי/הקאה דמית"
+                },
+                {
+                    "eng": "Tell your doctor as soon as possible if you get any of these symptoms.  ",
+                    "heb": "ספר לרופא בהקדם האפשרי אם אתה חווה אחד מתסמינים אלה."
+                },
+                {
+                    "eng": "Fever",
+                    "heb": "חום"
+                },
+                {
+                    "eng": "Taking Mekinist or the combination of Mekinist and dabrafenib may cause fever, although it is more likely if you are taking the combination treatment (see also section 4). In some cases, people with fever may develop low blood pressure, dizziness or other symptoms. ",
+                    "heb": "נטילת מקיניסט או שילוב של מקיניסט עם דבראפניב עלולה לגרום לחום, אם כי זה סביר יותר אם אתה נוטל את הטיפול המשולב (ראה גם סעיף 4). במקרים מסוימים, אנשים עם חום עלולים לפתח לחץ דם נמוך, סחרחורת או תסמינים אחרים."
+                },
+                {
+                    "eng": "Tell your doctor immediately if you get a temperature above 38ºC or if you feel a fever coming on while you are taking this medicine. ",
+                    "heb": "ספר מיד לרופא אם יש לך חום מעל 38ºC או אם אתה מרגיש שעומד לעלות לך החום בזמן שאתה לוקח תרופה זו."
+                },
+                {
+                    "eng": "Heart disorder ",
+                    "heb": "הפרעה לבבית"
+                },
+                {
+                    "eng": "Taking Mekinist or the combination of Mekinist with dabrafenib can cause heart problems or make existing heart problems worse (see also “Heart conditions” in section 4).",
+                    "heb": "נטילת מקיניסט או שילוב של מקיניסט עם דבראפניב עלולה לגרום לבעיות בלב, או לגרום להחמרה של בעיות לב קיימות (ראה גם 'מצבים לבביים' בסעיף 4)."
+                },
+                {
+                    "eng": "Tell your doctor if you have a heart disorder. Your doctor will run tests to check that your heart is working properly before and during treatment with this medicine. Tell your doctor immediately if you feel like your heart is pounding, racing, or beating irregularly, or if you experience dizziness, tiredness, light headedness, shortness of breath or swelling in the legs. If necessary, your doctor may decide to interrupt your treatment or to stop it altogether. ",
+                    "heb": "ספר לרופא אם יש לך הפרעה בלב. הרופא יערוך בדיקות כדי לבדוק שהלב שלך פועל כראוי לפני ובמהלך הטיפול בתרופה זו. ספר מיד לרופא אם אתה מרגיש כאילו הלב שלך דופק, מאיץ, או פועם בצורה לא סדירה, או אם אתה חווה סחרחורת, עייפות, תחושת סחרור, קוצר נשימה או נפיחות ברגליים. במקרה הצורך, הרופא עשוי להחליט להפסיק את הטיפול באופן זמני או לחלוטין."
+                },
+                {
+                    "eng": "Changes in your skin which may indicate new skin cancer ",
+                    "heb": "שינויים בעור שעלולים להעיד על סרטן עור חדש"
+                },
+                {
+                    "eng": "Your doctor will check your skin before you start taking this medicine and regularly while you are taking it.",
+                    "heb": "הרופא יבדוק לך את העור לפני שתתחיל ליטול את התרופה ובאופן קבוע בזמן שהינך לוקח אותה."
+                },
+                {
+                    "eng": "Tell your doctor immediately if you notice any changes to your skin while taking this medicine or after treatment (see also section 4).  ",
+                    "heb": "ספר מיד לרופא אם אתה מבחין בשינויים כלשהם בעור בזמן שאתה לוקח תרופה זו או לאחר הטיפול (ראה גם סעיף 4)."
+                },
+                {
+                    "eng": "Eye problems",
+                    "heb": "בעיות עיניים"
+                },
+                {
+                    "eng": "You should have your eyes examined by your doctor while you are taking this medicine. Tell your doctor immediately if you get eye redness and irritation, blurred vision, eye pain or other vision changes during your treatment (see also section 4).",
+                    "heb": "עליך לעבור בדיקת עיניים אצל הרופא בזמן שאתה לוקח תרופה זו. ספר לרופא מיד אם יש לך אדמומיות בעין וגירוי, ראייה מטושטשת, כאב בעין או שינויים אחרים בראייה במהלך הטיפול (ראה גם סעיף 4)."
+                },
+                {
+                    "eng": "Mekinist can cause eye problems including blindness. Mekinist is not recommended if you have ever had blockage of the vein draining the eye (retinal vein occlusion). Tell your doctor immediately if you get the following symptoms of eye problems: blurred vision, loss of vision or other vision changes, coloured dots in your vision or halos (seeing blurred outlines around objects) during your treatment. If necessary, your doctor may decide to interrupt your treatment or to stop it altogether.",
+                    "heb": "מקיניסט יכולה לגרום לבעיות עיניים כולל עיוורון. מקיניסט אינה מומלצת אם אי פעם היתה לך חסימה בווריד המנקז את העין (חסימה בווריד הרשתית). ספר לרופא מיד אם אתה חווה את התסמינים הבאים של בעיות עיניים: ראייה מטושטשת, אובדן ראייה או שינויים אחרים בראייה, נקודות צבעוניות בראייה או הילות (ראיית קווי מתאר מטושטשים סביב עצמים) במהלך הטיפול. במידת הצורך, הרופא עשוי להחליט להפסיק לך את הטיפול באופן זמני או לחלוטין."
+                },
+                {
+                    "eng": "Liver problems ",
+                    "heb": "בעיות כבד"
+                },
+                {
+                    "eng": "Mekinist or Mekinist in combination with dabrafenib can cause problems with your liver which may develop into serious conditions such as hepatitis and liver failure, which may be fatal. Your doctor will monitor you periodically. Signs that your liver may not be working properly may include:",
+                    "heb": "מקיניסט או מקיניסט בשילוב עם דבראפניב, עלולים לגרום לבעיות בכבד שיכולות להתפתח למצבים חמורים כמו דלקת כבד (הפטיטיס) ואי ספיקת כבד, העלולים להיות קטלניים. הרופא יבדוק אותך באופן תקופתי. סימנים לכך שהכבד אינו פועל כראוי יכולים לכלול:"
+                },
+                {
+                    "eng": "• loss of appetite",
+                    "heb": "• אובדן תיאבון"
+                },
+                {
+                    "eng": "• nausea",
+                    "heb": "• בחילה"
+                },
+                {
+                    "eng": "• vomiting",
+                    "heb": "• הקאה"
+                },
+                {
+                    "eng": "• stomach pain",
+                    "heb": "• כאב בטן"
+                },
+                {
+                    "eng": "• yellowing of your skin or the whites of your eyes (jaundice)",
+                    "heb": "• הצהבת העור או לובן העיניים (צהבת)"
+                },
+                {
+                    "eng": "• dark-coloured urine",
+                    "heb": "• שתן בצבע כהה"
+                },
+                {
+                    "eng": "• itching of the skin",
+                    "heb": "• גרד בעור"
+                },
+                {
+                    "eng": "Tell your doctor as soon as possible if you get any of these symptoms.",
+                    "heb": "ספר לרופא בהקדם האפשרי אם אתה חווה אחד מתסמינים אלה."
+                },
+                {
+                    "eng": "Breathing or lung problems ",
+                    "heb": "בעיות נשימה או ריאה"
+                },
+                {
+                    "eng": "Tell your doctor if you have any breathing or lung problems, including difficulty breathing often accompanied by a dry cough, shortness of breath and fatigue. Your doctor may conduct tests to check your lung function before you start taking your medicine.",
+                    "heb": "ספר לרופא אם יש לך בעיות כלשהן בנשימה או בריאה, כולל קושי בנשימה המלווה לעיתים קרובות בשיעול יבש, קוצר נשימה ועייפות. הרופא עשוי לערוך בדיקות לתפקוד הריאה לפני שתתחיל לקחת את התרופה."
+                },
+                {
+                    "eng": "Muscle pain  ",
+                    "heb": "כאב בשריר"
+                },
+                {
+                    "eng": "Mekinist can result in the breakdown of muscle (destruction of muscle cells - rhabdomyolysis).  ",
+                    "heb": "מקיניסט עלולה לגרום לפירוק של השריר (הרס תאי השריר - רבדומיוליזיס)."
+                },
+                {
+                    "eng": "Tell your doctor as soon as possible if you get any of these symptoms:   ",
+                    "heb": "ספר לרופא בהקדם האפשרי אם אתה חווה אחד מתסמינים אלה:"
+                },
+                {
+                    "eng": "• muscle pain ",
+                    "heb": "• כאב בשריר"
+                },
+                {
+                    "eng": "• dark urine due to kidney damage ",
+                    "heb": "• שתן כהה כתוצאה מנזק בכליה"
+                },
+                {
+                    "eng": "If necessary, your doctor may decide to interrupt your treatment or to stop it altogether.  ",
+                    "heb": "במקרה הצורך, הרופא עשוי להחליט להפסיק לך את הטיפול באופן זמני או לחלוטין."
+                },
+                {
+                    "eng": "Read the information “Possible serious side effects” in section 4 of this leaflet. ",
+                    "heb": "קרא את המידע 'תופעות לוואי חמורות אפשריות' בסעיף 4 בעלון זה."
+                },
+                {
+                    "eng": "Hole in the stomach or intestine (perforation) ",
+                    "heb": "קרא את המידע 'תופעות לוואי חמורות אפשריות' בסעיף 4 בעלון זה. חור בקיבה או במעי (התנקבות)"
+                },
+                {
+                    "eng": "Taking Mekinist or the combination of Mekinist and dabrafenib may increase the risk of developing holes in the gut wall.",
+                    "heb": "נטילת מקיניסט או שילוב של מקיניסט עם דבראפניב עלולה להגדיל את הסיכון להתפתחות חורים בדופן המעי."
+                },
+                {
+                    "eng": "Tell your doctor as soon as possible if you have severe abdominal pain. ",
+                    "heb": "ספר לרופא בהקדם האפשרי אם אתה חווה כאב בטן חמור."
+                },
+                {
+                    "eng": "Serious skin reactions ",
+                    "heb": "תגובות עוריות חמורות"
+                },
+                {
+                    "eng": "Serious skin reactions have been reported in people taking Mekinist in combination with dabrafenib. ",
+                    "heb": "תגובות עוריות חמורות דווחו באנשים הנוטלים מקיניסט בשילוב עם דבראפניב."
+                },
+                {
+                    "eng": "Tell your doctor immediately if you notice any changes to your skin (see section 4 for symptoms to be aware of). ",
+                    "heb": "ספר לרופא מיד אם אתה מבחין בשינויים כלשהם בעור (ראה בסעיף 4 תסמינים שעליך לשים לב אליהם)."
+                },
+                {
+                    "eng": "Inflammatory disease mainly affecting the skin, lung, eyes and lymph nodes ",
+                    "heb": "מחלה דלקתית המשפיעה בעיקר על עור, ריאות, עיניים ובלוטות לימפה"
+                },
+                {
+                    "eng": "An inflammatory disease mainly affecting the skin, lung, eyes and lymph nodes (sarcoidosis). Common symptoms of sarcoidosis may include coughing, shortness of breath, swollen lymph nodes, visual disturbances, fever, fatigue, pain and swelling in the joints and tender bumps on your skin. Tell your doctor if you get any of these symptoms. ",
+                    "heb": "מחלה דלקתית המשפיעה בעיקר על העור, הריאות, העיניים ובלוטות הלימפה (סרקואידוזיס). התסמינים השכיחים של סרקואידוזיס יכולים לכלול שיעול, קוצר נשימה, בלוטות לימפה מוגדלות, הפרעות בראייה, חום, תשישות, כאב ונפיחות במפרקים ובליטות רגישות על העור. ספר לרופא אם אתה חווה אחד מתסמינים אלו."
+                },
+                {
+                    "eng": "Immune system disorders ",
+                    "heb": "בעיות במערכת החיסון"
+                },
+                {
+                    "eng": "Mekinist in combination with dabrafenib may in rare instances cause a condition (haemophagocytic lymphohistiocytosis or HLH) in which the immune system makes too many infection fighting cells, called histiocytes and lymphocytes. Symptoms may include enlarged liver and/or spleen, skin rash, lymph node enlargement, breathing problems, easy bruising, kidney abnormalities, and heart problems. ",
+                    "heb": "מקיניסט בשילוב עם דבראפניב עלולה במקרים נדירים לגרום למצב ( haemophagocytic lymphohistiocytosis or HLH) בו מערכת החיסון מייצרת יותר מדי תאים הנלחמים בזיהום הנקראים היסטיוציטים ולימפוציטים. התסמינים עלולים לכלול כבד ו/או טחול מוגדלים, פריחה בעור, בלוטות לימפה מוגדלות, בעיות בנשימה, הופעת חבורות בקלות, חריגות בכליות ובעיות לב."
+                },
+                {
+                    "eng": "Tell your doctor immediately if you experience multiple symptoms such as fever, swollen lymph glands, bruising or skin rash, at the same time. ",
+                    "heb": "ספר לרופא מיד אם אתה חווה מספר תסמינים כמו חום, בלוטות לימפה נפוחות, חבורות או פריחה בעור, באותו הזמן."
+                },
+                {
+                    "eng": "Children and adolescents ",
+                    "heb": "ילדים ומתבגרים"
+                },
+                {
+                    "eng": "Mekinist is not intended for children under the age of 6. The safety and efficacy of Mekinist in combination with dabrafenib in children below the age of 6 are not known. ",
+                    "heb": "מקיניסט אינה מיועדת לילדים מתחת לגיל 6. הבטיחות והיעילות של מקיניסט בשילוב עם דבראפניב בילדים מתחת לגיל 6 אינן ידועות."
+                },
+                {
+                    "eng": "The safety and efficacy of Mekinist when used alone in children are not known.",
+                    "heb": "הבטיחות והיעילות של מקיניסט בשימוש יחיד בילדים אינן ידועות."
+                },
+                {
+                    "eng": "Drug interactions ",
+                    "heb": "תגובות בין תרופתיות"
+                },
+                {
+                    "eng": "Before starting treatment, tell your doctor or pharmacist if you are taking, have recently taken or might take any other medicines. This includes non-prescription medications and dietary supplements. ",
+                    "heb": "לפני התחלת הטיפול, ספר לרופא שלך או לרוקח אם אתה לוקח, לקחת לאחרונה או עשוי לקחת תרופות אחרות כלשהן. זה כולל תרופות ללא מרשם ותוספי תזונה."
+                },
+                {
+                    "eng": "Keep a list of the medicines you take, so you can show it to your doctor or pharmacist when you get a new medicine. ",
+                    "heb": "שמור רשימה של התרופות שאתה לוקח, כך שתוכל להראות אותה לרופא או לרוקח כאשר תקבל תרופה חדשה."
+                },
+                {
+                    "eng": "Using this medicine and food",
+                    "heb": "שימוש בתרופה ומזון"
+                },
+                {
+                    "eng": "It is important to take Mekinist on an empty stomach, because food affects the way the medicine is absorbed into your body (see section 3). ",
+                    "heb": "חשוב לקחת מקיניסט על קיבה ריקה מפני שמזון משפיע על אופן הספיגה של התרופה בגופך (ראה סעיף 3)."
+                },
+                {
+                    "eng": "Pregnancy, breastfeeding and fertility ",
+                    "heb": "היריון, הנקה ופוריות"
+                },
+                {
+                    "eng": "Mekinist is not recommended for use during pregnancy. ",
+                    "heb": "מקיניסט אינה מומלצת לשימוש בזמן היריון."
+                },
+                {
+                    "eng": "• If you are pregnant, think you may be pregnant or are planning to become pregnant, consult your doctor before taking this medicine. Mekinist can harm the unborn baby.",
+                    "heb": "• אם את בהיריון, חושבת שייתכן שאת בהיריון או מתכננת להרות, היוועצי ברופא לפני נטילת תרופה זו. מקיניסט עלולה לפגוע בעובר."
+                },
+                {
+                    "eng": "• If you are a woman who could become pregnant, you must use reliable birth control while you are taking Mekinist and for at least 16 weeks after you stop taking it.",
+                    "heb": "• אם את אישה שעשויה להרות, עלייך להשתמש באמצעים אמינים למניעת היריון בזמן שאת לוקחת מקיניסט ובמשך לפחות 16 שבועות לאחר שתפסיקי לקחת אותה."
+                },
+                {
+                    "eng": "• Birth control using hormones (such as pills, injections or patches) may not work properly if you are taking Mekinist in combination with dabrafenib. You need to use another effective method of birth control so you do not become pregnant while you are taking this combination of medicines. Ask your doctor or pharmacist for advice.",
+                    "heb": "• ייתכן שאמצעי מניעה המכילים הורמונים (כגון גלולות, זריקות או מדבקות) לא יפעלו כראוי אם את נוטלת מקיניסט יחד עם דבראפניב. עלייך להשתמש באמצעי מניעה יעיל אחר, כך שלא תיכנסי להיריון בזמן שאת לוקחת שילוב זה של תרופות. התייעצי עם הרופא או הרוקח."
+                },
+                {
+                    "eng": "• If you become pregnant while you are taking Mekinist, tell your doctor immediately.",
+                    "heb": "• אם הרית בזמן שלקחת מקיניסט, ספרי מיד לרופא."
+                },
+                {
+                    "eng": "Mekinist is not recommended while breastfeeding ",
+                    "heb": "מקיניסט אינה מומלצת בזמן ההנקה"
+                },
+                {
+                    "eng": "It is not known whether the ingredients of Mekinist can pass into breast milk.  ",
+                    "heb": "לא ידוע אם המרכיבים של מקיניסט יכולים לעבור לחלב האם."
+                },
+                {
+                    "eng": "If you are breastfeeding, or planning to breastfeed, you must tell your doctor.  ",
+                    "heb": "אם את מניקה, או מתכננת להניק, את חייבת לספר לרופא."
+                },
+                {
+                    "eng": "It is recommended that you do not breastfeed while you are taking Mekinist. You and your doctor will decide whether you will take Mekinist or breastfeed. ",
+                    "heb": "מומלץ שלא תניקי בזמן שאת לוקחת מקיניסט. את והרופא תחליטו אם תקחי מקיניסט או תניקי."
+                },
+                {
+                    "eng": "Fertility – in both men and women ",
+                    "heb": "פוריות – בגברים ובנשים"
+                },
+                {
+                    "eng": "Mekinist may impair fertility in both men and women.",
+                    "heb": "מקיניסט עלולה לפגוע בפוריות בגברים ובנשים."
+                },
+                {
+                    "eng": "Taking Mekinist with dabrafenib: Dabrafenib may permanently reduce male fertility. In addition, men who are taking dabrafenib may have a reduced sperm count, and their sperm count may not return to normal levels after they stop taking this medicine",
+                    "heb": "נטילת מקיניסט עם דבראפניב: דבראפניב עלולה להפחית לצמיתות את פוריות הגברים. בנוסף, ספירת הזרע בגברים שלוקחים דבראפניב עלולה להיות נמוכה וייתכן כי ספירת הזרע שלהם לא תחזור לרמות רגילות לאחר שיפסיקו לקחת את התרופה."
+                },
+                {
+                    "eng": "Prior to starting treatment with dabrafenib, talk to your doctor about options to improve your chances to have children in the future. ",
+                    "heb": "לפני התחלת הטיפול עם דבראפניב, שוחח עם הרופא על אפשרויות לשיפור סיכוייך להוליד ילדים בעתיד."
+                },
+                {
+                    "eng": "If you have any further questions on the effect of this medicine on fertility, ask your doctor or pharmacist. ",
+                    "heb": "אם יש לך שאלות נוספות על ההשפעה של תרופה זו על הפוריות, שאל את הרופא או הרוקח."
+                },
+                {
+                    "eng": "Driving and using machines ",
+                    "heb": "נהיגה ושימוש במכונות"
+                },
+                {
+                    "eng": "Mekinist can have side effects that may affect your ability to drive and use machines. Avoid driving or using machines if you feel tired or weak, if you have problems with your vision or if your energy levels are low.",
+                    "heb": "למקיניסט יכולות להיות תופעות לוואי שעלולות להשפיע על יכולתך לנהוג ולהפעיל מכונות. הימנע מנהיגה או הפעלת מכונות אם אתה חש בעייפות או חולשה, אם יש לך בעיות בראייה או אם רמות האנרגיה שלך נמוכות."
+                },
+                {
+                    "eng": "Descriptions of these effects can be found in other sections (see sections 2 and 4). Read all the information in this leaflet for guidance.  ",
+                    "heb": "ניתן למצוא תיאור של תופעות אלה בסעיפים אחרים (ראה סעיפים 2 ו- 4). קרא את כל המידע בעלון זה להכוונה."
+                },
+                {
+                    "eng": "Consult your doctor or pharmacist if you are unsure about anything. Your disease symptoms and treatment situation may also affect your ability to drive or use machines. ",
+                    "heb": "התייעץ עם הרופא או הרוקח אם אינך בטוח לגבי כל דבר. תסמיני המחלה ומצב הטיפול עלולים גם הם להשפיע על יכולתך לנהוג או להפעיל מכונות."
+                },
+                {
+                    "eng": "Important information about some of this medicine’s ingredients ",
+                    "heb": "מידע חשוב על חלק מהמרכיבים של התרופה"
+                },
+                {
+                    "eng": "This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodiumfree’.",
+                    "heb": "תרופה זו מכילה פחות מ-1 מילימול נתרן (23 מ\"ג) לטבליה, כך שלמעשה נחשבת 'נטולת נתרן'."
+                }
+            ]
+        },
+        {
+            "title": "how to use the medicine",
+            "section_num": "3",
+            "data": [
+                {
+                    "eng": "3. How to use the medicine? ",
+                    "heb": "3. כיצד תשתמש בתרופה?"
+                },
+                {
+                    "eng": "Always use this medicine according to your doctor's instructions. ",
+                    "heb": "יש להשתמש בתרופה זו תמיד בהתאם להוראות הרופא."
+                },
+                {
+                    "eng": "Check with your doctor or pharmacist if you are not sure about the dosage and treatment regimen of Mekinist.",
+                    "heb": "עליך לבדוק עם הרופא או הרוקח אם אינך בטוח בנוגע למינון ואופן הטיפול במקיניסט."
+                },
+                {
+                    "eng": "The dosage and treatment regimen will be determined only by your doctor.  ",
+                    "heb": "המינון ואופן הטיפול יקבעו על ידי הרופא בלבד."
+                },
+                {
+                    "eng": "The standard dosage of Mekinist either used alone or in combination with dabrafenib in adults is one 2 mg tablet once a day. ",
+                    "heb": "המינון המקובל של מקיניסט כטיפול יחיד או בשילוב עם דבראפניב במבוגרים הוא טבליה אחת של 2 מ\"ג פעם ביום."
+                },
+                {
+                    "eng": "The usual dosage of dabrafenib, when used in combination with Mekinist, is 150 mg twice daily.  ",
+                    "heb": "המינון המקובל של דבראפניב, בשימוש משולב עם מקיניסט, הוא 150 מ\"ג פעמיים ביום."
+                },
+                {
+                    "eng": "The dosage and treatment regimen in children and adolescents will be determined only by your doctor. ",
+                    "heb": "המינון ואופן הטיפול בילדים ובמתבגרים יקבעו ע\"י הרופא בלבד."
+                },
+                {
+                    "eng": "Your doctor may decide to lower the dose if you get side effects. ",
+                    "heb": "ייתכן שהרופא יחליט שיש להפחית את המינון אם אתה חווה תופעות לוואי."
+                },
+                {
+                    "eng": "Do not exceed the recommended dose, since this may increase the risk of side effects. ",
+                    "heb": "אין לעבור על המנה המומלצת מאחר שזה עלול להגביר את הסיכון של תופעות לוואי."
+                },
+                {
+                    "eng": "How to take the medicine ",
+                    "heb": "כיצד לקחת את התרופה"
+                },
+                {
+                    "eng": "Swallow the tablet whole, with a full glass of water. Do not chew, crush or split the tablets, since they are film-coated and there is no information about their being chewed, crushed or split.",
+                    "heb": "יש לבלוע את הטבליה בשלמותה עם כוס מים מלאה. אין ללעוס, לרסק או לחצות את הטבליות מאחר שהטבליות בעלות ציפוי ואין מידע לגבי לעיסה, ריסוק וחציה שלהן."
+                },
+                {
+                    "eng": "Take Mekinist once a day, on an empty stomach (at least one hour before a meal or two hours after a meal). This means that: ",
+                    "heb": "קח מקיניסט פעם ביום, על קיבה ריקה (לפחות שעה לפני ארוחה או שעתיים אחרי ארוחה), המשמעות היא:"
+                },
+                {
+                    "eng": "• after taking Mekinist, you must wait at least one hour before eating, or ",
+                    "heb": "• לאחר נטילת מקיניסט, עליך להמתין לפחות שעה אחת לפני שתאכל, או"
+                },
+                {
+                    "eng": "• after eating, you must wait at least two hours before taking Mekinist. ",
+                    "heb": "• אחרי שתאכל, עליך להמתין לפחות שעתיים לפני נטילת מקיניסט."
+                },
+                {
+                    "eng": "Take Mekinist at about the same time each day. ",
+                    "heb": "קח מקיניסט בערך באותה שעה בכל יום."
+                },
+                {
+                    "eng": "If you take a higher dose of Mekinist  ",
+                    "heb": "אם לקחת מינון גבוה יותר של מקיניסט"
+                },
+                {
+                    "eng": "If you take too many tablets of Mekinist, refer to your doctor or pharmacist. If possible, show them the Mekinist package and this leaflet.  ",
+                    "heb": "אם נטלת כמות גדולה מדי של טבליות מקיניסט, פנה לרופא או לרוקח. אם אפשרי, הצג בפניהם את אריזת התרופה והעלון."
+                },
+                {
+                    "eng": "• In case of vomiting after taking the medicine, do not take another dose. Take your next dose at the regular time.",
+                    "heb": "• במקרה של הקאה לאחר נטילת התרופה, אין לקחת מנה נוספת. קח את המנה הבאה שלך במועד הרגיל."
+                },
+                {
+                    "eng": "If you forget to take the medicine ",
+                    "heb": "אם שכחת ליטול את התרופה"
+                },
+                {
+                    "eng": "If less than 12 hours have passed since your regular dosing time, take the medicine as soon as you remember.",
+                    "heb": "אם חלפו פחות מ-12 שעות ממועד הנטילה הקבוע, קח את התרופה ברגע שנזכרת."
+                },
+                {
+                    "eng": "If more than 12 hours have passed since your regular dosing time, skip this dose and take your next dose at the usual time. Then carry on taking your tablet at regular times as usual.  ",
+                    "heb": "אם חלפו יותר מ-12 שעות ממועד הנטילה הקבוע, דלג על מנה זו וקח את המנה הבאה שלך במועד הרגיל. לאחר מכן המשך לקחת את הטבליה במועדים הקבועים כרגיל."
+                },
+                {
+                    "eng": "Do not take a double dose to make up for a forgotten dose. ",
+                    "heb": "אין לקחת מנה כפולה כדי לפצות על מנה שנשכחה."
+                },
+                {
+                    "eng": "Adhere to the treatment as recommended by your doctor.  ",
+                    "heb": "יש להתמיד בטיפול כפי שהומלץ על ידי הרופא."
+                },
+                {
+                    "eng": "If you stop taking this medicine  ",
+                    "heb": "אם אתה מפסיק את נטילת התרופה"
+                },
+                {
+                    "eng": "Take Mekinist for as long as your doctor recommends. Do not stop unless your doctor advises you to. ",
+                    "heb": "קח מקיניסט כל עוד הרופא ממליץ על כך. אל תפסיק, אלא אם הרופא המליץ לך על כך."
+                },
+                {
+                    "eng": "How should you take Mekinist in combination with dabrafenib ",
+                    "heb": "כיצד עליך לקחת מקיניסט בשילוב עם דבראפניב"
+                },
+                {
+                    "eng": "• Take Mekinist in combination with dabrafenib exactly as your doctor tells you. Do not change your dosage or stop taking Mekinist or dabrafenib unless your doctor tells you to. ",
+                    "heb": "• קח מקיניסט בשילוב עם דבראפניב בדיוק כפי שהרופא אמר לך. אין לשנות את המינון או להפסיק לקחת מקיניסט או דבראפניב אלא אם הרופא אמר לך."
+                },
+                {
+                    "eng": "• Take Mekinist once daily and dabrafenib twice daily. It may be better for you to get into the habit of taking both medicines at the same times each day. Mekinist should be taken with either the morning dose of dabrafenib or the evening dose of dabrafenib. The dabrafenib doses should be taken about 12 hours apart.",
+                    "heb": "• קח מקיניסט פעם ביום ודבראפניב פעמיים ביום. ייתכן שיהיה טוב יותר עבורך אם תאמץ הרגל בו תיקח את שתי התרופות באותם זמנים בכל יום. יש לקחת מקיניסט יחד עם מנת הבוקר של דבראפניב או יחד עם מנת הערב של דבראפניב. המנות של דבראפניב צריכות להילקח בהפרש של כ-12 שעות."
+                },
+                {
+                    "eng": "• Take Mekinist and dabrafenib on an empty stomach, at least one hour before or two hours after a meal. Take them whole with a full glass of water.",
+                    "heb": "• קח מקיניסט ודבראפניב על קיבה ריקה, לפחות שעה אחת לפני או שעתיים אחרי ארוחה. יש לקחתן בשלמותן עם כוס מים מלאה."
+                },
+                {
+                    "eng": "• Do not chew, crush or split the tablets, since they are film-coated and there is no information about their being chewed, crushed or split.",
+                    "heb": "• אין ללעוס, לרסק או לחצות את הטבליות מאחר שהטבליות בעלות ציפוי ואין מידע לגבי לעיסה, ריסוק וחציה שלהן."
+                },
+                {
+                    "eng": "If you forget to take a dose of Mekinist or dabrafenib ",
+                    "heb": "אם שכחת לקחת מנה של מקיניסט או דבראפניב"
+                },
+                {
+                    "eng": "Mekinist: If there are more than 12 hours left until your next scheduled dose of Mekinist (which is taken once daily) - take the medicine as soon as you remember. ",
+                    "heb": "מקיניסט: אם נותרו יותר מ-12 שעות עד למנה הבאה המתוכננת של מקיניסט (הנלקחת פעם ביום) - קח את התרופה ברגע שנזכרת."
+                },
+                {
+                    "eng": "Dabrafenib: If there are more than 6 hours left until your next scheduled dose of dabrafenib (which is taken twice daily) - take the medicine as soon as you remember. ",
+                    "heb": "דבראפניב: אם נותרו יותר מ-6 שעות עד למנה הבאה המתוכננת של דבראפניב (הנלקחת פעמיים ביום) - קח את התרופה ברגע שנזכרת."
+                },
+                {
+                    "eng": "In any other case, continue taking the next dose at the regular time. Do not compensate for forgotten doses.",
+                    "heb": "בכל מקרה אחר המשך לקחת את המנה הבאה במועד הרגיל. אין לפצות על מנות שנשכחו."
+                },
+                {
+                    "eng": "If you accidentally took a higher dose ",
+                    "heb": "אם נטלת בטעות מינון גבוה יותר"
+                },
+                {
+                    "eng": "If you take too much Mekinist or dabrafenib, immediately refer to your doctor, take the medicines with you, including the package and leaflets from each of them. If a child has accidentally swallowed some medicine, immediately refer to a doctor or go to a hospital emergency room and bring the medicine package with you.",
+                    "heb": "אם לקחת מינון גבוה יותר של מקיניסט או דבראפניב פנה מיד לרופא, הבא את התרופות עמך, לרבות אריזה ועלונים של כל אחת מהן. אם בטעות בלע ילד מן התרופה, פנה מיד לרופא או לחדר מיון של בית חולים והבא אריזת התרופה איתך."
+                },
+                {
+                    "eng": "",
+                    "heb": ""
+                },
+                {
+                    "eng": "If you get side effects, your doctor may decide that you should take a lower dosage of Mekinist and dabrafenib. Take the doses of Mekinist and dabrafenib exactly as your doctor tells you.",
+                    "heb": "אם אתה חווה תופעות לוואי, ייתכן שהרופא יחליט שעליך לקחת מינון נמוך יותר של מקיניסט ודבראפניב. קח את המנות של מקיניסט ודבראפניב בדיוק כמו שהרופא אמר לך."
+                },
+                {
+                    "eng": "Do not take medicines in the dark! Check the label and dose every time you take medicine. Wear glasses if you need them. ",
+                    "heb": "אין ליטול תרופות בחושך! בדוק התווית והמנה בכל פעם שהנך נוטל תרופה. הרכב משקפיים אם הנך זקוק להם."
+                },
+                {
+                    "eng": "If you have any further questions about using this medicine, consult your doctor or pharmacist. ",
+                    "heb": "אם יש לך שאלות נוספות בנוגע לשימוש בתרופה, היוועץ ברופא או ברוקח."
+                }
+            ]
+        },
+        {
+            "title": "side effects",
+            "section_num": "4",
+            "data": [
+                {
+                    "eng": "4. SIDE EFFECTS ",
+                    "heb": "4. תופעות לוואי"
+                },
+                {
+                    "eng": "Like with any medicine, using Mekinist may cause side effects in some users. Do not be alarmed when reading the list of side effects. You may not suffer from any of them.",
+                    "heb": "כמו בכל תרופה, השימוש במקיניסט עלול לגרום לתופעות לוואי בחלק מהמשתמשים. אל תיבהל למקרא רשימת תופעות הלוואי. ייתכן שלא תסבול מאף אחת מהן."
+                },
+                {
+                    "eng": "Possible serious side effects ",
+                    "heb": "תופעות לוואי חמורות אפשריות"
+                },
+                {
+                    "eng": "Heart conditions ",
+                    "heb": "מצבים לבביים"
+                },
+                {
+                    "eng": "Mekinist can affect how well your heart pumps blood. It is more likely to affect people who have an existing heart problem. You will be checked for any heart problem while you are taking Mekinist.  ",
+                    "heb": "מקיניסט יכולה להשפיע על היכולת של הלב שלך להזרים דם. סביר יותר שהיא תשפיע על אנשים שיש להם בעיה קיימת בלב. אתה תעבור בדיקות לכל בעיה אפשרית בלב בזמן שאתה לוקח מקיניסט."
+                },
+                {
+                    "eng": "Signs and symptoms of heart problems include: ",
+                    "heb": "סימנים ותסמינים לבעיות בלב כוללים:"
+                },
+                {
+                    "eng": "• feeling like your heart is pounding, racing or beating irregularly",
+                    "heb": "• תחושה שלבך דופק, מאיץ, או פועם בצורה לא סדירה"
+                },
+                {
+                    "eng": "• dizziness",
+                    "heb": "• סחרחורת"
+                },
+                {
+                    "eng": "• tiredness",
+                    "heb": "• עייפות"
+                },
+                {
+                    "eng": "• feeling light-headed",
+                    "heb": "• תחושת סחרור"
+                },
+                {
+                    "eng": "• shortness of breath",
+                    "heb": "• קוצר נשימה"
+                },
+                {
+                    "eng": "• swelling in the legs",
+                    "heb": "• נפיחות ברגליים"
+                },
+                {
+                    "eng": "Tell your doctor as soon as possible if you get any of these symptoms, either for the first time or if they get worse. ",
+                    "heb": "ספר לרופא בהקדם האפשרי אם אתה חווה תסמינים אלה, בין אם בפעם הראשונה ובין אם החמירו."
+                },
+                {
+                    "eng": "High blood pressure  ",
+                    "heb": "לחץ דם גבוה"
+                },
+                {
+                    "eng": "Mekinist can cause new or worsening high blood pressure (hypertension). Your doctor or nurse will check your blood pressure during treatment with Mekinist. Call your doctor or nurse right away if you develop high blood pressure, your blood pressure worsens or you have a severe headache, dizziness or light headedness.",
+                    "heb": "מקיניסט עלולה לגרום ללחץ דם גבוה או להחמרתו (יתר לחץ דם). הרופא או האחות יבדקו את לחץ הדם במהלך הטיפול במקיניסט. התקשר מיד לרופא או לאחות אם אתה מפתח לחץ דם גבוה, החמרה בלחץ דם או אם יש לך כאב ראש חמור, סחרחורת או תחושת סחרור."
+                },
+                {
+                    "eng": "Bleeding problems ",
+                    "heb": "בעיות דימום"
+                },
+                {
+                    "eng": "Mekinist can cause serious bleeding problems, especially in your brain or stomach. Call your doctor and get medical help right away if you have any unusual signs of bleeding, including: ",
+                    "heb": "מקיניסט יכולה לגרום לבעיות דימום חמורות, במיוחד במוח או בבטן. התקשר לרופא וקבל מיד עזרה רפואית אם יש לך סימנים חריגים כלשהם של דימום, כולל:"
+                },
+                {
+                    "eng": "• headache, dizziness or weakness",
+                    "heb": "• כאב ראש, סחרחורת או חולשה"
+                },
+                {
+                    "eng": "• coughing up blood or coughing up blood clots",
+                    "heb": "• שיעול דמי או שיעול המכיל קרישי דם"
+                },
+                {
+                    "eng": "• vomit containing blood or that looks like “coffee grounds”",
+                    "heb": "• קיא המכיל דם או שנראה כ\"גרגירי קפה\""
+                },
+                {
+                    "eng": "• red or black stools that look like tar",
+                    "heb": "• צואה אדומה או שחורה שנראית כמו זפת"
+                },
+                {
+                    "eng": "Eye (vision) problems ",
+                    "heb": "בעיות עיניים (ראייה)"
+                },
+                {
+                    "eng": "Mekinist can cause eye problems. Mekinist is not recommended if you have ever had blockage of the vein draining the eye (retinal vein occlusion). Your doctor may advise an eye examination before you take Mekinist and while you are taking it. Your doctor may ask you to stop taking Mekinist or refer you to a specialist, if you develop signs and symptoms in your vision that include:  ",
+                    "heb": "מקיניסט יכולה לגרום לבעיות עיניים. מקיניסט אינה מומלצת אם אי פעם הייתה לך חסימה בווריד המנקז את העין (חסימה בווריד הרשתית). הרופא עשוי להמליץ על בדיקת עיניים לפני שתיקח מקיניסט ובזמן שאתה לוקח אותה. ייתכן שהרופא יבקש ממך להפסיק לקחת מקיניסט או יפנה אותך למומחה אם תפתח סימנים ותסמינים בראייה הכוללים:"
+                },
+                {
+                    "eng": "• loss of vision",
+                    "heb": "• אובדן ראייה"
+                },
+                {
+                    "eng": "• eye redness and irritation",
+                    "heb": "• אדמומיות וגירוי בעין"
+                },
+                {
+                    "eng": "• coloured dots in your vision",
+                    "heb": "• נקודות צבעוניות בראייה"
+                },
+                {
+                    "eng": "• halo (seeing blurred outlines around objects)",
+                    "heb": "• הילה (ראייה של קווי מתאר מטושטשים סביב עצמים)"
+                },
+                {
+                    "eng": "• blurred vision",
+                    "heb": "• ראייה מטושטשת"
+                },
+                {
+                    "eng": "Changes in your skin  ",
+                    "heb": "שינויים בעור"
+                },
+                {
+                    "eng": "Serious skin reactions have been reported in people taking Mekinist in combination with dabrafenib (frequency not known). If you notice one of the following: ",
+                    "heb": "תגובות עוריות חמורות דווחו באנשים הנוטלים מקיניסט בשילוב עם דבראפניב (שכיחות לא ידועה). אם אתה מבחין באחד מהבאים:"
+                },
+                {
+                    "eng": "reddish patches on the skin that are circular or target-shaped, with central blisters. Skin peeling. Ulcers of the mouth, throat, nose, genitals and eyes. These serious skin rashes can be preceded by fever and flu-like symptoms (Stevens-Johnson syndrome).",
+                    "heb": "• כתמים אדמדמים על העור, מעוגלים או בצורת מטרה, עם שלפוחיות במרכז. קילוף העור. כיבים בפה, בגרון, באף, באיברי המין ובעיניים. פריחות עוריות חמורות אלו יכולות להופיע לאחר חום ותסמינים דמויי שפעת (-Stevens Johnson syndrome)."
+                },
+                {
+                    "eng": "• widespread rash, fever and enlarged lymph nodes (DRESS-syndrome or drug hypersensitivity syndrome). ",
+                    "heb": "• פריחה נרחבת, חום והגדלה של בלוטות לימפה (DRESS-syndrome or drug hypersensitivity syndrome)."
+                },
+                {
+                    "eng": "Stop using the medicine and seek medical attention immediately. ",
+                    "heb": "הפסק להשתמש בתרופה וגש לקבלת עזרה רפואית מיד."
+                },
+                {
+                    "eng": "Up to 3 in 100 people taking Mekinist in combination with dabrafenib may develop a different type of skin cancer called cutaneous squamous cell carcinoma (cuSCC). Others may develop a type of skin cancer called basal cell carcinoma (BCC). Usually, these skin changes remain local and can be removed with surgery, and treatment with Mekinist and dabrafenib can be continued without interruption.",
+                    "heb": "עד 3 מכל 100 אנשים הלוקחים מקיניסט בשילוב עם דבראפניב עלולים לפתח סרטן עור מסוג שונה הנקרא קרצינומה של תאי קשקש (cuSCC). אחרים עלולים לפתח סוג של סרטן עור הנקרא קרצינומה של תאי בסיס (BCC). בדרך כלל שינויים אלה בעור נשארים מקומיים וניתן להסירם בניתוח, והטיפול במקיניסט ודבראפניב יכול להימשך ללא הפרעה."
+                },
+                {
+                    "eng": "Some people taking Mekinist in combination with dabrafenib may also notice that new melanomas have appeared. These melanomas are usually removed by surgery and treatment with Mekinist and dabrafenib can be continued without interruption.",
+                    "heb": "חלק מהאנשים הלוקחים מקיניסט בשילוב עם דבראפניב עלולים גם להבחין בהופעתן של מלנומות חדשות. מלנומות אלה בדרך כלל מוסרות בניתוח והטיפול במקיניסט ודבראפניב יכול להימשך ללא הפרעה."
+                },
+                {
+                    "eng": "Your doctor will check your skin before you start taking dabrafenib, then check it again every month while you are taking dabrafenib and for 6 months after you stop taking it. This is to look for any new skin cancers. ",
+                    "heb": "הרופא יבדוק את העור לפני שתתחיל לקחת דבראפניב, ואז יבדוק אותו שוב מדי חודש בזמן שאתה לוקח דבראפניב וכן למשך 6 חודשים לאחר שתפסיק לקחת אותה. זאת כדי לחפש אחר סוגי סרטן עור חדשים כלשהם."
+                },
+                {
+                    "eng": "Your doctor will also check your head, neck, mouth and lymph glands, and you will have scans of your chest and stomach area (called CT scans) regularly. You may also have blood tests. These checks are to detect if any other cancer, including cutaneous squamous cell carcinoma, develops inside your body. Pelvic examinations (for women) and anal examinations are also recommended before and at the end of your treatment. ",
+                    "heb": "הרופא יבדוק גם את הראש, הצוואר, הפה ובלוטות הלימפה ואתה תעבור סריקות של החזה ושל אזור הבטן (נקראות סריקות CT) באופן קבוע. ייתכן שתעבור גם בדיקות דם. בדיקות אלו נועדו לאתר אם סרטן אחר כלשהו, כולל קרצינומה של תאי קשקש, מתפתח בתוך הגוף. בדיקות של האגן (עבור נשים) ובדיקות אנאליות מומלצות גם הן לפני ובסיום הטיפול."
+                },
+                {
+                    "eng": "Mekinist as monotherapy or in combination with dabrafenib can cause rash or acne-like rash. Follow your doctor’s instructions for what to do to help prevent rash. Tell your doctor as soon as possible if you get any of these symptoms for the first time or if they get worse. ",
+                    "heb": "מקיניסט כטיפול יחיד או כשילוב עם דבראפניב עלולה לגרום לפריחה או לפריחה דמוית-אקנה. עקוב אחר הוראות הרופא המנחות מה עליך לעשות כדי לסייע במניעת פריחה. ספר לרופא בהקדם האפשרי אם אתה חווה כל אחד מתסמינים אלה, בפעם הראשונה או בין אם החמירו."
+                },
+                {
+                    "eng": "Refer to your doctor immediately if you get a severe skin rash with any of the following symptoms: blisters on your skin, blisters or sores in your mouth, peeling of your skin, fever, redness or swelling of your face or your feet.",
+                    "heb": "פנה מיד לרופא אם אתה חווה פריחה חמורה בעור המלווה בכל אחד מהתסמינים הבאים: שלפוחיות על העור, שלפוחיות או פצעים בפה, קילוף של העור, חום, אדמומיות או נפיחות של הפנים או של כפות הרגליים."
+                },
+                {
+                    "eng": "Tell your doctor as soon as possible if you get any skin rash, or if you have a rash that gets worse.",
+                    "heb": "ספר לרופא בהקדם האפשרי אם אתה חווה פריחה כלשהי בעור או אם יש לך פריחה שמחמירה."
+                },
+                {
+                    "eng": "Muscle pain  ",
+                    "heb": "כאב בשריר"
+                },
+                {
+                    "eng": "Mekinist can result in the breakdown of muscle (destruction of muscle cells - rhabdomyolysis). Tell your doctor if you have any new or worsening symptoms, including:",
+                    "heb": "מקיניסט עלולה לגרום לפירוק של השריר (הרס תאי השריר - רבדומיוליזיס). ספר לרופא אם יש לך תסמינים חדשים או החמרה בתסמינים הכוללים:"
+                },
+                {
+                    "eng": "• muscle pain ",
+                    "heb": "• כאב בשריר"
+                },
+                {
+                    "eng": "• dark urine due to kidney damage ",
+                    "heb": "• שתן כהה כתוצאה מנזק לכליה"
+                },
+                {
+                    "eng": "Breathing or Lung problems ",
+                    "heb": "בעיות נשימה או ריאה"
+                },
+                {
+                    "eng": "Mekinist can cause inflammation of the lung (pneumonitis or interstitial lung disease). Tell your doctor if you have any new or worsening symptoms of lung or breathing problems, including: ",
+                    "heb": "מקיניסט עלולה לגרום לדלקת של הריאה (פנאומוניטיס או מחלת ריאה בין רקמתית). ספר לרופא אם יש לך תסמינים חדשים כלשהם או החמרה בתסמינים של בעיות בריאה או בנשימה, הכוללים:"
+                },
+                {
+                    "eng": "• shortness of breath  ",
+                    "heb": "• קוצר נשימה"
+                },
+                {
+                    "eng": "• cough ",
+                    "heb": "• שיעול"
+                },
+                {
+                    "eng": "• fatigue ",
+                    "heb": "• עייפות"
+                },
+                {
+                    "eng": "Immune system disorders ",
+                    "heb": "בעיות במערכת החיסון"
+                },
+                {
+                    "eng": "If you experience multiple symptoms such as fever, swollen lymph glands, bruising or skin rash, at the same time, tell your doctor immediately. It may be a sign of a condition where the immune system makes too many infection-fighting cells called histiocytes and lymphocytes that may cause various symptoms (a condition called haemophagocytic lymphohistiocytosis), see section 2 (frequency rare).",
+                    "heb": "אם אתה חווה מספר תסמינים כמו חום, בלוטות לימפה נפוחות, חבורות או פריחה בעור, באותו הזמן ספר לרופא מיד. זה יכול להיות סימן למצב בו מערכת החיסון מייצרת יותר מדי תאים הנלחמים בזיהום הנקראים היסטיוציטים ולימפוציטים וזה עלול לגרום למגוון תסמינים (מצב זה נקרא haemophagocytic lymphohistiocytosis), ראה סעיף 2 (שכיחות נדירה)."
+                },
+                {
+                    "eng": "Possible side effects in patients taking Mekinist alone ",
+                    "heb": "תופעות לוואי אפשריות במטופלים הנוטלים מקיניסט כטיפול יחיד"
+                },
+                {
+                    "eng": "Side effects that you may experience when you take Mekinist alone are as follows:  ",
+                    "heb": "תופעות לוואי שאתה עלול לחוות כשאתה לוקח מקיניסט כטיפול יחיד הן:"
+                },
+                {
+                    "eng": "Very common side effects (may appear in more than one in 10 users): ",
+                    "heb": "תופעות לוואי שכיחות מאוד (עלולות להופיע ביותר ממשתמש אחד מ-10):"
+                },
+                {
+                    "eng": "• High blood pressure",
+                    "heb": "• לחץ דם גבוה"
+                },
+                {
+                    "eng": "• Bleeding at various sites in the body, which may be mild or serious",
+                    "heb": "• דימום באזורים שונים בגוף, שיכול להיות קל או חמור"
+                },
+                {
+                    "eng": "• Cough",
+                    "heb": "• שיעול"
+                },
+                {
+                    "eng": "• Shortness of breath",
+                    "heb": "• קוצר נשימה"
+                },
+                {
+                    "eng": "• Diarrhoea",
+                    "heb": "• שלשול"
+                },
+                {
+                    "eng": "• Nausea, vomiting",
+                    "heb": "• בחילה, הקאה"
+                },
+                {
+                    "eng": "• Constipation",
+                    "heb": "• עצירות"
+                },
+                {
+                    "eng": "• Stomach ache",
+                    "heb": "• כאב בטן"
+                },
+                {
+                    "eng": "• Dry mouth",
+                    "heb": "• יובש בפה"
+                },
+                {
+                    "eng": "• Skin rash, acne-like rash, redness of the face, dry or itching skin (see also “Changes in your skin” at the beginning of section 4)",
+                    "heb": "• פריחה בעור, פריחה דמוית - אקנה, אדמומיות של הפנים, עור יבש או מגרד (ראה גם 'שינויים בעור' בתחילת סעיף 4)"
+                },
+                {
+                    "eng": "• Unusual hair loss or thinning",
+                    "heb": "• נשירה או הידלדלות שיער חריגה"
+                },
+                {
+                    "eng": "• Lack of energy or feeling weak or tired",
+                    "heb": "• חוסר אנרגיה או תחושת חולשה או עייפות"
+                },
+                {
+                    "eng": "• Swelling of the hands or feet (oedema peripheral)",
+                    "heb": "• נפיחות של הידיים או של כפות הרגליים (בצקת היקפית)"
+                },
+                {
+                    "eng": "• Fever",
+                    "heb": "• חום"
+                },
+                {
+                    "eng": "Very common side effects that may show up in your blood tests  ",
+                    "heb": "תופעות לוואי שכיחות מאוד שיכולות להופיע בבדיקות הדם"
+                },
+                {
+                    "eng": "• Abnormal blood test results related to the liver ",
+                    "heb": "• תוצאות לא תקינות של בדיקות דם הקשורות לכבד"
+                },
+                {
+                    "eng": "Common side effects (may appear in 1-10 in 100 users): ",
+                    "heb": "תופעות לוואי שכיחות(עלולות להופיע ב-1-10 משתמשים מתוך 100):"
+                },
+                {
+                    "eng": "• Inflammation of hair follicles in the skin",
+                    "heb": "• דלקת בזקיקי השיער שבעור"
+                },
+                {
+                    "eng": "• Nail disorders such as nail bed changes, nail pain, infection and swelling of the cuticles",
+                    "heb": "• בעיות בציפורניים כגון שינויים במצע הציפורן, כאב בציפורן, זיהום ונפיחות בקפלי העור סביב הציפורן"
+                },
+                {
+                    "eng": "• Infection of the skin (cellulitis)",
+                    "heb": "• זיהום של העור (צלוליטיס)"
+                },
+                {
+                    "eng": "• Skin rash with pus-filled blisters (see also “Changes in your skin” at the beginning of section 4)",
+                    "heb": "• פריחה בעור עם שלפוחיות מלאות מוגלה (ראה גם 'שינויים בעור' בתחילת סעיף 4)"
+                },
+                {
+                    "eng": "• Allergic reaction (hypersensitivity)",
+                    "heb": "• תגובה אלרגית (רגישות יתר)"
+                },
+                {
+                    "eng": "• Dehydration (low levels of water or fluids)",
+                    "heb": "• התייבשות (רמות נמוכות של מים או נוזלים)"
+                },
+                {
+                    "eng": "• Blurred vision",
+                    "heb": "• ראייה מטושטשת"
+                },
+                {
+                    "eng": "• Swelling around the eyes",
+                    "heb": "• נפיחות מסביב לעיניים"
+                },
+                {
+                    "eng": "• Eyesight problems (see also “Eye (vision) problems” at the beginning of section 4)",
+                    "heb": "• בעיות ראייה (ראה גם 'בעיות עיניים (ראייה)', בתחילת סעיף 4)"
+                },
+                {
+                    "eng": "• Changes in how the heart pumps blood (left ventricular dysfunction) (see also “Heart conditions” at the beginning of section 4)",
+                    "heb": "• שינויים בדרך בה הלב מזרים דם (אי ספיקה של חדר שמאל בלב) (ראה גם 'מצבים לבביים' בתחילת סעיף 4)"
+                },
+                {
+                    "eng": "• Heart rate that is lower than the normal range and/or a decrease in heart rate",
+                    "heb": "• קצב לב נמוך מהטווח הרגיל ו/או ירידה בקצב הלב"
+                },
+                {
+                    "eng": "• Localised tissue swelling",
+                    "heb": "• נפיחות מקומית של הרקמות"
+                },
+                {
+                    "eng": "• Inflammation of the lung (pneumonitis or interstitial lung disease)",
+                    "heb": "• דלקת של הריאה (פנאומוניטיס או דלקת ריאה בין רקמתית)"
+                },
+                {
+                    "eng": "• Sore mouth or mouth ulcers, inflammation of mucous membranes",
+                    "heb": "• פה כואב או כיבים בפה, דלקת ברקמות הריריות"
+                },
+                {
+                    "eng": "• Redness, chapping or cracking of the skin",
+                    "heb": "• אדמומיות, קרעים או סדקים בעור"
+                },
+                {
+                    "eng": "• Red and painful hands and feet",
+                    "heb": "• כפות רגליים וידיים אדומות וכואבות"
+                },
+                {
+                    "eng": "• Swelling of the face",
+                    "heb": "• נפיחות של הפנים"
+                },
+                {
+                    "eng": "• Inflammation of the mucosa",
+                    "heb": "• דלקת של הרירית"
+                },
+                {
+                    "eng": "• Feeling weak",
+                    "heb": "• תחושת חולשה"
+                },
+                {
+                    "eng": "Common side effects that may show up in your blood tests  ",
+                    "heb": "תופעות לוואי שכיחות שעלולות להופיע בבדיקות דם"
+                },
+                {
+                    "eng": "• Decreased red blood cells (anaemia), abnormal results of creatine phosphokinase values (an enzyme found mainly in heart, brain, and skeletal muscles). ",
+                    "heb": "• ירידה בתאי דם האדומים (אנמיה), תוצאות חריגות בערכי קראטין פוספוקינאז (אנזים הנמצא בעיקר בלב, במוח ובשרירי השלד)."
+                },
+                {
+                    "eng": "Uncommon side effects (may appear in 1-10 in 1,000 users): ",
+                    "heb": "תופעות לוואי שאינן שכיחות(עלולות להופיע ב-1-10 משתמשים מתוך 1,000):"
+                },
+                {
+                    "eng": "• Swelling in the eye caused by fluid leakage (chorioretinopathy) (see also “Eye (vision) problems” at the beginning of section 4)",
+                    "heb": "• נפיחות בעין הנגרמת בשל דליפת נוזל (כוריורטינופתיה), (ראה גם 'בעיות עיניים (ראייה)' בתחילת סעיף 4)"
+                },
+                {
+                    "eng": "• Swelling of nerves at the back of the eye (optic nerve head oedema - papilloedema) (see also “Eye (vision) problems” at the beginning of section 4)",
+                    "heb": "• נפיחות של העצבים בחלק האחורי של העין (בצקת בראש עצב הראייה – פפילואדמה) (ראה גם 'בעיות עיניים (ראייה)' בתחילת סעיף 4)"
+                },
+                {
+                    "eng": "• Separation of the light-sensitive membrane in the back of the eye (the retina) from its supporting layers (retinal detachment) (see also “Eye (vision) problems” at the beginning of section 4).",
+                    "heb": "• היפרדות של הקרום הרגיש לאור בחלק האחורי של העין (הרשתית) מן השכבות התומכות בו (היפרדות רשתית) (ראה גם 'בעיות עיניים (ראייה)' בתחילת סעיף 4)"
+                },
+                {
+                    "eng": "• Blockage of the vein draining the eye (retinal vein occlusion) (see also “Eye (vision) problems” at the beginning of section 4)",
+                    "heb": "• חסימה בווריד המנקז את העין (חסימה בווריד הרשתית) (ראה גם 'בעיות עיניים (ראייה)' בתחילת סעיף 4)"
+                },
+                {
+                    "eng": "• Heart pumping less efficiently, causing shortness of breath, extreme tiredness and swelling in ankles and legs (heart failure)",
+                    "heb": "• ירידה ביעילות השאיבה של הלב שגורמת לקוצר נשימה, עייפות קיצונית ונפיחות בקרסוליים וברגליים (אי ספיקת לב)"
+                },
+                {
+                    "eng": "• A hole (perforation) in the stomach or intestines",
+                    "heb": "• חור (התנקבות) בקיבה או במעי"
+                },
+                {
+                    "eng": "• Inflammation of the intestines (colitis)",
+                    "heb": "• דלקת של המעי (קוליטיס)"
+                },
+                {
+                    "eng": "• Breakdown of muscle which can cause muscle pain and kidney damage (destruction of the muscle cells - rhabdomyolysis)",
+                    "heb": "• פירוק של השריר שיכול לגרום לכאב בשריר ולנזק בכליה (הרס תאי השריר - רבדומיוליזיס)"
+                },
+                {
+                    "eng": "If you experience any side effects, refer to your doctor or pharmacist. This includes any possible side effects not listed in this leaflet.",
+                    "heb": "אם אתה חווה תופעות לוואי כלשהן, פנה לרופא או לרוקח. כולל תופעות לוואי אפשריות כלשהן אשר אינן מפורטות בעלון."
+                },
+                {
+                    "eng": "Side effects when Mekinist and dabrafenib are taken together ",
+                    "heb": "תופעות לוואי כאשר מקיניסט ודבראפניב נלקחות ביחד"
+                },
+                {
+                    "eng": "When you take Mekinist and dabrafenib together, you may experience any of the side effects given in the lists above, although their frequency may change (increase or decrease). ",
+                    "heb": "כאשר אתה לוקח מקיניסט ודבראפניב יחד, ייתכן שתחווה כל אחת מתופעות הלוואי המופיעות ברשימות מעלה, אם כי שכיחותן עשויה להשתנות (לעלות או לרדת)."
+                },
+                {
+                    "eng": "You may also suffer from additional side effects due to taking dabrafenib together with Mekinist that appear in the list below. ",
+                    "heb": "ייתכן שתסבול גם מתופעות לוואי נוספות בשל נטילת דבראפניב ביחד עם מקיניסט המופיעות ברשימה מטה."
+                },
+                {
+                    "eng": "Tell your doctor as soon as possible if you get any of these symptoms, either for the first time or if they get worse.",
+                    "heb": "ספר לרופא בהקדם האפשרי אם אתה חווה אחד מתסמינים אלה, בין אם בפעם הראשונה ובין אם החמירו."
+                },
+                {
+                    "eng": "Please read the dabrafenib Package Leaflet for details of the side effects you may get when taking this medicine.",
+                    "heb": "קרא בבקשה את העלון באריזת דבראפניב לפרטים על תופעות הלוואי שאתה עלול לחוות בזמן נטילת תרופה זו."
+                },
+                {
+                    "eng": "The side effects that you may notice when you take Mekinist in combination with dabrafenib: ",
+                    "heb": "תופעות הלוואי שאתה עלול להבחין בהן כאשר אתה לוקח מקיניסט בשילוב עם דבראפניב:"
+                },
+                {
+                    "eng": "Very common side effects (may appear in more than one in 10 users): ",
+                    "heb": "תופעות לוואי שכיחות מאוד (עלולות להופיע ביותר ממשתמש אחד מ-10):"
+                },
+                {
+                    "eng": "• Nasal and throat inflammation",
+                    "heb": "• דלקת של האף והגרון"
+                },
+                {
+                    "eng": "• Decreased appetite",
+                    "heb": "• ירידה בתיאבון"
+                },
+                {
+                    "eng": "• Headache",
+                    "heb": "• כאב ראש"
+                },
+                {
+                    "eng": "• Dizziness",
+                    "heb": "• סחרחורת"
+                },
+                {
+                    "eng": "• High blood pressure",
+                    "heb": "• לחץ דם גבוה"
+                },
+                {
+                    "eng": "• Bleeding, at various sites in the body, which may be mild or serious (haemorrhage)",
+                    "heb": "• דימום באזורים שונים בגוף, שיכול להיות קל או חמור (שטף דם)"
+                },
+                {
+                    "eng": "• Cough",
+                    "heb": "• שיעול"
+                },
+                {
+                    "eng": "• Stomach ache",
+                    "heb": "• כאב בטן"
+                },
+                {
+                    "eng": "• Constipation",
+                    "heb": "• עצירות"
+                },
+                {
+                    "eng": "• Diarrhoea",
+                    "heb": "• שלשול"
+                },
+                {
+                    "eng": "• Nausea, vomiting",
+                    "heb": "• בחילה, הקאה"
+                },
+                {
+                    "eng": "• Rash, dry skin, itching, skin reddening",
+                    "heb": "• פריחה, יובש בעור, גרד, אדמומיות בעור"
+                },
+                {
+                    "eng": "• Joint pain, muscle pain or pain in the hands or feet",
+                    "heb": "• כאבים במפרקים, כאבי שרירים, או כאב בידיים או בכפות הרגליים"
+                },
+                {
+                    "eng": "• Muscle spasms",
+                    "heb": "• התכווצות שרירים"
+                },
+                {
+                    "eng": "• Feeling weak, lack of energy",
+                    "heb": "• תחושת חולשה, חוסר אנרגיה"
+                },
+                {
+                    "eng": "• Chills",
+                    "heb": "• צמרמורת"
+                },
+                {
+                    "eng": "• Swelling of the hands or feet (oedema peripheral)",
+                    "heb": "• נפיחות של הידיים או של כפות הרגליים (בצקת היקפית)"
+                },
+                {
+                    "eng": "• Fever",
+                    "heb": "• חום"
+                },
+                {
+                    "eng": "• Flu-like illness",
+                    "heb": "• מחלה דמוית-שפעת"
+                },
+                {
+                    "eng": "Very common side effects that may show up in your blood tests: ",
+                    "heb": "תופעות לוואי שכיחות מאוד שיכולות להופיע בבדיקות הדם:"
+                },
+                {
+                    "eng": "• Abnormal blood test results related to the liver ",
+                    "heb": "• תוצאות חריגות של בדיקות דם הקשורות לכבד"
+                },
+                {
+                    "eng": "Common side effects (may appear in 1-10 in 100 users): ",
+                    "heb": "תופעות לוואי שכיחות(עלולות להופיע ב- 1-10 משתמשים מתוך 100):"
+                },
+                {
+                    "eng": "• Infection of the urinary system",
+                    "heb": "• זיהום במערכת השתן"
+                },
+                {
+                    "eng": "• Skin effects including infection of the skin (cellulitis), inflammation of hair follicles in the skin, nail disorders such as nail bed changes, nail pain, infection and swelling of the cuticles, skin rash with pus-filled blisters, cutaneous squamous cell carcinoma (a type of skin cancer), papilloma (a type of skin tumour which is usually not harmful), wart-like growths, increased sensitivity of the skin to sun (see also “Changes in your skin” at the beginning of section 4)",
+                    "heb": "• השפעות עוריות הכוללות זיהום של העור (צלוליטיס), דלקת של זקיקי השיער שבעור, בעיות בציפורניים כגון שינויים במצע הציפורן, כאב בציפורן, זיהום ונפיחות בקפלי העור סביב הציפורן, פריחה בעור עם שלפוחיות מלאות מוגלה, קרצינומה של תאי קשקש (סוג של סרטן עור), פפילומה (סוג של גידול בעור אשר בדרך כלל לא מזיק), גידולים דמויי יבלת, רגישות מוגברת של העור לשמש (ראה גם 'שינויים בעור' בתחילת סעיף 4)"
+                },
+                {
+                    "eng": "• Dehydration (low levels of water or fluids)",
+                    "heb": "• התייבשות (רמות נמוכות של מים או נוזלים)"
+                },
+                {
+                    "eng": "• Blurred vision, eyesight problems, inflammation of the eye (uveitis)",
+                    "heb": "• ראייה מטושטשת, בעיות בראייה, דלקת של העין (uveitis)"
+                },
+                {
+                    "eng": "• Heart pumping less efficiently",
+                    "heb": "• ירידה ביעילות השאיבה של הלב"
+                },
+                {
+                    "eng": "• Low blood pressure",
+                    "heb": "• לחץ דם נמוך"
+                },
+                {
+                    "eng": "• Localised tissue swelling",
+                    "heb": "• נפיחות מקומית של הרקמות"
+                },
+                {
+                    "eng": "• Shortness of breath",
+                    "heb": "• קוצר נשימה"
+                },
+                {
+                    "eng": "• Dry mouth",
+                    "heb": "• יובש בפה"
+                },
+                {
+                    "eng": "• Sore mouth or mouth ulcers, inflammation of mucous membranes",
+                    "heb": "• פה כואב או כיבים בפה, דלקת ברקמות הריריות"
+                },
+                {
+                    "eng": "• Acne-like problems",
+                    "heb": "• בעיות דמויות-אקנה"
+                },
+                {
+                    "eng": "• Thickening of the outer layer of the skin (hyperkeratosis), patches of thick, scaly, or crusty skin (actinic keratosis), chapping or cracking of the skin",
+                    "heb": "• התעבות של השכבה החיצונית של העור (היפרקרטוזיס), טלאיי עור עבים, קשקשיים או מחוספסים (קרטוזיס אקטיני [קרנת עור אקטינית]), סדקים או קרעים בעור"
+                },
+                {
+                    "eng": "• Increased sweating, night sweats",
+                    "heb": "• הזעה מוגברת, הזעות לילה"
+                },
+                {
+                    "eng": "• Unusual hair loss or thinning",
+                    "heb": "• נשירה או הידלדלות שיער חריגה"
+                },
+                {
+                    "eng": "• Red and painful hands and feet",
+                    "heb": "• ידיים וכפות רגליים אדומות וכואבות"
+                },
+                {
+                    "eng": "• Inflammation of the fatty layer under the skin (panniculitis)",
+                    "heb": "• דלקת של השכבה השומנית מתחת לעור (פניקוליטיס)"
+                },
+                {
+                    "eng": "• Inflammation of the mucosa",
+                    "heb": "• דלקת ברקמות הריריות"
+                },
+                {
+                    "eng": "• Swelling of the face",
+                    "heb": "• נפיחות של הפנים"
+                },
+                {
+                    "eng": "Common side effects that may show up in your blood tests: ",
+                    "heb": "תופעות לוואי שכיחות שיכולות להופיע בבדיקות הדם:"
+                },
+                {
+                    "eng": "• Low levels of white blood cells  ",
+                    "heb": "• רמות נמוכות של תאי דם לבנים"
+                },
+                {
+                    "eng": "• Decrease in number of red blood cells (anaemia), blood platelets (cells that help blood to clot), and a type of white blood cells (leukopenia)",
+                    "heb": "• ירידה במספר תאי הדם האדומים (אנמיה), טסיות הדם (תאים המסייעים בקרישת דם) ובסוג של תאי דם לבנים (לויקופניה)"
+                },
+                {
+                    "eng": "• Low levels of sodium (hyponatraemia) or phosphate (hypophosphataemia) in the blood",
+                    "heb": "• רמות נמוכות של נתרן (היפונתרמיה) או פוספאט (היפופוספאטמיה) בדם"
+                },
+                {
+                    "eng": "• Increase in blood sugar level",
+                    "heb": "• עלייה ברמת הסוכר בדם"
+                },
+                {
+                    "eng": "• Increase in creatine phosphokinase, an enzyme found mainly in heart, brain, and skeletal muscles",
+                    "heb": "• עלייה בקראטין פוספוקינאז, אנזים שנמצא בעיקר בלב, במוח ובשרירי השלד"
+                },
+                {
+                    "eng": "• Increase in enzymes produced by the liver",
+                    "heb": "• עלייה באנזימים המיוצרים על ידי הכבד"
+                },
+                {
+                    "eng": "Uncommon side effects (may appear in 1-10 in 1,000 users):",
+                    "heb": "תופעות לוואי שאינן שכיחות(עלולות להופיע ב-1-10 משתמשים מתוך 1,000):"
+                },
+                {
+                    "eng": "• Appearance of new skin cancer (melanoma)",
+                    "heb": "• הופעת סרטן עור חדש (מלנומה)"
+                },
+                {
+                    "eng": "• Skin tags",
+                    "heb": "• תגיות עור (סרחי עור)"
+                },
+                {
+                    "eng": "• Allergic reactions (hypersensitivity)",
+                    "heb": "• תגובות אלרגיות (רגישות יתר)"
+                },
+                {
+                    "eng": "• Eye changes including swelling in the eye caused by fluid leakage (chorioretinopathy), separation of the light-sensitive membrane in the back of the eye (the retina) from its supporting layers (retinal detachment) and swelling around the eyes",
+                    "heb": "• שינויים בעין הכוללים נפיחות בעין בשל דליפת נוזל (כוריורטינופתיה), היפרדות של הקרום הרגיש לאור בחלק האחורי של העין (הרשתית) מן השכבות התומכות בו (היפרדות רשתית) ונפיחות סביב העיניים"
+                },
+                {
+                    "eng": "• Heart rate that is lower than the normal range and/or a decrease in heart rate",
+                    "heb": "• קצב לב נמוך מהטווח הרגיל ו/או ירידה בקצב הלב"
+                },
+                {
+                    "eng": "• Inflammation of the lung (pneumonitis)",
+                    "heb": "• דלקת של הריאה (פנאומוניטיס)"
+                },
+                {
+                    "eng": "• Inflammation of the pancreas",
+                    "heb": "• דלקת של הלבלב"
+                },
+                {
+                    "eng": "• Inflammation of the intestines (colitis)",
+                    "heb": "• דלקת של המעיים (קוליטיס)"
+                },
+                {
+                    "eng": "• Kidney failure",
+                    "heb": "• אי ספיקת כליות"
+                },
+                {
+                    "eng": "• Inflammation of the kidneys",
+                    "heb": "• דלקת של הכליות"
+                },
+                {
+                    "eng": "• Inflammatory disease mainly affecting the skin, lung, eyes and lymph nodes (sarcoidosis)",
+                    "heb": "• מחלה דלקתית המשפיעה בעיקר על עור, ריאות, עיניים ובלוטות לימפה (סרקואידוזיס)"
+                },
+                {
+                    "eng": "Rare side effects (may appear in 1-10 in 10,000 users): ",
+                    "heb": "תופעות לוואי נדירות(עלולות להופיע ב-1-10 משתמשים מתוך 10,000):"
+                },
+                {
+                    "eng": "• A hole (perforation) in the stomach or intestines ",
+                    "heb": "• חור (התנקבות) בקיבה או במעיים"
+                },
+                {
+                    "eng": "Side effects of unknown frequency (the frequency of these effects has not yet been established): ",
+                    "heb": "תופעות לוואי ששכיחותן אינה ידועה (תופעות ששכיחותן טרם נקבעה):"
+                },
+                {
+                    "eng": "• Inflammation of the heart muscle (myocarditis) which can result in breathlessness, fever, palpitations and chest pain",
+                    "heb": "• דלקת של שריר הלב (מיוקרדיטיס) היכולה להתבטא בקוצר נשימה, חום, דפיקות לב וכאב בחזה"
+                },
+                {
+                    "eng": "• Inflamed, flaky skin (exfoliative dermatitis)",
+                    "heb": "• עור מודלק, קשקשי (exfoliative dermatitis)"
+                },
+                {
+                    "eng": "The most common side effects in children when Mekinist and dabrafenib are taken together ",
+                    "heb": "תופעות הלוואי השכיחות ביותר בילדים כאשר מקיניסט ודבראפניב נלקחות יחד"
+                },
+                {
+                    "eng": "Fever",
+                    "heb": "חום"
+                },
+                {
+                    "eng": "Rash",
+                    "heb": "פריחה"
+                },
+                {
+                    "eng": "Vomiting",
+                    "heb": "הקאה"
+                },
+                {
+                    "eng": "Fatigue",
+                    "heb": "עייפות"
+                },
+                {
+                    "eng": "Dry skin",
+                    "heb": "עור יבש"
+                },
+                {
+                    "eng": "Cough",
+                    "heb": "שיעול"
+                },
+                {
+                    "eng": "Diarrhoea. Call your doctor if your child suffers from serious diarrhoea",
+                    "heb": "שלשול. התקשר לרופא המטפל אם ילדך סובל משלשול חמור."
+                },
+                {
+                    "eng": "Acne",
+                    "heb": "אקנה"
+                },
+                {
+                    "eng": "Headache",
+                    "heb": "כאב ראש"
+                },
+                {
+                    "eng": "Stomach ache",
+                    "heb": "כאב בטן"
+                },
+                {
+                    "eng": "Nausea",
+                    "heb": "בחילה"
+                },
+                {
+                    "eng": "Bleeding",
+                    "heb": "דימום"
+                },
+                {
+                    "eng": "Constipation",
+                    "heb": "עצירות"
+                },
+                {
+                    "eng": "Inflammation of the cuticles",
+                    "heb": "דלקת בעור סביב הציפורניים בידיים או ברגליים"
+                },
+                {
+                    "eng": "Very common side effects that may show up in blood tests in children when Mekinist and dabrafenib are taken together: ",
+                    "heb": "תופעות לוואי שכיחות מאוד שיכולות להופיע בבדיקות הדם בילדים כאשר מקיניסט ודבראפניב נלקחות יחד:"
+                },
+                {
+                    "eng": "Chemistry: ",
+                    "heb": "כימיה:"
+                },
+                {
+                    "eng": "High blood sugar level",
+                    "heb": "רמה גבוהה של סוכר בדם"
+                },
+                {
+                    "eng": "Low level of albumin",
+                    "heb": "רמה נמוכה של אלבומין"
+                },
+                {
+                    "eng": "Low level of calcium",
+                    "heb": "רמה נמוכה של סידן"
+                },
+                {
+                    "eng": "Decrease in phosphate level",
+                    "heb": "ירידה ברמה של זרחה"
+                },
+                {
+                    "eng": "Decrease in magnesium level",
+                    "heb": "ירידה ברמה של מגנזיום"
+                },
+                {
+                    "eng": "High level of sodium",
+                    "heb": "רמה גבוהה של נתרן"
+                },
+                {
+                    "eng": "Low level of potassium",
+                    "heb": "רמה נמוכה של אשלגן"
+                },
+                {
+                    "eng": "Liver: ",
+                    "heb": "כבד:"
+                },
+                {
+                    "eng": "• Increase in aspartate transaminase ",
+                    "heb": "• עלייה באספרטט טרנסאמינאז"
+                },
+                {
+                    "eng": "• Increase in alanine transaminase ",
+                    "heb": "• עלייה באלאנין טרנסאמינאז"
+                },
+                {
+                    "eng": "• Increase in alkaline phosphatase ",
+                    "heb": "• עלייה באלקליין פוספאטאז"
+                },
+                {
+                    "eng": "• Increase in bilirubin ",
+                    "heb": "• עלייה בבילירובין"
+                },
+                {
+                    "eng": "Haematology: ",
+                    "heb": "המטולוגיה:"
+                },
+                {
+                    "eng": "• Decrease in haemoglobin level",
+                    "heb": "• ירידה ברמה של המוגלובין"
+                },
+                {
+                    "eng": "• Decrease in level of white blood cells (neutrophils)",
+                    "heb": "• ירידה ברמה של תאי דם לבנים (נויטרופילים)"
+                },
+                {
+                    "eng": "If a side effect appears, if any side effect gets worse, or if you suffer from a side effect not mentioned in this leaflet, consult your doctor.",
+                    "heb": "אם הופיעה תופעת לוואי, אם אחת מתופעות הלוואי מחמירה או כאשר אתה סובל מתופעת לוואי שלא צויינה בעלון עליך להתייעץ עם הרופא."
+                },
+                {
+                    "eng": "Reporting side effects ",
+                    "heb": "דיווח תופעות לוואי"
+                },
+                {
+                    "eng": "You can report side effects to the Ministry of Health by clicking the link ‘Reporting Side Effects of Drug Treatment’ found on the Ministry of Health home page which directs you to the online form for reporting side effects, or by using the link: ",
+                    "heb": "ניתן לדווח על תופעות לוואי למשרד הבריאות באמצעות לחיצה על הקישור \"דיווח על תופעות לוואי עקב טיפול תרופתי\" שנמצא בדף הבית של אתר משרד הבריאות המפנה לטופס המקוון לדיווח על תופעות לוואי, או ע\"י כניסה לקישור:"
+                }
+            ]
+        },
+        {
+            "title": "medicine storage",
+            "section_num": "5",
+            "data": [
+                {
+                    "eng": "5. How to store the medicine? ",
+                    "heb": "5. איך לאחסן את התרופה?"
+                },
+                {
+                    "eng": "Prevent poisoning! To prevent poisoning, this medicine, and all other medicines should be kept in a closed place, out of the reach and sight of children and/or infants. Do not induce vomiting unless explicitly instructed to do so by the doctor. ",
+                    "heb": "מנע הרעלה! תרופה זו וכל תרופה אחרת יש לשמור במקום סגור מחוץ להישג ידם וטווח ראייתם של ילדים ו/או תינוקות ועל ידי כך תמנע הרעלה. אל תגרום להקאה ללא הוראה מפורשת מהרופא."
+                },
+                {
+                    "eng": "Do not use the medicine after the expiry date (exp. date) which appears on the package. The expiry date refers to the last day of that month. ",
+                    "heb": "אין להשתמש בתרופה אחרי תאריך התפוגה (exp. date) המופיע על גבי האריזה. תאריך התפוגה מתייחס ליום האחרון של אותו חודש."
+                },
+                {
+                    "eng": "Storage conditions: Store in a refrigerator (2°C to 8°C).  ",
+                    "heb": "תנאי אחסון: אחסן בקירור (2°C עד 8°C)."
+                },
+                {
+                    "eng": "Store in the original package in order to protect from light and moisture.  ",
+                    "heb": "אחסן באריזה המקורית כדי להגן מפני אור ולחות."
+                },
+                {
+                    "eng": "Keep the bottle tightly closed with the desiccant inside (small cylinder-shaped container).  ",
+                    "heb": "שמור את הבקבוק סגור היטב עם סופח הלחות בתוכו (מכל גלילי קטן)."
+                },
+                {
+                    "eng": "After first opening of the bottle: It should be kept below 30°C and used within 30 days. ",
+                    "heb": "לאחר פתיחה ראשונה של הבקבוק: יש לשומרו מתחת ל-30°C ולהשתמש תוך 30 יום."
+                },
+                {
+                    "eng": "Do not throw away medicines via wastewater or household waste. Ask the pharmacist how to throw away medicines which are no longer in use. These measures will help protect the environment. ",
+                    "heb": "אין להשליך תרופות לביוב או לפסולת ביתית. יש להיוועץ ברוקח היכן ניתן להשליך תרופות שאינן בשימוש. צעדים אלו יסייעו להגן על הסביבה."
+                }
+            ]
+        },
+        {
+            "title": "additional information",
+            "section_num": "6",
+            "data": [
+                {
+                    "eng": "6. FURTHER INFORMATION ",
+                    "heb": "6. מידע נוסף "
+                },
+                {
+                    "eng": "In addition to the active ingredients, the medicine also contains: ",
+                    "heb": "נוסף על החומרים הפעילים התרופה מכילה גם:"
+                },
+                {
+                    "eng": "Tablet core ",
+                    "heb": "ליבת הטבליה"
+                },
+                {
+                    "eng": "Film coating of 0.5 mg tablet ",
+                    "heb": "ציפוי טבלית 0.5 מ\"ג"
+                },
+                {
+                    "eng": "Film coating of 2 mg tablet ",
+                    "heb": "ציפוי טבלית 2 מ\"ג"
+                },
+                {
+                    "eng": "What the medicine looks like and contents of the pack: ",
+                    "heb": "כיצד נראית התרופה ומה תוכן האריזה:"
+                },
+                {
+                    "eng": "The Mekinist 0.5 mg film-coated tablets are yellow, modified oval, biconvex, with “GS” debossed on one side and “TFC” on the opposing side. ",
+                    "heb": "טבליות מצופות של מקיניסט 0.5 מ\"ג הן צהובות, אליפטיות וקמורות משני הצדדים, עם הכיתוב 'GS' בצד אחד והכיתוב TFC'' בצד הנגדי."
+                },
+                {
+                    "eng": "The Mekinist 2 mg film-coated tablets are pink, round, biconvex, with “GS” debossed on one side and “HMJ” on the opposing side. ",
+                    "heb": "טבליות מצופות של מקיניסט 2 מ\"ג הן ורודות, עגולות וקמורות משני הצדדים, עם הכיתוב 'GS' בצד אחד והכיתוב ''HMJ בצד הנגדי."
+                },
+                {
+                    "eng": "The film coated tablets are supplied in opaque white plastic bottles with plastic closures. ",
+                    "heb": "הטבליות המצופות מגיעות בבקבוקי פלסטיק אטומים לבנים עם מכסי פלסטיק."
+                },
+                {
+                    "eng": "One bottle contains 30 tablets. ",
+                    "heb": "בקבוק אחד מכיל 30 טבליות."
+                },
+                {
+                    "eng": "The bottles also include a silica gel desiccant in a small cylinder-shaped container. The desiccant must be kept inside the bottle and must not be swallowed.",
+                    "heb": "הבקבוקים גם מכילים ג'ל סיליקה סופח לחות במכל גלילי קטן. יש לשמור את סופח הלחות בתוך הבקבוק ואין לבלוע אותו."
+                },
+                {
+                    "eng": "Registration holder and importer’s name and address: Novartis Israel Ltd., P.O.B 7126, Tel Aviv. ",
+                    "heb": "בעל הרישום והיבואן וכתובתו: נוברטיס ישראל בע\"מ, ת\"ד 7126, תל אביב."
+                },
+                {
+                    "eng": "Revised in March 2023 according to MOH guidelines.  ",
+                    "heb": "נערך במרץ 2023 בהתאם להנחיות משרד הבריאות."
+                },
+                {
+                    "eng": "Registration number of the medicine in the Ministry of Health's National Drug Registry:  ",
+                    "heb": "מספר רישום התרופה בפנקס התרופות הממלכתי במשרד הבריאות:"
+                }
+            ]
+        }
+    ]
+}
