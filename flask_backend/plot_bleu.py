@@ -6,10 +6,10 @@ from pathlib import Path
 from utils.constants import BLEUScoreType
 from database.mongodb_client import MongoDBClient
 from data.entities import TranslationRecordEntity, TranslationEntity
+from matplotlib.colors import LinearSegmentedColormap
+
 
 mongo_client = MongoDBClient()
-len_threshold = 10
-score_threshold = 0.00
 
 
 def generate_bleu_report(records: List[Dict[str, Any]]) -> Dict[str, Any]:
@@ -18,6 +18,8 @@ def generate_bleu_report(records: List[Dict[str, Any]]) -> Dict[str, Any]:
     try:
         best_translation_report = calculate_bleu_scores(records)
         generate_bleu_leaflet_comparison_plot(best_translation_report)
+        generate_bleu_section_comparison_plot(best_translation_report)
+
     except Exception as e:
         print(f"Error processing BLEU : {str(e)}")
 
@@ -27,15 +29,9 @@ def calculate_bleu_scores(records: List[TranslationRecordEntity]) -> Dict[str, A
     leaflet_scores = defaultdict(list)
     section_scores = defaultdict(list)
 
-    bleu_scores = []
     for record in records:
-        bleu_scores = [get_bleu_score(translation) for translation in record.translations]
-        bleu_scores.append(get_bleu_score(record.best_translation))
-        bleu_scores = [score for score in bleu_scores if score is not None]
-        bleu_score = max(bleu_scores)
+        bleu_score = get_bleu_score(record.best_translation)
         if bleu_score is not None:
-            if bleu_score < score_threshold:
-                print(f"{record.evaluation_leaflet_data.leaflet_id}, {record.evaluation_leaflet_data.section_number}[{record.evaluation_leaflet_data.array_location}]. Low BLEU score found: {bleu_score}")
             update_scores(record, bleu_score, leaflet_scores, section_scores)
 
     avg_leaflet_scores = calculate_average_scores(leaflet_scores)
@@ -58,18 +54,13 @@ def get_bleu_score(translation: TranslationEntity) -> float:
     
     bleu = translation.evaluation_scores.get('bleu')
     if bleu:
-        if len(translation.translated_text) > len_threshold:
-            scores = [bleu.get(bleu_type, None) for bleu_type in BLEUScoreType.get_types_tokenized()]
-            scores = [score for score in scores if score is not None]
-            if not scores or len(scores) == 0:
-                return bleu.get(BLEUScoreType.PLAIN_CORPUS.value, None)
-            bleu_score = max(scores)
-            if bleu_score > score_threshold:
-                return bleu_score
-            else:
-                return bleu.get(BLEUScoreType.PLAIN_CORPUS.value, None)
-        else:
+        scores = [bleu.get(bleu_type, None) for bleu_type in BLEUScoreType.get_types_tokenized()]
+        scores = [score for score in scores if score is not None]
+        if not scores or len(scores) == 0:
             return bleu.get(BLEUScoreType.PLAIN_CORPUS.value, None)
+        bleu_score = max(scores)
+        return bleu_score
+    
     return None
 
 def update_scores(record: TranslationRecordEntity, bleu_score: float, leaflet_scores: Dict[str, List[float]], section_scores: Dict[str, List[float]]):
@@ -106,25 +97,110 @@ def generate_bleu_leaflet_comparison_plot(best_translation_report: Dict[str, Any
     leaflets = list(best_translation_report['avg_leaflet_scores'].keys())
     best_scores = [best_translation_report['avg_leaflet_scores'][leaflet] for leaflet in leaflets]
 
-    plt.figure(figsize=(15, 8))
-    bar_width = 0.35
+    fig, ax = plt.subplots(figsize=(15, 8))
+    bar_width = 0.6
     index = np.arange(len(leaflets))
 
-    best_bars = plt.bar(index, best_scores, bar_width, label='Best Translation', alpha=0.8)
+    # Define colors for bars above and below threshold
+    above_color = '#5E48C0'     # Dark purple
+    below_color = '#8D71D2'     # Light purple
+    threshold = 0.6
+
+    # Create custom colormap for background
+    colors = ['red', 'yellow', 'green']
+    n_bins = 100
+    cmap = LinearSegmentedColormap.from_list('custom', colors, N=n_bins)
+
+    # # Create vertical background color scale with 20% opacity and inverted colors
+    # background = ax.imshow([[1 - i/n_bins] for i in range(n_bins)], cmap=cmap, aspect='auto', 
+    #                        extent=[-0.5, len(leaflets)-0.5, 0, 0.8], alpha=0.1)
+
+    # Create bars with colors based on threshold, centered on tick marks
+    best_bars = ax.bar(index, best_scores, bar_width, 
+                       color=[above_color if score >= threshold else below_color for score in best_scores],
+                       alpha=0.8)
 
     add_bar_labels(best_bars)
 
-    plt.xlabel('Leaflet ID')
-    plt.ylabel('Average BLEU Score')
-    plt.title(f'BLEU Score Comparison by Leaflet with length threshold of {len_threshold}')
-    plt.xticks(index + bar_width/2, leaflets, rotation=45)
-    plt.legend()
+    ax.set_xlabel('Leaflet ID')
+    ax.set_ylabel('Average BLEU Score')
+    ax.set_title('BLEU Score Comparison by Leaflet')
+    ax.set_xticks(index)
+    ax.set_xticklabels(leaflets, rotation=45, ha='right')
     
-    plt.ylim(0, 0.8)
+    ax.set_ylim(0, 0.8)
     
+    # Add threshold line
+    ax.axhline(y=threshold, color='black', linestyle='--', label=f'Threshold ({threshold})', )
+    
+    # Create legend
+    ax.legend([plt.Rectangle((0,0),1,1,fc=above_color, alpha=0.8),
+               plt.Rectangle((0,0),1,1,fc=below_color, alpha=0.8),
+               plt.Line2D([0], [0], color='black', linestyle='--')],
+              ['Above Threshold', 'Below Threshold', f'Threshold ({threshold})'])
+    
+    # Add color scale
+    cbar = fig.colorbar(plt.cm.ScalarMappable(cmap=cmap), ax=ax, orientation='vertical', aspect=30, pad=0.02)
+    cbar.set_label('BLEU Score Scale')
+    cbar.set_ticks([0, 0.25, 0.5, 0.75, 1])
+    cbar.set_ticklabels(['0', '20', '40', '60', '≥80'])
+
     plt.tight_layout()
 
     output_path = save_plot('bleu_leaflets_scores')
+    print(f"Plot saved successfully: {output_path}")
+
+def generate_bleu_section_comparison_plot(best_translation_report: Dict[str, Any]):
+    sections = list(best_translation_report['avg_section_scores'].keys())
+    best_scores = [best_translation_report['avg_section_scores'][section] for section in sections]
+
+    fig, ax = plt.subplots(figsize=(15, 8))
+    bar_width = 0.6
+    index = np.arange(len(sections))
+
+    # Define colors for bars above and below threshold
+    above_color = '#5E48C0'     # Dark purple
+    below_color = '#8D71D2'     # Light purple
+    threshold = 0.6
+
+    # Create custom colormap for background
+    colors = ['red', 'yellow', 'green']
+    n_bins = 100
+    cmap = LinearSegmentedColormap.from_list('custom', colors, N=n_bins)
+
+    # Create bars with colors based on threshold, centered on tick marks
+    best_bars = ax.bar(index, best_scores, bar_width, 
+                       color=[above_color if score >= threshold else below_color for score in best_scores],
+                       alpha=0.8)
+
+    add_bar_labels(best_bars)
+
+    ax.set_xlabel('Section Number')
+    ax.set_ylabel('Average BLEU Score')
+    ax.set_title('BLEU Score Comparison by Section')
+    ax.set_xticks(index)
+    ax.set_xticklabels(sections, rotation=45, ha='right')
+    
+    ax.set_ylim(0, 0.8)
+    
+    # Add threshold line
+    ax.axhline(y=threshold, color='black', linestyle='--', label=f'Threshold ({threshold})')
+    
+    # Create legend
+    ax.legend([plt.Rectangle((0,0),1,1,fc=above_color, alpha=0.8),
+               plt.Rectangle((0,0),1,1,fc=below_color, alpha=0.8),
+               plt.Line2D([0], [0], color='black', linestyle='--')],
+              ['Above Threshold', 'Below Threshold', f'Threshold ({threshold})'])
+    
+    # Add color scale
+    cbar = fig.colorbar(plt.cm.ScalarMappable(cmap=cmap), ax=ax, orientation='vertical', aspect=30, pad=0.02)
+    cbar.set_label('BLEU Score Scale')
+    cbar.set_ticks([0, 0.25, 0.5, 0.75, 1])
+    cbar.set_ticklabels(['0', '20', '40', '60', '≥80'])
+
+    plt.tight_layout()
+
+    output_path = save_plot('bleu_sections_scores')
     print(f"Plot saved successfully: {output_path}")
 
 def add_bar_labels(bars):
