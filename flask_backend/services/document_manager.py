@@ -1,7 +1,6 @@
 from io import BytesIO
 from docx import Document
 from docx.shared import Pt, RGBColor
-from docx.enum.style import WD_STYLE_TYPE
 from htmldocx import HtmlToDocx
 from utils.logger import logger
 from utils.singleton_meta import SingletonMeta
