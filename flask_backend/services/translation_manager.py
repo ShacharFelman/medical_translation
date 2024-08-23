@@ -1,5 +1,7 @@
 import asyncio
 import os
+import copy
+from datetime import datetime
 from typing import List, Optional
 from utils.singleton_meta import SingletonMeta
 from utils.logger import logger
@@ -12,7 +14,8 @@ from data.entities import TranslationEntity, TranslationRecordEntity, Evaluation
 from data.boundaries import TranslationRequest, TranslationResponse
 from data.data_conversions import translation_entity_to_response
 from services.translation.base_translation_handler import BaseTranslationHandler
-from datetime import datetime
+from services.translation.prompt_templates import translation_parser
+
 
 
 class TranslationManager(metaclass=SingletonMeta):
@@ -58,6 +61,7 @@ class TranslationManager(metaclass=SingletonMeta):
                         translations=[failed_translation],
                         best_translation=None
                     )
+                    
                     self._save_translation_to_db(translation_record)
                     
                     raise InvalidUserInputError("Invalid Input")
@@ -149,10 +153,24 @@ class TranslationManager(metaclass=SingletonMeta):
         for translation, score in zip(successful_translations, similarity_scores):
             translation.score = float(score)
 
+
+    def _format_translation_record_for_db(self, translation_record: TranslationRecordEntity):
+        translation_record_to_save = copy.deepcopy(translation_record)
+
+        for t in translation_record_to_save.translations:
+            t.translated_text = translation_parser.remove_html_tags(t.translated_text)
+        
+        translation_record_to_save.best_translation.translated_text = translation_parser.remove_html_tags(translation_record_to_save.best_translation.translated_text)
+        
+        translation_record_to_save.input = translation_parser.remove_html_tags(translation_record_to_save.input)
+        
+        return translation_record_to_save
+
     def _save_translation_to_db(self, translation_record: TranslationRecordEntity):
         try:
             translation_record.timestamp = datetime.now()
-            result = self.mongo_client.insert_translation_performance(translation_record)
+            translation_record_to_save = self._format_translation_record_for_db(translation_record)
+            result = self.mongo_client.insert_translation_performance(translation_record_to_save)
             logger.info(f"Translation saved to MongoDB with ID: {result}")
         except Exception as e:
             logger.error(f"Failed to save translation to MongoDB: {str(e)}")

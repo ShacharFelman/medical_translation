@@ -27,7 +27,10 @@ Provide a response without any additional information or comments besides the pr
 translation_prompt = ChatPromptTemplate.from_messages([("system", translation_prompt_template), ("user", "<heb_text>{text_input}</heb_text>")])
 
 class TranslationParser:
-    def parse(self, text):
+    def parse(self, text) -> str:
+        if text is None:
+            return ""
+        
         # Strip leading and trailing whitespace from the input text
         text = text.strip()
         
@@ -44,5 +47,56 @@ class TranslationParser:
             "translated_text": text,
             "status": "[TRANSLATION SUCCESSFUL]"
         }
+    
+    def remove_html_tags(self, text) -> str:
+        if text is None:
+            return ""
+
+        # Define replacements for whitespace-related entities
+        whitespace_entities = {
+            '&nbsp;': ' ',
+            '&ensp;': ' ',
+            '&emsp;': '    ',
+            '&thinsp;': ' ',
+            '&tab;': '\t',
+            '&#9;': '\t',  # Tab character
+            '&#10;': '\n',  # Line feed
+            '&#13;': '\r',  # Carriage return
+        }
+
+        # Replace whitespace-related entities
+        for entity, replacement in whitespace_entities.items():
+            text = text.replace(entity, replacement)
+            text = text.replace(entity.upper(), replacement)  # Handle uppercase variants
+
+        # Function to add newline after block-level elements
+        def add_newline_after_tag(match):
+            return match.group(1) + '\n'
+
+        # List of block-level HTML elements that should have a newline after them
+        block_tags = ['div', 'p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'li', 'tr', 'th', 'td', 
+                      'section', 'article', 'header', 'footer', 'nav', 'aside', 'blockquote', 
+                      'address', 'pre', 'figure', 'figcaption', 'ol', 'ul', 'dl', 'dt', 'dd']
+
+        # Process block-level elements
+        for tag in block_tags:
+            text = re.sub(f'<{tag}[^>]*>(.*?)</{tag}>', add_newline_after_tag, text, flags=re.DOTALL | re.IGNORECASE)
+
+        # Handle self-closing tags that create line breaks
+        text = re.sub(r'<(br|hr)[^>]*/?>', '\n', text, flags=re.IGNORECASE)
+
+        # Remove all remaining HTML tags
+        text = re.sub('<[^<]+?>', '', text)
+
+        # Replace multiple spaces with a single space
+        text = re.sub(r' +', ' ', text)
+
+        # Replace multiple newlines with a maximum of two newlines
+        text = re.sub(r'\n{3,}', '\n\n', text)
+
+        # Strip leading and trailing whitespace
+        text = text.strip()
+
+        return text
 
 translation_parser = TranslationParser()
