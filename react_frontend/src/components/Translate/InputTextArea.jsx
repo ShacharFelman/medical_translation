@@ -9,12 +9,9 @@ export default function InputTextArea({inputText, onChange, onClickTranslate, is
   const modules = {
     toolbar: [
       [{ 'header': [1, 2, 3, false] }],
-      // [{ 'font': [] }],
       ['bold', 'italic', 'underline'],
       [{'list': 'ordered'}, {'list': 'bullet'}],
       [{ 'align': [] }],
-      // [{ 'direction': 'rtl' }],
-      // ['link', 'image'],
     ]
   };
 
