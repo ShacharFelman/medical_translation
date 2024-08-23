@@ -12,6 +12,7 @@ from data.entities import TranslationEntity, TranslationRecordEntity, Evaluation
 from data.boundaries import TranslationRequest, TranslationResponse
 from data.data_conversions import translation_entity_to_response
 from services.translation.base_translation_handler import BaseTranslationHandler
+from datetime import datetime
 
 
 class TranslationManager(metaclass=SingletonMeta):
@@ -150,6 +151,7 @@ class TranslationManager(metaclass=SingletonMeta):
 
     def _save_translation_to_db(self, translation_record: TranslationRecordEntity):
         try:
+            translation_record.timestamp = datetime.now()
             result = self.mongo_client.insert_translation_performance(translation_record)
             logger.info(f"Translation saved to MongoDB with ID: {result}")
         except Exception as e:
