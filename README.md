@@ -20,7 +20,7 @@ MediTranslateAI is an advanced medical translation application designed to accur
 ## Installation and Setup
 
 1. Set up environment variables:
-   - Copy `.env.example` to `.env.development` and `.env.test`
+   - Copy `.example.env` files to `.env.development` and `.env.test`
    - Fill in the required API keys and configuration values
 
 2. Start the development environment:
