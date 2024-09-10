@@ -20,7 +20,7 @@ Do not translate HTML tags and translate the texts inside each tag while keeping
 For example, if I give you the following paragraph:
 <heb_text> אקמול היא <b>תרופה</b> לצינון. </heb_text>
 Then your response will be:
-<eng_text> Acamol is a <b>medication</b> for the common cold. </eng_text> {translation_success_string}
+<eng_text> Acamol is a <b>medicine</b> for the common cold. </eng_text> {translation_success_string}
 Provide a response without any additional information or comments besides the previously stated phrase and annotations.
 '''
 
